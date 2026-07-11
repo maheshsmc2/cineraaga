@@ -17,7 +17,7 @@
 
 const NAVRAS_CONFIG = {
   // Your TMDb API key — change here only
-  TMDB_KEY: '8d1f8757e50b58da6831c4d97093eea0',
+  TMDB_KEY: 'e6f2c112dbd730d582791a9b5c6e5712',
 
   // TMDb endpoints (don't change these)
   TMDB_BASE: 'https://api.themoviedb.org/3',
