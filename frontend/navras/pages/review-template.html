@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  ============================================================
+  NAVRAS — NEW RELEASE REVIEW TEMPLATE
+  ============================================================
+  HOW TO USE:
+  1. Save a copy of this file with the film name
+     Example: saiyaara-review.html
+             stree2-review.html
+             pushpa2-review.html
+
+  2. Search for "CHANGE THIS" in the file
+     Replace every marked item with your content
+
+  3. Upload the new file to pages/ folder on GitHub
+     It goes live automatically at:
+     navras.vercel.app/pages/your-filename.html
+
+  4. Link to it from the homepage or lists page
+
+  TAKES: 20-30 minutes per review
+  ============================================================
+-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CHANGE THIS: Page title for Google -->
+  <title>Saiyaara Review — Navras 72/100 | Indian Cinema</title>
+
+  <!-- CHANGE THIS: Description for Google (150-160 characters) -->
+  <meta name="description" content="Saiyaara review — Navras score 72/100. Ahaan Panday announces himself in this romantic drama. Worth watching on OTT." />
+
+  <!-- CHANGE THIS: Both og: tags for social sharing -->
+  <meta property="og:title" content="Saiyaara Review — Navras 72/100" />
+  <meta property="og:description" content="Ahaan Panday announces himself in this romantic drama. Mixed but watchable." />
+  <meta property="og:type" content="article" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/article.css" />
+  <link rel="stylesheet" href="../css/review.css" />
+</head>
+<body>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">
+      <div class="logo-mark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold)"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 7h5M17 17h5"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">Navras</div>
+        <div class="logo-sub">Cinema · Music · Art</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="browse.html" class="nav-link">Browse</a>
+      <a href="mood.html" class="nav-link">Mood Search</a>
+      <a href="lists.html" class="nav-link">Lists</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+        <span class="toggle-icon" id="toggleIcon">🌙</span>
+        <span class="toggle-label" id="toggleLabel">Dark</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="review-wrap">
+    <main class="review-main">
+
+      <!-- Breadcrumb -->
+      <div class="article-breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>›</span>
+        <a href="browse.html">Reviews</a>
+        <span>›</span>
+        <!-- CHANGE THIS: Film name -->
+        <span>Saiyaara</span>
+      </div>
+
+      <!-- REVIEW HEADER -->
+      <div class="rv-header">
+
+        <!-- CHANGE THIS: TMDb movie ID (find at themoviedb.org) -->
+        <!-- Poster loads automatically from TMDb using the ID below -->
+        <div class="rv-poster" id="rvPoster" data-tmdb-id="1356901">
+          <div class="rv-poster-placeholder">🎬</div>
+          <div class="rv-score-badge green" id="rvScoreBadge">
+            <!-- CHANGE THIS: Your Navras score (0-100) -->
+            72
+            <span>NAVRAS</span>
+          </div>
+        </div>
+
+        <div class="rv-header-info">
+
+          <!-- CHANGE THIS: Category tags -->
+          <div class="article-category">
+            <span class="article-cat-tag">Hindi Cinema</span>
+            <span class="article-cat-tag">2025</span>
+            <span class="article-cat-tag">Romance</span>
+          </div>
+
+          <!-- CHANGE THIS: Film title -->
+          <h1 class="rv-title">Saiyaara</h1>
+
+          <!-- CHANGE THIS: Director · Year · Language · Duration -->
+          <div class="rv-meta-row">
+            <span class="rv-meta-item">Mohit Suri</span>
+            <span class="rv-meta-dot">·</span>
+            <span class="rv-meta-item">2025</span>
+            <span class="rv-meta-dot">·</span>
+            <span class="rv-meta-item">Hindi</span>
+            <span class="rv-meta-dot">·</span>
+            <span class="rv-meta-item">2h 28m</span>
+          </div>
+
+          <!-- CHANGE THIS: Rasa tags (pick 1-3 from the nine rasas) -->
+          <div class="rv-rasas">
+            <span class="rtag">Shringara</span>
+            <span class="rtag">Karuna</span>
+          </div>
+
+          <!-- NAVRAS VERDICT — THE MOST IMPORTANT PART -->
+          <!-- CHANGE THIS: One sentence. Maximum 15 words. Be honest and crisp. -->
+          <div class="rv-verdict">
+            "Ahaan Panday announces himself, but the film struggles to match his energy."
+          </div>
+
+          <!-- CHANGE THIS: Exactly three words that describe the film -->
+          <div class="rv-three-words">
+            <span class="rv-word">Emotional</span>
+            <span class="rv-word">Uneven</span>
+            <span class="rv-word">Watchable</span>
+          </div>
+
+          <!-- Score breakdown -->
+          <div class="rv-scores-row">
+            <div class="rv-navras-score green">
+              <!-- CHANGE THIS: Same score as above -->
+              <div class="rv-score-num">72</div>
+              <div class="rv-score-label">Navras /100</div>
+            </div>
+            <!-- CHANGE THIS: External scores (find on IMDb and RT) -->
+            <div class="rv-ext-score">
+              <div class="rv-ext-num">6.4</div>
+              <div class="rv-ext-label">IMDb</div>
+            </div>
+            <div class="rv-ext-score">
+              <div class="rv-ext-num">68%</div>
+              <div class="rv-ext-label">RT</div>
+            </div>
+          </div>
+
+          <!-- CHANGE THIS: Where to watch -->
+          <div class="rv-watch-row">
+            <span class="rv-watch-label">Watch on:</span>
+            <!-- Options: theatre / netflix / prime / hotstar / sony / zee5 / free -->
+            <span class="afe-watch-badge ott">Prime Video</span>
+            <!-- Add or remove badges as needed -->
+          </div>
+
+          <div class="rv-share-row">
+            <div class="rv-author">
+              <div class="author-avatar">N</div>
+              <div class="author-info">
+                <div class="author-name">Navras Editorial</div>
+                <!-- CHANGE THIS: Publish date -->
+                <div class="author-date">June 2025</div>
+              </div>
+            </div>
+            <button class="share-btn" onclick="shareArticle()">Share ↗</button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- DESI SCORE BREAKDOWN -->
+      <div class="rv-desi-score">
+        <div class="rv-desi-title">Desi Score breakdown</div>
+        <div class="rv-desi-bars">
+
+          <!-- CHANGE THIS: Score each dimension 1-10 -->
+          <div class="rv-desi-row">
+            <div class="rv-desi-label">Cultural resonance</div>
+            <div class="rv-desi-bar"><div class="rv-desi-fill" style="width:70%"></div></div>
+            <!-- CHANGE THIS: Score /10 -->
+            <div class="rv-desi-val">7</div>
+          </div>
+
+          <div class="rv-desi-row">
+            <div class="rv-desi-label">Music & songs</div>
+            <div class="rv-desi-bar"><div class="rv-desi-fill gold" style="width:90%"></div></div>
+            <div class="rv-desi-val">9</div>
+          </div>
+
+          <div class="rv-desi-row">
+            <div class="rv-desi-label">Performances</div>
+            <div class="rv-desi-bar"><div class="rv-desi-fill" style="width:75%"></div></div>
+            <div class="rv-desi-val">7.5</div>
+          </div>
+
+          <div class="rv-desi-row">
+            <div class="rv-desi-label">Rewatch value</div>
+            <div class="rv-desi-bar"><div class="rv-desi-fill" style="width:60%"></div></div>
+            <div class="rv-desi-val">6</div>
+          </div>
+
+          <div class="rv-desi-row">
+            <div class="rv-desi-label">Family viewability</div>
+            <div class="rv-desi-bar"><div class="rv-desi-fill" style="width:80%"></div></div>
+            <div class="rv-desi-val">8</div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- THE NAVRAS TAKE — short and crisp -->
+      <!-- CHANGE THIS: 3-5 short paragraphs. No long paragraphs. -->
+      <!-- Each paragraph = one clear point about the film -->
+      <div class="rv-body">
+
+        <p class="rv-para">
+          <!-- CHANGE THIS: Opening line — hook the reader -->
+          Saiyaara arrives as one of the most anticipated romantic films of 2025, and largely delivers on its promise — though not without stumbling along the way.
+        </p>
+
+        <p class="rv-para">
+          <!-- CHANGE THIS: The good — what works -->
+          Ahaan Panday is the real discovery here. Raw, magnetic, and surprisingly restrained for a debut, he commands the screen in a way few first-timers manage. The music, predictably for a Mohit Suri film, is the backbone — and it works.
+        </p>
+
+        <p class="rv-para">
+          <!-- CHANGE THIS: The problem — what doesn't work -->
+          Where the film struggles is in its second half, which drags considerably and leans on familiar romantic drama tropes without subverting them. The screenplay needed one more draft.
+        </p>
+
+        <p class="rv-para">
+          <!-- CHANGE THIS: Final verdict — who should watch it -->
+          If you love the genre and have a soft spot for big emotional moments and great songs, Saiyaara is worth your time on OTT. For the big screen, it's a maybe.
+        </p>
+
+      </div>
+
+      <!-- WATCH OR SKIP -->
+      <div class="rv-verdict-box">
+        <div class="rv-verdict-box-title">Navras says</div>
+        <div class="rv-verdict-options">
+          <!-- CHANGE THIS: Tick the right options, cross the wrong ones -->
+          <div class="rv-verdict-opt yes">✓ Watch on OTT</div>
+          <div class="rv-verdict-opt no">✗ Skip in theatres</div>
+          <div class="rv-verdict-opt yes">✓ Good for family</div>
+        </div>
+      </div>
+
+      <!-- MOOD SEARCH CTA -->
+      <div class="article-cta">
+        <div class="article-cta-text">
+          <!-- CHANGE THIS: Match the rasa to the film's mood -->
+          <div class="article-cta-title">Want more Shringara films?</div>
+          <div class="article-cta-sub">Find films by how you want to feel — using Navras mood search.</div>
+        </div>
+        <!-- CHANGE THIS: Update the rasa in the link -->
+        <a href="mood.html?rasa=shringara" class="article-cta-btn">Try mood search →</a>
+      </div>
+
+      <!-- RELATED REVIEWS -->
+      <div class="related-articles">
+        <div class="related-title">More reviews</div>
+        <div class="related-grid">
+          <!-- CHANGE THIS: Link to 3 related reviews or articles -->
+          <a href="article.html" class="related-card">
+            <div class="related-card-tag">Hindi · 2025</div>
+            <div class="related-card-title">Dhurandhar: The Revenge Review</div>
+            <div class="related-card-count">Navras 78/100</div>
+          </a>
+          <a href="article.html" class="related-card">
+            <div class="related-card-tag">Telugu · 2024</div>
+            <div class="related-card-title">Kalki 2898-AD Review</div>
+            <div class="related-card-count">Navras 74/100</div>
+          </a>
+          <a href="article.html" class="related-card">
+            <div class="related-card-tag">Hindi · 2025</div>
+            <div class="related-card-title">Best Hindi Films of 2025</div>
+            <div class="related-card-count">15 films ranked</div>
+          </a>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="article-sidebar">
+
+      <div class="sidebar-widget">
+        <div class="sw-title">Navras score guide</div>
+        <div class="sw-score-guide">
+          <div class="sg-row"><div class="sg-box green">85+</div><span>Must watch</span></div>
+          <div class="sg-row"><div class="sg-box amber">70+</div><span>Worth watching</span></div>
+          <div class="sg-row"><div class="sg-box red">Below 70</div><span>Mixed — your call</span></div>
+        </div>
+      </div>
+
+      <!-- CHANGE THIS: Trending films in same language/genre -->
+      <div class="sidebar-widget">
+        <div class="sw-title">More Hindi romance</div>
+        <div class="sw-links">
+          <a href="article.html" class="sw-link">Dilwale Dulhania Le Jayenge →</a>
+          <a href="article.html" class="sw-link">Jab We Met →</a>
+          <a href="article.html" class="sw-link">Tamasha →</a>
+          <a href="article.html" class="sw-link">Rockstar →</a>
+        </div>
+      </div>
+
+      <div class="sidebar-widget">
+        <div class="sw-title">Browse by mood</div>
+        <div class="sw-rasas">
+          <a href="mood.html" class="sw-rasa">♡ Shringara</a>
+          <a href="mood.html" class="sw-rasa">◇ Karuna</a>
+          <a href="mood.html" class="sw-rasa">☺ Hasya</a>
+          <a href="mood.html" class="sw-rasa">◈ Veera</a>
+        </div>
+      </div>
+
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Navras</div>
+        <div class="footer-tagline">All art forms. All languages. All emotions.</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Navras. Built with love for Indian cinema.</span>
+      <span>Privacy · Terms</span>
+    </div>
+  </footer>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/tmdb.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    // Auto-load poster from TMDb
+    document.addEventListener('DOMContentLoaded', () => {
+      const posterEl = document.getElementById('rvPoster');
+      const tmdbId = posterEl?.dataset.tmdbId;
+      if (!tmdbId) return;
+      TMDB.get(`/movie/${tmdbId}`, {}).then(data => {
+        if (data?.poster_path) {
+          const img = document.createElement('img');
+          img.src = TMDB.poster(data.poster_path, 'w342');
+          img.alt = document.querySelector('.rv-title')?.textContent || 'Film poster';
+          img.style.cssText = 'width:100%;height:100%;object-fit:cover;border-radius:10px;';
+          posterEl.querySelector('.rv-poster-placeholder').replaceWith(img);
+        }
+      });
+    });
+
+    function shareArticle() {
+      if (navigator.share) {
+        navigator.share({ title: document.title, url: window.location.href });
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert('Link copied!');
+      }
+    }
+  </script>
+</body>
+</html>

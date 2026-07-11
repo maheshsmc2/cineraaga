@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navras — Indian Cinema, Rated by Emotion</title>
+  <meta name="description" content="The definitive Indian film review site. Scores, verdicts and mood ratings for every Indian film across every language." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+</head>
+<body>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold)"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 7h5M17 17h5"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">Navras</div>
+        <div class="logo-sub">Cinema · Music · Art</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="pages/browse.html" class="nav-link">Browse</a>
+      <a href="pages/mood.html" class="nav-link">Mood Search</a>
+      <a href="pages/lists.html" class="nav-link">Lists</a>
+    </div>
+    <div class="nav-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active">EN</button>
+        <button class="lang-btn">हि</button>
+        <button class="lang-btn">த</button>
+        <button class="lang-btn">తె</button>
+        <button class="lang-btn">বা</button>
+      </div>
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+        <span class="toggle-icon" id="toggleIcon">🌙</span>
+        <span class="toggle-label" id="toggleLabel">Dark</span>
+      </button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html" class="mobile-link active">Home</a>
+    <a href="pages/browse.html" class="mobile-link">Browse</a>
+    <a href="pages/mood.html" class="mobile-link">Mood Search</a>
+    <a href="pages/lists.html" class="mobile-link">Lists</a>
+  </div>
+
+  <!-- TOP TABS — Movies / TV Shows / News -->
+  <div class="top-tabs-bar">
+    <button class="top-tab active" data-tab="movies">Movies</button>
+    <button class="top-tab" data-tab="tv">TV Shows & Series</button>
+    <button class="top-tab" data-tab="news">News</button>
+  </div>
+
+
+  <!-- EDITORIAL STRIP -->
+  <div class="editorial-strip">
+    <!-- LEFT: Featured big story -->
+    <div class="editorial-featured" id="editorialFeatured">
+      <div class="ef-img-wrap">
+        <div class="ef-img" id="efImg"></div>
+        <div class="ef-overlay"></div>
+        <div class="ef-content">
+          <div class="ef-category" id="efCategory">Featured</div>
+          <div class="ef-title" id="efTitle">Loading...</div>
+          <div class="ef-meta" id="efMeta"></div>
+        </div>
+      </div>
+    </div>
+    <!-- RIGHT: Scrolling story cards -->
+    <div class="editorial-stories">
+      <div class="es-header">
+        <div class="es-title">Trending on Navras</div>
+      </div>
+      <div class="es-list" id="esList"></div>
+    </div>
+  </div>
+
+  <!-- COMPACT SEARCH -->
+  <div class="home-search-compact">
+    <div class="home-searchbar-compact">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="heroSearch" placeholder="Search any film, director or actor..." autocomplete="off" />
+      <a href="pages/browse.html" class="search-browse-btn-compact">Browse all →</a>
+    </div>
+  </div>
+
+
+
+    <!-- MOVIES TAB CONTENT -->
+  <div id="tab-movies">
+
+    <!-- REVIEWS MEGA SECTION — unified -->
+    <section class="reviews-mega-section">
+
+      <div class="rms-header">
+        <div class="rms-title"><span class="live-dot"></span>Reviews</div>
+        <a href="pages/browse.html" class="home-see-all">See all →</a>
+      </div>
+
+      <!-- IN CINEMAS NOW -->
+      <div class="rms-sub-section">
+        <div class="rms-sub-head">
+          <span class="live-dot" style="width:6px;height:6px;"></span>
+          <span class="rms-sub-title">In cinemas now</span>
+          <a href="pages/browse.html" class="rms-sub-link">See all →</a>
+        </div>
+        <div class="cinemas-grid" id="cinemasGrid">
+          <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+          <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+          <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+        </div>
+      </div>
+
+      <div class="rms-divider"></div>
+
+      <!-- NEW ON OTT — poster cards like cinemas -->
+      <div class="rms-sub-section">
+        <div class="rms-sub-head">
+          <span class="rms-sub-title">New on OTT</span>
+          <div class="ott-platform-tabs" id="ottPosterTabs">
+            <button class="ott-tab active" data-ottposter="netflix">Netflix</button>
+            <button class="ott-tab" data-ottposter="prime">Prime Video</button>
+            <button class="ott-tab" data-ottposter="hotstar">Hotstar</button>
+            <button class="ott-tab" data-ottposter="sony">SonyLIV</button>
+            <button class="ott-tab" data-ottposter="zee5">ZEE5</button>
+          </div>
+          <a href="pages/browse.html" class="rms-sub-link">See all →</a>
+        </div>
+        <div class="cinemas-grid" id="ottPosterGrid">
+          <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+          <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+          <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+        </div>
+      </div>
+
+      <div class="rms-divider"></div>
+
+      <!-- THREE TEXT LISTS: Coming Soon | OTT | Popular -->
+      <div class="bottom-three-row">
+
+        <!-- Coming soon -->
+        <div class="btrow-col">
+          <div class="prt-tab-group">
+            <span class="prt-label">Coming soon</span>
+            <a href="pages/browse.html" class="prt-viewall">See all →</a>
+          </div>
+          <div class="prt-list" id="comingGrid">
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div>
+          </div>
+        </div>
+
+        <!-- Coming soon on OTT text list -->
+        <div class="btrow-col">
+          <div class="prt-tab-group">
+            <span class="prt-label">Coming soon on OTT</span>
+            <a href="pages/browse.html" class="prt-viewall">See all →</a>
+          </div>
+          <div class="prt-list" id="ottComingList">
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div>
+          </div>
+        </div>
+
+        <!-- Popular right now -->
+        <div class="btrow-col">
+          <div class="prt-tab-group">
+            <span class="prt-label">Popular right now</span>
+            <a href="pages/browse.html" class="prt-viewall">See all →</a>
+          </div>
+          <div class="prt-col-tabs">
+            <button class="prt-platform active" data-prt="movies">Movies</button>
+            <button class="prt-platform" data-prt="tv">TV</button>
+          </div>
+          <div class="prt-list" id="popularMoviesList">
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div>
+          </div>
+          <div class="prt-list" id="popularTVList" style="display:none;">
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div><div class="prt-skeleton"></div>
+            <div class="prt-skeleton"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- TV SHOWS TAB CONTENT -->
+  <div id="tab-tv" style="display:none;">
+    <section class="home-section">
+      <div class="home-section-head">
+        <div class="home-section-title"><span class="live-dot"></span>Popular series right now</div>
+        <a href="pages/browse.html" class="home-see-all">See all →</a>
+      </div>
+      <div class="cinemas-grid" id="tvGrid">
+        <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+        <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+        <div class="poster-skeleton"></div><div class="poster-skeleton"></div>
+      </div>
+    </section>
+    <section class="home-section">
+      <div class="home-section-head">
+        <div class="home-section-title">Top rated Indian series</div>
+      </div>
+      <div class="reviews-list" id="tvReviewsList">
+        <div class="review-skeleton"></div><div class="review-skeleton"></div>
+        <div class="review-skeleton"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- NEWS TAB CONTENT -->
+  <div id="tab-news" style="display:none;">
+    <section class="home-section">
+      <div class="home-section-title" style="margin-bottom:20px;">Latest from Indian cinema</div>
+      <div class="news-grid" id="newsGrid">
+        <div class="news-card"><div class="news-thumb-skeleton"></div><div class="news-info"><div class="news-cat">Box Office</div><div class="news-title">Pushpa 2 crosses ₹1800 crore worldwide — becomes highest grossing Indian film ever</div><div class="news-meta">Navras · 2 days ago</div></div></div>
+        <div class="news-card"><div class="news-thumb-skeleton"></div><div class="news-info"><div class="news-cat">Awards</div><div class="news-title">All We Imagine as Light wins Grand Prix at Cannes 2024 — India's greatest triumph at the festival</div><div class="news-meta">Navras · 1 week ago</div></div></div>
+        <div class="news-card"><div class="news-thumb-skeleton"></div><div class="news-info"><div class="news-cat">Release</div><div class="news-title">Kantara Chapter 1 release date confirmed — Rishab Shetty speaks about the sequel</div><div class="news-meta">Navras · 3 days ago</div></div></div>
+        <div class="news-card"><div class="news-thumb-skeleton"></div><div class="news-info"><div class="news-cat">Review</div><div class="news-title">Saiyaara review — Ahaan Panday announces himself in the most-searched film of 2025</div><div class="news-meta">Navras · 5 days ago</div></div></div>
+        <div class="news-card"><div class="news-thumb-skeleton"></div><div class="news-info"><div class="news-cat">OTT</div><div class="news-title">The Family Man Season 3 — everything we know about the release date and cast</div><div class="news-meta">Navras · 1 week ago</div></div></div>
+        <div class="news-card"><div class="news-thumb-skeleton"></div><div class="news-info"><div class="news-cat">Industry</div><div class="news-title">Malayalam cinema box office 2025 — how Kerala is redefining Indian film</div><div class="news-meta">Navras · 4 days ago</div></div></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- EXPLORER ZONE -->
+  <div class="explorer-divider">
+    <span>For explorers — discover more</span>
+  </div>
+
+  <!-- NAVRAS MOOD SEARCH -->
+  <section class="home-section navras-section">
+    <div class="navras-section-top">
+      <div class="navras-section-top-left">
+        <div class="navras-label">Navras — Mood Search</div>
+        <div class="navras-title" style="font-size:18px;margin-bottom:4px;">Find a film by how you want to <em>feel</em></div>
+        <div class="navras-sub" style="font-size:12px;margin-bottom:0;">Pick your rasa — the ancient art of emotion</div>
+      </div>
+      <a href="pages/mood.html" class="navras-cta">Explore all →</a>
+    </div>
+    <div class="navras-face-grid-mini">
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Shringara — Love">
+        <img src="images/rasas/shringara.png" class="rasa-mini-svg" alt="Shringara" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Shringara</div><div class="rml-mean">Love</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Hasya — Joy">
+        <img src="images/rasas/hasya.png" class="rasa-mini-svg" alt="Hasya" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Hasya</div><div class="rml-mean">Joy</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Karuna — Sorrow">
+        <img src="images/rasas/karuna.png" class="rasa-mini-svg" alt="Karuna" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Karuna</div><div class="rml-mean">Sorrow</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Veera — Courage">
+        <img src="images/rasas/veera.png" class="rasa-mini-svg" alt="Veera" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Veera</div><div class="rml-mean">Courage</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Bhayanaka — Fear">
+        <img src="images/rasas/bhayanaka.png" class="rasa-mini-svg" alt="Bhayanaka" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Bhayanaka</div><div class="rml-mean">Fear</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Adbhuta — Wonder">
+        <img src="images/rasas/adbhuta.png" class="rasa-mini-svg" alt="Adbhuta" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Adbhuta</div><div class="rml-mean">Wonder</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Raudra — Anger">
+        <img src="images/rasas/raudra.png" class="rasa-mini-svg" alt="Raudra" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Raudra</div><div class="rml-mean">Anger</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Shanta — Peace">
+        <img src="images/rasas/shanta.png" class="rasa-mini-svg" alt="Shanta" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Shanta</div><div class="rml-mean">Peace</div></div>
+      </a>
+
+      <a href="pages/mood.html" class="rasa-mini-card" title="Bibhatsa — Dark">
+        <img src="images/rasas/bibhatsa.png" class="rasa-mini-svg" alt="Bibhatsa" loading="lazy">
+        <div class="rasa-mini-label"><div class="rml-name">Bibhatsa</div><div class="rml-mean">Dark</div></div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- RANKER-STYLE LISTS + RANKINGS -->
+  <section class="explorer-lists-section">
+    <div class="home-section-head">
+      <div class="home-section-title">Navras ranked lists</div>
+      <a href="pages/lists.html" class="home-see-all">All lists →</a>
+    </div>
+
+    <!-- Category filter -->
+    <div class="explorer-filter-tabs" id="explorerFilterTabs">
+      <button class="eft-btn active" data-filter="all">All</button>
+      <button class="eft-btn" data-filter="alltime">All time greats</button>
+      <button class="eft-btn" data-filter="language">By language</button>
+      <button class="eft-btn" data-filter="ott">OTT picks</button>
+      <button class="eft-btn" data-filter="awards">Awards</button>
+      <button class="eft-btn" data-filter="genre">By genre</button>
+    </div>
+
+    <div class="explorer-lists-grid" id="explorerListsGrid">
+      <!-- Filled by JS with visual cards -->
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Navras</div>
+        <div class="footer-tagline">All art forms. All languages. All emotions.</div>
+      </div>
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <div class="footer-col-title">Discover</div>
+          <a href="pages/browse.html">Browse films</a>
+          <a href="#">TV Shows</a>
+          <a href="#">Music</a>
+          <a href="#">Awards</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Navras</div>
+          <a href="pages/mood.html">Mood search</a>
+          <a href="pages/lists.html">Lists</a>
+          <a href="#">Write a review</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Company</div>
+          <a href="#">About</a>
+          <a href="#">API</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Navras. Built with love for Indian cinema.</span>
+      <span>Privacy · Terms</span>
+    </div>
+  </footer>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <script src="js/config.js"></script>
+  <script src="js/tmdb.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

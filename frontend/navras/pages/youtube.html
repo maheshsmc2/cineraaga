@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Indian Cinema YouTube Channels — Navras</title>
+  <meta name="description" content="The best Indian cinema YouTube channels — film reviews, trailer reactions, box office analysis, industry news. Curated by Navras across all Indian languages." />
+  <meta property="og:title" content="Best Indian Cinema YouTube Channels — Navras" />
+  <meta property="og:description" content="Discover the best Indian film review, trailer reaction and cinema news channels on YouTube. Curated by Navras." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/youtube.css" />
+</head>
+<body>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">
+      <div class="logo-mark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--gold)"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 7h5M17 17h5"/></svg>
+      </div>
+      <div>
+        <div class="logo-text">Navras</div>
+        <div class="logo-sub">Cinema · Music · Art</div>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="browse.html" class="nav-link">Browse</a>
+      <a href="mood.html" class="nav-link">Mood Search</a>
+      <a href="lists.html" class="nav-link">Lists</a>
+      <a href="youtube.html" class="nav-link active">YouTube</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+        <span class="toggle-icon" id="toggleIcon">🌙</span>
+        <span class="toggle-label" id="toggleLabel">Dark</span>
+      </button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="../index.html" class="mobile-link">Home</a>
+    <a href="browse.html" class="mobile-link">Browse</a>
+    <a href="mood.html" class="mobile-link">Mood Search</a>
+    <a href="lists.html" class="mobile-link">Lists</a>
+    <a href="youtube.html" class="mobile-link active">YouTube</a>
+  </div>
+
+  <!-- PAGE HEADER -->
+  <div class="yt-page-header">
+    <div class="yt-header-inner">
+      <div class="yt-header-left">
+        <div class="yt-page-label">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="#FF0000"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Indian Cinema on YouTube
+        </div>
+        <h1 class="yt-page-title">Discover Indian Cinema Channels</h1>
+        <p class="yt-page-sub">The best film review, trailer reaction, box office and cinema news channels — across every Indian language. No ratings. Just discovery.</p>
+      </div>
+      <div class="yt-header-stats">
+        <div class="yt-stat">
+          <div class="yt-stat-num">48</div>
+          <div class="yt-stat-label">Channels listed</div>
+        </div>
+        <div class="yt-stat">
+          <div class="yt-stat-num">8</div>
+          <div class="yt-stat-label">Languages covered</div>
+        </div>
+        <div class="yt-stat">
+          <div class="yt-stat-num">12</div>
+          <div class="yt-stat-label">Emerging creators</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CATEGORY TABS -->
+  <div class="yt-category-bar">
+    <button class="yt-cat-btn active" data-cat="all">All channels</button>
+    <button class="yt-cat-btn" data-cat="reviews">Film Reviews</button>
+    <button class="yt-cat-btn" data-cat="trailers">Trailer Reactions</button>
+    <button class="yt-cat-btn" data-cat="boxoffice">Box Office</button>
+    <button class="yt-cat-btn" data-cat="news">Industry News</button>
+    <button class="yt-cat-btn" data-cat="regional">Regional Cinema</button>
+    <button class="yt-cat-btn" data-cat="interviews">Interviews</button>
+  </div>
+
+  <!-- LANGUAGE FILTER -->
+  <div class="yt-lang-bar">
+    <button class="yt-lang-btn active" data-lang="all">All</button>
+    <button class="yt-lang-btn" data-lang="hindi">Hindi</button>
+    <button class="yt-lang-btn" data-lang="tamil">Tamil</button>
+    <button class="yt-lang-btn" data-lang="telugu">Telugu</button>
+    <button class="yt-lang-btn" data-lang="malayalam">Malayalam</button>
+    <button class="yt-lang-btn" data-lang="kannada">Kannada</button>
+    <button class="yt-lang-btn" data-lang="bengali">Bengali</button>
+    <button class="yt-lang-btn" data-lang="multi">Multi-language</button>
+  </div>
+
+  <div class="yt-page-body">
+
+    <!-- MAIN CHANNELS GRID -->
+    <div class="yt-channels-grid" id="channelsGrid">
+      <!-- Populated by JS -->
+    </div>
+
+    <!-- EMERGING CREATORS — the partnership section -->
+    <div class="yt-emerging-section">
+      <div class="yt-emerging-header">
+        <div class="yt-emerging-title">
+          <span class="yt-emerging-icon">🌱</span>
+          Channels to Watch
+        </div>
+        <div class="yt-emerging-sub">Upcoming Indian cinema creators under 100K subscribers — curated by Navras. These are the voices worth discovering early.</div>
+      </div>
+
+      <div class="yt-emerging-note">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+        Are you an Indian cinema creator under 100K subscribers? <a href="mailto:hello@navras.app">Submit your channel for consideration →</a>
+      </div>
+
+      <div class="yt-emerging-grid" id="emergingGrid">
+        <!-- Populated by JS -->
+      </div>
+    </div>
+
+    <!-- SUGGEST A CHANNEL -->
+    <div class="yt-suggest-section">
+      <div class="yt-suggest-inner">
+        <div class="yt-suggest-text">
+          <div class="yt-suggest-title">Know a channel we should list?</div>
+          <div class="yt-suggest-sub">We update this directory monthly. If you know a great Indian cinema YouTube channel that belongs here — tell us.</div>
+        </div>
+        <a href="mailto:hello@navras.app?subject=Channel suggestion for Navras YouTube directory" class="yt-suggest-btn">Suggest a channel →</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Navras</div>
+        <div class="footer-tagline">All art forms. All languages. All emotions.</div>
+      </div>
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <div class="footer-col-title">Discover</div>
+          <a href="browse.html">Browse films</a>
+          <a href="mood.html">Mood search</a>
+          <a href="lists.html">Lists</a>
+          <a href="youtube.html">YouTube</a>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Company</div>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Navras. Built with love for Indian cinema.</span>
+      <span>Privacy · Terms</span>
+    </div>
+  </footer>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/youtube.js"></script>
+</body>
+</html>

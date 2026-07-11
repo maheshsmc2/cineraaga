@@ -1,0 +1,253 @@
+/* ===========================
+   NAVRAS — Review Page CSS
+   =========================== */
+
+.review-wrap {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.review-main {
+  padding: 28px 36px 48px;
+  border-right: 0.5px solid var(--ink3);
+  min-width: 0;
+}
+
+/* Review header — poster left, info right */
+.rv-header {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 28px;
+  margin-bottom: 28px;
+  align-items: start;
+}
+
+.rv-poster {
+  width: 200px;
+  height: 286px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  background: var(--ink3);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rv-poster-placeholder {
+  font-size: 48px;
+  color: var(--ink3);
+}
+
+.rv-score-badge {
+  position: absolute;
+  bottom: 10px; right: 10px;
+  width: 52px; height: 52px;
+  border-radius: 8px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  font-size: 22px; font-weight: 700; color: #fff;
+  line-height: 1;
+}
+
+.rv-score-badge span {
+  font-size: 7px; font-weight: 600;
+  opacity: 0.85; margin-top: 2px;
+}
+
+.rv-score-badge.green { background: #1A7A3C; }
+.rv-score-badge.amber { background: #C47A00; }
+.rv-score-badge.red { background: #C0392B; }
+
+/* Header info */
+.rv-title {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 4vw, 38px);
+  font-weight: 600; color: var(--text);
+  line-height: 1.15; margin-bottom: 8px;
+}
+
+.rv-meta-row {
+  display: flex; align-items: center;
+  gap: 6px; flex-wrap: wrap;
+  font-size: 13px; color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.rv-meta-dot { color: var(--ink3); }
+
+.rv-rasas { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
+
+/* The verdict — most important */
+.rv-verdict {
+  font-size: 17px; font-style: italic;
+  color: var(--text); line-height: 1.6;
+  padding: 14px 16px;
+  background: var(--ink2);
+  border-left: 3px solid var(--gold);
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 12px;
+}
+
+/* Three words */
+.rv-three-words { display: flex; gap: 6px; margin-bottom: 16px; flex-wrap: wrap; }
+
+.rv-word {
+  font-size: 12px; font-weight: 500;
+  padding: 4px 12px; border-radius: 20px;
+  border: 0.5px solid var(--ink3);
+  color: var(--text-muted); background: var(--ink2);
+}
+
+/* Scores row */
+.rv-scores-row {
+  display: flex; align-items: center;
+  gap: 16px; margin-bottom: 14px; flex-wrap: wrap;
+}
+
+.rv-navras-score {
+  width: 64px; height: 64px; border-radius: 10px;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  flex-shrink: 0; color: #fff;
+}
+
+.rv-navras-score.green { background: #1A7A3C; }
+.rv-navras-score.amber { background: #C47A00; }
+.rv-navras-score.red { background: #C0392B; }
+
+.rv-score-num { font-size: 26px; font-weight: 700; line-height: 1; }
+.rv-score-label { font-size: 8px; font-weight: 600; opacity: 0.85; margin-top: 2px; }
+
+.rv-ext-score {
+  text-align: center;
+  padding: 8px 14px;
+  background: var(--ink2);
+  border: 0.5px solid var(--ink3);
+  border-radius: 8px;
+}
+
+.rv-ext-num { font-size: 18px; font-weight: 600; color: var(--text); }
+.rv-ext-label { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
+
+/* Where to watch */
+.rv-watch-row {
+  display: flex; align-items: center;
+  gap: 8px; flex-wrap: wrap; margin-bottom: 16px;
+}
+
+.rv-watch-label {
+  font-size: 12px; color: var(--text-muted); font-weight: 500;
+}
+
+/* Share row */
+.rv-share-row {
+  display: flex; align-items: center;
+  justify-content: space-between;
+  padding-top: 14px;
+  border-top: 0.5px solid var(--ink3);
+  flex-wrap: wrap; gap: 10px;
+}
+
+/* Desi score */
+.rv-desi-score {
+  background: var(--ink2); border: 0.5px solid var(--ink3);
+  border-radius: 12px; padding: 18px 20px;
+  margin-bottom: 24px;
+}
+
+.rv-desi-title {
+  font-size: 12px; font-weight: 600;
+  color: var(--text-muted); text-transform: uppercase;
+  letter-spacing: 0.07em; margin-bottom: 14px;
+  display: flex; align-items: center; gap: 8px;
+}
+
+.rv-desi-title::before {
+  content: ''; width: 3px; height: 12px;
+  background: var(--gold); border-radius: 2px;
+}
+
+.rv-desi-bars { display: flex; flex-direction: column; gap: 10px; }
+
+.rv-desi-row {
+  display: flex; align-items: center; gap: 12px;
+}
+
+.rv-desi-label {
+  font-size: 12px; color: var(--text-muted);
+  min-width: 140px; flex-shrink: 0;
+}
+
+.rv-desi-bar {
+  flex: 1; height: 6px;
+  background: var(--ink3); border-radius: 3px;
+  overflow: hidden;
+}
+
+.rv-desi-fill {
+  height: 100%; border-radius: 3px;
+  background: #1A7A3C; transition: width 0.8s ease;
+}
+
+.rv-desi-fill.gold { background: var(--gold); }
+
+.rv-desi-val {
+  font-size: 13px; font-weight: 600;
+  color: var(--text); min-width: 28px;
+  text-align: right;
+}
+
+/* Review body paragraphs */
+.rv-body { margin-bottom: 24px; }
+
+.rv-para {
+  font-size: 15px; color: var(--text-muted);
+  line-height: 1.8; margin-bottom: 14px;
+}
+
+/* Watch or skip box */
+.rv-verdict-box {
+  background: var(--ink2); border: 1px solid var(--gold);
+  border-radius: 12px; padding: 18px 20px;
+  margin-bottom: 28px;
+}
+
+.rv-verdict-box-title {
+  font-size: 11px; font-weight: 600;
+  color: var(--gold); text-transform: uppercase;
+  letter-spacing: 0.08em; margin-bottom: 12px;
+}
+
+.rv-verdict-options { display: flex; gap: 10px; flex-wrap: wrap; }
+
+.rv-verdict-opt {
+  font-size: 13px; font-weight: 500;
+  padding: 7px 16px; border-radius: 8px;
+}
+
+.rv-verdict-opt.yes {
+  background: rgba(26,122,60,0.1);
+  color: #1A7A3C; border: 0.5px solid rgba(26,122,60,0.3);
+}
+
+.rv-verdict-opt.no {
+  background: rgba(192,57,43,0.1);
+  color: #C0392B; border: 0.5px solid rgba(192,57,43,0.3);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .review-wrap { grid-template-columns: 1fr; }
+  .review-main { border-right: none; padding: 20px; }
+}
+
+@media (max-width: 600px) {
+  .rv-header { grid-template-columns: 140px 1fr; gap: 16px; }
+  .rv-poster { width: 140px; height: 200px; }
+  .rv-title { font-size: 22px; }
+}
