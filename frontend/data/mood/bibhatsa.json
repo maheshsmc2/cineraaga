@@ -1,0 +1,211 @@
+{
+ "rasa": "bibhatsa",
+ "count": 10,
+ "films": [
+  {
+   "slug": "gangs-of-wasseypur-2012",
+   "title": "Gangs of Wasseypur",
+   "year": 2012,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "If you haven't seen it, stop everything and watch it now.",
+   "era": "2010s",
+   "rasas": [
+    "raudra",
+    "bibhatsa"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "andhadhun-2018",
+   "title": "Andhadhun",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#1a1a1a",
+   "verdict": "The cleverest thriller Bollywood has ever made.",
+   "era": "2010s",
+   "rasas": [
+    "hasya",
+    "raudra",
+    "bibhatsa",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "salaam-bombay-1988",
+   "title": "Salaam Bombay!",
+   "year": 1988,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#1a0d0d",
+   "verdict": "Nominated for Best Foreign Film, Oscars 1989. A landmark in Indian cinema.",
+   "era": null,
+   "rasas": [
+    "karuna",
+    "bibhatsa"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "tumbbad-2018",
+   "title": "Tumbbad",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "Watch it tonight with the lights off.",
+   "era": "2010s",
+   "rasas": [
+    "bhayanaka",
+    "bibhatsa"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "paatal-lok-s1-s2-2020",
+   "title": "Paatal Lok S1-S2",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "India's most uncomfortable and necessary thriller.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "bibhatsa"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "ugly-2013",
+   "title": "Ugly",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a1a1a",
+   "verdict": "Anurag Kashyap's darkest and most honest film.",
+   "era": "2010s",
+   "rasas": [
+    "bibhatsa",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "article-15-2019",
+   "title": "Article 15",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "Caste, power, and the ugliness India hides.",
+   "era": "new",
+   "rasas": [
+    "raudra",
+    "bibhatsa",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "newton-2017",
+   "title": "Newton",
+   "year": 2017,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "Democracy in India's most forgotten corners.",
+   "era": "2010s",
+   "rasas": [
+    "bibhatsa",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "mirzapur-2018",
+   "title": "Mirzapur",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 86,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Power, violence, and loyalty in the badlands.",
+   "era": "2010s",
+   "rasas": [
+    "raudra",
+    "bibhatsa"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "raat-akeli-hai-2020",
+   "title": "Raat Akeli Hai",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "Nawazuddin in a murder mystery soaked in class tension.",
+   "era": "new",
+   "rasas": [
+    "bibhatsa",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  }
+ ]
+}

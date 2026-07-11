@@ -1,0 +1,26 @@
+{
+ "slug": "stree-2018",
+ "title": "Stree",
+ "year": 2018,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 88,
+ "score_status": "placeholder",
+ "color": "#1a0d2e",
+ "verdict": "Horror-comedy that actually delivers on both.",
+ "era": "2010s",
+ "rasas": [
+  "bhayanaka",
+  "hasya"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

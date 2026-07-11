@@ -1,0 +1,332 @@
+{
+ "rasa": "shringara",
+ "count": 16,
+ "films": [
+  {
+   "slug": "mughal-e-azam-1960",
+   "title": "Mughal-E-Azam",
+   "year": 1960,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 99,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "India's most magnificent epic. A landmark in world cinema.",
+   "era": "classic",
+   "rasas": [
+    "karuna",
+    "adbhuta",
+    "veera",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "dilwale-dulhania-le-jayenge-1995",
+   "title": "Dilwale Dulhania Le Jayenge",
+   "year": 1995,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 98,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "The film that gave Indian romance its modern face.",
+   "era": "classic",
+   "rasas": [
+    "shringara",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "charulata-1964",
+   "title": "Charulata",
+   "year": 1964,
+   "language": "bengali",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "Ray's most perfectly realised film. Heartbreaking and beautiful.",
+   "era": null,
+   "rasas": [
+    "shringara",
+    "karuna"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "lagaan-2001",
+   "title": "Lagaan",
+   "year": 2001,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+   "era": "2000s",
+   "rasas": [
+    "veera",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "sony"
+    }
+   ]
+  },
+  {
+   "slug": "96-2018",
+   "title": "96",
+   "year": 2018,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 96,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "Nostalgia and longing distilled to absolute perfection.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "premam-2015",
+   "title": "Premam",
+   "year": 2015,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "The film that defined a generation of Malayalam youth.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "jab-we-met-2007",
+   "title": "Jab We Met",
+   "year": 2007,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 92,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Kareena Kapoor at her most magnetic.",
+   "era": "2000s",
+   "rasas": [
+    "shringara",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "ok-kanmani-2015",
+   "title": "OK Kanmani",
+   "year": 2015,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Mani Ratnam's most tender film in decades.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "barfi-2012",
+   "title": "Barfi!",
+   "year": 2012,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 89,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "Charming, wordless, and deeply moving.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "rockstar-2011",
+   "title": "Rockstar",
+   "year": 2011,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "Ranbir Kapoor's greatest performance.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "arjun-reddy-2017",
+   "title": "Arjun Reddy",
+   "year": 2017,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a0d0d",
+   "verdict": "Divisive, raw, and impossible to forget.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "shringara"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "lootera-2013",
+   "title": "Lootera",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "Visually ravishing. Emotionally devastating.",
+   "era": "2010s",
+   "rasas": [
+    "shanta",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "jaane-tu-ya-jaane-na-2008",
+   "title": "Jaane Tu... Ya Jaane Na",
+   "year": 2008,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Light as air, sweet as mithai.",
+   "era": "2000s",
+   "rasas": [
+    "hasya",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "ek-ladki-ko-dekha-toh-aisa-laga-2019",
+   "title": "Ek Ladki Ko Dekha Toh Aisa Laga",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 82,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "A quietly revolutionary love story.",
+   "era": "new",
+   "rasas": [
+    "shringara",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "saiyaara-2025",
+   "title": "Saiyaara",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 82,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "Most searched film of 2025 — and it earns the attention.",
+   "era": null,
+   "rasas": [
+    "shringara",
+    "karuna"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "brahmastra-2022",
+   "title": "Brahmastra",
+   "year": 2022,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 68,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "Visually stunning, narratively ambitious.",
+   "era": "new",
+   "rasas": [
+    "adbhuta",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  }
+ ]
+}

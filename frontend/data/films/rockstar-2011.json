@@ -1,0 +1,26 @@
+{
+ "slug": "rockstar-2011",
+ "title": "Rockstar",
+ "year": 2011,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 88,
+ "score_status": "placeholder",
+ "color": "#2e0d0d",
+ "verdict": "Ranbir Kapoor's greatest performance.",
+ "era": "2010s",
+ "rasas": [
+  "shringara",
+  "raudra"
+ ],
+ "ott": [
+  {
+   "platform": "netflix"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

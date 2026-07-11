@@ -1,0 +1,376 @@
+/* ===========================
+   NAVRAS — YouTube Directory CSS
+   =========================== */
+
+/* Page header */
+.yt-page-header {
+  background: var(--ink2);
+  border-bottom: 0.5px solid var(--ink3);
+  padding: 32px;
+}
+
+.yt-header-inner {
+  display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 32px;
+  max-width: 1200px; margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.yt-page-label {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 11px; font-weight: 600;
+  color: #FF0000; text-transform: uppercase;
+  letter-spacing: 0.08em; margin-bottom: 10px;
+}
+
+.yt-page-title {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3vw, 36px);
+  font-weight: 600; color: var(--text);
+  line-height: 1.2; margin-bottom: 8px;
+}
+
+.yt-page-sub {
+  font-size: 14px; color: var(--text-muted);
+  line-height: 1.7; max-width: 520px;
+}
+
+.yt-header-stats {
+  display: flex; gap: 24px; flex-shrink: 0;
+}
+
+.yt-stat {
+  text-align: center;
+  background: var(--ink); border: 0.5px solid var(--ink3);
+  border-radius: 10px; padding: 14px 20px;
+}
+
+.yt-stat-num {
+  font-size: 28px; font-weight: 700;
+  color: var(--gold); font-family: var(--font-display);
+  line-height: 1;
+}
+
+.yt-stat-label {
+  font-size: 11px; color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Category tabs */
+.yt-category-bar {
+  display: flex; gap: 0;
+  background: var(--ink2);
+  border-bottom: 2px solid var(--ink3);
+  padding: 0 32px;
+  overflow-x: auto; scrollbar-width: none;
+}
+
+.yt-category-bar::-webkit-scrollbar { display: none; }
+
+.yt-cat-btn {
+  padding: 12px 18px; font-size: 13px; font-weight: 500;
+  color: var(--text-muted); background: none;
+  border: none; border-bottom: 2px solid transparent;
+  margin-bottom: -2px; cursor: pointer;
+  font-family: inherit; white-space: nowrap;
+  transition: all 0.15s;
+}
+
+.yt-cat-btn:hover { color: var(--text); }
+.yt-cat-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+
+/* Language filter */
+.yt-lang-bar {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  padding: 14px 32px;
+  border-bottom: 0.5px solid var(--ink3);
+  background: var(--ink);
+}
+
+.yt-lang-btn {
+  padding: 4px 14px; border-radius: 20px;
+  font-size: 12px; font-weight: 500;
+  border: 0.5px solid var(--ink3);
+  color: var(--text-muted); background: var(--ink2);
+  cursor: pointer; font-family: inherit;
+  transition: all 0.15s;
+}
+
+.yt-lang-btn:hover { color: var(--text); border-color: var(--gold-dim); }
+.yt-lang-btn.active { border-color: var(--gold); color: var(--gold); background: var(--gold-bg); }
+
+/* Page body */
+.yt-page-body {
+  max-width: 1200px; margin: 0 auto;
+  padding: 28px 32px;
+}
+
+/* Channels grid */
+.yt-channels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 14px;
+  margin-bottom: 48px;
+}
+
+/* Channel card */
+.yt-channel-card {
+  background: var(--ink2); border: 0.5px solid var(--ink3);
+  border-radius: 12px; overflow: hidden;
+  transition: transform 0.2s, border-color 0.2s;
+  display: flex; flex-direction: column;
+  text-decoration: none;
+}
+
+.yt-channel-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold-dim);
+}
+
+/* Channel thumbnail banner */
+.yt-channel-banner {
+  width: 100%; height: 80px;
+  background: linear-gradient(135deg, #1a1a2e, #2a1a3e);
+  position: relative; overflow: hidden;
+  display: flex; align-items: center; justify-content: center;
+}
+
+.yt-channel-banner-img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+
+/* Channel avatar */
+.yt-channel-avatar-wrap {
+  position: absolute; bottom: -20px; left: 16px;
+}
+
+.yt-channel-avatar {
+  width: 48px; height: 48px; border-radius: 50%;
+  border: 3px solid var(--ink2);
+  background: var(--ink3);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 20px; font-weight: 700; color: #fff;
+  overflow: hidden; flex-shrink: 0;
+}
+
+.yt-channel-avatar img {
+  width: 100%; height: 100%; object-fit: cover;
+}
+
+/* Channel body */
+.yt-channel-body {
+  padding: 28px 16px 16px;
+  flex: 1; display: flex; flex-direction: column;
+}
+
+.yt-channel-top {
+  display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 8px;
+  margin-bottom: 6px;
+}
+
+.yt-channel-name {
+  font-size: 14px; font-weight: 600; color: var(--text);
+  line-height: 1.3;
+}
+
+.yt-channel-subs {
+  font-size: 11px; color: var(--text-muted);
+  white-space: nowrap; flex-shrink: 0;
+  background: var(--ink3); padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.yt-channel-desc {
+  font-size: 12px; color: var(--text-muted);
+  line-height: 1.5; margin-bottom: 10px; flex: 1;
+}
+
+.yt-channel-meta {
+  display: flex; align-items: center;
+  justify-content: space-between; flex-wrap: wrap; gap: 6px;
+}
+
+.yt-channel-tags { display: flex; gap: 4px; flex-wrap: wrap; }
+
+.yt-tag {
+  font-size: 10px; font-weight: 500;
+  padding: 2px 8px; border-radius: 4px;
+  border: 0.5px solid var(--ink3);
+  color: var(--text-muted);
+}
+
+.yt-tag.cat-reviews { border-color: rgba(201,168,76,0.3); color: var(--gold); }
+.yt-tag.cat-trailers { border-color: rgba(91,155,213,0.3); color: #5B9BD5; }
+.yt-tag.cat-boxoffice { border-color: rgba(46,204,113,0.3); color: #2ECC71; }
+.yt-tag.cat-news { border-color: rgba(231,76,60,0.3); color: #E74C3C; }
+.yt-tag.cat-regional { border-color: rgba(155,89,182,0.3); color: #9B59B6; }
+.yt-tag.cat-interviews { border-color: rgba(52,152,219,0.3); color: #3498DB; }
+
+.yt-lang-tag {
+  font-size: 10px; font-weight: 600;
+  color: var(--text-muted); background: var(--ink);
+  padding: 2px 8px; border-radius: 4px;
+}
+
+.yt-visit-btn {
+  font-size: 11px; color: #FF0000;
+  display: flex; align-items: center; gap: 4px;
+}
+
+/* ===========================
+   EMERGING CREATORS SECTION
+   =========================== */
+.yt-emerging-section {
+  background: var(--ink2); border: 1px solid var(--gold);
+  border-radius: 16px; padding: 28px;
+  margin-bottom: 32px;
+}
+
+.yt-emerging-header { margin-bottom: 16px; }
+
+.yt-emerging-title {
+  font-family: var(--font-display);
+  font-size: 22px; font-weight: 600; color: var(--text);
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 6px;
+}
+
+.yt-emerging-icon { font-size: 22px; }
+
+.yt-emerging-sub {
+  font-size: 13px; color: var(--text-muted);
+  line-height: 1.6; max-width: 580px;
+}
+
+.yt-emerging-note {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 12px; color: var(--text-muted);
+  background: var(--ink); border: 0.5px solid var(--ink3);
+  border-radius: 8px; padding: 10px 14px;
+  margin-bottom: 20px; flex-wrap: wrap;
+}
+
+.yt-emerging-note a { color: var(--gold); }
+
+.yt-emerging-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+/* Emerging channel card — simpler, more compact */
+.yt-emerging-card {
+  background: var(--ink); border: 0.5px solid var(--ink3);
+  border-radius: 10px; padding: 14px;
+  text-decoration: none;
+  display: flex; gap: 12px; align-items: flex-start;
+  transition: border-color 0.15s;
+}
+
+.yt-emerging-card:hover { border-color: var(--gold-dim); }
+
+.yt-emerging-avatar {
+  width: 44px; height: 44px; border-radius: 50%;
+  flex-shrink: 0; background: var(--ink3);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 18px; font-weight: 700; color: #fff;
+  overflow: hidden;
+}
+
+.yt-emerging-avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+.yt-emerging-info { flex: 1; min-width: 0; }
+
+.yt-emerging-name {
+  font-size: 13px; font-weight: 600; color: var(--text);
+  margin-bottom: 3px;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+
+.yt-emerging-desc {
+  font-size: 11px; color: var(--text-muted);
+  line-height: 1.4; margin-bottom: 6px;
+}
+
+.yt-emerging-bottom {
+  display: flex; align-items: center;
+  justify-content: space-between;
+}
+
+.yt-emerging-subs {
+  font-size: 10px; color: var(--gold);
+  font-weight: 600;
+}
+
+.yt-emerging-lang {
+  font-size: 10px; color: var(--text-muted);
+  background: var(--ink2); padding: 1px 7px;
+  border-radius: 3px;
+}
+
+/* Navras pick badge */
+.yt-navras-pick {
+  font-size: 9px; font-weight: 700;
+  color: var(--gold); background: var(--gold-bg);
+  border: 0.5px solid var(--gold-border);
+  padding: 2px 6px; border-radius: 3px;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  display: inline-block; margin-bottom: 4px;
+}
+
+/* Suggest section */
+.yt-suggest-section {
+  background: var(--ink2); border: 0.5px solid var(--ink3);
+  border-radius: 12px; padding: 22px 24px;
+  margin-bottom: 16px;
+}
+
+.yt-suggest-inner {
+  display: flex; align-items: center;
+  justify-content: space-between; gap: 20px;
+  flex-wrap: wrap;
+}
+
+.yt-suggest-title {
+  font-size: 15px; font-weight: 600; color: var(--text);
+  margin-bottom: 4px;
+}
+
+.yt-suggest-sub {
+  font-size: 13px; color: var(--text-muted); line-height: 1.5;
+  max-width: 480px;
+}
+
+.yt-suggest-btn {
+  padding: 10px 22px; border-radius: 8px;
+  background: var(--gold); color: var(--ink2);
+  font-size: 13px; font-weight: 600;
+  white-space: nowrap; text-decoration: none;
+  transition: opacity 0.15s; flex-shrink: 0;
+}
+
+.yt-suggest-btn:hover { opacity: 0.85; }
+
+/* Empty state */
+.yt-empty {
+  grid-column: 1/-1; text-align: center;
+  padding: 48px 20px; color: var(--text-muted);
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .yt-header-inner { flex-direction: column; }
+  .yt-header-stats { width: 100%; justify-content: flex-start; }
+}
+
+@media (max-width: 700px) {
+  .yt-page-header { padding: 20px; }
+  .yt-page-body { padding: 20px; }
+  .yt-category-bar { padding: 0 16px; }
+  .yt-lang-bar { padding: 12px 16px; }
+  .yt-channels-grid { grid-template-columns: 1fr; }
+  .yt-emerging-grid { grid-template-columns: 1fr; }
+  .yt-emerging-section { padding: 20px; }
+}

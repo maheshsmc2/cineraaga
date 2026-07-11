@@ -1,0 +1,587 @@
+{
+ "rasa": "veera",
+ "count": 30,
+ "films": [
+  {
+   "slug": "mughal-e-azam-1960",
+   "title": "Mughal-E-Azam",
+   "year": 1960,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 99,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "India's most magnificent epic. A landmark in world cinema.",
+   "era": "classic",
+   "rasas": [
+    "karuna",
+    "adbhuta",
+    "veera",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "dilwale-dulhania-le-jayenge-1995",
+   "title": "Dilwale Dulhania Le Jayenge",
+   "year": 1995,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 98,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "The film that gave Indian romance its modern face.",
+   "era": "classic",
+   "rasas": [
+    "shringara",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "lagaan-2001",
+   "title": "Lagaan",
+   "year": 2001,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+   "era": "2000s",
+   "rasas": [
+    "veera",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "sony"
+    }
+   ]
+  },
+  {
+   "slug": "taare-zameen-par-2007",
+   "title": "Taare Zameen Par",
+   "year": 2007,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "Changed how India thinks about children and learning.",
+   "era": "2000s",
+   "rasas": [
+    "karuna",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "baahubali-2-2017",
+   "title": "Baahubali 2",
+   "year": 2017,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 96,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "India's most spectacular blockbuster. A modern epic.",
+   "era": "2010s",
+   "rasas": [
+    "veera",
+    "adbhuta"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "dangal-2016",
+   "title": "Dangal",
+   "year": 2016,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 96,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "The film that proved Indian sport could power world cinema.",
+   "era": "2010s",
+   "rasas": [
+    "veera",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "mother-india-1957",
+   "title": "Mother India",
+   "year": 1957,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 96,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Nominated for Best Foreign Film, Oscars 1958. Lost by one vote.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "karuna"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "3-idiots-2009",
+   "title": "3 Idiots",
+   "year": 2009,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "Still the most rewatched film on Netflix India.",
+   "era": "2000s",
+   "rasas": [
+    "hasya",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "rrr-2022",
+   "title": "RRR",
+   "year": 2022,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#2e0d1a",
+   "verdict": "The film that made the world fall in love with Indian mass cinema.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "rrr-naatu-naatu-2022",
+   "title": "RRR — Naatu Naatu",
+   "year": 2022,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#2e0d1a",
+   "verdict": "Won Best Original Song at Oscars 2023. India's first competitive Oscar win.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "hasya"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "sholay-1975",
+   "title": "Sholay",
+   "year": 1975,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "The original Indian blockbuster. Jai and Veeru forever.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "chak-de-india-2007",
+   "title": "Chak De! India",
+   "year": 2007,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "Shah Rukh Khan's finest hour.",
+   "era": "2000s",
+   "rasas": [
+    "veera",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "kantara-a-legend-chapter-1-2025",
+   "title": "Kantara: A Legend Chapter 1",
+   "year": 2025,
+   "language": "kannada",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "The most anticipated follow-up in Indian cinema history.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "baahubali-2-the-conclusion-2017",
+   "title": "Baahubali 2: The Conclusion",
+   "year": 2017,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 92,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "India's most spectacular blockbuster. A modern epic.",
+   "era": "2010s",
+   "rasas": [
+    "adbhuta",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "kahaani-2012",
+   "title": "Kahaani",
+   "year": 2012,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 92,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "Vidya Balan's Kolkata masterpiece.",
+   "era": "2010s",
+   "rasas": [
+    "bhayanaka",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "ic-814-the-kandahar-hijack-2024",
+   "title": "IC 814: The Kandahar Hijack",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "The most tightly written Indian series of 2024.",
+   "era": "new",
+   "rasas": [
+    "bhayanaka",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "kanguva-2024",
+   "title": "Kanguva",
+   "year": 2024,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "Tamil cinema's most ambitious production design ever.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "adbhuta"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "lokah-2025",
+   "title": "Lokah",
+   "year": 2025,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "The highest-grossing Malayalam film ever made. Spectacular.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "manjummel-boys-2024",
+   "title": "Manjummel Boys",
+   "year": 2024,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#0d2e2e",
+   "verdict": "Brotherhood and survival, based on a true story. Unmissable.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "laapataa-ladies-2024",
+   "title": "Laapataa Ladies",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#1a2e1a",
+   "verdict": "India's official Oscar entry 2025. Aamir Khan produced. Kiran Rao directs.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "dhurandhar-2025",
+   "title": "Dhurandhar",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "India's biggest blockbuster of 2025.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "pushpa-2-the-rule-2024",
+   "title": "Pushpa 2: The Rule",
+   "year": 2024,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "Allu Arjun at the absolute peak of his stardom.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "theeb-2014",
+   "title": "Theeb",
+   "year": 2014,
+   "language": "arabic",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "Jury Prize at Cannes. A co-production with Indian involvement.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "superboys-of-malegaon-2025",
+   "title": "Superboys of Malegaon",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "The most heartwarming Indian film of the year.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "uri-the-surgical-strike-2019",
+   "title": "Uri: The Surgical Strike",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 85,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "How's the josh? High, sir. Very high.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "coolie-2025",
+   "title": "Coolie",
+   "year": 2025,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "Rajinikanth in the Lokesh Cinematic Universe. Unmissable.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "liar-s-dice-2013",
+   "title": "Liar's Dice",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#0d2e2e",
+   "verdict": "Un Certain Regard selection. India's most underrated recent film.",
+   "era": null,
+   "rasas": [
+    "karuna",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "ek-ladki-ko-dekha-toh-aisa-laga-2019",
+   "title": "Ek Ladki Ko Dekha Toh Aisa Laga",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 82,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "A quietly revolutionary love story.",
+   "era": "new",
+   "rasas": [
+    "shringara",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "kalki-2898-ad-2024",
+   "title": "Kalki 2898-AD",
+   "year": 2024,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 74,
+   "score_status": "placeholder",
+   "color": "#1a1a0d",
+   "verdict": "Mythology meets sci-fi in an ambitious gamble.",
+   "era": "new",
+   "rasas": [
+    "adbhuta",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "war-2-2025",
+   "title": "War 2",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 68,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Hrithik vs NTR Jr. The spectacle delivers; the story doesn't.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "adbhuta"
+   ],
+   "ott": []
+  }
+ ]
+}

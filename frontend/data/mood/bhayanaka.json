@@ -1,0 +1,368 @@
+{
+ "rasa": "bhayanaka",
+ "count": 18,
+ "films": [
+  {
+   "slug": "drishyam-2013",
+   "title": "Drishyam",
+   "year": 2013,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "The perfect thriller. Remade five times. None come close.",
+   "era": "2010s",
+   "rasas": [
+    "hasya",
+    "bhayanaka",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "andhadhun-2018",
+   "title": "Andhadhun",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#1a1a1a",
+   "verdict": "The cleverest thriller Bollywood has ever made.",
+   "era": "2010s",
+   "rasas": [
+    "hasya",
+    "raudra",
+    "bibhatsa",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "the-family-man-2019",
+   "title": "The Family Man",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "The best Indian thriller series ever made.",
+   "era": "new",
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "the-family-man-s1-s2-2019",
+   "title": "The Family Man S1-S2",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "Manoj Bajpayee. Enough said.",
+   "era": null,
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "the-family-man-s2-2021",
+   "title": "The Family Man S2",
+   "year": 2021,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "Manoj Bajpayee gives the performance of his career.",
+   "era": null,
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "tumbbad-2018",
+   "title": "Tumbbad",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "Watch it tonight with the lights off.",
+   "era": "2010s",
+   "rasas": [
+    "bhayanaka",
+    "bibhatsa"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "kantara-a-legend-chapter-1-2025",
+   "title": "Kantara: A Legend Chapter 1",
+   "year": 2025,
+   "language": "kannada",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "The most anticipated follow-up in Indian cinema history.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "kahaani-2012",
+   "title": "Kahaani",
+   "year": 2012,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 92,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "Vidya Balan's Kolkata masterpiece.",
+   "era": "2010s",
+   "rasas": [
+    "bhayanaka",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "drishyam-2-2021",
+   "title": "Drishyam 2",
+   "year": 2021,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "A sequel that surpasses the original. Watch back to back.",
+   "era": "new",
+   "rasas": [
+    "karuna",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "ic-814-the-kandahar-hijack-2024",
+   "title": "IC 814: The Kandahar Hijack",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "The most tightly written Indian series of 2024.",
+   "era": "new",
+   "rasas": [
+    "bhayanaka",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "kantara-2022",
+   "title": "Kantara",
+   "year": 2022,
+   "language": "kannada",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "A primal, spiritual, unforgettable experience.",
+   "era": "new",
+   "rasas": [
+    "adbhuta",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "manjummel-boys-2024",
+   "title": "Manjummel Boys",
+   "year": 2024,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#0d2e2e",
+   "verdict": "Brotherhood and survival, based on a true story. Unmissable.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "vikram-2022",
+   "title": "Vikram",
+   "year": 2022,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#2e0d1a",
+   "verdict": "Three legends. One unstoppable collision of Tamil mass cinema.",
+   "era": "new",
+   "rasas": [
+    "bhayanaka",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "stree-2018",
+   "title": "Stree",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "Horror-comedy that actually delivers on both.",
+   "era": "2010s",
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "theeb-2014",
+   "title": "Theeb",
+   "year": 2014,
+   "language": "arabic",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "Jury Prize at Cannes. A co-production with Indian involvement.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "khakee-2023",
+   "title": "Khakee",
+   "year": 2023,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a1a0d",
+   "verdict": "The cat-and-mouse thriller India needed.",
+   "era": "new",
+   "rasas": [
+    "raudra",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "stree-2-2024",
+   "title": "Stree 2",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "The horror comedy sequel that broke every box office record.",
+   "era": "new",
+   "rasas": [
+    "hasya",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "mirzapur-s3-2024",
+   "title": "Mirzapur S3",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 82,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "The Mirzapur universe reaches its most complex chapter.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "bhayanaka"
+   ],
+   "ott": []
+  }
+ ]
+}

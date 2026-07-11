@@ -1,0 +1,1640 @@
+[
+ {
+  "slug": "dilwale-dulhania-le-jayenge-1995",
+  "title": "Dilwale Dulhania Le Jayenge",
+  "year": 1995,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 98,
+  "score_status": "placeholder",
+  "color": "#1a0d2e",
+  "verdict": "The film that gave Indian romance its modern face.",
+  "era": "classic",
+  "rasas": [
+   "shringara",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "jab-we-met-2007",
+  "title": "Jab We Met",
+  "year": 2007,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 92,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Kareena Kapoor at her most magnetic.",
+  "era": "2000s",
+  "rasas": [
+   "shringara",
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "ok-kanmani-2015",
+  "title": "OK Kanmani",
+  "year": 2015,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 90,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "Mani Ratnam's most tender film in decades.",
+  "era": "2010s",
+  "rasas": [
+   "shringara",
+   "shanta"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "ek-ladki-ko-dekha-toh-aisa-laga-2019",
+  "title": "Ek Ladki Ko Dekha Toh Aisa Laga",
+  "year": 2019,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 82,
+  "score_status": "placeholder",
+  "color": "#1a0d1a",
+  "verdict": "A quietly revolutionary love story.",
+  "era": "new",
+  "rasas": [
+   "shringara",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "premam-2015",
+  "title": "Premam",
+  "year": 2015,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "The film that defined a generation of Malayalam youth.",
+  "era": "2010s",
+  "rasas": [
+   "shringara",
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "96-2018",
+  "title": "96",
+  "year": 2018,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 96,
+  "score_status": "placeholder",
+  "color": "#1a1a2e",
+  "verdict": "Nostalgia and longing distilled to absolute perfection.",
+  "era": "2010s",
+  "rasas": [
+   "shringara",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "zee5"
+   }
+  ]
+ },
+ {
+  "slug": "rockstar-2011",
+  "title": "Rockstar",
+  "year": 2011,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "Ranbir Kapoor's greatest performance.",
+  "era": "2010s",
+  "rasas": [
+   "shringara",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "barfi-2012",
+  "title": "Barfi!",
+  "year": 2012,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 89,
+  "score_status": "placeholder",
+  "color": "#1a2e0d",
+  "verdict": "Charming, wordless, and deeply moving.",
+  "era": "2010s",
+  "rasas": [
+   "shringara",
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "3-idiots-2009",
+  "title": "3 Idiots",
+  "year": 2009,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#1a2e0d",
+  "verdict": "Still the most rewatched film on Netflix India.",
+  "era": "2000s",
+  "rasas": [
+   "hasya",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "stree-2-2024",
+  "title": "Stree 2",
+  "year": 2024,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 87,
+  "score_status": "placeholder",
+  "color": "#1a0d2e",
+  "verdict": "The horror comedy sequel that broke every box office record.",
+  "era": "new",
+  "rasas": [
+   "hasya",
+   "bhayanaka"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "golmaal-fun-unlimited-2006",
+  "title": "Golmaal: Fun Unlimited",
+  "year": 2006,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 82,
+  "score_status": "placeholder",
+  "color": "#2e2e0d",
+  "verdict": "The blueprint for Rohit Shetty's comedy empire.",
+  "era": "2000s",
+  "rasas": [
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "panchayat-2020",
+  "title": "Panchayat",
+  "year": 2020,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 93,
+  "score_status": "placeholder",
+  "color": "#1a2e0d",
+  "verdict": "Rural India, rendered with warmth and truth.",
+  "era": "new",
+  "rasas": [
+   "hasya",
+   "shanta"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "jaane-tu-ya-jaane-na-2008",
+  "title": "Jaane Tu... Ya Jaane Na",
+  "year": 2008,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 84,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Light as air, sweet as mithai.",
+  "era": "2000s",
+  "rasas": [
+   "hasya",
+   "shringara"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "drishyam-2013",
+  "title": "Drishyam",
+  "year": 2013,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 97,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "The perfect thriller. Remade five times. None come close.",
+  "era": "2010s",
+  "rasas": [
+   "hasya",
+   "bhayanaka",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "andhadhun-2018",
+  "title": "Andhadhun",
+  "year": 2018,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#1a1a1a",
+  "verdict": "The cleverest thriller Bollywood has ever made.",
+  "era": "2010s",
+  "rasas": [
+   "hasya",
+   "raudra",
+   "bibhatsa",
+   "bhayanaka"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "khosla-ka-ghosla-2006",
+  "title": "Khosla Ka Ghosla!",
+  "year": 2006,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "A masterpiece of middle-class Indian humour.",
+  "era": "2000s",
+  "rasas": [
+   "hasya",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "zee5"
+   }
+  ]
+ },
+ {
+  "slug": "taare-zameen-par-2007",
+  "title": "Taare Zameen Par",
+  "year": 2007,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 97,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "Changed how India thinks about children and learning.",
+  "era": "2000s",
+  "rasas": [
+   "karuna",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "masaan-2015",
+  "title": "Masaan",
+  "year": 2015,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#1a1a2e",
+  "verdict": "FIPRESCI Prize and Promising Future Award, Cannes 2015.",
+  "era": "2010s",
+  "rasas": [
+   "karuna",
+   "shanta"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "all-we-imagine-as-light-2024",
+  "title": "All We Imagine as Light",
+  "year": 2024,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 96,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "Grand Prix, Cannes 2024. India's greatest recent triumph at the festival.",
+  "era": "new",
+  "rasas": [
+   "karuna",
+   "shanta"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "drishyam-2-2021",
+  "title": "Drishyam 2",
+  "year": 2021,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "A sequel that surpasses the original. Watch back to back.",
+  "era": "new",
+  "rasas": [
+   "karuna",
+   "bhayanaka"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "kapoor-sons-2016",
+  "title": "Kapoor & Sons",
+  "year": 2016,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 87,
+  "score_status": "placeholder",
+  "color": "#2e1a1a",
+  "verdict": "The most honest Indian family drama in years.",
+  "era": "2010s",
+  "rasas": [
+   "karuna",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "mughal-e-azam-1960",
+  "title": "Mughal-E-Azam",
+  "year": 1960,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 99,
+  "score_status": "placeholder",
+  "color": "#2e2e0d",
+  "verdict": "India's most magnificent epic. A landmark in world cinema.",
+  "era": "classic",
+  "rasas": [
+   "karuna",
+   "adbhuta",
+   "veera",
+   "shringara"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "piku-2015",
+  "title": "Piku",
+  "year": 2015,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 89,
+  "score_status": "placeholder",
+  "color": "#1a2e1a",
+  "verdict": "A road trip that feels like a warm hug.",
+  "era": "2010s",
+  "rasas": [
+   "karuna",
+   "shanta",
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "dangal-2016",
+  "title": "Dangal",
+  "year": 2016,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 96,
+  "score_status": "placeholder",
+  "color": "#1a2e0d",
+  "verdict": "The film that proved Indian sport could power world cinema.",
+  "era": "2010s",
+  "rasas": [
+   "veera",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "rrr-2022",
+  "title": "RRR",
+  "year": 2022,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#2e0d1a",
+  "verdict": "The film that made the world fall in love with Indian mass cinema.",
+  "era": "new",
+  "rasas": [
+   "veera",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "lagaan-2001",
+  "title": "Lagaan",
+  "year": 2001,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 97,
+  "score_status": "placeholder",
+  "color": "#2e2e0d",
+  "verdict": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+  "era": "2000s",
+  "rasas": [
+   "veera",
+   "shringara"
+  ],
+  "ott": [
+   {
+    "platform": "sony"
+   }
+  ]
+ },
+ {
+  "slug": "kanguva-2024",
+  "title": "Kanguva",
+  "year": 2024,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#1a0d2e",
+  "verdict": "Tamil cinema's most ambitious production design ever.",
+  "era": "new",
+  "rasas": [
+   "veera",
+   "adbhuta"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "uri-the-surgical-strike-2019",
+  "title": "Uri: The Surgical Strike",
+  "year": 2019,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 85,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "How's the josh? High, sir. Very high.",
+  "era": "new",
+  "rasas": [
+   "veera",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "baahubali-2-2017",
+  "title": "Baahubali 2",
+  "year": 2017,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 96,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "India's most spectacular blockbuster. A modern epic.",
+  "era": "2010s",
+  "rasas": [
+   "veera",
+   "adbhuta"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "chak-de-india-2007",
+  "title": "Chak De! India",
+  "year": 2007,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 93,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "Shah Rukh Khan's finest hour.",
+  "era": "2000s",
+  "rasas": [
+   "veera",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "manjummel-boys-2024",
+  "title": "Manjummel Boys",
+  "year": 2024,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#0d2e2e",
+  "verdict": "Brotherhood and survival, based on a true story. Unmissable.",
+  "era": "new",
+  "rasas": [
+   "veera",
+   "bhayanaka"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "tumbbad-2018",
+  "title": "Tumbbad",
+  "year": 2018,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "Watch it tonight with the lights off.",
+  "era": "2010s",
+  "rasas": [
+   "bhayanaka",
+   "bibhatsa"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "ic-814-the-kandahar-hijack-2024",
+  "title": "IC 814: The Kandahar Hijack",
+  "year": 2024,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#1a1a2e",
+  "verdict": "The most tightly written Indian series of 2024.",
+  "era": "new",
+  "rasas": [
+   "bhayanaka",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "kahaani-2012",
+  "title": "Kahaani",
+  "year": 2012,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 92,
+  "score_status": "placeholder",
+  "color": "#1a0d1a",
+  "verdict": "Vidya Balan's Kolkata masterpiece.",
+  "era": "2010s",
+  "rasas": [
+   "bhayanaka",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "the-family-man-2019",
+  "title": "The Family Man",
+  "year": 2019,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#0d1a1a",
+  "verdict": "The best Indian thriller series ever made.",
+  "era": "new",
+  "rasas": [
+   "bhayanaka",
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "stree-2018",
+  "title": "Stree",
+  "year": 2018,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#1a0d2e",
+  "verdict": "Horror-comedy that actually delivers on both.",
+  "era": "2010s",
+  "rasas": [
+   "bhayanaka",
+   "hasya"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "vikram-2022",
+  "title": "Vikram",
+  "year": 2022,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 90,
+  "score_status": "placeholder",
+  "color": "#2e0d1a",
+  "verdict": "Three legends. One unstoppable collision of Tamil mass cinema.",
+  "era": "new",
+  "rasas": [
+   "bhayanaka",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "baahubali-2-the-conclusion-2017",
+  "title": "Baahubali 2: The Conclusion",
+  "year": 2017,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 92,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "India's most spectacular blockbuster. A modern epic.",
+  "era": "2010s",
+  "rasas": [
+   "adbhuta",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "kalki-2898-ad-2024",
+  "title": "Kalki 2898-AD",
+  "year": 2024,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 74,
+  "score_status": "placeholder",
+  "color": "#1a1a0d",
+  "verdict": "Mythology meets sci-fi in an ambitious gamble.",
+  "era": "new",
+  "rasas": [
+   "adbhuta",
+   "veera"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "enthiran-2010",
+  "title": "Enthiran",
+  "year": 2010,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Rajinikanth as a robot. That's the pitch.",
+  "era": "2010s",
+  "rasas": [
+   "adbhuta",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "brahmastra-2022",
+  "title": "Brahmastra",
+  "year": 2022,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 68,
+  "score_status": "placeholder",
+  "color": "#1a0d2e",
+  "verdict": "Visually stunning, narratively ambitious.",
+  "era": "new",
+  "rasas": [
+   "adbhuta",
+   "shringara"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "kantara-2022",
+  "title": "Kantara",
+  "year": 2022,
+  "language": "kannada",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "A primal, spiritual, unforgettable experience.",
+  "era": "new",
+  "rasas": [
+   "adbhuta",
+   "bhayanaka"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "2-0-2018",
+  "title": "2.0",
+  "year": 2018,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 75,
+  "score_status": "placeholder",
+  "color": "#0d0d2e",
+  "verdict": "Rajinikanth vs Akshay Kumar. Pure spectacle.",
+  "era": "2010s",
+  "rasas": [
+   "adbhuta",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "hotstar"
+   }
+  ]
+ },
+ {
+  "slug": "gangs-of-wasseypur-2012",
+  "title": "Gangs of Wasseypur",
+  "year": 2012,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 97,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "If you haven't seen it, stop everything and watch it now.",
+  "era": "2010s",
+  "rasas": [
+   "raudra",
+   "bibhatsa"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "article-15-2019",
+  "title": "Article 15",
+  "year": 2019,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#0d1a1a",
+  "verdict": "Caste, power, and the ugliness India hides.",
+  "era": "new",
+  "rasas": [
+   "raudra",
+   "bibhatsa",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "zee5"
+   }
+  ]
+ },
+ {
+  "slug": "mirzapur-2018",
+  "title": "Mirzapur",
+  "year": 2018,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 86,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "Power, violence, and loyalty in the badlands.",
+  "era": "2010s",
+  "rasas": [
+   "raudra",
+   "bibhatsa"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "jai-bhim-2021",
+  "title": "Jai Bhim",
+  "year": 2021,
+  "language": "tamil/telugu",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#0d0d2e",
+  "verdict": "Required viewing. One of the most important Indian films ever.",
+  "era": "new",
+  "rasas": [
+   "raudra",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "khakee-2023",
+  "title": "Khakee",
+  "year": 2023,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 87,
+  "score_status": "placeholder",
+  "color": "#1a1a0d",
+  "verdict": "The cat-and-mouse thriller India needed.",
+  "era": "new",
+  "rasas": [
+   "raudra",
+   "bhayanaka"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "october-2018",
+  "title": "October",
+  "year": 2018,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 84,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Shoojit Sircar's most delicate film. Breathtaking.",
+  "era": "2010s",
+  "rasas": [
+   "shanta",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "aankhon-dekhi-2013",
+  "title": "Aankhon Dekhi",
+  "year": 2013,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 90,
+  "score_status": "placeholder",
+  "color": "#2e2e1a",
+  "verdict": "A small film with an enormous soul.",
+  "era": "2010s",
+  "rasas": [
+   "shanta",
+   "adbhuta"
+  ],
+  "ott": [
+   {
+    "platform": "zee5"
+   }
+  ]
+ },
+ {
+  "slug": "lootera-2013",
+  "title": "Lootera",
+  "year": 2013,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 87,
+  "score_status": "placeholder",
+  "color": "#1a1a2e",
+  "verdict": "Visually ravishing. Emotionally devastating.",
+  "era": "2010s",
+  "rasas": [
+   "shanta",
+   "shringara"
+  ],
+  "ott": [
+   {
+    "platform": "prime"
+   }
+  ]
+ },
+ {
+  "slug": "kadvi-hawa-2017",
+  "title": "Kadvi Hawa",
+  "year": 2017,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "Climate change and human dignity, perfectly balanced.",
+  "era": "2010s",
+  "rasas": [
+   "shanta",
+   "karuna"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "ugly-2013",
+  "title": "Ugly",
+  "year": 2013,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#1a1a1a",
+  "verdict": "Anurag Kashyap's darkest and most honest film.",
+  "era": "2010s",
+  "rasas": [
+   "bibhatsa",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "newton-2017",
+  "title": "Newton",
+  "year": 2017,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "Democracy in India's most forgotten corners.",
+  "era": "2010s",
+  "rasas": [
+   "bibhatsa",
+   "shanta"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "raat-akeli-hai-2020",
+  "title": "Raat Akeli Hai",
+  "year": 2020,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 84,
+  "score_status": "placeholder",
+  "color": "#1a0d1a",
+  "verdict": "Nawazuddin in a murder mystery soaked in class tension.",
+  "era": "new",
+  "rasas": [
+   "bibhatsa",
+   "raudra"
+  ],
+  "ott": [
+   {
+    "platform": "netflix"
+   }
+  ]
+ },
+ {
+  "slug": "pyaasa-1957",
+  "title": "Pyaasa",
+  "year": 1957,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 98,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "Guru Dutt's masterpiece. Poetry in motion.",
+  "era": null,
+  "rasas": [
+   "karuna",
+   "raudra"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "sholay-1975",
+  "title": "Sholay",
+  "year": 1975,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "The original Indian blockbuster. Jai and Veeru forever.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "raudra"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "pather-panchali-1955",
+  "title": "Pather Panchali",
+  "year": 1955,
+  "language": "bengali",
+  "poster_path": null,
+  "navras_score": 99,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Best Human Document, Cannes 1956. Where it all began.",
+  "era": null,
+  "rasas": [
+   "karuna",
+   "shanta"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "nayakan-1987",
+  "title": "Nayakan",
+  "year": 1987,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 98,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "India's answer to The Godfather. Kamal Haasan's greatest.",
+  "era": null,
+  "rasas": [
+   "raudra",
+   "karuna"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "charulata-1964",
+  "title": "Charulata",
+  "year": 1964,
+  "language": "bengali",
+  "poster_path": null,
+  "navras_score": 97,
+  "score_status": "placeholder",
+  "color": "#1a1a2e",
+  "verdict": "Ray's most perfectly realised film. Heartbreaking and beautiful.",
+  "era": null,
+  "rasas": [
+   "shringara",
+   "karuna"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "panchayat-s3-2024",
+  "title": "Panchayat S3",
+  "year": 2024,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 93,
+  "score_status": "placeholder",
+  "color": "#1a2e0d",
+  "verdict": "The most wholesome Indian series ever made.",
+  "era": null,
+  "rasas": [
+   "hasya",
+   "shanta"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "the-family-man-s2-2021",
+  "title": "The Family Man S2",
+  "year": 2021,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#0d1a1a",
+  "verdict": "Manoj Bajpayee gives the performance of his career.",
+  "era": null,
+  "rasas": [
+   "bhayanaka",
+   "hasya"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "mirzapur-s3-2024",
+  "title": "Mirzapur S3",
+  "year": 2024,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 82,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "The Mirzapur universe reaches its most complex chapter.",
+  "era": null,
+  "rasas": [
+   "raudra",
+   "bhayanaka"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "scam-1992-the-harshad-mehta-story-2020",
+  "title": "Scam 1992: The Harshad Mehta Story",
+  "year": 2020,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 97,
+  "score_status": "placeholder",
+  "color": "#2e2e0d",
+  "verdict": "The greatest Indian web series ever made. Not even close.",
+  "era": null,
+  "rasas": [
+   "adbhuta",
+   "raudra"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "panchayat-s1-s3-2020",
+  "title": "Panchayat S1-S3",
+  "year": 2020,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#1a2e0d",
+  "verdict": "The series that made rural India feel like home to everyone.",
+  "era": null,
+  "rasas": [
+   "hasya",
+   "shanta"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "the-family-man-s1-s2-2019",
+  "title": "The Family Man S1-S2",
+  "year": 2019,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#0d1a1a",
+  "verdict": "Manoj Bajpayee. Enough said.",
+  "era": null,
+  "rasas": [
+   "bhayanaka",
+   "hasya"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "paatal-lok-s1-s2-2020",
+  "title": "Paatal Lok S1-S2",
+  "year": 2020,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 93,
+  "score_status": "placeholder",
+  "color": "#1a0d1a",
+  "verdict": "India's most uncomfortable and necessary thriller.",
+  "era": null,
+  "rasas": [
+   "raudra",
+   "bibhatsa"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "kantara-a-legend-chapter-1-2025",
+  "title": "Kantara: A Legend Chapter 1",
+  "year": 2025,
+  "language": "kannada",
+  "poster_path": null,
+  "navras_score": 93,
+  "score_status": "placeholder",
+  "color": "#0d2e1a",
+  "verdict": "The most anticipated follow-up in Indian cinema history.",
+  "era": null,
+  "rasas": [
+   "adbhuta",
+   "veera",
+   "bhayanaka"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "lokah-2025",
+  "title": "Lokah",
+  "year": 2025,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 91,
+  "score_status": "placeholder",
+  "color": "#1a0d2e",
+  "verdict": "The highest-grossing Malayalam film ever made. Spectacular.",
+  "era": null,
+  "rasas": [
+   "adbhuta",
+   "veera"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "saiyaara-2025",
+  "title": "Saiyaara",
+  "year": 2025,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 82,
+  "score_status": "placeholder",
+  "color": "#1a1a2e",
+  "verdict": "Most searched film of 2025 — and it earns the attention.",
+  "era": null,
+  "rasas": [
+   "shringara",
+   "karuna"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "dhurandhar-2025",
+  "title": "Dhurandhar",
+  "year": 2025,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "India's biggest blockbuster of 2025.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "raudra"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "superboys-of-malegaon-2025",
+  "title": "Superboys of Malegaon",
+  "year": 2025,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 87,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "The most heartwarming Indian film of the year.",
+  "era": null,
+  "rasas": [
+   "hasya",
+   "veera"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "coolie-2025",
+  "title": "Coolie",
+  "year": 2025,
+  "language": "tamil",
+  "poster_path": null,
+  "navras_score": 84,
+  "score_status": "placeholder",
+  "color": "#1a0d1a",
+  "verdict": "Rajinikanth in the Lokesh Cinematic Universe. Unmissable.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "raudra"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "war-2-2025",
+  "title": "War 2",
+  "year": 2025,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 68,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Hrithik vs NTR Jr. The spectacle delivers; the story doesn't.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "adbhuta"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "pushpa-2-the-rule-2024",
+  "title": "Pushpa 2: The Rule",
+  "year": 2024,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#2e0d0d",
+  "verdict": "Allu Arjun at the absolute peak of his stardom.",
+  "era": null,
+  "rasas": [
+   "raudra",
+   "veera"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "kumbalangi-nights-2019",
+  "title": "Kumbalangi Nights",
+  "year": 2019,
+  "language": "malayalam",
+  "poster_path": null,
+  "navras_score": 93,
+  "score_status": "placeholder",
+  "color": "#0d1a2e",
+  "verdict": "Four brothers. One home. Malayalam cinema at its most tender.",
+  "era": null,
+  "rasas": [
+   "shanta",
+   "karuna"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "arjun-reddy-2017",
+  "title": "Arjun Reddy",
+  "year": 2017,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 87,
+  "score_status": "placeholder",
+  "color": "#1a0d0d",
+  "verdict": "Divisive, raw, and impossible to forget.",
+  "era": null,
+  "rasas": [
+   "raudra",
+   "shringara"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "theeb-2014",
+  "title": "Theeb",
+  "year": 2014,
+  "language": "arabic",
+  "poster_path": null,
+  "navras_score": 88,
+  "score_status": "placeholder",
+  "color": "#2e2e0d",
+  "verdict": "Jury Prize at Cannes. A co-production with Indian involvement.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "bhayanaka"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "liar-s-dice-2013",
+  "title": "Liar's Dice",
+  "year": 2013,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 84,
+  "score_status": "placeholder",
+  "color": "#0d2e2e",
+  "verdict": "Un Certain Regard selection. India's most underrated recent film.",
+  "era": null,
+  "rasas": [
+   "karuna",
+   "veera"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "mother-india-1957",
+  "title": "Mother India",
+  "year": 1957,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 96,
+  "score_status": "placeholder",
+  "color": "#2e1a0d",
+  "verdict": "Nominated for Best Foreign Film, Oscars 1958. Lost by one vote.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "karuna"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "salaam-bombay-1988",
+  "title": "Salaam Bombay!",
+  "year": 1988,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 94,
+  "score_status": "placeholder",
+  "color": "#1a0d0d",
+  "verdict": "Nominated for Best Foreign Film, Oscars 1989. A landmark in Indian cinema.",
+  "era": null,
+  "rasas": [
+   "karuna",
+   "bibhatsa"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "laapataa-ladies-2024",
+  "title": "Laapataa Ladies",
+  "year": 2024,
+  "language": "hindi",
+  "poster_path": null,
+  "navras_score": 90,
+  "score_status": "placeholder",
+  "color": "#1a2e1a",
+  "verdict": "India's official Oscar entry 2025. Aamir Khan produced. Kiran Rao directs.",
+  "era": null,
+  "rasas": [
+   "hasya",
+   "veera"
+  ],
+  "ott": []
+ },
+ {
+  "slug": "rrr-naatu-naatu-2022",
+  "title": "RRR — Naatu Naatu",
+  "year": 2022,
+  "language": "telugu",
+  "poster_path": null,
+  "navras_score": 95,
+  "score_status": "placeholder",
+  "color": "#2e0d1a",
+  "verdict": "Won Best Original Song at Oscars 2023. India's first competitive Oscar win.",
+  "era": null,
+  "rasas": [
+   "veera",
+   "hasya"
+  ],
+  "ott": []
+ }
+]

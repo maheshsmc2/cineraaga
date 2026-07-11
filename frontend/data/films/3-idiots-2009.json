@@ -1,0 +1,26 @@
+{
+ "slug": "3-idiots-2009",
+ "title": "3 Idiots",
+ "year": 2009,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 95,
+ "score_status": "placeholder",
+ "color": "#1a2e0d",
+ "verdict": "Still the most rewatched film on Netflix India.",
+ "era": "2000s",
+ "rasas": [
+  "hasya",
+  "veera"
+ ],
+ "ott": [
+  {
+   "platform": "netflix"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

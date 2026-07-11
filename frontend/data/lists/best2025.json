@@ -1,0 +1,117 @@
+{
+ "slug": "best2025",
+ "title": "Best Indian Films of 2025 — Navras Ranked",
+ "description": "Kantara Chapter 1, Saiyaara, Lokah and more — every major Indian film of 2025 ranked by Navras.",
+ "category": "trending",
+ "count": 5,
+ "updated_at": null,
+ "intro": "2025 was a year of contrasts in Indian cinema. Mainstream Bollywood leaned into familiarity while Malayalam cinema continued to set the pace. Here are the films that actually mattered.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "The follow-up to one of India's most culturally impactful films.",
+   "film": {
+    "slug": "kantara-a-legend-chapter-1-2025",
+    "title": "Kantara: A Legend Chapter 1",
+    "year": 2025,
+    "language": "kannada",
+    "poster_path": null,
+    "navras_score": 93,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "The most anticipated follow-up in Indian cinema history.",
+    "era": null,
+    "rasas": [
+     "adbhuta",
+     "veera",
+     "bhayanaka"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "The highest-grossing Malayalam film ever made. Spectacular.",
+   "film": {
+    "slug": "lokah-2025",
+    "title": "Lokah",
+    "year": 2025,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 91,
+    "score_status": "placeholder",
+    "color": "#1a0d2e",
+    "verdict": "The highest-grossing Malayalam film ever made. Spectacular.",
+    "era": null,
+    "rasas": [
+     "adbhuta",
+     "veera"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "The romantic comeback Bollywood needed. Ahaan Panday announces himself.",
+   "film": {
+    "slug": "saiyaara-2025",
+    "title": "Saiyaara",
+    "year": 2025,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 82,
+    "score_status": "placeholder",
+    "color": "#1a1a2e",
+    "verdict": "Most searched film of 2025 — and it earns the attention.",
+    "era": null,
+    "rasas": [
+     "shringara",
+     "karuna"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "Ranveer Singh's best performance since Gully Boy.",
+   "film": {
+    "slug": "dhurandhar-2025",
+    "title": "Dhurandhar",
+    "year": 2025,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 88,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "India's biggest blockbuster of 2025.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "raudra"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "The most heartwarming Indian film of the year.",
+   "film": {
+    "slug": "superboys-of-malegaon-2025",
+    "title": "Superboys of Malegaon",
+    "year": 2025,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 87,
+    "score_status": "placeholder",
+    "color": "#2e1a0d",
+    "verdict": "The most heartwarming Indian film of the year.",
+    "era": null,
+    "rasas": [
+     "hasya",
+     "veera"
+    ],
+    "ott": []
+   }
+  }
+ ]
+}

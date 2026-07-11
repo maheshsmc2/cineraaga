@@ -1,0 +1,26 @@
+{
+ "slug": "brahmastra-2022",
+ "title": "Brahmastra",
+ "year": 2022,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 68,
+ "score_status": "placeholder",
+ "color": "#1a0d2e",
+ "verdict": "Visually stunning, narratively ambitious.",
+ "era": "new",
+ "rasas": [
+  "adbhuta",
+  "shringara"
+ ],
+ "ott": [
+  {
+   "platform": "hotstar"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

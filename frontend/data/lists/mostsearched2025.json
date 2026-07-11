@@ -1,0 +1,117 @@
+{
+ "slug": "mostsearched2025",
+ "title": "Most Searched Indian Films of 2025 on Google",
+ "description": "Saiyaara topped Google India 2025 search — here's the full list with Navras scores added.",
+ "category": "trending",
+ "count": 5,
+ "updated_at": null,
+ "intro": "Google India revealed the most-searched Indian films of 2025. We've added Navras scores to every title so you can actually decide what's worth watching.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "Most searched film of 2025 — and it earns the attention.",
+   "film": {
+    "slug": "saiyaara-2025",
+    "title": "Saiyaara",
+    "year": 2025,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 82,
+    "score_status": "placeholder",
+    "color": "#1a1a2e",
+    "verdict": "Most searched film of 2025 — and it earns the attention.",
+    "era": null,
+    "rasas": [
+     "shringara",
+     "karuna"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "The most anticipated follow-up in Indian cinema history.",
+   "film": {
+    "slug": "kantara-a-legend-chapter-1-2025",
+    "title": "Kantara: A Legend Chapter 1",
+    "year": 2025,
+    "language": "kannada",
+    "poster_path": null,
+    "navras_score": 93,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "The most anticipated follow-up in Indian cinema history.",
+    "era": null,
+    "rasas": [
+     "adbhuta",
+     "veera",
+     "bhayanaka"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "Rajinikanth in the Lokesh Cinematic Universe. Unmissable.",
+   "film": {
+    "slug": "coolie-2025",
+    "title": "Coolie",
+    "year": 2025,
+    "language": "tamil",
+    "poster_path": null,
+    "navras_score": 84,
+    "score_status": "placeholder",
+    "color": "#1a0d1a",
+    "verdict": "Rajinikanth in the Lokesh Cinematic Universe. Unmissable.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "raudra"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "India's biggest blockbuster of 2025.",
+   "film": {
+    "slug": "dhurandhar-2025",
+    "title": "Dhurandhar",
+    "year": 2025,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 88,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "India's biggest blockbuster of 2025.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "raudra"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "Hrithik vs NTR Jr. The spectacle delivers; the story doesn't.",
+   "film": {
+    "slug": "war-2-2025",
+    "title": "War 2",
+    "year": 2025,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 68,
+    "score_status": "placeholder",
+    "color": "#0d1a2e",
+    "verdict": "Hrithik vs NTR Jr. The spectacle delivers; the story doesn't.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "adbhuta"
+    ],
+    "ott": []
+   }
+  }
+ ]
+}

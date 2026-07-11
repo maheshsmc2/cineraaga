@@ -1,0 +1,285 @@
+{
+ "rasa": "shanta",
+ "count": 14,
+ "films": [
+  {
+   "slug": "pather-panchali-1955",
+   "title": "Pather Panchali",
+   "year": 1955,
+   "language": "bengali",
+   "poster_path": null,
+   "navras_score": 99,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Best Human Document, Cannes 1956. Where it all began.",
+   "era": null,
+   "rasas": [
+    "karuna",
+    "shanta"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "all-we-imagine-as-light-2024",
+   "title": "All We Imagine as Light",
+   "year": 2024,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 96,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "Grand Prix, Cannes 2024. India's greatest recent triumph at the festival.",
+   "era": "new",
+   "rasas": [
+    "karuna",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "masaan-2015",
+   "title": "Masaan",
+   "year": 2015,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "FIPRESCI Prize and Promising Future Award, Cannes 2015.",
+   "era": "2010s",
+   "rasas": [
+    "karuna",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "panchayat-s1-s3-2020",
+   "title": "Panchayat S1-S3",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "The series that made rural India feel like home to everyone.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "shanta"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "kumbalangi-nights-2019",
+   "title": "Kumbalangi Nights",
+   "year": 2019,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Four brothers. One home. Malayalam cinema at its most tender.",
+   "era": null,
+   "rasas": [
+    "shanta",
+    "karuna"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "panchayat-2020",
+   "title": "Panchayat",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "Rural India, rendered with warmth and truth.",
+   "era": "new",
+   "rasas": [
+    "hasya",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "panchayat-s3-2024",
+   "title": "Panchayat S3",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "The most wholesome Indian series ever made.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "shanta"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "aankhon-dekhi-2013",
+   "title": "Aankhon Dekhi",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#2e2e1a",
+   "verdict": "A small film with an enormous soul.",
+   "era": "2010s",
+   "rasas": [
+    "shanta",
+    "adbhuta"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "ok-kanmani-2015",
+   "title": "OK Kanmani",
+   "year": 2015,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Mani Ratnam's most tender film in decades.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "piku-2015",
+   "title": "Piku",
+   "year": 2015,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 89,
+   "score_status": "placeholder",
+   "color": "#1a2e1a",
+   "verdict": "A road trip that feels like a warm hug.",
+   "era": "2010s",
+   "rasas": [
+    "karuna",
+    "shanta",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "kadvi-hawa-2017",
+   "title": "Kadvi Hawa",
+   "year": 2017,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Climate change and human dignity, perfectly balanced.",
+   "era": "2010s",
+   "rasas": [
+    "shanta",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "newton-2017",
+   "title": "Newton",
+   "year": 2017,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "Democracy in India's most forgotten corners.",
+   "era": "2010s",
+   "rasas": [
+    "bibhatsa",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "lootera-2013",
+   "title": "Lootera",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a1a2e",
+   "verdict": "Visually ravishing. Emotionally devastating.",
+   "era": "2010s",
+   "rasas": [
+    "shanta",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "october-2018",
+   "title": "October",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Shoojit Sircar's most delicate film. Breathtaking.",
+   "era": "2010s",
+   "rasas": [
+    "shanta",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "ok-kanmani-2015",
+ "title": "OK Kanmani",
+ "year": 2015,
+ "language": "tamil",
+ "poster_path": null,
+ "navras_score": 90,
+ "score_status": "placeholder",
+ "color": "#2e1a0d",
+ "verdict": "Mani Ratnam's most tender film in decades.",
+ "era": "2010s",
+ "rasas": [
+  "shringara",
+  "shanta"
+ ],
+ "ott": [
+  {
+   "platform": "hotstar"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

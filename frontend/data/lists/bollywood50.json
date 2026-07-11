@@ -1,0 +1,257 @@
+{
+ "slug": "bollywood50",
+ "title": "50 Greatest Bollywood Films of All Time",
+ "description": "From Mughal-E-Azam to Dangal — the films that defined Hindi cinema across eight decades.",
+ "category": "evergreen",
+ "count": 10,
+ "updated_at": null,
+ "intro": "Bollywood has produced over 100,000 films since its inception. These 50 are the ones that transcend time — films that defined generations, broke records, changed the industry, and continue to be watched, rewatched, and argued about. Ranked by Navras score, cultural impact, and enduring relevance.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "India's most magnificent epic. A landmark in world cinema.",
+   "film": {
+    "slug": "mughal-e-azam-1960",
+    "title": "Mughal-E-Azam",
+    "year": 1960,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 99,
+    "score_status": "placeholder",
+    "color": "#2e2e0d",
+    "verdict": "India's most magnificent epic. A landmark in world cinema.",
+    "era": "classic",
+    "rasas": [
+     "karuna",
+     "adbhuta",
+     "veera",
+     "shringara"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "The film that gave Indian romance its modern face. Timeless.",
+   "film": {
+    "slug": "dilwale-dulhania-le-jayenge-1995",
+    "title": "Dilwale Dulhania Le Jayenge",
+    "year": 1995,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 98,
+    "score_status": "placeholder",
+    "color": "#1a0d2e",
+    "verdict": "The film that gave Indian romance its modern face.",
+    "era": "classic",
+    "rasas": [
+     "shringara",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "Guru Dutt's masterpiece. Poetry in motion.",
+   "film": {
+    "slug": "pyaasa-1957",
+    "title": "Pyaasa",
+    "year": 1957,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 98,
+    "score_status": "placeholder",
+    "color": "#2e1a0d",
+    "verdict": "Guru Dutt's masterpiece. Poetry in motion.",
+    "era": null,
+    "rasas": [
+     "karuna",
+     "raudra"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "The film that took India to the Oscars and deserved to win.",
+   "film": {
+    "slug": "lagaan-2001",
+    "title": "Lagaan",
+    "year": 2001,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 97,
+    "score_status": "placeholder",
+    "color": "#2e2e0d",
+    "verdict": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+    "era": "2000s",
+    "rasas": [
+     "veera",
+     "shringara"
+    ],
+    "ott": [
+     {
+      "platform": "sony"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "Changed how India thinks about children and learning.",
+   "film": {
+    "slug": "taare-zameen-par-2007",
+    "title": "Taare Zameen Par",
+    "year": 2007,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 97,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "Changed how India thinks about children and learning.",
+    "era": "2000s",
+    "rasas": [
+     "karuna",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "hotstar"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 6,
+   "blurb": "The greatest sports film India has produced. Also its biggest.",
+   "film": {
+    "slug": "dangal-2016",
+    "title": "Dangal",
+    "year": 2016,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 96,
+    "score_status": "placeholder",
+    "color": "#1a2e0d",
+    "verdict": "The film that proved Indian sport could power world cinema.",
+    "era": "2010s",
+    "rasas": [
+     "veera",
+     "karuna"
+    ],
+    "ott": [
+     {
+      "platform": "hotstar"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 7,
+   "blurb": "The most rewatched Indian film of its generation.",
+   "film": {
+    "slug": "3-idiots-2009",
+    "title": "3 Idiots",
+    "year": 2009,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#1a2e0d",
+    "verdict": "Still the most rewatched film on Netflix India.",
+    "era": "2000s",
+    "rasas": [
+     "hasya",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 8,
+   "blurb": "The original Indian blockbuster. Jai and Veeru forever.",
+   "film": {
+    "slug": "sholay-1975",
+    "title": "Sholay",
+    "year": 1975,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#2e1a0d",
+    "verdict": "The original Indian blockbuster. Jai and Veeru forever.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "raudra"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 9,
+   "blurb": "The cleverest thriller Bollywood has ever made.",
+   "film": {
+    "slug": "andhadhun-2018",
+    "title": "Andhadhun",
+    "year": 2018,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#1a1a1a",
+    "verdict": "The cleverest thriller Bollywood has ever made.",
+    "era": "2010s",
+    "rasas": [
+     "hasya",
+     "raudra",
+     "bibhatsa",
+     "bhayanaka"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 10,
+   "blurb": "The most original Indian horror film ever made.",
+   "film": {
+    "slug": "tumbbad-2018",
+    "title": "Tumbbad",
+    "year": 2018,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "Watch it tonight with the lights off.",
+    "era": "2010s",
+    "rasas": [
+     "bhayanaka",
+     "bibhatsa"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  }
+ ]
+}

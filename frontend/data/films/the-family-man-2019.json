@@ -1,0 +1,26 @@
+{
+ "slug": "the-family-man-2019",
+ "title": "The Family Man",
+ "year": 2019,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 94,
+ "score_status": "placeholder",
+ "color": "#0d1a1a",
+ "verdict": "The best Indian thriller series ever made.",
+ "era": "new",
+ "rasas": [
+  "bhayanaka",
+  "hasya"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

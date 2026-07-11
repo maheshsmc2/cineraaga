@@ -1,0 +1,26 @@
+{
+ "slug": "mirzapur-2018",
+ "title": "Mirzapur",
+ "year": 2018,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 86,
+ "score_status": "placeholder",
+ "color": "#2e1a0d",
+ "verdict": "Power, violence, and loyalty in the badlands.",
+ "era": "2010s",
+ "rasas": [
+  "raudra",
+  "bibhatsa"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

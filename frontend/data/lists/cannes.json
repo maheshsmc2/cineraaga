@@ -1,0 +1,124 @@
+{
+ "slug": "cannes",
+ "title": "Indian Films That Won at Cannes — Complete List",
+ "description": "From Satyajit Ray to Payal Kapadia — every Indian film to win at the world's greatest film festival.",
+ "category": "awards",
+ "count": 5,
+ "updated_at": null,
+ "intro": "India's relationship with Cannes spans 70 years. From Satyajit Ray's Pather Panchali in 1956 to Payal Kapadia's Grand Prix in 2024, these are the films that put Indian cinema on the world stage.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "Grand Prix, Cannes 2024. India's greatest recent triumph at the festival.",
+   "film": {
+    "slug": "all-we-imagine-as-light-2024",
+    "title": "All We Imagine as Light",
+    "year": 2024,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 96,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "Grand Prix, Cannes 2024. India's greatest recent triumph at the festival.",
+    "era": "new",
+    "rasas": [
+     "karuna",
+     "shanta"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "Best Human Document, Cannes 1956. Where it all began.",
+   "film": {
+    "slug": "pather-panchali-1955",
+    "title": "Pather Panchali",
+    "year": 1955,
+    "language": "bengali",
+    "poster_path": null,
+    "navras_score": 99,
+    "score_status": "placeholder",
+    "color": "#0d1a2e",
+    "verdict": "Best Human Document, Cannes 1956. Where it all began.",
+    "era": null,
+    "rasas": [
+     "karuna",
+     "shanta"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "Jury Prize at Cannes. A co-production with Indian involvement.",
+   "film": {
+    "slug": "theeb-2014",
+    "title": "Theeb",
+    "year": 2014,
+    "language": "arabic",
+    "poster_path": null,
+    "navras_score": 88,
+    "score_status": "placeholder",
+    "color": "#2e2e0d",
+    "verdict": "Jury Prize at Cannes. A co-production with Indian involvement.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "bhayanaka"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "FIPRESCI Prize and Promising Future Award, Cannes 2015.",
+   "film": {
+    "slug": "masaan-2015",
+    "title": "Masaan",
+    "year": 2015,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#1a1a2e",
+    "verdict": "FIPRESCI Prize and Promising Future Award, Cannes 2015.",
+    "era": "2010s",
+    "rasas": [
+     "karuna",
+     "shanta"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "Un Certain Regard selection. India's most underrated recent film.",
+   "film": {
+    "slug": "liar-s-dice-2013",
+    "title": "Liar's Dice",
+    "year": 2013,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 84,
+    "score_status": "placeholder",
+    "color": "#0d2e2e",
+    "verdict": "Un Certain Regard selection. India's most underrated recent film.",
+    "era": null,
+    "rasas": [
+     "karuna",
+     "veera"
+    ],
+    "ott": []
+   }
+  }
+ ]
+}

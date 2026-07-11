@@ -1,0 +1,120 @@
+{
+ "slug": "webseries",
+ "title": "Best Indian Web Series of All Time — Ranked",
+ "description": "From Scam 1992 to Panchayat — every great Indian web series, ranked by Navras score.",
+ "category": "ott",
+ "count": 5,
+ "updated_at": null,
+ "intro": "Indian web series have grown from an afterthought to a global phenomenon in under a decade. These are the ones that defined the format.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "The greatest Indian web series ever made. Not even close.",
+   "film": {
+    "slug": "scam-1992-the-harshad-mehta-story-2020",
+    "title": "Scam 1992: The Harshad Mehta Story",
+    "year": 2020,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 97,
+    "score_status": "placeholder",
+    "color": "#2e2e0d",
+    "verdict": "The greatest Indian web series ever made. Not even close.",
+    "era": null,
+    "rasas": [
+     "adbhuta",
+     "raudra"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "The series that made rural India feel like home to everyone.",
+   "film": {
+    "slug": "panchayat-s1-s3-2020",
+    "title": "Panchayat S1-S3",
+    "year": 2020,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#1a2e0d",
+    "verdict": "The series that made rural India feel like home to everyone.",
+    "era": null,
+    "rasas": [
+     "hasya",
+     "shanta"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "Manoj Bajpayee. Enough said.",
+   "film": {
+    "slug": "the-family-man-s1-s2-2019",
+    "title": "The Family Man S1-S2",
+    "year": 2019,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#0d1a1a",
+    "verdict": "Manoj Bajpayee. Enough said.",
+    "era": null,
+    "rasas": [
+     "bhayanaka",
+     "hasya"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "India's most uncomfortable and necessary thriller.",
+   "film": {
+    "slug": "paatal-lok-s1-s2-2020",
+    "title": "Paatal Lok S1-S2",
+    "year": 2020,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 93,
+    "score_status": "placeholder",
+    "color": "#1a0d1a",
+    "verdict": "India's most uncomfortable and necessary thriller.",
+    "era": null,
+    "rasas": [
+     "raudra",
+     "bibhatsa"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "The most tightly written Indian series of 2024.",
+   "film": {
+    "slug": "ic-814-the-kandahar-hijack-2024",
+    "title": "IC 814: The Kandahar Hijack",
+    "year": 2024,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 91,
+    "score_status": "placeholder",
+    "color": "#1a1a2e",
+    "verdict": "The most tightly written Indian series of 2024.",
+    "era": "new",
+    "rasas": [
+     "bhayanaka",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  }
+ ]
+}

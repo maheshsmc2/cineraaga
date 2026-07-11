@@ -1,0 +1,26 @@
+{
+ "slug": "masaan-2015",
+ "title": "Masaan",
+ "year": 2015,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 95,
+ "score_status": "placeholder",
+ "color": "#1a1a2e",
+ "verdict": "FIPRESCI Prize and Promising Future Award, Cannes 2015.",
+ "era": "2010s",
+ "rasas": [
+  "karuna",
+  "shanta"
+ ],
+ "ott": [
+  {
+   "platform": "netflix"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

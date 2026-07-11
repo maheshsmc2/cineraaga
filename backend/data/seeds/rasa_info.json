@@ -1,0 +1,47 @@
+{
+  "shringara": {
+    "name": "Shringara",
+    "meaning": "Love · Romance · Beauty",
+    "icon": "♡"
+  },
+  "hasya": {
+    "name": "Hasya",
+    "meaning": "Joy · Laughter · Comedy",
+    "icon": "☺"
+  },
+  "karuna": {
+    "name": "Karuna",
+    "meaning": "Sorrow · Compassion",
+    "icon": "◇"
+  },
+  "veera": {
+    "name": "Veera",
+    "meaning": "Courage · Heroism",
+    "icon": "◈"
+  },
+  "bhayanaka": {
+    "name": "Bhayanaka",
+    "meaning": "Fear · Suspense",
+    "icon": "◉"
+  },
+  "adbhuta": {
+    "name": "Adbhuta",
+    "meaning": "Wonder · Fantasy",
+    "icon": "✦"
+  },
+  "raudra": {
+    "name": "Raudra",
+    "meaning": "Anger · Intensity",
+    "icon": "△"
+  },
+  "shanta": {
+    "name": "Shanta",
+    "meaning": "Peace · Serenity",
+    "icon": "〇"
+  },
+  "bibhatsa": {
+    "name": "Bibhatsa",
+    "meaning": "Dark · Gritty",
+    "icon": "▣"
+  }
+}

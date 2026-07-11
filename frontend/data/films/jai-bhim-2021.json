@@ -1,0 +1,26 @@
+{
+ "slug": "jai-bhim-2021",
+ "title": "Jai Bhim",
+ "year": 2021,
+ "language": "tamil/telugu",
+ "poster_path": null,
+ "navras_score": 95,
+ "score_status": "placeholder",
+ "color": "#0d0d2e",
+ "verdict": "Required viewing. One of the most important Indian films ever.",
+ "era": "new",
+ "rasas": [
+  "raudra",
+  "karuna"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

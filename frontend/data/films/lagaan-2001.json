@@ -1,0 +1,26 @@
+{
+ "slug": "lagaan-2001",
+ "title": "Lagaan",
+ "year": 2001,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 97,
+ "score_status": "placeholder",
+ "color": "#2e2e0d",
+ "verdict": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+ "era": "2000s",
+ "rasas": [
+  "veera",
+  "shringara"
+ ],
+ "ott": [
+  {
+   "platform": "sony"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

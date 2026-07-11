@@ -1,0 +1,133 @@
+{
+ "slug": "malayalam35",
+ "title": "35 Best Malayalam Films of All Time",
+ "description": "The golden standard of Indian regional cinema — from Drishyam to All We Imagine as Light.",
+ "category": "language",
+ "count": 5,
+ "updated_at": null,
+ "intro": "Malayalam cinema is currently the most exciting film industry in India — possibly the world. Small budgets, real stories, extraordinary craft. This list is your complete guide.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "The perfect thriller. Remade five times. None come close.",
+   "film": {
+    "slug": "drishyam-2013",
+    "title": "Drishyam",
+    "year": 2013,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 97,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "The perfect thriller. Remade five times. None come close.",
+    "era": "2010s",
+    "rasas": [
+     "hasya",
+     "bhayanaka",
+     "karuna"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "Grand Prix at Cannes 2024. Kerala's most internationally acclaimed film.",
+   "film": {
+    "slug": "all-we-imagine-as-light-2024",
+    "title": "All We Imagine as Light",
+    "year": 2024,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 96,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "Grand Prix, Cannes 2024. India's greatest recent triumph at the festival.",
+    "era": "new",
+    "rasas": [
+     "karuna",
+     "shanta"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "The film that defined a generation of Malayalam youth.",
+   "film": {
+    "slug": "premam-2015",
+    "title": "Premam",
+    "year": 2015,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#2e1a0d",
+    "verdict": "The film that defined a generation of Malayalam youth.",
+    "era": "2010s",
+    "rasas": [
+     "shringara",
+     "hasya"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "Four brothers. One home. Malayalam cinema at its most tender.",
+   "film": {
+    "slug": "kumbalangi-nights-2019",
+    "title": "Kumbalangi Nights",
+    "year": 2019,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 93,
+    "score_status": "placeholder",
+    "color": "#0d1a2e",
+    "verdict": "Four brothers. One home. Malayalam cinema at its most tender.",
+    "era": null,
+    "rasas": [
+     "shanta",
+     "karuna"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "Brotherhood and survival, based on a true story. Unmissable.",
+   "film": {
+    "slug": "manjummel-boys-2024",
+    "title": "Manjummel Boys",
+    "year": 2024,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 91,
+    "score_status": "placeholder",
+    "color": "#0d2e2e",
+    "verdict": "Brotherhood and survival, based on a true story. Unmissable.",
+    "era": "new",
+    "rasas": [
+     "veera",
+     "bhayanaka"
+    ],
+    "ott": [
+     {
+      "platform": "hotstar"
+     }
+    ]
+   }
+  }
+ ]
+}

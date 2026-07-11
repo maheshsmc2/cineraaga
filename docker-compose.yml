@@ -1,0 +1,20 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16   # pgvector ready for month-3 rasa embeddings
+    environment:
+      POSTGRES_USER: cineraaga
+      POSTGRES_PASSWORD: cineraaga
+      POSTGRES_DB: cineraaga
+    ports: ["5432:5432"]
+    volumes: [pgdata:/var/lib/postgresql/data]
+
+  api:
+    build: ./backend
+    env_file: backend/.env
+    environment:
+      DATABASE_URL: postgresql://cineraaga:cineraaga@db:5432/cineraaga
+    ports: ["8000:8000"]
+    depends_on: [db]
+
+volumes:
+  pgdata:

@@ -1,0 +1,422 @@
+{
+ "rasa": "hasya",
+ "count": 21,
+ "films": [
+  {
+   "slug": "drishyam-2013",
+   "title": "Drishyam",
+   "year": 2013,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "The perfect thriller. Remade five times. None come close.",
+   "era": "2010s",
+   "rasas": [
+    "hasya",
+    "bhayanaka",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "3-idiots-2009",
+   "title": "3 Idiots",
+   "year": 2009,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "Still the most rewatched film on Netflix India.",
+   "era": "2000s",
+   "rasas": [
+    "hasya",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "panchayat-s1-s3-2020",
+   "title": "Panchayat S1-S3",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "The series that made rural India feel like home to everyone.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "shanta"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "rrr-naatu-naatu-2022",
+   "title": "RRR — Naatu Naatu",
+   "year": 2022,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#2e0d1a",
+   "verdict": "Won Best Original Song at Oscars 2023. India's first competitive Oscar win.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "hasya"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "andhadhun-2018",
+   "title": "Andhadhun",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#1a1a1a",
+   "verdict": "The cleverest thriller Bollywood has ever made.",
+   "era": "2010s",
+   "rasas": [
+    "hasya",
+    "raudra",
+    "bibhatsa",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "premam-2015",
+   "title": "Premam",
+   "year": 2015,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "The film that defined a generation of Malayalam youth.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "the-family-man-2019",
+   "title": "The Family Man",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "The best Indian thriller series ever made.",
+   "era": "new",
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "the-family-man-s1-s2-2019",
+   "title": "The Family Man S1-S2",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "Manoj Bajpayee. Enough said.",
+   "era": null,
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "the-family-man-s2-2021",
+   "title": "The Family Man S2",
+   "year": 2021,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "Manoj Bajpayee gives the performance of his career.",
+   "era": null,
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "panchayat-2020",
+   "title": "Panchayat",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "Rural India, rendered with warmth and truth.",
+   "era": "new",
+   "rasas": [
+    "hasya",
+    "shanta"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "panchayat-s3-2024",
+   "title": "Panchayat S3",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "The most wholesome Indian series ever made.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "shanta"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "jab-we-met-2007",
+   "title": "Jab We Met",
+   "year": 2007,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 92,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Kareena Kapoor at her most magnetic.",
+   "era": "2000s",
+   "rasas": [
+    "shringara",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "laapataa-ladies-2024",
+   "title": "Laapataa Ladies",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#1a2e1a",
+   "verdict": "India's official Oscar entry 2025. Aamir Khan produced. Kiran Rao directs.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "barfi-2012",
+   "title": "Barfi!",
+   "year": 2012,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 89,
+   "score_status": "placeholder",
+   "color": "#1a2e0d",
+   "verdict": "Charming, wordless, and deeply moving.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "piku-2015",
+   "title": "Piku",
+   "year": 2015,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 89,
+   "score_status": "placeholder",
+   "color": "#1a2e1a",
+   "verdict": "A road trip that feels like a warm hug.",
+   "era": "2010s",
+   "rasas": [
+    "karuna",
+    "shanta",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "khosla-ka-ghosla-2006",
+   "title": "Khosla Ka Ghosla!",
+   "year": 2006,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "A masterpiece of middle-class Indian humour.",
+   "era": "2000s",
+   "rasas": [
+    "hasya",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "stree-2018",
+   "title": "Stree",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "Horror-comedy that actually delivers on both.",
+   "era": "2010s",
+   "rasas": [
+    "bhayanaka",
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "stree-2-2024",
+   "title": "Stree 2",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "The horror comedy sequel that broke every box office record.",
+   "era": "new",
+   "rasas": [
+    "hasya",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "superboys-of-malegaon-2025",
+   "title": "Superboys of Malegaon",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "The most heartwarming Indian film of the year.",
+   "era": null,
+   "rasas": [
+    "hasya",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "jaane-tu-ya-jaane-na-2008",
+   "title": "Jaane Tu... Ya Jaane Na",
+   "year": 2008,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Light as air, sweet as mithai.",
+   "era": "2000s",
+   "rasas": [
+    "hasya",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "golmaal-fun-unlimited-2006",
+   "title": "Golmaal: Fun Unlimited",
+   "year": 2006,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 82,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "The blueprint for Rohit Shetty's comedy empire.",
+   "era": "2000s",
+   "rasas": [
+    "hasya"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  }
+ ]
+}

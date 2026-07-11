@@ -1,0 +1,124 @@
+{
+ "slug": "prime2025",
+ "title": "Best Indian Films on Prime Video (2025)",
+ "description": "From Stree 2 to Panchayat — the best Indian content on Amazon Prime Video right now.",
+ "category": "ott",
+ "count": 5,
+ "updated_at": null,
+ "intro": "Amazon Prime Video has quietly become the home of India's best web series and a growing library of films. Here's the Navras guide to what's worth watching.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "The horror comedy sequel that broke every box office record.",
+   "film": {
+    "slug": "stree-2-2024",
+    "title": "Stree 2",
+    "year": 2024,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 87,
+    "score_status": "placeholder",
+    "color": "#1a0d2e",
+    "verdict": "The horror comedy sequel that broke every box office record.",
+    "era": "new",
+    "rasas": [
+     "hasya",
+     "bhayanaka"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "The most wholesome Indian series ever made.",
+   "film": {
+    "slug": "panchayat-s3-2024",
+    "title": "Panchayat S3",
+    "year": 2024,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 93,
+    "score_status": "placeholder",
+    "color": "#1a2e0d",
+    "verdict": "The most wholesome Indian series ever made.",
+    "era": null,
+    "rasas": [
+     "hasya",
+     "shanta"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "A sequel that surpasses the original. Watch back to back.",
+   "film": {
+    "slug": "drishyam-2-2021",
+    "title": "Drishyam 2",
+    "year": 2021,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 91,
+    "score_status": "placeholder",
+    "color": "#0d1a2e",
+    "verdict": "A sequel that surpasses the original. Watch back to back.",
+    "era": "new",
+    "rasas": [
+     "karuna",
+     "bhayanaka"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "Manoj Bajpayee gives the performance of his career.",
+   "film": {
+    "slug": "the-family-man-s2-2021",
+    "title": "The Family Man S2",
+    "year": 2021,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#0d1a1a",
+    "verdict": "Manoj Bajpayee gives the performance of his career.",
+    "era": null,
+    "rasas": [
+     "bhayanaka",
+     "hasya"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "The Mirzapur universe reaches its most complex chapter.",
+   "film": {
+    "slug": "mirzapur-s3-2024",
+    "title": "Mirzapur S3",
+    "year": 2024,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 82,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "The Mirzapur universe reaches its most complex chapter.",
+    "era": null,
+    "rasas": [
+     "raudra",
+     "bhayanaka"
+    ],
+    "ott": []
+   }
+  }
+ ]
+}

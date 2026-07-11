@@ -1,0 +1,27 @@
+{
+ "slug": "article-15-2019",
+ "title": "Article 15",
+ "year": 2019,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 88,
+ "score_status": "placeholder",
+ "color": "#0d1a1a",
+ "verdict": "Caste, power, and the ugliness India hides.",
+ "era": "new",
+ "rasas": [
+  "raudra",
+  "bibhatsa",
+  "karuna"
+ ],
+ "ott": [
+  {
+   "platform": "zee5"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

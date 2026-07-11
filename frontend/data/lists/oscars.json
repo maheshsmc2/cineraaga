@@ -1,0 +1,120 @@
+{
+ "slug": "oscars",
+ "title": "Indian Films at the Oscars — Every Entry Ever",
+ "description": "India's complete Oscar history — which films were submitted, which were nominated, and which won.",
+ "category": "awards",
+ "count": 5,
+ "updated_at": null,
+ "intro": "India has been submitting films to the Academy Awards since 1957. Only three have received nominations. Here's the complete, honest story of Indian cinema at the Oscars.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+   "film": {
+    "slug": "lagaan-2001",
+    "title": "Lagaan",
+    "year": 2001,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 97,
+    "score_status": "placeholder",
+    "color": "#2e2e0d",
+    "verdict": "Nominated for Best Foreign Film, Oscars 2002. India's greatest Oscar moment.",
+    "era": "2000s",
+    "rasas": [
+     "veera",
+     "shringara"
+    ],
+    "ott": [
+     {
+      "platform": "sony"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "Nominated for Best Foreign Film, Oscars 1958. Lost by one vote.",
+   "film": {
+    "slug": "mother-india-1957",
+    "title": "Mother India",
+    "year": 1957,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 96,
+    "score_status": "placeholder",
+    "color": "#2e1a0d",
+    "verdict": "Nominated for Best Foreign Film, Oscars 1958. Lost by one vote.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "karuna"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "Nominated for Best Foreign Film, Oscars 1989. A landmark in Indian cinema.",
+   "film": {
+    "slug": "salaam-bombay-1988",
+    "title": "Salaam Bombay!",
+    "year": 1988,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#1a0d0d",
+    "verdict": "Nominated for Best Foreign Film, Oscars 1989. A landmark in Indian cinema.",
+    "era": null,
+    "rasas": [
+     "karuna",
+     "bibhatsa"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "India's official Oscar entry 2025. Aamir Khan produced. Kiran Rao directs.",
+   "film": {
+    "slug": "laapataa-ladies-2024",
+    "title": "Laapataa Ladies",
+    "year": 2024,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 90,
+    "score_status": "placeholder",
+    "color": "#1a2e1a",
+    "verdict": "India's official Oscar entry 2025. Aamir Khan produced. Kiran Rao directs.",
+    "era": null,
+    "rasas": [
+     "hasya",
+     "veera"
+    ],
+    "ott": []
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "Won Best Original Song at Oscars 2023. India's first competitive Oscar win.",
+   "film": {
+    "slug": "rrr-naatu-naatu-2022",
+    "title": "RRR — Naatu Naatu",
+    "year": 2022,
+    "language": "telugu",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#2e0d1a",
+    "verdict": "Won Best Original Song at Oscars 2023. India's first competitive Oscar win.",
+    "era": null,
+    "rasas": [
+     "veera",
+     "hasya"
+    ],
+    "ott": []
+   }
+  }
+ ]
+}

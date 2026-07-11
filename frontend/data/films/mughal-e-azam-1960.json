@@ -1,0 +1,28 @@
+{
+ "slug": "mughal-e-azam-1960",
+ "title": "Mughal-E-Azam",
+ "year": 1960,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 99,
+ "score_status": "placeholder",
+ "color": "#2e2e0d",
+ "verdict": "India's most magnificent epic. A landmark in world cinema.",
+ "era": "classic",
+ "rasas": [
+  "karuna",
+  "adbhuta",
+  "veera",
+  "shringara"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

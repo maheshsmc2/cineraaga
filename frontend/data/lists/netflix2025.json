@@ -1,0 +1,213 @@
+{
+ "slug": "netflix2025",
+ "title": "Best Indian Films on Netflix Right Now (2025)",
+ "description": "The definitive guide to Indian cinema on Netflix — ranked by Navras score, not algorithm.",
+ "category": "ott",
+ "count": 8,
+ "updated_at": null,
+ "intro": "Netflix India has thousands of titles but finding the best is nearly impossible with their algorithm. We've done it for you — every Indian film worth watching on Netflix right now, ranked by Navras score.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "India's most gripping series based on true events.",
+   "film": {
+    "slug": "ic-814-the-kandahar-hijack-2024",
+    "title": "IC 814: The Kandahar Hijack",
+    "year": 2024,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 91,
+    "score_status": "placeholder",
+    "color": "#1a1a2e",
+    "verdict": "The most tightly written Indian series of 2024.",
+    "era": "new",
+    "rasas": [
+     "bhayanaka",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "India's most celebrated film at Cannes 2024.",
+   "film": {
+    "slug": "all-we-imagine-as-light-2024",
+    "title": "All We Imagine as Light",
+    "year": 2024,
+    "language": "malayalam",
+    "poster_path": null,
+    "navras_score": 96,
+    "score_status": "placeholder",
+    "color": "#0d2e1a",
+    "verdict": "Grand Prix, Cannes 2024. India's greatest recent triumph at the festival.",
+    "era": "new",
+    "rasas": [
+     "karuna",
+     "shanta"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "If you haven't seen it, stop everything and watch it now.",
+   "film": {
+    "slug": "gangs-of-wasseypur-2012",
+    "title": "Gangs of Wasseypur",
+    "year": 2012,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 97,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "If you haven't seen it, stop everything and watch it now.",
+    "era": "2010s",
+    "rasas": [
+     "raudra",
+     "bibhatsa"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 4,
+   "blurb": "The most poetic Indian film of the last decade.",
+   "film": {
+    "slug": "masaan-2015",
+    "title": "Masaan",
+    "year": 2015,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#1a1a2e",
+    "verdict": "FIPRESCI Prize and Promising Future Award, Cannes 2015.",
+    "era": "2010s",
+    "rasas": [
+     "karuna",
+     "shanta"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 5,
+   "blurb": "Still the most rewatched film on Netflix India.",
+   "film": {
+    "slug": "3-idiots-2009",
+    "title": "3 Idiots",
+    "year": 2009,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#1a2e0d",
+    "verdict": "Still the most rewatched film on Netflix India.",
+    "era": "2000s",
+    "rasas": [
+     "hasya",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 6,
+   "blurb": "The cleverest thriller Bollywood has ever made.",
+   "film": {
+    "slug": "andhadhun-2018",
+    "title": "Andhadhun",
+    "year": 2018,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#1a1a1a",
+    "verdict": "The cleverest thriller Bollywood has ever made.",
+    "era": "2010s",
+    "rasas": [
+     "hasya",
+     "raudra",
+     "bibhatsa",
+     "bhayanaka"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 7,
+   "blurb": "Watch it tonight with the lights off.",
+   "film": {
+    "slug": "tumbbad-2018",
+    "title": "Tumbbad",
+    "year": 2018,
+    "language": "hindi",
+    "poster_path": null,
+    "navras_score": 94,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "Watch it tonight with the lights off.",
+    "era": "2010s",
+    "rasas": [
+     "bhayanaka",
+     "bibhatsa"
+    ],
+    "ott": [
+     {
+      "platform": "prime"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 8,
+   "blurb": "The film that introduced Indian mass cinema to the world.",
+   "film": {
+    "slug": "rrr-2022",
+    "title": "RRR",
+    "year": 2022,
+    "language": "telugu",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#2e0d1a",
+    "verdict": "The film that made the world fall in love with Indian mass cinema.",
+    "era": "new",
+    "rasas": [
+     "veera",
+     "raudra"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  }
+ ]
+}

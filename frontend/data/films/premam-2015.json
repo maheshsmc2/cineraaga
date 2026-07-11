@@ -1,0 +1,26 @@
+{
+ "slug": "premam-2015",
+ "title": "Premam",
+ "year": 2015,
+ "language": "malayalam",
+ "poster_path": null,
+ "navras_score": 94,
+ "score_status": "placeholder",
+ "color": "#2e1a0d",
+ "verdict": "The film that defined a generation of Malayalam youth.",
+ "era": "2010s",
+ "rasas": [
+  "shringara",
+  "hasya"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

@@ -1,0 +1,27 @@
+{
+ "slug": "drishyam-2013",
+ "title": "Drishyam",
+ "year": 2013,
+ "language": "malayalam",
+ "poster_path": null,
+ "navras_score": 97,
+ "score_status": "placeholder",
+ "color": "#0d2e1a",
+ "verdict": "The perfect thriller. Remade five times. None come close.",
+ "era": "2010s",
+ "rasas": [
+  "hasya",
+  "bhayanaka",
+  "karuna"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

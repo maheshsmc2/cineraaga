@@ -1,0 +1,26 @@
+{
+ "slug": "rrr-2022",
+ "title": "RRR",
+ "year": 2022,
+ "language": "telugu",
+ "poster_path": null,
+ "navras_score": 95,
+ "score_status": "placeholder",
+ "color": "#2e0d1a",
+ "verdict": "The film that made the world fall in love with Indian mass cinema.",
+ "era": "new",
+ "rasas": [
+  "veera",
+  "raudra"
+ ],
+ "ott": [
+  {
+   "platform": "netflix"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

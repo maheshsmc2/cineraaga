@@ -1,0 +1,287 @@
+{
+ "rasa": "adbhuta",
+ "count": 14,
+ "films": [
+  {
+   "slug": "mughal-e-azam-1960",
+   "title": "Mughal-E-Azam",
+   "year": 1960,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 99,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "India's most magnificent epic. A landmark in world cinema.",
+   "era": "classic",
+   "rasas": [
+    "karuna",
+    "adbhuta",
+    "veera",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "scam-1992-the-harshad-mehta-story-2020",
+   "title": "Scam 1992: The Harshad Mehta Story",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "The greatest Indian web series ever made. Not even close.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "baahubali-2-2017",
+   "title": "Baahubali 2",
+   "year": 2017,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 96,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "India's most spectacular blockbuster. A modern epic.",
+   "era": "2010s",
+   "rasas": [
+    "veera",
+    "adbhuta"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "kantara-a-legend-chapter-1-2025",
+   "title": "Kantara: A Legend Chapter 1",
+   "year": 2025,
+   "language": "kannada",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "The most anticipated follow-up in Indian cinema history.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "veera",
+    "bhayanaka"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "baahubali-2-the-conclusion-2017",
+   "title": "Baahubali 2: The Conclusion",
+   "year": 2017,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 92,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "India's most spectacular blockbuster. A modern epic.",
+   "era": "2010s",
+   "rasas": [
+    "adbhuta",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "kanguva-2024",
+   "title": "Kanguva",
+   "year": 2024,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "Tamil cinema's most ambitious production design ever.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "adbhuta"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "kantara-2022",
+   "title": "Kantara",
+   "year": 2022,
+   "language": "kannada",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#0d2e1a",
+   "verdict": "A primal, spiritual, unforgettable experience.",
+   "era": "new",
+   "rasas": [
+    "adbhuta",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "lokah-2025",
+   "title": "Lokah",
+   "year": 2025,
+   "language": "malayalam",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "The highest-grossing Malayalam film ever made. Spectacular.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "aankhon-dekhi-2013",
+   "title": "Aankhon Dekhi",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#2e2e1a",
+   "verdict": "A small film with an enormous soul.",
+   "era": "2010s",
+   "rasas": [
+    "shanta",
+    "adbhuta"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "enthiran-2010",
+   "title": "Enthiran",
+   "year": 2010,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Rajinikanth as a robot. That's the pitch.",
+   "era": "2010s",
+   "rasas": [
+    "adbhuta",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "2-0-2018",
+   "title": "2.0",
+   "year": 2018,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 75,
+   "score_status": "placeholder",
+   "color": "#0d0d2e",
+   "verdict": "Rajinikanth vs Akshay Kumar. Pure spectacle.",
+   "era": "2010s",
+   "rasas": [
+    "adbhuta",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "kalki-2898-ad-2024",
+   "title": "Kalki 2898-AD",
+   "year": 2024,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 74,
+   "score_status": "placeholder",
+   "color": "#1a1a0d",
+   "verdict": "Mythology meets sci-fi in an ambitious gamble.",
+   "era": "new",
+   "rasas": [
+    "adbhuta",
+    "veera"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "brahmastra-2022",
+   "title": "Brahmastra",
+   "year": 2022,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 68,
+   "score_status": "placeholder",
+   "color": "#1a0d2e",
+   "verdict": "Visually stunning, narratively ambitious.",
+   "era": "new",
+   "rasas": [
+    "adbhuta",
+    "shringara"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "war-2-2025",
+   "title": "War 2",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 68,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Hrithik vs NTR Jr. The spectacle delivers; the story doesn't.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "adbhuta"
+   ],
+   "ott": []
+  }
+ ]
+}

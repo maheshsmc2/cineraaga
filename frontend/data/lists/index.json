@@ -1,0 +1,106 @@
+[
+ {
+  "slug": "bollywood50",
+  "title": "50 Greatest Bollywood Films of All Time",
+  "description": "From Mughal-E-Azam to Dangal — the films that defined Hindi cinema across eight decades.",
+  "category": "evergreen",
+  "count": 10,
+  "updated_at": null
+ },
+ {
+  "slug": "alltime100",
+  "title": "100 Greatest Indian Films of All Time — All Languages",
+  "description": "The complete Navras canon — spanning Bollywood, Tamil, Telugu, Malayalam, Bengali and beyond.",
+  "category": "evergreen",
+  "count": 10,
+  "updated_at": null
+ },
+ {
+  "slug": "netflix2025",
+  "title": "Best Indian Films on Netflix Right Now (2025)",
+  "description": "The definitive guide to Indian cinema on Netflix — ranked by Navras score, not algorithm.",
+  "category": "ott",
+  "count": 8,
+  "updated_at": null
+ },
+ {
+  "slug": "prime2025",
+  "title": "Best Indian Films on Prime Video (2025)",
+  "description": "From Stree 2 to Panchayat — the best Indian content on Amazon Prime Video right now.",
+  "category": "ott",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "webseries",
+  "title": "Best Indian Web Series of All Time — Ranked",
+  "description": "From Scam 1992 to Panchayat — every great Indian web series, ranked by Navras score.",
+  "category": "ott",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "best2025",
+  "title": "Best Indian Films of 2025 — Navras Ranked",
+  "description": "Kantara Chapter 1, Saiyaara, Lokah and more — every major Indian film of 2025 ranked by Navras.",
+  "category": "trending",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "mostsearched2025",
+  "title": "Most Searched Indian Films of 2025 on Google",
+  "description": "Saiyaara topped Google India 2025 search — here's the full list with Navras scores added.",
+  "category": "trending",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "pushpa2rrr",
+  "title": "Pushpa 2 vs RRR vs Baahubali 2 — Greatest Indian Mass Film?",
+  "description": "Three giants of Indian cinema. Which one truly reigns? Navras settles the debate with data.",
+  "category": "trending",
+  "count": 3,
+  "updated_at": null
+ },
+ {
+  "slug": "malayalam35",
+  "title": "35 Best Malayalam Films of All Time",
+  "description": "The golden standard of Indian regional cinema — from Drishyam to All We Imagine as Light.",
+  "category": "language",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "tamil25",
+  "title": "25 Tamil Films Everyone Must Watch",
+  "description": "From Nayakan to Vikram — the definitive Navras guide to Tamil cinema's greatest films.",
+  "category": "language",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "telugu20",
+  "title": "20 Greatest Telugu Films — The Tollywood Canon",
+  "description": "From Baahubali to RRR — the films that made Telugu cinema a global force.",
+  "category": "language",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "cannes",
+  "title": "Indian Films That Won at Cannes — Complete List",
+  "description": "From Satyajit Ray to Payal Kapadia — every Indian film to win at the world's greatest film festival.",
+  "category": "awards",
+  "count": 5,
+  "updated_at": null
+ },
+ {
+  "slug": "oscars",
+  "title": "Indian Films at the Oscars — Every Entry Ever",
+  "description": "India's complete Oscar history — which films were submitted, which were nominated, and which won.",
+  "category": "awards",
+  "count": 5,
+  "updated_at": null
+ }
+]

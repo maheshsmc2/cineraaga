@@ -1,0 +1,26 @@
+{
+ "slug": "khakee-2023",
+ "title": "Khakee",
+ "year": 2023,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 87,
+ "score_status": "placeholder",
+ "color": "#1a1a0d",
+ "verdict": "The cat-and-mouse thriller India needed.",
+ "era": "new",
+ "rasas": [
+  "raudra",
+  "bhayanaka"
+ ],
+ "ott": [
+  {
+   "platform": "netflix"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

@@ -1,0 +1,515 @@
+{
+ "rasa": "raudra",
+ "count": 26,
+ "films": [
+  {
+   "slug": "nayakan-1987",
+   "title": "Nayakan",
+   "year": 1987,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 98,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "India's answer to The Godfather. Kamal Haasan's greatest.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "karuna"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "pyaasa-1957",
+   "title": "Pyaasa",
+   "year": 1957,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 98,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Guru Dutt's masterpiece. Poetry in motion.",
+   "era": null,
+   "rasas": [
+    "karuna",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "gangs-of-wasseypur-2012",
+   "title": "Gangs of Wasseypur",
+   "year": 2012,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "If you haven't seen it, stop everything and watch it now.",
+   "era": "2010s",
+   "rasas": [
+    "raudra",
+    "bibhatsa"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "scam-1992-the-harshad-mehta-story-2020",
+   "title": "Scam 1992: The Harshad Mehta Story",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 97,
+   "score_status": "placeholder",
+   "color": "#2e2e0d",
+   "verdict": "The greatest Indian web series ever made. Not even close.",
+   "era": null,
+   "rasas": [
+    "adbhuta",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "jai-bhim-2021",
+   "title": "Jai Bhim",
+   "year": 2021,
+   "language": "tamil/telugu",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#0d0d2e",
+   "verdict": "Required viewing. One of the most important Indian films ever.",
+   "era": "new",
+   "rasas": [
+    "raudra",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "rrr-2022",
+   "title": "RRR",
+   "year": 2022,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#2e0d1a",
+   "verdict": "The film that made the world fall in love with Indian mass cinema.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "sholay-1975",
+   "title": "Sholay",
+   "year": 1975,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 95,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "The original Indian blockbuster. Jai and Veeru forever.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "andhadhun-2018",
+   "title": "Andhadhun",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 94,
+   "score_status": "placeholder",
+   "color": "#1a1a1a",
+   "verdict": "The cleverest thriller Bollywood has ever made.",
+   "era": "2010s",
+   "rasas": [
+    "hasya",
+    "raudra",
+    "bibhatsa",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "paatal-lok-s1-s2-2020",
+   "title": "Paatal Lok S1-S2",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 93,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "India's most uncomfortable and necessary thriller.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "bibhatsa"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "ugly-2013",
+   "title": "Ugly",
+   "year": 2013,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 91,
+   "score_status": "placeholder",
+   "color": "#1a1a1a",
+   "verdict": "Anurag Kashyap's darkest and most honest film.",
+   "era": "2010s",
+   "rasas": [
+    "bibhatsa",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "vikram-2022",
+   "title": "Vikram",
+   "year": 2022,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 90,
+   "score_status": "placeholder",
+   "color": "#2e0d1a",
+   "verdict": "Three legends. One unstoppable collision of Tamil mass cinema.",
+   "era": "new",
+   "rasas": [
+    "bhayanaka",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "article-15-2019",
+   "title": "Article 15",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#0d1a1a",
+   "verdict": "Caste, power, and the ugliness India hides.",
+   "era": "new",
+   "rasas": [
+    "raudra",
+    "bibhatsa",
+    "karuna"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "dhurandhar-2025",
+   "title": "Dhurandhar",
+   "year": 2025,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "India's biggest blockbuster of 2025.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "enthiran-2010",
+   "title": "Enthiran",
+   "year": 2010,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "Rajinikanth as a robot. That's the pitch.",
+   "era": "2010s",
+   "rasas": [
+    "adbhuta",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  },
+  {
+   "slug": "khosla-ka-ghosla-2006",
+   "title": "Khosla Ka Ghosla!",
+   "year": 2006,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "A masterpiece of middle-class Indian humour.",
+   "era": "2000s",
+   "rasas": [
+    "hasya",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "zee5"
+    }
+   ]
+  },
+  {
+   "slug": "pushpa-2-the-rule-2024",
+   "title": "Pushpa 2: The Rule",
+   "year": 2024,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "Allu Arjun at the absolute peak of his stardom.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "veera"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "rockstar-2011",
+   "title": "Rockstar",
+   "year": 2011,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 88,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "Ranbir Kapoor's greatest performance.",
+   "era": "2010s",
+   "rasas": [
+    "shringara",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "arjun-reddy-2017",
+   "title": "Arjun Reddy",
+   "year": 2017,
+   "language": "telugu",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a0d0d",
+   "verdict": "Divisive, raw, and impossible to forget.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "shringara"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "kapoor-sons-2016",
+   "title": "Kapoor & Sons",
+   "year": 2016,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#2e1a1a",
+   "verdict": "The most honest Indian family drama in years.",
+   "era": "2010s",
+   "rasas": [
+    "karuna",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "khakee-2023",
+   "title": "Khakee",
+   "year": 2023,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 87,
+   "score_status": "placeholder",
+   "color": "#1a1a0d",
+   "verdict": "The cat-and-mouse thriller India needed.",
+   "era": "new",
+   "rasas": [
+    "raudra",
+    "bhayanaka"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "mirzapur-2018",
+   "title": "Mirzapur",
+   "year": 2018,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 86,
+   "score_status": "placeholder",
+   "color": "#2e1a0d",
+   "verdict": "Power, violence, and loyalty in the badlands.",
+   "era": "2010s",
+   "rasas": [
+    "raudra",
+    "bibhatsa"
+   ],
+   "ott": [
+    {
+     "platform": "prime"
+    }
+   ]
+  },
+  {
+   "slug": "uri-the-surgical-strike-2019",
+   "title": "Uri: The Surgical Strike",
+   "year": 2019,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 85,
+   "score_status": "placeholder",
+   "color": "#0d1a2e",
+   "verdict": "How's the josh? High, sir. Very high.",
+   "era": "new",
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "coolie-2025",
+   "title": "Coolie",
+   "year": 2025,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "Rajinikanth in the Lokesh Cinematic Universe. Unmissable.",
+   "era": null,
+   "rasas": [
+    "veera",
+    "raudra"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "raat-akeli-hai-2020",
+   "title": "Raat Akeli Hai",
+   "year": 2020,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 84,
+   "score_status": "placeholder",
+   "color": "#1a0d1a",
+   "verdict": "Nawazuddin in a murder mystery soaked in class tension.",
+   "era": "new",
+   "rasas": [
+    "bibhatsa",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "netflix"
+    }
+   ]
+  },
+  {
+   "slug": "mirzapur-s3-2024",
+   "title": "Mirzapur S3",
+   "year": 2024,
+   "language": "hindi",
+   "poster_path": null,
+   "navras_score": 82,
+   "score_status": "placeholder",
+   "color": "#2e0d0d",
+   "verdict": "The Mirzapur universe reaches its most complex chapter.",
+   "era": null,
+   "rasas": [
+    "raudra",
+    "bhayanaka"
+   ],
+   "ott": []
+  },
+  {
+   "slug": "2-0-2018",
+   "title": "2.0",
+   "year": 2018,
+   "language": "tamil",
+   "poster_path": null,
+   "navras_score": 75,
+   "score_status": "placeholder",
+   "color": "#0d0d2e",
+   "verdict": "Rajinikanth vs Akshay Kumar. Pure spectacle.",
+   "era": "2010s",
+   "rasas": [
+    "adbhuta",
+    "raudra"
+   ],
+   "ott": [
+    {
+     "platform": "hotstar"
+    }
+   ]
+  }
+ ]
+}

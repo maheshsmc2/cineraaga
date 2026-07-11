@@ -1,0 +1,26 @@
+{
+ "slug": "vikram-2022",
+ "title": "Vikram",
+ "year": 2022,
+ "language": "tamil",
+ "poster_path": null,
+ "navras_score": 90,
+ "score_status": "placeholder",
+ "color": "#2e0d1a",
+ "verdict": "Three legends. One unstoppable collision of Tamil mass cinema.",
+ "era": "new",
+ "rasas": [
+  "bhayanaka",
+  "raudra"
+ ],
+ "ott": [
+  {
+   "platform": "hotstar"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

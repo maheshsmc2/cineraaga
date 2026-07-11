@@ -1,0 +1,27 @@
+{
+ "slug": "piku-2015",
+ "title": "Piku",
+ "year": 2015,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 89,
+ "score_status": "placeholder",
+ "color": "#1a2e1a",
+ "verdict": "A road trip that feels like a warm hug.",
+ "era": "2010s",
+ "rasas": [
+  "karuna",
+  "shanta",
+  "hasya"
+ ],
+ "ott": [
+  {
+   "platform": "prime"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}

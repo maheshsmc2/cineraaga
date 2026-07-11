@@ -1,0 +1,82 @@
+{
+ "slug": "pushpa2rrr",
+ "title": "Pushpa 2 vs RRR vs Baahubali 2 — Greatest Indian Mass Film?",
+ "description": "Three giants of Indian cinema. Which one truly reigns? Navras settles the debate with data.",
+ "category": "trending",
+ "count": 3,
+ "updated_at": null,
+ "intro": "Three films that redefined what Indian mass cinema could achieve globally. We break down each one across six dimensions to settle this once and for all.",
+ "entries": [
+  {
+   "rank": 1,
+   "blurb": "The film that made the world fall in love with Indian mass cinema.",
+   "film": {
+    "slug": "rrr-2022",
+    "title": "RRR",
+    "year": 2022,
+    "language": "telugu",
+    "poster_path": null,
+    "navras_score": 95,
+    "score_status": "placeholder",
+    "color": "#2e0d1a",
+    "verdict": "The film that made the world fall in love with Indian mass cinema.",
+    "era": "new",
+    "rasas": [
+     "veera",
+     "raudra"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 2,
+   "blurb": "India's most spectacular world-building achievement.",
+   "film": {
+    "slug": "baahubali-2-the-conclusion-2017",
+    "title": "Baahubali 2: The Conclusion",
+    "year": 2017,
+    "language": "telugu",
+    "poster_path": null,
+    "navras_score": 92,
+    "score_status": "placeholder",
+    "color": "#2e1a0d",
+    "verdict": "India's most spectacular blockbuster. A modern epic.",
+    "era": "2010s",
+    "rasas": [
+     "adbhuta",
+     "veera"
+    ],
+    "ott": [
+     {
+      "platform": "netflix"
+     }
+    ]
+   }
+  },
+  {
+   "rank": 3,
+   "blurb": "Allu Arjun's greatest performance. The numbers don't lie.",
+   "film": {
+    "slug": "pushpa-2-the-rule-2024",
+    "title": "Pushpa 2: The Rule",
+    "year": 2024,
+    "language": "telugu",
+    "poster_path": null,
+    "navras_score": 88,
+    "score_status": "placeholder",
+    "color": "#2e0d0d",
+    "verdict": "Allu Arjun at the absolute peak of his stardom.",
+    "era": null,
+    "rasas": [
+     "raudra",
+     "veera"
+    ],
+    "ott": []
+   }
+  }
+ ]
+}

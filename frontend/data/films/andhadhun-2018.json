@@ -1,0 +1,28 @@
+{
+ "slug": "andhadhun-2018",
+ "title": "Andhadhun",
+ "year": 2018,
+ "language": "hindi",
+ "poster_path": null,
+ "navras_score": 94,
+ "score_status": "placeholder",
+ "color": "#1a1a1a",
+ "verdict": "The cleverest thriller Bollywood has ever made.",
+ "era": "2010s",
+ "rasas": [
+  "hasya",
+  "raudra",
+  "bibhatsa",
+  "bhayanaka"
+ ],
+ "ott": [
+  {
+   "platform": "netflix"
+  }
+ ],
+ "tmdb_id": null,
+ "backdrop_path": null,
+ "overview": null,
+ "ott_checked_at": null,
+ "review_slug": null
+}
