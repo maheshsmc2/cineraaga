@@ -177,7 +177,7 @@
   margin-bottom: 14px; flex-wrap: wrap;
 }
 
-.navras-score-big {
+.audience-score-big {
   width: 80px; height: 80px; border-radius: 12px;
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
@@ -185,9 +185,9 @@
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }
 
-.navras-score-big.green { background: #1A7A3C; }
-.navras-score-big.amber { background: #C47A00; }
-.navras-score-big.red { background: #C0392B; }
+.audience-score-big.green { background: #1A7A3C; }
+.audience-score-big.amber { background: #C47A00; }
+.audience-score-big.red { background: #C0392B; }
 
 .nsb-num { font-size: 32px; font-weight: 700; line-height: 1; }
 .nsb-label { font-size: 8px; font-weight: 700; opacity: 0.85; margin-top: 3px; letter-spacing: 0.06em; }

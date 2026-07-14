@@ -52,10 +52,10 @@ function buildParams() {
 /* ---- Render a single film card ---- */
 function renderCard(film) {
   const posterUrl = TMDB.poster(film.poster_path, 'w342');
-  const score = TMDB.navrasScore(film.vote_average, film.vote_count);
+  const score = TMDB.audienceRating(film.vote_average, film.vote_count);
   const scoreColor = TMDB.scoreColor(score);
   const dotClass = TMDB.scoreDotClass(score);
-  const rasas = TMDB.rasaFromGenres(film.genre_ids?.map(id => ({ id })) || film.genres || []);
+  const rasas = TMDB.genreTags(film.genre_ids?.map(id => ({ id })) || film.genres || []);
   const lang = film.original_language;
   const langName = langNames[lang] || lang?.toUpperCase() || '';
   const year = film.release_date ? film.release_date.slice(0, 4) : '';

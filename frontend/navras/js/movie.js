@@ -19,32 +19,27 @@ const industryNames = {
   ko:'Korean Cinema', en:'Hollywood'
 };
 
-const genreRasaMap = {
-  28:['Veera','Raudra'], 12:['Veera','Adbhuta'],
-  16:['Hasya','Adbhuta'], 35:['Hasya'],
-  80:['Raudra','Bhayanaka'], 99:['Adbhuta'],
-  18:['Karuna','Shanta'], 10751:['Shringara','Hasya'],
-  14:['Adbhuta','Veera'], 36:['Veera','Karuna'],
-  27:['Bhayanaka','Bibhatsa'], 10402:['Shringara'],
-  9648:['Bhayanaka','Adbhuta'], 10749:['Shringara','Karuna'],
-  878:['Adbhuta','Veera'], 53:['Bhayanaka','Raudra'],
-  10752:['Veera','Karuna'], 37:['Veera']
+// Real TMDb genre names — NOT rasa tags. Rasas are hand-assigned by Mahe
+// and only exist for curated films (via the backend export). This page
+// is 100% TMDb-driven today (no curated lookup wired in yet), so it must
+// never invent rasa labels — genre names are the honest fallback.
+const genreIdToName = {
+  28:'Action', 12:'Adventure', 16:'Animation', 35:'Comedy', 80:'Crime',
+  99:'Documentary', 18:'Drama', 10751:'Family', 14:'Fantasy', 36:'History',
+  27:'Horror', 10402:'Music', 9648:'Mystery', 10749:'Romance',
+  878:'Science Fiction', 10770:'TV Movie', 53:'Thriller', 10752:'War', 37:'Western'
 };
 
-function getRasas(genres) {
-  const rasas = new Set();
-  (genres||[]).forEach(g => {
-    (genreRasaMap[g.id]||[]).forEach(r => rasas.add(r));
-  });
-  return [...rasas].slice(0,3);
+function getGenreNames(genres) {
+  return (genres || []).map(g => genreIdToName[g.id]).filter(Boolean).slice(0, 3);
 }
 
-function navrasScore(avg, count) {
+// Audience Rating /100 — TMDb's own average, scaled up for display.
+// Deliberately NOT a Navras Score: a real Navras Score only exists once
+// Mahe hand-scores the film through the curated backend export.
+function audienceRating(avg, count) {
   if (!avg || !count) return null;
-  const base = Math.pow(avg/10, 0.7) * 88;
-  const vol = Math.min((Math.log10(count+1)/5)*8, 8);
-  const desi = 3 + Math.round((avg/10)*1);
-  return Math.round(Math.min(base+vol+desi, 99));
+  return Math.round(avg * 10);
 }
 
 function scoreClass(s) { return s>=75?'green':s>=55?'amber':'red'; }
@@ -97,13 +92,13 @@ function renderPage(film, credits, videos, similar) {
   document.getElementById('movieLoadingState').style.display = 'none';
   document.getElementById('movieContent').style.display = 'block';
 
-  const score = navrasScore(film.vote_average, film.vote_count);
+  const score = audienceRating(film.vote_average, film.vote_count);
   const sc = scoreClass(score);
   const lang = film.original_language;
   const langName = langNames[lang] || lang?.toUpperCase() || '';
   const industry = industryNames[lang] || 'World Cinema';
   const year = (film.release_date||'').slice(0,4);
-  const rasas = getRasas(film.genres);
+  const genreTags = getGenreNames(film.genres);
   const posterUrl = film.poster_path ? `${IMG_BASE}w342${film.poster_path}` : null;
   const backdropUrl = film.backdrop_path ? `${IMG_BASE}w1280${film.backdrop_path}` : null;
   const runtime = film.runtime ? `${Math.floor(film.runtime/60)}h ${film.runtime%60}m` : '';
@@ -156,32 +151,21 @@ function renderPage(film, credits, videos, similar) {
   setEl('movieLangBadge', langName);
   setEl('movieIndustryBadge', industry);
 
-  // Navras score
+  // Audience Rating badge — a single honest number from TMDb's own data.
+  // No Critics/Audience/Desi breakdown: that used to show three numbers
+  // derived from this same single value via different arbitrary multipliers,
+  // which misrepresented one data source as three. Once this film is matched
+  // against Mahe's curated set (via tmdb_id), this badge should be replaced
+  // by the real Navras Score + score_status instead.
   if (score) {
-    const scoreEl = document.getElementById('navrasScoreNum');
-    const scoreBadge = document.getElementById('navrasScoreBadge');
+    const scoreEl = document.getElementById('audienceScoreNum');
+    const scoreBadge = document.getElementById('audienceScoreBadge');
     if (scoreEl) scoreEl.textContent = score;
     if (scoreBadge) {
-      scoreBadge.className = `navras-score-big ${sc}`;
+      scoreBadge.className = `audience-score-big ${sc}`;
     }
-    // Score bar
-    const criticBar = document.getElementById('criticBar');
-    const audienceBar = document.getElementById('audienceBar');
-    const desiBar = document.getElementById('desiBar');
-    const criticNum = document.getElementById('criticNum');
-    const audienceNum = document.getElementById('audienceNum');
-    const desiNum = document.getElementById('desiNum');
-
-    const criticScore = Math.round(film.vote_average * 10);
-    const audienceScore = Math.round(film.vote_average * 9.5);
-    const desiScore = Math.round(score * 0.85);
-
-    if (criticBar) criticBar.style.width = criticScore + '%';
-    if (audienceBar) audienceBar.style.width = audienceScore + '%';
-    if (desiBar) desiBar.style.width = desiScore + '%';
-    if (criticNum) criticNum.textContent = Math.round(criticScore/10*4)/4 * 10;
-    if (audienceNum) audienceNum.textContent = film.vote_count?.toLocaleString();
-    if (desiNum) desiNum.textContent = desiScore;
+    const audienceVoteCount = document.getElementById('audienceNum');
+    if (audienceVoteCount) audienceVoteCount.textContent = film.vote_count?.toLocaleString();
   }
 
   // External scores
@@ -194,13 +178,14 @@ function renderPage(film, credits, videos, similar) {
     if (hitBadge) hitBadge.style.display = 'inline-block';
   }
 
-  // Rasas
+  // Genre tags — NOT rasas. A real rasa strip (with icon, meaning, and a
+  // working link into the Mood page) only applies to curated films that
+  // Mahe has hand-tagged. This page is fully TMDb-driven today, so genres
+  // are shown plainly instead of dressed up as rasa judgments.
   const rasaContainer = document.getElementById('movieRasas');
   if (rasaContainer) {
-    rasaContainer.innerHTML = rasas.map(r =>
-      `<a href="mood.html?rasa=${r.toLowerCase()}" class="movie-rasa-tag">
-        <span class="rasa-icon">${rasaIcon(r)}</span> ${r} · ${rasaMeaning(r)}
-      </a>`
+    rasaContainer.innerHTML = genreTags.map(g =>
+      `<span class="movie-rasa-tag">${g}</span>`
     ).join('');
   }
 
@@ -249,7 +234,7 @@ function renderPage(film, credits, videos, similar) {
   if (similarGrid && similar?.results?.length) {
     similarGrid.innerHTML = similar.results.slice(0,6).map(f => {
       const p = f.poster_path ? `${IMG_BASE}w185${f.poster_path}` : null;
-      const s = navrasScore(f.vote_average, f.vote_count);
+      const s = audienceRating(f.vote_average, f.vote_count);
       const yr = (f.release_date||'').slice(0,4);
       return `
         <a href="movie.html?id=${f.id}" class="similar-card">
@@ -273,6 +258,10 @@ function setEl(id, val) {
   if (el && val !== undefined && val !== null) el.textContent = val;
 }
 
+// Currently unused — reserved for when this page can match against curated
+// films (needs tmdb_id populated in the backend export first). At that
+// point, real rasas can use these icon/meaning lookups; TMDb-only films
+// should keep showing plain genre tags, never these.
 function rasaIcon(r) {
   const icons = {
     Shringara:'♡', Hasya:'☺', Karuna:'◇', Veera:'◈',

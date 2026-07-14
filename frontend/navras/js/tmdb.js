@@ -72,31 +72,29 @@ const TMDB = {
     english: 'en'
   },
 
-  // Navras rasa tags based on genre
-  rasaFromGenres(genres = []) {
+  // Real TMDb genre names — NOT rasa tags. Rasas are hand-assigned by Mahe
+  // and only ever come from the curated backend export (film.rasas). This
+  // function is only used as a fallback label for films that AREN'T yet
+  // in that curated set, so it must never borrow rasa vocabulary.
+  genreIdToName: {
+    28:'Action', 12:'Adventure', 16:'Animation', 35:'Comedy', 80:'Crime',
+    99:'Documentary', 18:'Drama', 10751:'Family', 14:'Fantasy', 36:'History',
+    27:'Horror', 10402:'Music', 9648:'Mystery', 10749:'Romance',
+    878:'Science Fiction', 10770:'TV Movie', 53:'Thriller', 10752:'War', 37:'Western'
+  },
+  genreTags(genres = []) {
     const ids = genres.map(g => g.id);
-    const tags = [];
-    if (ids.includes(10749)) tags.push('Shringara'); // Romance
-    if (ids.includes(35)) tags.push('Hasya');        // Comedy
-    if (ids.includes(18)) tags.push('Karuna');       // Drama
-    if (ids.includes(28) || ids.includes(12)) tags.push('Veera'); // Action/Adventure
-    if (ids.includes(27) || ids.includes(53)) tags.push('Bhayanaka'); // Horror/Thriller
-    if (ids.includes(878) || ids.includes(14)) tags.push('Adbhuta'); // Sci-Fi/Fantasy
-    if (ids.includes(80)) tags.push('Raudra');       // Crime
-    if (ids.includes(99)) tags.push('Shanta');       // Documentary
-    return tags.length ? tags.slice(0, 2) : ['Adbhuta'];
+    return ids.map(id => this.genreIdToName[id]).filter(Boolean).slice(0, 2);
   },
 
-  // Navras /100 score from vote average
-  navrasScore(voteAvg, voteCount) {
+  // Audience Rating /100 — TMDb's own average, scaled up for display.
+  // This is deliberately NOT called a Navras Score: a real Navras Score
+  // only exists when Mahe has hand-scored the film (see film.navras_score +
+  // film.score_status in the curated export). No formula, curve, or bonus
+  // is applied here — it's a plain scale-up of TMDb's number, kept honest.
+  audienceRating(voteAvg, voteCount) {
     if (!voteAvg || !voteCount) return null;
-    // Base score: TMDb 7.0 = Navras 75, 8.0 = 85, 9.0 = 94
-    const base = Math.pow(voteAvg / 10, 0.7) * 88;
-    // Volume bonus: up to 8 points for widely-rated films
-    const vol = Math.min((Math.log10(voteCount + 1) / 5) * 8, 8);
-    // Desi cultural bonus: 3-4 points
-    const desi = 3 + Math.round((voteAvg / 10) * 1);
-    return Math.round(Math.min(base + vol + desi, 99));
+    return Math.round(voteAvg * 10);
   },
 
   scoreColor(score) {

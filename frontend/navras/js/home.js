@@ -19,11 +19,11 @@ function renderCinemaCard(film, type) {
   const isTV = type === 'tv';
   const title = isTV ? (film.name||film.original_name) : (film.title||film.original_title);
   const posterUrl = film.poster_path ? TMDB.poster(film.poster_path, 'w342') : null;
-  const score = TMDB.navrasScore(film.vote_average, film.vote_count);
+  const score = TMDB.audienceRating(film.vote_average, film.vote_count);
   const lang = film.original_language;
   const langName = langNames[lang] || (lang ? lang.toUpperCase() : '');
   const year = (film.release_date||film.first_air_date||'').slice(0,4);
-  const rasas = TMDB.rasaFromGenres((film.genre_ids||[]).map(id=>({id})));
+  const rasas = TMDB.genreTags((film.genre_ids||[]).map(id=>({id})));
   const sc = scoreClass(score);
 
   return `
@@ -75,11 +75,11 @@ function renderReviewRow(film, type) {
   const isTV = type === 'tv';
   const title = isTV ? (film.name||film.original_name) : (film.title||film.original_title);
   const posterUrl = film.poster_path ? TMDB.poster(film.poster_path,'w92') : null;
-  const score = TMDB.navrasScore(film.vote_average, film.vote_count);
+  const score = TMDB.audienceRating(film.vote_average, film.vote_count);
   const lang = film.original_language;
   const langName = langNames[lang] || (lang ? lang.toUpperCase() : '');
   const year = (film.release_date||film.first_air_date||'').slice(0,4);
-  const rasas = TMDB.rasaFromGenres((film.genre_ids||[]).map(id=>({id})));
+  const rasas = TMDB.genreTags((film.genre_ids||[]).map(id=>({id})));
   const userScore = film.vote_average ? film.vote_average.toFixed(1) : '?';
   const usc = parseFloat(userScore)>=7 ? '#2ECC71' : parseFloat(userScore)>=5 ? '#F39C12' : '#E74C3C';
 
@@ -87,7 +87,7 @@ function renderReviewRow(film, type) {
     <a href="pages/movie.html?id=${film.id}" class="review-row">
       <div class="rr-score ${scoreClass(score)}">
         <div class="rr-score-num">${score||'?'}</div>
-        <div class="rr-score-lbl">NAVRAS</div>
+        <div class="rr-score-lbl">AUDIENCE</div>
       </div>
       ${posterUrl
         ? `<img src="${posterUrl}" class="rr-poster" alt="${title}" loading="lazy" onerror="this.style.display='none'" />`
@@ -561,7 +561,7 @@ async function buildCarousel() {
           <div class="carousel-bottom">
             <div class="carousel-score ${sc}">
               <div class="carousel-score-num">${f.score}</div>
-              <div class="carousel-score-lbl">NAVRAS</div>
+              <div class="carousel-score-lbl">AUDIENCE</div>
             </div>
             <div class="carousel-rasas">
               ${f.rasas.map(r=>`<span class="rtag">${r}</span>`).join('')}
@@ -642,7 +642,7 @@ let trendingTVData = [];
 function renderTrendingItem(film, rank, type) {
   const isTV = type === 'tv';
   const title = isTV ? (film.name||film.original_name) : (film.title||film.original_title);
-  const score = TMDB.navrasScore(film.vote_average, film.vote_count);
+  const score = TMDB.audienceRating(film.vote_average, film.vote_count);
   const lang = film.original_language;
   const langName = langNames[lang] || (lang ? lang.toUpperCase() : '');
   const sc = score >= 75 ? 'green' : score >= 55 ? 'amber' : 'red';
@@ -808,12 +808,12 @@ async function loadFeaturedReview() {
   const rest = films.slice(1, 7);
 
   const posterUrl = featured.poster_path ? TMDB.poster(featured.poster_path, 'w185') : null;
-  const score = TMDB.navrasScore(featured.vote_average, featured.vote_count);
+  const score = TMDB.audienceRating(featured.vote_average, featured.vote_count);
   const sc = scoreClass(score);
   const lang = featured.original_language;
   const langName = langNames[lang] || lang?.toUpperCase() || '';
   const year = (featured.release_date || '').slice(0, 4);
-  const rasas = TMDB.rasaFromGenres((featured.genre_ids || []).map(id => ({ id })));
+  const rasas = TMDB.genreTags((featured.genre_ids || []).map(id => ({ id })));
 
   // Verdicts for featured films
   const verdicts = {
@@ -1426,21 +1426,6 @@ const ottComingSoon = [
   { title:"Sookshmadarshini", lang:"Malayalam", date:"22 Jul", platform:"SonyLIV" },
   { title:"Game Changer", lang:"Telugu", date:"25 Jul", platform:"Netflix" }
 ];
-
-function loadOttComingList() {
-  const list = document.getElementById('ottComingList');
-  if (!list) return;
-  list.innerHTML = ottComingSoon.slice(0, 5).map((f, i) => `
-    <a href="pages/browse.html" class="trending-list-item">
-      <div class="tli-rank">${i+1}</div>
-      <div class="tli-title">${f.title}</div>
-      <div class="tli-lang">${f.lang}</div>
-      <div class="tli-score">
-        <div class="tli-score-num" style="color:var(--text-muted);font-size:11px;white-space:nowrap;">${f.date}</div>
-      </div>
-    </a>
-  `).join('');
-}
 
 function loadOttComingList() {
   const list = document.getElementById('ottComingList');

@@ -315,13 +315,13 @@ async function loadHomepagePosters() {
 
   grid.innerHTML = films.map(film => {
     const posterUrl = TMDB.poster(film.poster_path, 'w342');
-    const score = TMDB.navrasScore(film.vote_average, film.vote_count);
+    const score = TMDB.audienceRating(film.vote_average, film.vote_count);
     const scoreColor = TMDB.scoreColor(score);
     const dotClass = TMDB.scoreDotClass(score);
     const lang = film.original_language;
     const langName = langNames[lang] || lang?.toUpperCase() || '';
     const year = film.release_date ? film.release_date.slice(0,4) : '';
-    const rasas = TMDB.rasaFromGenres((film.genre_ids||[]).map(id => ({id})));
+    const rasas = TMDB.genreTags((film.genre_ids||[]).map(id => ({id})));
 
     return `
       <a href="pages/movie.html?id=${film.id}" class="film-card" data-industry="${lang}">
