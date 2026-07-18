@@ -248,8 +248,6 @@ function renderPage(film, credits, videos, similar) {
     }).join('');
   }
 
-  // Desi score bars animation
-  setTimeout(animateBars, 300);
 }
 
 /* ---- Helpers ---- */
@@ -314,15 +312,6 @@ function shareFilm() {
     navigator.clipboard.writeText(window.location.href);
     alert('Link copied!');
   }
-}
-
-/* ---- Animate desi bars ---- */
-function animateBars() {
-  document.querySelectorAll('.desi-bar-fill').forEach(bar => {
-    const w = bar.getAttribute('data-width') || bar.style.width;
-    bar.style.width = '0%';
-    setTimeout(() => { bar.style.width = w; }, 100);
-  });
 }
 
 /* ---- Rating flow ---- */
