@@ -254,6 +254,13 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderAllLists();
   initCategoryFilter();
 
+  const featured = Object.values(allLists).flat().find(l => l.slug === 'bollywood50')
+    || Object.values(allLists).flat()[0];
+  if (featured) {
+    renderFeaturedBanner(featured);
+    loadFeaturedBannerPosters(featured);
+  }
+
   const hamburger = document.getElementById('hamburger');
   const mobileMenu = document.getElementById('mobileMenu');
   if (hamburger && mobileMenu) {
@@ -261,59 +268,66 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 });
 
-/* ---- Load featured banner posters ---- */
-async function loadFeaturedBannerPosters() {
-  const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
+/* ---- Render featured banner text from the real list data — no more
+   hand-typed title/count/top-5, which had drifted from the actual
+   curated list (wrong film order, and a "50 films" count when only
+   10 are curated so far). ---- */
+function renderFeaturedBanner(list) {
+  document.getElementById('flbTitle').textContent = list.title;
+  document.getElementById('flbSub').textContent = list.description;
+  document.getElementById('flbMeta').textContent = `${list.count} films · Curated by CineRaaga`;
 
-  // Films for featured Bollywood list preview
-  const featuredFilms = [
-    { id: 1, query: 'Mughal-E-Azam', year: 1960, tmdbId: 390043 },
-    { id: 2, query: 'Dilwale Dulhania Le Jayenge', year: 1995, tmdbId: 19330 },
-    { id: 3, query: 'Lagaan', year: 2001, tmdbId: 20453 },
-    { id: 4, query: 'Dangal', year: 2016, tmdbId: 363676 },
-    { id: 5, query: '3 Idiots', year: 2009, tmdbId: 20266 }
-  ];
+  const btn = document.getElementById('flbBtn');
+  btn.onclick = (e) => { e.preventDefault(); openList(list.slug); };
 
-  // Background collage TMDb IDs
-  const bgIds = [19330, 363676, 20266, 520110, 759244, 194662];
-
-  // Load preview posters and background collage in parallel
-  await Promise.all([
-    // Preview list posters
-    ...featuredFilms.map(async f => {
-      try {
-        const res = await fetch(`https://api.themoviedb.org/3/movie/${f.tmdbId}?api_key=${TMDB_KEY}`);
-        const data = await res.json();
-        if (data?.poster_path) {
-          const el = document.getElementById(`flb-p-${f.id}`);
-          if (el) {
-            el.style.backgroundImage = `url('https://image.tmdb.org/t/p/w185${data.poster_path}')`;
-            el.style.backgroundSize = 'cover';
-            el.style.backgroundPosition = 'center';
-          }
-        }
-      } catch (e) {}
-    }),
-    // Background collage
-    ...bgIds.map(async (id, i) => {
-      try {
-        const res = await fetch(`https://api.themoviedb.org/3/movie/${id}?api_key=${TMDB_KEY}`);
-        const data = await res.json();
-        const path = data?.backdrop_path || data?.poster_path;
-        if (path) {
-          const el = document.getElementById(`flb-bg-${i + 1}`);
-          if (el) {
-            el.style.backgroundImage = `url('https://image.tmdb.org/t/p/w500${path}')`;
-            el.style.backgroundSize = 'cover';
-            el.style.backgroundPosition = 'center';
-          }
-        }
-      } catch (e) {}
-    })
-  ]);
+  const top = list.entries.slice(0, 5);
+  document.getElementById('flbPreview').innerHTML = top.map((e, i) => {
+    const f = e.film;
+    return `
+      <div class="flb-rank-item">
+        <span class="flb-num ${i === 0 ? 'gold' : ''}">${e.rank}</span>
+        <div class="flb-mini-poster" id="flb-p-${i + 1}" style="background:linear-gradient(135deg,${f.color},${f.color}88);"></div>
+        <div class="flb-film-info">
+          <span class="flb-film-name">${f.title}</span>
+          <span class="flb-film-year">${f.year}</span>
+        </div>
+      </div>`;
+  }).join('');
 }
 
-// Call on load
-document.addEventListener('DOMContentLoaded', () => {
-  loadFeaturedBannerPosters();
-});
+/* ---- Load real posters + background collage for the featured banner ---- */
+async function loadFeaturedBannerPosters(list) {
+  const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
+  const top = list.entries.slice(0, 6);
+
+  await Promise.all(top.map(async (e, i) => {
+    const f = e.film;
+    try {
+      const res = await fetch(
+        `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
+      );
+      const data = await res.json();
+      const movie = data?.results?.[0];
+      if (!movie) return;
+
+      if (i < 5 && movie.poster_path) {
+        const el = document.getElementById(`flb-p-${i + 1}`);
+        if (el) {
+          el.style.backgroundImage = `url('https://image.tmdb.org/t/p/w185${movie.poster_path}')`;
+          el.style.backgroundSize = 'cover';
+          el.style.backgroundPosition = 'center';
+        }
+      }
+
+      const bgPath = movie.backdrop_path || movie.poster_path;
+      if (bgPath) {
+        const bgEl = document.getElementById(`flb-bg-${i + 1}`);
+        if (bgEl) {
+          bgEl.style.backgroundImage = `url('https://image.tmdb.org/t/p/w500${bgPath}')`;
+          bgEl.style.backgroundSize = 'cover';
+          bgEl.style.backgroundPosition = 'center';
+        }
+      }
+    } catch (e) {}
+  }));
+}
