@@ -957,104 +957,37 @@ document.addEventListener('DOMContentLoaded', () => {
    Visual cards with collage thumbnails
    =========================== */
 
-const explorerLists = [
-  {
-    id: 'bollywood50', filter: 'alltime',
-    category: 'All time · Bollywood',
-    title: '50 Greatest Bollywood Films of All Time',
-    count: 50, meta: 'Curated by Navras',
-    tmdbIds: [390043, 19330, 20453, 363676],
-    preview: ['Mughal-E-Azam', 'Dilwale Dulhania Le Jayenge', 'Lagaan', 'Dangal']
-  },
-  {
-    id: 'malayalam35', filter: 'language',
-    category: 'Language · Malayalam',
-    title: '35 Best Malayalam Films of All Time',
-    count: 35, meta: 'Curated by Navras',
-    tmdbIds: [95765, 1017336, 515001, 1186532],
-    preview: ['Drishyam', 'All We Imagine as Light', 'Premam', 'Manjummel Boys']
-  },
-  {
-    id: 'netflix2025', filter: 'ott',
-    category: 'OTT · Netflix',
-    title: 'Best Indian Films on Netflix Right Now',
-    count: 30, meta: 'Updated weekly',
-    tmdbIds: [242074, 1017336, 520110, 759244],
-    preview: ['IC 814', 'All We Imagine as Light', 'Tumbbad', 'RRR']
-  },
-  {
-    id: 'tamil25', filter: 'language',
-    category: 'Language · Tamil',
-    title: '25 Tamil Films Everyone Must Watch',
-    count: 25, meta: 'Curated by Navras',
-    tmdbIds: [95765, 515001, 346364, 1064213],
-    preview: ['Nayakan', '96', 'Vikram', 'Kalki 2898-AD']
-  },
-  {
-    id: 'webseries', filter: 'ott',
-    category: 'OTT · Series',
-    title: 'Best Indian Web Series of All Time',
-    count: 20, meta: 'Curated by Navras',
-    tmdbIds: [113855, 94954, 95557, 125925],
-    preview: ['Scam 1992', 'Panchayat', 'The Family Man', 'Paatal Lok']
-  },
-  {
-    id: 'cannes', filter: 'awards',
-    category: 'Awards · Cannes',
-    title: 'Indian Films That Won at Cannes',
-    count: 15, meta: 'Complete list',
-    tmdbIds: [1017336, 12477, 107254, 17267],
-    preview: ['All We Imagine as Light', 'Pather Panchali', 'Masaan', 'Liar\'s Dice']
-  },
-  {
-    id: 'telugu20', filter: 'language',
-    category: 'Language · Telugu',
-    title: '20 Greatest Telugu Films — The Canon',
-    count: 20, meta: 'Curated by Navras',
-    tmdbIds: [346364, 759244, 399579, 1064213],
-    preview: ['Baahubali 2', 'RRR', 'Arjun Reddy', 'Kalki 2898-AD']
-  },
-  {
-    id: 'horror', filter: 'genre',
-    category: 'Genre · Horror',
-    title: 'Best Indian Horror Films — Ranked',
-    count: 25, meta: 'Curated by Navras',
-    tmdbIds: [520110, 1100782, 429617, 95765],
-    preview: ['Tumbbad', 'Stree 2', 'Stree', 'Drishyam']
-  },
-  {
-    id: 'best2025', filter: 'alltime',
-    category: '2025 · All languages',
-    title: 'Best Indian Films of 2025 — Ranked',
-    count: 25, meta: 'Updated June 2025',
-    tmdbIds: [1100782, 1017336, 1186532, 759244],
-    preview: ['Kantara Ch.1', 'Lokah', 'Saiyaara', 'Dhurandhar']
-  },
-  {
-    id: 'oscars', filter: 'awards',
-    category: 'Awards · Oscars',
-    title: 'Indian Films at the Oscars — Every Entry',
-    count: 10, meta: 'Complete list',
-    tmdbIds: [20453, 19980, 9471, 759244],
-    preview: ['Lagaan', 'Mother India', 'Salaam Bombay', 'RRR']
-  },
-  {
-    id: 'primetop', filter: 'ott',
-    category: 'OTT · Prime Video',
-    title: 'Best Indian Films on Prime Video',
-    count: 25, meta: 'Updated weekly',
-    tmdbIds: [1100782, 363676, 94954, 933131],
-    preview: ['Stree 2', 'Dangal', 'Panchayat', 'Drishyam 2']
-  },
-  {
-    id: 'sports', filter: 'genre',
-    category: 'Genre · Sports',
-    title: 'Best Indian Sports Films — Ranked',
-    count: 15, meta: 'Curated by Navras',
-    tmdbIds: [363676, 20453, 97020, 194662],
-    preview: ['Dangal', 'Lagaan', 'Chak De India', 'MS Dhoni']
+const explorerCategoryLabel = {
+  evergreen: 'All time',
+  ott: 'OTT',
+  trending: 'Trending',
+  language: 'Language',
+  awards: 'Awards'
+};
+
+let explorerListsData = [];
+
+/* ---- Load real curated lists (data/lists/*.json) — counts and
+   preview titles come straight from the data, never hand-typed ---- */
+async function loadExplorerListsData() {
+  try {
+    const indexRes = await fetch('data/lists/index.json');
+    const index = await indexRes.json();
+    const fullLists = await Promise.all(
+      index.map(entry => fetch(`data/lists/${entry.slug}.json`).then(r => r.json()).catch(() => null))
+    );
+    explorerListsData = index.map((entry, i) => ({
+      id: entry.slug,
+      filter: entry.category === 'evergreen' ? 'alltime' : entry.category,
+      category: explorerCategoryLabel[entry.category] || entry.category,
+      title: entry.title,
+      count: (fullLists[i]?.entries || []).length,
+      entries: fullLists[i]?.entries || []
+    })).filter(l => l.entries.length);
+  } catch (e) {
+    explorerListsData = [];
   }
-];
+}
 
 let explorerPosterCache = {};
 let currentExplorerFilter = 'all';
@@ -1062,10 +995,16 @@ let currentExplorerFilter = 'all';
 async function fetchPostersForList(list) {
   if (explorerPosterCache[list.id]) return explorerPosterCache[list.id];
 
-  const posters = await Promise.all(list.tmdbIds.slice(0, 4).map(async id => {
+  const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
+  const posters = await Promise.all(list.entries.slice(0, 4).map(async e => {
+    const f = e.film;
     try {
-      const data = await TMDB.get(`/movie/${id}`, {});
-      return data?.poster_path ? TMDB.poster(data.poster_path, 'w185') : null;
+      const res = await fetch(
+        `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
+      );
+      const data = await res.json();
+      const movie = data?.results?.[0];
+      return movie?.poster_path ? `https://image.tmdb.org/t/p/w185${movie.poster_path}` : null;
     } catch { return null; }
   }));
 
@@ -1081,6 +1020,8 @@ function renderExplorerCard(list, posters, variant = 'small') {
       : `<div class="elc-collage-cell"></div>`;
   }).join('');
 
+  const preview = list.entries.slice(0, 2).map(e => e.film.title);
+
   if (variant === 'featured') {
     return `
       <a href="pages/lists.html" class="elc-featured" data-filter="${list.filter}" data-id="${list.id}">
@@ -1089,7 +1030,7 @@ function renderExplorerCard(list, posters, variant = 'small') {
           <div class="elc-category">${list.category} · ${list.count} films</div>
           <div class="elc-title">${list.title}</div>
           <div class="elc-preview">
-            ${list.preview.slice(0,2).map((title, i) => `
+            ${preview.map((title, i) => `
               <div class="elc-preview-item">
                 <span class="elc-preview-rank">#${i+1}</span>
                 <span class="elc-preview-title">${title}</span>
@@ -1113,9 +1054,11 @@ async function loadExplorerLists(filter) {
   const grid = document.getElementById('explorerListsGrid');
   if (!grid) return;
 
+  if (!explorerListsData.length) await loadExplorerListsData();
+
   const filtered = filter === 'all'
-    ? explorerLists
-    : explorerLists.filter(l => l.filter === filter);
+    ? explorerListsData
+    : explorerListsData.filter(l => l.filter === filter);
 
   const featured = filtered[0];
   const smalls = filtered.slice(1, 4);
@@ -1174,20 +1117,23 @@ document.addEventListener('DOMContentLoaded', () => {
    Featured story + trending list
    =========================== */
 
+/* No editorialStories entry sets a score — every curated film in
+   data/films/*.json is currently score_status:"placeholder", and
+   placeholders never display a badge (see score display rule). */
 const editorialStories = [
   {
     category: 'New Review',
     title: 'Saiyaara Review — Ahaan Panday announces himself in 2025\'s biggest romantic debut',
-    meta: 'Navras 72/100 · Hindi · 2025',
-    score: 72, scoreClass: 'amber',
+    meta: 'Hindi · 2025',
+    score: null,
     tmdbId: 1241634, type: 'movie',
     link: 'pages/article.html'
   },
   {
     category: 'In Cinemas',
     title: 'Dhurandhar: The Revenge — Is Ranveer Singh\'s action epic worth the ticket price?',
-    meta: 'Navras 78/100 · Hindi · 2026',
-    score: 78, scoreClass: 'amber',
+    meta: 'Hindi · 2026',
+    score: null,
     tmdbId: 1582770, type: 'movie',
     link: 'pages/article.html'
   },
@@ -1202,8 +1148,8 @@ const editorialStories = [
   {
     category: 'OTT Pick',
     title: 'All We Imagine as Light is the best Indian film on Netflix right now',
-    meta: 'Navras 96/100 · Malayalam · On Netflix',
-    score: 96, scoreClass: 'green',
+    meta: 'Malayalam · On Netflix',
+    score: null,
     tmdbId: 1017336, type: 'movie',
     link: 'pages/article.html'
   },
@@ -1226,8 +1172,8 @@ const editorialStories = [
   {
     category: 'New Review',
     title: 'IC 814: The Kandahar Hijack — Still the best Indian series you can watch',
-    meta: 'Navras 91/100 · Hindi · Netflix',
-    score: 91, scoreClass: 'green',
+    meta: 'Hindi · Netflix',
+    score: null,
     tmdbId: 242074, type: 'tv',
     link: 'pages/article.html'
   },
@@ -1360,7 +1306,7 @@ async function loadOttPosterGrid(platform) {
 
   const films = (ottFilms[platform] || []).slice(0, 8);
 
-  // Fetch each film poster by TMDb ID — use /tv/ for series, /movie/ for films
+  // Fetch each film's real poster + vote data by TMDb ID — use /tv/ for series, /movie/ for films
   const results = [];
   for (const f of films) {
     try {
@@ -1369,14 +1315,15 @@ async function loadOttPosterGrid(platform) {
         `https://api.themoviedb.org/3/${endpoint}/${f.tmdbId}?api_key=${window.NAVRAS_CONFIG.TMDB_KEY}&language=en-US`
       );
       const data = await res.json();
-      results.push({ f, posterPath: data.poster_path || null });
+      const score = TMDB.audienceRating(data.vote_average, data.vote_count);
+      results.push({ f, posterPath: data.poster_path || null, score });
     } catch {
-      results.push({ f, posterPath: null });
+      results.push({ f, posterPath: null, score: null });
     }
   }
 
-  grid.innerHTML = results.map(({ f, posterPath }) => {
-    const sc = f.score >= 75 ? 'green' : f.score >= 55 ? 'amber' : 'red';
+  grid.innerHTML = results.map(({ f, posterPath, score }) => {
+    const sc = score >= 75 ? 'green' : score >= 55 ? 'amber' : 'red';
     const bg = f.color || '#1a1a2e';
     const posterUrl = posterPath
       ? `https://image.tmdb.org/t/p/w342${posterPath}`
@@ -1389,7 +1336,7 @@ async function loadOttPosterGrid(platform) {
                 onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,${bg},${bg}aa)'" />`
             : `<div style="padding:8px;font-size:11px;color:var(--text-muted);text-align:center;margin-top:30px;">${f.title}</div>`}
           <div class="cinema-lang">${f.lang}</div>
-          <div class="cinema-score ${sc}">${f.score}</div>
+          ${score ? `<div class="cinema-score ${sc}">${score}</div>` : ''}
         </div>
         <div class="cinema-info">
           <div class="cinema-title">${f.title}</div>
