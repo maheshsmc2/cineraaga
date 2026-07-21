@@ -28,3 +28,26 @@ The project's non-negotiable rule is that Navras Scores and rasa tags are hand-a
 - Dead code isn't harmless. `main.js`'s unused mood-card feature wasn't just clutter — an unguarded `document.getElementById(...).textContent = ...` on a missing element threw and silently broke unrelated same-handler functionality (hamburger, language switcher, search). Always check whether a "leftover" function is still being *called*, not just whether its target markup still exists.
 - Browser HTTP caching made local verification unreliable — editing a JS file and reloading the same `localhost` origin kept serving the old cached script even across new tabs. Confirmed fixes by serving from a fresh port instead of fighting the cache.
 - Two independent CSS files (`movie.css`, `review.css`) still contain orphaned `.desi-bar-*` / `.rv-desi-*` rules after the matching HTML was deleted. Left untouched per explicit instruction not to touch CSS — dead but harmless (no matching elements left to select).
+
+## 2026-07-21 — CineRaaga brand rollout: logo, favicon, site-wide rebrand
+
+**What happened:**
+
+Rolled out the new CineRaaga brand assets and renamed the site across every user-facing surface, one commit per step:
+
+- Added the three supplied brand PNGs (full wordmark, nav wordmark, favicon "C" mark) under the new `frontend/navras/images/brand/`.
+- Replaced the SVG-mark + "Navras" text logo in the header with an `<img>` of the new wordmark (`height: 36px`, width auto) on `index.html` and every page in `pages/`, keeping the "Cinema · Music · Art" tagline beside it.
+- Discovered the supplied PNGs had no alpha channel — flat RGB with a near-white (~244–254) background baked in, which rendered as a visible white box on the dark navbar. Unblended the near-white background into real transparency (recover true color via `alpha = 255 - min(R,G,B)`, then un-premultiply the RGB channels), confirmed by compositing onto a dark background before shipping.
+- Added `<link rel="icon" type="image/png">` favicon tags to every page, path-adjusted for root (`index.html`) vs `pages/` depth.
+- Swept every user-facing "Navras" brand mention (page titles, meta descriptions, section headers like "Trending on Navras", footer logo/column/copyright, editorial bylines, "Curated by Navras" copy) to "CineRaaga" — cataloged all ~150 occurrences across HTML/JS first, classified each as brand vs. methodology, then applied as exact literal-string replacements per file (not a blanket regex) so nothing genuinely ambiguous got auto-changed.
+- Left untouched, deliberately: `navras_score` fields, `NAVRAS_CONFIG`, any `.navras-*`/`.rv-navras-*` CSS class name, "Navras Score"/"Navras /100"/"72 Navras" style score labels (including the "Navras score guide" widget), the `frontend/navras/` folder and all file names, and the real infrastructure strings `hello@navras.app` / `navras.vercel.app`.
+
+**Concept:**
+
+"Navras" now means two different things in this codebase and the task required telling them apart: the **site brand** (renaming to CineRaaga) and the **scoring methodology name** (staying "Navras Score" — it's the hand-assigned rating system, not the site identity, and the task explicitly protected it). Treating every string match the same way would have either left the rebrand half-done or broken the one non-negotiable methodology label from the previous cleanup pass.
+
+**Traps:**
+
+- Supplied "final" brand assets aren't guaranteed to be production-ready — always open image files and check the actual pixel data (`img.mode`, alpha extrema) rather than trusting that a logo PNG is transparent because it looks transparent in a preview tool that renders a checkerboard for missing alpha.
+- `preview_start`'s named-server launcher runs child processes in a sandbox where even `os.listdir('.')` and `os.getcwd()` raise `PermissionError` — this broke a plain `python3 -m http.server --directory ...` command in ways that had nothing to do with the command being wrong. `python3 -P` (isolate from cwd) got the process to start, but absolute/relative directory serving still 404'd in that sandbox; starting the same static server via the Bash tool instead worked immediately. When a `.claude/launch.json` server won't start for reasons that look environmental rather than command-related, falling back to Bash + `preview_start({url})` is a faster path than debugging the sandbox.
+- Browser HTTP/tab caching (same issue as the previous entry) made two separate pieces of this work look broken when they weren't — the logo transparency fix and the text rebrand both initially "failed" in a screenshot until a hard reload (`location.reload(true)`) proved the served file was already correct.
