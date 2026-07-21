@@ -53,6 +53,8 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
 
 .nav-logo { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
 
+.nav-logo-img { height: 36px; width: auto; display: block; }
+
 .logo-mark {
   width: 36px; height: 36px; border-radius: 8px;
   border: 1.5px solid var(--gold);
