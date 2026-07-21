@@ -95,7 +95,7 @@ function renderFeatured(film) {
     <div class="featured-pick-card">
       <div class="fp-poster" style="background:linear-gradient(160deg,${film.color},${film.color}88);"></div>
       <div class="fp-info">
-        <div class="fp-badge">✦ Top Navras Pick</div>
+        <div class="fp-badge">✦ Top CineRaaga Pick</div>
         <div class="fp-title">${film.title}</div>
         <div class="fp-meta">${langLabel(film.language)} · ${film.year} · ${(film.rasas||[]).join(' · ')}</div>
         <div class="fp-verdict">${film.verdict || ''}</div>

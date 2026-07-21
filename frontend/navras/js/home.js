@@ -1139,7 +1139,7 @@ const editorialStories = [
   },
   {
     category: 'Best of List',
-    title: '50 Greatest Bollywood Films of All Time — The Navras Canon',
+    title: '50 Greatest Bollywood Films of All Time — The CineRaaga Canon',
     meta: 'Curated list · Updated 2025',
     score: null,
     tmdbId: 363676, type: 'movie',
@@ -1179,7 +1179,7 @@ const editorialStories = [
   },
   {
     category: 'Best of List',
-    title: 'Best Malayalam Films of 2025 — Ranked by Navras',
+    title: 'Best Malayalam Films of 2025 — Ranked by CineRaaga',
     meta: 'Curated list · 8 films · Malayalam',
     score: null,
     tmdbId: 1017336, type: 'movie',

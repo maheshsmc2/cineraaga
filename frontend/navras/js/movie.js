@@ -108,7 +108,7 @@ function renderPage(film, credits, videos, similar) {
   const genres = film.genres?.map(g=>g.name).join(' · ') || '';
 
   // Update page title
-  document.title = `${film.title} (${year}) — Navras`;
+  document.title = `${film.title} (${year}) — CineRaaga`;
 
   // Update breadcrumb
   const bc = document.getElementById('breadcrumbFilm');
