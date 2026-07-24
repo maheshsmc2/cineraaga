@@ -51,3 +51,20 @@ Rolled out the new CineRaaga brand assets and renamed the site across every user
 - Supplied "final" brand assets aren't guaranteed to be production-ready — always open image files and check the actual pixel data (`img.mode`, alpha extrema) rather than trusting that a logo PNG is transparent because it looks transparent in a preview tool that renders a checkerboard for missing alpha.
 - `preview_start`'s named-server launcher runs child processes in a sandbox where even `os.listdir('.')` and `os.getcwd()` raise `PermissionError` — this broke a plain `python3 -m http.server --directory ...` command in ways that had nothing to do with the command being wrong. `python3 -P` (isolate from cwd) got the process to start, but absolute/relative directory serving still 404'd in that sandbox; starting the same static server via the Bash tool instead worked immediately. When a `.claude/launch.json` server won't start for reasons that look environmental rather than command-related, falling back to Bash + `preview_start({url})` is a faster path than debugging the sandbox.
 - Browser HTTP/tab caching (same issue as the previous entry) made two separate pieces of this work look broken when they weren't — the logo transparency fix and the text rebrand both initially "failed" in a screenshot until a hard reload (`location.reload(true)`) proved the served file was already correct.
+
+## 2026-07-25 — First real review published: Dhamaal 4 (2026)
+
+**What happened:**
+
+Published `pages/dhamaal-4-2026.html` — the first piece of real editorial content on CineRaaga, as opposed to template/sample copy. Copied `pages/review-template.html` and filled every "CHANGE THIS" marker (title, TMDb ID, category pills, meta row, rasas, one-line verdict, Navras Score of 42 with the `red` color class, watch status, byline, and the full review body) from Mahe's supplied content, verified it renders correctly (poster loads from the TMDb ID, score badge color, verdict box), then committed and pushed.
+
+Workflow behind this one: Mahe records the review as voice notes, cleans up the transcript into structured copy with Claude (chat), then hands the finished text to Claude Code to slot into the template and publish. This log entry exists to mark that this pipeline produced a real, shipped page for the first time.
+
+**Concept:**
+
+Filling a template isn't the same job as writing one. The task was explicit that nothing should be invented beyond the supplied content — several "CHANGE THIS" markers (the three-word tags, IMDb/RT scores, the "trending" sidebar, related-reviews links) had no corresponding data in this batch, so the instruction was to leave the template's original placeholder values in place rather than guess. A published page can legitimately still contain scaffolding left for a later pass, as long as that's a deliberate, stated choice and not a gap nobody noticed.
+
+**Traps:**
+
+- The template's four generic `.rv-para` slots (opening hook / good / problem / final verdict) don't map onto arbitrarily-named content sections. Mahe's copy came pre-divided into five labeled sections (Mood, Story, Direction, Performances, CineRaaga Take) — one more than the template had paragraph slots for. Resolved by reading where each was explicitly aimed: the first four filled the `.rv-body` paragraphs in the order given, and "CineRaaga Take (final verdict box)" was explicit enough about its destination to justify adding one `<p class="rv-para">` inside `.rv-verdict-box` — reusing an existing class rather than writing new CSS.
+- "Do not invent details" cuts both ways: it blocks filling gaps with made-up content, but it doesn't mean deleting or "fixing" content that's merely mismatched to the new film (leftover Saiyaara-era three-word tags, IMDb/RT numbers, and a "More Hindi romance" sidebar all stayed untouched here, exactly as instructed, even though they visibly don't describe a comedy sequel).
