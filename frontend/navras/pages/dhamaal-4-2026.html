@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+  ============================================================
+  NAVRAS — NEW RELEASE REVIEW TEMPLATE
+  ============================================================
+  HOW TO USE:
+  1. Save a copy of this file with the film name
+     Example: saiyaara-review.html
+             stree2-review.html
+             pushpa2-review.html
+
+  2. Search for "CHANGE THIS" in the file
+     Replace every marked item with your content
+
+  3. Upload the new file to pages/ folder on GitHub
+     It goes live automatically at:
+     navras.vercel.app/pages/your-filename.html
+
+  4. Link to it from the homepage or lists page
+
+  TAKES: 20-30 minutes per review
+  ============================================================
+-->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../images/brand/cineraaga-favicon.png" />
+
+  <!-- CHANGE THIS: Page title for Google -->
+  <title>Dhamaal 4 Review — Navras 42/100 | CineRaaga</title>
+
+  <!-- CHANGE THIS: Description for Google (150-160 characters) -->
+  <meta name="description" content="Dhamaal 4 review — Navras Score 42/100. Indra Kumar's fourth Dhamaal delivers loud, forgettable comfort. CineRaaga verdict: watch on OTT." />
+
+  <!-- CHANGE THIS: Both og: tags for social sharing -->
+  <meta property="og:title" content="Dhamaal 4 Review — Navras 42/100 | CineRaaga" />
+  <meta property="og:description" content="Loud, cheerful, instantly forgettable — save it for OTT." />
+  <meta property="og:type" content="article" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/article.css" />
+  <link rel="stylesheet" href="../css/review.css" />
+</head>
+<body>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-logo">
+      <img src="../images/brand/cineraaga-logo-nav.png" alt="CineRaaga" class="nav-logo-img" />
+      <div class="logo-sub">Cinema · Music · Art</div>
+    </a>
+    <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="browse.html" class="nav-link">Browse</a>
+      <a href="mood.html" class="nav-link">Mood Search</a>
+      <a href="lists.html" class="nav-link">Lists</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
+        <span class="toggle-icon" id="toggleIcon">🌙</span>
+        <span class="toggle-label" id="toggleLabel">Dark</span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="review-wrap">
+    <main class="review-main">
+
+      <!-- Breadcrumb -->
+      <div class="article-breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>›</span>
+        <a href="browse.html">Reviews</a>
+        <span>›</span>
+        <!-- CHANGE THIS: Film name -->
+        <span>Dhamaal 4</span>
+      </div>
+
+      <!-- REVIEW HEADER -->
+      <div class="rv-header">
+
+        <!-- CHANGE THIS: TMDb movie ID (find at themoviedb.org) -->
+        <!-- Poster loads automatically from TMDb using the ID below -->
+        <div class="rv-poster" id="rvPoster" data-tmdb-id="1303331">
+          <div class="rv-poster-placeholder">🎬</div>
+          <div class="rv-score-badge red" id="rvScoreBadge">
+            42
+            <span>NAVRAS</span>
+          </div>
+        </div>
+
+        <div class="rv-header-info">
+
+          <!-- CHANGE THIS: Category tags -->
+          <div class="article-category">
+            <span class="article-cat-tag">Hindi</span>
+            <span class="article-cat-tag">2026</span>
+            <span class="article-cat-tag">Comedy</span>
+          </div>
+
+          <!-- CHANGE THIS: Film title -->
+          <h1 class="rv-title">Dhamaal 4</h1>
+
+          <!-- CHANGE THIS: Director · Year · Language · Duration -->
+          <div class="rv-meta-row">
+            <span class="rv-meta-item">Indra Kumar</span>
+            <span class="rv-meta-dot">·</span>
+            <span class="rv-meta-item">2026</span>
+            <span class="rv-meta-dot">·</span>
+            <span class="rv-meta-item">Hindi</span>
+            <span class="rv-meta-dot">·</span>
+            <span class="rv-meta-item">2h 23m</span>
+          </div>
+
+          <!-- CHANGE THIS: Rasa tags (pick 1-3 from the nine rasas) -->
+          <div class="rv-rasas">
+            <span class="rtag">Hasya</span>
+            <span class="rtag">Adbhuta</span>
+          </div>
+
+          <!-- NAVRAS VERDICT — THE MOST IMPORTANT PART -->
+          <!-- CHANGE THIS: One sentence. Maximum 15 words. Be honest and crisp. -->
+          <div class="rv-verdict">
+            "A harmless one-time watch — save it for OTT, and only when your hands are busy with something else."
+          </div>
+
+          <!-- CHANGE THIS: Exactly three words that describe the film -->
+          <div class="rv-three-words">
+            <span class="rv-word">Emotional</span>
+            <span class="rv-word">Uneven</span>
+            <span class="rv-word">Watchable</span>
+          </div>
+
+          <!-- Score breakdown -->
+          <div class="rv-scores-row">
+            <div class="rv-navras-score red">
+              <div class="rv-score-num">42</div>
+              <div class="rv-score-label">Navras /100</div>
+            </div>
+            <!-- CHANGE THIS: External scores (find on IMDb and RT) -->
+            <div class="rv-ext-score">
+              <div class="rv-ext-num">6.4</div>
+              <div class="rv-ext-label">IMDb</div>
+            </div>
+            <div class="rv-ext-score">
+              <div class="rv-ext-num">68%</div>
+              <div class="rv-ext-label">RT</div>
+            </div>
+          </div>
+
+          <!-- CHANGE THIS: Where to watch -->
+          <div class="rv-watch-row">
+            <span class="rv-watch-label">Watch on:</span>
+            <span class="afe-watch-badge theatre">In cinemas now</span>
+          </div>
+
+          <div class="rv-share-row">
+            <div class="rv-author">
+              <div class="author-avatar">M</div>
+              <div class="author-info">
+                <div class="author-name">Mahe</div>
+                <div class="author-date">July 2026</div>
+              </div>
+            </div>
+            <button class="share-btn" onclick="shareArticle()">Share ↗</button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- THE NAVRAS TAKE — short and crisp -->
+      <!-- CHANGE THIS: 3-5 short paragraphs. No long paragraphs. -->
+      <!-- Each paragraph = one clear point about the film -->
+      <div class="rv-body">
+
+        <p class="rv-para">
+          Dhamaal 4 is loud, noisy, cheerful, and instantly forgettable. It plays like background entertainment — the kind of film that works best while you're folding clothes, eating dinner, or scrolling your phone. Sit down and give it your full attention, and you'll notice how thin everything actually is.
+        </p>
+
+        <p class="rv-para">
+          Written by Paritosh Painter, Balvinder Singh Suri, Bunty Rathore, and Ved Prakash — with Bunty Rathore handling the dialogues — the script exists mainly to push the ensemble from one chaotic set-piece to the next. There's no story you'll remember on the drive home, no dialogue worth repeating. It's a treasure-hunt frame stretched over 143 minutes without ever earning it.
+        </p>
+
+        <p class="rv-para">
+          Indra Kumar returns to the franchise he built and hits every beat you'd expect — loud action, broad slapstick, ensemble chaos. What's missing is any attempt to sharpen the formula. Everything is loud where it could have been funny; noise substitutes for wit throughout.
+        </p>
+
+        <p class="rv-para">
+          Ajay Devgn, Arshad Warsi, Riteish Deshmukh, and Jaaved Jaaferi still have easy chemistry, and you can feel them enjoying being back together. Individually though, no one is stretched — the film asks them to shout, mug, and react, and they oblige. Sanjay Mishra gets the occasional real laugh; Ravi Kishan is wasted as the villain.
+        </p>
+
+      </div>
+
+      <!-- WATCH OR SKIP -->
+      <div class="rv-verdict-box">
+        <div class="rv-verdict-box-title">CineRaaga says</div>
+        <p class="rv-para">Dhamaal 4 is comfort junk food — not memorable, not clever, not offensive. Skip it in the theatres and wait for OTT. If you liked the earlier Dhamaal films for exactly what they were, this one delivers more of that. If you were hoping the fourth installment might raise its game, it doesn't.</p>
+        <div class="rv-verdict-options">
+          <div class="rv-verdict-opt yes">✓ Watch on OTT</div>
+          <div class="rv-verdict-opt no">✗ Skip in theatres</div>
+          <div class="rv-verdict-opt yes">Best as background viewing</div>
+        </div>
+      </div>
+
+      <!-- MOOD SEARCH CTA -->
+      <div class="article-cta">
+        <div class="article-cta-text">
+          <div class="article-cta-title">Want more Hasya (comedy) films?</div>
+          <div class="article-cta-sub">Find films by how you want to feel — using CineRaaga mood search.</div>
+        </div>
+        <a href="mood.html?rasa=hasya" class="article-cta-btn">Try mood search →</a>
+      </div>
+
+      <!-- RELATED REVIEWS -->
+      <div class="related-articles">
+        <div class="related-title">More reviews</div>
+        <div class="related-grid">
+          <!-- CHANGE THIS: Link to 3 related reviews or articles -->
+          <a href="article.html" class="related-card">
+            <div class="related-card-tag">Hindi · 2025</div>
+            <div class="related-card-title">Dhurandhar: The Revenge Review</div>
+            <div class="related-card-count">Navras 78/100</div>
+          </a>
+          <a href="article.html" class="related-card">
+            <div class="related-card-tag">Telugu · 2024</div>
+            <div class="related-card-title">Kalki 2898-AD Review</div>
+            <div class="related-card-count">Navras 74/100</div>
+          </a>
+          <a href="article.html" class="related-card">
+            <div class="related-card-tag">Hindi · 2025</div>
+            <div class="related-card-title">Best Hindi Films of 2025</div>
+            <div class="related-card-count">15 films ranked</div>
+          </a>
+        </div>
+      </div>
+
+    </main>
+
+    <!-- SIDEBAR -->
+    <aside class="article-sidebar">
+
+      <div class="sidebar-widget">
+        <div class="sw-title">Navras score guide</div>
+        <div class="sw-score-guide">
+          <div class="sg-row"><div class="sg-box green">85+</div><span>Must watch</span></div>
+          <div class="sg-row"><div class="sg-box amber">70+</div><span>Worth watching</span></div>
+          <div class="sg-row"><div class="sg-box red">Below 70</div><span>Mixed — your call</span></div>
+        </div>
+      </div>
+
+      <!-- CHANGE THIS: Trending films in same language/genre -->
+      <div class="sidebar-widget">
+        <div class="sw-title">More Hindi romance</div>
+        <div class="sw-links">
+          <a href="article.html" class="sw-link">Dilwale Dulhania Le Jayenge →</a>
+          <a href="article.html" class="sw-link">Jab We Met →</a>
+          <a href="article.html" class="sw-link">Tamasha →</a>
+          <a href="article.html" class="sw-link">Rockstar →</a>
+        </div>
+      </div>
+
+      <div class="sidebar-widget">
+        <div class="sw-title">Browse by mood</div>
+        <div class="sw-rasas">
+          <a href="mood.html" class="sw-rasa">♡ Shringara</a>
+          <a href="mood.html" class="sw-rasa">◇ Karuna</a>
+          <a href="mood.html" class="sw-rasa">☺ Hasya</a>
+          <a href="mood.html" class="sw-rasa">◈ Veera</a>
+        </div>
+      </div>
+
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">CineRaaga</div>
+        <div class="footer-tagline">All art forms. All languages. All emotions.</div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CineRaaga. Built with love for Indian cinema.</span>
+      <span>Privacy · Terms</span>
+    </div>
+  </footer>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/tmdb.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    // Auto-load poster from TMDb
+    document.addEventListener('DOMContentLoaded', () => {
+      const posterEl = document.getElementById('rvPoster');
+      const tmdbId = posterEl?.dataset.tmdbId;
+      if (!tmdbId) return;
+      TMDB.get(`/movie/${tmdbId}`, {}).then(data => {
+        if (data?.poster_path) {
+          const img = document.createElement('img');
+          img.src = TMDB.poster(data.poster_path, 'w342');
+          img.alt = document.querySelector('.rv-title')?.textContent || 'Film poster';
+          img.style.cssText = 'width:100%;height:100%;object-fit:cover;border-radius:10px;';
+          posterEl.querySelector('.rv-poster-placeholder').replaceWith(img);
+        }
+      });
+    });
+
+    function shareArticle() {
+      if (navigator.share) {
+        navigator.share({ title: document.title, url: window.location.href });
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert('Link copied!');
+      }
+    }
+  </script>
+</body>
+</html>
