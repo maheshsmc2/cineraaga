@@ -28,7 +28,7 @@ function renderCinemaCard(film, type) {
   // show the real Navras Score instead of TMDb's audience rating.
   const isReviewed = film.id === 1303331;
   const link = isReviewed ? 'pages/dhamaal-4-2026.html' : `pages/movie.html?id=${film.id}`;
-  const score = isReviewed ? 42 : TMDB.audienceRating(film.vote_average, film.vote_count);
+  const score = isReviewed ? 62 : TMDB.audienceRating(film.vote_average, film.vote_count);
   const sc = isReviewed ? 'red' : scoreClass(score);
 
   return `
@@ -1133,7 +1133,7 @@ const editorialStories = [
     category: 'New Review',
     title: 'Dhamaal 4 Review — loud, forgettable comfort food, best saved for OTT',
     meta: 'Hindi · 2026',
-    score: 42, scoreClass: 'red',
+    score: 62, scoreClass: 'red',
     tmdbId: 1303331, type: 'movie',
     link: 'pages/dhamaal-4-2026.html'
   },

@@ -82,9 +82,12 @@
 
 .rv-rasas { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
 
-.rtag-icon { display: inline-flex; align-items: center; gap: 5px; }
+.rtag-icon {
+  display: inline-flex; align-items: center; gap: 8px;
+  font-size: 13px; padding: 4px 14px 4px 4px;
+}
 .rtag-icon img {
-  width: 16px; height: 16px; border-radius: 50%;
+  width: 36px; height: 36px; border-radius: 50%;
   object-fit: cover; flex-shrink: 0;
 }
 
