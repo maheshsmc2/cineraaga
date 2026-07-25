@@ -19,15 +19,20 @@ function renderCinemaCard(film, type) {
   const isTV = type === 'tv';
   const title = isTV ? (film.name||film.original_name) : (film.title||film.original_title);
   const posterUrl = film.poster_path ? TMDB.poster(film.poster_path, 'w342') : null;
-  const score = TMDB.audienceRating(film.vote_average, film.vote_count);
   const lang = film.original_language;
   const langName = langNames[lang] || (lang ? lang.toUpperCase() : '');
   const year = (film.release_date||film.first_air_date||'').slice(0,4);
   const rasas = TMDB.genreTags((film.genre_ids||[]).map(id=>({id})));
-  const sc = scoreClass(score);
+
+  // Dhamaal 4 has a real, hand-scored CineRaaga review — link to it and
+  // show the real Navras Score instead of TMDb's audience rating.
+  const isReviewed = film.id === 1303331;
+  const link = isReviewed ? 'pages/dhamaal-4-2026.html' : `pages/movie.html?id=${film.id}`;
+  const score = isReviewed ? 42 : TMDB.audienceRating(film.vote_average, film.vote_count);
+  const sc = isReviewed ? 'red' : scoreClass(score);
 
   return `
-    <a href="pages/movie.html?id=${film.id}" class="cinema-card">
+    <a href="${link}" class="cinema-card">
       <div class="cinema-poster">
         ${posterUrl
           ? `<img src="${posterUrl}" alt="${title}" loading="lazy" onerror="this.parentElement.style.background='var(--ink3)';this.remove()" />`
@@ -237,6 +242,7 @@ const rankingsData = {
 /* In cinemas — Indian films only */
 /* In cinemas — curated current releases, guaranteed language mix */
 const currentInCinemas = [
+  { id:1303331, lang:'hi' },   // Dhamaal 4 (Hindi) — real CineRaaga review published
   { id:1356901, lang:'hi' },   // Saiyaara (Hindi)
   { id:1100782, lang:'hi' },   // Stree 2 (Hindi)
   { id:1172034, lang:'hi' },   // Shaitaan (Hindi)
@@ -258,7 +264,7 @@ async function loadCinemas() {
     currentInCinemas.map(async ({ id }) => {
       try {
         const data = await TMDB.get(`/movie/${id}`, {});
-        if (data && !data.status_code && !data.success === false) return data;
+        if (data && !data.status_code && data.success !== false) return data;
         return null;
       } catch { return null; }
     })
@@ -1117,10 +1123,20 @@ document.addEventListener('DOMContentLoaded', () => {
    Featured story + trending list
    =========================== */
 
-/* No editorialStories entry sets a score — every curated film in
-   data/films/*.json is currently score_status:"placeholder", and
-   placeholders never display a badge (see score display rule). */
+/* Every other editorialStories entry leaves score: null — those films are
+   score_status:"placeholder" in data/films/*.json and placeholders never
+   display a badge (see score display rule). Dhamaal 4 is the exception:
+   it's a real, hand-scored, published CineRaaga review (pages/dhamaal-4-2026.html),
+   not a placeholder, so its score is genuine and safe to show. */
 const editorialStories = [
+  {
+    category: 'New Review',
+    title: 'Dhamaal 4 Review — loud, forgettable comfort food, best saved for OTT',
+    meta: 'Hindi · 2026',
+    score: 42, scoreClass: 'red',
+    tmdbId: 1303331, type: 'movie',
+    link: 'pages/dhamaal-4-2026.html'
+  },
   {
     category: 'New Review',
     title: 'Saiyaara Review — Ahaan Panday announces himself in 2025\'s biggest romantic debut',

@@ -1486,6 +1486,7 @@
 
 .ef-score.green { background: #1A7A3C; }
 .ef-score.amber { background: #C47A00; }
+.ef-score.red { background: #C0392B; }
 
 /* Right — story list */
 .editorial-stories {

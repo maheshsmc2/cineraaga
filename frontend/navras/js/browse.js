@@ -52,7 +52,10 @@ function buildParams() {
 /* ---- Render a single film card ---- */
 function renderCard(film) {
   const posterUrl = TMDB.poster(film.poster_path, 'w342');
-  const score = TMDB.audienceRating(film.vote_average, film.vote_count);
+  // Dhamaal 4 has a real, hand-scored CineRaaga review — link to it and
+  // show the real Navras Score instead of TMDb's audience rating.
+  const isReviewed = film.id === 1303331;
+  const score = isReviewed ? 42 : TMDB.audienceRating(film.vote_average, film.vote_count);
   const scoreColor = TMDB.scoreColor(score);
   const dotClass = TMDB.scoreDotClass(score);
   const rasas = TMDB.genreTags(film.genre_ids?.map(id => ({ id })) || film.genres || []);
@@ -60,9 +63,10 @@ function renderCard(film) {
   const langName = langNames[lang] || lang?.toUpperCase() || '';
   const year = film.release_date ? film.release_date.slice(0, 4) : '';
   const isNew = year >= '2024';
+  const link = isReviewed ? 'dhamaal-4-2026.html' : `movie.html?id=${film.id}`;
 
   return `
-    <a href="movie.html?id=${film.id}" class="browse-card">
+    <a href="${link}" class="browse-card">
       <div class="browse-card-poster">
         ${posterUrl
           ? `<img src="${posterUrl}" alt="${film.title}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'no-poster\\'>🎬</div>'" />`
