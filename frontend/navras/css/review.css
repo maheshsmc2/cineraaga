@@ -240,6 +240,12 @@
   line-height: 1.8; margin-bottom: 14px;
 }
 
+.rv-section-head {
+  font-size: 12px; font-weight: 700;
+  color: var(--gold); text-transform: uppercase;
+  letter-spacing: 0.08em; margin: 20px 0 8px;
+}
+
 /* Watch or skip box */
 .rv-verdict-box {
   background: var(--ink2); border: 1px solid var(--gold);
