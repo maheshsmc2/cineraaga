@@ -82,6 +82,12 @@
 
 .rv-rasas { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 14px; }
 
+.rtag-icon { display: inline-flex; align-items: center; gap: 5px; }
+.rtag-icon img {
+  width: 16px; height: 16px; border-radius: 50%;
+  object-fit: cover; flex-shrink: 0;
+}
+
 /* The verdict — most important */
 .rv-verdict {
   font-size: 17px; font-style: italic;
