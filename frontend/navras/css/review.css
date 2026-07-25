@@ -63,6 +63,27 @@
 .rv-score-badge.amber { background: #C47A00; }
 .rv-score-badge.red { background: #C0392B; }
 
+.rv-rasa-badge {
+  position: absolute;
+  top: 10px; left: 10px;
+  display: flex; align-items: center; gap: 6px;
+  background: rgba(10, 10, 12, 0.75);
+  border: 1px solid var(--gold);
+  border-radius: 20px;
+  padding: 4px 12px 4px 4px;
+  max-width: calc(100% - 20px);
+}
+
+.rv-rasa-badge img {
+  width: 26px; height: 26px; border-radius: 50%;
+  object-fit: cover; flex-shrink: 0;
+}
+
+.rv-rasa-badge span {
+  font-size: 10px; font-weight: 600; color: var(--gold);
+  white-space: nowrap;
+}
+
 /* Header info */
 .rv-title {
   font-family: var(--font-display);
