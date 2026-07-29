@@ -11,6 +11,20 @@ const langNames = {
 
 const INDIAN_LANGS = ['hi','ta','te','ml','kn','mr','bn','pa','gu'];
 
+const REVIEWED_TMDB_ID = 1303331; // Dhamaal 4 — pages/dhamaal-4-2026.html, our real published review
+
+/* TMDb's discover endpoints only accept a SINGLE with_original_language
+   value — a comma list like 'ta,te,ml,kn' silently returns zero results,
+   it is not treated as an OR match. This issues one call per language
+   and merges the results, which is what several sections here actually
+   needed all along. */
+async function discoverByLanguages(endpoint, langs, params = {}) {
+  const results = await Promise.all(
+    langs.map(lang => TMDB.get(endpoint, { ...params, with_original_language: lang }))
+  );
+  return results.flatMap(d => d?.results || []);
+}
+
 function scoreClass(s) { return s >= 75 ? 'green' : s >= 55 ? 'amber' : 'red'; }
 function scoreColorHex(s) { return s >= 75 ? '#2ECC71' : s >= 55 ? '#F39C12' : '#E74C3C'; }
 
@@ -26,9 +40,9 @@ function renderCinemaCard(film, type) {
 
   // Dhamaal 4 has a real, hand-scored CineRaaga review — link to it and
   // show the real Navras Score instead of TMDb's audience rating.
-  const isReviewed = film.id === 1303331;
+  const isReviewed = film.id === REVIEWED_TMDB_ID;
   const link = isReviewed ? 'pages/dhamaal-4-2026.html' : `pages/movie.html?id=${film.id}`;
-  const score = isReviewed ? 62 : TMDB.audienceRating(film.vote_average, film.vote_count);
+  const score = isReviewed ? 42 : TMDB.audienceRating(film.vote_average, film.vote_count);
   const sc = isReviewed ? 'red' : scoreClass(score);
 
   return `
@@ -239,49 +253,30 @@ const rankingsData = {
 
 /* ---- LOAD FUNCTIONS ---- */
 
-/* In cinemas — Indian films only */
-/* In cinemas — curated current releases, guaranteed language mix */
-const currentInCinemas = [
-  { id:1303331, lang:'hi' },   // Dhamaal 4 (Hindi) — real CineRaaga review published
-  { id:1356901, lang:'hi' },   // Saiyaara (Hindi)
-  { id:1100782, lang:'hi' },   // Stree 2 (Hindi)
-  { id:1172034, lang:'hi' },   // Shaitaan (Hindi)
-  { id:1244933, lang:'ta' },   // Vidaamuyarchi (Tamil)
-  { id:824055,  lang:'ta' },   // Vikram (Tamil)
-  { id:1064213, lang:'te' },   // Kalki 2898-AD (Telugu)
-  { id:1087822, lang:'te' },   // Devara (Telugu)
-  { id:1350457, lang:'ml' },   // Lokah (Malayalam)
-  { id:1186532, lang:'ml' },   // Manjummel Boys (Malayalam)
-  { id:763215,  lang:'kn' },   // KGF Chapter 2 (Kannada)
-];
-
+/* In cinemas — real Indian releases only. The old hardcoded ID list here
+   turned out to be entirely wrong (IDs resolved to unrelated Western/
+   international titles — Smile 2, Anora, Damsel, etc.), so this now
+   always pulls from TMDb's actual India-region now_playing feed,
+   filtered to Indian-language originals. Our own reviewed film
+   (Dhamaal 4) is pinned first since it's the one with a real CineRaaga
+   verdict attached. */
 async function loadCinemas() {
   const grid = document.getElementById('cinemasGrid');
   if (!grid) return;
 
-  // Fetch all curated films by ID in parallel — correct posters + language mix
-  const results = await Promise.all(
-    currentInCinemas.map(async ({ id }) => {
-      try {
-        const data = await TMDB.get(`/movie/${id}`, {});
-        if (data && !data.status_code && data.success !== false) return data;
-        return null;
-      } catch { return null; }
-    })
-  );
+  let pinned = null;
+  try {
+    const data = await TMDB.get(`/movie/${REVIEWED_TMDB_ID}`, {});
+    if (data && !data.status_code && data.success !== false) pinned = data;
+  } catch {}
 
-  const valid = results.filter(Boolean);
+  const nowPlaying = await TMDB.get('/movie/now_playing', { region: 'IN' });
+  const films = (nowPlaying?.results || [])
+    .filter(f => INDIAN_LANGS.includes(f.original_language) && f.id !== REVIEWED_TMDB_ID)
+    .slice(0, pinned ? 9 : 10);
 
-  if (valid.length) {
-    grid.innerHTML = valid.map(f => renderCinemaCard(f, 'movie')).join('');
-  } else {
-    // Fallback to now playing
-    const fallback = await TMDB.get('/movie/now_playing', { region: 'IN' });
-    const films = (fallback?.results || [])
-      .filter(f => INDIAN_LANGS.includes(f.original_language))
-      .slice(0, 10);
-    grid.innerHTML = films.map(f => renderCinemaCard(f, 'movie')).join('');
-  }
+  const finalFilms = pinned ? [pinned, ...films] : films;
+  grid.innerHTML = finalFilms.map(f => renderCinemaCard(f, 'movie')).join('');
 }
 
 /* Recent reviews — Indian films */
@@ -351,19 +346,19 @@ async function loadComingSoon() {
   if (!grid) return;
 
   // Fetch upcoming Indian films
-  const [upcoming, hiUpcoming] = await Promise.all([
+  const releaseWindow = {
+    sort_by: 'release_date.asc',
+    'primary_release_date.gte': new Date().toISOString().slice(0,10),
+    'primary_release_date.lte': new Date(Date.now() + 60*24*60*60*1000).toISOString().slice(0,10)
+  };
+  const [upcoming, southUpcoming] = await Promise.all([
     TMDB.get('/movie/upcoming', { region: 'IN' }),
-    TMDB.get('/discover/movie', {
-      with_original_language: 'ta,te,ml,kn',
-      sort_by: 'release_date.asc',
-      'primary_release_date.gte': new Date().toISOString().slice(0,10),
-      'primary_release_date.lte': new Date(Date.now() + 60*24*60*60*1000).toISOString().slice(0,10)
-    })
+    discoverByLanguages('/discover/movie', ['ta','te','ml','kn'], releaseWindow)
   ]);
 
   let results = [
     ...(upcoming?.results || []).filter(f => INDIAN_LANGS.includes(f.original_language)),
-    ...(hiUpcoming?.results || []).filter(f => INDIAN_LANGS.includes(f.original_language))
+    ...southUpcoming.filter(f => INDIAN_LANGS.includes(f.original_language))
   ]
   .filter((f, i, arr) => arr.findIndex(x => x.id === f.id) === i)
   .sort((a, b) => new Date(a.release_date) - new Date(b.release_date))
@@ -399,13 +394,17 @@ async function loadTV() {
   const list = document.getElementById('tvReviewsList');
 
   const data = await TMDB.get('/trending/tv/week', {});
-  const indianTV = (data?.results || []).filter(f => INDIAN_LANGS.includes(f.original_language));
-  const allTV = data?.results || [];
+  let indianTV = (data?.results || []).filter(f => INDIAN_LANGS.includes(f.original_language));
 
-  // Mix Indian + global for TV
-  const mixed = [...indianTV, ...allTV.filter(f => !INDIAN_LANGS.includes(f.original_language))]
-    .filter((f,i,arr) => arr.findIndex(x=>x.id===f.id)===i)
-    .slice(0,6);
+  // Trending-this-week rarely has 6+ Indian shows — supplement with a
+  // language-filtered discover call instead of padding with global shows.
+  if (indianTV.length < 6) {
+    const supplement = await discoverByLanguages('/discover/tv', ['hi','ta','te','ml','kn'], { sort_by: 'popularity.desc' });
+    indianTV = [...indianTV, ...supplement.filter(f => INDIAN_LANGS.includes(f.original_language))]
+      .filter((f,i,arr) => arr.findIndex(x=>x.id===f.id)===i);
+  }
+
+  const mixed = indianTV.slice(0,6);
 
   if (grid) grid.innerHTML = mixed.map(f => renderCinemaCard(f, 'tv')).join('');
   if (list) list.innerHTML = mixed.slice(0,4).map(f => renderReviewRow(f,'tv')).join('');
@@ -868,8 +867,7 @@ async function loadPopularNow() {
       sort_by: 'popularity.desc',
       'vote_count.gte': 100
     }),
-    TMDB.get('/discover/movie', {
-      with_original_language: 'ta,te,ml,kn',
+    discoverByLanguages('/discover/movie', ['ta','te','ml','kn'], {
       sort_by: 'popularity.desc',
       'vote_count.gte': 50
     }),
@@ -886,7 +884,7 @@ async function loadPopularNow() {
       .filter(f => INDIAN_LANGS.includes(f.original_language));
     const hiFilms = (hiMovies?.results || [])
       .filter(f => f.original_language === 'hi');
-    const southFilms = (southMovies?.results || [])
+    const southFilms = southMovies
       .filter(f => INDIAN_LANGS.includes(f.original_language));
 
     // Merge all Indian films, deduplicate, sort by popularity
