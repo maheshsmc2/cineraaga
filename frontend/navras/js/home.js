@@ -1131,7 +1131,7 @@ const editorialStories = [
     category: 'New Review',
     title: 'Dhamaal 4 Review — loud, forgettable comfort food, best saved for OTT',
     meta: 'Hindi · 2026',
-    score: 62, scoreClass: 'red',
+    score: 42, scoreClass: 'red',
     tmdbId: 1303331, type: 'movie',
     link: 'pages/dhamaal-4-2026.html'
   },
