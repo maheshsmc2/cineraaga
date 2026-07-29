@@ -68,3 +68,24 @@ Filling a template isn't the same job as writing one. The task was explicit that
 
 - The template's four generic `.rv-para` slots (opening hook / good / problem / final verdict) don't map onto arbitrarily-named content sections. Mahe's copy came pre-divided into five labeled sections (Mood, Story, Direction, Performances, CineRaaga Take) — one more than the template had paragraph slots for. Resolved by reading where each was explicitly aimed: the first four filled the `.rv-body` paragraphs in the order given, and "CineRaaga Take (final verdict box)" was explicit enough about its destination to justify adding one `<p class="rv-para">` inside `.rv-verdict-box` — reusing an existing class rather than writing new CSS.
 - "Do not invent details" cuts both ways: it blocks filling gaps with made-up content, but it doesn't mean deleting or "fixing" content that's merely mismatched to the new film (leftover Saiyaara-era three-word tags, IMDb/RT numbers, and a "More Hindi romance" sidebar all stayed untouched here, exactly as instructed, even though they visibly don't describe a comedy sequel).
+
+## 2026-07-30 — Home page was serving global TMDb data, not Indian films
+
+**What happened:**
+
+Mahe reported the home page showing wrong films — Western titles like Smile 2, Anora, Damsel, Hellboy instead of the expected Indian lineup (Peddi, Maa Inti Bangaram, Dhamaal 4, Alpha, Idhayam Murali, Lenin, Carry On Jatta 4). Root-caused to two separate bugs in `js/home.js`, both fixed:
+
+1. **"In Cinemas Now" ran on a hardcoded ID list that was simply wrong.** `currentInCinemas` had specific TMDb IDs with comments claiming which film each was ("Saiyaara (Hindi)", "Vikram (Tamil)", etc.) — every single one, checked individually against the live TMDb API, resolved to a completely unrelated title. This had been silently masked by an unrelated validation bug fixed in an earlier session; fixing that bug made the (broken) curated path start "succeeding" instead of falling through to the properly-filtered `now_playing` fallback that was already there. Replaced the whole hardcoded list with a live `region=IN` + Indian-language-filtered query, with Dhamaal 4 (our one real review) pinned first by TMDb ID.
+2. **TMDb's `/discover` endpoints only accept a single `with_original_language` value.** Several functions (`loadTV`, `loadComingSoon`, `loadPopularNow`) passed comma-separated lists like `'ta,te,ml,kn'` expecting an OR match — TMDb silently returns zero results for that instead of erroring, so every "South Indian supplement" call in the codebase had been contributing nothing. `loadTV()` was explicitly compensating by padding its row with non-Indian trending shows. Added a `discoverByLanguages()` helper that fires one request per language and merges results, and removed the "mix Indian + global" fallback now that the real supplement works.
+
+Also fixed a stale score (62 vs. the correct 42) that had drifted across the homepage hero card and the `dhamaal-4-2026.html` review page itself (poster badge, score row, title, meta description), and removed a Music section that had been added to the review outside the locked Mood → Script → Direction → Acting → CineRaaga Take format.
+
+**Concept:**
+
+A filter that "looks" correct in the code (region: 'IN', a `lang:` comment on every array entry) is not the same as a filter that's actually being exercised. Two completely different failure modes — wrong hardcoded IDs, and a misunderstood API parameter — both produced the identical symptom (non-Indian content on an Indian-only platform), and both had been sitting unnoticed because their broken paths returned *successfully*, just with the wrong data, rather than erroring.
+
+**Traps:**
+
+- Silent wrong-data bugs don't show up in `console.error` — they show up as "why is Anora on my Indian cinema homepage." When a data-quality complaint comes in, verify the actual API responses for the specific IDs/params in use rather than trusting that filter-shaped code is filtering.
+- Fixing one bug can unmask another. The `!data.success === false` operator-precedence fix from the previous session was correct in isolation, but it flipped `loadCinemas()` from "always silently fails to the good fallback" to "always succeeds with bad curated data" — a net regression until the curated list itself was replaced.
+- TMDb's discover-family endpoints accept `with_genres` as a comma/pipe list (AND/OR) but `with_original_language` as a single value only — an easy assumption to get wrong by analogy, and one that fails without any error, just an empty `results` array.
