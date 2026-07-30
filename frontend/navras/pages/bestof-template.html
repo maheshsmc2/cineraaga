@@ -51,15 +51,16 @@
   <div class="tricolour"><span></span><span></span><span></span></div>
 
   <nav class="nav">
-    <a href="../index.html" class="nav-logo">
+    <div class="nav-masthead">
+      <a href="../index.html" class="nav-logo">
       <img src="../images/brand/cineraaga-logo-nav.png" alt="CineRaaga" class="nav-logo-img" />
-      <div class="logo-sub">Cinema · Music · Art</div>
-    </a>
+      </a>
     <div class="nav-links">
       <a href="../index.html" class="nav-link">Home</a>
       <a href="browse.html" class="nav-link">Browse</a>
       <a href="mood.html" class="nav-link">Mood Search</a>
       <a href="lists.html" class="nav-link active">Lists</a>
+    </div>
     </div>
     <div class="nav-right">
       <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()">
@@ -67,7 +68,15 @@
         <span class="toggle-label" id="toggleLabel">Dark</span>
       </button>
     </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
   </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="../index.html" class="mobile-link">Home</a>
+    <a href="browse.html" class="mobile-link">Browse</a>
+    <a href="mood.html" class="mobile-link">Mood Search</a>
+    <a href="lists.html" class="mobile-link active">Lists</a>
+  </div>
 
   <div class="article-wrap">
     <main class="article-main">
