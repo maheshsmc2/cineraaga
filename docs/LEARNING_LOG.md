@@ -89,3 +89,22 @@ A filter that "looks" correct in the code (region: 'IN', a `lang:` comment on ev
 - Silent wrong-data bugs don't show up in `console.error` — they show up as "why is Anora on my Indian cinema homepage." When a data-quality complaint comes in, verify the actual API responses for the specific IDs/params in use rather than trusting that filter-shaped code is filtering.
 - Fixing one bug can unmask another. The `!data.success === false` operator-precedence fix from the previous session was correct in isolation, but it flipped `loadCinemas()` from "always silently fails to the good fallback" to "always succeeds with bad curated data" — a net regression until the curated list itself was replaced.
 - TMDb's discover-family endpoints accept `with_genres` as a comma/pipe list (AND/OR) but `with_original_language` as a single value only — an easy assumption to get wrong by analogy, and one that fails without any error, just an empty `results` array.
+
+## 2026-07-31 — Header redesign: centered masthead, heavier-serif logo
+
+**What happened:**
+
+Replaced the CineRaaga logo assets (full wordmark, nav wordmark, favicon) with a redesigned heavier serif — the previous version's "C" had an open aperture that read as ambiguous/illegible at small nav sizes, especially the favicon. The new files already had real alpha transparency (unlike the first logo drop, no background-strip fix was needed this time — checked corner-pixel alpha before assuming).
+
+Restructured the site nav on every page (`index.html` + all of `pages/`) from a single left-to-right row (logo, links, utilities) into a centered two-row masthead: logo on top at 58px (was 36px), nav links centered directly beneath it, with the language switcher/theme toggle/hamburger pulled out of flow into a small floating cluster pinned to the top-right so they don't compete with the centered identity. Logo drops to 40px and the links row collapses into the existing hamburger/mobile-menu at narrow widths.
+
+While doing this, found that 6 of the 11 pages (`bestof-template`, `dhamaal-4-2026`, `ott-template`, `review-template`, and partially `lists`/`mood`) were missing the hamburger button and/or `.mobile-menu` markup entirely — on mobile, once the centered masthead's nav-links row hides at the 700px breakpoint, those pages had no way to reach Home/Browse/Mood Search/Lists at all. Added the missing markup to all six, mirroring each page's existing links (left `lists.html`/`mood.html`'s non-standard Films/Series/Music/Awards link set untouched — that's a separate content inconsistency, not something this task asked to fix).
+
+**Concept:**
+
+A centered masthead needs to center regardless of what's on the right, so the logo+links block is pulled out of normal flow (`position: absolute; left/top 50%; transform: translate(-50%,-50%)`) inside a `position: sticky` nav that's given a `min-height` tall enough to contain it — since absolutely-positioned children don't contribute to their parent's size, the parent needs an explicit height or the masthead would visually overflow a nav box sized only by the (much shorter) utility cluster.
+
+**Traps:**
+
+- "Apply this to every page, all pages should have the same nav" surfaced a real, pre-existing gap rather than just being a style instruction: several pages could never open their mobile nav at all. Worth checking sitewide for structural completeness (does every page have X), not just restyling the copy that's already there.
+- The browser preview tool's screenshot renderer had an unrelated, pre-existing quirk on `mood.html` (content shrunk into a corner of the canvas) that looked exactly like a layout bug caused by this change. Confirmed via `git stash` that the same broken rendering happened with the *old* nav code too, before spending more time chasing it — when a rendering artifact looks too specific to one page, check whether it predates your change before assuming you caused it.
