@@ -261,6 +261,8 @@
 
 .rv-verdict-options { display: flex; gap: 10px; flex-wrap: wrap; }
 
+.rv-streaming-row { display: flex; gap: 10px; flex-wrap: wrap; }
+
 .rv-verdict-opt {
   font-size: 13px; font-weight: 500;
   padding: 7px 16px; border-radius: 8px;
