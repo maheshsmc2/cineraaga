@@ -108,3 +108,19 @@ A centered masthead needs to center regardless of what's on the right, so the lo
 
 - "Apply this to every page, all pages should have the same nav" surfaced a real, pre-existing gap rather than just being a style instruction: several pages could never open their mobile nav at all. Worth checking sitewide for structural completeness (does every page have X), not just restyling the copy that's already there.
 - The browser preview tool's screenshot renderer had an unrelated, pre-existing quirk on `mood.html` (content shrunk into a corner of the canvas) that looked exactly like a layout bug caused by this change. Confirmed via `git stash` that the same broken rendering happened with the *old* nav code too, before spending more time chasing it — when a rendering artifact looks too specific to one page, check whether it predates your change before assuming you caused it.
+
+## 2026-08-02 — Second review published; Watch/Skip verdict replaced with Streaming On
+
+**What happened:**
+
+Published the second CineRaaga review, `maa-inti-bangaram-2026.html` (Maa Inti Bangaaram, Telugu, 2026, Navras 68/amber), following the same locked Mood → Story → Direction → Performances → CineRaaga Take structure as the Dhamaal 4 review, with byline "Mahe" per explicit instruction this time (unlike Dhamaal 4, which uses the generic "CineRaaga Editorial" byline).
+
+Also evolved `review-template.html` itself: the old "CineRaaga says" verdict box — a row of ✓/✗ pills like "✓ Watch on OTT" / "✗ Skip in theatres" — is gone, replaced by a plain "Streaming on" row that just lists the platform(s) currently carrying the film. The old pills encoded a theatre-vs-OTT judgment that goes stale within weeks as a film moves between windows; a streaming-platform list is a fact that can just be updated in place rather than a verdict that needs re-litigating. Applied to the template and the new review only — the already-published Dhamaal 4 review keeps its original verdict-pill box, since retroactively rewriting a published review wasn't part of this task.
+
+**Concept:**
+
+Not every piece of review content is equally durable. A one-sentence critical verdict ages fine; a theatre/OTT recommendation is really a snapshot of distribution status at publish time, which is exactly the kind of thing that should be phrased as an observable fact ("streaming on X") rather than a standing recommendation ("watch on OTT") — the former just gets updated, the latter goes quietly wrong.
+
+**Traps:**
+
+- Score guide, external critic scores (IMDb/RT), and the "three words" descriptor block are all present as filled-in-looking defaults in the template with plausible-sounding numbers. None of these were part of the given content spec for Maa Inti Bangaaram, so they were left out entirely rather than filled with invented numbers — a template field that "looks like it just needs data" is not the same as a field that was actually supplied.
