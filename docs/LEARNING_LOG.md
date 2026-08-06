@@ -139,3 +139,18 @@ Not everything can be sourced live. When a section's source data (TMDb, in this 
 
 - The instinct to "just filter what we show" doesn't fix a hardcoded list — the dates were still fixed at write-time and would go stale again on the same schedule. The fix had to be the source of truth (a file Mahe edits going forward), not a smarter filter over static data.
 - A section with no content should disappear, not render an empty label with nothing under it — an empty "Coming soon on OTT" heading with no rows reads as broken, not as "nothing scheduled yet."
+
+## 2026-08-06 — New-on-OTT: same fabrication pattern, same fix
+
+**What happened:**
+
+The homepage's "New on OTT" poster grid (`js/home.js`'s hardcoded `ottFilms` object) was showing films like Tumbbad (2018), 3 Idiots (2009), RRR (2022), and Dangal (2016) under a "New on OTT" label — a globally-popular TMDb catalog list with no actual connection to when anything arrived on Indian streaming. Same root cause as the coming-to-OTT bug fixed earlier today: TMDb doesn't reliably expose Indian OTT release dates, so nothing about that list was ever going to reflect what's actually recent. Deleted `ottFilms` outright and replaced it with a fetch from a new hand-maintained file, `data/new_on_ott.json` — seeded empty, schema matches `coming_to_ott.json` (title, language, ott_platform, release_date, tmdb_id). `loadOttPosterGrid()` now filters to entries within the last 60 days, grouped by the clicked platform tab, and still fetches the real poster/audience-score from TMDb per `tmdb_id` for whatever qualifies. A platform tab with nothing recent shows "Nothing new here — check back soon" instead of falling back to old catalog titles.
+
+**Concept:**
+
+This is the same shape of problem as the coming-to-OTT fix, on the same day: a section whose *label* makes a time-bound claim ("new," "coming soon") needs a *source* that actually tracks time, and TMDb's popularity/catalog data doesn't. `frontend/navras/data/*.json` is now the established pattern for exactly this — anything that needs editorial judgment or currency that no API reliably provides for the Indian market lives there as a small hand-maintained file, seeded empty until Mahe fills it in, with an explicit empty/stale-data fallback rather than a silent wrong default.
+
+**Traps:**
+
+- `loadOttPosterGrid` and `loadOttWithPosters` (a second, dead function targeting a `#ottGrid` element that doesn't exist anywhere in `index.html`) both read from the same `ottFilms` object. Before deleting it, had to confirm the dead function's early `if (!grid) return` happens before it ever touches `ottFilms` — otherwise removing the object would've thrown on a code path that looked unrelated to the visible page.
+- An empty grid needed a per-tab message, not a page-level one — "nothing new on Netflix" doesn't mean "nothing new on Prime," so the empty state had to be re-evaluated on every tab click, not just on first load.
