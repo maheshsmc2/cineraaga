@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "title": "Maa Inti Bangaaram",
+    "language": "Telugu",
+    "ott_platform": "Hotstar",
+    "release_date": "2026-07-17",
+    "tmdb_id": 1227241
+  },
+  {
+    "title": "Ikka",
+    "language": "Hindi",
+    "ott_platform": "Netflix",
+    "release_date": "2026-07-10",
+    "tmdb_id": 1484913
+  },
+  {
+    "title": "Pati Patni Aur Woh Do",
+    "language": "Hindi",
+    "ott_platform": "Netflix",
+    "release_date": "2026-07-15",
+    "tmdb_id": 1320660
+  },
+  {
+    "title": "Rao Bahadur",
+    "language": "Telugu",
+    "ott_platform": "Netflix",
+    "release_date": "2026-07-31",
+    "tmdb_id": 1443961
+  },
+  {
+    "title": "Balan: The Boy",
+    "language": "Malayalam",
+    "ott_platform": "ZEE5",
+    "release_date": "2026-07-31",
+    "tmdb_id": 1410937
+  }
+]
