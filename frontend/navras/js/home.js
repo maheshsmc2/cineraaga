@@ -1375,32 +1375,50 @@ function initOttPosterTabs() {
 
 /* ===========================
    COMING SOON ON OTT — text list
-   Upcoming OTT releases
+   Manually-curated upcoming OTT releases.
+   TMDb doesn't reliably surface Indian OTT release dates,
+   so this reads from a hand-maintained data file instead.
    =========================== */
-const ottComingSoon = [
-  { title:"Pushpa 2: The Rule", lang:"Telugu", date:"5 Jul", platform:"Netflix" },
-  { title:"Vettaiyan", lang:"Tamil", date:"8 Jul", platform:"Prime" },
-  { title:"Bhool Bhulaiyaa 3", lang:"Hindi", date:"12 Jul", platform:"Netflix" },
-  { title:"Amaran", lang:"Tamil", date:"15 Jul", platform:"Hotstar" },
-  { title:"Kanguva", lang:"Tamil", date:"18 Jul", platform:"Prime" },
-  { title:"Singham Again", lang:"Hindi", date:"20 Jul", platform:"Prime" },
-  { title:"Sookshmadarshini", lang:"Malayalam", date:"22 Jul", platform:"SonyLIV" },
-  { title:"Game Changer", lang:"Telugu", date:"25 Jul", platform:"Netflix" }
-];
-
-function loadOttComingList() {
+async function loadOttComingList() {
+  const col = document.getElementById('ottComingCol');
   const list = document.getElementById('ottComingList');
-  if (!list) return;
-  list.innerHTML = ottComingSoon.slice(0, 5).map((f, i) => `
+  if (!list || !col) return;
+
+  let entries = [];
+  try {
+    const res = await fetch('data/coming_to_ott.json');
+    entries = await res.json();
+  } catch (e) {
+    entries = [];
+  }
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+
+  const upcoming = entries
+    .filter(f => new Date(f.release_date) > today)
+    .sort((a, b) => new Date(a.release_date) - new Date(b.release_date));
+
+  if (!upcoming.length) {
+    col.style.display = 'none';
+    return;
+  }
+
+  col.style.display = '';
+  list.innerHTML = upcoming.slice(0, 5).map((f, i) => {
+    const d = new Date(f.release_date);
+    const dateLabel = d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+    return `
     <a href="pages/browse.html" class="trending-list-item">
       <div class="tli-rank">${i+1}</div>
       <div class="tli-title">${f.title}</div>
-      <div class="tli-lang">${f.lang}</div>
+      <div class="tli-lang">${f.language}</div>
       <div class="tli-score">
-        <div class="tli-score-num" style="color:var(--text-muted);font-size:11px;white-space:nowrap;">${f.date}</div>
+        <div class="tli-score-num" style="color:var(--text-muted);font-size:11px;white-space:nowrap;">${dateLabel}</div>
       </div>
     </a>
-  `).join('');
+  `;
+  }).join('');
 }
 
 // Run on DOM ready AND as fallback after short delay
