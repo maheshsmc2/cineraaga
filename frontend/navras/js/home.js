@@ -1304,11 +1304,13 @@ async function loadOttPosterGrid(platform) {
     return;
   }
 
-  // Fetch each film's real poster + vote data by TMDb ID
+  // Fetch each title's real poster + vote data by TMDb ID. Series entries
+  // carry type:"tv" — the same numeric ID means a different, unrelated
+  // title on /movie/, so the endpoint has to match the entry's type.
   const results = [];
   for (const f of films) {
     try {
-      const data = await TMDB.get(`/movie/${f.tmdb_id}`, {});
+      const data = await TMDB.get(`/${f.type === 'tv' ? 'tv' : 'movie'}/${f.tmdb_id}`, {});
       const score = TMDB.audienceRating(data.vote_average, data.vote_count);
       results.push({ f, posterPath: data.poster_path || null, score });
     } catch {
@@ -1320,8 +1322,13 @@ async function loadOttPosterGrid(platform) {
     const sc = score >= 75 ? 'green' : score >= 55 ? 'amber' : 'red';
     const posterUrl = posterPath ? TMDB.poster(posterPath, 'w342') : null;
     const bg = '#1a1a2e';
+    // movie.html is movie-only, so series get a plain card rather than a
+    // link that would resolve the TV id against /movie/ and show the wrong title.
+    const isTV = f.type === 'tv';
+    const open = isTV ? '<div class="cinema-card">' : `<a href="pages/movie.html?id=${f.tmdb_id}" class="cinema-card">`;
+    const close = isTV ? '</div>' : '</a>';
     return `
-      <a href="pages/movie.html?id=${f.tmdb_id}" class="cinema-card">
+      ${open}
         <div class="cinema-poster" style="${!posterUrl ? `background:linear-gradient(160deg,${bg},${bg}aa)` : ''}">
           ${posterUrl
             ? `<img src="${posterUrl}" alt="${f.title}" loading="lazy"
@@ -1334,7 +1341,7 @@ async function loadOttPosterGrid(platform) {
           <div class="cinema-title">${f.title}</div>
           <div class="cinema-meta">${new Date(f.release_date).getFullYear()}</div>
         </div>
-      </a>`;
+      ${close}`;
   }).join('');
 }
 

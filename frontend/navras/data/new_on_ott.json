@@ -33,5 +33,28 @@
     "ott_platform": "ZEE5",
     "release_date": "2026-07-31",
     "tmdb_id": 1410937
+  },
+  {
+    "title": "Athiradi",
+    "language": "Malayalam",
+    "ott_platform": "SonyLIV",
+    "release_date": "2026-07-11",
+    "tmdb_id": 1510767
+  },
+  {
+    "title": "Perfect Family Season 2",
+    "language": "Hindi",
+    "ott_platform": "SonyLIV",
+    "release_date": "2026-06-26",
+    "tmdb_id": 306974,
+    "type": "tv"
+  },
+  {
+    "title": "Raakh",
+    "language": "Hindi",
+    "ott_platform": "Prime Video",
+    "release_date": "2026-07-04",
+    "tmdb_id": 284631,
+    "type": "tv"
   }
 ]
