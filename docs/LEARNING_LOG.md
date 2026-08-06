@@ -124,3 +124,18 @@ Not every piece of review content is equally durable. A one-sentence critical ve
 **Traps:**
 
 - Score guide, external critic scores (IMDb/RT), and the "three words" descriptor block are all present as filled-in-looking defaults in the template with plausible-sounding numbers. None of these were part of the given content spec for Maa Inti Bangaaram, so they were left out entirely rather than filled with invented numbers — a template field that "looks like it just needs data" is not the same as a field that was actually supplied.
+
+## 2026-08-06 — Coming-soon-on-OTT: hardcoded dates replaced with manual curated JSON
+
+**What happened:**
+
+The homepage's "Coming soon on OTT" column (`js/home.js`'s `ottComingSoon` array) was showing films with July dates that had already passed by August — most of them already streaming, not "coming soon" at all. Unlike theatrical release dates, TMDb doesn't reliably expose upcoming OTT release dates for the Indian region, so this can't be fixed the same way the theatrical "Coming soon" column was (a live `/discover` query). Replaced the hardcoded array with a fetch from a new hand-maintained file, `data/coming_to_ott.json` — seeded empty for now, to be filled in by Mahe as OTT dates are confirmed. `loadOttComingList()` now filters entries to `release_date > today`, sorts by soonest first, and — if nothing qualifies — hides the whole column (`#ottComingCol`, not just the inner list) rather than leaving stale or empty-looking content on the page. Left the other three sections in that row (Coming soon theatres, New on OTT, Popular right now) untouched.
+
+**Concept:**
+
+Not everything can be sourced live. When a section's source data (TMDb, in this case) is a known unreliable proxy for what the section actually claims to show ("upcoming OTT," not "upcoming theatrical"), forcing a live feed produces confident-looking wrong answers. The honest fallback is a small manually-curated data file plus a rule for what to render when it's empty — hide, don't fake.
+
+**Traps:**
+
+- The instinct to "just filter what we show" doesn't fix a hardcoded list — the dates were still fixed at write-time and would go stale again on the same schedule. The fix had to be the source of truth (a file Mahe edits going forward), not a smarter filter over static data.
+- A section with no content should disappear, not render an empty label with nothing under it — an empty "Coming soon on OTT" heading with no rows reads as broken, not as "nothing scheduled yet."
