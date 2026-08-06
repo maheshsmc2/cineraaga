@@ -127,59 +127,6 @@ function renderReviewRow(film, type) {
 }
 
 /* ---- OTT local data ---- */
-const ottFilms = {
-  netflix: [
-    { title:"IC 814: The Kandahar Hijack", year:2024, lang:"Hindi", score:91, color:"#1a1a2e", platform:"Netflix", tmdbId:242074 },
-    { title:"All We Imagine as Light", year:2024, lang:"Malayalam", score:96, color:"#0d2e1a", platform:"Netflix", tmdbId:1017336 },
-    { title:"Tumbbad", year:2018, lang:"Hindi", score:94, color:"#2e0d0d", platform:"Netflix", tmdbId:520110 },
-    { title:"RRR", year:2022, lang:"Telugu", score:95, color:"#2e0d1a", platform:"Netflix", tmdbId:759244 },
-    { title:"3 Idiots", year:2009, lang:"Hindi", score:95, color:"#1a2e0d", platform:"Netflix", tmdbId:20453 },
-    { title:"Dangal", year:2016, lang:"Hindi", score:96, color:"#0a2010", platform:"Netflix", tmdbId:363676 },
-    { title:"Drishyam 2", year:2021, lang:"Malayalam", score:91, color:"#0d1a2e", platform:"Netflix", tmdbId:933131 },
-    { title:"Squid Game S2", year:2024, lang:"Korean", score:92, color:"#0a0a1e", platform:"Netflix", tmdbId:93405 }
-  ],
-  prime: [
-    { title:"Panchayat S3", year:2024, lang:"Hindi", score:93, color:"#1a2e0d", platform:"Prime Video", tmdbId:101352, type:"tv" },
-    { title:"Andhadhun", year:2018, lang:"Hindi", score:94, color:"#1a1a1a", platform:"Prime Video", tmdbId:534780 },
-    { title:"Drishyam 2", year:2021, lang:"Malayalam", score:91, color:"#0d1a2e", platform:"Prime Video", tmdbId:933131 },
-    { title:"Manjummel Boys", year:2024, lang:"Malayalam", score:91, color:"#0d2e2e", platform:"Prime Video", tmdbId:1186532 },
-    { title:"Jawan", year:2023, lang:"Hindi", score:82, color:"#2e1a0d", platform:"Prime Video", tmdbId:1086747 },
-    { title:"KGF Chapter 2", year:2022, lang:"Kannada", score:89, color:"#2e2a0a", platform:"Prime Video", tmdbId:763215 },
-    { title:"Vikram", year:2022, lang:"Tamil", score:88, color:"#0a1a2e", platform:"Prime Video", tmdbId:824055 },
-    { title:"Pushpa: The Rise", year:2021, lang:"Telugu", score:84, color:"#2e1a00", platform:"Prime Video", tmdbId:877703 }
-  ],
-  hotstar: [
-    { title:"Kalki 2898-AD", year:2024, lang:"Telugu", score:74, color:"#1a1a0d", platform:"Hotstar", tmdbId:1064213 },
-    { title:"Shaitaan", year:2024, lang:"Hindi", score:77, color:"#1a0d0d", platform:"Hotstar", tmdbId:1172034 },
-    { title:"Devara", year:2024, lang:"Telugu", score:72, color:"#2e2e0d", platform:"Hotstar", tmdbId:1087822 },
-    { title:"Baahubali 2", year:2017, lang:"Telugu", score:92, color:"#2e1a0a", platform:"Hotstar", tmdbId:346364 },
-    { title:"Pushpa 2", year:2024, lang:"Telugu", score:85, color:"#2e1a00", platform:"Hotstar", tmdbId:1241982 },
-    { title:"Article 370", year:2024, lang:"Hindi", score:83, color:"#1a2e2e", platform:"Hotstar", tmdbId:1172613 },
-    { title:"Stree 2", year:2024, lang:"Hindi", score:87, color:"#1a0d2e", platform:"Hotstar", tmdbId:1100782 },
-    { title:"Munjya", year:2024, lang:"Hindi", score:79, color:"#0d1a1a", platform:"Hotstar", tmdbId:1227139 }
-  ],
-  sony: [
-    { title:"Scam 1992", year:2020, lang:"Hindi", score:97, color:"#2e2e0d", platform:"SonyLIV", tmdbId:113855 },
-    { title:"The Family Man", year:2019, lang:"Hindi", score:94, color:"#0d1a1a", platform:"SonyLIV", tmdbId:95557 },
-    { title:"Aspirants", year:2021, lang:"Hindi", score:89, color:"#1a2e1a", platform:"SonyLIV", tmdbId:112130 },
-    { title:"Rocket Boys", year:2022, lang:"Hindi", score:87, color:"#0d0d2e", platform:"SonyLIV", tmdbId:120168 },
-    { title:"Farzi", year:2023, lang:"Hindi", score:86, color:"#2e0d1a", platform:"SonyLIV", tmdbId:209764 },
-    { title:"Paatal Lok", year:2020, lang:"Hindi", score:93, color:"#1a0d2e", platform:"SonyLIV", tmdbId:125925 },
-    { title:"Undekhi", year:2020, lang:"Hindi", score:84, color:"#2e1a0a", platform:"SonyLIV", tmdbId:113988 },
-    { title:"Tabbar", year:2021, lang:"Hindi", score:88, color:"#0a1a0a", platform:"SonyLIV", tmdbId:173560 }
-  ],
-  zee5: [
-    { title:"Kaala Paani", year:2023, lang:"Hindi", score:85, color:"#0d1a2e", platform:"ZEE5", tmdbId:229268 },
-    { title:"Bhakshak", year:2024, lang:"Hindi", score:86, color:"#0d0d1a", platform:"ZEE5", tmdbId:1156452 },
-    { title:"Murder in Mahim", year:2024, lang:"Hindi", score:80, color:"#1a0d0d", platform:"ZEE5", tmdbId:245786 },
-    { title:"Dhoom Dhaam", year:2025, lang:"Hindi", score:72, color:"#1a2e0d", platform:"ZEE5", tmdbId:1299065 },
-    { title:"Raktanchal", year:2020, lang:"Hindi", score:83, color:"#2e0d0d", platform:"ZEE5", tmdbId:108978 },
-    { title:"Gullak", year:2019, lang:"Hindi", score:91, color:"#2e2a0d", platform:"ZEE5", tmdbId:91649 },
-    { title:"Sunflower", year:2021, lang:"Hindi", score:82, color:"#2e2e0a", platform:"ZEE5", tmdbId:130393 },
-    { title:"Grahan", year:2021, lang:"Hindi", score:85, color:"#0a0a1a", platform:"ZEE5", tmdbId:136680 }
-  ]
-};
-
 const ottSeries = {
   netflix: [
     { title:"IC 814: The Kandahar Hijack", year:2024, lang:"Hindi", score:91, color:"#1a1a2e", platform:"Netflix", tmdbId:242074, type:'tv' },
@@ -1312,23 +1259,56 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* ===========================
    NEW ON OTT — poster cards
+   Manually-curated recent OTT arrivals (last ~60 days).
+   TMDb doesn't reliably surface Indian OTT release dates, so —
+   same as coming-to-OTT — this reads from a hand-maintained
+   data file instead of a TMDb catalog query.
    =========================== */
+const OTT_PLATFORM_LABELS = {
+  netflix: 'Netflix',
+  prime: 'Prime Video',
+  hotstar: 'Hotstar',
+  sony: 'SonyLIV',
+  zee5: 'ZEE5'
+};
+
 async function loadOttPosterGrid(platform) {
   const grid = document.getElementById('ottPosterGrid');
   if (!grid) return;
   grid.innerHTML = '<div class="poster-skeleton"></div>'.repeat(6);
 
-  const films = (ottFilms[platform] || []).slice(0, 8);
+  let entries = [];
+  try {
+    const res = await fetch('data/new_on_ott.json');
+    entries = await res.json();
+  } catch (e) {
+    entries = [];
+  }
 
-  // Fetch each film's real poster + vote data by TMDb ID — use /tv/ for series, /movie/ for films
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const cutoff = new Date(today.getTime() - 60 * 24 * 60 * 60 * 1000);
+  const platformLabel = OTT_PLATFORM_LABELS[platform];
+
+  const films = entries
+    .filter(f => f.ott_platform === platformLabel)
+    .filter(f => {
+      const d = new Date(f.release_date);
+      return d >= cutoff && d <= today;
+    })
+    .sort((a, b) => new Date(b.release_date) - new Date(a.release_date))
+    .slice(0, 8);
+
+  if (!films.length) {
+    grid.innerHTML = `<div style="color:var(--text-muted);padding:20px;grid-column:1/-1;">Nothing new here — check back soon</div>`;
+    return;
+  }
+
+  // Fetch each film's real poster + vote data by TMDb ID
   const results = [];
   for (const f of films) {
     try {
-      const endpoint = f.type === 'tv' ? 'tv' : 'movie';
-      const res = await fetch(
-        `https://api.themoviedb.org/3/${endpoint}/${f.tmdbId}?api_key=${window.NAVRAS_CONFIG.TMDB_KEY}&language=en-US`
-      );
-      const data = await res.json();
+      const data = await TMDB.get(`/movie/${f.tmdb_id}`, {});
       const score = TMDB.audienceRating(data.vote_average, data.vote_count);
       results.push({ f, posterPath: data.poster_path || null, score });
     } catch {
@@ -1338,23 +1318,21 @@ async function loadOttPosterGrid(platform) {
 
   grid.innerHTML = results.map(({ f, posterPath, score }) => {
     const sc = score >= 75 ? 'green' : score >= 55 ? 'amber' : 'red';
-    const bg = f.color || '#1a1a2e';
-    const posterUrl = posterPath
-      ? `https://image.tmdb.org/t/p/w342${posterPath}`
-      : null;
+    const posterUrl = posterPath ? TMDB.poster(posterPath, 'w342') : null;
+    const bg = '#1a1a2e';
     return `
-      <a href="pages/movie.html?id=${f.tmdbId}" class="cinema-card">
+      <a href="pages/movie.html?id=${f.tmdb_id}" class="cinema-card">
         <div class="cinema-poster" style="${!posterUrl ? `background:linear-gradient(160deg,${bg},${bg}aa)` : ''}">
           ${posterUrl
             ? `<img src="${posterUrl}" alt="${f.title}" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,${bg},${bg}aa)'" />`
             : `<div style="padding:8px;font-size:11px;color:var(--text-muted);text-align:center;margin-top:30px;">${f.title}</div>`}
-          <div class="cinema-lang">${f.lang}</div>
+          <div class="cinema-lang">${f.language}</div>
           ${score ? `<div class="cinema-score ${sc}">${score}</div>` : ''}
         </div>
         <div class="cinema-info">
           <div class="cinema-title">${f.title}</div>
-          <div class="cinema-meta">${f.year}</div>
+          <div class="cinema-meta">${new Date(f.release_date).getFullYear()}</div>
         </div>
       </a>`;
   }).join('');
