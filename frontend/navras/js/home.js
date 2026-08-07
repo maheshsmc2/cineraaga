@@ -743,6 +743,7 @@ const explorerCategoryLabel = {
   awards: 'Awards',
   genre: 'Genre',
   actor: 'Actor',
+  director: 'Director',
   setting: 'Setting'
 };
 

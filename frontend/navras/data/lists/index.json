@@ -22,5 +22,61 @@
   "category": "setting",
   "count": 0,
   "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-indian-thrillers",
+  "title": "Best Indian Thrillers",
+  "description": "Films that grip from frame one and don't let go — Indian cinema's tightest thrillers.",
+  "category": "genre",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-of-mani-ratnam",
+  "title": "The Best of Mani Ratnam",
+  "description": "From Nayakan to Ponniyin Selvan — the auteur's finest across four decades.",
+  "category": "director",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-indian-sports-films",
+  "title": "Best Indian Sports Films",
+  "description": "Cricket, wrestling, boxing, chess — Indian films about the games we love.",
+  "category": "genre",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-modern-malayalam-films",
+  "title": "Best Modern Malayalam Films (2010s–2020s)",
+  "description": "Malayalam cinema's quiet revolution — the films that led it.",
+  "category": "language",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-indian-family-dramas",
+  "title": "Best Indian Family Dramas",
+  "description": "Families are Indian cinema's oldest subject. These are the films that got them right.",
+  "category": "genre",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-of-vetrimaaran",
+  "title": "The Best of Vetrimaaran",
+  "description": "Tamil cinema's most uncompromising director — his films, ranked.",
+  "category": "director",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-indian-coming-of-age-films",
+  "title": "Best Indian Coming-of-Age Films",
+  "description": "The Indian films that captured what it felt like to grow up here.",
+  "category": "genre",
+  "count": 0,
+  "updated_at": "2026-08-07"
  }
 ]

@@ -11,6 +11,7 @@ const CATEGORY_LABEL = {
   awards: 'Awards',
   genre: 'By genre',
   actor: 'By actor',
+  director: 'By director',
   setting: 'By setting'
 };
 
