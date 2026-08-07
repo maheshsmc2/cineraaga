@@ -64,6 +64,11 @@
   display: flex; align-items: center; gap: 8px;
 }
 
+.home-section-sub {
+  font-size: 12px; color: var(--text-muted);
+  margin-top: 3px; line-height: 1.5;
+}
+
 .home-see-all { font-size: 12px; color: var(--gold); transition: opacity 0.15s; }
 .home-see-all:hover { opacity: 0.7; }
 
@@ -896,128 +901,7 @@
   border-bottom: 0.5px solid var(--ink3);
 }
 
-.explorer-lists-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 16px;
-}
-
-.explorer-list-card {
-  background: var(--ink2);
-  border: 0.5px solid var(--ink3);
-  border-radius: 12px;
-  overflow: hidden;
-  text-decoration: none;
-  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
-  display: block;
-}
-
-.explorer-list-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--gold-dim);
-  box-shadow: var(--shadow-md);
-}
-
-/* Collage thumbnail — 2x2 grid of posters */
-.elc-collage {
-  width: 100%;
-  aspect-ratio: 16/9;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2px;
-  background: var(--ink3);
-  position: relative;
-  overflow: hidden;
-}
-
-.elc-collage-cell {
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-}
-
-.elc-collage-cell img {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s;
-}
-
-.explorer-list-card:hover .elc-collage-cell img {
-  transform: scale(1.05);
-}
-
-/* Gradient overlay on collage */
-.elc-collage::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.5) 0%, transparent 50%);
-}
-
-/* Count badge on collage */
-.elc-count {
-  position: absolute;
-  bottom: 8px; left: 10px;
-  z-index: 1;
-  font-size: 11px; font-weight: 700;
-  color: #fff;
-  background: var(--gold);
-  padding: 3px 9px;
-  border-radius: 4px;
-}
-
-/* Card body */
-.elc-body { padding: 12px 14px 14px; }
-
-.elc-category {
-  font-size: 10px; font-weight: 700;
-  color: var(--gold); text-transform: uppercase;
-  letter-spacing: 0.08em; margin-bottom: 5px;
-}
-
-.elc-title {
-  font-size: 14px; font-weight: 600;
-  color: var(--text); line-height: 1.35;
-  margin-bottom: 8px;
-}
-
-/* Top items preview */
-.elc-preview {
-  display: flex; flex-direction: column; gap: 4px;
-}
-
-.elc-preview-item {
-  display: flex; align-items: center; gap: 8px;
-  font-size: 11px; color: var(--text-muted);
-}
-
-.elc-preview-rank {
-  font-size: 10px; font-weight: 700;
-  color: var(--gold); min-width: 14px;
-}
-
-.elc-preview-thumb {
-  width: 24px; height: 34px;
-  border-radius: 3px; flex-shrink: 0;
-  object-fit: cover; background: var(--ink3);
-}
-
-.elc-preview-title {
-  font-size: 11px; color: var(--text-muted);
-  white-space: nowrap; overflow: hidden;
-  text-overflow: ellipsis; flex: 1;
-}
-
-.elc-footer {
-  display: flex; align-items: center;
-  justify-content: space-between;
-  margin-top: 10px; padding-top: 8px;
-  border-top: 0.5px solid var(--ink3);
-}
-
-.elc-meta { font-size: 10px; color: var(--text-dim); }
-.elc-arrow { font-size: 13px; color: var(--gold-dim); }
+/* Explorer list cards live in style.css — single source of truth. */
 
 /* Section filter tabs */
 .explorer-filter-tabs {
@@ -1040,11 +924,6 @@
 
 @media (max-width: 700px) {
   .explorer-lists-section { padding: 20px; }
-  .explorer-lists-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-}
-
-@media (max-width: 400px) {
-  .explorer-lists-grid { grid-template-columns: 1fr; }
 }
 
 /* ===========================
