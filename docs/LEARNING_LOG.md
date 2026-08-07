@@ -172,3 +172,22 @@ The homepage list section previously ended with `.filter(l => l.entries.length)`
 - The prompt specified an `index.json` containing only the three new lists. Writing that file as given would have silently deleted the 13 existing lists it already held — every list the homepage and `lists.html` currently render. Appended instead. When a spec hands over the full contents of a file, check what's actually in that file first; "create this file" often means "add this to it."
 - The three new list files use the specified `tmdb_id` field, but the 13 older ones predate it and carry only title + year. `list.html` would have rendered every legacy list with blank poster slots. Added a title-search fallback (the same one `home.js` already used) so both schema generations work — worth checking that a new page handles the old data shape, not just the one the new spec describes.
 - The existing index used `updated_at`; the spec said `updated`. Went with `updated_at` to keep one field name across all 16 entries, and made the reader accept either.
+
+## 2026-08-08 — Second fabrication sweep: the ranked-lists section
+
+**What happened:**
+
+The ranked-lists section was still showing 13 pre-rebrand lists, several of which were fabrications of the exact kind cleaned up elsewhere: "Most Searched Indian Films of 2025 on Google" claimed search-ranking data CineRaaga never had, "Best Indian Films of 2025 — Navras Ranked" presented TMDb-derived numbers as editorial rankings, and the Netflix/Prime lists were dated 2025 and stale by definition. Deleted all 13 and their data files.
+
+Deleting them exposed a second layer underneath. `home.js` still held `rankingsData` — a hardcoded top-5 with invented 99/98/97 scores — plus `renderRankRow`, `initRankingTabs`, `loadRankingWithPosters` and `rankingTmdbIds` to render it. None of it ever appeared on screen: it targeted a `#rankingsList` element that doesn't exist in `index.html`. Also removed `ottSeries` / `loadOttWithPosters` / `initOttTabs`, dead since the new-on-OTT fix deleted the `ottFilms` object they read.
+
+Expanded the curated system to 10 seed lists (all `entries: []`), added a `director` category, and rebuilt the section as an equal-weight card grid — no featured mega-card, working category filters, and a "Coming soon" panel on uncurated lists.
+
+**Concept:**
+
+Fabricated content doesn't only live in the data file — it lives in the render path too. Deleting the JSON removed what users saw; the generator that would happily fabricate again was still sitting in `home.js`, invisible only because its target element had been removed from the HTML at some point. Invisible isn't deleted. A dormant fabrication is one `<div id="rankingsList">` away from being live again.
+
+**Traps:**
+
+- `initOttTabs` bound a *second* click handler to the same `.ott-tab` buttons the working new-on-OTT switcher uses. It did nothing visible only because the function it called bailed at `if (!grid) return`. Two handlers on one button, one of them reading a deleted global — worth grepping for other binders on a selector before assuming the visible behaviour is the only behaviour.
+- `home.css` loads after `style.css` and carried its own copy of `.explorer-lists-grid` and the `.elc-*` card rules. New styles written in `style.css` were silently overridden — the responsive breakpoints in particular resolved to the wrong column count. Consolidated into `style.css`. When a rule "doesn't apply," check whether a later stylesheet defines the same selector before adding specificity or `!important`.
