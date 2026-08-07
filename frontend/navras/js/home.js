@@ -126,77 +126,7 @@ function renderReviewRow(film, type) {
     </a>`;
 }
 
-/* ---- OTT local data ---- */
-const ottSeries = {
-  netflix: [
-    { title:"IC 814: The Kandahar Hijack", year:2024, lang:"Hindi", score:91, color:"#1a1a2e", platform:"Netflix", tmdbId:242074, type:'tv' },
-    { title:"Squid Game S2", year:2024, lang:"Korean", score:92, color:"#0a0a1e", platform:"Netflix", tmdbId:93405, type:'tv' },
-    { title:"Sacred Games", year:2018, lang:"Hindi", score:93, color:"#1a0d0d", platform:"Netflix", tmdbId:78387, type:'tv' },
-    { title:"Delhi Crime", year:2019, lang:"Hindi", score:89, color:"#0d1a2e", platform:"Netflix", tmdbId:89187, type:'tv' },
-    { title:"Mismatched", year:2020, lang:"Hindi", score:82, color:"#1a0d2e", platform:"Netflix", tmdbId:106968, type:'tv' }
-  ],
-  prime: [
-    { title:"Panchayat S3", year:2024, lang:"Hindi", score:93, color:"#1a2e0d", platform:"Prime Video", tmdbId:94954, type:'tv' },
-    { title:"Mirzapur S3", year:2024, lang:"Hindi", score:88, color:"#2e1a0d", platform:"Prime Video", tmdbId:99966, type:'tv' },
-    { title:"The Family Man S2", year:2021, lang:"Hindi", score:94, color:"#0d1a1a", platform:"Prime Video", tmdbId:95557, type:'tv' },
-    { title:"Four More Shots Please!", year:2019, lang:"Hindi", score:80, color:"#2e0d1a", platform:"Prime Video", tmdbId:83867, type:'tv' },
-    { title:"Bandish Bandits", year:2020, lang:"Hindi", score:88, color:"#1a2e2e", platform:"Prime Video", tmdbId:110491, type:'tv' }
-  ],
-  hotstar: [
-    { title:"Aarya S3", year:2023, lang:"Hindi", score:86, color:"#1a0d2e", platform:"Hotstar", tmdbId:94605, type:'tv' },
-    { title:"Human", year:2022, lang:"Hindi", score:84, color:"#0d1a2e", platform:"Hotstar", tmdbId:131808, type:'tv' },
-    { title:"Rudra", year:2022, lang:"Hindi", score:83, color:"#2e0d0d", platform:"Hotstar", tmdbId:131616, type:'tv' },
-    { title:"Dil Dosti Dilemma", year:2024, lang:"Hindi", score:81, color:"#1a2e0d", platform:"Hotstar", tmdbId:242074, type:'tv' },
-    { title:"Criminal Justice", year:2019, lang:"Hindi", score:87, color:"#0d0d2e", platform:"Hotstar", tmdbId:88478, type:'tv' }
-  ],
-  sony: [
-    { title:"Scam 1992", year:2020, lang:"Hindi", score:97, color:"#2e2e0d", platform:"SonyLIV", tmdbId:113855, type:'tv' },
-    { title:"Aspirants", year:2021, lang:"Hindi", score:89, color:"#1a2e1a", platform:"SonyLIV", tmdbId:112130, type:'tv' },
-    { title:"Rocket Boys S2", year:2023, lang:"Hindi", score:87, color:"#0d0d2e", platform:"SonyLIV", tmdbId:120168, type:'tv' },
-    { title:"Farzi", year:2023, lang:"Hindi", score:86, color:"#2e0d1a", platform:"SonyLIV", tmdbId:209764, type:'tv' },
-    { title:"Paatal Lok S2", year:2024, lang:"Hindi", score:91, color:"#1a0d2e", platform:"SonyLIV", tmdbId:125925, type:'tv' }
-  ],
-  zee5: [
-    { title:"Kaala Paani", year:2023, lang:"Hindi", score:85, color:"#0d1a2e", platform:"ZEE5", tmdbId:229268, type:'tv' },
-    { title:"Raktanchal", year:2020, lang:"Hindi", score:83, color:"#2e0d0d", platform:"ZEE5", tmdbId:108978, type:'tv' },
-    { title:"Gullak S4", year:2024, lang:"Hindi", score:91, color:"#2e2a0d", platform:"ZEE5", tmdbId:91649, type:'tv' },
-    { title:"Sunflower S2", year:2023, lang:"Hindi", score:82, color:"#2e2e0a", platform:"ZEE5", tmdbId:130393, type:'tv' },
-    { title:"Grahan", year:2021, lang:"Hindi", score:85, color:"#0a0a1a", platform:"ZEE5", tmdbId:136680, type:'tv' }
-  ]
-};
 
-
-/* ---- Rankings data ---- */
-const rankingsData = {
-  top:[
-    {rank:1,title:"Mughal-E-Azam",year:1960,lang:"Hindi",score:99,color:"#2e2e0d"},
-    {rank:2,title:"Pather Panchali",year:1955,lang:"Bengali",score:99,color:"#0d1a2e"},
-    {rank:3,title:"Dilwale Dulhania Le Jayenge",year:1995,lang:"Hindi",score:98,color:"#1a0d2e"},
-    {rank:4,title:"Drishyam",year:2013,lang:"Malayalam",score:97,color:"#0d2e1a"},
-    {rank:5,title:"Lagaan",year:2001,lang:"Hindi",score:97,color:"#2e2e0d"}
-  ],
-  bollywood:[
-    {rank:1,title:"Mughal-E-Azam",year:1960,lang:"Hindi",score:99,color:"#2e2e0d"},
-    {rank:2,title:"Dilwale Dulhania Le Jayenge",year:1995,lang:"Hindi",score:98,color:"#1a0d2e"},
-    {rank:3,title:"Lagaan",year:2001,lang:"Hindi",score:97,color:"#2e2e0d"},
-    {rank:4,title:"Taare Zameen Par",year:2007,lang:"Hindi",score:97,color:"#0d2e1a"},
-    {rank:5,title:"Dangal",year:2016,lang:"Hindi",score:96,color:"#1a2e0d"}
-  ],
-  south:[
-    {rank:1,title:"Nayakan",year:1987,lang:"Tamil",score:98,color:"#2e0d0d"},
-    {rank:2,title:"Drishyam",year:2013,lang:"Malayalam",score:97,color:"#0d2e1a"},
-    {rank:3,title:"96",year:2018,lang:"Tamil",score:96,color:"#1a1a2e"},
-    {rank:4,title:"RRR",year:2022,lang:"Telugu",score:95,color:"#2e0d1a"},
-    {rank:5,title:"Baahubali 2",year:2017,lang:"Telugu",score:92,color:"#2e1a0d"}
-  ],
-  ott:[
-    {rank:1,title:"Scam 1992",year:2020,lang:"Hindi",score:97,color:"#2e2e0d"},
-    {rank:2,title:"Panchayat",year:2020,lang:"Hindi",score:95,color:"#1a2e0d"},
-    {rank:3,title:"The Family Man",year:2019,lang:"Hindi",score:94,color:"#0d1a1a"},
-    {rank:4,title:"Paatal Lok",year:2020,lang:"Hindi",score:93,color:"#1a0d1a"},
-    {rank:5,title:"IC 814",year:2024,lang:"Hindi",score:91,color:"#1a1a2e"}
-  ]
-};
 
 /* ---- LOAD FUNCTIONS ---- */
 
@@ -266,26 +196,6 @@ async function loadReviews(sort) {
     : '<div style="color:var(--text-muted);padding:20px;">No reviews available</div>';
 }
 
-/* OTT — fetch real posters from TMDb by ID */
-async function loadOttWithPosters(platform) {
-  const grid = document.getElementById('ottGrid');
-  if (!grid) return;
-  grid.innerHTML = '<div class="poster-skeleton"></div>'.repeat(4);
-
-  const films = (ottFilms[platform] || []).slice(0, 6);
-
-  // Fetch posters for each film by TMDb ID
-  const withPosters = await Promise.all(films.map(async f => {
-    try {
-      const data = await TMDB.get(`/movie/${f.tmdbId}`, {});
-      return { f, film: data };
-    } catch {
-      return { f, film: null };
-    }
-  }));
-
-  grid.innerHTML = withPosters.map(({ f, film }) => renderOttCard(f, film)).join('');
-}
 
 /* Coming soon — Indian upcoming */
 async function loadComingSoon() {
@@ -357,47 +267,8 @@ async function loadTV() {
   if (list) list.innerHTML = mixed.slice(0,4).map(f => renderReviewRow(f,'tv')).join('');
 }
 
-/* Rankings */
-function renderRankRow(f) {
-  const rc = f.rank===1?'gold':f.rank===2?'silver':f.rank===3?'bronze':'';
-  return `
-    <a href="pages/movie.html" class="rank-row">
-      <div class="rank-num ${rc}">${f.rank}</div>
-      <div class="rank-poster" style="background:linear-gradient(160deg,${f.color},${f.color}aa);"></div>
-      <div class="rank-info">
-        <div class="rank-title">${f.title}</div>
-        <div class="rank-meta">${f.lang} · ${f.year}</div>
-        <div class="rank-rasas">${f.rasas.map(r=>`<span class="rtag">${r}</span>`).join('')}</div>
-      </div>
-      <div class="rank-score" style="color:${scoreColorHex(f.score)};">${f.score}</div>
-    </a>`;
-}
 
-/* ---- Init tabs and interactive elements ---- */
-function initOttTabs() {
-  document.querySelectorAll('.ott-tab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.ott-tab').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      loadOttWithPosters(btn.dataset.platform);
-    });
-  });
-  loadOttWithPosters('netflix');
-}
 
-function initRankingTabs() {
-  const list = document.getElementById('rankingsList');
-  if (!list) return;
-  const load = k => { list.innerHTML = (rankingsData[k]||[]).map(renderRankRow).join(''); loadRankingWithPosters(k); };
-  document.querySelectorAll('.rtab').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.rtab').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      load(btn.dataset.rank);
-    });
-  });
-  load('top');
-}
 
 function initTopTabs() {
   document.querySelectorAll('.top-tab').forEach(btn => {
@@ -445,8 +316,6 @@ function fixGaps() {
 /* ---- Init ---- */
 document.addEventListener('DOMContentLoaded', () => {
   initTopTabs();
-  initOttTabs();
-  initRankingTabs();
   initSearch();
   loadCinemas();
   loadComingSoon();
@@ -693,48 +562,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initTrendingTabs();
 });
 
-/* ---- Load real posters for rankings ---- */
-const rankingTmdbIds = {
-  top: [390043, 12477, 19330, 95765, 20453],
-  bollywood: [390043, 19330, 20453, 194662, 363676],
-  south: [95765, 95765, 759244, 515001, 346364],
-  ott: [113855, 94954, 95557, 125925, 242074]
-};
-
-async function loadRankingWithPosters(key) {
-  const list = document.getElementById('rankingsList');
-  if (!list) return;
-
-  const films = rankingsData[key] || [];
-  const ids = rankingTmdbIds[key] || [];
-
-  // Fetch posters in parallel
-  const posters = await Promise.all(ids.map(async (id, i) => {
-    try {
-      const data = await TMDB.get(`/movie/${id}`, {});
-      return data?.poster_path ? TMDB.poster(data.poster_path, 'w92') : null;
-    } catch { return null; }
-  }));
-
-  list.innerHTML = films.map((f, i) => {
-    const rc = f.rank===1?'gold':f.rank===2?'silver':f.rank===3?'bronze':'';
-    const posterUrl = posters[i];
-    const sc = scoreColorHex(f.score);
-    return `
-      <a href="pages/movie.html" class="rank-row">
-        <div class="rank-num ${rc}">${f.rank}</div>
-        ${posterUrl
-          ? `<img src="${posterUrl}" class="rank-poster" alt="${f.title}" loading="lazy" onerror="this.style.display='none'" />`
-          : `<div class="rank-poster" style="background:linear-gradient(160deg,${f.color},${f.color}aa);"></div>`}
-        <div class="rank-info">
-          <div class="rank-title">${f.title}</div>
-          <div class="rank-meta">${f.lang} · ${f.year}</div>
-          <div class="rank-rasas">${f.rasas.map(r=>`<span class="rtag">${r}</span>`).join('')}</div>
-        </div>
-        <div class="rank-score" style="color:${sc};">${f.score}</div>
-      </a>`;
-  }).join('');
-}
 
 /* ===========================
    FEATURED REVIEW + POPULAR NOW
@@ -1111,14 +938,6 @@ const editorialStories = [
     score: null,
     tmdbId: 1582770, type: 'movie',
     link: 'pages/article.html'
-  },
-  {
-    category: 'Best of List',
-    title: '50 Greatest Bollywood Films of All Time — The CineRaaga Canon',
-    meta: 'Curated list · Updated 2025',
-    score: null,
-    tmdbId: 363676, type: 'movie',
-    link: 'pages/lists.html'
   },
   {
     category: 'OTT Pick',
