@@ -913,7 +913,10 @@ const explorerCategoryLabel = {
   ott: 'OTT',
   trending: 'Trending',
   language: 'Language',
-  awards: 'Awards'
+  awards: 'Awards',
+  genre: 'Genre',
+  actor: 'Actor',
+  setting: 'Setting'
 };
 
 let explorerListsData = [];
@@ -927,14 +930,20 @@ async function loadExplorerListsData() {
     const fullLists = await Promise.all(
       index.map(entry => fetch(`data/lists/${entry.slug}.json`).then(r => r.json()).catch(() => null))
     );
+    /* Empty lists are kept, not filtered out — a seeded-but-uncurated list
+       renders an honest "0 films — coming soon" card rather than being
+       silently hidden. Populated lists sort first so the featured slot is
+       never an empty one. */
     explorerListsData = index.map((entry, i) => ({
       id: entry.slug,
       filter: entry.category === 'evergreen' ? 'alltime' : entry.category,
       category: explorerCategoryLabel[entry.category] || entry.category,
       title: entry.title,
+      description: entry.description || '',
+      updated: entry.updated_at || entry.updated || null,
       count: (fullLists[i]?.entries || []).length,
       entries: fullLists[i]?.entries || []
-    })).filter(l => l.entries.length);
+    })).sort((a, b) => (b.entries.length ? 1 : 0) - (a.entries.length ? 1 : 0));
   } catch (e) {
     explorerListsData = [];
   }
@@ -972,30 +981,35 @@ function renderExplorerCard(list, posters, variant = 'small') {
   }).join('');
 
   const preview = list.entries.slice(0, 2).map(e => e.film.title);
+  const isEmpty = !list.entries.length;
+  const href = `pages/list.html?slug=${encodeURIComponent(list.id)}`;
+  const countLabel = isEmpty ? '0 films — coming soon' : `${list.count} films`;
 
   if (variant === 'featured') {
     return `
-      <a href="pages/lists.html" class="elc-featured" data-filter="${list.filter}" data-id="${list.id}">
+      <a href="${href}" class="elc-featured${isEmpty ? ' elc-empty' : ''}" data-filter="${list.filter}" data-id="${list.id}">
         <div class="elc-featured-collage">${cells}</div>
         <div class="elc-featured-body">
-          <div class="elc-category">${list.category} · ${list.count} films</div>
+          <div class="elc-category">${list.category} · ${countLabel}</div>
           <div class="elc-title">${list.title}</div>
-          <div class="elc-preview">
+          ${isEmpty
+            ? `<div class="elc-desc">${list.description}</div>`
+            : `<div class="elc-preview">
             ${preview.map((title, i) => `
               <div class="elc-preview-item">
                 <span class="elc-preview-rank">#${i+1}</span>
                 <span class="elc-preview-title">${title}</span>
               </div>`).join('')}
-          </div>
+          </div>`}
         </div>
       </a>`;
   }
 
   return `
-    <a href="pages/lists.html" class="elc-small" data-filter="${list.filter}" data-id="${list.id}">
+    <a href="${href}" class="elc-small${isEmpty ? ' elc-empty' : ''}" data-filter="${list.filter}" data-id="${list.id}">
       <div class="elc-small-collage">${cells}</div>
       <div class="elc-small-body">
-        <div class="elc-category">${list.category}</div>
+        <div class="elc-category">${list.category}${isEmpty ? ' · 0 films — coming soon' : ''}</div>
         <div class="elc-title">${list.title}</div>
       </div>
     </a>`;

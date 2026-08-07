@@ -776,6 +776,19 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
 }
 .elc-small .elc-title { font-size: 12px; }
 
+/* Seeded-but-uncurated lists — visibly quieter than populated ones */
+.elc-empty { opacity: 0.72; }
+.elc-empty:hover { opacity: 1; }
+
+.elc-desc {
+  border-top: 0.5px solid var(--ink3);
+  margin-top: 10px;
+  padding-top: 10px;
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.55;
+}
+
 .elc-preview {
   border-top: 0.5px solid var(--ink3);
   margin-top: 10px;

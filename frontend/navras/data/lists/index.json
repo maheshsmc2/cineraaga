@@ -102,5 +102,29 @@
   "category": "awards",
   "count": 5,
   "updated_at": null
+ },
+ {
+  "slug": "great-indian-comedies",
+  "title": "All-Time Great Indian Comedies",
+  "description": "The Indian comedies that hold up on rewatch — sharp writing, real humour, timeless charm.",
+  "category": "genre",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-of-shah-rukh-khan",
+  "title": "The Best of Shah Rukh Khan",
+  "description": "A ranked look at the King of Bollywood's finest performances — from Baazigar to Jawan.",
+  "category": "actor",
+  "count": 0,
+  "updated_at": "2026-08-07"
+ },
+ {
+  "slug": "best-village-set-indian-films",
+  "title": "Best Village-Set Indian Films",
+  "description": "Indian cinema at its most rooted — films where the village itself is a character.",
+  "category": "setting",
+  "count": 0,
+  "updated_at": "2026-08-07"
  }
 ]
