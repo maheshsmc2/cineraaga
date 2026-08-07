@@ -154,3 +154,21 @@ This is the same shape of problem as the coming-to-OTT fix, on the same day: a s
 
 - `loadOttPosterGrid` and `loadOttWithPosters` (a second, dead function targeting a `#ottGrid` element that doesn't exist anywhere in `index.html`) both read from the same `ottFilms` object. Before deleting it, had to confirm the dead function's early `if (!grid) return` happens before it ever touches `ottFilms` — otherwise removing the object would've thrown on a code path that looked unrelated to the visible page.
 - An empty grid needed a per-tab message, not a page-level one — "nothing new on Netflix" doesn't mean "nothing new on Prime," so the empty state had to be re-evaluated on every tab click, not just on first load.
+
+## 2026-08-07 — Ranked-lists infrastructure; three seed lists pending curation
+
+**What happened:**
+
+Built the system that will hold CineRaaga's ranked lists over time, and seeded the first three — All-Time Great Indian Comedies (genre), The Best of Shah Rukh Khan (actor), Best Village-Set Indian Films (setting). All three `entries` arrays are deliberately empty; Mahe hand-curates them.
+
+Three new categories (`genre`, `actor`, `setting`) joined the existing five, with matching homepage filter pills. New `pages/list.html` + `js/list.js` + `css/list.css` render a single list from `?slug=`: category tag, title, description, intro, then ranked rows with poster, blurb, rasa tags, and a collapsible "why it ranks here" block. An empty list renders "This list is being curated" rather than a blank page, and homepage cards for empty lists say "0 films — coming soon" instead of being hidden.
+
+**Concept:**
+
+The homepage list section previously ended with `.filter(l => l.entries.length)` — empty lists simply vanished. That's the safe default when the only empty lists are broken ones, but it's wrong once "seeded but not yet curated" is a real, intentional state. Swapped the filter for a sort that pushes populated lists first: empty lists stay visible and honest, but never occupy the featured slot. Same integrity principle as everywhere else on the site — say "nothing here yet," don't quietly pretend the thing doesn't exist.
+
+**Traps:**
+
+- The prompt specified an `index.json` containing only the three new lists. Writing that file as given would have silently deleted the 13 existing lists it already held — every list the homepage and `lists.html` currently render. Appended instead. When a spec hands over the full contents of a file, check what's actually in that file first; "create this file" often means "add this to it."
+- The three new list files use the specified `tmdb_id` field, but the 13 older ones predate it and carry only title + year. `list.html` would have rendered every legacy list with blank poster slots. Added a title-search fallback (the same one `home.js` already used) so both schema generations work — worth checking that a new page handles the old data shape, not just the one the new spec describes.
+- The existing index used `updated_at`; the spec said `updated`. Went with `updated_at` to keep one field name across all 16 entries, and made the reader accept either.
