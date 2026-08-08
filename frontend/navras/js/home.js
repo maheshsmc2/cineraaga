@@ -749,6 +749,18 @@ const explorerCategoryLabel = {
 
 let explorerListsData = [];
 
+/* Populated lists first, most recently updated first within that group;
+   seeded-but-empty lists fill in behind them, keeping index order. Used
+   for both the initial load and every filter re-render. */
+function orderForDisplay(a, b) {
+  const aHas = a.entries.length > 0, bHas = b.entries.length > 0;
+  if (aHas !== bHas) return aHas ? -1 : 1;
+  if (aHas && a.updated !== b.updated) {
+    return String(b.updated || '').localeCompare(String(a.updated || ''));
+  }
+  return 0;
+}
+
 /* ---- Load real curated lists (data/lists/*.json) — counts and
    preview titles come straight from the data, never hand-typed ---- */
 async function loadExplorerListsData() {
@@ -768,10 +780,14 @@ async function loadExplorerListsData() {
       category: explorerCategoryLabel[entry.category] || entry.category,
       title: entry.title,
       description: entry.description || '',
-      updated: entry.updated_at || entry.updated || null,
+      /* The per-list file wins: that's the file an editor touches when adding
+         entries, so its date is the one that actually tracks curation. The
+         index copy is a hand-maintained mirror and drifts. */
+      updated: fullLists[i]?.updated_at || fullLists[i]?.updated
+        || entry.updated_at || entry.updated || null,
       count: (fullLists[i]?.entries || []).length,
       entries: fullLists[i]?.entries || []
-    })).sort((a, b) => (b.entries.length ? 1 : 0) - (a.entries.length ? 1 : 0));
+    })).sort(orderForDisplay);
   } catch (e) {
     explorerListsData = [];
   }
@@ -834,14 +850,17 @@ async function loadExplorerLists(filter) {
 
   if (!explorerListsData.length) await loadExplorerListsData();
 
-  const filtered = filter === 'all'
+  const matching = filter === 'all'
     ? explorerListsData
     : explorerListsData.filter(l => l.filter === filter);
 
-  if (!filtered.length) {
+  if (!matching.length) {
     grid.innerHTML = `<div class="elg-none">No lists in this category yet.</div>`;
     return;
   }
+
+  // Curated lists take the slots first; coming-soon cards fill whatever is left.
+  const filtered = [...matching].sort(orderForDisplay).slice(0, HOME_MAX_CARDS);
 
   grid.innerHTML = filtered.map(l => renderExplorerCard(l, null)).join('');
 
@@ -859,12 +878,16 @@ async function loadExplorerLists(filter) {
 }
 
 /* Ten "coming soon" cards read as an unfinished site, not as editorial
-   work in progress. The homepage section stays hidden until enough lists
-   carry real curated entries to be worth showing. The lists themselves are
-   untouched and stay reachable at pages/list.html?slug=… and pages/lists.html
-   — this gates the homepage rendering only, and lifts by itself as soon as
-   the third list gets entries. No code change needed to bring it back. */
-const MIN_POPULATED_LISTS = 3;
+   work in progress. The homepage section appears once a single list is
+   meaningfully curated — one card with three real films is enough to show
+   what the section is for. Below that it stays hidden; the lists themselves
+   are untouched and stay reachable at pages/list.html?slug=… and
+   pages/lists.html. The gate lifts by itself, with no code change. */
+const MIN_ENTRIES_FOR_CURATED = 3;
+
+/* The homepage is a shop window, not the catalogue — pages/lists.html
+   deliberately shows all ten. */
+const HOME_MAX_CARDS = 6;
 
 async function initExplorerFilter() {
   const section = document.getElementById('explorerListsSection');
@@ -872,8 +895,8 @@ async function initExplorerFilter() {
 
   if (!explorerListsData.length) await loadExplorerListsData();
 
-  const populated = explorerListsData.filter(l => l.entries.length).length;
-  if (populated < MIN_POPULATED_LISTS) {
+  const curated = explorerListsData.some(l => l.entries.length >= MIN_ENTRIES_FOR_CURATED);
+  if (!curated) {
     section.hidden = true;
     return;
   }

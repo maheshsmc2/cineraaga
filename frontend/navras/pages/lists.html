@@ -69,16 +69,18 @@
     <p class="lists-hero-sub">Curated by CineRaaga. Not algorithms. Not clickbait. The films that actually matter — ranked with context, craft, and cultural honesty.</p>
     <div class="lists-filter-row" id="listsFilterRow">
       <button class="lf-btn active" data-cat="all">All lists</button>
-      <button class="lf-btn" data-cat="evergreen">All time</button>
-      <button class="lf-btn" data-cat="ott">OTT picks</button>
-      <button class="lf-btn" data-cat="trending">Trending now</button>
+      <button class="lf-btn" data-cat="genre">By genre</button>
       <button class="lf-btn" data-cat="language">By language</button>
+      <button class="lf-btn" data-cat="actor">By actor</button>
+      <button class="lf-btn" data-cat="director">By director</button>
+      <button class="lf-btn" data-cat="setting">By setting</button>
+      <button class="lf-btn" data-cat="ott">OTT picks</button>
       <button class="lf-btn" data-cat="awards">Awards</button>
     </div>
   </div>
 
   <!-- Featured list — visual with poster collage -->
-  <div class="featured-list-banner" id="featuredListBanner">
+  <div class="featured-list-banner" id="featuredListBanner" hidden>
     <!-- Background poster collage -->
     <div class="flb-bg-collage" id="flbBgCollage">
       <div class="flb-bg-poster" id="flb-bg-1"></div>
@@ -104,60 +106,8 @@
   <!-- Lists grid -->
   <div class="lists-body">
 
-    <!-- Trending now banner -->
-    <div class="trending-banner">
-      <div class="tb-dot"></div>
-      <span>Trending searches this week:</span>
-      <a href="#" class="tb-link">Best films of 2025</a>
-      <a href="#" class="tb-link">Best Malayalam films</a>
-      <a href="#" class="tb-link">Kantara Chapter 1 review</a>
-      <a href="#" class="tb-link">Indian films on Netflix 2025</a>
-    </div>
-
-    <!-- All time lists -->
-    <div class="lists-section" id="sec-evergreen">
-      <div class="ls-head">
-        <div class="ls-title"><span class="title-bar"></span>All time greats</div>
-        <div class="ls-sub">The definitive canon of Indian cinema — films that endure</div>
-      </div>
-      <div class="lists-cards-grid" id="evergreenGrid"></div>
-    </div>
-
-    <!-- OTT lists -->
-    <div class="lists-section" id="sec-ott">
-      <div class="ls-head">
-        <div class="ls-title"><span class="title-bar"></span>OTT picks</div>
-        <div class="ls-sub">The best Indian content streaming right now — updated weekly</div>
-      </div>
-      <div class="lists-cards-grid" id="ottGrid"></div>
-    </div>
-
-    <!-- Trending lists -->
-    <div class="lists-section" id="sec-trending">
-      <div class="ls-head">
-        <div class="ls-title"><span class="title-bar"></span>Trending now</div>
-        <div class="ls-sub">Lists people are reading and sharing this week</div>
-      </div>
-      <div class="lists-cards-grid" id="trendingGrid"></div>
-    </div>
-
-    <!-- Language lists -->
-    <div class="lists-section" id="sec-language">
-      <div class="ls-head">
-        <div class="ls-title"><span class="title-bar"></span>By language</div>
-        <div class="ls-sub">The best films from every Indian cinema industry</div>
-      </div>
-      <div class="lists-cards-grid" id="languageGrid"></div>
-    </div>
-
-    <!-- Awards lists -->
-    <div class="lists-section" id="sec-awards">
-      <div class="ls-head">
-        <div class="ls-title"><span class="title-bar"></span>Awards & recognition</div>
-        <div class="ls-sub">Indian cinema on the world stage</div>
-      </div>
-      <div class="lists-cards-grid" id="awardsGrid"></div>
-    </div>
+    <!-- One section per category, generated from data/lists/index.json -->
+    <div id="listsSections"></div>
 
   </div>
 

@@ -4,11 +4,22 @@
 
 /* ---- Category display labels (no fake urgency badges, just what's true) ---- */
 const categoryLabel = {
-  evergreen: "All-time",
-  ott: "OTT",
-  trending: "Trending",
-  language: "Language",
-  awards: "Awards"
+  evergreen: "All-time", ott: "OTT", trending: "Trending",
+  language: "Language", awards: "Awards",
+  genre: "Genre", actor: "Actor", director: "Director", setting: "Setting"
+};
+
+/* Section heading + subtitle per category, used to build the page sections */
+const categoryHeading = {
+  evergreen: ["All time greats", "The definitive canon of Indian cinema — films that endure"],
+  ott:       ["OTT picks", "The best Indian content streaming right now"],
+  trending:  ["Trending now", "Lists people are reading and sharing this week"],
+  language:  ["By language", "The best films from every Indian cinema industry"],
+  awards:    ["Awards & recognition", "Indian cinema on the world stage"],
+  genre:     ["By genre", "The films that define each kind of story"],
+  actor:     ["By actor", "Careers worth ranking, one performer at a time"],
+  director:  ["By director", "The filmmakers whose work rewards a full retrospective"],
+  setting:   ["By setting", "Where a film takes place, and why it matters"]
 };
 
 /* ---- CSS accent per category (matches existing .lc-badge modifier classes) ---- */
@@ -20,27 +31,27 @@ const categoryAccent = {
   awards: "awards"
 };
 
-/* ---- Data store — empty until loadAllLists() resolves ---- */
-let allLists = { evergreen: [], ott: [], trending: [], language: [], awards: [] };
+/* ---- Data store — every list, flat. Grouping happens at render time so a
+   new category (genre, actor, director, setting…) needs no code change, and
+   no list can silently fail to render because its bucket doesn't exist. ---- */
+let allListsFlat = [];
 
-/* ---- Fetch list data from exported JSON ----
-   Today this reads a static JSON file next to the site.
-   In month 2, only the URL below changes — everything downstream
-   (rendering, filters, modal) is unaffected, because it was written
-   to consume "whatever JSON came back," not "data baked into this file." */
 async function loadAllLists() {
   const indexRes = await fetch('../data/lists/index.json');
   const index = await indexRes.json();
 
   const fullLists = await Promise.all(
-    index.map(entry => fetch(`../data/lists/${entry.slug}.json`).then(r => r.json()))
+    index.map(entry => fetch(`../data/lists/${entry.slug}.json`)
+      .then(r => r.json())
+      .catch(() => null))
   );
 
-  const grouped = { evergreen: [], ott: [], trending: [], language: [], awards: [] };
-  fullLists.forEach(list => {
-    if (grouped[list.category]) grouped[list.category].push(list);
-  });
-  allLists = grouped;
+  allListsFlat = index.map((entry, i) => ({
+    ...entry,
+    ...(fullLists[i] || {}),
+    entries: fullLists[i]?.entries || [],
+    count: (fullLists[i]?.entries || []).length
+  }));
 }
 
 /* ---- Render list cards with visual collage ---- */
@@ -90,7 +101,7 @@ function renderListCard(list) {
 /* ---- Load real posters into list card collages ---- */
 async function loadListCardPosters() {
   const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
-  const lists = Object.values(allLists).flat();
+  const lists = allListsFlat;
 
   for (const list of lists) {
     const entries = (list.entries || []).slice(0, 4);
@@ -116,18 +127,32 @@ async function loadListCardPosters() {
 }
 
 function renderAllLists() {
-  document.getElementById('evergreenGrid').innerHTML = allLists.evergreen.map(renderListCard).join('');
-  document.getElementById('ottGrid').innerHTML = allLists.ott.map(renderListCard).join('');
-  document.getElementById('trendingGrid').innerHTML = allLists.trending.map(renderListCard).join('');
-  document.getElementById('languageGrid').innerHTML = allLists.language.map(renderListCard).join('');
-  document.getElementById('awardsGrid').innerHTML = allLists.awards.map(renderListCard).join('');
-  // Load real posters into collages
+  const host = document.getElementById('listsSections');
+  if (!host) return;
+
+  // Preserve index.json's category order rather than imposing one here.
+  const order = [];
+  allListsFlat.forEach(l => { if (!order.includes(l.category)) order.push(l.category); });
+
+  host.innerHTML = order.map(cat => {
+    const [heading, sub] = categoryHeading[cat] || [categoryLabel[cat] || cat, ''];
+    const cards = allListsFlat.filter(l => l.category === cat).map(renderListCard).join('');
+    return `
+      <div class="lists-section" data-cat="${cat}">
+        <div class="ls-head">
+          <div class="ls-title"><span class="title-bar"></span>${heading}</div>
+          ${sub ? `<div class="ls-sub">${sub}</div>` : ''}
+        </div>
+        <div class="lists-cards-grid">${cards}</div>
+      </div>`;
+  }).join('');
+
   loadListCardPosters();
 }
 
 /* ---- Open full list modal ---- */
 async function openList(slug) {
-  const list = Object.values(allLists).flat().find(l => l.slug === slug);
+  const list = allListsFlat.find(l => l.slug === slug);
   if (!list) return;
 
   document.getElementById('lmTag').textContent = categoryLabel[list.category] || list.category;
@@ -213,32 +238,17 @@ function closeList() {
   document.body.style.overflow = '';
 }
 
-/* ---- Category filter ---- */
+/* ---- Category filter — operates on the generated sections, so it stays
+   correct as categories are added or removed from the data ---- */
 function initCategoryFilter() {
   document.querySelectorAll('.lf-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.lf-btn').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       const cat = btn.dataset.cat;
-      const sections = {
-        evergreen: 'sec-evergreen',
-        ott: 'sec-ott',
-        trending: 'sec-trending',
-        language: 'sec-language',
-        awards: 'sec-awards'
-      };
-      if (cat === 'all') {
-        Object.values(sections).forEach(id => {
-          document.getElementById(id).style.display = 'block';
-        });
-      } else {
-        Object.values(sections).forEach(id => {
-          document.getElementById(id).style.display = 'none';
-        });
-        if (sections[cat]) {
-          document.getElementById(sections[cat]).style.display = 'block';
-        }
-      }
+      document.querySelectorAll('#listsSections .lists-section').forEach(sec => {
+        sec.style.display = (cat === 'all' || sec.dataset.cat === cat) ? 'block' : 'none';
+      });
     });
   });
 }
@@ -254,11 +264,21 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderAllLists();
   initCategoryFilter();
 
-  const featured = Object.values(allLists).flat().find(l => l.slug === 'bollywood50')
-    || Object.values(allLists).flat()[0];
+  /* Only a list with real entries can be featured — the banner is built
+     around a top-5 preview and poster collage, so featuring an empty list
+     would render an advert for nothing. Hidden until one qualifies. */
+  const banner = document.getElementById('featuredListBanner');
+  const featured = allListsFlat
+    .filter(l => l.entries.length)
+    .sort((a, b) => String(b.updated_at || b.updated || '')
+      .localeCompare(String(a.updated_at || a.updated || '')))[0];
+
   if (featured) {
+    if (banner) banner.hidden = false;
     renderFeaturedBanner(featured);
     loadFeaturedBannerPosters(featured);
+  } else if (banner) {
+    banner.hidden = true;
   }
 
   const hamburger = document.getElementById('hamburger');
