@@ -191,3 +191,20 @@ Fabricated content doesn't only live in the data file — it lives in the render
 
 - `initOttTabs` bound a *second* click handler to the same `.ott-tab` buttons the working new-on-OTT switcher uses. It did nothing visible only because the function it called bailed at `if (!grid) return`. Two handlers on one button, one of them reading a deleted global — worth grepping for other binders on a selector before assuming the visible behaviour is the only behaviour.
 - `home.css` loads after `style.css` and carried its own copy of `.explorer-lists-grid` and the `.elc-*` card rules. New styles written in `style.css` were silently overridden — the responsive breakpoints in particular resolved to the wrong column count. Consolidated into `style.css`. When a rule "doesn't apply," check whether a later stylesheet defines the same selector before adding specificity or `!important`.
+
+## 2026-08-08 — Gating the lists section: honest empty ≠ empty visible
+
+**What happened:**
+
+The homepage's CineRaaga Lists section was rendering all ten seed lists as "Coming soon" cards. Each individual card was honest — none claimed films it didn't have — but ten of them stacked together said "this site is unfinished" rather than "editorial content is being built carefully." Gated the section behind `MIN_POPULATED_LISTS = 3`: `initExplorerFilter` now loads the list data first, counts how many have non-empty `entries`, and only reveals the section past that threshold. The `<section>` ships with the `hidden` attribute so a gated section never flashes on screen before the async check resolves.
+
+Nothing was deleted. All ten seed lists, `pages/list.html`, and `pages/lists.html` stay intact; direct URLs like `pages/list.html?slug=best-of-vetrimaaran` still resolve and still show their own "This list is being curated" state. The gate lifts by itself the moment a third list gets entries — verified by temporarily seeding three lists (section appeared, 3 populated + 7 coming-soon cards), dropping back to two (section vanished), then reverting the test data.
+
+**Concept:**
+
+Being honest about emptiness and *displaying* that emptiness are different decisions. The earlier fix — replacing fabricated rankings with "0 films — coming soon" — was about not lying. This one is about editorial judgment: an honest empty state still earns its place on the page only when it tells the reader something worth knowing. A single "coming soon" card is a promise; ten is an apology. Honest empty ≠ empty visible.
+
+**Traps:**
+
+- Gating with CSS alone (or a JS `display:none` applied after render) would have let the section paint and then disappear. Starting from the `hidden` attribute in the markup and clearing it only on success means the failure mode is "stays hidden," which is the safe direction for a gate.
+- The threshold check needed the per-list files, not `index.json` — the index carries a `count` field that is currently `0` on every seed list but is hand-maintained, so it can drift from the actual `entries` length. Counted the real arrays instead, reusing the fetch `loadExplorerListsData` already performs rather than adding a second pass.
