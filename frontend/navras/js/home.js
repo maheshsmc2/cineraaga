@@ -858,7 +858,28 @@ async function loadExplorerLists(filter) {
   }
 }
 
-function initExplorerFilter() {
+/* Ten "coming soon" cards read as an unfinished site, not as editorial
+   work in progress. The homepage section stays hidden until enough lists
+   carry real curated entries to be worth showing. The lists themselves are
+   untouched and stay reachable at pages/list.html?slug=… and pages/lists.html
+   — this gates the homepage rendering only, and lifts by itself as soon as
+   the third list gets entries. No code change needed to bring it back. */
+const MIN_POPULATED_LISTS = 3;
+
+async function initExplorerFilter() {
+  const section = document.getElementById('explorerListsSection');
+  if (!section) return;
+
+  if (!explorerListsData.length) await loadExplorerListsData();
+
+  const populated = explorerListsData.filter(l => l.entries.length).length;
+  if (populated < MIN_POPULATED_LISTS) {
+    section.hidden = true;
+    return;
+  }
+
+  section.hidden = false;
+
   document.querySelectorAll('.eft-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('.eft-btn').forEach(b => b.classList.remove('active'));

@@ -306,7 +306,10 @@
   </section>
 
   <!-- RANKER-STYLE LISTS + RANKINGS -->
-  <section class="explorer-lists-section">
+  <!-- Hidden until at least MIN_POPULATED_LISTS lists have curated entries
+       (see initExplorerFilter in js/home.js). Starts hidden so a gated
+       section never flashes on screen before the check resolves. -->
+  <section class="explorer-lists-section" id="explorerListsSection" hidden>
     <div class="home-section-head">
       <div>
         <div class="home-section-title">CineRaaga Lists</div>
