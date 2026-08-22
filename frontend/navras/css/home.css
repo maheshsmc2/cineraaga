@@ -1796,11 +1796,21 @@
   .three-col-item { border-right: none; border-bottom: 0.5px solid var(--ink3); }
 }
 
-/* Bottom three text lists */
+/* Bottom three text lists.
+
+   Sized by auto-flow rather than a fixed `1fr 1fr 1fr`: #ottComingCol
+   hides itself whenever data/coming_to_ott.json has no future-dated
+   entries, and a fixed three-column template left that column's third
+   of the row as dead space. Auto-flow columns size to however many
+   columns are actually visible — two split the row in half, three in
+   thirds — with no template to keep in sync as columns come and go. */
 .bottom-three-row {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 0;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  grid-template-rows: auto auto 1fr;
+  column-gap: 0;
+  row-gap: 10px;
 }
 
 .btrow-col {
@@ -1809,11 +1819,40 @@
   display: flex; flex-direction: column; gap: 10px;
 }
 
+/* Only "Popular right now" carries a Movies/TV toggle, which pushed its
+   list ~49px below the others. Subgrid gives every column the same three
+   bands — header, optional tabs, list — so the lists start on one line.
+   Columns without tabs simply leave band 2 empty. */
+@supports (grid-template-rows: subgrid) {
+  .btrow-col {
+    display: grid;
+    grid-row: span 3;
+    grid-template-rows: subgrid;
+    gap: 0;
+  }
+  .btrow-col .prt-tab-group { grid-row: 1; }
+  .btrow-col .prt-col-tabs  { grid-row: 2; }
+  .btrow-col .prt-list      { grid-row: 3; }
+}
+
 .btrow-col:last-child { border-right: none; }
 
+/* Stacked: reverts the column flow and the subgrid banding together, so
+   the rule holds whether or not subgrid applied above. */
 @media (max-width: 900px) {
-  .bottom-three-row { grid-template-columns: 1fr; }
-  .btrow-col { border-right: none; border-bottom: 0.5px solid var(--ink3); }
+  .bottom-three-row {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    grid-template-rows: none;
+  }
+  .btrow-col {
+    display: flex;
+    grid-row: auto;
+    grid-template-rows: none;
+    gap: 10px;
+    border-right: none;
+    border-bottom: 0.5px solid var(--ink3);
+  }
   .btrow-col:last-child { border-bottom: none; }
 }
 
