@@ -1,0 +1,158 @@
+{
+ "slug": "great-indian-action-films",
+ "title": "All-Time Great Indian Action Films",
+ "description": "",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
+ "intro": "This list weights the quality of the action filmmaking itself, not simply whether the film is a masterpiece. Choreography, staging, scale, innovation, influence, adrenaline, characters and rewatchability all matter.",
+ "honourable_mentions": [
+  { "title": "Aaranya Kaandam" },
+  { "title": "Thallumaala" },
+  { "title": "Aavesham" },
+  { "title": "Mumbai Police" },
+  { "title": "Angamaly Diaries" },
+  { "title": "Garuda Gamana Vrishabha Vahana" },
+  { "title": "Ugramm" },
+  { "title": "Mufti" },
+  { "title": "Kantara" },
+  { "title": "Sarpatta Parambarai" },
+  { "title": "Maaveeran" },
+  { "title": "Jigarthanda DoubleX" },
+  { "title": "Captain Miller" },
+  { "title": "Lakshya" },
+  { "title": "Khakee" },
+  { "title": "Company" },
+  { "title": "Satya" },
+  { "title": "Vaastav" },
+  { "title": "Gangs of Wasseypur" },
+  { "title": "Animal" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Sholay", "year": 1975, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The foundational Indian action-adventure. Its gunfights, train sequence, Gabbar Singh, Jai-Veeru partnership and enormous influence make it almost impossible to displace historically."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Baahubali 2: The Conclusion", "year": 2017, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Indian spectacle filmmaking at its grandest. Rajamouli combines enormous battles with emotion so that the action carries dramatic weight rather than functioning merely as spectacle."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "RRR", "year": 2022, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Perhaps the most audacious modern Indian action film. The interval sequence, animal attack, rescue sequences and climax demonstrate Rajamouli's extraordinary command of cinematic action."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "K.G.F: Chapter 2", "year": 2022, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Prashanth Neel pushes the mass-action grammar to its extreme. Yash's Rocky, sound design, editing and larger-than-life presentation created a genuine pan-Indian phenomenon."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Vikram", "year": 2022, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Lokesh Kanagaraj combines a thriller structure with explosive action and three formidable screen presences in Kamal Haasan, Vijay Sethupathi and Fahadh Faasil."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Kaithi", "year": 2019, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One night, one desperate journey and almost no conventional commercial distractions. Lokesh constructs increasingly difficult action situations while keeping Dilli emotionally grounded."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Deewaar", "year": 1975, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "More action-drama than nonstop action, but Amitabh Bachchan's Vijay helped redefine the Indian action hero. Its influence on everything that followed is enormous."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Enthiran", "year": 2010, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Shankar took Indian science-fiction action to a scale rarely attempted before. Rajinikanth's Chitti and the extraordinary robot-army climax remain landmark achievements."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Kill", "year": 2024, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's strongest examples of pure close-quarters action filmmaking. Its confined train setting forces the choreography to become increasingly inventive, physical and brutal."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "K.G.F: Chapter 1", "year": 2018, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The film that established Rocky's mythology. Its elevation scenes, atmosphere, music and stylized violence significantly influenced subsequent Indian mass-action cinema."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Thuppakki", "year": 2012, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Vijay and A.R. Murugadoss deliver an exceptionally efficient action-thriller. The sleeper-cell hunt remains one of Vijay's strongest action narratives."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Ghajini", "year": 2005, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Suriya's physical transformation and A.R. Murugadoss's revenge structure created a ferocious action drama with genuine emotional motivation."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Agneepath", "year": 1990, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Amitabh Bachchan's Vijay Dinanath Chauhan turned the gangster-revenge protagonist into an iconic Hindi-cinema character."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Eega", "year": 2012, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rajamouli makes a housefly an action hero and somehow makes us believe it. The ingenuity of the miniature action situations deserves recognition alongside much bigger productions."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Indian", "year": 1996, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Kamal Haasan's elderly vigilante Senapathy combines Varma Kalai-inspired combat with Shankar's large-scale commercial filmmaking and a strong anti-corruption narrative."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Magadheera", "year": 2009, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A crucial step in Rajamouli's development toward Baahubali and RRR. The historical battle portions dramatically expanded expectations for Telugu action spectacle."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Uri: The Surgical Strike", "year": 2019, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Tightly executed military action with strong sound design, controlled pacing and a convincing physical performance from Vicky Kaushal."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Ayan", "year": 2009, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A hugely entertaining action film with energetic chase sequences, international locations and Suriya at his commercial-action best."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Anniyan", "year": 2005, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Vikram and Shankar combine psychological drama, vigilante action and enormous set pieces into a distinctly Indian blockbuster."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Chatrapathi", "year": 2005, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Early Rajamouli at his most ferocious. Prabhas's rise from oppressed refugee to protector provides some of 2000s Telugu cinema's defining mass-action moments."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Ghayal", "year": 1990, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Sunny Deol's rage, Rajkumar Santoshi's direction and a powerful revenge narrative made it one of the defining Hindi action films of the 1990s."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Spadikam", "year": 1995, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mohanlal's Aadu Thoma is one of Malayalam cinema's iconic action characters. The violence works because it emerges from an exceptionally strong father-son drama."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Commando", "year": 2013, "language": "hindi", "tmdb_id": 185640, "color": null },
+   "why_it_ranks": "The overall film may not rank among India's greatest, but Vidyut Jammwal's physical action absolutely does. For a list specifically celebrating action cinema, its practical stunt work deserves a place."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Salaar: Part 1 – Ceasefire", "year": 2023, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Prashanth Neel creates an oppressive fictional world and uses Prabhas's physical presence extremely effectively. The action is designed around anticipation and explosive payoff."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "War", "year": 2019, "language": "hindi", "tmdb_id": 585268, "color": null },
+   "why_it_ranks": "Hrithik Roshan and Tiger Shroff give the film tremendous physical credibility, while its chases, fights and large-scale set pieces represent polished modern Bollywood action."
+  }
+ ]
+}

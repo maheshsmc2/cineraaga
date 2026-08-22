@@ -86,5 +86,13 @@
   "category": "genre",
   "count": 25,
   "updated_at": "2026-08-23"
+ },
+ {
+  "slug": "great-indian-action-films",
+  "title": "All-Time Great Indian Action Films",
+  "description": "",
+  "category": "genre",
+  "count": 25,
+  "updated_at": "2026-08-23"
  }
 ]
