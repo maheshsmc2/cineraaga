@@ -1,0 +1,155 @@
+{
+ "slug": "great-indian-horror-films",
+ "title": "All-Time Great Indian Horror Films",
+ "description": "",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
+ "intro": "The top five represent five different strengths of Indian horror: psychological classic, folk horror, pure supernatural fear, slow-burn psychological horror, and modern folklore horror.",
+ "honourable_mentions": [
+  { "title": "Bees Saal Baad" },
+  { "title": "Woh Kaun Thi?" },
+  { "title": "Gumnaam" },
+  { "title": "Andhaghaaram" },
+  { "title": "Kumari" },
+  { "title": "Romancham" },
+  { "title": "Prema Katha Chitram" },
+  { "title": "Bhaagamathie" },
+  { "title": "Maa Oori Polimera" },
+  { "title": "Dora" },
+  { "title": "Taxiwaala" },
+  { "title": "Ek Thi Daayan" },
+  { "title": "1920" },
+  { "title": "Krishna Cottage" },
+  { "title": "Churuli" },
+  { "title": "Anandabhadram" },
+  { "title": "Cold Case" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Manichitrathazhu", "year": 1993, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The complete package — psychological horror, supernatural atmosphere, mystery, folklore, comedy, extraordinary performances and enormous influence across Indian cinema."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Tumbbad", "year": 2018, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Probably India's greatest folk-horror achievement visually. Mythology, greed and dread combine into something unlike almost anything else in Indian cinema."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Raat", "year": 1992, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Ram Gopal Varma understands that silence, darkness and anticipation can be far more frightening than constant jump scares."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Bhoothakaalam", "year": 2022, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's most psychologically unsettling horror films. Grief and supernatural terror gradually become almost impossible to separate."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Bramayugam", "year": 2024, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mammootty, monochrome cinematography, folklore and an oppressive sense of power create an exceptional modern folk-horror experience."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Pizza", "year": 2012, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Cleverly constructed and enormously influential on later South Indian horror. It constantly manipulates what the viewer believes is happening."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "13B", "year": 2009, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A television serial apparently predicting a family's future remains one of Indian horror cinema's smartest central concepts."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Arundhati", "year": 2009, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Anushka Shetty, Sonu Sood and grand supernatural mythology turned this into one of Telugu cinema's defining horror-fantasy films."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Mahal", "year": 1949, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Historically indispensable. Kamal Amrohi helped establish the haunted-mansion, reincarnation and gothic-romance vocabulary that Indian supernatural cinema repeatedly returned to."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Aval", "year": 2017, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's strongest straight supernatural-horror films, particularly effective in sound design, atmosphere and possession sequences."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Masooda", "year": 2022, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A surprisingly grounded possession film that builds fear patiently and gives its supernatural threat genuine weight."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Maya", "year": 2015, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Nayanthara leads an atmospheric, carefully structured supernatural mystery that relies more on mood than cheap shocks."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Lapachhapi", "year": 2017, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rural isolation, superstition and social horror combine into something genuinely disturbing."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Eeram", "year": 2009, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An unusual supernatural murder mystery that uses water as its central horror motif remarkably effectively."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Pari", "year": 2018, "language": "hindi", "tmdb_id": 461649, "color": null },
+   "why_it_ranks": "Anushka Sharma's dark supernatural drama takes its mythology seriously and avoids the usual Bollywood haunted-house formula."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Ezra", "year": 2017, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Jewish folklore gives this possession story a distinctive identity within Indian supernatural cinema."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Virupaksha", "year": 2023, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Occult practices, village mythology and an escalating mystery make it one of Telugu cinema's strongest recent horror films."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Bhoot", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "RGV turns an ordinary Mumbai apartment into an intensely claustrophobic haunted space, with Urmila Matondkar giving a memorable performance."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Pisaasu", "year": 2014, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mysskin combines ghost-story conventions with grief and compassion, creating a supernatural film with an unusually emotional centre."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Demonte Colony", "year": 2015, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Economical, creepy and effective. The haunted-location premise becomes increasingly claustrophobic as the film progresses."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Raaz", "year": 2002, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Not the most sophisticated entry here, but historically important to the revival of mainstream Hindi horror in the early 2000s and still highly memorable."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Game Over", "year": 2019, "language": "tamil", "tmdb_id": 553456, "color": null },
+   "why_it_ranks": "Psychological trauma, home invasion and videogame-style structure combine into a tense genre experiment."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Aamis", "year": 2019, "language": "assamese", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Not conventional ghost horror at all. It gradually turns desire, food and obsession into deeply uncomfortable body horror."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Stree", "year": 2018, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Horror-comedy done unusually well, combining folklore, scares, humour and social commentary without completely neutralizing its monster."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Deyyam", "year": 1996, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An important atmospheric Telugu horror film from RGV's strongest filmmaking period."
+  }
+ ]
+}
