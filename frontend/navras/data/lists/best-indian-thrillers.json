@@ -3,8 +3,155 @@
  "title": "Best Indian Thrillers",
  "description": "Films that grip from frame one and don't let go — Indian cinema's tightest thrillers.",
  "category": "genre",
- "count": 0,
- "updated_at": "2026-08-07",
+ "count": 25,
+ "updated_at": "2026-08-23",
  "intro": "A thriller lives or dies on its final act. These made it out alive.",
- "entries": []
+ "honourable_mentions": [
+  { "title": "Talvar" },
+  { "title": "Badla" },
+  { "title": "Por Thozhil" },
+  { "title": "Maharaja" },
+  { "title": "Iratta" },
+  { "title": "Joseph" },
+  { "title": "Bhoothakaalam" },
+  { "title": "Yavarum Nalam" },
+  { "title": "Thadam" },
+  { "title": "Imaikkaa Nodigal" },
+  { "title": "Ko" },
+  { "title": "Thani Oruvan" },
+  { "title": "Maanagaram" },
+  { "title": "Nenokkadine" },
+  { "title": "Goodachari" },
+  { "title": "HIT: The First Case" },
+  { "title": "Detective Byomkesh Bakshy!" },
+  { "title": "Ugly" },
+  { "title": "Raman Raghav 2.0" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Drishyam", "year": 2013, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's most brilliantly constructed thrillers. The tension comes not from action but from intelligence, family stakes and a protagonist constantly thinking several moves ahead."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Andhadhun", "year": 2018, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A near-perfect black-comedy thriller full of reversals, unreliable perception and escalating danger. Ayushmann Khurrana and Tabu are exceptional."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Ratsasan", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Indian cinema's most effective serial-killer thrillers. The investigation, atmosphere and villain reveal are handled with relentless tension."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Kahaani", "year": 2012, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Vidya Balan anchors a tightly written mystery set in Kolkata, and the climax remains one of Hindi cinema's most satisfying thriller payoffs."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Mumbai Police", "year": 2013, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A bold psychological investigation where the protagonist himself becomes part of the mystery. Its final revelation completely changes how the film is viewed."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Memories", "year": 2013, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A dark investigative thriller driven by grief, alcoholism and a clever serial-murder pattern. Prithviraj gives one of his strongest performances."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Anjaam Pathiraa", "year": 2020, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A highly polished serial-killer procedural with excellent atmosphere, pacing and a strong investigative structure."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Dhuruvangal Pathinaaru", "year": 2016, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A compact, intelligent mystery that uses perspective and fragmented information extremely well. Remarkably controlled filmmaking."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Talaash", "year": 2012, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A police investigation wrapped around grief and the supernatural. Aamir Khan, Rani Mukerji and Kareena Kapoor give the film emotional depth beyond the mystery."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "U Turn", "year": 2016, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Pawan Kumar turns an everyday traffic violation into a creepy, unpredictable mystery with a supernatural edge."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Agent Sai Srinivasa Athreya", "year": 2019, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Funny, eccentric and surprisingly tense. Naveen Polishetty's detective character gives the genre a fresh personality."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "A Wednesday!", "year": 2008, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Minimalist, tightly paced and driven almost entirely by performances and tension. Naseeruddin Shah and Anupam Kher are outstanding."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Forensic", "year": 2020, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A stylish investigative thriller built around forensic science, serial killings and shifting suspicion."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Game Over", "year": 2019, "language": "tamil", "tmdb_id": 553456, "color": null },
+   "why_it_ranks": "Psychological horror and home-invasion thriller elements combine into a tense, inventive story led by Taapsee Pannu."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Kshanam", "year": 2016, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A missing-child mystery that continually questions whether the protagonist is being manipulated or losing touch with reality."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Manichitrathazhu", "year": 1993, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Often classified as psychological horror, but its mystery structure, investigation and gradual revelation make it equally effective as a thriller."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Johnny Gaddaar", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Sriram Raghavan delivers a stylish neo-noir about betrayal, greed and criminals turning against each other."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Lucia", "year": 2013, "language": "kannada", "tmdb_id": 219343, "color": null },
+   "why_it_ranks": "One of India's most inventive psychological thrillers. Reality, dreams and identity blur in a story that rewards repeat viewing."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "13B", "year": 2009, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A family discovers that a television serial appears to be predicting their lives. Simple premise, strong execution and steadily increasing dread."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Pizza", "year": 2012, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Starts as a supernatural horror story and gradually reveals itself as something much more calculated and clever."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Drishyam 2", "year": 2021, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the rare sequels that expands the original thriller intelligently rather than simply repeating it."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Ek Hasina Thi", "year": 2004, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A superb revenge thriller in which Urmila Matondkar's character transforms convincingly from victim to strategist."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Anukokunda Oka Roju", "year": 2005, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A woman loses track of an entire day and slowly discovers that something dangerous happened during the missing period."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Vikram Vedha", "year": 2017, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A police-gangster narrative structured around moral puzzles, shifting perspectives and the question of who is actually right."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Evaru", "year": 2019, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A twist-heavy mystery where every new revelation changes the moral position of the characters."
+  }
+ ]
 }
