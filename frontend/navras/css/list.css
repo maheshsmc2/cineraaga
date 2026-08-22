@@ -11,6 +11,46 @@
 /* Header */
 .lp-head { margin-bottom: 28px; }
 
+.lp-head-top {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.lp-head-text { flex: 1 1 auto; min-width: 0; }
+
+/* Rasa artwork.
+
+   The source PNGs are square with a pure-black frame, which would show as
+   a hard edge on the cream light theme and a near-miss edge on the dark
+   one (#FAF7F2 / #12100E — neither is the artwork's #030304). A radial
+   mask feathers the frame away instead of matching a colour, so the same
+   rule holds in both themes and survives any future palette change.
+   The compositions are themselves circular, so the mask follows the art. */
+.lp-rasa {
+  flex: 0 0 auto;
+  margin: 0;
+  text-align: center;
+}
+
+.lp-rasa img {
+  display: block;
+  width: 132px;
+  height: 132px;
+  object-fit: contain;
+  -webkit-mask-image: radial-gradient(circle at 50% 48%, #000 46%, transparent 62%);
+  mask-image: radial-gradient(circle at 50% 48%, #000 46%, transparent 62%);
+}
+
+.lp-rasa-name {
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
 .lp-category {
   display: inline-block;
   font-size: 11px;
@@ -189,6 +229,8 @@
 @media (max-width: 700px) {
   .list-wrap { padding: 20px 18px 48px; }
   .lp-title { font-size: 25px; }
+  .lp-head-top { gap: 16px; }
+  .lp-rasa img { width: 88px; height: 88px; }
   .lp-row { grid-template-columns: 30px 72px 1fr; gap: 12px; padding: 12px; }
   .lp-rank { font-size: 22px; }
   .lp-poster { width: 72px; height: 108px; }

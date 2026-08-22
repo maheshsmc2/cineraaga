@@ -15,6 +15,13 @@ const CATEGORY_LABEL = {
   setting: 'By setting'
 };
 
+const RASAS = ['shringara', 'hasya', 'karuna', 'raudra', 'bhayanaka',
+               'bibhatsa', 'adbhuta', 'shanta', 'veera'];
+
+function cap(s) {
+  return String(s || '').charAt(0).toUpperCase() + String(s || '').slice(1);
+}
+
 function escapeHtml(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, c => (
     { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
@@ -152,11 +159,28 @@ async function initListPage() {
   const crumb = document.getElementById('lpCrumb');
   if (crumb) crumb.textContent = list.title;
 
+  /* A list may name the rasa it belongs to. Only the nine are accepted —
+     an unknown value renders nothing rather than a broken image path. The
+     rasa is an editorial assignment like any other: it appears only when
+     the list file says so, never inferred from the category or title. */
+  const rasa = RASAS.includes(list.rasa) ? list.rasa : null;
+  const rasaArt = rasa
+    ? `<figure class="lp-rasa">
+         <img src="../images/rasas/${rasa}.png" alt="${escapeHtml(cap(rasa))} — the rasa this list belongs to" />
+         <figcaption class="lp-rasa-name">${escapeHtml(cap(rasa))}</figcaption>
+       </figure>`
+    : '';
+
   root.innerHTML = `
     <div class="lp-head">
-      <div class="lp-category">${escapeHtml(CATEGORY_LABEL[list.category] || list.category || 'List')}</div>
-      <h1 class="lp-title">${escapeHtml(list.title)}</h1>
-      ${list.description ? `<div class="lp-desc">${escapeHtml(list.description)}</div>` : ''}
+      <div class="lp-head-top">
+        <div class="lp-head-text">
+          <div class="lp-category">${escapeHtml(CATEGORY_LABEL[list.category] || list.category || 'List')}</div>
+          <h1 class="lp-title">${escapeHtml(list.title)}</h1>
+          ${list.description ? `<div class="lp-desc">${escapeHtml(list.description)}</div>` : ''}
+        </div>
+        ${rasaArt}
+      </div>
       <div class="lp-meta">
         <span>Curated by CineRaaga</span>
         ${entries.length ? `<span>·</span><span>${entries.length} films</span>` : ''}
