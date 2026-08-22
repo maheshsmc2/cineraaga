@@ -1,0 +1,153 @@
+{
+ "slug": "great-indian-romances",
+ "title": "All-Time Great Indian Romances",
+ "description": "",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Kabhi Kabhie" },
+  { "title": "Silsila" },
+  { "title": "Barfi!" },
+  { "title": "The Lunchbox" },
+  { "title": "OK Kanmani" },
+  { "title": "Ye Maaya Chesave" },
+  { "title": "Mungaru Male" },
+  { "title": "Dia" },
+  { "title": "Mayaanadhi" },
+  { "title": "Ennu Ninte Moideen" },
+  { "title": "Lootera" },
+  { "title": "Hum Dil De Chuke Sanam" },
+  { "title": "Dil Se.." },
+  { "title": "Tholi Prema" },
+  { "title": "Godavari" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Mouna Ragam", "year": 1986, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Indian cinema's most mature explorations of love, marriage, grief and emotional healing."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Dilwale Dulhania Le Jayenge", "year": 1995, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The defining mainstream Indian romance for an entire generation, with unmatched cultural impact."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Geethanjali", "year": 1989, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A haunting, poetic romance shaped by mortality, Mani Ratnam's direction and Ilaiyaraaja's unforgettable music."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Kal Ho Naa Ho", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Warm, funny and devastating, with Shah Rukh Khan, Preity Zinta and Saif Ali Khan giving the triangle tremendous emotional power."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Guide", "year": 1965, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A remarkably adult love story about freedom, ambition, dependence and transformation."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Premam", "year": 2015, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A beautifully observed journey through different stages of love rather than one idealized romance."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Alaipayuthey", "year": 2000, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the finest Indian films about what happens after lovers actually marry."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Sagara Sangamam", "year": 1983, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Romance, art, sacrifice and unfulfilled longing come together with extraordinary emotional richness."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "96", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A deeply intimate story of memory, regret and unfinished love, carried by Vijay Sethupathi and Trisha."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Sangam", "year": 1964, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of classic Hindi cinema's grandest and most influential love triangles."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Qayamat Se Qayamat Tak", "year": 1988, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A landmark tragic romance whose innocence, music and emotional impact reshaped Hindi cinema."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Sairat", "year": 2016, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A powerful romance that begins with youthful freedom and ends by confronting caste and social reality."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Bandhana", "year": 1984, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Vishnuvardhan and Suhasini give this tragic love story enormous emotional depth. One of Kannada cinema's most enduring romantic dramas."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Sapta Sagaradaache Ello — Side A & Side B", "year": 2023, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A devastating modern romantic saga about sacrifice, separation and consequences that cannot simply be reversed."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Ninnu Kori", "year": 2017, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A mature love triangle that understands love does not always mean possession or reunion."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Chandni", "year": 1989, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Yash Chopra at his most romantic, elevated by Sridevi's grace and emotional presence."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Bommarillu", "year": 2006, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Telugu cinema's most beloved modern romances, balancing love, family pressure, comedy and emotional growth beautifully."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Nuvvu Naaku Nachav", "year": 2001, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Venkatesh's charm and Trivikram's dialogue make it one of Telugu cinema's most rewatchable romantic comedies."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Vinnaithaandi Varuvaayaa", "year": 2010, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A painfully believable portrayal of attraction, hesitation and emotional incompatibility."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Devdas", "year": 2002, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Operatic, tragic and visually overwhelming, with love portrayed as obsession, regret and self-destruction."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Jab We Met", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Hindi cinema's best modern romantic comedies, with Geet and Aditya remaining instantly memorable."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Bareilly Ki Barfi", "year": 2017, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Charming, funny and character-driven, with Rajkummar Rao giving the film an extra comic spark."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Moondram Pirai", "year": 1982, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Kamal Haasan and Sridevi carry an unconventional relationship toward one of Indian cinema's most heartbreaking finales."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Nuvvostanante Nenoddantana", "year": 2005, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A wonderfully satisfying commercial romance with strong chemistry, family emotion and terrific rewatch value."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Veer-Zaara", "year": 2004, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A sweeping cross-border romance about love surviving separation, sacrifice and decades of waiting."
+  }
+ ]
+}
