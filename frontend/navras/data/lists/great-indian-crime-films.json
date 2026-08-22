@@ -1,0 +1,148 @@
+{
+ "slug": "great-indian-crime-films",
+ "title": "All-Time Great Indian Crime Films",
+ "description": "",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Once Upon a Time in Mumbaai" },
+  { "title": "Shootout at Lokhandwala" },
+  { "title": "Ab Tak Chhappan" },
+  { "title": "Raman Raghav 2.0" },
+  { "title": "Ugly" },
+  { "title": "Badlapur" },
+  { "title": "Mumbai Police" },
+  { "title": "Nayattu" },
+  { "title": "Malik" },
+  { "title": "Ayyappanum Koshiyum" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Satya", "year": 1998, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the most influential Indian crime films ever made. Ram Gopal Varma stripped away glamour and presented the Mumbai underworld with grit, fear and unforgettable characters."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Nayakan", "year": 1987, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mani Ratnam and Kamal Haasan created one of Indian cinema's defining gangster epics, balancing crime, power, family and moral decay."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Gangs of Wasseypur – Parts 1 & 2", "year": 2012, "language": "hindi", "tmdb_id": 117691, "color": null },
+   "why_it_ranks": "A sprawling crime saga covering generations of revenge, politics and criminal enterprise. Anurag Kashyap created a uniquely Indian gangster universe."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Company", "year": 2002, "language": "hindi", "tmdb_id": 15761, "color": null },
+   "why_it_ranks": "Cold, controlled and frighteningly believable. Ajay Devgn and Vivek Oberoi anchor one of the best films about organized crime and fractured loyalty."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Angamaly Diaries", "year": 2017, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Raw, chaotic and deeply rooted in place. The violence feels less staged than lived, and the final long take is remarkable."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Black Friday", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A hard-edged crime investigation that reconstructs the aftermath of the 1993 Mumbai bombings with exceptional intensity and realism."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Jigarthanda", "year": 2014, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Begins as a gangster film and slowly becomes something stranger, darker and funnier. Bobby Simha's Assault Sethu is unforgettable."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Vaastav", "year": 1999, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Sanjay Dutt's Raghu remains one of Hindi cinema's most tragic gangster characters. The film makes crime feel like a downward spiral rather than a fantasy."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Aaranya Kaandam", "year": 2010, "language": "tamil", "tmdb_id": 119123, "color": null },
+   "why_it_ranks": "A stylish neo-noir with interlocking criminals, betrayal and black humour. Its influence on later Tamil crime cinema is significant."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Kammatipaadam", "year": 2016, "language": "malayalam", "tmdb_id": 398786, "color": null },
+   "why_it_ranks": "A powerful crime drama where gang violence is tied to land, caste, displacement and the changing face of Kochi."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Maqbool", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Vishal Bhardwaj transforms Macbeth into a Mumbai-underworld tragedy with astonishing performances from Irrfan Khan, Tabu and Pankaj Kapur."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Joji", "year": 2021, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A quiet, modern crime tragedy inspired by Macbeth, with Fahadh Faasil portraying greed and moral collapse with chilling restraint."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Johnny Gaddaar", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A compact neo-noir about betrayal, greed and criminals turning on each other. Sriram Raghavan's control of suspense is excellent."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Garuda Gamana Vrishabha Vahana", "year": 2021, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Kannada cinema's strongest modern gangster films, driven by mythic imagery, masculinity, loyalty and inevitable destruction."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Rakta Charitra", "year": 2010, "language": "telugu", "tmdb_id": 49028, "color": null },
+   "why_it_ranks": "Brutal and politically charged, with Ram Gopal Varma exploring faction violence and revenge without softening the ugliness."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Parinda", "year": 1989, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A landmark Hindi crime drama that brought darkness, realism and emotional tragedy into mainstream gangster cinema."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Omkara", "year": 2006, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Shakespeare's Othello reimagined through crime, caste and political power in rural North India. Ajay Devgn and Saif Ali Khan are exceptional."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Subramaniapuram", "year": 2008, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A gritty period crime drama where friendship, violence and betrayal unfold with devastating inevitability."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Thondimuthalum Driksakshiyum", "year": 2017, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A small theft becomes a fascinating study of morality, police procedure and ordinary people. Fahadh Faasil is superb."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Pudhupettai", "year": 2006, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Dhanush's rise from street survivor to gangster is ugly, chaotic and psychologically convincing."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Ulidavaru Kandanthe", "year": 2014, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rashomon-style storytelling gives this coastal crime drama a distinctive structure, atmosphere and cult status."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Sonchiriya", "year": 2019, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A harsh, morally complex bandit drama set in Chambal, with outstanding performances and a strong sense of fatalism."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Kurup", "year": 2021, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A stylish crime film built around deception, identity and one of Kerala's most notorious fugitives."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Polladhavan", "year": 2007, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "What begins with a stolen motorcycle turns into a tense urban crime story, with Dhanush anchoring the escalation convincingly."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Kaminey", "year": 2009, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A stylish crime caper full of gangsters, mistaken identity and dark humour, with Shahid Kapoor in one of his most memorable early performances."
+  }
+ ]
+}
