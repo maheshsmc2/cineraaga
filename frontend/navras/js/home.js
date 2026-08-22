@@ -730,6 +730,14 @@ document.addEventListener('DOMContentLoaded', () => {
   initPopularNowToggle();
 });
 
+/* Titles are hand-maintained, but an apostrophe or quote in one would
+   otherwise break out of the attribute it lands in. */
+function escapeAttr(s) {
+  return String(s == null ? '' : s).replace(/[&<>"']/g, c => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
+
 /* ===========================
    RANKER-STYLE EXPLORER LISTS
    Visual cards with collage thumbnails
@@ -786,6 +794,9 @@ async function loadExplorerListsData() {
       updated: fullLists[i]?.updated_at || fullLists[i]?.updated
         || entry.updated_at || entry.updated || null,
       count: (fullLists[i]?.entries || []).length,
+      /* Path is relative to frontend/navras, so it works as-is from
+         index.html; a renderer under pages/ would need to prefix '../'. */
+      thumbnail: fullLists[i]?.thumbnail || null,
       entries: fullLists[i]?.entries || []
     })).sort(orderForDisplay);
   } catch (e) {
@@ -824,7 +835,11 @@ function renderExplorerCard(list, posters) {
   const isEmpty = !list.entries.length;
   const href = `pages/list.html?slug=${encodeURIComponent(list.id)}`;
 
-  const media = isEmpty
+  /* A list may supply its own artwork. It wins over the poster collage,
+     which is a generated stand-in for lists that have none. */
+  const media = list.thumbnail
+    ? `<div class="elc-thumb"><img src="${list.thumbnail}" alt="${escapeAttr(list.title)}" loading="lazy" /></div>`
+    : isEmpty
     ? `<div class="elc-soon"><span class="elc-soon-tag">Coming soon</span></div>`
     : `<div class="elc-collage">${[0,1,2,3].map(i => {
         const url = posters?.[i];
@@ -866,7 +881,7 @@ async function loadExplorerLists(filter) {
 
   // Collages only exist on populated lists — skip the TMDb round-trips entirely
   // for seeded-but-empty ones.
-  for (const list of filtered.filter(l => l.entries.length)) {
+  for (const list of filtered.filter(l => l.entries.length && !l.thumbnail)) {
     const posters = await fetchPostersForList(list);
     const card = grid.querySelector(`[data-id="${CSS.escape(list.id)}"]`);
     const cells = card?.querySelectorAll('.elc-collage-cell');
