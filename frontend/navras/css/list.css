@@ -102,6 +102,44 @@
   margin: 22px 0 30px;
 }
 
+
+/* Just-outside mentions.
+
+   Deliberately quieter than a ranked row: no rank, no poster, no link.
+   These record where the editor drew the line, so they should read as a
+   footnote to the list rather than a continuation of it. */
+.lp-mentions {
+  margin-top: 34px;
+  padding-top: 20px;
+  border-top: 0.5px solid var(--ink3);
+}
+
+.lp-mentions-head {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--gold);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+
+.lp-mentions-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lp-mention {
+  font-size: 13px;
+  color: var(--text-muted);
+  border: 0.5px solid var(--ink3);
+  border-radius: 999px;
+  padding: 5px 12px;
+  white-space: nowrap;
+}
+
+.lp-mention-year { opacity: 0.6; }
+
 /* Ranked rows */
 .lp-films { display: flex; flex-direction: column; gap: 14px; }
 

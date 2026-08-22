@@ -163,6 +163,10 @@ async function initListPage() {
      an unknown value renders nothing rather than a broken image path. The
      rasa is an editorial assignment like any other: it appears only when
      the list file says so, never inferred from the category or title. */
+  /* Films the editor considered and left out. Deliberately unranked and
+     unlinked — they are context for where the cut fell, not list entries. */
+  const mentions = Array.isArray(list.honourable_mentions) ? list.honourable_mentions : [];
+
   const rasa = RASAS.includes(list.rasa) ? list.rasa : null;
   const rasaArt = rasa
     ? `<figure class="lp-rasa">
@@ -194,7 +198,15 @@ async function initListPage() {
            <div class="lp-empty-title">This list is being curated</div>
            <div class="lp-empty-sub">No films have been added yet — CineRaaga hand-ranks every entry,
              so this one is still being written. Check back soon.</div>
-         </div>`}`;
+         </div>`}
+    ${mentions.length
+      ? `<div class="lp-mentions">
+           <div class="lp-mentions-head">Just outside the top ${entries.length}</div>
+           <div class="lp-mentions-list">${mentions.map(m =>
+             `<span class="lp-mention">${escapeHtml(m.title)}${m.year ? ` <span class="lp-mention-year">${escapeHtml(String(m.year))}</span>` : ''}</span>`
+           ).join('')}</div>
+         </div>`
+      : ''}`;
 
   if (entries.length) {
     bindWhyToggles();
