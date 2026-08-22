@@ -229,3 +229,35 @@ A grid template is a promise about how many children will be there. When a child
 - The HTTP-caching trap again, and it cost a full verification cycle: the CSS edit was correct, but the page kept computing `grid-template-columns: 453.66px x3` because the old stylesheet was cached. Serving from a fresh port immediately showed the new rule. Check `getComputedStyle` for the property you just changed before concluding a fix didn't work.
 - `hidden` as an attribute does not hide `.btrow-col` — the class sets `display: flex`/`grid`, which outranks the UA `[hidden]` rule. `loadOttComingList` happens to use inline `style.display`, which wins over everything, so the behaviour was safe; but a future switch to the `hidden` attribute here would silently stop hiding the column.
 - The Browser pane's screenshot renderer returned all-black frames for this page while the DOM was fully populated with real data. Same family as the `mood.html` rendering quirk logged on 2026-07-31 — don't read a blank or broken frame as a layout failure without checking the DOM.
+
+## 2026-08-23 — Curated lists arrive; the poster fallback matches the wrong film
+
+**What happened:**
+
+Mahe began sending ranked lists in bulk. Five are now curated — comedies (20), Shah Rukh Khan (20), romances (25), action (25), thrillers (25) — 115 ranked films. Two new slugs were created and appended to `index.json`; thrillers filled its existing seeded slug rather than duplicating it.
+
+The substantive find was in the poster path. `list.js` resolves posters for entries without a `tmdb_id` by searching TMDb for title + year, and that search is global. Four entries were silently rendering the wrong film's poster:
+
+- "War" (2019, Hindi) returned *Captain America: Civil War* (2016, en)
+- "Commando" (2013, Hindi) returned an unrelated English film of the same name
+- "Game Over" (2019, Tamil) returned an English film of the same name
+- "Lucia" (2013, Kannada) returned *Después de Lucía* (2012, es)
+
+All four now pin `tmdb_id`. Two further entries — Panchathanthiram and Appula Appa Rao — had been rendering empty poster slots since the comedies list shipped; both failed because TMDb's transliteration and release year differ from ours, and both are now pinned too. Six pinned ids in total.
+
+Wrote an audit to catch the whole class: for every entry without a `tmdb_id`, compare TMDb's `original_language` on the top result against the language declared in the list file. Run across all five lists (115 films), it now reports zero suspects.
+
+Also added `honourable_mentions` to the list schema, synced `index.json`'s stale `count`/`updated_at` mirrors, and gave list headers optional rasa artwork plus optional supplied thumbnails on the home cards.
+
+**Concept:**
+
+A poster is a factual claim about which film a row describes, so a wrong poster is the same category of error as an invented score — it just arrives through an API instead of a hardcoded array. The failure mode is specific and predictable: short, generic, English-word titles. "War", "Commando", "Game Over", "Lucia", "96", "Indian", "Kill" are all real entries here, and a global search ranks the Hollywood film first for most of them. The year filter rescues some ("96" resolves correctly only because of it) but not all, and it actively hurts when our year disagrees with TMDb's.
+
+The general lesson is that a fallback which *usually* works needs a check that proves it worked this time. Comparing the returned `original_language` against the language the editor already declared costs one field that is always present, and turns a silent wrong answer into a listed one.
+
+**Traps:**
+
+- Counting rendered `<img>` elements does not verify posters. An early check reported "15 of 20 loaded" on the Shah Rukh list; all 20 had resolved, and the five below the fold simply had `loading="lazy"` so `naturalWidth` was still 0. Conversely a poster can load perfectly and be the wrong film — presence and correctness are different questions.
+- `year` cuts both ways. Passing it is what makes "96" resolve to the right Tamil film, and what makes Appula Appa Rao resolve to nothing (our 1991 vs TMDb's 1992-01-24). The year discrepancy was left as the editor wrote it and flagged, rather than overwritten from the API — an editorial field is not TMDb's to correct.
+- Supplied "close misses" are not always near-misses. The action list's omissions mixed genuine contenders with films named as deliberate exclusions ("Arjun Reddy — not really action enough", "Lucia — definitely not action"). Putting the second group under "just outside the top 25" would have asserted the opposite of what the editor said. Only the contenders were imported.
+- The dual-language entries (Game Over as Tamil/Telugu, 13B as Tamil/Hindi) do not fit a schema with one `language` per film. Recorded under the primary production language, with the second dropped and flagged — worth revisiting if simultaneous bilingual releases keep appearing.
