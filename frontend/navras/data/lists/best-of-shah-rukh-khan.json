@@ -1,10 +1,123 @@
 {
  "slug": "best-of-shah-rukh-khan",
  "title": "The Best of Shah Rukh Khan",
- "description": "A ranked look at the King of Bollywood's finest performances — from Baazigar to Jawan.",
+ "description": "A ranked look at the King of Bollywood's finest performances \u2014 from Baazigar to Jawan.",
  "category": "actor",
- "count": 0,
- "updated_at": "2026-08-07",
- "intro": "",
- "entries": []
+ "count": 20,
+ "updated_at": "2026-08-22",
+ "intro": "This is a ranking of the best Shah Rukh Khan films, not the biggest hits. Ranked purely by entertainment, popularity and rewatchability, films such as Main Hoon Na, Chennai Express, Pathaan and Mohabbatein would move significantly higher.",
+ "honourable_mentions": [
+  { "title": "Pathaan", "year": 2023 },
+  { "title": "Main Hoon Na", "year": 2004 },
+  { "title": "Dil Se..", "year": 1998 },
+  { "title": "Mohabbatein", "year": 2000 },
+  { "title": "Chennai Express", "year": 2013 },
+  { "title": "Yes Boss", "year": 1997 },
+  { "title": "Pardes", "year": 1997 },
+  { "title": "Raees", "year": 2017 },
+  { "title": "Anjaam", "year": 1994 },
+  { "title": "Josh", "year": 2000 }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Swades", "year": 2004, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Arguably Shah Rukh Khan's finest performance. Restrained, mature and emotionally powerful, with almost none of the familiar “SRK superstar” mannerisms."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Chak De! India", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of SRK's most controlled performances. Kabir Khan is inspirational without becoming a typical larger-than-life hero, and the film remains one of India's finest sports dramas."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Dilwale Dulhania Le Jayenge", "year": 1995, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The film that permanently established SRK as India's defining romantic star. Raj and Simran became cultural icons, and DDLJ fundamentally influenced the Hindi romance that followed."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "My Name Is Khan", "year": 2010, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of SRK's most ambitious dramatic performances. The film tackles identity, prejudice, love and loss while giving him a character far removed from his standard romantic persona."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Veer-Zaara", "year": 2004, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Yash Chopra, SRK and Preity Zinta deliver an old-fashioned epic romance with tremendous emotional weight. SRK's older Veer scenes are particularly effective."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Kabhi Haan Kabhi Naa", "year": 1994, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the most lovable characters of SRK's career. Sunil is flawed, selfish, insecure and frequently makes terrible decisions — which makes him unusually human for a Hindi-film protagonist."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Kal Ho Naa Ho", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "SRK's charisma and emotional ability are used almost perfectly. Aman can make the movie hilarious one moment and heartbreaking the next."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Baazigar", "year": 1993, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The movie that demonstrated very early that SRK was willing to take risks other emerging stars might avoid. His antihero is charming, frightening and emotionally complicated."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Devdas", "year": 2002, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Sanjay Leela Bhansali's enormous visual spectacle gives SRK one of his most operatic roles. His performance is intentionally theatrical, tragic and emotionally explosive."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Darr", "year": 1993, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "SRK effectively stole a film in which he wasn't the conventional hero. Rahul helped redefine the Hindi-film antagonist and established SRK's extraordinary screen presence."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Don", "year": 2006, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "SRK successfully took on a character inseparable from Amitabh Bachchan and created his own colder, slicker interpretation. The final revelation makes the performance even more enjoyable."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Om Shanti Om", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A joyous celebration and parody of Hindi cinema simultaneously. SRK is allowed to be romantic hero, comedian, action star and full-blown superstar in the same movie."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Kuch Kuch Hota Hai", "year": 1998, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Hugely influential pop-culture cinema. Some elements have aged better than others, but SRK-Kajol chemistry and the film's cultural impact are impossible to ignore."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Paheli", "year": 2005, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the more unusual films in SRK's filmography — a visually beautiful Indian folktale in which he plays both an ordinary husband and the supernatural being who assumes his identity."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Dear Zindagi", "year": 2016, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "SRK deliberately steps away from being the centre of attention. His understated performance as Dr. Jehangir Khan shows how effective he can be when the superstar persona is dialled down."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Jawan", "year": 2023, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Perhaps the best utilisation of the modern mass-action version of SRK. Atlee combines SRK's star image, action, emotion and social messaging into an enormous theatrical entertainer."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Rab Ne Bana Di Jodi", "year": 2008, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Surinder Sahni is one of SRK's most endearing understated characters. The contrast between quiet Surinder and flamboyant Raj lets him play with his own romantic-star image."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Kabhi Khushi Kabhie Gham...", "year": 2001, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Not necessarily SRK's greatest performance, but unquestionably one of the defining films of his superstar period. His chemistry with Kajol and family-emotional scenes remain enormously popular."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Don 2", "year": 2011, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Slicker and more action-oriented than the first Don. SRK is completely comfortable playing an intelligent, arrogant criminal rather than trying to make Don conventionally heroic."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Fan", "year": 2016, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An imperfect film containing one of SRK's most fascinating performances. Playing both superstar Aryan Khanna and obsessive fan Gaurav allowed him to examine — and even criticize — his own celebrity image."
+  }
+ ]
 }
