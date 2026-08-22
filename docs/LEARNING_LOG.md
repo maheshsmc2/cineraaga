@@ -208,3 +208,24 @@ Being honest about emptiness and *displaying* that emptiness are different decis
 
 - Gating with CSS alone (or a JS `display:none` applied after render) would have let the section paint and then disappear. Starting from the `hidden` attribute in the markup and clearing it only on success means the failure mode is "stays hidden," which is the safe direction for a gate.
 - The threshold check needed the per-list files, not `index.json` — the index carries a `count` field that is currently `0` on every seed list but is hand-maintained, so it can drift from the actual `entries` length. Counted the real arrays instead, reusing the fetch `loadExplorerListsData` already performs rather than adding a second pass.
+
+## 2026-08-22 — Fixed-column grid vs. a column that hides itself
+
+**What happened:**
+
+Mahe reported the "Coming soon" / "Popular right now" row on the home page looking off. Two separate defects, both in `css/home.css`'s `.bottom-three-row`:
+
+- The row was `grid-template-columns: 1fr 1fr 1fr`, but `#ottComingCol` sets `style.display = 'none'` whenever `data/coming_to_ott.json` has no future-dated entries — its current state, since that file is still seeded empty. The two surviving columns occupied the left two-thirds and left 454px of dead space on the right at 1440px. Replaced the fixed template with `grid-auto-flow: column` + `grid-auto-columns: 1fr`, which sizes the row to the columns that are actually visible.
+- "Popular right now" is the only column with a Movies/TV toggle (`.prt-col-tabs`), so its list started 49px lower than its neighbour's. Added a three-band subgrid (header / optional tabs / list) behind `@supports`, so every column's list lands on the same line and tab-less columns just leave the middle band empty.
+
+Verified by measurement at 1440px (dead gap 454 → 0; list tops 1473/1522 → 1502/1502), with the OTT column force-shown to confirm the three-column case still splits evenly, and at 800px to confirm the stacked layout still reverts cleanly.
+
+**Concept:**
+
+A grid template is a promise about how many children will be there. When a child hides itself based on data — which is the honest-empty pattern this project uses everywhere — a fixed template keeps reserving its track, so "hide the section when it has nothing to say" quietly becomes "leave a third of the row blank." Auto-flow columns make the layout a function of what is actually rendered, which is the same principle the empty-state rules already follow: let the data decide what exists, and don't hard-code a count that can drift from it.
+
+**Traps:**
+
+- The HTTP-caching trap again, and it cost a full verification cycle: the CSS edit was correct, but the page kept computing `grid-template-columns: 453.66px x3` because the old stylesheet was cached. Serving from a fresh port immediately showed the new rule. Check `getComputedStyle` for the property you just changed before concluding a fix didn't work.
+- `hidden` as an attribute does not hide `.btrow-col` — the class sets `display: flex`/`grid`, which outranks the UA `[hidden]` rule. `loadOttComingList` happens to use inline `style.display`, which wins over everything, so the behaviour was safe; but a future switch to the `hidden` attribute here would silently stop hiding the column.
+- The Browser pane's screenshot renderer returned all-black frames for this page while the DOM was fully populated with real data. Same family as the `mood.html` rendering quirk logged on 2026-07-31 — don't read a blank or broken frame as a layout failure without checking the DOM.
