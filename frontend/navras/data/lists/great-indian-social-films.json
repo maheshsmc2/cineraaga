@@ -1,0 +1,159 @@
+{
+ "slug": "great-indian-social-films",
+ "title": "All-Time Great Indian Social Films",
+ "description": "25 landmark Indian films that confronted caste, inequality, gender, poverty, discrimination, education and injustice while holding a mirror to Indian society.",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Peepli Live" },
+  { "title": "Newton" },
+  { "title": "Dor" },
+  { "title": "Water" },
+  { "title": "Damul" },
+  { "title": "Bandit Queen" },
+  { "title": "Salaam Bombay!" },
+  { "title": "Matrubhoomi" },
+  { "title": "Toilet: Ek Prem Katha" },
+  { "title": "Pad Man" },
+  { "title": "Kadvi Hawa" },
+  { "title": "Village Rockstars" },
+  { "title": "Uyare" },
+  { "title": "Nna Thaan Case Kodu" },
+  { "title": "Karnan" },
+  { "title": "Asuran" },
+  { "title": "Visaranai" },
+  { "title": "Mandela" },
+  { "title": "Vedam" },
+  { "title": "Pratighatana" },
+  { "title": "Rudraveena" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Do Bigha Zamin", "year": 1953, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Bimal Roy's devastating portrait of a farmer losing his land brought poverty, exploitation and rural displacement to the centre of Indian cinema."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Anbe Sivam", "year": 2003, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Kamal Haasan and Madhavan carry a profoundly human film about compassion, class, ideology, faith and what it actually means to be a good human being."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Pather Panchali", "year": 1955, "language": "bengali", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Satyajit Ray transformed the everyday struggles of a poor rural family into universal cinema without reducing poverty to melodrama."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Article 15", "year": 2019, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A mainstream investigative drama that forces caste discrimination and institutional inequality directly into the conversation."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Jai Bhim", "year": 2021, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A powerful legal drama about custodial violence and the persecution of marginalized tribal communities, anchored by an exceptionally affecting story."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Fandry", "year": 2013, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Nagraj Manjule examines caste through a young boy's first love and humiliation, culminating in one of modern Indian cinema's most powerful endings."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Court", "year": 2014, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Chaitanya Tamhane quietly exposes how bureaucracy, class and institutional indifference operate inside the justice system."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Pariyerum Perumal", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mari Selvaraj confronts caste violence through education, friendship, love and the everyday humiliations endured by its protagonist."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Mother India", "year": 1957, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Beyond its epic stature, the film examines rural poverty, debt, exploitation, motherhood and the moral expectations imposed on ordinary people."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Pink", "year": 2016, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Its central argument — that consent cannot be overridden by assumptions about a woman's clothes, lifestyle or relationships — entered mainstream popular discourse."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Kireedam", "year": 1989, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A heartbreaking examination of how social expectations, reputation and circumstances can gradually destroy an ordinary young man's future."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Kaala", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Pa. Ranjith uses land ownership, caste, housing and political power to examine who truly has the right to a city."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Masaan", "year": 2015, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Caste, sexual morality, grief and social judgment intersect beautifully through parallel stories set in Varanasi."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Sairat", "year": 2016, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "What begins as an exhilarating romance ultimately becomes one of contemporary Indian cinema's most devastating examinations of caste."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Kanaa", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A young woman pursuing cricket becomes the centre of a story about gender barriers, farming distress, family and ambition."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Achhut Kanya", "year": 1936, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Historically essential for confronting untouchability and caste barriers through tragic romance at an extraordinarily early stage of Indian sound cinema."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Sujata", "year": 1959, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Bimal Roy examines untouchability, prejudice and supposedly progressive middle-class attitudes through an intimate human story."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Thondimuthalum Driksakshiyum", "year": 2017, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A tiny theft opens up questions about poverty, policing, morality and how differently institutions treat ordinary people."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Kaaka Muttai", "year": 2014, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Two children simply wanting to taste pizza becomes a funny and poignant examination of poverty, consumerism and class aspiration."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Kumbalangi Nights", "year": 2019, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Beneath its family drama is a thoughtful examination of masculinity, dysfunctional families, gender expectations and alternative ideas of what makes a home."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Dangal", "year": 2016, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A hugely accessible mainstream film about women challenging entrenched gender expectations through sport."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Peranbu", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Ram uses the relationship between a father and his daughter to explore disability, sexuality, caregiving and society's discomfort with people who do not fit its expectations."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "The Great Indian Kitchen", "year": 2021, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Everyday household routines become an extraordinarily effective critique of patriarchy, unpaid domestic labour and gender roles."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "C/o Kancharapalem", "year": 2018, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Multiple relationships across age, religion, caste and social status create an unusually compassionate portrait of ordinary Indian lives."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Stanley Ka Dabba", "year": 2011, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A seemingly simple school story gradually exposes childhood hunger, dignity and the cruelty adults can unknowingly — or knowingly — inflict on children."
+  }
+ ]
+}
