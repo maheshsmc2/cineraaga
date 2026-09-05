@@ -874,8 +874,11 @@ async function loadExplorerLists(filter) {
     return;
   }
 
-  // Curated lists take the slots first; coming-soon cards fill whatever is left.
-  const filtered = [...matching].sort(orderForDisplay).slice(0, HOME_MAX_CARDS);
+  // Every curated list shows; coming-soon cards fill whatever is left.
+  const sorted = [...matching].sort(orderForDisplay);
+  const curated = sorted.filter(l => l.entries.length);
+  const soon = sorted.filter(l => !l.entries.length);
+  const filtered = [...curated, ...soon.slice(0, Math.max(0, HOME_MAX_CARDS - curated.length))];
 
   grid.innerHTML = filtered.map(l => renderExplorerCard(l, null)).join('');
 
@@ -901,8 +904,14 @@ async function loadExplorerLists(filter) {
 const MIN_ENTRIES_FOR_CURATED = 3;
 
 /* The homepage is a shop window, not the catalogue — pages/lists.html
-   deliberately shows all ten. */
-const HOME_MAX_CARDS = 6;
+   deliberately shows every list.
+
+   The cap trims coming-soon cards only. It used to trim the sorted list
+   as a whole, which silently dropped a curated list once the seventh
+   landed: populated lists sort by recency, so the oldest fell off the
+   home page — and that was the one carrying the banner artwork. Curated
+   work is the thing worth showing, so it is never what gets cut. */
+const HOME_MAX_CARDS = 8;
 
 async function initExplorerFilter() {
   const section = document.getElementById('explorerListsSection');
