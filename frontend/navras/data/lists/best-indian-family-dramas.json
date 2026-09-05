@@ -3,8 +3,158 @@
  "title": "Best Indian Family Dramas",
  "description": "Families are Indian cinema's oldest subject. These are the films that got them right.",
  "category": "genre",
- "count": 0,
- "updated_at": "2026-08-07",
+ "count": 25,
+ "updated_at": "2026-08-23",
  "intro": "A great Indian family drama gets the small rooms right before it tries anything grand.",
- "entries": []
+ "honourable_mentions": [
+  { "title": "Grihapravesh" },
+  { "title": "Saaransh" },
+  { "title": "Arth" },
+  { "title": "Do Dooni Chaar" },
+  { "title": "Dangal" },
+  { "title": "Secret Superstar" },
+  { "title": "Taare Zameen Par" },
+  { "title": "Dil Dhadakne Do" },
+  { "title": "Ramprasad Ki Tehrvi" },
+  { "title": "Gulmohar" },
+  { "title": "Home" },
+  { "title": "Jaya Jaya Jaya Jaya Hey" },
+  { "title": "Thinkalazhcha Nishchayam" },
+  { "title": "Kireedam" },
+  { "title": "Ishtam" },
+  { "title": "Santhwanam" },
+  { "title": "Nandanam" },
+  { "title": "Manassinakkare" },
+  { "title": "Aadavari Matalaku Arthale Verule" },
+  { "title": "Seethamma Vakitlo Sirimalle Chettu" },
+  { "title": "Aa Naluguru" },
+  { "title": "Shravani Subramanya" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Kumbalangi Nights", "year": 2019, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Four broken brothers slowly discovering affection, responsibility and what actually constitutes a family makes this one of modern Indian cinema's richest family dramas."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Baghban", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Amitabh Bachchan and Hema Malini turned the neglect of ageing parents into one of mainstream Hindi cinema's most emotionally powerful and widely discussed family stories."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Samsaram Oka Chadarangam", "year": 1987, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A wonderfully observed multigenerational family drama where marriage, ego, money and generational differences collide inside an ordinary household."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Kapoor & Sons", "year": 2016, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Beneath the polished surface is an unusually honest portrait of resentment, secrets, parental favoritism and unresolved tensions inside a seemingly successful family."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Bharatham", "year": 1991, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mohanlal anchors a devastating story of brotherhood, responsibility, guilt and the impossible emotional burden created by family tragedy."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Hum Aapke Hain Koun..!", "year": 1994, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Perhaps the definitive Indian celebration of the extended family, turning weddings, rituals, siblings and sacrifice into a cultural phenomenon."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Thanga Meenkal", "year": 2013, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A deeply affecting father-daughter story about education, money, dignity and a parent struggling to understand what his child actually needs."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Piku", "year": 2015, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The exhausting, funny and loving relationship between an ageing father and his independent daughter feels remarkably real."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Manjadikuru", "year": 2012, "language": "malayalam", "tmdb_id": 120805, "color": null },
+   "why_it_ranks": "A child returning to his ancestral home for a funeral observes the affection, tensions and secrets hidden inside an extended family."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Astitva", "year": 2000, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A family revelation forces uncomfortable questions about marriage, fidelity, patriarchy and the different moral standards imposed on men and women."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Drishyam", "year": 2013, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Beneath the thriller machinery is an extraordinarily strong family story about how far an ordinary father will go to protect his wife and daughters."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Masoom", "year": 1983, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Shekhar Kapur explores infidelity and parenthood through the devastating arrival of a child whose existence threatens an otherwise loving family."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Abhiyum Naanum", "year": 2008, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Prakash Raj beautifully portrays a father discovering that loving his daughter also means learning to let her make a life beyond him."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Balagam", "year": 2023, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A death brings an extended rural family together and gradually exposes grudges, pride, affection and relationships that have fractured over time."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Ustad Hotel", "year": 2012, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A young man's relationship with his grandfather changes his understanding of career, food, responsibility and what a meaningful life looks like."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "English Vinglish", "year": 2012, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Sridevi's journey toward self-respect quietly exposes how easily a family can take a mother's labour, intelligence and dignity for granted."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Kabhi Khushi Kabhie Gham...", "year": 2001, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Excessive and melodramatic, certainly — but few Indian films have turned parent-child conflict, adoption, separation and reunion into such enormous popular family spectacle."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Godhi Banna Sadharana Mykattu", "year": 2016, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A son searching for his father with Alzheimer's gradually confronts how little attention he had given the relationship while there was still time."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Mithunam", "year": 2012, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Almost entirely centred on an elderly couple, the film finds humour, companionship and tenderness in ordinary married life after the children have moved away."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Nil Battey Sannata", "year": 2015, "language": "hindi", "tmdb_id": 361249, "color": null },
+   "why_it_ranks": "A domestic worker's determination to educate her daughter creates a warm but honest examination of parental ambition, poverty and generational aspiration."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Varane Avashyamund", "year": 2020, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mothers, daughters, neighbours and unconventional relationships form a warm portrait of contemporary urban family life."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Natsamrat", "year": 2016, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Nana Patekar gives a towering performance as an ageing theatre legend confronting family estrangement, pride and the loss of everything that once defined him."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "The Great Indian Kitchen", "year": 2021, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Domestic routine becomes a devastating examination of how supposedly normal family structures can conceal unequal expectations and unpaid labour."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Bommarillu", "year": 2006, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Beneath the romance is an excellent father-son conflict about a loving parent whose constant control prevents his adult child from developing an independent identity."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Badhaai Ho", "year": 2018, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An unexpected pregnancy in a middle-aged couple forces their adult children and extended family to confront embarrassment, intimacy, age and their own hypocrisy."
+  }
+ ]
 }
