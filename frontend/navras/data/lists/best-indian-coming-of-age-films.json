@@ -3,8 +3,154 @@
  "title": "Best Indian Coming-of-Age Films",
  "description": "The Indian films that captured what it felt like to grow up here.",
  "category": "genre",
- "count": 0,
- "updated_at": "2026-08-07",
+ "count": 25,
+ "updated_at": "2026-08-23",
  "intro": "Coming of age in India carries its own rhythms — these films know them.",
- "entries": []
+ "honourable_mentions": [
+  { "title": "Lakshya" },
+  { "title": "Rang De Basanti" },
+  { "title": "Zindagi Na Milegi Dobara" },
+  { "title": "Yeh Jawaani Hai Deewani" },
+  { "title": "Tamasha" },
+  { "title": "Queen" },
+  { "title": "English Vinglish" },
+  { "title": "Stanley Ka Dabba" },
+  { "title": "Nil Battey Sannata" },
+  { "title": "Dhanak" },
+  { "title": "Sairat" },
+  { "title": "Aanandam" },
+  { "title": "Classmates" },
+  { "title": "Premalu" },
+  { "title": "Pelli Choopulu" },
+  { "title": "Tholi Prema" },
+  { "title": "Bommarillu" },
+  { "title": "Godhi Banna Sadharana Mykattu" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "3 Idiots", "year": 2009, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Friendship, education pressure, parental expectations and the courage to define success for yourself make it perhaps India's most influential mainstream coming-of-age film."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Dil Chahta Hai", "year": 2001, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A landmark portrayal of urban Indian friendship in which three young men discover that adulthood inevitably changes relationships, priorities and themselves."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Premam", "year": 2015, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "George's journey through school, college and adulthood uses love and heartbreak to show how experiences gradually shape a person."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Jo Jeeta Wohi Sikandar", "year": 1992, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A carefree teenager learns responsibility, discipline and self-respect in one of Hindi cinema's most enduring youth films."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Bangalore Days", "year": 2014, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Three cousins arrive in Bengaluru with different dreams and gradually confront careers, marriage, disappointment, relationships and adulthood."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Udaan", "year": 2010, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A powerful story of a teenager confronting an authoritarian father while fighting for the right to choose his own identity and future."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Kumbalangi Nights", "year": 2019, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Four dysfunctional brothers gradually learning responsibility, affection and what makes a family gives the film a beautiful collective maturation arc."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Wake Up Sid", "year": 2009, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A privileged, directionless young man gradually discovers work, independence, love and a sense of purpose."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Masaan", "year": 2015, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Young people constrained by grief, caste and social judgment struggle to move beyond the identities society has imposed upon them."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Thanneer Mathan Dinangal", "year": 2019, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An exceptionally natural portrayal of teenage insecurity, crushes, jealousy, friendship and school life."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Vaaranam Aayiram", "year": 2008, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Love, heartbreak, addiction, family and self-discovery shape Surya's long journey from youth toward emotional maturity."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Kaaka Muttai", "year": 2014, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Two children's simple desire to taste pizza becomes their introduction to money, class, consumerism and the adult world."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Rockford", "year": 1999, "language": "english", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Boarding school, friendship, bullying, attraction and independence are captured with unusual warmth and authenticity."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Happy Days", "year": 2007, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Engineering-college friendships, first romances and conflicts capture the excitement and eventual bittersweet ending of student life."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Hridayam", "year": 2022, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "College, romance, heartbreak, mistakes, career and eventually family life chart a young man's gradual transition into adulthood."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Kirik Party", "year": 2016, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Karna begins as an irresponsible engineering student before friendship, love, tragedy and time fundamentally change him."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Autograph", "year": 2004, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An adult revisiting the people who shaped his life becomes a reflective journey through adolescence, love, heartbreak and maturity."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Gully Boy", "year": 2019, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Murad's discovery of his artistic voice becomes a larger journey toward confidence, independence and escaping the future others expect him to accept."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Boys", "year": 2003, "language": "tamil", "tmdb_id": 75076, "color": null },
+   "why_it_ranks": "A group of immature friends encounter romance, rebellion, music and consequences that gradually force them to take responsibility."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Niram", "year": 1999, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Friendship slowly developing into romantic awareness gives the film an enduring youthful warmth."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Iqbal", "year": 2005, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A deaf and mute village boy's dream of becoming a cricketer becomes an inspiring journey of confidence, independence and perseverance."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "June", "year": 2019, "language": "malayalam", "tmdb_id": 580896, "color": null },
+   "why_it_ranks": "June grows from an awkward schoolgirl through college, relationships and heartbreak into an adult increasingly comfortable with herself."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Fandry", "year": 2013, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A teenager's innocent attraction collides painfully with caste and social hierarchy, turning adolescence into an awakening to the world's inequality."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Killa", "year": 2014, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A young boy adjusting to a new town and school experiences loneliness, friendship and change in one of India's gentlest childhood coming-of-age films."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Timepass", "year": 2014, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Teenage romance, class difference and first heartbreak give this popular film genuine coming-of-age emotion."
+  }
+ ]
 }
