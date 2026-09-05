@@ -3,111 +3,158 @@
  "title": "All-Time Great Indian Comedies",
  "description": "The Indian comedies that hold up on rewatch — sharp writing, real humour, timeless charm.",
  "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
  "rasa": "hasya",
  "thumbnail": "images/lists/great-indian-comedies.webp",
- "count": 20,
- "updated_at": "2026-08-08",
  "intro": "Comedy ages badly more often than any other genre. These are the Indian films that didn't.",
+ "honourable_mentions": [
+  { "title": "Chashme Buddoor" },
+  { "title": "Khatta Meetha" },
+  { "title": "Bawarchi" },
+  { "title": "Chalti Ka Naam Gaadi" },
+  { "title": "Dhamaal" },
+  { "title": "Hungama" },
+  { "title": "Malamaal Weekly" },
+  { "title": "Welcome" },
+  { "title": "Khosla Ka Ghosla" },
+  { "title": "Delhi Belly" },
+  { "title": "Fukrey" },
+  { "title": "Thenmavin Kombath" },
+  { "title": "Meleparambil Aanveedu" },
+  { "title": "In Harihar Nagar" },
+  { "title": "Godfather" },
+  { "title": "Vettam" },
+  { "title": "Ee Parakkum Thalika" },
+  { "title": "Ullathai Allitha" },
+  { "title": "Boss Engira Bhaskaran" },
+  { "title": "Venkatadri Express" }
+ ],
  "entries": [
   {
    "rank": 1,
    "film": { "title": "Gol Maal", "year": 1979, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "Near-perfect situational comedy — Amol Palekar and Utpal Dutt turn one lie into an escalating comic masterpiece."
+   "blurb": "Hrishikesh Mukherjee turns one simple lie into escalating comic chaos, with Amol Palekar and Utpal Dutt delivering near-perfect performances."
   },
   {
    "rank": 2,
    "film": { "title": "Michael Madana Kama Rajan", "year": 1990, "language": "tamil", "tmdb_id": null, "color": null },
-   "blurb": "Four Kamal Haasan characters, Crazy Mohan's writing, and an extraordinarily complex climax make this one of India's most technically accomplished comedies."
+   "blurb": "Kamal Haasan's four characters, Crazy Mohan's writing and Singeetam Srinivasa Rao's direction produce one of Indian cinema's most technically accomplished comedies."
   },
   {
    "rank": 3,
    "film": { "title": "Jaane Bhi Do Yaaro", "year": 1983, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "India's definitive black comedy — funny, absurd, politically sharp, and crowned by the unforgettable Mahabharata-stage sequence."
+   "blurb": "India's definitive black-comedy classic, using absurd humour to attack corruption, business, politics and media."
   },
   {
    "rank": 4,
    "film": { "title": "Aha Naa Pellanta!", "year": 1987, "language": "telugu", "tmdb_id": null, "color": null },
-   "blurb": "Jandhyala, Rajendra Prasad, Kota Srinivasa Rao and Brahmanandam at their comic best — a foundational Telugu comedy with phenomenal repeat value."
+   "blurb": "Jandhyala, Rajendra Prasad, Kota Srinivasa Rao and Brahmanandam created one of Telugu cinema's most enduring comedy classics."
   },
   {
    "rank": 5,
    "film": { "title": "Chupke Chupke", "year": 1975, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "Intelligent, gentle comedy built around language and mistaken identity — Dharmendra and Om Prakash are magnificent."
+   "blurb": "Dharmendra and Om Prakash turn language, identity and an elaborate practical joke into wonderfully intelligent, clean situational comedy."
   },
   {
    "rank": 6,
    "film": { "title": "Panchathanthiram", "year": 2002, "language": "tamil", "tmdb_id": 49033, "color": null },
-   "blurb": "Perhaps one of India's strongest laugh-per-minute films — Crazy Mohan's dialogue and the chemistry between Kamal Haasan and the gang make it endlessly rewatchable."
+   "blurb": "Crazy Mohan's dialogue and the chemistry between Kamal Haasan, Jayaram, Ramesh Aravind, Sriman and Yugi Sethu give it extraordinary laugh-per-minute value."
   },
   {
    "rank": 7,
    "film": { "title": "Hera Pheri", "year": 2000, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "Paresh Rawal's Baburao alone guarantees immortality, but the screenplay and the Akshay Kumar–Suniel Shetty–Paresh Rawal chemistry make the entire film work."
+   "blurb": "Baburao, Raju and Shyam became part of Indian popular culture, with Paresh Rawal delivering one of Hindi cinema's great comic performances."
   },
   {
    "rank": 8,
    "film": { "title": "Nadodikkattu", "year": 1987, "language": "malayalam", "tmdb_id": null, "color": null },
-   "blurb": "Dasan and Vijayan are among Indian cinema's greatest comic characters — Sreenivasan's writing mixes unemployment and social reality with effortless humour."
+   "blurb": "Mohanlal and Sreenivasan's Dasan and Vijayan turn unemployment, friendship and middle-class frustration into timeless comedy."
   },
   {
    "rank": 9,
    "film": { "title": "Ramji Rao Speaking", "year": 1989, "language": "malayalam", "tmdb_id": null, "color": null },
-   "blurb": "A wonderfully constructed comedy of poverty, misunderstanding and kidnapping that later provided the narrative basis for Hera Pheri."
+   "blurb": "Financial desperation and an accidental kidnapping connection create beautifully constructed situational comedy that later inspired Hera Pheri."
   },
   {
    "rank": 10,
-   "film": { "title": "Pushpaka Vimana (Pushpak)", "year": 1987, "language": "kannada", "tmdb_id": null, "color": null },
-   "blurb": "A dialogue-free comedy that works across languages and cultures — Singeetam Srinivasa Rao and Kamal Haasan demonstrate the power of pure visual comedy."
+   "film": { "title": "Pushpaka Vimana", "year": 1987, "language": "kannada", "tmdb_id": null, "color": null },
+   "blurb": "Kamal Haasan and Singeetam Srinivasa Rao prove that great comedy does not even require spoken dialogue."
   },
   {
    "rank": 11,
    "film": { "title": "Kilukkam", "year": 1991, "language": "malayalam", "tmdb_id": null, "color": null },
-   "blurb": "Mohanlal, Jagathy Sreekumar and Revathi turn what initially appears to be a light comedy into something both hilarious and emotionally satisfying, with Jagathy's comic timing outstanding."
+   "blurb": "Mohanlal, Jagathy Sreekumar and Revathi combine farce, misunderstandings and emotional warmth into one of Malayalam cinema's most beloved entertainers."
   },
   {
    "rank": 12,
    "film": { "title": "Angoor", "year": 1982, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "Gulzar takes Shakespeare's The Comedy of Errors and creates one of Indian cinema's most elegant mistaken-identity comedies — Sanjeev Kumar and Deven Verma are superb."
+   "blurb": "Gulzar's adaptation of The Comedy of Errors is a masterclass in mistaken identity, powered by Sanjeev Kumar and Deven Verma."
   },
   {
    "rank": 13,
    "film": { "title": "Punjabi House", "year": 1998, "language": "malayalam", "tmdb_id": null, "color": null },
-   "blurb": "An exceptionally rewatchable comedy built around debt, mistaken identity and pretending to be mute, with Dileep, Harisree Ashokan, Cochin Haneefa and Lal all memorable — it later inspired Chup Chup Ke."
+   "blurb": "Debt, mistaken identity and a man pretending to be mute produce an exceptionally rewatchable comedy with a fantastic supporting cast."
   },
   {
    "rank": 14,
    "film": { "title": "Thillu Mullu", "year": 1981, "language": "tamil", "tmdb_id": null, "color": null },
-   "blurb": "Rajinikanth proves how brilliant he can be at pure comedy — K. Balachander's adaptation of Gol Maal gives the story a distinct Tamil personality rather than simply copying the original."
+   "blurb": "K. Balachander's adaptation of Gol Maal gives Rajinikanth one of the funniest performances of his career."
   },
   {
    "rank": 15,
    "film": { "title": "Andaz Apna Apna", "year": 1994, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "Initially unsuccessful but ultimately one of India's biggest cult comedies — Aamir Khan, Salman Khan, Paresh Rawal and Shakti Kapoor deliver an absurd, endlessly quotable collection of scenes."
+   "blurb": "A box-office disappointment that became a cult phenomenon, packed with characters and dialogue that remain endlessly quoted."
   },
   {
    "rank": 16,
    "film": { "title": "Nuvvu Naaku Nachav", "year": 2001, "language": "telugu", "tmdb_id": null, "color": null },
-   "blurb": "Venkatesh's comic timing combined with Trivikram's dialogue makes this one of Telugu cinema's greatest comfort comedies — it remains enormously rewatchable."
+   "blurb": "Venkatesh's effortless timing and Trivikram's dialogue make it one of Telugu cinema's most rewatchable comedy-romances."
   },
   {
    "rank": 17,
    "film": { "title": "Padosan", "year": 1968, "language": "hindi", "tmdb_id": null, "color": null },
-   "blurb": "Kishore Kumar, Mehmood and Sunil Dutt created some of Hindi cinema's most iconic musical comedy sequences — the Kishore Kumar–Mehmood musical confrontation alone earns it historical status."
+   "blurb": "Kishore Kumar, Mehmood and Sunil Dutt created some of Hindi cinema's most enduring musical-comedy sequences."
   },
   {
    "rank": 18,
    "film": { "title": "Sathi Leelavathi", "year": 1995, "language": "tamil", "tmdb_id": null, "color": null },
-   "blurb": "A wonderfully written domestic comedy where Kamal Haasan doesn't even need to be the central protagonist to dominate the comic portions — Kovai Sarala is equally brilliant."
+   "blurb": "Kamal Haasan, Ramesh Aravind and Kovai Sarala turn marital chaos into superb character comedy."
   },
   {
    "rank": 19,
    "film": { "title": "Appula Appa Rao", "year": 1991, "language": "telugu", "tmdb_id": 180736, "color": null },
-   "blurb": "Another Jandhyala gem — Rajendra Prasad's financial disasters become the foundation for relentless situational comedy, supported by a terrific ensemble."
+   "blurb": "Jandhyala and Rajendra Prasad transform debt and financial disaster into relentless situational humour."
   },
   {
    "rank": 20,
    "film": { "title": "Ganeshana Maduve", "year": 1990, "language": "kannada", "tmdb_id": null, "color": null },
-   "blurb": "Ananth Nag and the eccentric ensemble turn ordinary domestic and romantic complications into wonderfully character-driven comedy — one of Kannada cinema's most enduring comedy favourites."
+   "blurb": "Ananth Nag and a wonderfully eccentric ensemble make this one of Kannada cinema's enduring domestic comedy classics."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Boeing Boeing", "year": 1985, "language": "malayalam", "tmdb_id": null, "color": null },
+   "blurb": "Mohanlal and Mukesh trying to maintain an increasingly impossible web of romantic deception produces classic Priyadarshan farce."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Manmadhudu", "year": 2002, "language": "telugu", "tmdb_id": null, "color": null },
+   "blurb": "Nagarjuna's dry comic performance, sharp dialogue and Brahmanandam's supporting brilliance make it an enduring Telugu favourite."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Avvai Shanmughi", "year": 1996, "language": "tamil", "tmdb_id": 69575, "color": null },
+   "blurb": "Kamal Haasan's transformation and comic performance drive a hugely entertaining family comedy adapted from the same source that inspired Mrs. Doubtfire."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "CID Moosa", "year": 2003, "language": "malayalam", "tmdb_id": null, "color": null },
+   "blurb": "Dileep and an outstanding comic ensemble embrace complete absurdity to create one of Malayalam cinema's most beloved slapstick entertainers."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Chup Chup Ke", "year": 2006, "language": "hindi", "tmdb_id": null, "color": null },
+   "blurb": "Although adapted from Punjabi House, Rajpal Yadav, Paresh Rawal, Om Puri and Shahid Kapoor give the Hindi version a comic personality of its own."
   }
  ]
 }
