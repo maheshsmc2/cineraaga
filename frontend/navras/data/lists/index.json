@@ -110,5 +110,13 @@
   "category": "genre",
   "count": 25,
   "updated_at": "2026-08-23"
+ },
+ {
+  "slug": "great-indian-political-films",
+  "title": "All-Time Great Indian Political Films",
+  "description": "25 landmark Indian films exploring elections, ideology, governance, corruption, political movements and the struggle for power.",
+  "category": "genre",
+  "count": 25,
+  "updated_at": "2026-08-23"
  }
 ]

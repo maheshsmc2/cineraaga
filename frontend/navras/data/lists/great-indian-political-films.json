@@ -1,0 +1,153 @@
+{
+ "slug": "great-indian-political-films",
+ "title": "All-Time Great Indian Political Films",
+ "description": "25 landmark Indian films exploring elections, ideology, governance, corruption, political movements and the struggle for power.",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-08-23",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Nayattu" },
+  { "title": "Gulaal" },
+  { "title": "Hu Tu Tu" },
+  { "title": "Satta" },
+  { "title": "New Delhi" },
+  { "title": "Rakta Charitra" },
+  { "title": "Nota" },
+  { "title": "Lucifer" },
+  { "title": "Sarkar (2018)" },
+  { "title": "Oru Indian Pranayakadha" },
+  { "title": "Indian" },
+  { "title": "Gentleman" },
+  { "title": "Kannathil Muthamittal" },
+  { "title": "Roja" },
+  { "title": "Bombay" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Iruvar", "year": 1997, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mani Ratnam turns the relationship between cinema and Tamil Nadu politics into an extraordinary story of friendship, ideology, ambition and power, led by Mohanlal and Prakash Raj."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Aandhi", "year": 1975, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Gulzar combines political ambition with the collapse of a marriage, creating a remarkably human portrait of the personal cost of public life."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Sinhasan", "year": 1979, "language": "marathi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Jabbar Patel's uncompromising examination of politicians, journalists, bureaucracy and struggles for power remains one of Indian cinema's great political dramas."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Sandesham", "year": 1991, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's sharpest political satires, exposing ideological fanaticism and party loyalty through the absurd conflict between two brothers."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Kissa Kursi Ka", "year": 1977, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A fearless satire of political power whose history became inseparable from the Emergency after the original prints were seized and destroyed."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Mudhalvan", "year": 1999, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Shankar converts the fantasy of an ordinary journalist becoming chief minister for a day into hugely entertaining political cinema with genuine questions about governance."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Hazaaron Khwaishein Aisi", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Politics, revolution, privilege and personal relationships collide against the turbulence of 1970s India."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Leader", "year": 2010, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Sekhar Kammula asks whether an idealistic individual can enter electoral politics without becoming part of the corruption he wants to eliminate."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Newton", "year": 2017, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A wonderfully understated examination of what democracy actually means when conducting an election becomes an exercise in bureaucracy, security and conflicting realities."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Aayutha Ezhuthu", "year": 2004, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mani Ratnam connects youth, violence, student activism and electoral politics through three intersecting lives."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Raajneeti", "year": 2010, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Prakash Jha combines electoral politics, dynastic power and Mahabharata-style family warfare into one of modern Hindi cinema's strongest mainstream political dramas."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Prasthanam", "year": 2010, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Political succession becomes a devastating family tragedy in which ambition and power gradually destroy almost every personal relationship."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Nayak: The Real Hero", "year": 2001, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The Hindi adaptation of Mudhalvan remains one of Bollywood's most memorable political entertainers, powered by Anil Kapoor and Amrish Puri."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Yuva", "year": 2004, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mani Ratnam's Hindi counterpart to Aayutha Ezhuthu explores how young Indians can move from political indifference toward participation."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Mandela", "year": 2021, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A single deciding vote becomes a wonderfully funny and cutting examination of elections, caste and political opportunism."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Mukhamukham", "year": 1984, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Adoor Gopalakrishnan's complex examination of communist mythology, political memory and disillusionment is among India's most intellectually demanding political films."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Jaane Bhi Do Yaaro", "year": 1983, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Primarily remembered as a black comedy, but its satire of corruption, politicians, business and media makes it one of India's most enduring attacks on institutional power."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Rang De Basanti", "year": 2006, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Youthful apathy transforms into political awakening as contemporary frustration becomes intertwined with memories of India's revolutionary movement."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Madras", "year": 2014, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Pa. Ranjith uses a neighbourhood wall to show how party politics, caste, identity and violence penetrate everyday community life."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Shanghai", "year": 2012, "language": "hindi", "tmdb_id": 100681, "color": null },
+   "why_it_ranks": "Dibakar Banerjee examines development politics, corruption and the machinery protecting powerful interests through a tightly controlled political thriller."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Sarkar", "year": 2005, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Ram Gopal Varma combines family, extra-constitutional power and political influence into a dark drama dominated by Amitabh Bachchan."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Kaala", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Pa. Ranjith uses Rajinikanth's star persona to examine land, class, caste, political authority and resistance."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Jana Gana Mana", "year": 2022, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A provocative examination of media narratives, manufactured public anger and the political exploitation of popular sentiment."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Republic", "year": 2021, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An unusually serious mainstream Telugu examination of bureaucracy, electoral power and the limitations faced by an honest civil servant."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Ko", "year": 2011, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Journalism, elections and political manipulation come together in an exceptionally entertaining political thriller."
+  }
+ ]
+}
