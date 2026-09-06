@@ -240,17 +240,27 @@ function closeList() {
 
 /* ---- Category filter — operates on the generated sections, so it stays
    correct as categories are added or removed from the data ---- */
+function applyCategoryFilter(cat) {
+  document.querySelectorAll('.lf-btn').forEach(b =>
+    b.classList.toggle('active', b.dataset.cat === cat));
+  document.querySelectorAll('#listsSections .lists-section').forEach(sec => {
+    sec.style.display = (cat === 'all' || sec.dataset.cat === cat) ? 'block' : 'none';
+  });
+}
+
 function initCategoryFilter() {
   document.querySelectorAll('.lf-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.lf-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      const cat = btn.dataset.cat;
-      document.querySelectorAll('#listsSections .lists-section').forEach(sec => {
-        sec.style.display = (cat === 'all' || sec.dataset.cat === cat) ? 'block' : 'none';
-      });
-    });
+    btn.addEventListener('click', () => applyCategoryFilter(btn.dataset.cat));
   });
+
+  /* The home page's "See all →" link on each category section points
+     here with ?cat=<category>, so the filter a viewer already chose
+     carries over instead of landing on the unfiltered page. Falls back
+     to "all" for a missing or unrecognized value rather than a blank
+     filtered view. */
+  const requested = new URLSearchParams(location.search).get('cat');
+  const valid = requested && document.querySelector(`.lf-btn[data-cat="${CSS.escape(requested)}"]`);
+  applyCategoryFilter(valid ? requested : 'all');
 }
 
 /* ---- Close modal on escape ---- */

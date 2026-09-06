@@ -321,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
   loadComingSoon();
   loadPopularNow();
   initPopularNowToggle();
-  initExplorerFilter();
+  renderExplorerSections();
   loadFeaturedReview();
 });
 
@@ -755,6 +755,21 @@ const explorerCategoryLabel = {
   setting: 'Setting'
 };
 
+/* Section heading + subtitle per category — mirrors js/lists.js's
+   categoryHeading so the two pages describe the same category the same
+   way, without sharing code across two separately-loaded page bundles. */
+const explorerCategoryHeading = {
+  evergreen: ['All-time greats', 'The definitive canon of Indian cinema'],
+  ott:       ['OTT picks', 'The best Indian content streaming right now'],
+  trending:  ['Trending now', 'Lists people are reading this week'],
+  language:  ['By language', 'The best films from every Indian cinema industry'],
+  awards:    ['Awards & recognition', 'Indian cinema on the world stage'],
+  genre:     ['By genre', 'The films that define each kind of story'],
+  actor:     ['By actor', 'Careers worth ranking, one performer at a time'],
+  director:  ['By director', 'The filmmakers whose work rewards a full retrospective'],
+  setting:   ['By setting', 'Where a film takes place, and why it matters']
+};
+
 let explorerListsData = [];
 
 /* Populated lists first, most recently updated first within that group;
@@ -785,6 +800,10 @@ async function loadExplorerListsData() {
     explorerListsData = index.map((entry, i) => ({
       id: entry.slug,
       filter: entry.category === 'evergreen' ? 'alltime' : entry.category,
+      /* Raw category key, kept alongside the display label above — used
+         to group lists into sections and to build the "See all" link to
+         pages/lists.html?cat=<rawCategory>. */
+      rawCategory: entry.category,
       category: explorerCategoryLabel[entry.category] || entry.category,
       title: entry.title,
       description: entry.description || '',
@@ -805,7 +824,6 @@ async function loadExplorerListsData() {
 }
 
 let explorerPosterCache = {};
-let currentExplorerFilter = 'all';
 
 async function fetchPostersForList(list) {
   if (explorerPosterCache[list.id]) return explorerPosterCache[list.id];
@@ -849,7 +867,7 @@ function renderExplorerCard(list, posters) {
       }).join('')}</div>`;
 
   return `
-    <a href="${href}" class="elc-card${isEmpty ? ' elc-empty' : ''}" data-filter="${list.filter}" data-id="${list.id}">
+    <a href="${href}" class="elc-card${isEmpty ? ' elc-empty' : ''}" data-id="${list.id}">
       ${media}
       <div class="elc-body">
         <div class="elc-category">${list.category}${isEmpty ? '' : ` · ${list.count} films`}</div>
@@ -857,42 +875,6 @@ function renderExplorerCard(list, posters) {
         ${list.description ? `<div class="elc-desc">${list.description}</div>` : ''}
       </div>
     </a>`;
-}
-
-async function loadExplorerLists(filter) {
-  const grid = document.getElementById('explorerListsGrid');
-  if (!grid) return;
-
-  if (!explorerListsData.length) await loadExplorerListsData();
-
-  const matching = filter === 'all'
-    ? explorerListsData
-    : explorerListsData.filter(l => l.filter === filter);
-
-  if (!matching.length) {
-    grid.innerHTML = `<div class="elg-none">No lists in this category yet.</div>`;
-    return;
-  }
-
-  // Every curated list shows; coming-soon cards fill whatever is left.
-  const sorted = [...matching].sort(orderForDisplay);
-  const curated = sorted.filter(l => l.entries.length);
-  const soon = sorted.filter(l => !l.entries.length);
-  const filtered = [...curated, ...soon.slice(0, Math.max(0, HOME_MAX_CARDS - curated.length))];
-
-  grid.innerHTML = filtered.map(l => renderExplorerCard(l, null)).join('');
-
-  // Collages only exist on populated lists — skip the TMDb round-trips entirely
-  // for seeded-but-empty ones.
-  for (const list of filtered.filter(l => l.entries.length && !l.thumbnail)) {
-    const posters = await fetchPostersForList(list);
-    const card = grid.querySelector(`[data-id="${CSS.escape(list.id)}"]`);
-    const cells = card?.querySelectorAll('.elc-collage-cell');
-    if (!cells) continue;
-    posters.forEach((url, i) => {
-      if (cells[i] && url) cells[i].innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
-    });
-  }
 }
 
 /* Ten "coming soon" cards read as an unfinished site, not as editorial
@@ -904,43 +886,97 @@ async function loadExplorerLists(filter) {
 const MIN_ENTRIES_FOR_CURATED = 3;
 
 /* The homepage is a shop window, not the catalogue — pages/lists.html
-   deliberately shows every list.
+   deliberately shows every list, in full, within its category.
 
-   The cap trims coming-soon cards only. It used to trim the sorted list
-   as a whole, which silently dropped a curated list once the seventh
-   landed: populated lists sort by recency, so the oldest fell off the
-   home page — and that was the one carrying the banner artwork. Curated
-   work is the thing worth showing, so it is never what gets cut. */
-const HOME_MAX_CARDS = 8;
+   Per-section cap: trims coming-soon filler only, never a curated list.
+   A category with more curated lists than this simply shows all of them
+   — the cap exists to keep an all-coming-soon category from padding
+   itself out to a full row, not to hide finished work. */
+const SECTION_MAX_CARDS = 8;
 
-async function initExplorerFilter() {
+/* Render one section per category — By genre, By actor, … — instead of a
+   single grid behind filter tabs. A shared recency-sorted grid buried the
+   one actor list among eleven genre lists; grouping by category is what
+   actually answers "show me the actor lists" without a click.
+
+   Categories with zero curated lists (still all "coming soon") are
+   collected into one trailing section instead of each getting its own
+   near-empty row — a "By setting" section with a single coming-soon card
+   reads as a bug, not as a category. */
+async function renderExplorerSections() {
   const section = document.getElementById('explorerListsSection');
-  if (!section) return;
+  const host = document.getElementById('explorerCategorySections');
+  if (!section || !host) return;
 
   if (!explorerListsData.length) await loadExplorerListsData();
 
-  const curated = explorerListsData.some(l => l.entries.length >= MIN_ENTRIES_FOR_CURATED);
-  if (!curated) {
+  const curatedExists = explorerListsData.some(l => l.entries.length >= MIN_ENTRIES_FOR_CURATED);
+  if (!curatedExists) {
     section.hidden = true;
     return;
   }
-
   section.hidden = false;
 
-  document.querySelectorAll('.eft-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.eft-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      currentExplorerFilter = btn.dataset.filter;
-      loadExplorerLists(currentExplorerFilter);
-    });
-  });
-  loadExplorerLists('all');
-}
+  // Preserve index.json's category order rather than imposing one here —
+  // a new category needs no code change to appear in the right place.
+  const catOrder = [];
+  explorerListsData.forEach(l => { if (!catOrder.includes(l.rawCategory)) catOrder.push(l.rawCategory); });
 
-document.addEventListener('DOMContentLoaded', () => {
-  initExplorerFilter();
-});
+  const populatedCats = catOrder.filter(cat =>
+    explorerListsData.some(l => l.rawCategory === cat && l.entries.length));
+  const emptyCats = catOrder.filter(cat => !populatedCats.includes(cat));
+
+  const sectionsHtml = populatedCats.map(cat => {
+    const listsInCat = explorerListsData.filter(l => l.rawCategory === cat).sort(orderForDisplay);
+    const curated = listsInCat.filter(l => l.entries.length);
+    const soon = listsInCat.filter(l => !l.entries.length);
+    const shown = [...curated, ...soon.slice(0, Math.max(0, SECTION_MAX_CARDS - curated.length))];
+    const [heading, sub] = explorerCategoryHeading[cat] || [explorerCategoryLabel[cat] || cat, ''];
+
+    return `
+      <div class="elg-cat-section" data-cat="${cat}">
+        <div class="elg-cat-head">
+          <div>
+            <div class="elg-cat-title">${heading}</div>
+            ${sub ? `<div class="elg-cat-sub">${sub}</div>` : ''}
+          </div>
+          <a href="pages/lists.html?cat=${encodeURIComponent(cat)}" class="home-see-all">See all →</a>
+        </div>
+        <div class="explorer-lists-grid">${shown.map(l => renderExplorerCard(l, null)).join('')}</div>
+      </div>`;
+  });
+
+  if (emptyCats.length) {
+    const soonCards = emptyCats.flatMap(cat => explorerListsData.filter(l => l.rawCategory === cat));
+    sectionsHtml.push(`
+      <div class="elg-cat-section" data-cat="_soon">
+        <div class="elg-cat-head">
+          <div>
+            <div class="elg-cat-title">More categories, coming soon</div>
+            <div class="elg-cat-sub">Seeded, not yet curated — hand-ranked entries are still being written.</div>
+          </div>
+        </div>
+        <div class="explorer-lists-grid">${soonCards.map(l => renderExplorerCard(l, null)).join('')}</div>
+      </div>`);
+  }
+
+  host.innerHTML = sectionsHtml.join('');
+
+  // Collages only exist on populated lists — skip the TMDb round-trips
+  // entirely for seeded-but-empty ones and for lists with their own
+  // supplied thumbnail.
+  const needPosters = explorerListsData.filter(l =>
+    l.entries.length && !l.thumbnail && host.querySelector(`[data-id="${CSS.escape(l.id)}"]`));
+  for (const list of needPosters) {
+    const posters = await fetchPostersForList(list);
+    const card = host.querySelector(`[data-id="${CSS.escape(list.id)}"]`);
+    const cells = card?.querySelectorAll('.elc-collage-cell');
+    if (!cells) continue;
+    posters.forEach((url, i) => {
+      if (cells[i] && url) cells[i].innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
+    });
+  }
+}
 
 /* ===========================
    EDITORIAL STRIP

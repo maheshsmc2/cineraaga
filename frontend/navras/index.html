@@ -307,8 +307,14 @@
 
   <!-- RANKER-STYLE LISTS + RANKINGS -->
   <!-- Hidden until at least MIN_POPULATED_LISTS lists have curated entries
-       (see initExplorerFilter in js/home.js). Starts hidden so a gated
-       section never flashes on screen before the check resolves. -->
+       (see renderExplorerSections in js/home.js). Starts hidden so a gated
+       section never flashes on screen before the check resolves.
+
+       One sub-section per category (By genre, By actor, …) rather than a
+       single grid with filter tabs — genre now spans eleven lists and
+       actor exactly one, and a shared recency-sorted grid buried the
+       actor list among them. Each category gets its own heading and its
+       own "See all" link, scoped to that category on pages/lists.html. -->
   <section class="explorer-lists-section" id="explorerListsSection" hidden>
     <div class="home-section-head">
       <div>
@@ -318,20 +324,8 @@
       <a href="pages/lists.html" class="home-see-all">All lists →</a>
     </div>
 
-    <!-- Category filter -->
-    <div class="explorer-filter-tabs" id="explorerFilterTabs">
-      <button class="eft-btn active" data-filter="all">All</button>
-      <button class="eft-btn" data-filter="genre">By genre</button>
-      <button class="eft-btn" data-filter="language">By language</button>
-      <button class="eft-btn" data-filter="actor">By actor</button>
-      <button class="eft-btn" data-filter="director">By director</button>
-      <button class="eft-btn" data-filter="setting">By setting</button>
-      <button class="eft-btn" data-filter="ott">OTT picks</button>
-      <button class="eft-btn" data-filter="awards">Awards</button>
-    </div>
-
-    <div class="explorer-lists-grid" id="explorerListsGrid">
-      <!-- Filled by JS with visual cards -->
+    <div id="explorerCategorySections">
+      <!-- Filled by JS: one heading + card grid per category -->
     </div>
   </section>
 
