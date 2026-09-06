@@ -3,8 +3,150 @@
  "title": "Best Indian Sports Films",
  "description": "Cricket, wrestling, boxing, chess — Indian films about the games we love.",
  "category": "genre",
- "count": 0,
- "updated_at": "2026-08-07",
+ "count": 25,
+ "updated_at": "2026-08-23",
  "intro": "Sport on screen only works when the human story matters more than the trophy.",
- "entries": []
+ "honourable_mentions": [
+  { "title": "Kai Po Che!" },
+  { "title": "Ferrari Ki Sawaari" },
+  { "title": "Azhar" },
+  { "title": "M.S. Dhoni: The Untold Story" },
+  { "title": "83" },
+  { "title": "Maidaan" },
+  { "title": "Soorma" },
+  { "title": "Saina" },
+  { "title": "Rashmi Rocket" },
+  { "title": "Toolsidas Junior" },
+  { "title": "Jhund" },
+  { "title": "Lahoriye" },
+  { "title": "Kennedy Club" },
+  { "title": "Lubber Pandhu" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Lagaan", "year": 2001, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Cricket becomes the vehicle for resistance, unity and self-respect in an epic that combines sport, history, drama and entertainment almost perfectly."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Chak De! India", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Shah Rukh Khan's Kabir Khan and the women's hockey team deliver perhaps Indian cinema's finest combination of sporting tension, teamwork and redemption."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Dangal", "year": 2016, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Wrestling, family and gender expectations combine in an enormously effective sports drama with exceptionally convincing training and competition sequences."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Iqbal", "year": 2005, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A deaf and mute village boy dreaming of playing cricket for India gives the genre one of its most heartfelt underdog stories."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Sarpatta Parambarai", "year": 2021, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Pa. Ranjith makes boxing inseparable from community, politics, caste and identity while delivering outstanding fight sequences."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Jersey", "year": 2019, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Cricket becomes the setting for a deeply emotional story about failure, fatherhood, dignity and one last attempt at redemption."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Bhaag Milkha Bhaag", "year": 2013, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Farhan Akhtar's transformation and Milkha Singh's journey from trauma to elite athletics give the film tremendous emotional and physical energy."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Jo Jeeta Wohi Sikandar", "year": 1992, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The climactic cycle race works because the film first makes us care about Sanju's transformation from irresponsible teenager to determined competitor."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Kanaa", "year": 2018, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Women's cricket and a daughter's ambition intersect with farming distress, gender barriers and a touching father-daughter relationship."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Mary Kom", "year": 2014, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Priyanka Chopra brings enormous commitment to the story of a world-class boxer balancing sport, motherhood and social expectations."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Saala Khadoos", "year": 2016, "language": "hindi", "tmdb_id": 357706, "color": null },
+   "why_it_ranks": "R. Madhavan and Ritika Singh give this boxing drama tremendous physical credibility and an excellent volatile coach-athlete relationship."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Mukkabaaz", "year": 2017, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Anurag Kashyap uses boxing to explore caste, institutional corruption, romance and the politics surrounding Indian sport."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Kousalya Krishnamurthy", "year": 2019, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A young woman's cricket ambitions become intertwined with family, farming and the determination to succeed despite limited opportunity."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Hip Hip Hurray", "year": 1984, "language": "hindi", "tmdb_id": 170990, "color": null },
+   "why_it_ranks": "One of Hindi cinema's important early sports dramas, using football to explore mentorship, discipline and adolescent confidence."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Guru", "year": 2017, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Venkatesh and Ritika Singh give the Telugu adaptation of Irudhi Suttru considerable emotional force, particularly through the difficult coach-boxer relationship."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Gold", "year": 2018, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Hockey and the dream of representing independent India provide the foundation for a rousing historical sports drama."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Paan Singh Tomar", "year": 2012, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Irrfan Khan is extraordinary as an elite athlete whose life moves tragically from sporting achievement toward rebellion and violence."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "1983", "year": 2014, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Cricket is approached not through international glory but through an ordinary man whose unrealized sporting dreams influence how he raises his son."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Sudani from Nigeria", "year": 2018, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Football provides the connection between cultures in a warm, deeply human story about community, migration and unexpected family bonds."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Blue Star", "year": 2024, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Local cricket becomes a vehicle for rivalry, caste, friendship and social identity in an unusually grounded sports drama."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Natpe Thunai", "year": 2019, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Field hockey gets a rare mainstream spotlight in an energetic commercial film about teamwork and protecting a community sporting ground."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "A1 Express", "year": 2021, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Hockey, corruption and the commercialization of sporting institutions are wrapped inside an accessible mainstream entertainer."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Khwaabb", "year": 2014, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Athletics becomes a vehicle for examining the difficult realities faced by young Indian athletes pursuing professional sport."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Vallinam", "year": 2014, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Basketball — rarely represented in Indian cinema — anchors a story about friendship, rivalry and the unequal attention given to different sports."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Egaro", "year": 2011, "language": "bengali", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Football and history intersect in a dramatization of Mohun Bagan's famous 1911 IFA Shield victory, giving the list an important regional and historical dimension."
+  }
+ ]
 }
