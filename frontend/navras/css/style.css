@@ -663,17 +663,33 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
 }
 
 /* ===========================
-   Explorer Lists — equal card grid
-   Ten lists, equal weight. No featured mega-card: until entries are
-   hand-curated there is nothing to rank one list above another.
+   Explorer Lists — horizontal-scroll rows
+   A category can hold any number of lists (genre alone spans eleven) —
+   a wrapping grid turned a two-list section and an eleven-list section
+   into wildly different page heights, and stretched the home page
+   further every time a list was added. A fixed-height scrolling row
+   holds every list in the category — nothing capped or hidden — while
+   the section's height stays constant regardless of count. Same pattern
+   as a Netflix/Ranker content row: swipe or drag on touch, scroll or
+   trackpad on desktop, and the next card peeking in at the edge is the
+   affordance that signals there's more.
    =========================== */
 .explorer-lists-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
   gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: 6px; /* clears the scrollbar so it doesn't sit under the cards */
+  -webkit-overflow-scrolling: touch;
 }
 
+.explorer-lists-grid::-webkit-scrollbar { height: 6px; }
+.explorer-lists-grid::-webkit-scrollbar-track { background: transparent; }
+.explorer-lists-grid::-webkit-scrollbar-thumb { background: var(--ink3); border-radius: 999px; }
+
 .elc-card {
+  flex: 0 0 250px;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   background: var(--ink2);
@@ -781,16 +797,7 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
   line-height: 1.5;
 }
 
-@media (max-width: 1100px) {
-  .explorer-lists-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-}
-
-@media (max-width: 820px) {
-  .explorer-lists-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-
 @media (max-width: 560px) {
-  .explorer-lists-grid { grid-template-columns: 1fr; }
+  .elc-card { flex-basis: 210px; }
   .elc-soon { height: 120px; }
-}
 }

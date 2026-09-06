@@ -764,7 +764,10 @@ const explorerCategoryHeading = {
   trending:  ['Trending now', 'Lists people are reading this week'],
   language:  ['By language', 'The best films from every Indian cinema industry'],
   awards:    ['Awards & recognition', 'Indian cinema on the world stage'],
-  genre:     ['By genre', 'The films that define each kind of story'],
+  /* Named to match how Mahe refers to this tier: country-wide,
+     every-language genre rankings — as distinct from the actor-specific
+     section below it. */
+  genre:     ['All India Best Films', 'The films that define each kind of story, across every Indian language'],
   actor:     ['By actor', 'Careers worth ranking, one performer at a time'],
   director:  ['By director', 'The filmmakers whose work rewards a full retrospective'],
   setting:   ['By setting', 'Where a film takes place, and why it matters']
