@@ -126,5 +126,13 @@
   "category": "genre",
   "count": 25,
   "updated_at": "2026-08-23"
+ },
+ {
+  "slug": "great-indian-war-films",
+  "title": "All-Time Great Indian War & Military Films",
+  "description": "10 outstanding Indian films centred primarily on soldiers, armed forces, battlefield operations, military sacrifice and the human cost of war.",
+  "category": "genre",
+  "count": 10,
+  "updated_at": "2026-09-07"
  }
 ]

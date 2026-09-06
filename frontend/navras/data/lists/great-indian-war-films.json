@@ -1,0 +1,70 @@
+{
+ "slug": "great-indian-war-films",
+ "title": "All-Time Great Indian War & Military Films",
+ "description": "10 outstanding Indian films centred primarily on soldiers, armed forces, battlefield operations, military sacrifice and the human cost of war.",
+ "category": "genre",
+ "count": 10,
+ "updated_at": "2026-09-07",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Keerthi Chakra" },
+  { "title": "Kurukshetra" },
+  { "title": "Tango Charlie" },
+  { "title": "Paltan" },
+  { "title": "Subedar Joginder Singh" },
+  { "title": "Sajjan Singh Rangroot" },
+  { "title": "1971: Beyond Wars" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Border", "year": 1997, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "J.P. Dutta's Battle of Longewala epic remains the definitive mainstream Indian war film, combining memorable battlefield sequences with the personal lives of its soldiers."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Haqeeqat", "year": 1964, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the foundational Indian war films, portraying the 1962 Sino-Indian War with tragedy, sacrifice and considerably less triumphalism than many later military movies."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Lakshya", "year": 2004, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A superb combination of coming-of-age drama and Kargil battlefield film, with Hrithik Roshan's transformation giving the military story a strong human centre."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Uri: The Surgical Strike", "year": 2019, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's most technically accomplished modern military-action films, particularly strong in combat staging, sound and tactical presentation."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Shershaah", "year": 2021, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Captain Vikram Batra's Kargil story combines battlefield courage with enough personal background to make his eventual sacrifice emotionally powerful."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "1971", "year": 2007, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An underrated POW film about Indian soldiers attempting to escape captivity following the 1971 war, with tension taking precedence over spectacle."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "The Ghazi Attack", "year": 2017, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "India's standout submarine-war film, creating tension almost entirely within the confined environment of an underwater military confrontation."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Kanche", "year": 2015, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A rare Indian World War II film that parallels conflict on the European battlefield with caste divisions back home."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Vijeta", "year": 1982, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Indian cinema's most thoughtful depictions of military training and service, following an uncertain young man into the Indian Air Force."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "LOC Kargil", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Flawed and extremely long, but its enormous attempt to reconstruct multiple Kargil operations and honour numerous soldiers gives it a unique place in Indian war cinema."
+  }
+ ]
+}
