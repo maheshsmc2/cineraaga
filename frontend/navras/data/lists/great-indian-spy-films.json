@@ -1,0 +1,122 @@
+{
+ "slug": "great-indian-spy-films",
+ "title": "All-Time Great Indian Spy & Espionage Films",
+ "description": "20 gripping Indian films about intelligence agents, undercover missions, infiltration, counter-terrorism, surveillance and the dangerous world of secrets and deception.",
+ "category": "genre",
+ "count": 20,
+ "updated_at": "2026-09-07",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Aankhen (1968)" },
+  { "title": "Farz" },
+  { "title": "Jewel Thief" },
+  { "title": "16 December" },
+  { "title": "Phantom" },
+  { "title": "Force 2" },
+  { "title": "RAW" },
+  { "title": "Ulajh" },
+  { "title": "Code Name: Tiranga" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Raazi", "year": 2018, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Meghna Gulzar strips espionage of glamour and makes Sehmat's undercover mission psychologically and emotionally costly, with Alia Bhatt delivering an exceptional performance."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Dhurandhar", "year": 2025, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A sprawling undercover espionage-action drama built around infiltration into Karachi's criminal and terror networks, combining intelligence operations with crime and large-scale action."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Madras Cafe", "year": 2013, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of India's most grounded geopolitical thrillers, treating intelligence work, civil war and political assassination with unusual seriousness."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Baby", "year": 2015, "language": "hindi", "tmdb_id": 314389, "color": null },
+   "why_it_ranks": "Neeraj Pandey presents intelligence work as patient surveillance, information gathering and precise operations rather than nonstop superheroics."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Vishwaroopam", "year": 2013, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Kamal Haasan combines espionage, terrorism and international action with an ambitious narrative and one of his most memorable transformations."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "D-Day", "year": 2013, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Indian intelligence agents attempting to extract a major fugitive from Pakistan produces a tense mission film with unusually high emotional stakes."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Goodachari", "year": 2018, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Adivi Sesh helped modernize Telugu spy cinema with a tightly constructed story of recruitment, betrayal, identity and intelligence operations."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Ek Tha Tiger", "year": 2012, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Kabir Khan successfully combines RAW-ISI espionage with mainstream romance and action while establishing one of modern Hindi cinema's defining spy characters."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Agent Vinod", "year": 2012, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Uneven but ambitious, with Sriram Raghavan attempting an international old-school espionage adventure rather than a conventional Bollywood action film."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Khufiya", "year": 2023, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Vishal Bhardwaj takes a quieter approach to espionage, focusing on betrayal, surveillance, divided loyalties and the personal lives destroyed by intelligence work."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Tiger Zinda Hai", "year": 2017, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "More action-heavy than espionage-heavy, but its multinational rescue mission expands the scale of Indian spy cinema considerably."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Naam Shabana", "year": 2017, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An unusual attempt to show the recruitment and development of an intelligence operative rather than beginning with an already invincible agent."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Mukhbiir", "year": 2008, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An underrated story about an informer repeatedly infiltrating dangerous organizations and paying a heavy psychological price for living under false identities."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Romeo Akbar Walter", "year": 2019, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A RAW operative infiltrating Pakistan before the 1971 war provides a more traditional undercover-espionage narrative centred on identity and sacrifice."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Bell Bottom", "year": 2021, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A hijacking crisis provides the framework for an old-fashioned intelligence mission built around investigation, planning and covert intervention."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Mission Majnu", "year": 2023, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An undercover RAW operative living inside Pakistan gives the film a classic espionage setup involving false identity, intelligence gathering and divided personal loyalties."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "The Hero: Love Story of a Spy", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Excessive but historically interesting as one of Bollywood's major early attempts at mounting a large-scale international spy blockbuster."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Spy", "year": 2023, "language": "telugu", "tmdb_id": 964132, "color": null },
+   "why_it_ranks": "A mainstream Telugu attempt to combine intelligence operations, national-security conspiracy and action within a contemporary spy framework."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Pathaan", "year": 2023, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Much more action spectacle than realistic espionage, but its enormous popularity made the modern Indian cinematic spy universe a major mainstream phenomenon."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "War", "year": 2019, "language": "hindi", "tmdb_id": 585268, "color": null },
+   "why_it_ranks": "Again action-first, but rogue agents, intelligence operations, deception and Hrithik Roshan-Tiger Shroff star power make it an important modern spy entertainer."
+  }
+ ]
+}

@@ -134,5 +134,13 @@
   "category": "genre",
   "count": 10,
   "updated_at": "2026-09-07"
+ },
+ {
+  "slug": "great-indian-spy-films",
+  "title": "All-Time Great Indian Spy & Espionage Films",
+  "description": "20 gripping Indian films about intelligence agents, undercover missions, infiltration, counter-terrorism, surveillance and the dangerous world of secrets and deception.",
+  "category": "genre",
+  "count": 20,
+  "updated_at": "2026-09-07"
  }
 ]
