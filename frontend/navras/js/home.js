@@ -993,6 +993,18 @@ async function renderExplorerSections() {
    not a placeholder, so its score is genuine and safe to show. */
 const editorialStories = [
   {
+    /* No CineRaaga review exists for this one — the category, title and
+       meta are all verifiable fact (real TMDb id, real language/year),
+       with no score and no editorial verdict invented for the slot.
+       Swap in a real review/verdict here the moment one is written. */
+    category: 'Spotlight',
+    title: 'Hanuman (2024) — Prasanth Varma\'s Telugu superhero film',
+    meta: 'Telugu · 2024',
+    score: null,
+    tmdbId: 869760, type: 'movie',
+    link: 'pages/movie.html?id=869760'
+  },
+  {
     category: 'New Review',
     title: 'Dhamaal 4 Review — loud, forgettable comfort food, best saved for OTT',
     meta: 'Hindi · 2026',
