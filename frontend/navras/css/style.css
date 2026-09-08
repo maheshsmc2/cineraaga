@@ -534,6 +534,17 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
   font-size: 11px; color: var(--text-dim); flex-wrap: wrap; gap: 8px;
 }
 
+/* Required TMDb attribution — exact wording and linked logo per
+   https://www.themoviedb.org/about/logos-attribution. Present on every
+   page that displays TMDb-sourced posters/data; not decorative copy. */
+.tmdb-attribution {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 10px; color: var(--text-dim);
+}
+
+.tmdb-logo { height: 12px; width: auto; display: block; opacity: 0.8; transition: opacity 0.15s; }
+.tmdb-attribution a:hover .tmdb-logo { opacity: 1; }
+
 /* ===========================
    RESPONSIVE
    =========================== */
