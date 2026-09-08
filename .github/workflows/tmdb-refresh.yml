@@ -1,0 +1,105 @@
+name: TMDb data refresh
+
+# ⚠️ MANUAL TRIGGER ONLY — deliberately not on a `schedule:`. Read this
+# before adding one.
+#
+# The end goal (per the compliance pass this workflow was added for) is a
+# monthly run to keep cached TMDb data under their 6-month cache cap — see
+# backend/app/services/tmdb_sync.py and frontend/navras/data/films/*.json.
+# It is NOT wired to run unattended yet, because doing so right now would
+# be actively destructive, not just incomplete:
+#
+#   - There is no reachable production database. DATABASE_URL defaults to
+#     a local dev Postgres (backend/app/config.py) that no GitHub runner
+#     can reach. Nothing here works at all unless the DATABASE_URL secret
+#     referenced below points at a real, persistent, already-populated
+#     database — which does not currently exist.
+#   - The only seed data in this repo (backend/data/seeds/lists.json) is
+#     the pre-cleanup "v49 prototype" dataset — evergreen/ott/trending/
+#     awards categories with fabricated placeholder content that
+#     docs/LEARNING_LOG.md documents purging from the live site months
+#     ago. It has nothing to do with the real curated catalogue.
+#   - Every list actually on the site today was written by hand directly
+#     to frontend/navras/data/lists/*.json. None of it has ever passed
+#     through this backend or a database.
+#
+# app.services.export (see backend/app/services/export.py) OVERWRITES
+# frontend/navras/data/{films,lists,mood} with whatever the connected
+# database currently holds. Point it at an empty or stale database and it
+# will silently replace the real curated catalogue with nothing, or with
+# year-old placeholder junk. A monthly cron firing unattended against that
+# is a production incident waiting to happen, not a convenience.
+#
+# Before turning this into a schedule:
+#   1. Stand up a real, persistent database.
+#   2. Get the current frontend/navras/data/lists/*.json content into it
+#      (no import tool for that exists yet — it would need to be written;
+#      out of scope for the compliance task this workflow came from).
+#   3. Add that database's connection string as the DATABASE_URL secret.
+#   4. Uncomment the two `schedule:` lines below — they're already inside
+#      this file's one `on:` block, so uncommenting is a safe two-line
+#      edit, not a merge; a second top-level `on:` key would be invalid
+#      YAML and silently ignored by GitHub.
+# Until then, this job fails fast rather than quietly running against
+# nothing — see the "Require a real database" step.
+
+on:
+  workflow_dispatch: {}
+  # schedule:
+  #   - cron: '0 6 1 * *'   # 06:00 UTC on the 1st of every month
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      # Refuses to proceed against the default local-dev DB or an empty
+      # ephemeral one — see the comment block at the top of this file.
+      - name: Require a real database
+        run: |
+          if [ -z "${{ secrets.DATABASE_URL }}" ]; then
+            echo "::error::DATABASE_URL secret is not set. Refusing to run — see the comment at the top of .github/workflows/tmdb-refresh.yml for why this matters."
+            exit 1
+          fi
+
+      - name: TMDb sync — enrich films missing a poster
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+        run: python -m app.services.tmdb_sync
+
+      - name: Export database to frontend JSON
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+        run: python -m app.services.export
+
+      # Opens a PR instead of pushing straight to main — a run against a
+      # wrong or stale database is obvious in a diff review and harmless;
+      # the same run auto-committed to main would not be.
+      - name: Open a PR with any resulting changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: TMDb data refresh"
+          title: "TMDb data refresh"
+          body: |
+            Automated run of `tmdb_sync.py` followed by `export.py`.
+
+            Review the diff carefully before merging — this overwrites
+            `frontend/navras/data/{films,lists,mood}` with whatever the
+            connected database held at run time. An unexpectedly large
+            deletion or a wave of placeholder-looking content is a sign
+            something is wrong with the database this ran against, not
+            with the data — do not merge, and see the comment block at
+            the top of .github/workflows/tmdb-refresh.yml.
+          branch: tmdb-refresh/${{ github.run_number }}
+          add-paths: frontend/navras/data/**
