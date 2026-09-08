@@ -1015,15 +1015,20 @@ async function renderExplorerSections() {
 const editorialStories = [
   {
     /* No CineRaaga review exists for this one — the category, title and
-       meta are all verifiable fact (real TMDb id, real language/year),
-       with no score and no editorial verdict invented for the slot.
-       Swap in a real review/verdict here the moment one is written. */
-    category: 'Spotlight',
-    title: 'Hanuman (2024) — Prasanth Varma\'s Telugu superhero film',
-    meta: 'Telugu · 2024',
+       meta are all verifiable fact (real TMDb id, real language/year,
+       and "In Cinemas" confirmed against TMDb's live now_playing/IN feed
+       rather than assumed from a release date), with no score and no
+       editorial verdict invented for the slot. Swap in a real review or
+       verdict here the moment one is written.
+       Corrected 2026-09 — an earlier pass put Hanuman (2024, Telugu,
+       Prasanth Varma's superhero film) here by mistake; this is the
+       different, unrelated Hanuman Ansh (2026, Hindi). */
+    category: 'In Cinemas',
+    title: 'Hanuman Ansh (2026) — a devotional drama now playing',
+    meta: 'Hindi · 2026',
     score: null,
-    tmdbId: 869760, type: 'movie',
-    link: 'pages/movie.html?id=869760'
+    tmdbId: 1709391, type: 'movie',
+    link: 'pages/movie.html?id=1709391'
   },
   {
     category: 'New Review',
