@@ -1,0 +1,158 @@
+{
+ "slug": "great-indian-music-films",
+ "title": "All-Time Great Indian Movies for Music",
+ "description": "25 landmark Indian films whose songs, melodies, lyrics, voices and background scores became an inseparable part of Indian musical and cinematic culture.",
+ "category": "genre",
+ "count": 25,
+ "updated_at": "2026-09-07",
+ "intro": "",
+ "honourable_mentions": [
+  { "title": "Aradhana" },
+  { "title": "Amar Prem" },
+  { "title": "Kati Patang" },
+  { "title": "Kabhi Kabhie" },
+  { "title": "Silsila" },
+  { "title": "Qayamat Se Qayamat Tak" },
+  { "title": "1942: A Love Story" },
+  { "title": "Devdas" },
+  { "title": "Jodhaa Akbar" },
+  { "title": "Lagaan" },
+  { "title": "Swades" },
+  { "title": "Tamasha" },
+  { "title": "96" },
+  { "title": "Mouna Ragam" },
+  { "title": "Sindhu Bhairavi" },
+  { "title": "Rudraveena" },
+  { "title": "Godavari" },
+  { "title": "Ye Maaya Chesave" },
+  { "title": "Kirik Party" },
+  { "title": "Hridayam" }
+ ],
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Roja", "year": 1992, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A.R. Rahman's revolutionary debut changed the sound and production vocabulary of Indian film music."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Sankarabharanam", "year": 1980, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "K. V. Mahadevan brought Carnatic classical music into the centre of popular cinema with extraordinary cultural impact."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Mughal-e-Azam", "year": 1960, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Naushad's classical compositions, monumental voices and timeless songs perfectly match the film's epic scale."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Dil Se..", "year": 1998, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rahman and Gulzar created an astonishing album spanning folk, Sufi, romance, longing and experimentation."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Guide", "year": 1965, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "S. D. Burman's soundtrack is almost a perfect Hindi film album — romantic, philosophical, joyful and heartbreaking."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Geethanjali", "year": 1989, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Ilaiyaraaja's melodies provide the emotional soul of Mani Ratnam's tragic romance."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Taal", "year": 1999, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Rahman's definitive albums, brilliantly combining Indian folk and classical influences with late-1990s electronic production."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Abhimaan", "year": 1973, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "S. D. Burman's exceptional songs aren't decoration — the music itself drives the love, professional rivalry and breakdown of the marriage."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Thalapathi", "year": 1991, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The final Mani Ratnam-Ilaiyaraaja collaboration produced magnificent songs alongside one of Ilaiyaraaja's most powerful dramatic scores."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Rockstar", "year": 2011, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rahman, Irshad Kamil and Mohit Chauhan created a rare modern soundtrack that functions almost as the protagonist's emotional biography."
+  },
+  {
+   "rank": 11,
+   "film": { "title": "Pakeezah", "year": 1972, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "An exquisite marriage of poetry, classical tradition, Lata Mangeshkar's voice and the courtesan-musical form."
+  },
+  {
+   "rank": 12,
+   "film": { "title": "Sagara Sangamam", "year": 1983, "language": "telugu", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Ilaiyaraaja's compositions and classical dance are so deeply integrated that the story cannot really be separated from its music."
+  },
+  {
+   "rank": 13,
+   "film": { "title": "Aashiqui", "year": 1990, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of the great soundtrack-driven successes of Indian cinema and a defining romantic album of the cassette era."
+  },
+  {
+   "rank": 14,
+   "film": { "title": "Bombay", "year": 1995, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rahman's songs crossed linguistic boundaries while the haunting instrumental themes became equally iconic."
+  },
+  {
+   "rank": 15,
+   "film": { "title": "Saathiya", "year": 2002, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rahman's Hindi adaptation of his Alaipayuthey soundtrack gave a generation songs such as Saathiya, Chhalka Chhalka Re and O Humdum Suniyo Re."
+  },
+  {
+   "rank": 16,
+   "film": { "title": "Dilwale Dulhania Le Jayenge", "year": 1995, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Jatin-Lalit's soundtrack became part of the cultural identity of perhaps Hindi cinema's defining modern romance."
+  },
+  {
+   "rank": 17,
+   "film": { "title": "Anand", "year": 1971, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Salil Chowdhury's small but magnificent soundtrack — including Kahin Door Jab Din Dhal Jaye and Zindagi Kaisi Hai Paheli — captures the film's philosophy of life and mortality."
+  },
+  {
+   "rank": 18,
+   "film": { "title": "Rang De Basanti", "year": 2006, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rahman moves brilliantly from carefree youth to mourning and rebellion, while every stage of the film has its own musical identity."
+  },
+  {
+   "rank": 19,
+   "film": { "title": "Kal Ho Naa Ho", "year": 2003, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Shankar-Ehsaan-Loy's soundtrack moves effortlessly between celebration, romance, heartbreak and the unforgettable title song."
+  },
+  {
+   "rank": 20,
+   "film": { "title": "Baiju Bawra", "year": 1952, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Naushad proved that rigorous Hindustani classical music could become enormously successful mainstream film music."
+  },
+  {
+   "rank": 21,
+   "film": { "title": "Alaipayuthey", "year": 2000, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of Rahman's quintessential romance albums and the original musical foundation later adapted for Saathiya."
+  },
+  {
+   "rank": 22,
+   "film": { "title": "Mungaru Male", "year": 2006, "language": "kannada", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Mano Murthy's melodies became a phenomenon in Karnataka and are inseparable from the film's enormous cultural footprint."
+  },
+  {
+   "rank": 23,
+   "film": { "title": "Premam", "year": 2015, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rajesh Murugesan uses music to distinguish different stages of George's life, with Malare becoming a modern Malayalam classic."
+  },
+  {
+   "rank": 24,
+   "film": { "title": "Vinnaithaandi Varuvaayaa", "year": 2010, "language": "tamil", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Rahman created a deeply atmospheric modern romantic soundtrack whose songs became inseparable from the film's yearning."
+  },
+  {
+   "rank": 25,
+   "film": { "title": "Chemmeen", "year": 1965, "language": "malayalam", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Salil Chowdhury's extraordinary melodies gave the film a musical identity that transcended Malayalam cinema."
+  }
+ ]
+}
