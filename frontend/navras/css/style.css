@@ -688,7 +688,7 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
 .explorer-lists-grid::-webkit-scrollbar-thumb { background: var(--ink3); border-radius: 999px; }
 
 .elc-card {
-  flex: 0 0 250px;
+  flex: 0 0 168px;
   scroll-snap-align: start;
   display: flex;
   flex-direction: column;
@@ -699,6 +699,13 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
   text-decoration: none;
   transition: transform 0.18s ease, border-color 0.18s ease;
 }
+
+/* A supplied banner (see .elc-thumb below) is landscape source art at a
+   fixed height — narrowing the card the same way a poster card narrows
+   would crop away more of its width for no benefit, since the height
+   doesn't shrink to match. Card carrying one keeps the wider size the
+   art was actually prepared at. */
+.elc-card:has(.elc-thumb) { flex-basis: 250px; }
 
 .elc-card:hover {
   transform: translateY(-3px);
@@ -788,14 +795,28 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
   font-weight: 600;
   line-height: 1.3;
   margin-bottom: 6px;
+  /* Narrower cards wrap long titles ("All-Time Great Indian Coming-of-
+     Age Films") to 3-4 lines — clamping keeps every card the same
+     height regardless of title length, instead of the row growing to
+     fit whichever list has the longest name. Full title is one tap away
+     on the list's own page. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .elc-desc {
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 @media (max-width: 560px) {
-  .elc-card { flex-basis: 210px; }
+  .elc-card { flex-basis: 140px; }
+  .elc-card:has(.elc-thumb) { flex-basis: 210px; }
 }
