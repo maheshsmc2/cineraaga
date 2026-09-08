@@ -1,0 +1,61 @@
+{
+ "slug": "best-of-raj-kapoor",
+ "title": "The Best of Raj Kapoor",
+ "description": "The 10 essential Raj Kapoor-directed films, ranked by overall film quality, direction, cultural impact, music and lasting influence on Hindi cinema.",
+ "category": "director",
+ "count": 10,
+ "updated_at": "2026-09-07",
+ "intro": "The essential five, if you only watch five: Awaara, Shree 420, Mera Naam Joker, Sangam and Jagte Raho.",
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Awaara", "year": 1951, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Raj Kapoor's defining directorial achievement — a mixture of romance, social commentary, dream imagery and unforgettable music that became an international phenomenon."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Shree 420", "year": 1955, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Perhaps the purest expression of the Raj Kapoor worldview, balancing romance, humour and a sharp examination of poverty, ambition and corruption."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Mera Naam Joker", "year": 1970, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Initially unsuccessful but subsequently re-evaluated as Kapoor's intensely personal, ambitious and melancholy meditation on performance, love and loneliness."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Sangam", "year": 1964, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A grand romantic triangle elevated by spectacular locations, tremendous music and an unusually complicated examination of friendship, jealousy and marriage."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Jagte Raho", "year": 1956, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "A remarkably dark social satire in which one thirsty outsider exposes the hypocrisy and fear hidden inside supposedly respectable urban society."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Barsaat", "year": 1949, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "The film that established the RK cinematic identity — romance, rain, yearning and music — and turned Raj Kapoor and Nargis into an iconic screen pairing."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Bobby", "year": 1973, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Kapoor reinvented himself by introducing a youthful romantic style that became enormously influential on subsequent Hindi cinema."
+  },
+  {
+   "rank": 8,
+   "film": { "title": "Prem Rog", "year": 1982, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "One of his strongest later films, using mainstream romance to confront widowhood and oppressive social traditions."
+  },
+  {
+   "rank": 9,
+   "film": { "title": "Ram Teri Ganga Maili", "year": 1985, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "His final directorial film combines memorable music and imagery with an allegory about innocence being corrupted by society."
+  },
+  {
+   "rank": 10,
+   "film": { "title": "Satyam Shivam Sundaram", "year": 1978, "language": "hindi", "tmdb_id": null, "color": null },
+   "why_it_ranks": "Uneven but visually and musically distinctive, with Kapoor exploring his recurring conflict between physical appearance and inner beauty."
+  }
+ ]
+}
