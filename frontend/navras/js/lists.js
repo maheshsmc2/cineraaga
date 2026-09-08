@@ -54,28 +54,46 @@ async function loadAllLists() {
     entries: fullLists[i]?.entries || [],
     count: (fullLists[i]?.entries || []).length
   }));
+
+  /* Covers are assigned in index.json's own order — untouched, before
+     any display sort — so this agrees with index.html, which computes
+     covers over the same order via the same shared pickListCovers.
+
+     A list with its own thumbnail (see below) never shows a generated
+     cover, so it must not claim one from the shared pool either — that
+     would take a film's poster out of circulation for every other list,
+     for a cover nobody on this page or index.html ever displays. */
+  const covers = pickListCovers(
+    allListsFlat.filter(l => !l.thumbnail).map(l => ({ id: l.slug, entries: l.entries }))
+  );
+  allListsFlat.forEach(l => { l.coverEntry = covers[l.slug] || null; });
 }
 
-/* ---- Render list cards with visual collage ---- */
+/* ---- Render list cards with a single cover poster ---- */
 function renderListCard(list) {
   const topFilms = list.entries.slice(0, 3).map(e => e.film.title);
-  const colors = ['#1a1a2e', '#0d2e1a', '#2e0d0d', '#1a2e0d'];
-
-  const collageCells = list.entries.slice(0, 4).map((e, i) => {
-    const c = e.film.color || colors[i];
-    return `<div class="lc-collage-cell" id="lc-cell-${list.slug}-${i}"
-      style="background:linear-gradient(135deg,${c},${c}88);">
-    </div>`;
-  }).join('');
-
   const accent = categoryAccent[list.category] || '';
   const label = categoryLabel[list.category] || list.category;
 
+  /* A list may supply its own artwork (see data/lists/*.json's optional
+     thumbnail field) — it wins over the generated cover poster, same
+     precedence as the home page. It's a wide banner (not a movie
+     poster), so it gets its own landscape wrapper rather than being
+     forced into the portrait 2:3 box — that would crop away almost all
+     of it, showing a narrow vertical sliver through the middle. Path is
+     relative to frontend/navras/, so a page under pages/ needs "../". */
+  const wrapClass = list.thumbnail ? 'lc-cover-wrap lc-thumb-wrap' : 'lc-cover-wrap';
+  const cover = list.thumbnail
+    ? `<div class="lc-collage"><img src="../${list.thumbnail}" alt="${list.title}" loading="lazy" /></div>`
+    : `<div class="lc-collage" id="lc-cover-${list.slug}"></div>`;
+
   return `
     <div class="list-card" onclick="openList('${list.slug}')">
-      <!-- Visual collage top -->
-      <div class="lc-collage">
-        ${collageCells}
+      <!-- Cover poster — the list's own top-3 pick, deduplicated against
+           every other list by pickListCovers, filled in by
+           loadListCardPosters(). Background stays plain ink until then. -->
+      <div class="${wrapClass}">
+        ${cover}
         <div class="lc-collage-overlay">
           <div class="lc-count-badge">${list.count} films</div>
         </div>
@@ -100,31 +118,37 @@ function renderListCard(list) {
   `;
 }
 
-/* ---- Load real posters into list card collages ---- */
+/* ---- Load each card's single cover poster ---- */
 async function loadListCardPosters() {
   const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
-  const lists = allListsFlat;
 
-  for (const list of lists) {
-    const entries = (list.entries || []).slice(0, 4);
-    for (let i = 0; i < entries.length; i++) {
-      const f = entries[i].film;
-      const cellId = `lc-cell-${list.slug}-${i}`;
-      const cell = document.getElementById(cellId);
-      if (!cell) continue;
-      try {
+  for (const list of allListsFlat) {
+    if (!list.coverEntry) continue;
+    const cell = document.getElementById(`lc-cover-${list.slug}`);
+    if (!cell) continue;
+
+    const f = list.coverEntry.film;
+    try {
+      // Pinned tmdb_id is a direct lookup, not a title search — it can't
+      // resolve to the wrong film the way a global title search can.
+      let path = null;
+      if (f.tmdb_id) {
+        const res = await fetch(`https://api.themoviedb.org/3/movie/${f.tmdb_id}?api_key=${TMDB_KEY}`);
+        const data = await res.json();
+        path = data?.poster_path || null;
+      } else {
         const res = await fetch(
           `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
         );
         const data = await res.json();
-        const movie = data?.results?.[0];
-        if (movie?.poster_path) {
-          cell.style.backgroundImage = `url('https://image.tmdb.org/t/p/w185${movie.poster_path}')`;
-          cell.style.backgroundSize = 'cover';
-          cell.style.backgroundPosition = 'center';
-        }
-      } catch (e) {}
-    }
+        path = data?.results?.[0]?.poster_path || null;
+      }
+      if (path) {
+        cell.style.backgroundImage = `url('https://image.tmdb.org/t/p/w342${path}')`;
+        cell.style.backgroundSize = 'cover';
+        cell.style.backgroundPosition = 'center';
+      }
+    } catch (e) {}
   }
 }
 

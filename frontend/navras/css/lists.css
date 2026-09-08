@@ -526,21 +526,40 @@ body.dark-mode .list-overlay { background: rgba(18,16,14,0.97); }
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 
-/* Collage top */
-.lc-collage {
-  width: 100%; aspect-ratio: 16/9;
-  display: grid; grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 2px; position: relative; overflow: hidden;
+/* Cover — a single poster (the list's own top-3 pick, deduplicated
+   against every other list by pickListCovers in js/list-covers.js) or,
+   when a list supplies its own artwork, that instead — rather than a
+   2x2 grid of four unrelated crops. Portrait ratio because it IS a
+   movie poster now, not a landscape collage tile.
+
+   .lc-cover-wrap carries the size and positions the overlay/badge;
+   .lc-collage is just the image layer inside it (a background-image set
+   by loadListCardPosters(), or an <img> for a supplied thumbnail) so
+   both paths can share one set of overlay/badge markup and CSS. */
+.lc-cover-wrap {
+  width: 100%; aspect-ratio: 2/3;
+  position: relative; overflow: hidden;
   background: var(--ink3);
 }
 
-.lc-collage-cell {
+/* A supplied banner is landscape source art (roughly 16:9), not a movie
+   poster — the 2:3 box above would crop away almost all of it. Matches
+   the ratio and top-anchored crop home.css's .elc-thumb already uses for
+   the same artwork, so it reads the same on both pages. */
+.lc-thumb-wrap { aspect-ratio: 16/9; }
+.lc-thumb-wrap .lc-collage img { object-position: top; }
+
+.lc-collage {
+  width: 100%; height: 100%;
   background-size: cover; background-position: center;
   transition: transform 0.3s;
 }
 
-.list-card:hover .lc-collage-cell { transform: scale(1.04); }
+.lc-collage img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+}
+
+.list-card:hover .lc-collage { transform: scale(1.03); }
 
 .lc-collage-overlay {
   position: absolute; inset: 0;

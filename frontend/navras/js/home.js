@@ -800,7 +800,7 @@ async function loadExplorerListsData() {
        renders an honest "0 films — coming soon" card rather than being
        silently hidden. Populated lists sort first so the featured slot is
        never an empty one. */
-    explorerListsData = index.map((entry, i) => ({
+    const mapped = index.map((entry, i) => ({
       id: entry.slug,
       filter: entry.category === 'evergreen' ? 'alltime' : entry.category,
       /* Raw category key, kept alongside the display label above — used
@@ -820,7 +820,22 @@ async function loadExplorerListsData() {
          index.html; a renderer under pages/ would need to prefix '../'. */
       thumbnail: fullLists[i]?.thumbnail || null,
       entries: fullLists[i]?.entries || []
-    })).sort(orderForDisplay);
+    }));
+
+    /* Covers are assigned in index.json's own order — BEFORE the
+       recency sort below reorders the array for display. pages/lists.html
+       computes covers the same way, over the same untouched index.json
+       order, so the two pages agree on which film is each list's cover
+       without sharing any other state.
+
+       A list with its own thumbnail never shows a cover poster at all —
+       it must not still claim one from the shared pool, or its top film
+       becomes unavailable to every other list for a poster nobody ever
+       sees. */
+    const covers = pickListCovers(mapped.filter(l => !l.thumbnail).map(l => ({ id: l.id, entries: l.entries })));
+    mapped.forEach(l => { l.coverEntry = covers[l.id] || null; });
+
+    explorerListsData = mapped.sort(orderForDisplay);
   } catch (e) {
     explorerListsData = [];
   }
@@ -828,46 +843,54 @@ async function loadExplorerListsData() {
 
 let explorerPosterCache = {};
 
-async function fetchPostersForList(list) {
-  if (explorerPosterCache[list.id]) return explorerPosterCache[list.id];
+/* One poster for the whole list — list.coverEntry (see js/list-covers.js)
+   already picked which film; this just resolves its art. The pinned
+   tmdb_id path (most entries have one by now — every language-mismatch
+   fix this session added one) is a direct lookup, not a title search, so
+   it can't have the wrong-film problem a global title search can. */
+async function fetchCoverPoster(list) {
+  if (!list.coverEntry) return null;
+  if (explorerPosterCache[list.id] !== undefined) return explorerPosterCache[list.id];
 
   const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
-  const posters = await Promise.all(list.entries.slice(0, 4).map(async e => {
-    const f = e.film;
-    try {
+  const f = list.coverEntry.film;
+  let url = null;
+  try {
+    if (f.tmdb_id) {
+      const res = await fetch(`https://api.themoviedb.org/3/movie/${f.tmdb_id}?api_key=${TMDB_KEY}`);
+      const data = await res.json();
+      if (data?.poster_path) url = `https://image.tmdb.org/t/p/w342${data.poster_path}`;
+    } else {
       const res = await fetch(
         `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
       );
       const data = await res.json();
-      const movie = data?.results?.[0];
-      return movie?.poster_path ? `https://image.tmdb.org/t/p/w185${movie.poster_path}` : null;
-    } catch { return null; }
-  }));
+      const path = data?.results?.[0]?.poster_path;
+      if (path) url = `https://image.tmdb.org/t/p/w342${path}`;
+    }
+  } catch {}
 
-  explorerPosterCache[list.id] = posters;
-  return posters;
+  explorerPosterCache[list.id] = url;
+  return url;
 }
 
 /* Every list renders as an equal-sized card — no featured mega-card, since
    all ten deserve the same weight until editorial curation says otherwise.
-   A populated list gets a 4-poster collage; an empty one gets an honest
-   "Coming soon" tag rather than a collage of nothing. */
-function renderExplorerCard(list, posters) {
+   A populated list shows a single poster — its own cover film, picked and
+   deduplicated across every list by pickListCovers — rather than a
+   collage of four unrelated crops. An empty one gets an honest
+   "Coming soon" tag rather than a poster of nothing. */
+function renderExplorerCard(list, coverUrl) {
   const isEmpty = !list.entries.length;
   const href = `pages/list.html?slug=${encodeURIComponent(list.id)}`;
 
-  /* A list may supply its own artwork. It wins over the poster collage,
-     which is a generated stand-in for lists that have none. */
+  /* A list may supply its own artwork. It wins over the generated cover
+     poster, which is a stand-in for lists that have none. */
   const media = list.thumbnail
     ? `<div class="elc-thumb"><img src="${list.thumbnail}" alt="${escapeAttr(list.title)}" loading="lazy" /></div>`
     : isEmpty
     ? `<div class="elc-soon"><span class="elc-soon-tag">Coming soon</span></div>`
-    : `<div class="elc-collage">${[0,1,2,3].map(i => {
-        const url = posters?.[i];
-        return url
-          ? `<div class="elc-collage-cell"><img src="${url}" alt="" loading="lazy" /></div>`
-          : `<div class="elc-collage-cell"></div>`;
-      }).join('')}</div>`;
+    : `<div class="elc-poster-cover">${coverUrl ? `<img src="${coverUrl}" alt="" loading="lazy" />` : ''}</div>`;
 
   return `
     <a href="${href}" class="elc-card${isEmpty ? ' elc-empty' : ''}" data-id="${list.id}">
@@ -965,19 +988,17 @@ async function renderExplorerSections() {
 
   host.innerHTML = sectionsHtml.join('');
 
-  // Collages only exist on populated lists — skip the TMDb round-trips
+  // Cover art only exists on populated lists — skip the TMDb round-trip
   // entirely for seeded-but-empty ones and for lists with their own
   // supplied thumbnail.
   const needPosters = explorerListsData.filter(l =>
     l.entries.length && !l.thumbnail && host.querySelector(`[data-id="${CSS.escape(l.id)}"]`));
   for (const list of needPosters) {
-    const posters = await fetchPostersForList(list);
+    const url = await fetchCoverPoster(list);
+    if (!url) continue;
     const card = host.querySelector(`[data-id="${CSS.escape(list.id)}"]`);
-    const cells = card?.querySelectorAll('.elc-collage-cell');
-    if (!cells) continue;
-    posters.forEach((url, i) => {
-      if (cells[i] && url) cells[i].innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
-    });
+    const cover = card?.querySelector('.elc-poster-cover');
+    if (cover) cover.innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
   }
 }
 

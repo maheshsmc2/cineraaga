@@ -705,21 +705,18 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
   border-color: var(--gold);
 }
 
-/* Poster collage — populated lists only */
-.elc-card .elc-collage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 74px 74px;
-  gap: 2px;
-  background: var(--ink3);
-}
-
-.elc-card .elc-collage-cell {
+/* Cover poster — populated lists only. One real poster (the list's own
+   top-3 pick, deduplicated against every other list's pick by
+   pickListCovers in js/list-covers.js) rather than a 2x2 grid of four
+   small, unrelated crops — the crops read as noise, not as "this is what
+   the list is." Portrait ratio because it's an actual movie poster now. */
+.elc-card .elc-poster-cover {
+  aspect-ratio: 2 / 3;
   background: var(--ink3);
   overflow: hidden;
 }
 
-.elc-card .elc-collage-cell img {
+.elc-card .elc-poster-cover img {
   width: 100%; height: 100%; object-fit: cover; display: block;
 }
 
@@ -747,9 +744,11 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
   .elc-card .elc-thumb { height: 120px; }
 }
 
-/* Coming-soon panel — replaces the collage on an uncurated list */
+/* Coming-soon panel — replaces the cover poster on an uncurated list.
+   Same aspect ratio as .elc-poster-cover so a row mixing populated and
+   coming-soon cards still lines up at a consistent height. */
 .elc-soon {
-  height: 150px;
+  aspect-ratio: 2 / 3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -799,5 +798,4 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
 
 @media (max-width: 560px) {
   .elc-card { flex-basis: 210px; }
-  .elc-soon { height: 120px; }
 }
