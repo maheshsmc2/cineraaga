@@ -1,0 +1,46 @@
+{
+ "slug": "best-of-guru-dutt",
+ "title": "The Best of Guru Dutt",
+ "description": "Guru Dutt's essential directorial films, ranked by filmmaking quality, emotional depth, music, visual innovation, influence and lasting importance to Hindi cinema.",
+ "category": "director",
+ "count": 7,
+ "updated_at": "2026-09-07",
+ "intro": "The essential five, if you only watch five: Pyaasa, Kaagaz Ke Phool, Aar-Paar, Mr. & Mrs. 55 and Baazi.",
+ "entries": [
+  {
+   "rank": 1,
+   "film": { "title": "Pyaasa", "year": 1957, "language": "hindi", "tmdb_id": 41053, "color": null },
+   "why_it_ranks": "Guru Dutt's masterpiece — a devastating story of an unrecognized poet that combines romance, social criticism, extraordinary cinematography and S.D. Burman-Sahir Ludhianvi's immortal music."
+  },
+  {
+   "rank": 2,
+   "film": { "title": "Kaagaz Ke Phool", "year": 1959, "language": "hindi", "tmdb_id": 53767, "color": null },
+   "why_it_ranks": "A haunting film about fame, filmmaking, love and decline whose visual language was decades ahead of mainstream Hindi cinema."
+  },
+  {
+   "rank": 3,
+   "film": { "title": "Aar-Paar", "year": 1954, "language": "hindi", "tmdb_id": 71283, "color": null },
+   "why_it_ranks": "Stylish, entertaining and remarkably modern, with Guru Dutt blending noir, romance, humour and O.P. Nayyar's superb music."
+  },
+  {
+   "rank": 4,
+   "film": { "title": "Mr. & Mrs. 55", "year": 1955, "language": "hindi", "tmdb_id": 66564, "color": null },
+   "why_it_ranks": "One of the great Hindi romantic comedies, using sparkling dialogue and Madhubala's wonderful performance to explore changing ideas about marriage and gender."
+  },
+  {
+   "rank": 5,
+   "film": { "title": "Baazi", "year": 1951, "language": "hindi", "tmdb_id": 154857, "color": null },
+   "why_it_ranks": "Guru Dutt's directorial debut helped establish Hindi film noir and demonstrated the visual sophistication that would define his later work."
+  },
+  {
+   "rank": 6,
+   "film": { "title": "Jaal", "year": 1952, "language": "hindi", "tmdb_id": 185552, "color": null },
+   "why_it_ranks": "An atmospheric crime-romance with morally complicated characters, striking imagery and memorable S.D. Burman music."
+  },
+  {
+   "rank": 7,
+   "film": { "title": "Baaz", "year": 1953, "language": "hindi", "tmdb_id": 185555, "color": null },
+   "why_it_ranks": "An unusual period adventure that shows Guru Dutt experimenting with scale, action and swashbuckling storytelling beyond his better-known urban dramas."
+  }
+ ]
+}

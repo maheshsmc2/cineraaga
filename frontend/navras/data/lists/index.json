@@ -158,5 +158,13 @@
   "category": "director",
   "count": 10,
   "updated_at": "2026-09-07"
+ },
+ {
+  "slug": "best-of-guru-dutt",
+  "title": "The Best of Guru Dutt",
+  "description": "Guru Dutt's essential directorial films, ranked by filmmaking quality, emotional depth, music, visual innovation, influence and lasting importance to Hindi cinema.",
+  "category": "director",
+  "count": 7,
+  "updated_at": "2026-09-07"
  }
 ]
