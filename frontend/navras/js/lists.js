@@ -88,7 +88,7 @@ function renderListCard(list) {
     : `<div class="lc-collage" id="lc-cover-${list.slug}"></div>`;
 
   return `
-    <a class="list-card" href="list.html?slug=${encodeURIComponent(list.slug)}">
+    <a class="list-card" href="list-${encodeURIComponent(list.slug)}.html">
       <!-- Cover poster — the list's own top-3 pick, deduplicated against
            every other list by pickListCovers, filled in by
            loadListCardPosters(). Background stays plain ink until then. -->
@@ -241,7 +241,7 @@ function renderFeaturedBanner(list) {
   document.getElementById('flbMeta').textContent = `${list.count} films · Curated by CineRaaga`;
 
   const btn = document.getElementById('flbBtn');
-  btn.href = `list.html?slug=${encodeURIComponent(list.slug)}`;
+  btn.href = `list-${encodeURIComponent(list.slug)}.html`;
 
   const top = list.entries.slice(0, 5);
   document.getElementById('flbPreview').innerHTML = top.map((e, i) => {

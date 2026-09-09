@@ -882,7 +882,9 @@ async function fetchCoverPoster(list) {
    "Coming soon" tag rather than a poster of nothing. */
 function renderExplorerCard(list, coverUrl) {
   const isEmpty = !list.entries.length;
-  const href = `pages/list.html?slug=${encodeURIComponent(list.id)}`;
+  /* The real, distinct, crawlable URL — see scripts/generate-list-pages.py.
+     pages/list.html?slug=… still works as a fallback; nothing here needs it. */
+  const href = `pages/list-${encodeURIComponent(list.id)}.html`;
 
   /* A list may supply its own artwork. It wins over the generated cover
      poster, which is a stand-in for lists that have none. */
@@ -907,7 +909,7 @@ function renderExplorerCard(list, coverUrl) {
    work in progress. The homepage section appears once a single list is
    meaningfully curated — one card with three real films is enough to show
    what the section is for. Below that it stays hidden; the lists themselves
-   are untouched and stay reachable at pages/list.html?slug=… and
+   are untouched and stay reachable at pages/list-<slug>.html and
    pages/lists.html. The gate lifts by itself, with no code change. */
 const MIN_ENTRIES_FOR_CURATED = 3;
 
