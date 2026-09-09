@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://navras.vercel.app/sitemap.xml
