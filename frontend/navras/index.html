@@ -120,10 +120,14 @@
         </div>
       </div>
 
-      <div class="rms-divider"></div>
+      <div class="rms-divider" id="newOnOttDivider" hidden></div>
 
-      <!-- NEW ON OTT — poster cards like cinemas -->
-      <div class="rms-sub-section">
+      <!-- NEW ON OTT — poster cards like cinemas.
+           Starts hidden: initOttPosterTabs reveals it only when the curated
+           file still has arrivals inside the recency window, so the failure
+           mode is "stays hidden" rather than a tab bar with nothing behind it.
+           The divider above is hidden with it to avoid a doubled rule. -->
+      <div class="rms-sub-section" id="newOnOttSection" hidden>
         <div class="rms-sub-head">
           <span class="rms-sub-title">New on OTT</span>
           <div class="ott-platform-tabs" id="ottPosterTabs">

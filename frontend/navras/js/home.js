@@ -1222,6 +1222,31 @@ const OTT_PLATFORM_LABELS = {
   zee5: 'ZEE5'
 };
 
+/* How recent an arrival has to be to still count as "new". */
+const OTT_WINDOW_DAYS = 60;
+
+let ottEntriesCache = null;
+
+async function fetchOttEntries() {
+  if (ottEntriesCache) return ottEntriesCache;
+  const res = await fetch('data/new_on_ott.json');
+  ottEntriesCache = await res.json();
+  return ottEntriesCache;
+}
+
+/* Arrivals still inside the recency window, newest first. */
+function recentOttEntries(entries) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const cutoff = new Date(today.getTime() - OTT_WINDOW_DAYS * 24 * 60 * 60 * 1000);
+  return entries
+    .filter(f => {
+      const d = new Date(f.release_date);
+      return d >= cutoff && d <= today;
+    })
+    .sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+}
+
 async function loadOttPosterGrid(platform) {
   const grid = document.getElementById('ottPosterGrid');
   if (!grid) return;
@@ -1229,24 +1254,14 @@ async function loadOttPosterGrid(platform) {
 
   let entries = [];
   try {
-    const res = await fetch('data/new_on_ott.json');
-    entries = await res.json();
+    entries = await fetchOttEntries();
   } catch (e) {
     entries = [];
   }
 
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const cutoff = new Date(today.getTime() - 60 * 24 * 60 * 60 * 1000);
   const platformLabel = OTT_PLATFORM_LABELS[platform];
-
-  const films = entries
+  const films = recentOttEntries(entries)
     .filter(f => f.ott_platform === platformLabel)
-    .filter(f => {
-      const d = new Date(f.release_date);
-      return d >= cutoff && d <= today;
-    })
-    .sort((a, b) => new Date(b.release_date) - new Date(a.release_date))
     .slice(0, 8);
 
   if (!films.length) {
@@ -1295,9 +1310,39 @@ async function loadOttPosterGrid(platform) {
   }).join('');
 }
 
-function initOttPosterTabs() {
+let ottTabsBound = false;
+
+async function initOttPosterTabs() {
+  if (ottTabsBound) return;
+
+  const section = document.getElementById('newOnOttSection');
+  const divider = document.getElementById('newOnOttDivider');
   const tabs = document.querySelectorAll('[data-ottposter]');
-  if (!tabs.length) return;
+  if (!section || !tabs.length) return;
+
+  let recent;
+  try {
+    recent = recentOttEntries(await fetchOttEntries());
+  } catch {
+    return; // leave hidden; the window-load retry gets another attempt
+  }
+
+  ottTabsBound = true;
+
+  /* A hand-maintained file goes stale by sitting still. Once every arrival
+     has aged past OTT_WINDOW_DAYS the section isn't empty, it's expired —
+     and five platform tabs all reporting "nothing new" reads worse than no
+     section at all. Hide the block until the file is refreshed; it comes
+     back on its own, with no code change, the moment it is. */
+  if (!recent.length) {
+    section.hidden = true;
+    if (divider) divider.hidden = true;
+    return;
+  }
+
+  section.hidden = false;
+  if (divider) divider.hidden = false;
+
   tabs.forEach(btn => {
     btn.addEventListener('click', () => {
       tabs.forEach(b => b.classList.remove('active'));
@@ -1305,7 +1350,13 @@ function initOttPosterTabs() {
       loadOttPosterGrid(btn.dataset.ottposter);
     });
   });
-  loadOttPosterGrid('netflix');
+
+  /* Open on a platform that actually has arrivals, so the default view is
+     never an empty tab while the others have films behind them. */
+  const stocked = new Set(recent.map(f => f.ott_platform));
+  const first = [...tabs].find(b => stocked.has(OTT_PLATFORM_LABELS[b.dataset.ottposter])) || tabs[0];
+  tabs.forEach(b => b.classList.toggle('active', b === first));
+  loadOttPosterGrid(first.dataset.ottposter);
 }
 
 /* ===========================
@@ -1362,11 +1413,10 @@ document.addEventListener('DOMContentLoaded', () => {
   loadOttComingList();
 });
 
-// Belt-and-suspenders fallback — fires after all other scripts
+// Belt-and-suspenders fallback — fires after all other scripts.
+// Routed through initOttPosterTabs so a retry still respects the gate
+// instead of forcing a load into a section that should stay hidden.
 window.addEventListener('load', () => {
   loadOttComingList();
-  if (!document.getElementById('ottPosterGrid')?.children?.length ||
-      document.getElementById('ottPosterGrid')?.querySelector('.poster-skeleton')) {
-    loadOttPosterGrid('netflix');
-  }
+  initOttPosterTabs();
 });
