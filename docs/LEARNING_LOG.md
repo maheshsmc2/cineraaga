@@ -261,3 +261,59 @@ The general lesson is that a fallback which *usually* works needs a check that p
 - `year` cuts both ways. Passing it is what makes "96" resolve to the right Tamil film, and what makes Appula Appa Rao resolve to nothing (our 1991 vs TMDb's 1992-01-24). The year discrepancy was left as the editor wrote it and flagged, rather than overwritten from the API — an editorial field is not TMDb's to correct.
 - Supplied "close misses" are not always near-misses. The action list's omissions mixed genuine contenders with films named as deliberate exclusions ("Arjun Reddy — not really action enough", "Lucia — definitely not action"). Putting the second group under "just outside the top 25" would have asserted the opposite of what the editor said. Only the contenders were imported.
 - The dual-language entries (Game Over as Tamil/Telugu, 13B as Tamil/Hindi) do not fit a schema with one `language` per film. Recorded under the primary production language, with the second dropped and flagged — worth revisiting if simultaneous bilingual releases keep appearing.
+
+## 2026-10-14 — New-on-OTT had quietly expired; TMDb watch providers as the real source
+
+**What happened:**
+
+The homepage "New on OTT" section was showing five platform tabs that each
+said "Nothing new here — check back soon". Nothing had broken: every one of the
+eight entries in `new_on_ott.json` had simply aged past the 60-day window, the
+newest being 2026-07-31 against an 2026-08-15 cutoff. The file had been correct
+in August and became a dead section by sitting still.
+
+Two fixes. The section and its divider now start `hidden` and are revealed only
+when the file still has arrivals inside the window — the same gate already used
+by coming-to-OTT and the lists section. It also opens on a platform that
+actually has arrivals rather than defaulting to an empty Netflix tab. Then the
+file itself was refreshed with seven September/October arrivals.
+
+The sourcing is the part worth recording. Web search produced candidate titles
+from aggregator listicles whose dates contradicted each other — not good enough
+for a platform-availability claim. TMDb's
+`/movie/{id}/watch/providers?region=IN` is a live API response and settles it.
+Checking all ten candidates against it corrected one (Sardar 2 was listed as
+Hotstar, is actually Prime Video) and eliminated three (Thudakkam is on
+ManoramaMax, which we have no tab for; Mango Pachcha and The India Story have no
+Indian streaming provider at all). Three more candidates had no TMDb record or
+matched the wrong film entirely.
+
+**Concept:**
+
+A hand-maintained file does not fail loudly — it expires. The gating work in
+August asked "is this empty?" when the question that matters over time is "is
+this still current?". Any section fed by a hand-maintained file needs a
+staleness state as well as an empty one, and should disappear rather than
+advertise a tab bar with nothing behind it.
+
+On sourcing: `watch/providers` was available the whole time and is exactly the
+"live API response" the fabrication rule permits. The earlier note that "TMDb
+can't source these" is half right — TMDb can't tell you *when* a title landed on
+OTT, but it can tell you *where it is streaming now*, which is the claim the
+section actually makes. Worth checking whether an API can answer the specific
+claim being made before falling back to hand maintenance for all of it.
+
+**Traps:**
+
+- The aggregators were wrong about 30% of the time on platform, and confidently
+  so. Had the listicle dates been taken at face value the site would have told
+  readers Sardar 2 was on Hotstar.
+- `release_date` in this file is never displayed — the card renders only
+  `getFullYear()`. That makes an unverified arrival date tolerable (it drives the
+  window filter and sort) while an unverified *platform* would have been a false
+  claim on the page. Worth knowing which uncertain fields reach the reader.
+- The expired entries were kept, not deleted. The window filter already excludes
+  them and they are the record of what ran.
+- Hotstar, SonyLIV and ZEE5 ended up with no verified arrivals and show their
+  per-tab empty state. Left that way deliberately rather than reaching for
+  weaker sources to fill all five tabs.
