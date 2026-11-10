@@ -1363,6 +1363,13 @@
 .ef-score.red { background: #C0392B; }
 
 /* Right — story list */
+/* display:grid above would otherwise override the hidden attribute. */
+.editorial-strip[hidden] { display: none; }
+
+/* No published stories to list: the banner takes the full width. */
+.editorial-strip.no-stories { grid-template-columns: 1fr; }
+.editorial-strip.no-stories .editorial-stories { display: none; }
+
 .editorial-stories {
   border-left: 0.5px solid var(--ink3);
   display: flex; flex-direction: column;

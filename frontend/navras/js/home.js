@@ -847,6 +847,13 @@ async function loadExplorerListsData() {
   }
 }
 
+/* The lists are needed by both the Lists section and the strip beside the
+   banner; both go through here so the files are fetched once. */
+let explorerListsPromise = null;
+function ensureExplorerLists() {
+  return explorerListsPromise || (explorerListsPromise = loadExplorerListsData());
+}
+
 let explorerPosterCache = {};
 
 /* One poster for the whole list — list.coverEntry (see js/list-covers.js)
@@ -942,7 +949,7 @@ async function renderExplorerSections() {
   const host = document.getElementById('explorerCategorySections');
   if (!section || !host) return;
 
-  if (!explorerListsData.length) await loadExplorerListsData();
+  await ensureExplorerLists();
 
   const curatedExists = explorerListsData.some(l => l.entries.length >= MIN_ENTRIES_FOR_CURATED);
   if (!curatedExists) {
@@ -1015,77 +1022,69 @@ async function renderExplorerSections() {
    Featured story + trending list
    =========================== */
 
-/* Every other editorialStories entry leaves score: null — those films are
-   score_status:"placeholder" in data/films/*.json and placeholders never
-   display a badge (see score display rule). Dhamaal 4 is the exception:
-   it's a real, hand-scored, published CineRaaga review (pages/dhamaal-4-2026.html),
-   not a placeholder, so its score is genuine and safe to show. */
-const editorialStories = [
-  {
-    category: 'New Review',
-    title: 'Dhamaal 4 Review — loud, forgettable comfort food, best saved for OTT',
-    meta: 'Hindi · 2026',
-    score: 42, scoreClass: 'red',
-    tmdbId: 1303331, type: 'movie',
-    link: 'pages/dhamaal-4-2026.html'
-  },
-  {
-    category: 'New Review',
-    title: 'Saiyaara Review — Ahaan Panday announces himself in 2025\'s biggest romantic debut',
-    meta: 'Hindi · 2025',
-    score: null,
-    tmdbId: 1241634, type: 'movie',
-    link: 'pages/article.html'
-  },
-  {
-    category: 'In Cinemas',
-    title: 'Dhurandhar: The Revenge — Is Ranveer Singh\'s action epic worth the ticket price?',
-    meta: 'Hindi · 2026',
-    score: null,
-    tmdbId: 1582770, type: 'movie',
-    link: 'pages/article.html'
-  },
-  {
-    category: 'OTT Pick',
-    title: 'All We Imagine as Light is the best Indian film on Netflix right now',
-    meta: 'Malayalam · On Netflix',
-    score: null,
-    tmdbId: 1017336, type: 'movie',
-    link: 'pages/article.html'
-  },
-  {
-    category: 'Mood Search',
-    title: 'Feeling tense? These 10 Indian thrillers will keep you up all night',
-    meta: 'Bhayanaka rasa · 10 films',
-    score: null,
-    tmdbId: 520110, type: 'movie',
-    link: 'pages/mood.html'
-  },
-  {
-    category: 'Coming Soon',
-    title: 'Nagabandham, Dhamaal 4, Idhayam Murali — July 2026\'s biggest releases',
-    meta: 'Telugu · Hindi · Tamil · July 2026',
-    score: null,
-    tmdbId: 1582770, type: 'movie',
-    link: 'pages/article.html'
-  },
-  {
-    category: 'New Review',
-    title: 'IC 814: The Kandahar Hijack — Still the best Indian series you can watch',
-    meta: 'Hindi · Netflix',
-    score: null,
-    tmdbId: 242074, type: 'tv',
-    link: 'pages/article.html'
-  },
-  {
-    category: 'Best of List',
-    title: 'Best Malayalam Films of 2025 — Ranked by CineRaaga',
-    meta: 'Curated list · 8 films · Malayalam',
-    score: null,
-    tmdbId: 1017336, type: 'movie',
-    link: 'pages/article.html'
+/* The list beside the banner holds only things CineRaaga has actually
+   published: its reviews (data/reviews.json) and its most recently updated
+   curated lists. It used to be a hand-typed array of headlines, most of them
+   for reviews that were never written, all pointing at one generic article
+   page. Nothing here is typed in any more — a new review or list shows up
+   because it exists.
+
+   Review fields are copied from the review page itself: score from its score
+   box, tagline from its og:description. Those are real hand-assigned Navras
+   Scores, so they are shown. */
+const STRIP_MAX_LISTS = 4;
+
+let reviewsCache = null;
+
+async function loadPublishedReviews() {
+  if (reviewsCache) return reviewsCache;
+  try {
+    const res = await fetch('data/reviews.json');
+    reviewsCache = await res.json();
+  } catch (e) {
+    reviewsCache = [];
   }
-];
+  return reviewsCache;
+}
+
+async function loadStripStories() {
+  const [reviews] = await Promise.all([loadPublishedReviews(), ensureExplorerLists()]);
+
+  const reviewStories = [...reviews]
+    .sort((x, y) => String(y.published || '').localeCompare(String(x.published || '')))
+    .map(r => ({
+      key: `review-${r.slug}`,
+      category: 'Review',
+      title: `${r.title}: ${String(r.tagline || '').replace(/\.$/, '')}`,
+      meta: [r.language, r.year].filter(Boolean).join(' · '),
+      score: r.navras_score,
+      scoreClass: r.score_class,
+      tmdbId: r.tmdb_id,
+      type: 'movie',
+      link: `pages/${r.slug}.html`,
+      thumb: async () => {
+        const data = await TMDB.get(`/movie/${r.tmdb_id}`, {});
+        const path = data?.poster_path || data?.backdrop_path;
+        return path ? `https://image.tmdb.org/t/p/w185${path}` : null;
+      }
+    }));
+
+  // explorerListsData is already sorted populated-first, newest update first.
+  const listStories = explorerListsData
+    .filter(l => l.entries.length >= MIN_ENTRIES_FOR_CURATED)
+    .slice(0, STRIP_MAX_LISTS)
+    .map(l => ({
+      key: `list-${l.id}`,
+      category: 'List',
+      title: l.title,
+      meta: `${l.count} films · ${l.category}`,
+      score: null,
+      link: `pages/list-${encodeURIComponent(l.id)}.html`,
+      thumb: async () => l.thumbnail || fetchCoverPoster(l)
+    }));
+
+  return [...reviewStories, ...listStories];
+}
 
 /* The main banner follows whatever Indian film is trending right now, so it
    never needs re-pointing by hand and never goes stale the way a hardcoded
@@ -1099,7 +1098,7 @@ const editorialStories = [
    source supports. Title, language and year are TMDb's; nothing editorial is
    written for the slot. A film that has a real CineRaaga review links to the
    review and carries its real score. Returns null if TMDb is unreachable. */
-async function pickBannerFilm() {
+async function pickBannerFilm(reviews = []) {
   const usable = m => INDIAN_LANGS.includes(m.original_language) && m.backdrop_path;
   const sources = [
     { label: 'Trending now', load: () => TMDB.get('/trending/movie/day', {}) },
@@ -1118,28 +1117,38 @@ async function pickBannerFilm() {
     const film = (data?.results || []).find(usable);
     if (!film) continue;
 
-    const isReviewed = film.id === REVIEWED_TMDB_ID;
+    const review = reviews.find(r => r.tmdb_id === film.id);
     const year = (film.release_date || '').slice(0, 4);
     return {
       category: src.label,
       title: film.title || film.original_title,
       meta: [langNames[film.original_language], year].filter(Boolean).join(' · '),
-      score: isReviewed ? 42 : null,
-      scoreClass: isReviewed ? 'red' : null,
+      score: review ? review.navras_score : null,
+      scoreClass: review ? review.score_class : null,
       tmdbId: film.id,
       type: 'movie',
       backdropPath: film.backdrop_path,
-      link: isReviewed ? 'pages/dhamaal-4-2026.html' : `pages/movie.html?id=${film.id}`
+      link: review ? `pages/${review.slug}.html` : `pages/movie.html?id=${film.id}`
     };
   }
   return null;
 }
 
 async function buildEditorialStrip() {
-  // With TMDb unreachable the banner falls back to the first story below.
-  const live = await pickBannerFilm();
-  const featured = live || editorialStories[0];
-  const stories = live ? editorialStories : editorialStories.slice(1);
+  const strip = document.querySelector('.editorial-strip');
+  const [reviews, allStories] = await Promise.all([loadPublishedReviews(), loadStripStories()]);
+
+  // With TMDb unreachable the banner falls back to the newest review.
+  const live = await pickBannerFilm(reviews);
+  const featured = live || allStories[0];
+  const stories = live ? allStories : allStories.slice(1);
+
+  // Nothing to feature and nothing to list: no strip, rather than a frame.
+  if (!featured) {
+    if (strip) strip.hidden = true;
+    return;
+  }
+  if (strip) strip.classList.toggle('no-stories', !stories.length);
 
   // Load featured backdrop — only use backdrop_path (wide image), never poster
   try {
@@ -1182,16 +1191,18 @@ async function buildEditorialStrip() {
   const esList = document.getElementById('esList');
   if (!esList) return;
 
+  const scoreColour = { green: '#2ECC71', amber: '#F39C12', red: '#E74C3C' };
+
   esList.innerHTML = stories.map(s => `
     <a href="${s.link}" class="es-story">
-      <div class="es-story-img" id="es-img-${s.tmdbId}">
+      <div class="es-story-img" id="es-img-${s.key}">
         <div style="width:100%;height:100%;background:var(--ink3);"></div>
       </div>
       <div class="es-story-info">
         <div class="es-story-cat">${s.category}</div>
         <div class="es-story-title">${s.title}</div>
         <div class="es-story-meta">
-          ${s.score ? `<span style="color:${s.scoreClass==='green'?'#2ECC71':'#F39C12'};font-weight:600;">${s.score}</span> · ` : ''}
+          ${s.score ? `<span style="color:${scoreColour[s.scoreClass] || 'inherit'};font-weight:600;">${s.score} Navras</span> · ` : ''}
           ${s.meta}
         </div>
       </div>
@@ -1201,11 +1212,10 @@ async function buildEditorialStrip() {
   // Load story thumbnails progressively
   for (const s of stories) {
     try {
-      const data = await TMDB.get(`/${s.type}/${s.tmdbId}`, {});
-      const path = data?.poster_path || data?.backdrop_path;
-      if (path) {
-        const el = document.getElementById(`es-img-${s.tmdbId}`);
-        if (el) el.innerHTML = `<img src="https://image.tmdb.org/t/p/w185${path}" alt="" loading="lazy" />`;
+      const url = await s.thumb();
+      if (url) {
+        const el = document.getElementById(`es-img-${s.key}`);
+        if (el) el.innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
       }
     } catch(e) {}
   }
