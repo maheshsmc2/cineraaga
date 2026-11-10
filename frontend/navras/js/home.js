@@ -136,18 +136,24 @@ function renderReviewRow(film, type) {
    always pulls from TMDb's actual India-region now_playing feed,
    filtered to Indian-language originals. Our own reviewed film
    (Dhamaal 4) is pinned first since it's the one with a real CineRaaga
-   verdict attached. */
+   verdict attached — but only while its release date still falls inside
+   the window TMDb reports for now_playing. Pinning it unconditionally
+   kept a July release under "In cinemas now" into November. */
 async function loadCinemas() {
   const grid = document.getElementById('cinemasGrid');
   if (!grid) return;
 
+  const nowPlaying = await TMDB.get('/movie/now_playing', { region: 'IN' });
+
   let pinned = null;
   try {
     const data = await TMDB.get(`/movie/${REVIEWED_TMDB_ID}`, {});
-    if (data && !data.status_code && data.success !== false) pinned = data;
+    const { minimum, maximum } = nowPlaying?.dates || {};
+    const stillPlaying = minimum && maximum && data?.release_date
+      && data.release_date >= minimum && data.release_date <= maximum;
+    if (data && !data.status_code && data.success !== false && stillPlaying) pinned = data;
   } catch {}
 
-  const nowPlaying = await TMDB.get('/movie/now_playing', { region: 'IN' });
   const films = (nowPlaying?.results || [])
     .filter(f => INDIAN_LANGS.includes(f.original_language) && f.id !== REVIEWED_TMDB_ID)
     .slice(0, pinned ? 9 : 10);
