@@ -1022,23 +1022,6 @@ async function renderExplorerSections() {
    not a placeholder, so its score is genuine and safe to show. */
 const editorialStories = [
   {
-    /* No CineRaaga review exists for this one — the category, title and
-       meta are all verifiable fact (real TMDb id, real language/year,
-       and "In Cinemas" confirmed against TMDb's live now_playing/IN feed
-       rather than assumed from a release date), with no score and no
-       editorial verdict invented for the slot. Swap in a real review or
-       verdict here the moment one is written.
-       Corrected 2026-09 — an earlier pass put Hanuman (2024, Telugu,
-       Prasanth Varma's superhero film) here by mistake; this is the
-       different, unrelated Hanuman Ansh (2026, Hindi). */
-    category: 'In Cinemas',
-    title: 'Hanuman Ansh (2026) — a devotional drama now playing',
-    meta: 'Hindi · 2026',
-    score: null,
-    tmdbId: 1709391, type: 'movie',
-    link: 'pages/movie.html?id=1709391'
-  },
-  {
     category: 'New Review',
     title: 'Dhamaal 4 Review — loud, forgettable comfort food, best saved for OTT',
     meta: 'Hindi · 2026',
@@ -1104,13 +1087,65 @@ const editorialStories = [
   }
 ];
 
+/* The main banner follows whatever Indian film is trending right now, so it
+   never needs re-pointing by hand and never goes stale the way a hardcoded
+   "now playing" pick did. Sources, in order:
+
+     1. TMDb trending, today      — top Indian-language film
+     2. TMDb trending, this week  — same, if today's chart has none
+     3. TMDb now_playing (IN)     — most popular Indian film in cinemas
+
+   The label says which one answered, so the banner only ever claims what its
+   source supports. Title, language and year are TMDb's; nothing editorial is
+   written for the slot. A film that has a real CineRaaga review links to the
+   review and carries its real score. Returns null if TMDb is unreachable. */
+async function pickBannerFilm() {
+  const usable = m => INDIAN_LANGS.includes(m.original_language) && m.backdrop_path;
+  const sources = [
+    { label: 'Trending now', load: () => TMDB.get('/trending/movie/day', {}) },
+    { label: 'Trending this week', load: () => TMDB.get('/trending/movie/week', {}) },
+    {
+      label: 'In cinemas now',
+      load: async () => {
+        const d = await TMDB.get('/movie/now_playing', { region: 'IN' });
+        return d && { results: [...(d.results || [])].sort((x, y) => y.popularity - x.popularity) };
+      }
+    }
+  ];
+
+  for (const src of sources) {
+    const data = await src.load();
+    const film = (data?.results || []).find(usable);
+    if (!film) continue;
+
+    const isReviewed = film.id === REVIEWED_TMDB_ID;
+    const year = (film.release_date || '').slice(0, 4);
+    return {
+      category: src.label,
+      title: film.title || film.original_title,
+      meta: [langNames[film.original_language], year].filter(Boolean).join(' · '),
+      score: isReviewed ? 42 : null,
+      scoreClass: isReviewed ? 'red' : null,
+      tmdbId: film.id,
+      type: 'movie',
+      backdropPath: film.backdrop_path,
+      link: isReviewed ? 'pages/dhamaal-4-2026.html' : `pages/movie.html?id=${film.id}`
+    };
+  }
+  return null;
+}
+
 async function buildEditorialStrip() {
-  const featured = editorialStories[0];
-  const stories = editorialStories.slice(1);
+  // With TMDb unreachable the banner falls back to the first story below.
+  const live = await pickBannerFilm();
+  const featured = live || editorialStories[0];
+  const stories = live ? editorialStories : editorialStories.slice(1);
 
   // Load featured backdrop — only use backdrop_path (wide image), never poster
   try {
-    const data = await TMDB.get(`/${featured.type}/${featured.tmdbId}`, {});
+    const data = featured.backdropPath
+      ? { backdrop_path: featured.backdropPath }
+      : await TMDB.get(`/${featured.type}/${featured.tmdbId}`, {});
     const efImg = document.getElementById('efImg');
     if (efImg && data?.backdrop_path) {
       const imgUrl = `https://image.tmdb.org/t/p/w1280${data.backdrop_path}`;
