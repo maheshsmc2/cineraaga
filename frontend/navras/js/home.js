@@ -1209,10 +1209,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
 /* ===========================
    NEW ON OTT — poster cards
-   Manually-curated recent OTT arrivals (last ~60 days).
-   TMDb doesn't reliably surface Indian OTT release dates, so —
-   same as coming-to-OTT — this reads from a hand-maintained
-   data file instead of a TMDb catalog query.
+
+   Two sources, merged:
+
+   1. Live, from TMDb. A film first released inside the recency window
+      that TMDb's watch-provider data shows streaming in India on one of
+      our platforms has, necessarily, arrived on OTT inside that window.
+      That is a claim the API can actually support, so these need no
+      hand maintenance and cannot go stale.
+
+   2. Curated, from data/new_on_ott.json. The live query cannot see a film
+      whose theatrical run predates the window but which reached OTT
+      recently, nor series — TMDb knows where a title streams, not when
+      it got there. Those arrivals are added by hand, with the arrival
+      date in release_date.
+
+   The section still hides itself when both come back empty.
    =========================== */
 const OTT_PLATFORM_LABELS = {
   netflix: 'Netflix',
@@ -1222,23 +1234,43 @@ const OTT_PLATFORM_LABELS = {
   zee5: 'ZEE5'
 };
 
+/* TMDb watch-provider ids for region IN (GET /watch/providers/movie). */
+const OTT_PROVIDER_IDS = {
+  netflix: 8,
+  prime: 119,
+  hotstar: 2336,
+  sony: 237,
+  zee5: 232
+};
+
 /* How recent an arrival has to be to still count as "new". */
 const OTT_WINDOW_DAYS = 60;
+const OTT_MAX_PER_TAB = 8;
 
-let ottEntriesCache = null;
+/* Titles this new have very few TMDb votes, and a badge reading "100" off a
+   single vote is a number the data does not support. Below this many votes
+   the card simply carries no badge. */
+const OTT_MIN_VOTES_FOR_BADGE = 5;
 
-async function fetchOttEntries() {
-  if (ottEntriesCache) return ottEntriesCache;
-  const res = await fetch('data/new_on_ott.json');
-  ottEntriesCache = await res.json();
-  return ottEntriesCache;
+function ottScore(voteAvg, voteCount) {
+  return voteCount >= OTT_MIN_VOTES_FOR_BADGE ? TMDB.audienceRating(voteAvg, voteCount) : null;
+}
+
+function ottWindow() {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  const cutoff = new Date(today.getTime() - OTT_WINDOW_DAYS * 24 * 60 * 60 * 1000);
+  return { today, cutoff };
+}
+
+function isoDay(d) {
+  const p = n => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
 }
 
 /* Arrivals still inside the recency window, newest first. */
 function recentOttEntries(entries) {
-  const today = new Date();
-  today.setHours(0, 0, 0, 0);
-  const cutoff = new Date(today.getTime() - OTT_WINDOW_DAYS * 24 * 60 * 60 * 1000);
+  const { today, cutoff } = ottWindow();
   return entries
     .filter(f => {
       const d = new Date(f.release_date);
@@ -1247,45 +1279,116 @@ function recentOttEntries(entries) {
     .sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
 }
 
+/* Source 1 — one discover call per platform. Languages are pipe-separated:
+   on with_original_language a pipe is an OR, a comma silently matches nothing. */
+async function fetchLiveOttArrivals() {
+  const { today, cutoff } = ottWindow();
+  const perPlatform = await Promise.all(Object.keys(OTT_PROVIDER_IDS).map(async key => {
+    const data = await TMDB.get('/discover/movie', {
+      watch_region: 'IN',
+      with_watch_providers: OTT_PROVIDER_IDS[key],
+      with_watch_monetization_types: 'flatrate',
+      with_original_language: INDIAN_LANGS.join('|'),
+      'primary_release_date.gte': isoDay(cutoff),
+      'primary_release_date.lte': isoDay(today),
+      sort_by: 'primary_release_date.desc'
+    });
+    if (!data) return null;
+    return (data.results || [])
+      // Nobody has vetted these, so a title with no poster stays out.
+      .filter(m => m.poster_path && m.release_date)
+      .map(m => ({
+        title: m.title,
+        language: langNames[m.original_language] || '',
+        ott_platform: OTT_PLATFORM_LABELS[key],
+        release_date: m.release_date,
+        tmdb_id: m.id,
+        posterPath: m.poster_path,
+        score: ottScore(m.vote_average, m.vote_count),
+        hydrated: true
+      }));
+  }));
+  return {
+    ok: perPlatform.some(p => p !== null),
+    items: recentOttEntries(perPlatform.flatMap(p => p || []))
+  };
+}
+
+/* Source 2 — the hand-maintained file. */
+async function fetchCuratedOttArrivals() {
+  try {
+    const res = await fetch('data/new_on_ott.json');
+    return { ok: true, items: recentOttEntries(await res.json()) };
+  } catch (e) {
+    return { ok: false, items: [] };
+  }
+}
+
+let ottArrivalsCache = null;
+
+async function fetchOttArrivals() {
+  if (ottArrivalsCache) return ottArrivalsCache;
+
+  const [curated, live] = await Promise.all([fetchCuratedOttArrivals(), fetchLiveOttArrivals()]);
+  if (!curated.ok && !live.ok) throw new Error('no OTT source reachable');
+
+  const keyOf = f => `${f.type === 'tv' ? 'tv' : 'movie'}:${f.tmdb_id}:${f.ott_platform}`;
+  const liveByKey = new Map(live.items.map(f => [keyOf(f), f]));
+
+  // A curated entry wins over its live twin — its date is the arrival date
+  // an editor recorded — but borrows the poster and score already in hand.
+  const merged = curated.items.map(f => {
+    const twin = liveByKey.get(keyOf(f));
+    if (!twin) return f;
+    liveByKey.delete(keyOf(f));
+    return { ...f, posterPath: twin.posterPath, score: twin.score, hydrated: true };
+  });
+
+  ottArrivalsCache = [...merged, ...liveByKey.values()]
+    .sort((a, b) => new Date(b.release_date) - new Date(a.release_date));
+  return ottArrivalsCache;
+}
+
+/* Curated entries the live query didn't cover still need their poster and
+   vote data. Series carry type:"tv" — the same numeric id is a different,
+   unrelated title on /movie/, so the endpoint has to match the entry's type. */
+async function hydrateOttEntry(f) {
+  if (f.hydrated) return f;
+  const data = await TMDB.get(`/${f.type === 'tv' ? 'tv' : 'movie'}/${f.tmdb_id}`, {});
+  f.posterPath = data?.poster_path || null;
+  f.score = data ? ottScore(data.vote_average, data.vote_count) : null;
+  f.hydrated = true;
+  return f;
+}
+
 async function loadOttPosterGrid(platform) {
   const grid = document.getElementById('ottPosterGrid');
   if (!grid) return;
   grid.innerHTML = '<div class="poster-skeleton"></div>'.repeat(6);
 
-  let entries = [];
+  let arrivals = [];
   try {
-    entries = await fetchOttEntries();
+    arrivals = await fetchOttArrivals();
   } catch (e) {
-    entries = [];
+    arrivals = [];
   }
 
   const platformLabel = OTT_PLATFORM_LABELS[platform];
-  const films = recentOttEntries(entries)
+  const films = arrivals
     .filter(f => f.ott_platform === platformLabel)
-    .slice(0, 8);
+    .slice(0, OTT_MAX_PER_TAB);
 
   if (!films.length) {
     grid.innerHTML = `<div style="color:var(--text-muted);padding:20px;grid-column:1/-1;">Nothing new here — check back soon</div>`;
     return;
   }
 
-  // Fetch each title's real poster + vote data by TMDb ID. Series entries
-  // carry type:"tv" — the same numeric ID means a different, unrelated
-  // title on /movie/, so the endpoint has to match the entry's type.
-  const results = [];
-  for (const f of films) {
-    try {
-      const data = await TMDB.get(`/${f.type === 'tv' ? 'tv' : 'movie'}/${f.tmdb_id}`, {});
-      const score = TMDB.audienceRating(data.vote_average, data.vote_count);
-      results.push({ f, posterPath: data.poster_path || null, score });
-    } catch {
-      results.push({ f, posterPath: null, score: null });
-    }
-  }
+  await Promise.all(films.map(hydrateOttEntry));
 
-  grid.innerHTML = results.map(({ f, posterPath, score }) => {
+  grid.innerHTML = films.map(f => {
+    const score = f.score;
     const sc = score >= 75 ? 'green' : score >= 55 ? 'amber' : 'red';
-    const posterUrl = posterPath ? TMDB.poster(posterPath, 'w342') : null;
+    const posterUrl = f.posterPath ? TMDB.poster(f.posterPath, 'w342') : null;
     const bg = '#1a1a2e';
     // movie.html is movie-only, so series get a plain card rather than a
     // link that would resolve the TV id against /movie/ and show the wrong title.
@@ -1299,7 +1402,7 @@ async function loadOttPosterGrid(platform) {
             ? `<img src="${posterUrl}" alt="${f.title}" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(160deg,${bg},${bg}aa)'" />`
             : `<div style="padding:8px;font-size:11px;color:var(--text-muted);text-align:center;margin-top:30px;">${f.title}</div>`}
-          <div class="cinema-lang">${f.language}</div>
+          ${f.language ? `<div class="cinema-lang">${f.language}</div>` : ''}
           ${score ? `<div class="cinema-score ${sc}">${score}</div>` : ''}
         </div>
         <div class="cinema-info">
@@ -1322,18 +1425,16 @@ async function initOttPosterTabs() {
 
   let recent;
   try {
-    recent = recentOttEntries(await fetchOttEntries());
+    recent = await fetchOttArrivals();
   } catch {
     return; // leave hidden; the window-load retry gets another attempt
   }
 
   ottTabsBound = true;
 
-  /* A hand-maintained file goes stale by sitting still. Once every arrival
-     has aged past OTT_WINDOW_DAYS the section isn't empty, it's expired —
-     and five platform tabs all reporting "nothing new" reads worse than no
-     section at all. Hide the block until the file is refreshed; it comes
-     back on its own, with no code change, the moment it is. */
+  /* Five platform tabs all reporting "nothing new" reads worse than no
+     section at all, so with nothing inside the window from either source
+     the whole block stays hidden. It comes back on its own. */
   if (!recent.length) {
     section.hidden = true;
     if (divider) divider.hidden = true;
