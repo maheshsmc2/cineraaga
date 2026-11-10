@@ -19,20 +19,21 @@ import subprocess
 import sys
 from pathlib import Path
 
+from site_config import BASE_URL
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 NAVRAS_DIR = REPO_ROOT / "frontend" / "navras"
 INDEX_PATH = NAVRAS_DIR / "data" / "lists" / "index.json"
 SITEMAP_PATH = NAVRAS_DIR / "sitemap.xml"
 
-# The one real deployed origin — see CLAUDE.md's naming section, which
-# names this exact string as the permitted literal.
-BASE_URL = "https://navras.vercel.app"
+REVIEWS_PATH = NAVRAS_DIR / "data" / "reviews.json"
 
-# Real, live review pages only — not the *-template.html scaffolds.
-# Add a new review's relative path here the day it ships.
+# Real, live review pages only — not the *-template.html scaffolds. Read
+# from data/reviews.json, the same file the homepage uses, so a review
+# added there is in the sitemap on the next run with nothing to edit here.
 REVIEW_PAGES = [
-    "pages/dhamaal-4-2026.html",
-    "pages/maa-inti-bangaram-2026.html",
+    f"pages/{r['slug']}.html"
+    for r in json.loads(REVIEWS_PATH.read_text(encoding="utf-8"))
 ]
 
 FIXED_PAGES = ["index.html", "pages/lists.html", *REVIEW_PAGES]
@@ -63,6 +64,8 @@ def main() -> None:
     entries = []
 
     for rel in FIXED_PAGES:
+        if not (NAVRAS_DIR / rel).is_file():
+            sys.exit(f"sitemap would list a page that does not exist: {rel}")
         loc = f"{BASE_URL}/" if rel == "index.html" else f"{BASE_URL}/{rel}"
         entries.append(url_entry(loc, git_lastmod(rel)))
 

@@ -61,7 +61,10 @@ non-existent element is one `<div>` away from going live again.
 - **Site brand → CineRaaga.** Page titles, meta, headers, footer, bylines.
 - **Scoring methodology → stays "Navras".** `navras_score`, `NAVRAS_CONFIG`,
   `.navras-*` CSS classes, "Navras Score" labels, the `frontend/navras/` path,
-  and `hello@navras.app` / `navras.vercel.app`.
+  and `hello@navras.app`.
+- **Public origin is `https://www.cineraaga.com`** (`scripts/site_config.py`). Never
+  put `navras.vercel.app` (stale pre-rebrand deployment) or `cineraaga.vercel.app`
+  in a sitemap, robots.txt or canonical tag.
 
 Never blanket-regex across this distinction. Classify each occurrence.
 

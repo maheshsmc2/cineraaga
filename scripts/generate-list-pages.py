@@ -29,6 +29,8 @@ import re
 import sys
 from pathlib import Path
 
+from site_config import BASE_URL
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 NAVRAS_DIR = REPO_ROOT / "frontend" / "navras"
 INDEX_PATH = NAVRAS_DIR / "data" / "lists" / "index.json"
@@ -78,7 +80,10 @@ def build_page(template: str, entry: dict) -> str:
         sys.exit(f"list.html template drifted — expected the generic <meta description>, not found")
     new_meta = (
         f'<meta name="description" content="{escape_attr(description)}" />\n'
-        f'  <link rel="canonical" href="list-{escape_attr(slug)}.html" />'
+        # Absolute, on the canonical origin: the same page is also served
+        # from cineraaga.vercel.app, and a relative href would make each
+        # host declare itself canonical.
+        f'  <link rel="canonical" href="{BASE_URL}/pages/list-{escape_attr(slug)}.html" />'
     )
     page = page.replace(old_meta, new_meta, 1)
 
