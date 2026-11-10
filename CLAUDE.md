@@ -39,6 +39,9 @@ non-existent element is one `<div>` away from going live again.
   hand-maintained mirror and drifts; **count real `entries` arrays**, never the
   index field.
 - `data/mood/*.json` — the nine rasas.
+- `data/reviews.json` — one entry per published review page, fields copied from
+  the page itself (score box, og:description, byline date). Add an entry when a
+  review is published; the homepage strip and banner read it.
 - `data/coming_to_ott.json` — hand-maintained, seeded empty. TMDb can't source
   upcoming OTT dates.
 - `data/new_on_ott.json` — hand-maintained *supplement* to a live query. Films

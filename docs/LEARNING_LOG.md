@@ -379,3 +379,41 @@ the section makes.
   "Coming Soon" piece about July. The Maa Inti Bangaaram review, meanwhile, is
   linked from nowhere but the sitemap. Left untouched pending a decision on what
   the strip should hold.
+
+## 2026-11-10 — The strip beside the banner: headlines for reviews that were never written
+
+**What happened:**
+
+Closing the item left open in the previous entry. The "Trending on CineRaaga"
+list was a hand-typed array, `editorialStories`, of eight headlines. Three
+advertised reviews that do not exist (Saiyaara, IC 814, a Dhurandhar piece), one
+labelled a March release "In Cinemas", one was a "Coming Soon" item about July,
+and nearly all of them linked to the same generic article page. The July
+fabrication sweep had visited this array and removed its invented score badges,
+but left the headlines.
+
+Replaced the array with `loadStripStories()`, which builds the list from
+`data/reviews.json` (new — the two published reviews, every field copied from
+the review pages) and the four most recently updated curated lists. The heading
+is now "From CineRaaga". The banner's review lookup uses the same file instead
+of one hardcoded TMDb id.
+
+**Concept:**
+
+The earlier sweep asked "is this number invented?" and a headline is not a
+number, so it passed. But a headline is a claim that a piece exists. A link is
+the cheapest test of that claim: eight stories resolving to one URL is the
+tell. Auditing for fabrication means following what each item points at, not
+only reading what it displays.
+
+**Traps:**
+
+- The Maa Inti Bangaaram review had been published since August and was linked
+  from nowhere on the site except the sitemap. Fake headlines were occupying the
+  slots a real review should have had. Publishing a page is not the same as
+  making it reachable — `data/reviews.json` is now the step that does that.
+- `.editorial-stories` is `display: none` below the tablet breakpoint, so on a
+  phone the homepage still has no path to either review. Not changed here.
+- `REVIEWED_TMDB_ID` still special-cases Dhamaal 4 in the cinema and browse
+  cards. The banner no longer depends on it; those two call sites could read
+  `reviews.json` as well.
