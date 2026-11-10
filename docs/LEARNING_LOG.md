@@ -417,3 +417,50 @@ only reading what it displays.
 - `REVIEWED_TMDB_ID` still special-cases Dhamaal 4 in the cinema and browse
   cards. The banner no longer depends on it; those two call sites could read
   `reviews.json` as well.
+
+## 2026-11-10 — The sitemap pointed at a different website
+
+**What happened:**
+
+Asked whether the site is listed in Google. It almost certainly is not, and the
+reason was in the repo: `robots.txt`, `sitemap.xml` and the sitemap generator all
+named `navras.vercel.app`. That host is a stale pre-rebrand deployment still
+serving the old "Navras" homepage; 24 of the sitemap's 25 URLs return 404 there.
+The site people actually visit is `https://www.cineraaga.com` (with
+`cineraaga.com` redirecting to it and `cineraaga.vercel.app` serving the same
+build). A sitemap whose URLs sit on a different host from the one serving it is
+ignored, so since September the SEO work had been describing the wrong site.
+
+Fixed: `scripts/site_config.py` now holds the one canonical origin, both
+generators import it, the sitemap and 21 list pages were regenerated, and
+`robots.txt` was corrected. List-page canonicals went from relative to absolute,
+and the homepage, lists page and both reviews gained canonical tags, because
+the Vercel alias serves identical pages and nothing said which host is the real
+one. The sitemap's review URLs now come from `data/reviews.json`.
+
+**Concept:**
+
+The September SEO commits were verified against the files — the sitemap was
+valid XML, the URLs were well-formed, the generator ran. Nobody fetched one of
+those URLs. A sitemap is a set of claims about the live web, and the only test
+of it is a request to the live web. "Generated correctly" and "true" were
+different properties here for two months.
+
+**Traps:**
+
+- CLAUDE.md itself listed `navras.vercel.app` as a real infrastructure string to
+  preserve, and the generator cited that note as its authority. The instruction
+  was written during the rebrand, when it was true. A protected literal is still
+  a fact about the world that can expire; it was the one string nobody was
+  allowed to question.
+- Three hosts serve this codebase. Only one should ever appear in a sitemap,
+  robots.txt or canonical tag — and the stale one is still up, still branded
+  "Navras", still showing content removed in the fabrication sweeps. Taking it
+  down or redirecting it is a Vercel dashboard action, not a code change.
+- Still not done, and not doable from the repo: Google Search Console
+  verification and sitemap submission. Without it there is no way to see what
+  is indexed.
+- Noticed, left alone: the homepage meta description promises ratings "for every
+  Indian film across every language", and the lists page description names
+  lists deleted in August (best Tamil films, top films on Netflix). These are
+  the lines a search result would show.
