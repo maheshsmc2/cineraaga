@@ -15,9 +15,14 @@
 
   3. Upload the new file to pages/ folder on GitHub
      It goes live automatically at:
-     navras.vercel.app/pages/your-filename.html
+     www.cineraaga.com/pages/your-filename.html
 
-  4. Link to it from the homepage or lists page
+  4. Add an entry for it to data/reviews.json (copy an existing one).
+     That is what puts the review on the homepage and in the sitemap.
+     Then run:  python3 scripts/generate-sitemap.py
+
+  5. Add this line to the new file's <head>, with your filename:
+     <link rel="canonical" href="https://www.cineraaga.com/pages/your-filename.html" />
 
   TAKES: 20-30 minutes per review
   ============================================================
