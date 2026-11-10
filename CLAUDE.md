@@ -39,8 +39,15 @@ non-existent element is one `<div>` away from going live again.
   hand-maintained mirror and drifts; **count real `entries` arrays**, never the
   index field.
 - `data/mood/*.json` — the nine rasas.
-- `data/coming_to_ott.json`, `data/new_on_ott.json` — hand-maintained, seeded
-  empty. TMDb can't source these.
+- `data/coming_to_ott.json` — hand-maintained, seeded empty. TMDb can't source
+  upcoming OTT dates.
+- `data/new_on_ott.json` — hand-maintained *supplement* to a live query. Films
+  first released inside the 60-day window and streaming in India come straight
+  from TMDb (`/discover/movie` + `watch_region=IN`); the file adds what that
+  can't prove: older theatrical releases that just reached OTT, and series.
+  Verify a platform with `/movie/{id}/watch/providers`, never an aggregator.
+- TMDb `with_original_language`: pipe (`hi|ta|te`) is OR; a comma list silently
+  returns nothing.
 - `pages/review-template.html` — locked structure:
   **Mood → Story → Direction → Performances → CineRaaga Take**. Don't add sections.
 - `css/style.css` loads before `home.css` — check for a duplicate selector in the

@@ -317,3 +317,65 @@ claim being made before falling back to hand maintenance for all of it.
 - Hotstar, SonyLIV and ZEE5 ended up with no verified arrivals and show their
   per-tab empty state. Left that way deliberately rather than reaching for
   weaker sources to fill all five tabs.
+
+## 2026-11-10 — Three hardcoded "now" claims replaced with live sources
+
+**What happened:**
+
+A month after the last refresh, New on OTT was decaying on schedule again: one
+entry expiring that day, the Netflix tab a week from empty, the whole section
+due to go dark on 8 December. Refreshing the file a second time would only have
+reset the clock, so the section was re-sourced instead. A film *first released*
+inside the 60-day window that TMDb's watch-provider data shows streaming in
+India has necessarily *arrived on OTT* inside that window — a claim the API can
+support outright. `/discover/movie` with `watch_region=IN`,
+`with_watch_providers` and `with_watch_monetization_types=flatrate` returns
+that set in one call per platform. `data/new_on_ott.json` stays as a supplement
+for what the query cannot prove (older theatrical releases that just reached
+OTT, and series). All five platform tabs have content for the first time.
+
+Two more claims of the same shape turned up while checking that work:
+
+- **"In cinemas now"** pinned the reviewed film (Dhamaal 4, released 10 July)
+  first in the row unconditionally. In November it was still there, though TMDb's
+  India now_playing window began on 30 September. Now pinned only while its
+  release date falls inside the window the feed itself reports.
+- **The main banner** was a hand-picked film with a hardcoded "now playing"
+  headline. At Mahe's request it now follows the top Indian-language film in
+  TMDb's trending chart (daily, then weekly, then the most popular film in
+  India now_playing), labelled by whichever source answered.
+
+**Concept:**
+
+The October entry concluded that a hand-maintained file "expires by sitting
+still" and added a staleness gate. That treated the symptom. Any hardcoded
+value attached to a time-bound label — *new*, *now*, *trending* — starts
+becoming false the day it is written, and a gate only decides how gracefully it
+fails. The durable fix is to ask whether a live source can support the label,
+and to phrase the query so that it provably does. "Released in the last 60 days
+and streaming now" is a weaker, checkable claim that implies the stronger one
+the section makes.
+
+**Traps:**
+
+- "TMDb can't source OTT arrivals" was written down in August and then repeated
+  as fact, including in CLAUDE.md. It was true of the question as first posed
+  (*when did this land?*) and false of a reformulated one. A recorded limitation
+  deserves a second look before it is built around a third time.
+- Pipe, not comma: `with_original_language=hi|ta|te` is an OR. The August finding
+  that a comma list silently returns nothing was right, but the conclusion drawn
+  from it — one request per language — was not the only way out.
+  `discoverByLanguages` still fans out per language and could be collapsed.
+- Live sourcing surfaces titles nobody has vetted. One arrival showed an audience
+  badge of "100" resting on a single TMDb vote. Cards in this section now carry
+  no badge below five votes, and need a poster to appear at all. The same
+  one-vote problem exists in the other TMDb-fed rows and was left alone.
+- The live query under-counts by design: a film that ran in cinemas three months
+  ago and reached OTT last week is invisible to it. That is what the curated
+  file is now for — Awarapan 2 and Sardar 2 are both in that position today.
+- Still open, found in the same pass: the "Trending on CineRaaga" strip beside
+  the banner. Several headlines advertise reviews that do not exist and link to
+  a generic article page; one says "In Cinemas" of a March release; one is a
+  "Coming Soon" piece about July. The Maa Inti Bangaaram review, meanwhile, is
+  linked from nowhere but the sitemap. Left untouched pending a decision on what
+  the strip should hold.
