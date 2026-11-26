@@ -1,0 +1,5302 @@
+{
+ "13B|2009|tamil": {
+  "title": "13B",
+  "year": 2009,
+  "language": "tamil",
+  "tmdb_id": 19950,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Yavarum Nalam",
+  "release_date": "2009-03-06",
+  "poster_path": "/AvecQgxUwMuc1VTlkFm5RpAibZe.jpg",
+  "backdrop_path": "/zQVYeNyKrdGUU58hZwoFHq7Rn7P.jpg",
+  "runtime": 137,
+  "director": [
+   "Vikram Kumar"
+  ]
+ },
+ "1971|2007|hindi": {
+  "title": "1971",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 199408,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "1971",
+  "release_date": "2007-03-08",
+  "poster_path": "/pyifRwztOHpapPWM6ewMnNTdJPn.jpg",
+  "backdrop_path": null,
+  "runtime": 160,
+  "director": [
+   "Amrit Sagar Chopra"
+  ]
+ },
+ "1983|2014|malayalam": {
+  "title": "1983",
+  "year": 2014,
+  "language": "malayalam",
+  "tmdb_id": 253535,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "1983",
+  "release_date": "2014-01-31",
+  "poster_path": "/k02dxV9sNizaW33dSX8uCgLboEv.jpg",
+  "backdrop_path": "/tnbL567RTtycQsZzI3P7bKmxCVs.jpg",
+  "runtime": 134,
+  "director": [
+   "Abrid Shine"
+  ]
+ },
+ "1: Nenokkadine|2014|telugu": {
+  "title": "1: Nenokkadine",
+  "year": 2014,
+  "language": "telugu",
+  "tmdb_id": 249772,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "1: Nenokkadine",
+  "release_date": "2014-01-10",
+  "poster_path": "/dYpqpA7BsDHeyAGs9AAEPhZmbck.jpg",
+  "backdrop_path": "/dlq3GoejDFL1AfLeoOnarf6bGUW.jpg",
+  "runtime": 176,
+  "director": [
+   "Sukumar"
+  ]
+ },
+ "3 Idiots|2009|hindi": {
+  "title": "3 Idiots",
+  "year": 2009,
+  "language": "hindi",
+  "tmdb_id": 20453,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "3 Idiots",
+  "release_date": "2009-12-23",
+  "poster_path": "/66A9MqXOyVFCssoloscw79z8Tew.jpg",
+  "backdrop_path": "/u7kuUaySqXBVAtqEl9vkTkAzHV9.jpg",
+  "runtime": 171,
+  "director": [
+   "Rajkumar Hirani"
+  ]
+ },
+ "96|2018|tamil": {
+  "title": "96",
+  "year": 2018,
+  "language": "tamil",
+  "tmdb_id": 441717,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "96",
+  "release_date": "2018-10-04",
+  "poster_path": "/nrVloCa2hCFOztRF1DZU2jnWIiQ.jpg",
+  "backdrop_path": "/qzu94AvnZ1az30sTUuibx2bXpfs.jpg",
+  "runtime": 159,
+  "director": [
+   "C. Prem Kumar"
+  ]
+ },
+ "A Wednesday!|2008|hindi": {
+  "title": "A Wednesday!",
+  "year": 2008,
+  "language": "hindi",
+  "tmdb_id": 19703,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "A Wednesday!",
+  "release_date": "2008-09-05",
+  "poster_path": "/gVUSxtJM3arL5VIUIRNYde20EF0.jpg",
+  "backdrop_path": "/tmbwscy8OvNMkg4CFOi8eEO523b.jpg",
+  "runtime": 103,
+  "director": [
+   "Neeraj Pandey"
+  ]
+ },
+ "A1 Express|2021|telugu": {
+  "title": "A1 Express",
+  "year": 2021,
+  "language": "telugu",
+  "tmdb_id": 799991,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "A1 Express",
+  "release_date": "2021-03-05",
+  "poster_path": "/2WHx9ryr1XigcqCudVJfA4IK0jC.jpg",
+  "backdrop_path": "/txk9wEsk7JH3EiAAyrsLBhKtQy1.jpg",
+  "runtime": 130,
+  "director": [
+   "Dennis Jeevan Kanukolanu"
+  ]
+ },
+ "Aamis|2019|assamese": {
+  "title": "Aamis",
+  "year": 2019,
+  "language": "assamese",
+  "tmdb_id": 569912,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aamis",
+  "release_date": "2019-10-20",
+  "poster_path": "/aBD6Jhze6kS36wBLVYkp7EGEBxr.jpg",
+  "backdrop_path": "/xB3AGu8oQigY0zdDogRCMDwGr4u.jpg",
+  "runtime": 108,
+  "director": [
+   "Bhaskar Hazarika"
+  ]
+ },
+ "Aandhi|1975|hindi": {
+  "title": "Aandhi",
+  "year": 1975,
+  "language": "hindi",
+  "tmdb_id": 59277,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aandhi",
+  "release_date": "1975-02-13",
+  "poster_path": "/6v5sL4BcMwwx17Vb0oitvsBi40o.jpg",
+  "backdrop_path": "/unuq3xeXq6DiB8i1MObdD5nJNx7.jpg",
+  "runtime": 133,
+  "director": [
+   "Gulzar"
+  ]
+ },
+ "Aar-Paar|1954|hindi": {
+  "title": "Aar-Paar",
+  "year": 1954,
+  "language": "hindi",
+  "tmdb_id": 71283,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aar Paar",
+  "release_date": "1954-07-09",
+  "poster_path": "/fp6kIni6k7X1ZJnH6oKNbwm8aZP.jpg",
+  "backdrop_path": "/8EEpTV3qmpsKGkDIUNuL0rfCUA6.jpg",
+  "runtime": 146,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Aaranya Kaandam|2010|tamil": {
+  "title": "Aaranya Kaandam",
+  "year": 2010,
+  "language": "tamil",
+  "tmdb_id": 119123,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aaranya Kaandam",
+  "release_date": "2011-06-10",
+  "poster_path": "/zZRzn7DXOLANE4hTUv4ziU7O6Zz.jpg",
+  "backdrop_path": "/1Ho4MJD6KxjbDP5NRGJHIs9UuWe.jpg",
+  "runtime": 126,
+  "director": [
+   "Thiagarajan Kumararaja"
+  ]
+ },
+ "Aashiqui|1990|hindi": {
+  "title": "Aashiqui",
+  "year": 1990,
+  "language": "hindi",
+  "tmdb_id": 34369,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aashiqui",
+  "release_date": "1990-07-23",
+  "poster_path": "/4we2et0iMkYGYCV3xS6bhTHI55.jpg",
+  "backdrop_path": "/97s3czqmBGIyDvOH023oVLfYr4M.jpg",
+  "runtime": 152,
+  "director": [
+   "Mahesh Bhatt"
+  ]
+ },
+ "Aayutha Ezhuthu|2004|tamil": {
+  "title": "Aayutha Ezhuthu",
+  "year": 2004,
+  "language": "tamil",
+  "tmdb_id": 63825,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aayitha Ezhuthu",
+  "release_date": "2004-05-21",
+  "poster_path": "/7SJMzuXWaVwjUHfGJaMzU0cTtJB.jpg",
+  "backdrop_path": "/cWtejSPmLXq0C5CqIdCHtvIMRfr.jpg",
+  "runtime": 155,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Abhimaan|1973|hindi": {
+  "title": "Abhimaan",
+  "year": 1973,
+  "language": "hindi",
+  "tmdb_id": 75352,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Abhimaan",
+  "release_date": "1973-07-27",
+  "poster_path": "/w0PDRsh1f9G6NVvoixzYNmTnpvv.jpg",
+  "backdrop_path": "/h23aOGIcQJZvomRpC5GI3UmCMtW.jpg",
+  "runtime": 122,
+  "director": [
+   "Hrishikesh Mukherjee"
+  ]
+ },
+ "Abhiyum Naanum|2008|tamil": {
+  "title": "Abhiyum Naanum",
+  "year": 2008,
+  "language": "tamil",
+  "tmdb_id": 40617,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Abhiyum Naanum",
+  "release_date": "2008-12-19",
+  "poster_path": "/5shSpO2q7FmO5FJLmWsveQP3XHc.jpg",
+  "backdrop_path": "/cc3B8hCzBma7TFEdr44RNphn6cf.jpg",
+  "runtime": 147,
+  "director": [
+   "Radha Mohan"
+  ]
+ },
+ "Achhut Kanya|1936|hindi": {
+  "title": "Achhut Kanya",
+  "year": 1936,
+  "language": "hindi",
+  "tmdb_id": 214742,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Untouchable Girl",
+  "release_date": "1936-08-15",
+  "poster_path": "/k778s3qlGWrqNsmiWrgHaBJ6c3f.jpg",
+  "backdrop_path": "/owue9IvugoVOOwamQKzbH8p7nAD.jpg",
+  "runtime": 142,
+  "director": [
+   "Franz Osten"
+  ]
+ },
+ "Agent Sai Srinivasa Athreya|2019|telugu": {
+  "title": "Agent Sai Srinivasa Athreya",
+  "year": 2019,
+  "language": "telugu",
+  "tmdb_id": 610482,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Agent Sai Srinivasa Athreya",
+  "release_date": "2019-06-21",
+  "poster_path": "/jMVfhhWfHLawVp3kd55KBy3VBsW.jpg",
+  "backdrop_path": "/s7QvyLoxJ1PWMGasGpqluQqhUT9.jpg",
+  "runtime": 144,
+  "director": [
+   "Swaroop RSJ"
+  ]
+ },
+ "Agent Vinod|2012|hindi": {
+  "title": "Agent Vinod",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 85050,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Agent Vinod",
+  "release_date": "2012-03-23",
+  "poster_path": "/y1GOWhrtXHidZGGsNMJiB8r5CIp.jpg",
+  "backdrop_path": "/k56AppUZYXGcwX9q6f8qeinn6fV.jpg",
+  "runtime": 157,
+  "director": [
+   "Sriram Raghavan"
+  ]
+ },
+ "Agneepath|1990|hindi": {
+  "title": "Agneepath",
+  "year": 1990,
+  "language": "hindi",
+  "tmdb_id": 37403,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Agneepath",
+  "release_date": "1990-02-16",
+  "poster_path": "/d9OfOqRTrW5FX1dhDPwaMNqm6GB.jpg",
+  "backdrop_path": "/aYiCymYGLrSElxiK6qCxSqGKtmY.jpg",
+  "runtime": 174,
+  "director": [
+   "Mukul Anand"
+  ]
+ },
+ "Aha Naa Pellanta!|1987|telugu": {
+  "title": "Aha Naa Pellanta!",
+  "year": 1987,
+  "language": "telugu",
+  "tmdb_id": 37612,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aha Naa Pellanta!",
+  "release_date": "1987-11-27",
+  "poster_path": "/aKeZsdUDIhXddTrLzraNsrCHcxn.jpg",
+  "backdrop_path": "/nvbAJmfmLr4We0pSQPbjRDYvAOe.jpg",
+  "runtime": 147,
+  "director": [
+   "Jandhyala Subramanya Sastry"
+  ]
+ },
+ "Alaipayuthey|2000|tamil": {
+  "title": "Alaipayuthey",
+  "year": 2000,
+  "language": "tamil",
+  "tmdb_id": 49035,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Alaipayuthey",
+  "release_date": "2000-04-14",
+  "poster_path": "/rnN492zNPK5zvXvDQILm0KRLwD4.jpg",
+  "backdrop_path": "/waEYmE1VqRqcy1OhbjGLBrNCGrh.jpg",
+  "runtime": 156,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Anand|1971|hindi": {
+  "title": "Anand",
+  "year": 1971,
+  "language": "hindi",
+  "tmdb_id": 26237,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Anand",
+  "release_date": "1971-03-12",
+  "poster_path": "/vgrege8e0yk3SSdHzHfMTvk2ffc.jpg",
+  "backdrop_path": "/uZEN5R7s3IvZlt29uTEhpnOAyZd.jpg",
+  "runtime": 122,
+  "director": [
+   "Hrishikesh Mukherjee"
+  ]
+ },
+ "Anbe Sivam|2003|tamil": {
+  "title": "Anbe Sivam",
+  "year": 2003,
+  "language": "tamil",
+  "tmdb_id": 26910,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Anbe Sivam",
+  "release_date": "2003-01-14",
+  "poster_path": "/nT556HbikCCLABe8xQ4zQ2QIb0O.jpg",
+  "backdrop_path": "/9QaebfA43SkffIy6sDFje5q0jdk.jpg",
+  "runtime": 160,
+  "director": [
+   "Sundar C"
+  ]
+ },
+ "Andaz Apna Apna|1994|hindi": {
+  "title": "Andaz Apna Apna",
+  "year": 1994,
+  "language": "hindi",
+  "tmdb_id": 58128,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Andaz Apna Apna",
+  "release_date": "1994-04-11",
+  "poster_path": "/a0GV2V3yif2DbsMCSBrivvSHUWQ.jpg",
+  "backdrop_path": "/8YboYnoujBeWv4Galqnb7I0h9jf.jpg",
+  "runtime": 160,
+  "director": [
+   "Rajkumar Santoshi"
+  ]
+ },
+ "Andhadhun|2018|hindi": {
+  "title": "Andhadhun",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 534780,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Andhadhun",
+  "release_date": "2018-10-05",
+  "poster_path": "/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg",
+  "backdrop_path": "/73aKTjdQ46jpv3InqNVnV76Nl0K.jpg",
+  "runtime": 139,
+  "director": [
+   "Sriram Raghavan"
+  ]
+ },
+ "Angamaly Diaries|2017|malayalam": {
+  "title": "Angamaly Diaries",
+  "year": 2017,
+  "language": "malayalam",
+  "tmdb_id": 442000,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Angamaly Diaries",
+  "release_date": "2017-03-03",
+  "poster_path": "/fwxgQakS3vUQIzgJMphQWHxAqr2.jpg",
+  "backdrop_path": "/f789yQcfWfBYTkVzo0ZGTodT40T.jpg",
+  "runtime": 132,
+  "director": [
+   "Lijo Jose Pellissery"
+  ]
+ },
+ "Angoor|1982|hindi": {
+  "title": "Angoor",
+  "year": 1982,
+  "language": "hindi",
+  "tmdb_id": 21984,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Angoor",
+  "release_date": "1982-03-05",
+  "poster_path": "/wijF2sW1MDq9c1u5m9ezealO9KC.jpg",
+  "backdrop_path": "/ztJF7L4n0F146U9agRbW13Eebkg.jpg",
+  "runtime": 136,
+  "director": [
+   "Gulzar"
+  ]
+ },
+ "Anjaam Pathiraa|2020|malayalam": {
+  "title": "Anjaam Pathiraa",
+  "year": 2020,
+  "language": "malayalam",
+  "tmdb_id": 657593,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Anjaam Pathiraa",
+  "release_date": "2020-01-10",
+  "poster_path": "/38AT5UZ276dRO1dNzgvQSiYYQ7u.jpg",
+  "backdrop_path": "/nyv6bC3nkFwQHy9QI1btneSBTZu.jpg",
+  "runtime": 144,
+  "director": [
+   "Midhun Manuel Thomas"
+  ]
+ },
+ "Anniyan|2005|tamil": {
+  "title": "Anniyan",
+  "year": 2005,
+  "language": "tamil",
+  "tmdb_id": 19978,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Anniyan",
+  "release_date": "2005-06-17",
+  "poster_path": "/fT9m4g5aWvwNVjHf0cUTqtTLJvh.jpg",
+  "backdrop_path": "/ed4iq5kHCDnrsvCaXDItZGEUV6f.jpg",
+  "runtime": 181,
+  "director": [
+   "Shankar"
+  ]
+ },
+ "Anukokunda Oka Roju|2005|telugu": {
+  "title": "Anukokunda Oka Roju",
+  "year": 2005,
+  "language": "telugu",
+  "tmdb_id": 80862,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Anukokunda Oka Roju",
+  "release_date": "2005-06-30",
+  "poster_path": "/kH6Y45SenIyCMvFRiKWPm42LhkM.jpg",
+  "backdrop_path": "/piY7mksAVKGX5MpX7WCjxiZSCBx.jpg",
+  "runtime": 145,
+  "director": [
+   "Chandra Sekhar Yeleti"
+  ]
+ },
+ "Appula Appa Rao|1991|telugu": {
+  "title": "Appula Appa Rao",
+  "year": 1991,
+  "language": "telugu",
+  "tmdb_id": 180736,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Appula Appa Rao",
+  "release_date": "1992-01-24",
+  "poster_path": "/4onQu9UVp5q5mfzfnxiZ7v0jO06.jpg",
+  "backdrop_path": null,
+  "runtime": 140,
+  "director": [
+   "E.V.V. Satyanarayana"
+  ]
+ },
+ "Article 15|2019|hindi": {
+  "title": "Article 15",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 597089,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Article 15",
+  "release_date": "2019-05-28",
+  "poster_path": "/egknEWNt2B0slG2OC0gSpLZdVHj.jpg",
+  "backdrop_path": "/wN5e6gMVBTEihohzFkuGyZGbDOw.jpg",
+  "runtime": 130,
+  "director": [
+   "Anubhav Sinha"
+  ]
+ },
+ "Arundhati|2009|telugu": {
+  "title": "Arundhati",
+  "year": 2009,
+  "language": "telugu",
+  "tmdb_id": 31629,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Arundhati",
+  "release_date": "2009-01-16",
+  "poster_path": "/xQ0mGlnlAt6wLWZc3rm6LGFPzwl.jpg",
+  "backdrop_path": "/cct3pVAgWaZunDDnsJtBdh1v16S.jpg",
+  "runtime": 132,
+  "director": [
+   "Kodi Ramakrishna"
+  ]
+ },
+ "Astitva|2000|hindi": {
+  "title": "Astitva",
+  "year": 2000,
+  "language": "hindi",
+  "tmdb_id": 97356,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Astitva",
+  "release_date": "2000-10-06",
+  "poster_path": "/uGAGCthCBGMuRuoKvRpw0EK0Ro0.jpg",
+  "backdrop_path": "/oDKXeAJlnH6cyx41TzjMyK7NJhF.jpg",
+  "runtime": 109,
+  "director": [
+   "Mahesh Manjrekar"
+  ]
+ },
+ "Autograph|2004|tamil": {
+  "title": "Autograph",
+  "year": 2004,
+  "language": "tamil",
+  "tmdb_id": 140299,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Autograph",
+  "release_date": "2004-02-20",
+  "poster_path": "/icy3xHF6LcHSys9RxNAuI4xyAW1.jpg",
+  "backdrop_path": "/AaKItBnW5ob4hP7ZSkgIj5TX2Vm.jpg",
+  "runtime": 167,
+  "director": [
+   "Cheran"
+  ]
+ },
+ "Aval|2017|tamil": {
+  "title": "Aval",
+  "year": 2017,
+  "language": "tamil",
+  "tmdb_id": 480308,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Aval",
+  "release_date": "2017-11-02",
+  "poster_path": "/rMaUdHC6NzpYSis0YTSVc0gPtVM.jpg",
+  "backdrop_path": "/x6Xqzy05My10v1PPtmxixLrstq6.jpg",
+  "runtime": 136,
+  "director": [
+   "Milind Rau"
+  ]
+ },
+ "Avvai Shanmughi|1996|tamil": {
+  "title": "Avvai Shanmughi",
+  "year": 1996,
+  "language": "tamil",
+  "tmdb_id": 69575,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Avvai Shanmugi",
+  "release_date": "1996-11-10",
+  "poster_path": "/bBSyJ3UM6pvqswgn6LwkxtIb2PI.jpg",
+  "backdrop_path": "/tpQqaLigNHWrEgEBcarRL4M6sOg.jpg",
+  "runtime": 161,
+  "director": [
+   "K. S. Ravikumar"
+  ]
+ },
+ "Awaara|1951|hindi": {
+  "title": "Awaara",
+  "year": 1951,
+  "language": "hindi",
+  "tmdb_id": 39039,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Awaara",
+  "release_date": "1951-12-14",
+  "poster_path": "/njaaQO1JZRtypogw5IPLtTlOSLI.jpg",
+  "backdrop_path": "/ci4gLOStVwOvfWuFS1KwVsa2KAF.jpg",
+  "runtime": 168,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Ayan|2009|tamil": {
+  "title": "Ayan",
+  "year": 2009,
+  "language": "tamil",
+  "tmdb_id": 20049,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ayan",
+  "release_date": "2009-04-03",
+  "poster_path": "/49UwEe5U1GuRC6W7difviwCgde2.jpg",
+  "backdrop_path": "/j6QRBOCh2hc1XUQ16E5hwF0xIOI.jpg",
+  "runtime": 162,
+  "director": [
+   "K. V. Anand"
+  ]
+ },
+ "Baahubali 2: The Conclusion|2017|telugu": {
+  "title": "Baahubali 2: The Conclusion",
+  "year": 2017,
+  "language": "telugu",
+  "tmdb_id": 350312,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bāhubali 2: The Conclusion",
+  "release_date": "2017-04-27",
+  "poster_path": "/21sC2assImQIYCEDA84Qh9d1RsK.jpg",
+  "backdrop_path": "/whNjsTOUVg2lZLCKgGhnACnmV8E.jpg",
+  "runtime": 167,
+  "director": [
+   "S. S. Rajamouli"
+  ]
+ },
+ "Baazigar|1993|hindi": {
+  "title": "Baazigar",
+  "year": 1993,
+  "language": "hindi",
+  "tmdb_id": 19657,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Baazigar",
+  "release_date": "1993-11-12",
+  "poster_path": "/ndQQ2bTV0JLSRxUBchE4eD3qhDb.jpg",
+  "backdrop_path": "/lPUrfzWb7icGC6X1z0AKnYRtHGu.jpg",
+  "runtime": 181,
+  "director": [
+   "Abbas Alibhai Burmawalla",
+   "Mustan Alibhai Burmawalla"
+  ]
+ },
+ "Baazi|1951|hindi": {
+  "title": "Baazi",
+  "year": 1951,
+  "language": "hindi",
+  "tmdb_id": 154857,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Baazi",
+  "release_date": "1951-07-01",
+  "poster_path": "/igmSzEFY2pi7agJCu4BubxiIfmD.jpg",
+  "backdrop_path": "/pESvq3CJIMH5HnPtxYrnxlSmYmo.jpg",
+  "runtime": 143,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Baaz|1953|hindi": {
+  "title": "Baaz",
+  "year": 1953,
+  "language": "hindi",
+  "tmdb_id": 185555,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Baaz",
+  "release_date": "1953-05-31",
+  "poster_path": "/fPij0IBk5lFCWdI6EOrfzHzLgS7.jpg",
+  "backdrop_path": "/lp4Zr8rBjro9EqaIaWHffpRd3uU.jpg",
+  "runtime": 141,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Baby|2015|hindi": {
+  "title": "Baby",
+  "year": 2015,
+  "language": "hindi",
+  "tmdb_id": 314389,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Baby",
+  "release_date": "2015-01-23",
+  "poster_path": "/mcCAHyv4kuVJ7oYrgMpYvVPdLyf.jpg",
+  "backdrop_path": "/po4KKEvcMvLLwGQAx3960WZUKo8.jpg",
+  "runtime": 160,
+  "director": [
+   "Neeraj Pandey"
+  ]
+ },
+ "Badhaai Ho|2018|hindi": {
+  "title": "Badhaai Ho",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 547654,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Badhaai Ho",
+  "release_date": "2018-10-19",
+  "poster_path": "/1RCzZkjxnL9MiAOP4oQQm63Ku0p.jpg",
+  "backdrop_path": "/wFOgP3PX907fhfVpeP3YItmPQtS.jpg",
+  "runtime": 125,
+  "director": [
+   "Amit Sharma"
+  ]
+ },
+ "Badla|2019|hindi": {
+  "title": "Badla",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 581361,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Badla",
+  "release_date": "2019-03-08",
+  "poster_path": "/eKpzbERuhogYTwI3PwfVsAHXnuO.jpg",
+  "backdrop_path": "/8VshatSiYQX2YGKgSEcbdNFgi0u.jpg",
+  "runtime": 120,
+  "director": [
+   "Sujoy Ghosh"
+  ]
+ },
+ "Baghban|2003|hindi": {
+  "title": "Baghban",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 39839,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Baghban",
+  "release_date": "2003-10-03",
+  "poster_path": "/rQtxdyZgWPMvrfnNiqZNssW6A3s.jpg",
+  "backdrop_path": "/oP5d70kOE09OZYvFZDlygQYuqK6.jpg",
+  "runtime": 183,
+  "director": [
+   "Ravi Chopra"
+  ]
+ },
+ "Baiju Bawra|1952|hindi": {
+  "title": "Baiju Bawra",
+  "year": 1952,
+  "language": "hindi",
+  "tmdb_id": 159187,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Baiju Bawra",
+  "release_date": "1952-10-05",
+  "poster_path": "/3WfK4t6FjLBV7L95SvbgthCOfVi.jpg",
+  "backdrop_path": "/qYtakW5oZVkPiHAVcJLeaaxymFD.jpg",
+  "runtime": 165,
+  "director": [
+   "Vijay Bhatt"
+  ]
+ },
+ "Balagam|2023|telugu": {
+  "title": "Balagam",
+  "year": 2023,
+  "language": "telugu",
+  "tmdb_id": 1092632,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Balagam",
+  "release_date": "2023-03-03",
+  "poster_path": "/m5Wtp4BcMm6Z03rjik11AS5UYhd.jpg",
+  "backdrop_path": "/t1UIpleLo5841rtkNq6t3izTciR.jpg",
+  "runtime": 131,
+  "director": [
+   "Venu Yeldandi"
+  ]
+ },
+ "Bandhana|1984|kannada": {
+  "title": "Bandhana",
+  "year": 1984,
+  "language": "kannada",
+  "tmdb_id": 239611,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bandhana",
+  "release_date": "1984-01-01",
+  "poster_path": "/a3MDO8xTclcVjcAaWFb3OvbnThq.jpg",
+  "backdrop_path": null,
+  "runtime": 161,
+  "director": [
+   "S V Rajendra Singh Babu"
+  ]
+ },
+ "Bangalore Days|2014|malayalam": {
+  "title": "Bangalore Days",
+  "year": 2014,
+  "language": "malayalam",
+  "tmdb_id": 268660,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bangalore Days",
+  "release_date": "2014-05-30",
+  "poster_path": "/iFMyZw1DTGvZ8hPa0eTseSFiRT1.jpg",
+  "backdrop_path": "/VmVJtd0hhQ7NpH3lykSv40Udic.jpg",
+  "runtime": 172,
+  "director": [
+   "Anjali Menon"
+  ]
+ },
+ "Bareilly Ki Barfi|2017|hindi": {
+  "title": "Bareilly Ki Barfi",
+  "year": 2017,
+  "language": "hindi",
+  "tmdb_id": 467106,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bareilly Ki Barfi",
+  "release_date": "2017-08-17",
+  "poster_path": "/1XN3TiUuZW6buP5E0VgyVn81qtX.jpg",
+  "backdrop_path": "/mthx2fkTwfphd93nsuwJ7Efx09K.jpg",
+  "runtime": 123,
+  "director": [
+   "Ashwiny Iyer Tiwari"
+  ]
+ },
+ "Barsaat|1949|hindi": {
+  "title": "Barsaat",
+  "year": 1949,
+  "language": "hindi",
+  "tmdb_id": 198755,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Barsaat",
+  "release_date": "1949-04-22",
+  "poster_path": "/7JYLk5FyITs3Hb9Qu5lV8gZLErz.jpg",
+  "backdrop_path": "/q2Jms5MntXFxHIWrnRhnzgqG7BS.jpg",
+  "runtime": 171,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Bell Bottom|2021|hindi": {
+  "title": "Bell Bottom",
+  "year": 2021,
+  "language": "hindi",
+  "tmdb_id": 721048,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bell Bottom",
+  "release_date": "2021-08-19",
+  "poster_path": "/aSY5LBwNdpMReaZjGBbcB1kvrHU.jpg",
+  "backdrop_path": "/pL4HULSTKFvncr0YClBFRE5vVqq.jpg",
+  "runtime": 123,
+  "director": [
+   "Ranjit Tiwari"
+  ]
+ },
+ "Bhaag Milkha Bhaag|2013|hindi": {
+  "title": "Bhaag Milkha Bhaag",
+  "year": 2013,
+  "language": "hindi",
+  "tmdb_id": 206324,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bhaag Milkha Bhaag",
+  "release_date": "2013-07-12",
+  "poster_path": "/bXywc0CEzS1fIshPWWi4V8A58U3.jpg",
+  "backdrop_path": "/eryhpwnyvEWnsDapQ9jwbam8itA.jpg",
+  "runtime": 186,
+  "director": [
+   "Rakeysh Omprakash Mehra"
+  ]
+ },
+ "Bharatham|1991|malayalam": {
+  "title": "Bharatham",
+  "year": 1991,
+  "language": "malayalam",
+  "tmdb_id": 249633,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bharatham",
+  "release_date": "1991-03-29",
+  "poster_path": "/auG1KiHiIrRjAdmVM03cq5e7c1k.jpg",
+  "backdrop_path": null,
+  "runtime": 147,
+  "director": [
+   "Sibi Malayil"
+  ]
+ },
+ "Bhoothakaalam|2022|malayalam": {
+  "title": "Bhoothakaalam",
+  "year": 2022,
+  "language": "malayalam",
+  "tmdb_id": 881099,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bhoothakaalam",
+  "release_date": "2022-01-21",
+  "poster_path": "/sJgXdwMmglL7eauv1PJuKUvdtxr.jpg",
+  "backdrop_path": "/9JLRc7KTfsLjb9kjNU6GdOOJT13.jpg",
+  "runtime": 105,
+  "director": [
+   "Rahul Sadasivan"
+  ]
+ },
+ "Bhoot|2003|hindi": {
+  "title": "Bhoot",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 107937,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bhoot",
+  "release_date": "2003-05-30",
+  "poster_path": "/tbQMeDyLSYUqHOcOexuJVeE3wLy.jpg",
+  "backdrop_path": "/bU0Mg9htLgTXOhwq1bNyfLAT3d5.jpg",
+  "runtime": 113,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Black Friday|2007|hindi": {
+  "title": "Black Friday",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 28740,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Black Friday",
+  "release_date": "2004-08-13",
+  "poster_path": "/jzqsxRSmaYBwbXVMvqQ54fOljTD.jpg",
+  "backdrop_path": "/2BCAKAno5MjKXAhLyo0Bc1XSF6h.jpg",
+  "runtime": 162,
+  "director": [
+   "Anurag Kashyap"
+  ]
+ },
+ "Blue Star|2024|tamil": {
+  "title": "Blue Star",
+  "year": 2024,
+  "language": "tamil",
+  "tmdb_id": 1230097,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Blue Star",
+  "release_date": "2024-01-25",
+  "poster_path": "/8agxJ2Wv8EitO1xwF2HgxnyloCI.jpg",
+  "backdrop_path": "/rPJzSvaOcssRPegJkKS7UVa8Ib3.jpg",
+  "runtime": 166,
+  "director": [
+   "S. Jayakumar"
+  ]
+ },
+ "Bobby|1973|hindi": {
+  "title": "Bobby",
+  "year": 1973,
+  "language": "hindi",
+  "tmdb_id": 21496,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bobby",
+  "release_date": "1973-09-28",
+  "poster_path": "/n6qMnbPuq6m28ncbyS29vzoLI0H.jpg",
+  "backdrop_path": "/42f79S8A8pbmIpmpeLOaHRdROCH.jpg",
+  "runtime": 169,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Boeing Boeing|1985|malayalam": {
+  "title": "Boeing Boeing",
+  "year": 1985,
+  "language": "malayalam",
+  "tmdb_id": 134468,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Boeing Boeing",
+  "release_date": "1985-09-01",
+  "poster_path": "/5K3KUz4EWcBACPPY4jkIG6IdFLD.jpg",
+  "backdrop_path": null,
+  "runtime": 150,
+  "director": [
+   "Priyadarshan"
+  ]
+ },
+ "Bombay|1995|tamil": {
+  "title": "Bombay",
+  "year": 1995,
+  "language": "tamil",
+  "tmdb_id": 26247,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bombay",
+  "release_date": "1995-03-10",
+  "poster_path": "/g1FXpdQogl84eztCsLI3h8Kmp69.jpg",
+  "backdrop_path": "/mxpBKB25cWU8YahkWyn1i5OJ04y.jpg",
+  "runtime": 141,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Bommarillu|2006|telugu": {
+  "title": "Bommarillu",
+  "year": 2006,
+  "language": "telugu",
+  "tmdb_id": 31626,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bommarillu",
+  "release_date": "2006-08-09",
+  "poster_path": "/oYN5XJzV9dYGwzq4fmp41xcIaDS.jpg",
+  "backdrop_path": "/6MrXT2kyeoWiruFNkxlhovM3plj.jpg",
+  "runtime": 168,
+  "director": [
+   "Bhaskar"
+  ]
+ },
+ "Border|1997|hindi": {
+  "title": "Border",
+  "year": 1997,
+  "language": "hindi",
+  "tmdb_id": 33125,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Border",
+  "release_date": "1997-06-13",
+  "poster_path": "/qBfe7zVYWxeBm1SaOa2rPsQSi9A.jpg",
+  "backdrop_path": "/zawV2nF32ajisU7GG0M0mINTXpY.jpg",
+  "runtime": 176,
+  "director": [
+   "J. P. Dutta"
+  ]
+ },
+ "Boys|2003|tamil": {
+  "title": "Boys",
+  "year": 2003,
+  "language": "tamil",
+  "tmdb_id": 75076,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Boys",
+  "release_date": "2003-08-29",
+  "poster_path": "/oQBEA5Slv40HHHM5WA1ey8D7nnl.jpg",
+  "backdrop_path": "/65JIeiuARQOJp81pBZPlJ85BnGC.jpg",
+  "runtime": 172,
+  "director": [
+   "Shankar"
+  ]
+ },
+ "Bramayugam|2024|malayalam": {
+  "title": "Bramayugam",
+  "year": 2024,
+  "language": "malayalam",
+  "tmdb_id": 1166133,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Bramayugam",
+  "release_date": "2024-02-15",
+  "poster_path": "/snQLwRrfQAl5YFKVefZq9Lbscki.jpg",
+  "backdrop_path": "/40UyKmlHffRjBDBk7XuI1GwDIwJ.jpg",
+  "runtime": 139,
+  "director": [
+   "Rahul Sadasivan"
+  ]
+ },
+ "C/o Kancharapalem|2018|telugu": {
+  "title": "C/o Kancharapalem",
+  "year": 2018,
+  "language": "telugu",
+  "tmdb_id": 544795,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "C/o Kancharapalem",
+  "release_date": "2018-09-07",
+  "poster_path": "/fDsN0xMM7OUJohZbCxjMB3JXu8h.jpg",
+  "backdrop_path": "/sJPdMcYbHok3ay8dcCTo8vTRCrO.jpg",
+  "runtime": 152,
+  "director": [
+   "Venkatesh Maha"
+  ]
+ },
+ "CID Moosa|2003|malayalam": {
+  "title": "CID Moosa",
+  "year": 2003,
+  "language": "malayalam",
+  "tmdb_id": 329991,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "C.I.D. Moosa",
+  "release_date": "2003-07-04",
+  "poster_path": "/evsWMsxq8xZbCDFWwjN6ZX8e3Fw.jpg",
+  "backdrop_path": "/xENDw3ncVi3RgHhoGptDos9vHDa.jpg",
+  "runtime": 160,
+  "director": [
+   "Johny Antony"
+  ]
+ },
+ "Chak De! India|2007|hindi": {
+  "title": "Chak De! India",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 14163,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Chak De! India",
+  "release_date": "2007-08-09",
+  "poster_path": "/mmFMgEsTRCAGAtwffGpuo3mJsxN.jpg",
+  "backdrop_path": "/dRl7PCVhBgosXuivxRg4fCz5G7D.jpg",
+  "runtime": 148,
+  "director": [
+   "Shimit Amin"
+  ]
+ },
+ "Chandni|1989|hindi": {
+  "title": "Chandni",
+  "year": 1989,
+  "language": "hindi",
+  "tmdb_id": 32680,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Chandni",
+  "release_date": "1989-09-14",
+  "poster_path": "/4CDmZFSPddbsXUt2lhjxQbxjNcQ.jpg",
+  "backdrop_path": "/wfJJkqw9z44W5olmLlt4IhieXZK.jpg",
+  "runtime": 180,
+  "director": [
+   "Yash Chopra"
+  ]
+ },
+ "Chatrapathi|2005|telugu": {
+  "title": "Chatrapathi",
+  "year": 2005,
+  "language": "telugu",
+  "tmdb_id": 79210,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Chatrapathi",
+  "release_date": "2005-09-30",
+  "poster_path": "/oK21m2iNDPuCrFNt1k65n5KDhmt.jpg",
+  "backdrop_path": "/ps4kvokDQ8zhoUUA0pZgdUsQoGb.jpg",
+  "runtime": 158,
+  "director": [
+   "S. S. Rajamouli"
+  ]
+ },
+ "Chemmeen|1965|malayalam": {
+  "title": "Chemmeen",
+  "year": 1965,
+  "language": "malayalam",
+  "tmdb_id": 265070,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Chemmeen",
+  "release_date": "1965-08-19",
+  "poster_path": "/jOAjmEQD4LUYFVgR41fAEutaVQb.jpg",
+  "backdrop_path": "/5VrIVQisZ6lxwm8HLodG2gfrN5R.jpg",
+  "runtime": 140,
+  "director": [
+   "Ramu Kariat"
+  ]
+ },
+ "Chup Chup Ke|2006|hindi": {
+  "title": "Chup Chup Ke",
+  "year": 2006,
+  "language": "hindi",
+  "tmdb_id": 19637,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Chup Chup Ke",
+  "release_date": "2006-06-09",
+  "poster_path": "/daXoADAtEPis5bBvSrXVWfRa77X.jpg",
+  "backdrop_path": "/9c4soJ1f1IPAyoCj0CDwKNThsBV.jpg",
+  "runtime": 165,
+  "director": [
+   "Priyadarshan"
+  ]
+ },
+ "Chupke Chupke|1975|hindi": {
+  "title": "Chupke Chupke",
+  "year": 1975,
+  "language": "hindi",
+  "tmdb_id": 21459,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Chupke Chupke",
+  "release_date": "1975-04-11",
+  "poster_path": "/yNZf2yhQE42f3uIcR1IXOiMQ72c.jpg",
+  "backdrop_path": "/teuyga76jorbE6TMs69v5cKCGtV.jpg",
+  "runtime": 145,
+  "director": [
+   "Hrishikesh Mukherjee"
+  ]
+ },
+ "Commando|2013|hindi": {
+  "title": "Commando",
+  "year": 2013,
+  "language": "hindi",
+  "tmdb_id": 185640,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Commando - A One Man Army",
+  "release_date": "2013-04-11",
+  "poster_path": "/atBgLfwxFERXExObsqK1jFoCTZ.jpg",
+  "backdrop_path": "/xi8duxGn90dIWt4i74LObYnTcjj.jpg",
+  "runtime": 119,
+  "director": [
+   "Dilip Ghosh"
+  ]
+ },
+ "Company|2002|hindi": {
+  "title": "Company",
+  "year": 2002,
+  "language": "hindi",
+  "tmdb_id": 15761,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Company",
+  "release_date": "2002-04-15",
+  "poster_path": "/1A2J7bYryOmBVBU8qpTs3fta0hv.jpg",
+  "backdrop_path": "/iFd0f324IzQgZkCEq5uTc4LUJ1G.jpg",
+  "runtime": 156,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Court|2014|marathi": {
+  "title": "Court",
+  "year": 2014,
+  "language": "marathi",
+  "tmdb_id": 290815,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Court",
+  "release_date": "2015-04-17",
+  "poster_path": "/ve1UFCZYu8WHmeGRH4ToEcGnj6e.jpg",
+  "backdrop_path": "/lK9R56dfj182Uz4THzEZ5vrUEn.jpg",
+  "runtime": 116,
+  "director": [
+   "Chaitanya Tamhane"
+  ]
+ },
+ "D-Day|2013|hindi": {
+  "title": "D-Day",
+  "year": 2013,
+  "language": "hindi",
+  "tmdb_id": 206851,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "D-Day",
+  "release_date": "2013-07-19",
+  "poster_path": "/q2pizfhonKPTWdB4OC49qJWbBqi.jpg",
+  "backdrop_path": "/A8vjn3hsXsdIGtGRQicjqGWcli5.jpg",
+  "runtime": 153,
+  "director": [
+   "Nikkhil Advani"
+  ]
+ },
+ "Dangal|2016|hindi": {
+  "title": "Dangal",
+  "year": 2016,
+  "language": "hindi",
+  "tmdb_id": 360814,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dangal",
+  "release_date": "2016-12-21",
+  "poster_path": "/cJRPOLEexI7qp2DKtFfCh7YaaUG.jpg",
+  "backdrop_path": "/l0fNAHLOFReQJsxCOmGWvJDnimn.jpg",
+  "runtime": 161,
+  "director": [
+   "Nitesh Tiwari"
+  ]
+ },
+ "Darr|1993|hindi": {
+  "title": "Darr",
+  "year": 1993,
+  "language": "hindi",
+  "tmdb_id": 35053,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Darr",
+  "release_date": "1993-09-01",
+  "poster_path": "/xa0n9hBFZgVgSw1Ia4A8ImuzWbh.jpg",
+  "backdrop_path": "/fdGewDtvAMlA0jKzPFGV0QhSalV.jpg",
+  "runtime": 179,
+  "director": [
+   "Yash Chopra"
+  ]
+ },
+ "Dear Zindagi|2016|hindi": {
+  "title": "Dear Zindagi",
+  "year": 2016,
+  "language": "hindi",
+  "tmdb_id": 413543,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dear Zindagi",
+  "release_date": "2016-11-23",
+  "poster_path": "/oUg0N2isgZ5rrxdXnsemcKolfKZ.jpg",
+  "backdrop_path": "/d2plahqbICvNTAvhk2lM0HojJGG.jpg",
+  "runtime": 151,
+  "director": [
+   "Gauri Shinde"
+  ]
+ },
+ "Deewaar|1975|hindi": {
+  "title": "Deewaar",
+  "year": 1975,
+  "language": "hindi",
+  "tmdb_id": 22460,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Deewaar",
+  "release_date": "1975-01-24",
+  "poster_path": "/pwzfljCp52jieXTBE0lynz7bu2g.jpg",
+  "backdrop_path": "/lx94BR9gILXSGptjaUSUPveBjJu.jpg",
+  "runtime": 174,
+  "director": [
+   "Yash Chopra"
+  ]
+ },
+ "Demonte Colony|2015|tamil": {
+  "title": "Demonte Colony",
+  "year": 2015,
+  "language": "tamil",
+  "tmdb_id": 341420,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Demonte Colony",
+  "release_date": "2015-05-22",
+  "poster_path": "/4v0rLDCAV0CuZTAoeu8CDPBkksB.jpg",
+  "backdrop_path": "/2OpJhmQ5zZjYRn0CynNcWgFQkow.jpg",
+  "runtime": 116,
+  "director": [
+   "R. Ajay Gnanamuthu"
+  ]
+ },
+ "Devdas|2002|hindi": {
+  "title": "Devdas",
+  "year": 2002,
+  "language": "hindi",
+  "tmdb_id": 15917,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Devdas",
+  "release_date": "2002-07-11",
+  "poster_path": "/4IJObbE9c3rO0bZxMwMtt5n9g2n.jpg",
+  "backdrop_path": "/aqIOQ5UrEGgRTq35BNbwgy7MIU2.jpg",
+  "runtime": 185,
+  "director": [
+   "Sanjay Leela Bhansali"
+  ]
+ },
+ "Deyyam|1996|telugu": {
+  "title": "Deyyam",
+  "year": 1996,
+  "language": "telugu",
+  "tmdb_id": 409197,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Deyyam",
+  "release_date": "1996-06-01",
+  "poster_path": "/k0vSJJrWW2UNMs57bBrLUKI97PY.jpg",
+  "backdrop_path": "/8hUgnRJLNDgN6qPA5ZAXZazVANP.jpg",
+  "runtime": 86,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Dhurandhar|2025|hindi": {
+  "title": "Dhurandhar",
+  "year": 2025,
+  "language": "hindi",
+  "tmdb_id": 1291608,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dhurandhar",
+  "release_date": "2025-12-05",
+  "poster_path": "/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
+  "backdrop_path": "/snYOXem8pUGOffnLbbGq4aB1pg4.jpg",
+  "runtime": 214,
+  "director": [
+   "Aditya Dhar"
+  ]
+ },
+ "Dhuruvangal Pathinaaru|2016|tamil": {
+  "title": "Dhuruvangal Pathinaaru",
+  "year": 2016,
+  "language": "tamil",
+  "tmdb_id": 414523,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dhuruvangal Pathinaaru",
+  "release_date": "2016-12-29",
+  "poster_path": "/3Zye7j7eunhb7jLdL8mj8xvFw5G.jpg",
+  "backdrop_path": "/oMrHc2JwH0Khh9khoFKch05ryJm.jpg",
+  "runtime": 106,
+  "director": [
+   "Karthick Naren"
+  ]
+ },
+ "Dil Chahta Hai|2001|hindi": {
+  "title": "Dil Chahta Hai",
+  "year": 2001,
+  "language": "hindi",
+  "tmdb_id": 14752,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dil Chahta Hai",
+  "release_date": "2001-07-24",
+  "poster_path": "/c6Cicaf2FFmfcInfsbPTxMLk5CS.jpg",
+  "backdrop_path": "/fJ3k4ctIvIyeQxyNhUWZaLwKeP5.jpg",
+  "runtime": 183,
+  "director": [
+   "Farhan Akhtar"
+  ]
+ },
+ "Dil Se..|1998|hindi": {
+  "title": "Dil Se..",
+  "year": 1998,
+  "language": "hindi",
+  "tmdb_id": 21210,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dil Se..",
+  "release_date": "1998-08-22",
+  "poster_path": "/rdnkOPYlHf8WaPRllTz3dsuzpp8.jpg",
+  "backdrop_path": "/8v8Uc4PfiZk6g87qdq2L87sCDvE.jpg",
+  "runtime": 163,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Dilwale Dulhania Le Jayenge|1995|hindi": {
+  "title": "Dilwale Dulhania Le Jayenge",
+  "year": 1995,
+  "language": "hindi",
+  "tmdb_id": 19404,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Dilwale Dulhania Le Jayenge",
+  "release_date": "1995-10-20",
+  "poster_path": "/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
+  "backdrop_path": "/7VDLEHli74eLsYLNcq9djn1Gw76.jpg",
+  "runtime": 190,
+  "director": [
+   "Aditya Chopra"
+  ]
+ },
+ "Do Bigha Zamin|1953|hindi": {
+  "title": "Do Bigha Zamin",
+  "year": 1953,
+  "language": "hindi",
+  "tmdb_id": 54352,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Two Acres of Land",
+  "release_date": "1953-01-02",
+  "poster_path": "/uFCgOvfHfqRd6N4fBXqaSKS9Rlm.jpg",
+  "backdrop_path": "/hifKfHKoLMKLoBZxILJBbbfMJkm.jpg",
+  "runtime": 125,
+  "director": [
+   "Bimal Roy"
+  ]
+ },
+ "Don 2|2011|hindi": {
+  "title": "Don 2",
+  "year": 2011,
+  "language": "hindi",
+  "tmdb_id": 41109,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Don 2",
+  "release_date": "2011-12-22",
+  "poster_path": "/2gBM8c36HIwn4vc2UuMeliqiCKY.jpg",
+  "backdrop_path": "/r4crDJeIpT2ZDLmptpA27Q67NZG.jpg",
+  "runtime": 139,
+  "director": [
+   "Farhan Akhtar"
+  ]
+ },
+ "Don|2006|hindi": {
+  "title": "Don",
+  "year": 2006,
+  "language": "hindi",
+  "tmdb_id": 17501,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Don",
+  "release_date": "2006-10-20",
+  "poster_path": "/1d52h7aDRlc5IPUFno24XPNT6hA.jpg",
+  "backdrop_path": "/edCPKBBiWwiLnvMyDwpDeEHL0Oz.jpg",
+  "runtime": 178,
+  "director": [
+   "Farhan Akhtar"
+  ]
+ },
+ "Drishyam 2|2021|malayalam": {
+  "title": "Drishyam 2",
+  "year": 2021,
+  "language": "malayalam",
+  "tmdb_id": 706872,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Drishyam 2",
+  "release_date": "2021-02-19",
+  "poster_path": "/8RJBCUGE27LX06tAES4jTELN0KA.jpg",
+  "backdrop_path": "/2C6yyoCStz7jcwjINdJTF5zAbi4.jpg",
+  "runtime": 153,
+  "director": [
+   "Jeethu Joseph"
+  ]
+ },
+ "Drishyam|2013|malayalam": {
+  "title": "Drishyam",
+  "year": 2013,
+  "language": "malayalam",
+  "tmdb_id": 244049,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Drishyam",
+  "release_date": "2013-12-19",
+  "poster_path": "/gPBldHTnqpgsrnDnSrAlFwE6Q1t.jpg",
+  "backdrop_path": "/uqcM9eRqUyZCJCGDkLozP9TGAHn.jpg",
+  "runtime": 164,
+  "director": [
+   "Jeethu Joseph"
+  ]
+ },
+ "Eega|2012|telugu": {
+  "title": "Eega",
+  "year": 2012,
+  "language": "telugu",
+  "tmdb_id": 148265,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Eega",
+  "release_date": "2012-07-05",
+  "poster_path": "/pX7fn4EZrg2YFlV4GNMIfHDOQZ6.jpg",
+  "backdrop_path": "/fuCfQ0D2HtNa7kRLFDkPWl87Zs9.jpg",
+  "runtime": 145,
+  "director": [
+   "S. S. Rajamouli"
+  ]
+ },
+ "Eeram|2009|tamil": {
+  "title": "Eeram",
+  "year": 2009,
+  "language": "tamil",
+  "tmdb_id": 66536,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Eeram",
+  "release_date": "2009-09-11",
+  "poster_path": "/tJ3wB8JxnOlXfAu7gtYK0hvKRBu.jpg",
+  "backdrop_path": "/1NnQpikTX5WhLqiQGUZL3oIMYCz.jpg",
+  "runtime": 164,
+  "director": [
+   "Arivazhagan Venkatachalam"
+  ]
+ },
+ "Egaro|2011|bengali": {
+  "title": "Egaro",
+  "year": 2011,
+  "language": "bengali",
+  "tmdb_id": 197839,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Egaro: The Eleven",
+  "release_date": "2011-01-21",
+  "poster_path": "/xHXcapGp5y5WGP14HbjhywyApQH.jpg",
+  "backdrop_path": null,
+  "runtime": 113,
+  "director": [
+   "Arun Roy"
+  ]
+ },
+ "Ek Tha Tiger|2012|hindi": {
+  "title": "Ek Tha Tiger",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 85985,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ek Tha Tiger",
+  "release_date": "2012-08-15",
+  "poster_path": "/jGTyeAH5KZuCX6Qat1VcTBXnqth.jpg",
+  "backdrop_path": "/jM8C4mURyEkQorqyGF5wPFp4M5J.jpg",
+  "runtime": 133,
+  "director": [
+   "Kabir Khan"
+  ]
+ },
+ "English Vinglish|2012|hindi": {
+  "title": "English Vinglish",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 118628,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "English Vinglish",
+  "release_date": "2012-09-21",
+  "poster_path": "/ccEVR8sf18psGH5daio9y7OGu93.jpg",
+  "backdrop_path": "/5faqsJ8TMT0IhkZ1xgD6PEWm8xm.jpg",
+  "runtime": 134,
+  "director": [
+   "Gauri Shinde"
+  ]
+ },
+ "Enthiran|2010|tamil": {
+  "title": "Enthiran",
+  "year": 2010,
+  "language": "tamil",
+  "tmdb_id": 148284,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Enthiran",
+  "release_date": "2010-10-01",
+  "poster_path": "/hai6CSCLxULO1RThjDP3lWAqOtQ.jpg",
+  "backdrop_path": "/fvsSPqeVq4yhp7oZTGXA99uDQ1v.jpg",
+  "runtime": 176,
+  "director": [
+   "Shankar"
+  ]
+ },
+ "Evaru|2019|telugu": {
+  "title": "Evaru",
+  "year": 2019,
+  "language": "telugu",
+  "tmdb_id": 607310,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Evaru",
+  "release_date": "2019-08-15",
+  "poster_path": "/2klVhQndJRoqstg0mB4xqQ1qpeJ.jpg",
+  "backdrop_path": "/oodlsWgLSFStFvu4mODNXy3i0e0.jpg",
+  "runtime": 118,
+  "director": [
+   "Venkat Ramji"
+  ]
+ },
+ "Ezra|2017|malayalam": {
+  "title": "Ezra",
+  "year": 2017,
+  "language": "malayalam",
+  "tmdb_id": 428642,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ezra",
+  "release_date": "2017-02-10",
+  "poster_path": "/3uk6RGZWy9aGr8lnsAv3CV9l9TX.jpg",
+  "backdrop_path": "/l7RwBYPHNiJwcvvb28ekPgyCimq.jpg",
+  "runtime": 147,
+  "director": [
+   "Jay K"
+  ]
+ },
+ "Fandry|2013|marathi": {
+  "title": "Fandry",
+  "year": 2013,
+  "language": "marathi",
+  "tmdb_id": 230846,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Fandry",
+  "release_date": "2013-10-09",
+  "poster_path": "/zCeFTfyKDITgfYFg2gEyzubhOD9.jpg",
+  "backdrop_path": "/fLpDFeToCC3E2QL0WwhEkuvxtLO.jpg",
+  "runtime": 102,
+  "director": [
+   "Nagraj Popatrao Manjule"
+  ]
+ },
+ "Fan|2016|hindi": {
+  "title": "Fan",
+  "year": 2016,
+  "language": "hindi",
+  "tmdb_id": 377985,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Fan",
+  "release_date": "2016-04-14",
+  "poster_path": "/ui7DYyQB4wsbBvom97KPNkldYWa.jpg",
+  "backdrop_path": "/3jsXJRxDr2rDItjeOtFcVcSvaHH.jpg",
+  "runtime": 138,
+  "director": [
+   "Maneesh Sharma"
+  ]
+ },
+ "Game Over|2019|tamil": {
+  "title": "Game Over",
+  "year": 2019,
+  "language": "tamil",
+  "tmdb_id": 553456,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Game Over",
+  "release_date": "2019-06-14",
+  "poster_path": "/sqXxW8iHcPbqL1k51mygNC0xqcv.jpg",
+  "backdrop_path": "/rszz1WxJ4XhptSJmcsDbRVKNIH1.jpg",
+  "runtime": 97,
+  "director": [
+   "Ashwin Saravanan"
+  ]
+ },
+ "Ganeshana Maduve|1990|kannada": {
+  "title": "Ganeshana Maduve",
+  "year": 1990,
+  "language": "kannada",
+  "tmdb_id": 608568,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ganeshana Maduve",
+  "release_date": "1990-01-01",
+  "poster_path": "/qnbTMS6heu1M6HRQ6lJEGyEuWlo.jpg",
+  "backdrop_path": "/7rhIQZDdGuNGSNLjBML0xfQFQEy.jpg",
+  "runtime": 141,
+  "director": [
+   "Phani Ramachandra"
+  ]
+ },
+ "Gangs of Wasseypur – Parts 1 & 2|2012|hindi": {
+  "title": "Gangs of Wasseypur – Parts 1 & 2",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 117691,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Gangs of Wasseypur - Part 1",
+  "release_date": "2012-06-22",
+  "poster_path": "/xAy208Znkingmfnb5ZbULwLyIwW.jpg",
+  "backdrop_path": "/riwwiv2BMD9D6L3NM4sJjHCMVsm.jpg",
+  "runtime": 160,
+  "director": [
+   "Anurag Kashyap"
+  ]
+ },
+ "Garuda Gamana Vrishabha Vahana|2021|kannada": {
+  "title": "Garuda Gamana Vrishabha Vahana",
+  "year": 2021,
+  "language": "kannada",
+  "tmdb_id": 678466,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Garuda Gamana Vrishabha Vahana",
+  "release_date": "2021-11-19",
+  "poster_path": "/5jWfzHXvqLllbsVL7bvV1UVTq8s.jpg",
+  "backdrop_path": "/mJjBN3ORnRtjGtyqkdiEZGI2P0l.jpg",
+  "runtime": 151,
+  "director": [
+   "Raj B Shetty"
+  ]
+ },
+ "Geethanjali|1989|telugu": {
+  "title": "Geethanjali",
+  "year": 1989,
+  "language": "telugu",
+  "tmdb_id": 148808,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Geethanjali",
+  "release_date": "1989-05-10",
+  "poster_path": "/qZVWloCwvgP5JtaqBWoFY6YspzT.jpg",
+  "backdrop_path": "/b2p8GKgeylD0o0Ka9FfSbBYXQMg.jpg",
+  "runtime": 137,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Ghajini|2005|tamil": {
+  "title": "Ghajini",
+  "year": 2005,
+  "language": "tamil",
+  "tmdb_id": 69636,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ghajini",
+  "release_date": "2005-10-14",
+  "poster_path": "/fWCiwGeABg5APrLGHV2IgxoP20N.jpg",
+  "backdrop_path": "/b0Prc4rfqYHwYCPfgQnAj0AUAnC.jpg",
+  "runtime": 182,
+  "director": [
+   "A. R. Murugadoss"
+  ]
+ },
+ "Ghayal|1990|hindi": {
+  "title": "Ghayal",
+  "year": 1990,
+  "language": "hindi",
+  "tmdb_id": 71308,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ghayal",
+  "release_date": "1990-06-22",
+  "poster_path": "/1zkH6PPyC0oOHTY9wwbDi8FgRcv.jpg",
+  "backdrop_path": "/tbI1HaA2dYQIYnUOrrfn1XHV0KY.jpg",
+  "runtime": 163,
+  "director": [
+   "Rajkumar Santoshi"
+  ]
+ },
+ "Godhi Banna Sadharana Mykattu|2016|kannada": {
+  "title": "Godhi Banna Sadharana Mykattu",
+  "year": 2016,
+  "language": "kannada",
+  "tmdb_id": 402109,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Godhi Banna Sadharana Mykattu",
+  "release_date": "2016-06-03",
+  "poster_path": "/4dImTMse7PPFGHPG6GQuwDng9fB.jpg",
+  "backdrop_path": "/wF1sbZOK6A8a0MwRh8M9DCWFkZ7.jpg",
+  "runtime": 143,
+  "director": [
+   "Hemanth M. Rao"
+  ]
+ },
+ "Gol Maal|1979|hindi": {
+  "title": "Gol Maal",
+  "year": 1979,
+  "language": "hindi",
+  "tmdb_id": 30066,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Gol Maal",
+  "release_date": "1979-04-19",
+  "poster_path": "/uPW269Qx8VxfiQI2PFHcSJkGOI2.jpg",
+  "backdrop_path": "/pfXRHq26dBOJxUs0OlApCFpat1y.jpg",
+  "runtime": 144,
+  "director": [
+   "Hrishikesh Mukherjee"
+  ]
+ },
+ "Gold|2018|hindi": {
+  "title": "Gold",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 478682,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Gold",
+  "release_date": "2018-08-15",
+  "poster_path": "/xCcdW6nHRcrKWraErYV5g3tut7Q.jpg",
+  "backdrop_path": "/yEaP3drEAqFIWfiOuhELKsJsqx6.jpg",
+  "runtime": 170,
+  "director": [
+   "Reema Kagti"
+  ]
+ },
+ "Goodachari|2018|telugu": {
+  "title": "Goodachari",
+  "year": 2018,
+  "language": "telugu",
+  "tmdb_id": 540189,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Goodachari",
+  "release_date": "2018-08-03",
+  "poster_path": "/uG04EjdV1zrj91ROxP75jwRxxv0.jpg",
+  "backdrop_path": "/eXSJvPl4kOQFBaQqMSEOQJRaG1t.jpg",
+  "runtime": 147,
+  "director": [
+   "Sashi Kiran Tikka"
+  ]
+ },
+ "Guide|1965|hindi": {
+  "title": "Guide",
+  "year": 1965,
+  "language": "hindi",
+  "tmdb_id": 80484,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Guide",
+  "release_date": "1965-02-06",
+  "poster_path": "/a31qY8UA4hsJdwFrollZ1iRzukC.jpg",
+  "backdrop_path": "/9hXAAN4xUdXlr0gPwAtKztnEUDt.jpg",
+  "runtime": 183,
+  "director": [
+   "Vijay Anand"
+  ]
+ },
+ "Gully Boy|2019|hindi": {
+  "title": "Gully Boy",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 491625,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Gully Boy",
+  "release_date": "2019-02-14",
+  "poster_path": "/4RE7TD5TqEXbPKyUHcn7CSeMlrJ.jpg",
+  "backdrop_path": "/gcZbciueHH7WmD03GcVZX7LYqmR.jpg",
+  "runtime": 156,
+  "director": [
+   "Zoya Akhtar"
+  ]
+ },
+ "Guru|2017|telugu": {
+  "title": "Guru",
+  "year": 2017,
+  "language": "telugu",
+  "tmdb_id": 447965,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Guru",
+  "release_date": "2017-03-31",
+  "poster_path": "/beYqbxGlwSK1A8ww7j4NR2uiRHN.jpg",
+  "backdrop_path": "/aJoYPL9pMm2amfDevzyTXKq9FA3.jpg",
+  "runtime": 116,
+  "director": [
+   "Sudha Kongara Prasad"
+  ]
+ },
+ "Happy Days|2007|telugu": {
+  "title": "Happy Days",
+  "year": 2007,
+  "language": "telugu",
+  "tmdb_id": 199160,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Happy Days",
+  "release_date": "2007-09-28",
+  "poster_path": "/9PTzngN3VOmxQg6vFOkAGFMSxWi.jpg",
+  "backdrop_path": "/yxe6Eln5J6UJWbh5yjxP8mo6zGa.jpg",
+  "runtime": 160,
+  "director": [
+   "Sekhar Kammula"
+  ]
+ },
+ "Haqeeqat|1964|hindi": {
+  "title": "Haqeeqat",
+  "year": 1964,
+  "language": "hindi",
+  "tmdb_id": 326781,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Haqeeqat",
+  "release_date": "1964-02-03",
+  "poster_path": "/3P0EaiZ2xYqYgNZ9nS7KSlydGsk.jpg",
+  "backdrop_path": null,
+  "runtime": 169,
+  "director": [
+   "Chetan Anand"
+  ]
+ },
+ "Hazaaron Khwaishein Aisi|2003|hindi": {
+  "title": "Hazaaron Khwaishein Aisi",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 21557,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Hazaaron Khwaishein Aisi",
+  "release_date": "2005-05-15",
+  "poster_path": "/q9YIo33RIwA0vUZ7Cz9gIQv68lS.jpg",
+  "backdrop_path": "/clClcoMCHkbey3jVhM8dMa1ZIOO.jpg",
+  "runtime": 117,
+  "director": [
+   "Sudhir Mishra"
+  ]
+ },
+ "Hera Pheri|2000|hindi": {
+  "title": "Hera Pheri",
+  "year": 2000,
+  "language": "hindi",
+  "tmdb_id": 21614,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Hera Pheri",
+  "release_date": "2000-03-31",
+  "poster_path": "/23MKGUPT5laTStim4TaGhfgSltu.jpg",
+  "backdrop_path": "/AkfqKaD1KqfIqytxLvWlyKJRlEi.jpg",
+  "runtime": 156,
+  "director": [
+   "Priyadarshan"
+  ]
+ },
+ "Hip Hip Hurray|1984|hindi": {
+  "title": "Hip Hip Hurray",
+  "year": 1984,
+  "language": "hindi",
+  "tmdb_id": 170990,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Hip Hip Hurray",
+  "release_date": "1983-12-31",
+  "poster_path": "/x6RQZHc76dKFg7OrZ8WUiwiYQBc.jpg",
+  "backdrop_path": null,
+  "runtime": 121,
+  "director": [
+   "Prakash Jha"
+  ]
+ },
+ "Hridayam|2022|malayalam": {
+  "title": "Hridayam",
+  "year": 2022,
+  "language": "malayalam",
+  "tmdb_id": 653221,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Hridayam",
+  "release_date": "2022-01-21",
+  "poster_path": "/rMNzpbruCuBmYPWhaNLrKOlNKcu.jpg",
+  "backdrop_path": "/mrupP5GXx8O4dmhUTTjxND4TMEw.jpg",
+  "runtime": 172,
+  "director": [
+   "Vineeth Sreenivasan"
+  ]
+ },
+ "Hum Aapke Hain Koun..!|1994|hindi": {
+  "title": "Hum Aapke Hain Koun..!",
+  "year": 1994,
+  "language": "hindi",
+  "tmdb_id": 46387,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Hum Aapke Hain Koun..!",
+  "release_date": "1994-08-05",
+  "poster_path": "/bQtT9GsMtPjjfkFPXUSN9pt7uts.jpg",
+  "backdrop_path": "/hZB1ke21feNJ7yJRGiyVlnanvin.jpg",
+  "runtime": 207,
+  "director": [
+   "Sooraj Barjatya"
+  ]
+ },
+ "Indian|1996|tamil": {
+  "title": "Indian",
+  "year": 1996,
+  "language": "tamil",
+  "tmdb_id": 31521,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Indian",
+  "release_date": "1996-05-09",
+  "poster_path": "/zhGayNbH2ZHWaJkhSv3qEhs5fy6.jpg",
+  "backdrop_path": "/gLokHZ39okWFb9QL3xe8fvNAFDm.jpg",
+  "runtime": 185,
+  "director": [
+   "Shankar"
+  ]
+ },
+ "Iqbal|2005|hindi": {
+  "title": "Iqbal",
+  "year": 2005,
+  "language": "hindi",
+  "tmdb_id": 21567,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Iqbal",
+  "release_date": "2005-08-26",
+  "poster_path": "/oPdtscy3BYDsM83wddWkmQxcTEg.jpg",
+  "backdrop_path": "/zKZnrVibEVUApzkcdyAZKM2jnwW.jpg",
+  "runtime": 150,
+  "director": [
+   "Nagesh Kukunoor"
+  ]
+ },
+ "Iruvar|1997|tamil": {
+  "title": "Iruvar",
+  "year": 1997,
+  "language": "tamil",
+  "tmdb_id": 49032,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Iruvar",
+  "release_date": "1997-01-14",
+  "poster_path": "/meBNe0IHOhYNjNna2YlxXQ3iwvL.jpg",
+  "backdrop_path": "/mGZY68Ab7QeVedY4jWZ6H2xeYaD.jpg",
+  "runtime": 140,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Jaal|1952|hindi": {
+  "title": "Jaal",
+  "year": 1952,
+  "language": "hindi",
+  "tmdb_id": 185552,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jaal",
+  "release_date": "1952-03-31",
+  "poster_path": "/ex7KfIFcDxGqS8rxzrXhds5AzPR.jpg",
+  "backdrop_path": "/pmSwGA0vUxjh9e5bULFEI8meZWe.jpg",
+  "runtime": 115,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Jaane Bhi Do Yaaro|1983|hindi": {
+  "title": "Jaane Bhi Do Yaaro",
+  "year": 1983,
+  "language": "hindi",
+  "tmdb_id": 25499,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jaane Bhi Do Yaaro",
+  "release_date": "1983-08-12",
+  "poster_path": "/s2LcyaA9zSi3JDOqskfW1rQfn0Z.jpg",
+  "backdrop_path": "/1BbgYWI4Dz1VTgVMcQFwW7OQqRT.jpg",
+  "runtime": 132,
+  "director": [
+   "Kundan Shah"
+  ]
+ },
+ "Jab We Met|2007|hindi": {
+  "title": "Jab We Met",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 11807,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jab We Met",
+  "release_date": "2007-10-26",
+  "poster_path": "/sQ7A7jyTbkK90vjd8yCRuoyL9CK.jpg",
+  "backdrop_path": "/WJtnxUbB5kOqD0AfS4viDuHxbC.jpg",
+  "runtime": 138,
+  "director": [
+   "Imtiaz Ali"
+  ]
+ },
+ "Jagte Raho|1956|hindi": {
+  "title": "Jagte Raho",
+  "year": 1956,
+  "language": "hindi",
+  "tmdb_id": 131242,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jagte Raho",
+  "release_date": "1956-12-12",
+  "poster_path": "/sogyhWt2KP82glhrQYm1DQsAajF.jpg",
+  "backdrop_path": "/l56rcuVJVfVaTYVVH5rQj35Fv3U.jpg",
+  "runtime": 137,
+  "director": [
+   "Amit Mitra",
+   "Sombhu Mitra"
+  ]
+ },
+ "Jai Bhim|2021|tamil": {
+  "title": "Jai Bhim",
+  "year": 2021,
+  "language": "tamil",
+  "tmdb_id": 855400,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jai Bhim",
+  "release_date": "2021-11-02",
+  "poster_path": "/ehybiOtBUtrMkmtB39zQEtq1Jie.jpg",
+  "backdrop_path": "/40lmQ5vzKJhj5k7i0hvZuglneyj.jpg",
+  "runtime": 164,
+  "director": [
+   "T. J. Gnanavel"
+  ]
+ },
+ "Jana Gana Mana|2022|malayalam": {
+  "title": "Jana Gana Mana",
+  "year": 2022,
+  "language": "malayalam",
+  "tmdb_id": 792358,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jana Gana Mana",
+  "release_date": "2022-04-28",
+  "poster_path": "/1bSPVn6HlkGYTQ4tJYJ0UGWnQM9.jpg",
+  "backdrop_path": "/qo4WSjKvtw6KztqhgK1tXsLuVP4.jpg",
+  "runtime": 162,
+  "director": [
+   "Dijo Jose Antony"
+  ]
+ },
+ "Jawan|2023|hindi": {
+  "title": "Jawan",
+  "year": 2023,
+  "language": "hindi",
+  "tmdb_id": 872906,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jawan",
+  "release_date": "2023-09-07",
+  "poster_path": "/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
+  "backdrop_path": "/5LtSjMNw6j3LkG29Oa4O0iY5U8.jpg",
+  "runtime": 169,
+  "director": [
+   "Atlee"
+  ]
+ },
+ "Jersey|2019|telugu": {
+  "title": "Jersey",
+  "year": 2019,
+  "language": "telugu",
+  "tmdb_id": 592898,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jersey",
+  "release_date": "2019-04-19",
+  "poster_path": "/bU9q9yVtxeBiC0Do27CekHXNE6D.jpg",
+  "backdrop_path": "/53CsGhbXKhmzcOQntz7Qs0whQ6g.jpg",
+  "runtime": 160,
+  "director": [
+   "Gowtam Tinnanuri"
+  ]
+ },
+ "Jigarthanda|2014|tamil": {
+  "title": "Jigarthanda",
+  "year": 2014,
+  "language": "tamil",
+  "tmdb_id": 270766,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jigarthanda",
+  "release_date": "2014-08-01",
+  "poster_path": "/oDcQE70RYc78iBYgHRknl64QKTu.jpg",
+  "backdrop_path": "/ydXxKE3km4qsoqunO6g5SpbKhD4.jpg",
+  "runtime": 170,
+  "director": [
+   "Karthik Subbaraj"
+  ]
+ },
+ "Jo Jeeta Wohi Sikandar|1992|hindi": {
+  "title": "Jo Jeeta Wohi Sikandar",
+  "year": 1992,
+  "language": "hindi",
+  "tmdb_id": 33202,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Jo Jeeta Wohi Sikandar",
+  "release_date": "1992-05-22",
+  "poster_path": "/ua2QjZneNg6FsxrccsTkLy1wnwc.jpg",
+  "backdrop_path": "/t4udEv84RinojiR8tO93pssaJUX.jpg",
+  "runtime": 174,
+  "director": [
+   "Mansoor Khan"
+  ]
+ },
+ "Johnny Gaddaar|2007|hindi": {
+  "title": "Johnny Gaddaar",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 20129,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Johnny Gaddaar",
+  "release_date": "2007-09-28",
+  "poster_path": "/jWpo1qCIefGxJjQOURu2IfQgQK4.jpg",
+  "backdrop_path": "/6EQSeEZlejnbrNRMAdhWffCeQeB.jpg",
+  "runtime": 141,
+  "director": [
+   "Sriram Raghavan"
+  ]
+ },
+ "Joji|2021|malayalam": {
+  "title": "Joji",
+  "year": 2021,
+  "language": "malayalam",
+  "tmdb_id": 791779,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Joji",
+  "release_date": "2021-04-07",
+  "poster_path": "/iXAUPTb8XNSf5B4zyUAEajz2vFu.jpg",
+  "backdrop_path": "/lVp8amNsbz0rNOTcjeA3Z4Q8Vhd.jpg",
+  "runtime": 113,
+  "director": [
+   "Dileesh Pothan"
+  ]
+ },
+ "Joseph|2018|malayalam": {
+  "title": "Joseph",
+  "year": 2018,
+  "language": "malayalam",
+  "tmdb_id": 562326,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Joseph",
+  "release_date": "2018-11-16",
+  "poster_path": "/uwBm7hx6Exdb0KzLoPZzqieBlDO.jpg",
+  "backdrop_path": "/AoC2T47uPgfrf1WZKFURbdApBot.jpg",
+  "runtime": 138,
+  "director": [
+   "Padmakumar M"
+  ]
+ },
+ "June|2019|malayalam": {
+  "title": "June",
+  "year": 2019,
+  "language": "malayalam",
+  "tmdb_id": 580896,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "June",
+  "release_date": "2019-02-15",
+  "poster_path": "/A5uFEcI9j26cPgjzoEP9DsNEVLL.jpg",
+  "backdrop_path": "/nY1Wt3F7nySV7PSFP12aYsBe8xH.jpg",
+  "runtime": 141,
+  "director": [
+   "Ahammed Khabeer"
+  ]
+ },
+ "K.G.F: Chapter 1|2018|kannada": {
+  "title": "K.G.F: Chapter 1",
+  "year": 2018,
+  "language": "kannada",
+  "tmdb_id": 564147,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "K.G.F: Chapter 1",
+  "release_date": "2018-12-20",
+  "poster_path": "/ltHlJwvxKv7d0ooCiKSAvfwV9tX.jpg",
+  "backdrop_path": "/4i1ofsSpfTuswHXcgPtXbZrSnoe.jpg",
+  "runtime": 156,
+  "director": [
+   "Prashanth Neel"
+  ]
+ },
+ "K.G.F: Chapter 2|2022|kannada": {
+  "title": "K.G.F: Chapter 2",
+  "year": 2022,
+  "language": "kannada",
+  "tmdb_id": 587412,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "K.G.F: Chapter 2",
+  "release_date": "2022-04-14",
+  "poster_path": "/khNVygolU0TxLIDWff5tQlAhZ23.jpg",
+  "backdrop_path": "/nsV5Mfi9FAV4w8eDsdr7uqVswOk.jpg",
+  "runtime": 168,
+  "director": [
+   "Prashanth Neel"
+  ]
+ },
+ "Kaagaz Ke Phool|1959|hindi": {
+  "title": "Kaagaz Ke Phool",
+  "year": 1959,
+  "language": "hindi",
+  "tmdb_id": 53767,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kaagaz Ke Phool",
+  "release_date": "1959-02-01",
+  "poster_path": "/aBdEEAKEuzcvk8IKsHfbz3KSitZ.jpg",
+  "backdrop_path": "/jKmX5N1jr36MCYbW9XOi93xymGM.jpg",
+  "runtime": 142,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Kaaka Muttai|2014|tamil": {
+  "title": "Kaaka Muttai",
+  "year": 2014,
+  "language": "tamil",
+  "tmdb_id": 264038,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kaaka Muttai",
+  "release_date": "2015-06-05",
+  "poster_path": "/9WP1OhafzS1KM7GUhpwkOqBFcRJ.jpg",
+  "backdrop_path": "/8jScsevTSGlYNGGtqvg20YpS9yx.jpg",
+  "runtime": 109,
+  "director": [
+   "M. Manikandan"
+  ]
+ },
+ "Kaala|2018|tamil": {
+  "title": "Kaala",
+  "year": 2018,
+  "language": "tamil",
+  "tmdb_id": 459008,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kaala",
+  "release_date": "2018-06-07",
+  "poster_path": "/xVAZZN4Av3e6YxwLgUWTYDNtta1.jpg",
+  "backdrop_path": "/3fwoJ2KvqWHpdVW6HC6x0DpDEpJ.jpg",
+  "runtime": 166,
+  "director": [
+   "Pa. Ranjith"
+  ]
+ },
+ "Kabhi Haan Kabhi Naa|1994|hindi": {
+  "title": "Kabhi Haan Kabhi Naa",
+  "year": 1994,
+  "language": "hindi",
+  "tmdb_id": 15419,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kabhi Haan Kabhi Naa",
+  "release_date": "1994-02-25",
+  "poster_path": "/6FtBaFCz3UFFhXyE4JHxQDn43gM.jpg",
+  "backdrop_path": "/q8ZR4yCKRH9YCtmb3mwgTyytvYM.jpg",
+  "runtime": 158,
+  "director": [
+   "Kundan Shah"
+  ]
+ },
+ "Kabhi Khushi Kabhie Gham...|2001|hindi": {
+  "title": "Kabhi Khushi Kabhie Gham...",
+  "year": 2001,
+  "language": "hindi",
+  "tmdb_id": 10757,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kabhi Khushi Kabhie Gham",
+  "release_date": "2001-12-14",
+  "poster_path": "/eJrD94E1msYEa0DygvkvdEKpChm.jpg",
+  "backdrop_path": "/sPMBiyjTco4JdKojlfGIz5Wd0jC.jpg",
+  "runtime": 209,
+  "director": [
+   "Karan Johar"
+  ]
+ },
+ "Kahaani|2012|hindi": {
+  "title": "Kahaani",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 82825,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kahaani",
+  "release_date": "2012-03-08",
+  "poster_path": "/eJpl0LdFTSA3wcPYtUUgbsBxPbe.jpg",
+  "backdrop_path": "/ycRsscsENS6hTTRPlSv3YyBAkHD.jpg",
+  "runtime": 122,
+  "director": [
+   "Sujoy Ghosh"
+  ]
+ },
+ "Kaithi|2019|tamil": {
+  "title": "Kaithi",
+  "year": 2019,
+  "language": "tamil",
+  "tmdb_id": 587030,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kaithi",
+  "release_date": "2019-10-24",
+  "poster_path": "/hOF9CgPsy9aLr5GJEBESC8MEXFy.jpg",
+  "backdrop_path": "/seTFDq1iKyJ6YHr7HePbC20DMsy.jpg",
+  "runtime": 147,
+  "director": [
+   "Lokesh Kanagaraj"
+  ]
+ },
+ "Kal Ho Naa Ho|2003|hindi": {
+  "title": "Kal Ho Naa Ho",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 4254,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kal Ho Naa Ho",
+  "release_date": "2003-11-27",
+  "poster_path": "/zhMI6I0kSLnewTMwE0A8Tz3Cj2f.jpg",
+  "backdrop_path": "/9SBIiF803WgYbLtgstZ64GCW9Hh.jpg",
+  "runtime": 187,
+  "director": [
+   "Nikkhil Advani"
+  ]
+ },
+ "Kaminey|2009|hindi": {
+  "title": "Kaminey",
+  "year": 2009,
+  "language": "hindi",
+  "tmdb_id": 20688,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kaminey",
+  "release_date": "2009-08-14",
+  "poster_path": "/woeEkDNTyaJbNLEZXMkvk4XLNTx.jpg",
+  "backdrop_path": "/fIPznqfHROKTU2lNx6V6gIrD6EY.jpg",
+  "runtime": 135,
+  "director": [
+   "Vishal Bhardwaj"
+  ]
+ },
+ "Kammatipaadam|2016|malayalam": {
+  "title": "Kammatipaadam",
+  "year": 2016,
+  "language": "malayalam",
+  "tmdb_id": 398786,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kammatti Paadam",
+  "release_date": "2016-05-20",
+  "poster_path": "/2zJoZn1EBR6UQDr6OdT4Og77zFn.jpg",
+  "backdrop_path": "/o8UR1OEJxkdjo4eipuWhV60LlGe.jpg",
+  "runtime": 177,
+  "director": [
+   "Rajeev Ravi"
+  ]
+ },
+ "Kanaa|2018|tamil": {
+  "title": "Kanaa",
+  "year": 2018,
+  "language": "tamil",
+  "tmdb_id": 536595,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kanaa",
+  "release_date": "2018-12-21",
+  "poster_path": "/2Pse0omNBOQcWhrp8gZpgu6Crhc.jpg",
+  "backdrop_path": "/qwXvzz1gEhdQSwCUnaXk3SOrHFj.jpg",
+  "runtime": 145,
+  "director": [
+   "Arunraja Kamaraj"
+  ]
+ },
+ "Kanche|2015|telugu": {
+  "title": "Kanche",
+  "year": 2015,
+  "language": "telugu",
+  "tmdb_id": 364795,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kanche",
+  "release_date": "2015-10-22",
+  "poster_path": "/xKYefD66zwrx2DbGSWoB5rjjmk6.jpg",
+  "backdrop_path": "/jTpEhrUSqomu3UdMXP8og7d7dOe.jpg",
+  "runtime": 119,
+  "director": [
+   "Krish Jagarlamudi"
+  ]
+ },
+ "Kapoor & Sons|2016|hindi": {
+  "title": "Kapoor & Sons",
+  "year": 2016,
+  "language": "hindi",
+  "tmdb_id": 374173,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kapoor & Sons",
+  "release_date": "2016-03-18",
+  "poster_path": "/oPdcOInH8TqR5udDTDPiDuLSN90.jpg",
+  "backdrop_path": "/A1TQEghkN2QuHQTwrziA5ttfqib.jpg",
+  "runtime": 137,
+  "director": [
+   "Shakun Batra"
+  ]
+ },
+ "Khufiya|2023|hindi": {
+  "title": "Khufiya",
+  "year": 2023,
+  "language": "hindi",
+  "tmdb_id": 878926,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Khufiya",
+  "release_date": "2023-10-05",
+  "poster_path": "/bbHUuTEo2DsYLoXCjkL8kB0oPhy.jpg",
+  "backdrop_path": "/9Ijxw19fKxMr6bKEyfK3gQ9lVU1.jpg",
+  "runtime": 158,
+  "director": [
+   "Vishal Bhardwaj"
+  ]
+ },
+ "Khwaabb|2014|hindi": {
+  "title": "Khwaabb",
+  "year": 2014,
+  "language": "hindi",
+  "tmdb_id": 316824,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Khwaabb",
+  "release_date": "2014-05-09",
+  "poster_path": "/2UKmCtK88Oz3atksZvYh94Khy7p.jpg",
+  "backdrop_path": null,
+  "runtime": 101,
+  "director": [
+   "Zaid Ali Khan"
+  ]
+ },
+ "Killa|2014|marathi": {
+  "title": "Killa",
+  "year": 2014,
+  "language": "marathi",
+  "tmdb_id": 284729,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Killa",
+  "release_date": "2014-10-26",
+  "poster_path": "/iVB17J0jzkLi86eHLugQdMjseC6.jpg",
+  "backdrop_path": "/yu0m6V2M9B67MdKT2AO2lEHvmLB.jpg",
+  "runtime": 107,
+  "director": [
+   "Avinash Arun"
+  ]
+ },
+ "Kill|2024|hindi": {
+  "title": "Kill",
+  "year": 2024,
+  "language": "hindi",
+  "tmdb_id": 1160018,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "KILL",
+  "release_date": "2024-07-03",
+  "poster_path": "/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg",
+  "backdrop_path": "/u060S4drIWntmLeMDGe7mD0V6Jh.jpg",
+  "runtime": 105,
+  "director": [
+   "Nikhil Nagesh Bhat"
+  ]
+ },
+ "Kilukkam|1991|malayalam": {
+  "title": "Kilukkam",
+  "year": 1991,
+  "language": "malayalam",
+  "tmdb_id": 139476,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kilukkam",
+  "release_date": "1991-08-15",
+  "poster_path": "/5F37oi8ClcxKBcwqwUlATHBd1mD.jpg",
+  "backdrop_path": "/o582HZ0znsMmq4TzaBHUqX5DJbV.jpg",
+  "runtime": 155,
+  "director": [
+   "Priyadarshan"
+  ]
+ },
+ "Kireedam|1989|malayalam": {
+  "title": "Kireedam",
+  "year": 1989,
+  "language": "malayalam",
+  "tmdb_id": 191017,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kireedam",
+  "release_date": "1989-07-07",
+  "poster_path": "/9mKxljfSzQ9UXpgEPLvGTwXvZUv.jpg",
+  "backdrop_path": "/i5iCILIdUrbujjuCosVmAabVUna.jpg",
+  "runtime": 127,
+  "director": [
+   "Sibi Malayil"
+  ]
+ },
+ "Kirik Party|2016|kannada": {
+  "title": "Kirik Party",
+  "year": 2016,
+  "language": "kannada",
+  "tmdb_id": 433327,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kirik Party",
+  "release_date": "2016-12-30",
+  "poster_path": "/16gpI8K51r2FzZ9wE0VXmrG5v9c.jpg",
+  "backdrop_path": "/26urzEswGoBMN8a4umZgyMvlIKm.jpg",
+  "runtime": 165,
+  "director": [
+   "Rishab Shetty"
+  ]
+ },
+ "Kissa Kursi Ka|1977|hindi": {
+  "title": "Kissa Kursi Ka",
+  "year": 1977,
+  "language": "hindi",
+  "tmdb_id": 695952,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kissaa Kursee Kaa",
+  "release_date": "1978-02-16",
+  "poster_path": "/zfHtBz1f5JAAD3JXpzmfWDqLYZA.jpg",
+  "backdrop_path": "/zWJJsQnWecgr8Rc1tAJK6MFNnCj.jpg",
+  "runtime": 142,
+  "director": [
+   "Amrit Nahata"
+  ]
+ },
+ "Kousalya Krishnamurthy|2019|telugu": {
+  "title": "Kousalya Krishnamurthy",
+  "year": 2019,
+  "language": "telugu",
+  "tmdb_id": 605245,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kousalya Krishnamurthy",
+  "release_date": "2019-08-23",
+  "poster_path": "/wXX8gu7R4CsQaIlhrqXePeR9FBJ.jpg",
+  "backdrop_path": "/1jdhLFiejYWS5h5Cz07T2s9uyjR.jpg",
+  "runtime": 149,
+  "director": [
+   "Bhimaneni Srinivasa Rao"
+  ]
+ },
+ "Ko|2011|tamil": {
+  "title": "Ko",
+  "year": 2011,
+  "language": "tamil",
+  "tmdb_id": 63654,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ko",
+  "release_date": "2011-04-22",
+  "poster_path": "/oe91RGQkLROh0rTNoStnse1p0qw.jpg",
+  "backdrop_path": "/19pGxP79ciHgdQ20bzc0KCM1Ogg.jpg",
+  "runtime": 160,
+  "director": [
+   "K. V. Anand"
+  ]
+ },
+ "Kshanam|2016|telugu": {
+  "title": "Kshanam",
+  "year": 2016,
+  "language": "telugu",
+  "tmdb_id": 386427,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kshanam",
+  "release_date": "2016-02-26",
+  "poster_path": "/dnRwtMyDTSc5TnHcIcadSSb23MQ.jpg",
+  "backdrop_path": "/x1BBwUNyukS2e0fF9fDuUrXrdXJ.jpg",
+  "runtime": 110,
+  "director": [
+   "Ravikanth Perepu"
+  ]
+ },
+ "Kuch Kuch Hota Hai|1998|hindi": {
+  "title": "Kuch Kuch Hota Hai",
+  "year": 1998,
+  "language": "hindi",
+  "tmdb_id": 11854,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kuch Kuch Hota Hai",
+  "release_date": "1998-10-16",
+  "poster_path": "/5FmtHHDGPofW5Zjns1EM1D8503c.jpg",
+  "backdrop_path": "/iQJZMLr5cdn7Al2Av4V1VEzPDoQ.jpg",
+  "runtime": 185,
+  "director": [
+   "Karan Johar"
+  ]
+ },
+ "Kumbalangi Nights|2019|malayalam": {
+  "title": "Kumbalangi Nights",
+  "year": 2019,
+  "language": "malayalam",
+  "tmdb_id": 575351,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kumbalangi Nights",
+  "release_date": "2019-02-07",
+  "poster_path": "/lJ3RvIirE2C7gdBKvPRaoQ3iCo2.jpg",
+  "backdrop_path": "/8i8ml0LRdFT6LSaTMUG3gLzJfEq.jpg",
+  "runtime": 135,
+  "director": [
+   "Madhu C. Narayanan"
+  ]
+ },
+ "Kurup|2021|malayalam": {
+  "title": "Kurup",
+  "year": 2021,
+  "language": "malayalam",
+  "tmdb_id": 785585,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Kurup",
+  "release_date": "2021-11-12",
+  "poster_path": "/7DUKMFykp7pNpppbf8M6YDWrTYb.jpg",
+  "backdrop_path": "/uAxfRNDmaLN9M1hjbGuBtJEVKfG.jpg",
+  "runtime": 155,
+  "director": [
+   "Srinath Rajendran"
+  ]
+ },
+ "LOC Kargil|2003|hindi": {
+  "title": "LOC Kargil",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 71920,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "LOC: Kargil",
+  "release_date": "2003-12-12",
+  "poster_path": "/8rwlGnSWgLJlveO4OoOJ2n2YZyv.jpg",
+  "backdrop_path": "/mQmGfyRcmLEensLsg4X8H5dC0Wx.jpg",
+  "runtime": 255,
+  "director": [
+   "J. P. Dutta"
+  ]
+ },
+ "Lagaan|2001|hindi": {
+  "title": "Lagaan",
+  "year": 2001,
+  "language": "hindi",
+  "tmdb_id": 19666,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Lagaan: Once Upon a Time in India",
+  "release_date": "2001-06-15",
+  "poster_path": "/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg",
+  "backdrop_path": "/76VwduxQMkVXOUktps85dE0lLeP.jpg",
+  "runtime": 233,
+  "director": [
+   "Ashutosh Gowariker"
+  ]
+ },
+ "Lakshya|2004|hindi": {
+  "title": "Lakshya",
+  "year": 2004,
+  "language": "hindi",
+  "tmdb_id": 21175,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Lakshya",
+  "release_date": "2004-06-18",
+  "poster_path": "/4WJ9p2uBZ1mUqkTyEQ0ggtyJdAw.jpg",
+  "backdrop_path": "/fQfODknc07ro4uAYWurQIU3D4WU.jpg",
+  "runtime": 186,
+  "director": [
+   "Farhan Akhtar"
+  ]
+ },
+ "Lapachhapi|2017|marathi": {
+  "title": "Lapachhapi",
+  "year": 2017,
+  "language": "marathi",
+  "tmdb_id": 463511,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Lapachhapi",
+  "release_date": "2017-07-14",
+  "poster_path": "/jGuSGVCflwWlGifGVdtBlh51EAo.jpg",
+  "backdrop_path": null,
+  "runtime": 120,
+  "director": [
+   "Vishal Furia"
+  ]
+ },
+ "Leader|2010|telugu": {
+  "title": "Leader",
+  "year": 2010,
+  "language": "telugu",
+  "tmdb_id": 55283,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Leader",
+  "release_date": "2010-02-19",
+  "poster_path": "/kayx8f6MQIx4kFVyRmzf3i70g3s.jpg",
+  "backdrop_path": "/l8NDCwm1wUyo9DCBZlfMQy8NomO.jpg",
+  "runtime": 172,
+  "director": [
+   "Sekhar Kammula"
+  ]
+ },
+ "Madras Cafe|2013|hindi": {
+  "title": "Madras Cafe",
+  "year": 2013,
+  "language": "hindi",
+  "tmdb_id": 215776,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Madras Cafe",
+  "release_date": "2013-08-23",
+  "poster_path": "/3cfFqEuj2ynHUb0FTBThTh0gQB9.jpg",
+  "backdrop_path": "/x93ONXljhMsfLpiSnLJg56bnwVD.jpg",
+  "runtime": 130,
+  "director": [
+   "Shoojit Sircar"
+  ]
+ },
+ "Madras|2014|tamil": {
+  "title": "Madras",
+  "year": 2014,
+  "language": "tamil",
+  "tmdb_id": 280948,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Madras",
+  "release_date": "2014-09-26",
+  "poster_path": "/hbaUw4NzU7Zd6QGj7HMNohfWpIT.jpg",
+  "backdrop_path": "/hZZBwFOkOI84ohdPP6cXSL9l5zf.jpg",
+  "runtime": 156,
+  "director": [
+   "Pa. Ranjith"
+  ]
+ },
+ "Magadheera|2009|telugu": {
+  "title": "Magadheera",
+  "year": 2009,
+  "language": "telugu",
+  "tmdb_id": 23790,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Magadheera",
+  "release_date": "2009-07-31",
+  "poster_path": "/xK7MEV56GF291VG0U5XnVJuvNv3.jpg",
+  "backdrop_path": "/p2SvjtejMgiBDCLL3ugOmCxk3sY.jpg",
+  "runtime": 164,
+  "director": [
+   "S. S. Rajamouli"
+  ]
+ },
+ "Mahal|1949|hindi": {
+  "title": "Mahal",
+  "year": 1949,
+  "language": "hindi",
+  "tmdb_id": 257391,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mahal",
+  "release_date": "1949-10-19",
+  "poster_path": "/dasVnQij6Lvbpu7qoogprheITva.jpg",
+  "backdrop_path": "/9UoWweQtTRYN2tJYfaGcq9Ce6SR.jpg",
+  "runtime": 165,
+  "director": [
+   "Kamal Amrohi"
+  ]
+ },
+ "Maharaja|2024|tamil": {
+  "title": "Maharaja",
+  "year": 2024,
+  "language": "tamil",
+  "tmdb_id": 1118224,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Maharaja",
+  "release_date": "2024-06-14",
+  "poster_path": "/s0m4TM1XRAftQStgKpw024RvkJo.jpg",
+  "backdrop_path": "/ot1UteJ1TL3xWuhkLRNzBULw4KJ.jpg",
+  "runtime": 141,
+  "director": [
+   "Nithilan Saminathan"
+  ]
+ },
+ "Mandela|2021|tamil": {
+  "title": "Mandela",
+  "year": 2021,
+  "language": "tamil",
+  "tmdb_id": 806067,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mandela",
+  "release_date": "2021-04-05",
+  "poster_path": "/t9A7nv8ac8VrXDt6tgu4UXi2zAq.jpg",
+  "backdrop_path": "/u6vFOUjFoPOLDH1f2fG2WQqyHch.jpg",
+  "runtime": 140,
+  "director": [
+   "Madonne Ashwin"
+  ]
+ },
+ "Manichitrathazhu|1993|malayalam": {
+  "title": "Manichitrathazhu",
+  "year": 1993,
+  "language": "malayalam",
+  "tmdb_id": 84368,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Manichitrathazhu",
+  "release_date": "1993-12-25",
+  "poster_path": "/5YccrqvJFTfAVyEZp08I3fLx15y.jpg",
+  "backdrop_path": "/gmUgUCpSWxLwyxoTFsPovSHonoZ.jpg",
+  "runtime": 169,
+  "director": [
+   "Fazil"
+  ]
+ },
+ "Manjadikuru|2012|malayalam": {
+  "title": "Manjadikuru",
+  "year": 2012,
+  "language": "malayalam",
+  "tmdb_id": 120805,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Manjadikuru",
+  "release_date": "2008-12-17",
+  "poster_path": "/el4Ts8T9EW9MXSxkgxRs9zvVCvo.jpg",
+  "backdrop_path": "/uSlAIFHVw9umDvXPb3cTO6RhDFJ.jpg",
+  "runtime": 120,
+  "director": [
+   "Anjali Menon"
+  ]
+ },
+ "Manmadhudu|2002|telugu": {
+  "title": "Manmadhudu",
+  "year": 2002,
+  "language": "telugu",
+  "tmdb_id": 81083,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Manmadhudu",
+  "release_date": "2002-12-20",
+  "poster_path": "/bHjMjCmtpfQzQoDjiL9rWWo4ahd.jpg",
+  "backdrop_path": "/cTDymTdCXygVSekF9bY5Zh2Uvq7.jpg",
+  "runtime": 142,
+  "director": [
+   "K. Vijaya Bhaskar"
+  ]
+ },
+ "Manorama Six Feet Under|2007|hindi": {
+  "title": "Manorama Six Feet Under",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 46404,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Manorama Six Feet Under",
+  "release_date": "2007-09-21",
+  "poster_path": "/1b5ZrBI48xbAVmCbNNhvFXz474y.jpg",
+  "backdrop_path": "/zEIzNUKiQiaJh4H1qds878oEtoA.jpg",
+  "runtime": 137,
+  "director": [
+   "Navdeep Singh"
+  ]
+ },
+ "Maqbool|2003|hindi": {
+  "title": "Maqbool",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 21265,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Maqbool",
+  "release_date": "2003-01-30",
+  "poster_path": "/8ULTBxnbt0NrWlDm5fahbQooj91.jpg",
+  "backdrop_path": "/rCQV72xJ90ZmG8tiXeJiOJEBzm7.jpg",
+  "runtime": 132,
+  "director": [
+   "Vishal Bhardwaj"
+  ]
+ },
+ "Mary Kom|2014|hindi": {
+  "title": "Mary Kom",
+  "year": 2014,
+  "language": "hindi",
+  "tmdb_id": 284288,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mary Kom",
+  "release_date": "2014-09-05",
+  "poster_path": "/eI1rxHzxO2sWeeBMvr42buetYnd.jpg",
+  "backdrop_path": "/xgl5VP3VpXuqOEMFWbA2lLiM2tA.jpg",
+  "runtime": 122,
+  "director": [
+   "Omung Kumar"
+  ]
+ },
+ "Masaan|2015|hindi": {
+  "title": "Masaan",
+  "year": 2015,
+  "language": "hindi",
+  "tmdb_id": 336203,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Masaan",
+  "release_date": "2015-07-24",
+  "poster_path": "/wgcPR6Weth2yJDo5wBdNqW2TD6J.jpg",
+  "backdrop_path": "/6vTv4OEy7Qq4FGeDpWxBsAXyTH.jpg",
+  "runtime": 109,
+  "director": [
+   "Neeraj Ghaywan"
+  ]
+ },
+ "Masooda|2022|telugu": {
+  "title": "Masooda",
+  "year": 2022,
+  "language": "telugu",
+  "tmdb_id": 1047902,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Masooda",
+  "release_date": "2022-11-18",
+  "poster_path": "/8tteFyJbPxvVr57K1CjGhKbqEjY.jpg",
+  "backdrop_path": "/tKKtDFQ5j1KnPp81M7g85ECE0zm.jpg",
+  "runtime": 160,
+  "director": [
+   "Sai Kiran"
+  ]
+ },
+ "Masoom|1983|hindi": {
+  "title": "Masoom",
+  "year": 1983,
+  "language": "hindi",
+  "tmdb_id": 21462,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Masoom",
+  "release_date": "1983-01-10",
+  "poster_path": "/a2PVNqiTbALVhyQVuqDMROy21Pt.jpg",
+  "backdrop_path": "/uuxY0hpf3B2bThoZXnQztnlIGPY.jpg",
+  "runtime": 138,
+  "director": [
+   "Shekhar Kapur"
+  ]
+ },
+ "Maya|2015|tamil": {
+  "title": "Maya",
+  "year": 2015,
+  "language": "tamil",
+  "tmdb_id": 360251,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Maya",
+  "release_date": "2015-09-17",
+  "poster_path": "/oQ1i56kTu0i4V2hZruov1Y6fzY8.jpg",
+  "backdrop_path": "/lKsXqztgfwUh3v0dcpqmxMUqRu.jpg",
+  "runtime": 141,
+  "director": [
+   "Ashwin Saravanan"
+  ]
+ },
+ "Memories|2013|malayalam": {
+  "title": "Memories",
+  "year": 2013,
+  "language": "malayalam",
+  "tmdb_id": 217389,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Memories",
+  "release_date": "2013-08-08",
+  "poster_path": "/uyj5Yg0ricQTB9UZzd4ZDRYV9NF.jpg",
+  "backdrop_path": "/aTwrwfSbvRRqhjXKnPLWjvNrVzA.jpg",
+  "runtime": 132,
+  "director": [
+   "Jeethu Joseph"
+  ]
+ },
+ "Mera Naam Joker|1970|hindi": {
+  "title": "Mera Naam Joker",
+  "year": 1970,
+  "language": "hindi",
+  "tmdb_id": 21466,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mera Naam Joker",
+  "release_date": "1970-12-18",
+  "poster_path": "/pGBSS3jPxWc7bkIGvqHCelAB5KR.jpg",
+  "backdrop_path": "/tiWwyqMEGxW3fO8LvrLqk3iBZy0.jpg",
+  "runtime": 248,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Michael Madana Kama Rajan|1990|tamil": {
+  "title": "Michael Madana Kama Rajan",
+  "year": 1990,
+  "language": "tamil",
+  "tmdb_id": 14445,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Michael Madana Kama Rajan",
+  "release_date": "1990-03-01",
+  "poster_path": "/3TzfpFmdTuwRczVmJzB3P9xsHGD.jpg",
+  "backdrop_path": "/9BWHLtZmHP5IyaR3JkLCLdxI8mV.jpg",
+  "runtime": 167,
+  "director": [
+   "Singeetham Srinivasa Rao"
+  ]
+ },
+ "Mission Majnu|2023|hindi": {
+  "title": "Mission Majnu",
+  "year": 2023,
+  "language": "hindi",
+  "tmdb_id": 778946,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mission Majnu",
+  "release_date": "2023-01-20",
+  "poster_path": "/rYlbpbtLGMlWOnFrvBKa1LTcvOC.jpg",
+  "backdrop_path": "/pQxLlewqF5GDEvUhApExoZqcrc1.jpg",
+  "runtime": 129,
+  "director": [
+   "Shantanu Bagchi"
+  ]
+ },
+ "Mithunam|2012|telugu": {
+  "title": "Mithunam",
+  "year": 2012,
+  "language": "telugu",
+  "tmdb_id": 207920,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mithunam",
+  "release_date": "2012-12-21",
+  "poster_path": "/e8xk1cvoWvw2H4MKEJ6DKqStZWU.jpg",
+  "backdrop_path": "/bRvIHhV8uYKCMC6DvPKaERFcyNZ.jpg",
+  "runtime": null,
+  "director": [
+   "Tanikella Bharani"
+  ]
+ },
+ "Moondram Pirai|1982|tamil": {
+  "title": "Moondram Pirai",
+  "year": 1982,
+  "language": "tamil",
+  "tmdb_id": 66389,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Moondram Pirai",
+  "release_date": "1982-02-19",
+  "poster_path": "/kDimtjGArqeW93Aa5tjS6kPrupB.jpg",
+  "backdrop_path": "/80fT4pJ7yCZF2XrDYIoQbBJSSRh.jpg",
+  "runtime": 143,
+  "director": [
+   "Balu Mahendra"
+  ]
+ },
+ "Mother India|1957|hindi": {
+  "title": "Mother India",
+  "year": 1957,
+  "language": "hindi",
+  "tmdb_id": 917,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mother India",
+  "release_date": "1957-02-13",
+  "poster_path": "/AlfM9yLcK1rhv73iNbDiOU9vnnu.jpg",
+  "backdrop_path": "/bkzPygcInZMOKpnNhSHlbqVNinJ.jpg",
+  "runtime": 175,
+  "director": [
+   "Mehboob Khan"
+  ]
+ },
+ "Mouna Ragam|1986|tamil": {
+  "title": "Mouna Ragam",
+  "year": 1986,
+  "language": "tamil",
+  "tmdb_id": 82124,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mouna Raagam",
+  "release_date": "1986-08-15",
+  "poster_path": "/fgvXLXDMurWNe4U1624NC6qyhIk.jpg",
+  "backdrop_path": "/6h09XC2To0MlJqqSzVGsmK8joUg.jpg",
+  "runtime": 146,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Mr. & Mrs. 55|1955|hindi": {
+  "title": "Mr. & Mrs. 55",
+  "year": 1955,
+  "language": "hindi",
+  "tmdb_id": 66564,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mr. & Mrs. '55",
+  "release_date": "1955-02-11",
+  "poster_path": "/mMtqBKVa259av6t8vKE4J57hI7M.jpg",
+  "backdrop_path": "/8rWtbh6tmPhGqB2kmS0miyq2RW3.jpg",
+  "runtime": 157,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Mudhalvan|1999|tamil": {
+  "title": "Mudhalvan",
+  "year": 1999,
+  "language": "tamil",
+  "tmdb_id": 66526,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mudhalvan",
+  "release_date": "1999-11-07",
+  "poster_path": "/k69lNVmDJcLLJb4LBCk3L2yv4Vw.jpg",
+  "backdrop_path": "/cbKHL1Jv9JPWivRkzRsUmFYINmQ.jpg",
+  "runtime": 169,
+  "director": [
+   "Shankar"
+  ]
+ },
+ "Mughal-e-Azam|1960|hindi": {
+  "title": "Mughal-e-Azam",
+  "year": 1960,
+  "language": "hindi",
+  "tmdb_id": 44519,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mughal-e-Azam",
+  "release_date": "1960-08-05",
+  "poster_path": "/lKfNZUh9CRp1EHjxgNGtrbvm55.jpg",
+  "backdrop_path": "/1U4V92gwVDnVjWJn6eMciOffClN.jpg",
+  "runtime": 197,
+  "director": [
+   "K. Asif"
+  ]
+ },
+ "Mukhamukham|1984|malayalam": {
+  "title": "Mukhamukham",
+  "year": 1984,
+  "language": "malayalam",
+  "tmdb_id": 275027,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Face to Face",
+  "release_date": "1984-01-06",
+  "poster_path": "/vCrwZ2KGh282XS5V7krwMLCIyP9.jpg",
+  "backdrop_path": null,
+  "runtime": 108,
+  "director": [
+   "Adoor Gopalakrishnan"
+  ]
+ },
+ "Mukhbiir|2008|hindi": {
+  "title": "Mukhbiir",
+  "year": 2008,
+  "language": "hindi",
+  "tmdb_id": 46412,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mukhbiir",
+  "release_date": "2008-08-22",
+  "poster_path": "/aefkedUyp8rABkDXwfR2xXyQgfN.jpg",
+  "backdrop_path": "/t1J3I096qKin6in1AitxXpl7Hmk.jpg",
+  "runtime": 132,
+  "director": [
+   "Mani Shankar"
+  ]
+ },
+ "Mukkabaaz|2017|hindi": {
+  "title": "Mukkabaaz",
+  "year": 2017,
+  "language": "hindi",
+  "tmdb_id": 470641,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mukkabaaz",
+  "release_date": "2018-01-12",
+  "poster_path": "/jpjsxoVUEVtYgtAIZQP8WVgDsp5.jpg",
+  "backdrop_path": "/A6qDUM0KJPcQKh7wf14xseGBphy.jpg",
+  "runtime": 145,
+  "director": [
+   "Anurag Kashyap"
+  ]
+ },
+ "Mumbai Police|2013|malayalam": {
+  "title": "Mumbai Police",
+  "year": 2013,
+  "language": "malayalam",
+  "tmdb_id": 190945,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mumbai Police",
+  "release_date": "2013-05-02",
+  "poster_path": "/19hI3Qw95irArEoHh5gKTzuhtFV.jpg",
+  "backdrop_path": "/7kP3bFSP5hzzQ53ZiuNgp0uNIz4.jpg",
+  "runtime": 145,
+  "director": [
+   "Rosshan Andrrews"
+  ]
+ },
+ "Mungaru Male|2006|kannada": {
+  "title": "Mungaru Male",
+  "year": 2006,
+  "language": "kannada",
+  "tmdb_id": 39095,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Mungaru Male",
+  "release_date": "2006-12-15",
+  "poster_path": "/jKwRrAFQi2ZqB2Ux309ARmaaDHO.jpg",
+  "backdrop_path": "/e9D21gdAaEYON60bkbJXXz4SQxk.jpg",
+  "runtime": 143,
+  "director": [
+   "Yogaraj Bhat"
+  ]
+ },
+ "My Name Is Khan|2010|hindi": {
+  "title": "My Name Is Khan",
+  "year": 2010,
+  "language": "hindi",
+  "tmdb_id": 26022,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "My Name Is Khan",
+  "release_date": "2010-02-11",
+  "poster_path": "/5Y36lCiNyyV71mjq6LavgiggbhT.jpg",
+  "backdrop_path": "/zGCnIADWwpjGllYv8DgT8HIuIQl.jpg",
+  "runtime": 165,
+  "director": [
+   "Karan Johar"
+  ]
+ },
+ "Naam Shabana|2017|hindi": {
+  "title": "Naam Shabana",
+  "year": 2017,
+  "language": "hindi",
+  "tmdb_id": 441071,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Naam Shabana",
+  "release_date": "2017-03-31",
+  "poster_path": "/xFHeFrOYzsHgAiZeGAjwJmDMen6.jpg",
+  "backdrop_path": "/bifmpGuVdJDPPTU4IuCnsMNBOqD.jpg",
+  "runtime": 147,
+  "director": [
+   "Shivam Nair"
+  ]
+ },
+ "Nadodikkattu|1987|malayalam": {
+  "title": "Nadodikkattu",
+  "year": 1987,
+  "language": "malayalam",
+  "tmdb_id": 275366,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Nadodikkattu",
+  "release_date": "1987-05-06",
+  "poster_path": "/ePuAtxBT6DDMHmk6eusFpIWi64A.jpg",
+  "backdrop_path": "/vVr85HL3nXCHkeXjt8k4OjQntle.jpg",
+  "runtime": 158,
+  "director": [
+   "Sathyan Anthikad"
+  ]
+ },
+ "Natpe Thunai|2019|tamil": {
+  "title": "Natpe Thunai",
+  "year": 2019,
+  "language": "tamil",
+  "tmdb_id": 590548,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Natpe Thunai",
+  "release_date": "2019-04-04",
+  "poster_path": "/5CL4HpQGiYPD7sv1eQMHOArkSlU.jpg",
+  "backdrop_path": "/qU8GVfTUbKBFhXmjYc0Vn1bUESD.jpg",
+  "runtime": 156,
+  "director": [
+   "Parthiban Desingu"
+  ]
+ },
+ "Natsamrat|2016|marathi": {
+  "title": "Natsamrat",
+  "year": 2016,
+  "language": "marathi",
+  "tmdb_id": 378227,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Natsamrat",
+  "release_date": "2016-01-01",
+  "poster_path": "/x4KvM8NBi8m44aqwEMgsJPzA5Ne.jpg",
+  "backdrop_path": "/mUbq0l1nGHbyFyNncxvLJMKXMUw.jpg",
+  "runtime": 166,
+  "director": [
+   "Mahesh Manjrekar"
+  ]
+ },
+ "Nayak: The Real Hero|2001|hindi": {
+  "title": "Nayak: The Real Hero",
+  "year": 2001,
+  "language": "hindi",
+  "tmdb_id": 33457,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Nayak: The Real Hero",
+  "release_date": "2001-09-07",
+  "poster_path": "/5aFFHWnc3EtV3mkgAImOGENbcEc.jpg",
+  "backdrop_path": "/c9GO0PQh1OoVn07fhh3RqAFBPE6.jpg",
+  "runtime": 187,
+  "director": [
+   "Shankar"
+  ]
+ },
+ "Nayakan|1987|tamil": {
+  "title": "Nayakan",
+  "year": 1987,
+  "language": "tamil",
+  "tmdb_id": 29971,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Nayakan",
+  "release_date": "1987-10-21",
+  "poster_path": "/hnCKKPG5VkUiGQV0DTniyMTEZsT.jpg",
+  "backdrop_path": "/u4iRTMD0oJPUP2kjmH3XIEhsDKF.jpg",
+  "runtime": 156,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Newton|2017|hindi": {
+  "title": "Newton",
+  "year": 2017,
+  "language": "hindi",
+  "tmdb_id": 439128,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Newton",
+  "release_date": "2017-09-22",
+  "poster_path": "/ubzHA1aXUsWvQJHjvqBCHxzTBi5.jpg",
+  "backdrop_path": "/5aNFEcMFjDsdiRao2CnipUTFUwr.jpg",
+  "runtime": 106,
+  "director": [
+   "Amit Masurkar"
+  ]
+ },
+ "Nil Battey Sannata|2015|hindi": {
+  "title": "Nil Battey Sannata",
+  "year": 2015,
+  "language": "hindi",
+  "tmdb_id": 361249,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Nil Battey Sannata",
+  "release_date": "2016-04-22",
+  "poster_path": "/fvsPtLdIFM4lsjFX5CQ1X6yjzSZ.jpg",
+  "backdrop_path": "/yiRjBjoYtskjAuWEOa3K9UQYtEl.jpg",
+  "runtime": 100,
+  "director": [
+   "Ashwiny Iyer Tiwari"
+  ]
+ },
+ "Ninnu Kori|2017|telugu": {
+  "title": "Ninnu Kori",
+  "year": 2017,
+  "language": "telugu",
+  "tmdb_id": 465099,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ninnu Kori",
+  "release_date": "2017-07-07",
+  "poster_path": "/jpRSbvFX5bjf91vuzc5zwZiBwG8.jpg",
+  "backdrop_path": "/AvqYO2C4SS65JY46WR86VGkOgS0.jpg",
+  "runtime": 135,
+  "director": [
+   "Shiva Nirvana"
+  ]
+ },
+ "Niram|1999|malayalam": {
+  "title": "Niram",
+  "year": 1999,
+  "language": "malayalam",
+  "tmdb_id": 352559,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Niram",
+  "release_date": "1999-10-31",
+  "poster_path": "/Asv6QRFipiIUksIo2P2Egi6mHeo.jpg",
+  "backdrop_path": "/kjGd8MnTKVCJ761XXWstgLTJjy5.jpg",
+  "runtime": 151,
+  "director": [
+   "Kamal"
+  ]
+ },
+ "No Smoking|2007|hindi": {
+  "title": "No Smoking",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 36204,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "No Smoking",
+  "release_date": "2007-10-26",
+  "poster_path": "/reJRahEjVlMpbolmrRZRyKOcy3m.jpg",
+  "backdrop_path": "/q64vjfQkPPVGj5OvosJvswMhpqM.jpg",
+  "runtime": 126,
+  "director": [
+   "Anurag Kashyap"
+  ]
+ },
+ "Nuvvostanante Nenoddantana|2005|telugu": {
+  "title": "Nuvvostanante Nenoddantana",
+  "year": 2005,
+  "language": "telugu",
+  "tmdb_id": 74154,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Nuvvostanante Nenoddantana",
+  "release_date": "2005-01-14",
+  "poster_path": "/zixbDSR1gOHgcATGdMaq20LjZEL.jpg",
+  "backdrop_path": "/povD3baqXxCb58cR8YtQpFXXAXA.jpg",
+  "runtime": 165,
+  "director": [
+   "Prabhu Deva"
+  ]
+ },
+ "Nuvvu Naaku Nachav|2001|telugu": {
+  "title": "Nuvvu Naaku Nachav",
+  "year": 2001,
+  "language": "telugu",
+  "tmdb_id": 82255,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Nuvvu Naaku Nachav",
+  "release_date": "2001-09-06",
+  "poster_path": "/z6F2Y7zddPFZ2ls9OY006egVClP.jpg",
+  "backdrop_path": "/1Z4D31l2avNXR8KLTgqIGW3uHkP.jpg",
+  "runtime": 180,
+  "director": [
+   "K. Vijaya Bhaskar"
+  ]
+ },
+ "Om Shanti Om|2007|hindi": {
+  "title": "Om Shanti Om",
+  "year": 2007,
+  "language": "hindi",
+  "tmdb_id": 8079,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Om Shanti Om",
+  "release_date": "2007-11-07",
+  "poster_path": "/oArsQTD4bPPMtRjqr03SO9W6phF.jpg",
+  "backdrop_path": "/mBdT7nvhXmvZKK1mieS261IApcI.jpg",
+  "runtime": 169,
+  "director": [
+   "Farah Khan"
+  ]
+ },
+ "Omkara|2006|hindi": {
+  "title": "Omkara",
+  "year": 2006,
+  "language": "hindi",
+  "tmdb_id": 14705,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Omkara",
+  "release_date": "2006-07-28",
+  "poster_path": "/hRPFHoyvqWd1iu27muybtZMlbou.jpg",
+  "backdrop_path": "/teqDcEN4mWsi6Qdc4vMQFC2Fugv.jpg",
+  "runtime": 155,
+  "director": [
+   "Vishal Bhardwaj"
+  ]
+ },
+ "Paan Singh Tomar|2012|hindi": {
+  "title": "Paan Singh Tomar",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 96398,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Paan Singh Tomar",
+  "release_date": "2012-03-02",
+  "poster_path": "/ii2KMVvGmcmJrqwYcT5nKn92bD5.jpg",
+  "backdrop_path": "/53XAIKtBlit8PpNAPaADazADCR9.jpg",
+  "runtime": 135,
+  "director": [
+   "Tigmanshu Dhulia"
+  ]
+ },
+ "Padosan|1968|hindi": {
+  "title": "Padosan",
+  "year": 1968,
+  "language": "hindi",
+  "tmdb_id": 20622,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Padosan",
+  "release_date": "1968-11-29",
+  "poster_path": "/b3saYvaYdzuXCEfIfNJiKaO58qO.jpg",
+  "backdrop_path": "/aLVztOwxn8kmNfek3tWTbc2H7Ws.jpg",
+  "runtime": 157,
+  "director": [
+   "Jyoti Swaroop"
+  ]
+ },
+ "Paheli|2005|hindi": {
+  "title": "Paheli",
+  "year": 2005,
+  "language": "hindi",
+  "tmdb_id": 33081,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Paheli",
+  "release_date": "2005-06-24",
+  "poster_path": "/1oQ8mBfBKcVT758y1949ULkSXER.jpg",
+  "backdrop_path": "/7WoyOMp0wORdgYJimHeg0XuNaTM.jpg",
+  "runtime": 141,
+  "director": [
+   "Amol Palekar"
+  ]
+ },
+ "Pakeezah|1972|hindi": {
+  "title": "Pakeezah",
+  "year": 1972,
+  "language": "hindi",
+  "tmdb_id": 54966,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pakeezah",
+  "release_date": "1972-02-04",
+  "poster_path": "/dVm7WcvVfeQzi8M7NZXcdtbF6jz.jpg",
+  "backdrop_path": "/saEcTHiuQgQefEMKZpWUHTH53ik.jpg",
+  "runtime": 153,
+  "director": [
+   "Kamal Amrohi"
+  ]
+ },
+ "Panchathanthiram|2002|tamil": {
+  "title": "Panchathanthiram",
+  "year": 2002,
+  "language": "tamil",
+  "tmdb_id": 49033,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Panchatanthiram",
+  "release_date": "2002-06-28",
+  "poster_path": "/ofTPB176uIsjGTdsZbQrVE86yxA.jpg",
+  "backdrop_path": "/hvLsr6yTFRNghh9S1zuSG927Fuy.jpg",
+  "runtime": 153,
+  "director": [
+   "K. S. Ravikumar"
+  ]
+ },
+ "Parinda|1989|hindi": {
+  "title": "Parinda",
+  "year": 1989,
+  "language": "hindi",
+  "tmdb_id": 58045,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Parinda",
+  "release_date": "1989-11-03",
+  "poster_path": "/5iVDKpzPr1egzNsKjIDL2maVEe5.jpg",
+  "backdrop_path": "/l0ZrCJM2HDfoldzZjAwBh9uYmS7.jpg",
+  "runtime": 154,
+  "director": [
+   "Vidhu Vinod Chopra"
+  ]
+ },
+ "Pariyerum Perumal|2018|tamil": {
+  "title": "Pariyerum Perumal",
+  "year": 2018,
+  "language": "tamil",
+  "tmdb_id": 462718,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pariyerum Perumal",
+  "release_date": "2018-09-28",
+  "poster_path": "/78YoIO3gzkZPC1jotfDmolNDmgT.jpg",
+  "backdrop_path": "/yt9LXuqEXgUooAaEplUNPw7wJsC.jpg",
+  "runtime": 155,
+  "director": [
+   "Mari Selvaraj"
+  ]
+ },
+ "Pari|2018|hindi": {
+  "title": "Pari",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 461649,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pari",
+  "release_date": "2018-03-02",
+  "poster_path": "/gUmnMZD6epUPHOyfzTxIsfp4HM.jpg",
+  "backdrop_path": "/4gQaz1JNiLsMWGVcZfEcdRVqnnp.jpg",
+  "runtime": 135,
+  "director": [
+   "Prosit Roy"
+  ]
+ },
+ "Pathaan|2023|hindi": {
+  "title": "Pathaan",
+  "year": 2023,
+  "language": "hindi",
+  "tmdb_id": 864692,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pathaan",
+  "release_date": "2023-01-25",
+  "poster_path": "/arf00BkwvXo0CFKbaD9OpqdE4Nu.jpg",
+  "backdrop_path": "/o0nLkPesXPugGw0rB15hDhZd1DX.jpg",
+  "runtime": 146,
+  "director": [
+   "Siddharth Anand"
+  ]
+ },
+ "Pather Panchali|1955|bengali": {
+  "title": "Pather Panchali",
+  "year": 1955,
+  "language": "bengali",
+  "tmdb_id": 5801,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pather Panchali",
+  "release_date": "1955-08-26",
+  "poster_path": "/frZj5djlU9hFEjMcL21RJZVuG5O.jpg",
+  "backdrop_path": "/wadoNHCMPElgYuOqLxqDQqXpTMx.jpg",
+  "runtime": 125,
+  "director": [
+   "Satyajit Ray"
+  ]
+ },
+ "Peranbu|2018|tamil": {
+  "title": "Peranbu",
+  "year": 2018,
+  "language": "tamil",
+  "tmdb_id": 412865,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Peranbu",
+  "release_date": "2019-02-01",
+  "poster_path": "/dDDnU7AkZz3Mbvc7DpaCG7NBO2V.jpg",
+  "backdrop_path": "/colSf7p8fj9OfyNDibFsJHeLFMh.jpg",
+  "runtime": 147,
+  "director": [
+   "Ram"
+  ]
+ },
+ "Piku|2015|hindi": {
+  "title": "Piku",
+  "year": 2015,
+  "language": "hindi",
+  "tmdb_id": 332835,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Piku",
+  "release_date": "2015-05-08",
+  "poster_path": "/yo7EZWiLpLGhqs3YnlDGDBPjfTb.jpg",
+  "backdrop_path": "/uTyXPP72WPqqYnA9PjxApmFM3ux.jpg",
+  "runtime": 123,
+  "director": [
+   "Shoojit Sircar"
+  ]
+ },
+ "Pink|2016|hindi": {
+  "title": "Pink",
+  "year": 2016,
+  "language": "hindi",
+  "tmdb_id": 415358,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pink",
+  "release_date": "2016-09-16",
+  "poster_path": "/6xNhnyKm2M5FEOY7xv5iKiQ5P3.jpg",
+  "backdrop_path": "/bUgj5zx6MGHleT37HJJErlP3Zc6.jpg",
+  "runtime": 136,
+  "director": [
+   "Aniruddha Roy Chowdhury"
+  ]
+ },
+ "Pisaasu|2014|tamil": {
+  "title": "Pisaasu",
+  "year": 2014,
+  "language": "tamil",
+  "tmdb_id": 311155,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pisaasu",
+  "release_date": "2014-12-19",
+  "poster_path": "/u3dLe7SJa7FQeM5LICtkiw6LUA7.jpg",
+  "backdrop_path": "/s0q8WmfUi2FJmBZzHLjSH3ES7QQ.jpg",
+  "runtime": 114,
+  "director": [
+   "Mysskin"
+  ]
+ },
+ "Pizza|2012|tamil": {
+  "title": "Pizza",
+  "year": 2012,
+  "language": "tamil",
+  "tmdb_id": 139357,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pizza",
+  "release_date": "2012-10-19",
+  "poster_path": "/mdcEraw1DFG3INWiRkuaOc0xV6o.jpg",
+  "backdrop_path": "/y7fySMqq4A8RkXSkeqsFx0wlLuJ.jpg",
+  "runtime": 127,
+  "director": [
+   "Karthik Subbaraj"
+  ]
+ },
+ "Polladhavan|2007|tamil": {
+  "title": "Polladhavan",
+  "year": 2007,
+  "language": "tamil",
+  "tmdb_id": 69516,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Polladhavan",
+  "release_date": "2007-11-08",
+  "poster_path": "/amHEVzgBKDnlNzxArcOpbvqVDrY.jpg",
+  "backdrop_path": "/toyLGv2W2gdxfawkLNWnYY2MzrP.jpg",
+  "runtime": 150,
+  "director": [
+   "Vetrimaaran"
+  ]
+ },
+ "Por Thozhil|2023|tamil": {
+  "title": "Por Thozhil",
+  "year": 2023,
+  "language": "tamil",
+  "tmdb_id": 1115239,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Por Thozhil",
+  "release_date": "2023-06-09",
+  "poster_path": "/lZ2BbjGBDRW5Q5Q9jgEknuiEQ0f.jpg",
+  "backdrop_path": "/tZ3yWC0H3HUtIBkxeqyQhaw9EOz.jpg",
+  "runtime": 148,
+  "director": [
+   "Vignesh Raja"
+  ]
+ },
+ "Prasthanam|2010|telugu": {
+  "title": "Prasthanam",
+  "year": 2010,
+  "language": "telugu",
+  "tmdb_id": 52522,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Prasthanam",
+  "release_date": "2010-04-16",
+  "poster_path": "/vn6zHyo4kASQ8mY6PIHBxiBSuS.jpg",
+  "backdrop_path": null,
+  "runtime": 173,
+  "director": [
+   "Deva Katta"
+  ]
+ },
+ "Prem Rog|1982|hindi": {
+  "title": "Prem Rog",
+  "year": 1982,
+  "language": "hindi",
+  "tmdb_id": 81253,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Prem Rog",
+  "release_date": "1982-07-30",
+  "poster_path": "/yseczqtwaxYNknHFNDyUzQ8awAh.jpg",
+  "backdrop_path": "/mjs5uEsujBVXu97I5eb5r6nLX0O.jpg",
+  "runtime": 172,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Premam|2015|malayalam": {
+  "title": "Premam",
+  "year": 2015,
+  "language": "malayalam",
+  "tmdb_id": 341895,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Premam",
+  "release_date": "2015-05-29",
+  "poster_path": "/wfMgsfDrtouYOM6MbrkHtU96Xij.jpg",
+  "backdrop_path": "/d8FBRbCNsAU25YScpKCT3dp46gD.jpg",
+  "runtime": 157,
+  "director": [
+   "Alphonse Puthren"
+  ]
+ },
+ "Pudhupettai|2006|tamil": {
+  "title": "Pudhupettai",
+  "year": 2006,
+  "language": "tamil",
+  "tmdb_id": 69520,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pudhupettai",
+  "release_date": "2006-05-26",
+  "poster_path": "/blrGDOlcTbIit4BBS9gW4PsCuYv.jpg",
+  "backdrop_path": "/M0ktNTFtel6IgcOiz5A2v8zYIb.jpg",
+  "runtime": 179,
+  "director": [
+   "Selvaraghavan"
+  ]
+ },
+ "Punjabi House|1998|malayalam": {
+  "title": "Punjabi House",
+  "year": 1998,
+  "language": "malayalam",
+  "tmdb_id": 234639,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Punjabi House",
+  "release_date": "1998-09-04",
+  "poster_path": "/v1bbWKzG9RDZbemuEmTDCQWhGTc.jpg",
+  "backdrop_path": "/xSC7mZ1SBdGbfCtDdyy5TfNRlbp.jpg",
+  "runtime": 146,
+  "director": [
+   "Mecartin",
+   "Raffi"
+  ]
+ },
+ "Pushpaka Vimana|1987|kannada": {
+  "title": "Pushpaka Vimana",
+  "year": 1987,
+  "language": "kannada",
+  "tmdb_id": 36810,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pushpaka Vimana",
+  "release_date": "1987-11-17",
+  "poster_path": "/azTpDHh87L89TtEsj77bWnV08Ew.jpg",
+  "backdrop_path": "/pXHZR1QssA19PDUlyweoAxNujbQ.jpg",
+  "runtime": 131,
+  "director": [
+   "Singeetham Srinivasa Rao"
+  ]
+ },
+ "Pyaasa|1957|hindi": {
+  "title": "Pyaasa",
+  "year": 1957,
+  "language": "hindi",
+  "tmdb_id": 41053,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Pyaasa",
+  "release_date": "1957-02-19",
+  "poster_path": "/lQu1gBTKIF4BGC0f3GZPEbQYzWq.jpg",
+  "backdrop_path": "/hvtRa9AZ2mKnR32fRow356vsdSf.jpg",
+  "runtime": 146,
+  "director": [
+   "Guru Dutt"
+  ]
+ },
+ "Qayamat Se Qayamat Tak|1988|hindi": {
+  "title": "Qayamat Se Qayamat Tak",
+  "year": 1988,
+  "language": "hindi",
+  "tmdb_id": 27964,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Qayamat Se Qayamat Tak",
+  "release_date": "1988-07-09",
+  "poster_path": "/rWF3RMf7SKfZx5CObQusnemnhmU.jpg",
+  "backdrop_path": "/eDvVI9iMa1Y9XQF0TXu7YGUDyGO.jpg",
+  "runtime": 162,
+  "director": [
+   "Mansoor Khan"
+  ]
+ },
+ "RRR|2022|telugu": {
+  "title": "RRR",
+  "year": 2022,
+  "language": "telugu",
+  "tmdb_id": 579974,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "RRR",
+  "release_date": "2022-03-24",
+  "poster_path": "/wE0I6efAW4cDDmZQWtwZMOW44EJ.jpg",
+  "backdrop_path": "/i0Y0wP8H6SRgjr6QmuwbtQbS24D.jpg",
+  "runtime": 187,
+  "director": [
+   "S. S. Rajamouli"
+  ]
+ },
+ "Raajneeti|2010|hindi": {
+  "title": "Raajneeti",
+  "year": 2010,
+  "language": "hindi",
+  "tmdb_id": 37951,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Raajneeti",
+  "release_date": "2010-06-04",
+  "poster_path": "/69jBOHcylcjZ4yH8SeSqguvIXHn.jpg",
+  "backdrop_path": "/gYR3PkACV8BDCnDQeLK2nkLWzF0.jpg",
+  "runtime": 167,
+  "director": [
+   "Prakash Jha"
+  ]
+ },
+ "Raat|1992|hindi": {
+  "title": "Raat",
+  "year": 1992,
+  "language": "hindi",
+  "tmdb_id": 228012,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Raat",
+  "release_date": "1992-02-07",
+  "poster_path": "/krQAgqZuxMZ2szXSTzZsOrJOKHZ.jpg",
+  "backdrop_path": "/1eDh6w4jpxfL7cp4qAXFlCnIehP.jpg",
+  "runtime": 127,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Raazi|2018|hindi": {
+  "title": "Raazi",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 491629,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Raazi",
+  "release_date": "2018-05-10",
+  "poster_path": "/l9VJoRj0CYBURsnetvazq73FOfz.jpg",
+  "backdrop_path": "/gsKNlRSAjR7oZQyvGBfU110VeC2.jpg",
+  "runtime": 138,
+  "director": [
+   "Meghna Gulzar"
+  ]
+ },
+ "Raaz|2002|hindi": {
+  "title": "Raaz",
+  "year": 2002,
+  "language": "hindi",
+  "tmdb_id": 20731,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Raaz",
+  "release_date": "2002-02-01",
+  "poster_path": "/nKAj4hhDYVDOnL33hG7IMcLEiSx.jpg",
+  "backdrop_path": "/iSZlDC5GRYLEMNJ5UoBC23t40L0.jpg",
+  "runtime": 152,
+  "director": [
+   "Vikram Bhatt"
+  ]
+ },
+ "Rab Ne Bana Di Jodi|2008|hindi": {
+  "title": "Rab Ne Bana Di Jodi",
+  "year": 2008,
+  "language": "hindi",
+  "tmdb_id": 14072,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Rab Ne Bana Di Jodi",
+  "release_date": "2008-12-11",
+  "poster_path": "/m8x6I2qf3R98HtF4DmJXcdxCU64.jpg",
+  "backdrop_path": "/AcLsfw3TVZGFFT8yRA5StPKk65y.jpg",
+  "runtime": 167,
+  "director": [
+   "Aditya Chopra"
+  ]
+ },
+ "Rakta Charitra|2010|telugu": {
+  "title": "Rakta Charitra",
+  "year": 2010,
+  "language": "telugu",
+  "tmdb_id": 49028,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Rakht Charitra",
+  "release_date": "2010-10-21",
+  "poster_path": "/cPFW3LMUKUNfj5jaPJVPXZP5U06.jpg",
+  "backdrop_path": "/wniroOh9ZfNOrcdbS9pCHOTt5a6.jpg",
+  "runtime": 123,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Ram Teri Ganga Maili|1985|hindi": {
+  "title": "Ram Teri Ganga Maili",
+  "year": 1985,
+  "language": "hindi",
+  "tmdb_id": 173735,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ram Teri Ganga Maili",
+  "release_date": "1985-08-16",
+  "poster_path": "/gTE72sR6uP0IX3dB9q0aT4FnotL.jpg",
+  "backdrop_path": "/5NKhecZAU5hda6WVeQgu5J9Lulr.jpg",
+  "runtime": 178,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Ramji Rao Speaking|1989|malayalam": {
+  "title": "Ramji Rao Speaking",
+  "year": 1989,
+  "language": "malayalam",
+  "tmdb_id": 150768,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ramji Rao Speaking",
+  "release_date": "1989-08-04",
+  "poster_path": "/vJ1k4tWjLZUpTY46liLDSfu7Vfx.jpg",
+  "backdrop_path": "/esbdPyfUu5p23Dkhf8np2nCNs21.jpg",
+  "runtime": 150,
+  "director": [
+   "Siddique",
+   "Lal"
+  ]
+ },
+ "Rang De Basanti|2006|hindi": {
+  "title": "Rang De Basanti",
+  "year": 2006,
+  "language": "hindi",
+  "tmdb_id": 7913,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Rang De Basanti",
+  "release_date": "2006-01-26",
+  "poster_path": "/f1bF8CHzEu621bPSIg6XiUNAabh.jpg",
+  "backdrop_path": "/fgRhyGbMAolDsQ65VRBRBtVQZNn.jpg",
+  "runtime": 157,
+  "director": [
+   "Rakeysh Omprakash Mehra"
+  ]
+ },
+ "Ratsasan|2018|tamil": {
+  "title": "Ratsasan",
+  "year": 2018,
+  "language": "tamil",
+  "tmdb_id": 412862,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ratsasan",
+  "release_date": "2018-10-05",
+  "poster_path": "/mRObdeazn263na5zXzZSRJTBvi7.jpg",
+  "backdrop_path": "/iBwoVCyQ4fCRAtwGcHfwmI85Smc.jpg",
+  "runtime": 170,
+  "director": [
+   "Ram Kumar"
+  ]
+ },
+ "Republic|2021|telugu": {
+  "title": "Republic",
+  "year": 2021,
+  "language": "telugu",
+  "tmdb_id": 875546,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Republic",
+  "release_date": "2021-10-01",
+  "poster_path": "/u8cdUS3bNtql4NkqEZnyYkO843s.jpg",
+  "backdrop_path": "/gjKr3dopqIEV25VNDDQcblQXm7A.jpg",
+  "runtime": 152,
+  "director": [
+   "Deva Katta"
+  ]
+ },
+ "Rockford|1999|english": {
+  "title": "Rockford",
+  "year": 1999,
+  "language": "english",
+  "tmdb_id": 46422,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Rockford",
+  "release_date": "1999-10-07",
+  "poster_path": "/g3arvaLw68T10lONJOcdtMBU06l.jpg",
+  "backdrop_path": null,
+  "runtime": 102,
+  "director": [
+   "Nagesh Kukunoor"
+  ]
+ },
+ "Rockstar|2011|hindi": {
+  "title": "Rockstar",
+  "year": 2011,
+  "language": "hindi",
+  "tmdb_id": 79464,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Rockstar",
+  "release_date": "2011-11-11",
+  "poster_path": "/cJZC9riwrdATBUonkZJZD6y9g40.jpg",
+  "backdrop_path": "/3UseBwzKsUmMN37XcahJSVYRWkf.jpg",
+  "runtime": 159,
+  "director": [
+   "Imtiaz Ali"
+  ]
+ },
+ "Roja|1992|tamil": {
+  "title": "Roja",
+  "year": 1992,
+  "language": "tamil",
+  "tmdb_id": 21463,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Roja",
+  "release_date": "1992-08-15",
+  "poster_path": "/4vsfaW8actUgPRK79zgGlgpSSeB.jpg",
+  "backdrop_path": "/pWgrBvyUwyMu4VaFVCvnZTO7aeD.jpg",
+  "runtime": 137,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Romeo Akbar Walter|2019|hindi": {
+  "title": "Romeo Akbar Walter",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 585862,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Romeo Akbar Walter",
+  "release_date": "2019-03-15",
+  "poster_path": "/bFMVatMQVqB3lZGXFpK38tPAetq.jpg",
+  "backdrop_path": "/uWq3N5RaTfunUHsko120NEJg1HO.jpg",
+  "runtime": 141,
+  "director": [
+   "Robby Grewal"
+  ]
+ },
+ "Saala Khadoos|2016|hindi": {
+  "title": "Saala Khadoos",
+  "year": 2016,
+  "language": "hindi",
+  "tmdb_id": 357706,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Irudhi Suttru",
+  "release_date": "2016-01-28",
+  "poster_path": "/h2cjfz0oDywC9KPTwjWSqubKLob.jpg",
+  "backdrop_path": "/pNbAzCgME47riqUP0hgQDlv2ITf.jpg",
+  "runtime": 109,
+  "director": [
+   "Sudha Kongara Prasad"
+  ]
+ },
+ "Saathiya|2002|hindi": {
+  "title": "Saathiya",
+  "year": 2002,
+  "language": "hindi",
+  "tmdb_id": 20656,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Saathiya",
+  "release_date": "2002-12-20",
+  "poster_path": "/ouC0CebGDnkcoebC4sv3XpE5Zqt.jpg",
+  "backdrop_path": "/4q43NFnDpUlLjw6TKpDxMyEIF3G.jpg",
+  "runtime": 143,
+  "director": [
+   "Shaad Ali"
+  ]
+ },
+ "Sagara Sangamam|1983|telugu": {
+  "title": "Sagara Sangamam",
+  "year": 1983,
+  "language": "telugu",
+  "tmdb_id": 30153,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sagara Sangamam",
+  "release_date": "1983-06-03",
+  "poster_path": "/hdg47CcaBfLf0DttUoav45boYtL.jpg",
+  "backdrop_path": "/tGy0Sob0T7fzcgD6dOmsUypqxxu.jpg",
+  "runtime": 160,
+  "director": [
+   "K. Viswanath"
+  ]
+ },
+ "Sairat|2016|marathi": {
+  "title": "Sairat",
+  "year": 2016,
+  "language": "marathi",
+  "tmdb_id": 383367,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sairat",
+  "release_date": "2016-04-29",
+  "poster_path": "/d8K4ZI1RSxMkIIwu5cuvZmzwohq.jpg",
+  "backdrop_path": "/vBId5iBnayC6yyqKFeX9shSaoCQ.jpg",
+  "runtime": 170,
+  "director": [
+   "Nagraj Popatrao Manjule"
+  ]
+ },
+ "Salaar: Part 1 – Ceasefire|2023|telugu": {
+  "title": "Salaar: Part 1 – Ceasefire",
+  "year": 2023,
+  "language": "telugu",
+  "tmdb_id": 770906,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Salaar: Part 1 - Ceasefire",
+  "release_date": "2023-12-21",
+  "poster_path": "/wjyUcWRVvXaZQ4iahA3TNvrsDls.jpg",
+  "backdrop_path": "/xtOCTmGemASooRkAxRorYODig1p.jpg",
+  "runtime": 175,
+  "director": [
+   "Prashanth Neel"
+  ]
+ },
+ "Samsaram Oka Chadarangam|1987|telugu": {
+  "title": "Samsaram Oka Chadarangam",
+  "year": 1987,
+  "language": "telugu",
+  "tmdb_id": 1171725,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Samsaram Oka Chadarangam",
+  "release_date": "1987-01-14",
+  "poster_path": "/cHiH9TxbBjyCcbWpYCCw8x0qmbT.jpg",
+  "backdrop_path": null,
+  "runtime": 156,
+  "director": [
+   "S. P. Muthuraman"
+  ]
+ },
+ "Sandesham|1991|malayalam": {
+  "title": "Sandesham",
+  "year": 1991,
+  "language": "malayalam",
+  "tmdb_id": 134477,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sandhesam",
+  "release_date": "1991-11-01",
+  "poster_path": "/tF1Y52WGqX7t3Lj35oQC6IL3ENB.jpg",
+  "backdrop_path": "/4hLgKxux7MTSt8jSZ1UiQW5Sujd.jpg",
+  "runtime": 137,
+  "director": [
+   "Sathyan Anthikad"
+  ]
+ },
+ "Sangam|1964|hindi": {
+  "title": "Sangam",
+  "year": 1964,
+  "language": "hindi",
+  "tmdb_id": 48926,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sangam",
+  "release_date": "1964-06-18",
+  "poster_path": "/njI2kk6DE6oovfpapO1VEE76Ijl.jpg",
+  "backdrop_path": "/bOwjgqQYgh8tkWanOecPIiE79Ks.jpg",
+  "runtime": 238,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Sankarabharanam|1980|telugu": {
+  "title": "Sankarabharanam",
+  "year": 1980,
+  "language": "telugu",
+  "tmdb_id": 30088,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sankarabharanam",
+  "release_date": "1980-02-02",
+  "poster_path": "/9LDbi3KsrpBQL48uXIPWTYsdjyF.jpg",
+  "backdrop_path": "/2VRqEymQe0rFMK4BFeDI42t5rHr.jpg",
+  "runtime": 143,
+  "director": [
+   "K. Viswanath"
+  ]
+ },
+ "Sapta Sagaradaache Ello — Side A & Side B|2023|kannada": {
+  "title": "Sapta Sagaradaache Ello — Side A & Side B",
+  "year": 2023,
+  "language": "kannada",
+  "tmdb_id": 1168104,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sapta Sagaradaache Ello – Side A",
+  "release_date": "2023-09-01",
+  "poster_path": "/qjvSMN5dhSh7cymjj6if2aJ4ejW.jpg",
+  "backdrop_path": "/3J1V1rSV0Rlk5AGsMO7ahD92spD.jpg",
+  "runtime": 140,
+  "director": [
+   "Hemanth M. Rao"
+  ]
+ },
+ "Sarkar|2005|hindi": {
+  "title": "Sarkar",
+  "year": 2005,
+  "language": "hindi",
+  "tmdb_id": 20968,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sarkar",
+  "release_date": "2005-07-01",
+  "poster_path": "/rxruLUuejw1By5KMZVbhN8VJv9O.jpg",
+  "backdrop_path": "/4J0JAe2etXGYTYPuQlev07fbby3.jpg",
+  "runtime": 123,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Sarpatta Parambarai|2021|tamil": {
+  "title": "Sarpatta Parambarai",
+  "year": 2021,
+  "language": "tamil",
+  "tmdb_id": 796011,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sarpatta Parambarai",
+  "release_date": "2021-07-22",
+  "poster_path": "/3f2KrEoOTmQxfDWgeqqLQ1rCYWP.jpg",
+  "backdrop_path": "/j9fWBx3rAjXmCHK7M0hltRYvn3r.jpg",
+  "runtime": 174,
+  "director": [
+   "Pa. Ranjith"
+  ]
+ },
+ "Sathi Leelavathi|1995|tamil": {
+  "title": "Sathi Leelavathi",
+  "year": 1995,
+  "language": "tamil",
+  "tmdb_id": 66352,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sathi Leelavathi",
+  "release_date": "1995-01-15",
+  "poster_path": "/gJjxDw7uogiHuDtvkxk3GKD9UGu.jpg",
+  "backdrop_path": "/1UGkeYQsW2kml28YURNGdkNCosq.jpg",
+  "runtime": 144,
+  "director": [
+   "Balu Mahendra"
+  ]
+ },
+ "Satyam Shivam Sundaram|1978|hindi": {
+  "title": "Satyam Shivam Sundaram",
+  "year": 1978,
+  "language": "hindi",
+  "tmdb_id": 143975,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Satyam Shivam Sundaram",
+  "release_date": "1978-03-24",
+  "poster_path": "/5k5owbottAeIk7gPjFnnkmO94wQ.jpg",
+  "backdrop_path": "/e6yFrMa4ZttMY4ayxgqGNVXiPfY.jpg",
+  "runtime": 172,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Satya|1998|hindi": {
+  "title": "Satya",
+  "year": 1998,
+  "language": "hindi",
+  "tmdb_id": 21502,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Satya",
+  "release_date": "1998-07-03",
+  "poster_path": "/wwgpEEGU5RVu5hM7AZa6oiivcln.jpg",
+  "backdrop_path": "/oVx0FhUDayBBSVbuTbWxoLOVFAk.jpg",
+  "runtime": 170,
+  "director": [
+   "Ram Gopal Varma"
+  ]
+ },
+ "Shanghai|2012|hindi": {
+  "title": "Shanghai",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 100681,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Shanghai",
+  "release_date": "2012-06-08",
+  "poster_path": "/i1SwP8KqOIKtu5V2i2IjXNm2dVy.jpg",
+  "backdrop_path": "/hkkbP02FiHJRCv9UOhBz3r5lVHM.jpg",
+  "runtime": 120,
+  "director": [
+   "Dibakar Banerjee"
+  ]
+ },
+ "Shershaah|2021|hindi": {
+  "title": "Shershaah",
+  "year": 2021,
+  "language": "hindi",
+  "tmdb_id": 599925,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Shershaah",
+  "release_date": "2021-08-12",
+  "poster_path": "/zGvFnwoXJKrYnKhoVPytqkqCJ8V.jpg",
+  "backdrop_path": "/AguDwIJdqUFEUXlmXyixotE0WnT.jpg",
+  "runtime": 135,
+  "director": [
+   "Vishnu Varadhan"
+  ]
+ },
+ "Sholay|1975|hindi": {
+  "title": "Sholay",
+  "year": 1975,
+  "language": "hindi",
+  "tmdb_id": 12259,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sholay",
+  "release_date": "1975-08-15",
+  "poster_path": "/ya9bwgqA4eNl5bQ9QqS0jcmRoBS.jpg",
+  "backdrop_path": "/mUAvhPWY4r7O32txXa7VvzKMrhJ.jpg",
+  "runtime": 208,
+  "director": [
+   "Ramesh Sippy"
+  ]
+ },
+ "Shree 420|1955|hindi": {
+  "title": "Shree 420",
+  "year": 1955,
+  "language": "hindi",
+  "tmdb_id": 48929,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Shree 420",
+  "release_date": "1955-09-06",
+  "poster_path": "/nKqpOzyDhZvpGUDkUK8aY4treLg.jpg",
+  "backdrop_path": "/totcmnBIkwJHqutFu26N8JO5jDU.jpg",
+  "runtime": 168,
+  "director": [
+   "Raj Kapoor"
+  ]
+ },
+ "Sinhasan|1979|marathi": {
+  "title": "Sinhasan",
+  "year": 1979,
+  "language": "marathi",
+  "tmdb_id": 310745,
+  "match": "confirmed",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sinhasan",
+  "release_date": "1979-01-01",
+  "poster_path": "/pd7lbXLdqWSstsTf9l3xTSp4CZ0.jpg",
+  "backdrop_path": null,
+  "runtime": null,
+  "director": [
+   "Jabbar Patel"
+  ]
+ },
+ "Sonchiriya|2019|hindi": {
+  "title": "Sonchiriya",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 535144,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sonchiriya",
+  "release_date": "2019-03-01",
+  "poster_path": "/7ygikeDbneOlUFIQyvAmMrvi3vJ.jpg",
+  "backdrop_path": "/fVxbEDd7ci0TE4ljsK13oyNUeW7.jpg",
+  "runtime": 145,
+  "director": [
+   "Abhishek Chaubey"
+  ]
+ },
+ "Spadikam|1995|malayalam": {
+  "title": "Spadikam",
+  "year": 1995,
+  "language": "malayalam",
+  "tmdb_id": 240179,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Spadikam",
+  "release_date": "1995-03-30",
+  "poster_path": "/1bDOwCzW2cIVtRgeVQKn5ZTzcFf.jpg",
+  "backdrop_path": "/5rJ3kVQfOQvBSglUATWpqeca9vB.jpg",
+  "runtime": 150,
+  "director": [
+   "Bhadran"
+  ]
+ },
+ "Spy|2023|telugu": {
+  "title": "Spy",
+  "year": 2023,
+  "language": "telugu",
+  "tmdb_id": 964132,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Spy",
+  "release_date": "2023-06-29",
+  "poster_path": "/dQstfiK8eMqRHwrgkzx4pk9td1l.jpg",
+  "backdrop_path": "/ztAkPdxBulEpvAmU0aqqYFXwgf6.jpg",
+  "runtime": 135,
+  "director": [
+   "Garry BH"
+  ]
+ },
+ "Stanley Ka Dabba|2011|hindi": {
+  "title": "Stanley Ka Dabba",
+  "year": 2011,
+  "language": "hindi",
+  "tmdb_id": 68256,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Stanley Ka Dabba",
+  "release_date": "2011-05-13",
+  "poster_path": "/6ivNFQZCg7ZeDtPK900DD4iwPSc.jpg",
+  "backdrop_path": "/bxNQBP8yzBrghKdzmf4Wgwq8PcF.jpg",
+  "runtime": 96,
+  "director": [
+   "Amole Gupte"
+  ]
+ },
+ "Stree|2018|hindi": {
+  "title": "Stree",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 533991,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Stree",
+  "release_date": "2018-08-31",
+  "poster_path": "/euhgW6hpDYw7nxFDjqHn0eKvQPX.jpg",
+  "backdrop_path": "/4qgK44Ee1iRXTRp6w9LvMz76LJw.jpg",
+  "runtime": 128,
+  "director": [
+   "Amar Kaushik"
+  ]
+ },
+ "Subramaniapuram|2008|tamil": {
+  "title": "Subramaniapuram",
+  "year": 2008,
+  "language": "tamil",
+  "tmdb_id": 76850,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Subramaniapuram",
+  "release_date": "2008-07-04",
+  "poster_path": "/n6fX9TDrzNPEYBK6ia1FMz84g2j.jpg",
+  "backdrop_path": "/cBhoqYyBzLFhHVZhaQH7aD0CEfF.jpg",
+  "runtime": 145,
+  "director": [
+   "M. Sasikumar"
+  ]
+ },
+ "Sudani from Nigeria|2018|malayalam": {
+  "title": "Sudani from Nigeria",
+  "year": 2018,
+  "language": "malayalam",
+  "tmdb_id": 504314,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sudani from Nigeria",
+  "release_date": "2018-03-23",
+  "poster_path": "/53yLPoLX8c9nAGLfmnNdF01zrNc.jpg",
+  "backdrop_path": "/sRQ4cxqhAP3MG5n1MyvfOiD1t6K.jpg",
+  "runtime": 123,
+  "director": [
+   "Zakariya Mohammed"
+  ]
+ },
+ "Sujata|1959|hindi": {
+  "title": "Sujata",
+  "year": 1959,
+  "language": "hindi",
+  "tmdb_id": 82567,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Sujata",
+  "release_date": "1959-04-03",
+  "poster_path": "/5uFbFWNmExXsspvU0UuAnHhDmLq.jpg",
+  "backdrop_path": "/A1pb8zK2vVkVUFSYZQ6GPAjvEh2.jpg",
+  "runtime": 161,
+  "director": [
+   "Bimal Roy"
+  ]
+ },
+ "Swades|2004|hindi": {
+  "title": "Swades",
+  "year": 2004,
+  "language": "hindi",
+  "tmdb_id": 15774,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Swades",
+  "release_date": "2004-12-17",
+  "poster_path": "/yUSL24kpHc9Nls4Pohia4shgcIM.jpg",
+  "backdrop_path": "/AmRfsOyEXpVhnaYXZMoDlZd9Siq.jpg",
+  "runtime": 195,
+  "director": [
+   "Ashutosh Gowariker"
+  ]
+ },
+ "Taal|1999|hindi": {
+  "title": "Taal",
+  "year": 1999,
+  "language": "hindi",
+  "tmdb_id": 20929,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Taal",
+  "release_date": "1999-08-13",
+  "poster_path": "/n2VsCd4wPIEMTWQBxBJVKVAOeTk.jpg",
+  "backdrop_path": "/amHXl0gpzMyYdUxpvHXEhKyOW3m.jpg",
+  "runtime": 177,
+  "director": [
+   "Subhash Ghai"
+  ]
+ },
+ "Talaash|2012|hindi": {
+  "title": "Talaash",
+  "year": 2012,
+  "language": "hindi",
+  "tmdb_id": 86004,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Talaash",
+  "release_date": "2012-11-30",
+  "poster_path": "/oCxyN7HmJ7zWp8jtJeMRHABnutF.jpg",
+  "backdrop_path": "/aJIojufZhl5JG42rJ0H3LsMxId6.jpg",
+  "runtime": 149,
+  "director": [
+   "Reema Kagti"
+  ]
+ },
+ "Talvar|2015|hindi": {
+  "title": "Talvar",
+  "year": 2015,
+  "language": "hindi",
+  "tmdb_id": 353464,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Talvar",
+  "release_date": "2015-10-02",
+  "poster_path": "/vye2RxyxXKeTIJBSHo0HkvFuTCR.jpg",
+  "backdrop_path": "/xvAY4zRP4J74v1ROIOGjtm07oYA.jpg",
+  "runtime": 132,
+  "director": [
+   "Meghna Gulzar"
+  ]
+ },
+ "Thadam|2019|tamil": {
+  "title": "Thadam",
+  "year": 2019,
+  "language": "tamil",
+  "tmdb_id": 505971,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thadam",
+  "release_date": "2019-03-01",
+  "poster_path": "/mR1Rf4ZaE4iDbvYKwZsvmg2mrBN.jpg",
+  "backdrop_path": "/8ubcfIW4O3w8BinAualdsVFl6my.jpg",
+  "runtime": 138,
+  "director": [
+   "Magizh Thirumeni"
+  ]
+ },
+ "Thalapathi|1991|tamil": {
+  "title": "Thalapathi",
+  "year": 1991,
+  "language": "tamil",
+  "tmdb_id": 29811,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thalapathi",
+  "release_date": "1991-11-05",
+  "poster_path": "/dpF1Ck1UvpW0ItT1EoX0xNYEhS8.jpg",
+  "backdrop_path": "/zmr611Q4JGZEDKvsT8tfuDLB4nG.jpg",
+  "runtime": 157,
+  "director": [
+   "Mani Ratnam"
+  ]
+ },
+ "Thanga Meenkal|2013|tamil": {
+  "title": "Thanga Meenkal",
+  "year": 2013,
+  "language": "tamil",
+  "tmdb_id": 218197,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thanga Meenkal",
+  "release_date": "2013-08-30",
+  "poster_path": "/bXLqVU2qnKViL3hwDOe45wJucah.jpg",
+  "backdrop_path": "/zbJlLFRtPv8mFdiNaJCbv2DYizi.jpg",
+  "runtime": 125,
+  "director": [
+   "Ram"
+  ]
+ },
+ "Thanneer Mathan Dinangal|2019|malayalam": {
+  "title": "Thanneer Mathan Dinangal",
+  "year": 2019,
+  "language": "malayalam",
+  "tmdb_id": 618435,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thanneer Mathan Dinangal",
+  "release_date": "2019-07-26",
+  "poster_path": "/5DbCWsIRUC1j2EG7oxQhoDOhPh2.jpg",
+  "backdrop_path": "/pWZkKA9nyvBspZ0E3y348tBDtjG.jpg",
+  "runtime": 133,
+  "director": [
+   "Girish A. D."
+  ]
+ },
+ "The Ghazi Attack|2017|telugu": {
+  "title": "The Ghazi Attack",
+  "year": 2017,
+  "language": "telugu",
+  "tmdb_id": 442405,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "The Ghazi Attack",
+  "release_date": "2017-02-17",
+  "poster_path": "/i7lITQa1v7dZZgLIdE8vZRnPhOC.jpg",
+  "backdrop_path": "/dZcr23O8nY6A0CXbkAdDVP9b05n.jpg",
+  "runtime": 126,
+  "director": [
+   "Sankalp Reddy"
+  ]
+ },
+ "The Great Indian Kitchen|2021|malayalam": {
+  "title": "The Great Indian Kitchen",
+  "year": 2021,
+  "language": "malayalam",
+  "tmdb_id": 786064,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "The Great Indian Kitchen",
+  "release_date": "2022-07-08",
+  "poster_path": "/4jgiaVOGD8sTjWlwBdx8q5JMJM3.jpg",
+  "backdrop_path": "/pyYcByKY5HyRsYdhTyIwFOnO6jT.jpg",
+  "runtime": 100,
+  "director": [
+   "Jeo Baby"
+  ]
+ },
+ "The Hero: Love Story of a Spy|2003|hindi": {
+  "title": "The Hero: Love Story of a Spy",
+  "year": 2003,
+  "language": "hindi",
+  "tmdb_id": 271677,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "The Hero: Love Story of a Spy",
+  "release_date": "2003-04-10",
+  "poster_path": "/f1tNXXHZwPRCiP94P7sB0NeNSRT.jpg",
+  "backdrop_path": "/e7o1KXbkxImEzxMUPytp0DiXQrr.jpg",
+  "runtime": 160,
+  "director": [
+   "Anil Sharma"
+  ]
+ },
+ "Thillu Mullu|1981|tamil": {
+  "title": "Thillu Mullu",
+  "year": 1981,
+  "language": "tamil",
+  "tmdb_id": 66402,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thillu Mullu",
+  "release_date": "1981-05-01",
+  "poster_path": "/9ECMeSTG2Qdi2PpjgGcvlgLpP8T.jpg",
+  "backdrop_path": "/3wkLwmPhBkzlDb958Ir3CzNnvtP.jpg",
+  "runtime": 145,
+  "director": [
+   "K. Balachander"
+  ]
+ },
+ "Thondimuthalum Driksakshiyum|2017|malayalam": {
+  "title": "Thondimuthalum Driksakshiyum",
+  "year": 2017,
+  "language": "malayalam",
+  "tmdb_id": 459719,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thondimuthalum Driksakshiyum",
+  "release_date": "2017-06-30",
+  "poster_path": "/ki1EguwPuXM1t4UTDuaBqD8BLJi.jpg",
+  "backdrop_path": "/uoKL5rkyAsZncL7IvqTlkymNuKV.jpg",
+  "runtime": 136,
+  "director": [
+   "Dileesh Pothan"
+  ]
+ },
+ "Thuppakki|2012|tamil": {
+  "title": "Thuppakki",
+  "year": 2012,
+  "language": "tamil",
+  "tmdb_id": 143010,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Thuppakki",
+  "release_date": "2012-11-13",
+  "poster_path": "/uTQNCqMnSDbZghFYNmzDvTVD413.jpg",
+  "backdrop_path": "/qpakrk2P4uyuxgxjTFqEE1S88zp.jpg",
+  "runtime": 170,
+  "director": [
+   "A. R. Murugadoss"
+  ]
+ },
+ "Tiger Zinda Hai|2017|hindi": {
+  "title": "Tiger Zinda Hai",
+  "year": 2017,
+  "language": "hindi",
+  "tmdb_id": 441909,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Tiger Zinda Hai",
+  "release_date": "2017-12-18",
+  "poster_path": "/mdzNLFfCfuBoJz43l0SmMWWdu5t.jpg",
+  "backdrop_path": "/enSG6SDVjZOktOQbcPk2r2Jy4ND.jpg",
+  "runtime": 160,
+  "director": [
+   "Ali Abbas Zafar"
+  ]
+ },
+ "Timepass|2014|marathi": {
+  "title": "Timepass",
+  "year": 2014,
+  "language": "marathi",
+  "tmdb_id": 249677,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Timepass",
+  "release_date": "2014-01-03",
+  "poster_path": "/w2IaW55uiJNQTjsdoJU82Uk0Mn.jpg",
+  "backdrop_path": "/agEhJpgOj6IQ1WwYJCBGnZvKs1H.jpg",
+  "runtime": 143,
+  "director": [
+   "Ravi Jadhav"
+  ]
+ },
+ "Tumbbad|2018|hindi": {
+  "title": "Tumbbad",
+  "year": 2018,
+  "language": "hindi",
+  "tmdb_id": 538858,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Tumbbad",
+  "release_date": "2018-10-12",
+  "poster_path": "/z1xOCxw780WFJC5uCTMfCkQ4Agi.jpg",
+  "backdrop_path": "/l0YKBu3LaehIFzBNjseLjx7MbaN.jpg",
+  "runtime": 113,
+  "director": [
+   "Rahi Anil Barve"
+  ]
+ },
+ "U Turn|2016|kannada": {
+  "title": "U Turn",
+  "year": 2016,
+  "language": "kannada",
+  "tmdb_id": 397490,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "U Turn",
+  "release_date": "2016-05-20",
+  "poster_path": "/fjl9czd3zj0QpeaXAysAGwM9UrD.jpg",
+  "backdrop_path": "/nGHcMV6QHZr7cYNwBX7zBP973BU.jpg",
+  "runtime": 121,
+  "director": [
+   "Pawan Kumar"
+  ]
+ },
+ "Udaan|2010|hindi": {
+  "title": "Udaan",
+  "year": 2010,
+  "language": "hindi",
+  "tmdb_id": 45316,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Udaan",
+  "release_date": "2010-06-17",
+  "poster_path": "/8dQmrGk0WRPiCwiiGdIxnY5s8Pc.jpg",
+  "backdrop_path": "/ddkcwMd6H7kGfgqntkt2Af52mgl.jpg",
+  "runtime": 138,
+  "director": [
+   "Vikramaditya Motwane"
+  ]
+ },
+ "Ulidavaru Kandanthe|2014|kannada": {
+  "title": "Ulidavaru Kandanthe",
+  "year": 2014,
+  "language": "kannada",
+  "tmdb_id": 262476,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ulidavaru Kandanthe",
+  "release_date": "2014-03-28",
+  "poster_path": "/b7Ee4DKKhNVYNV84rovdqcWXjgt.jpg",
+  "backdrop_path": "/gEdMkJTxYJNhV7OBO65FHyI9KgO.jpg",
+  "runtime": 154,
+  "director": [
+   "Rakshit Shetty"
+  ]
+ },
+ "Uri: The Surgical Strike|2019|hindi": {
+  "title": "Uri: The Surgical Strike",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 554600,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Uri: The Surgical Strike",
+  "release_date": "2019-01-11",
+  "poster_path": "/yNySAgpAnWmPpYinim9E0tUzJWG.jpg",
+  "backdrop_path": "/gEDzACsdPbsHZQ0I80FLYFCf2nt.jpg",
+  "runtime": 138,
+  "director": [
+   "Aditya Dhar"
+  ]
+ },
+ "Ustad Hotel|2012|malayalam": {
+  "title": "Ustad Hotel",
+  "year": 2012,
+  "language": "malayalam",
+  "tmdb_id": 117751,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Ustad Hotel",
+  "release_date": "2012-06-29",
+  "poster_path": "/88QYspKRArRutF3t0Bzj0JYFlcI.jpg",
+  "backdrop_path": "/u792SfQyGVFpAsIAm44sILx2eLN.jpg",
+  "runtime": 150,
+  "director": [
+   "Anwar Rasheed"
+  ]
+ },
+ "Vaaranam Aayiram|2008|tamil": {
+  "title": "Vaaranam Aayiram",
+  "year": 2008,
+  "language": "tamil",
+  "tmdb_id": 38637,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vaaranam Aayiram",
+  "release_date": "2008-11-14",
+  "poster_path": "/3PxkiDTObsws7pzkdUiHCjOxVA4.jpg",
+  "backdrop_path": "/f27VwvczS7VqAwDwVChQrQqprFX.jpg",
+  "runtime": 169,
+  "director": [
+   "Gautham Vasudev Menon"
+  ]
+ },
+ "Vaastav|1999|hindi": {
+  "title": "Vaastav",
+  "year": 1999,
+  "language": "hindi",
+  "tmdb_id": 146270,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vaastav",
+  "release_date": "1999-10-07",
+  "poster_path": "/fsB57eZ0EJ9nXLxgfjQG9iYiswH.jpg",
+  "backdrop_path": "/kijEHuVFvYHlUqOgbxziGHitxju.jpg",
+  "runtime": 150,
+  "director": [
+   "Mahesh Manjrekar"
+  ]
+ },
+ "Vallinam|2014|tamil": {
+  "title": "Vallinam",
+  "year": 2014,
+  "language": "tamil",
+  "tmdb_id": 79356,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vallinam",
+  "release_date": "2014-02-28",
+  "poster_path": "/u3cafU0k1qGLDhlTBdifaDvoQnv.jpg",
+  "backdrop_path": "/zc79HKdpiSC67FZhM0mOVTIXAcj.jpg",
+  "runtime": 147,
+  "director": [
+   "Arivazhagan Venkatachalam"
+  ]
+ },
+ "Varane Avashyamund|2020|malayalam": {
+  "title": "Varane Avashyamund",
+  "year": 2020,
+  "language": "malayalam",
+  "tmdb_id": 659731,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Varane Avashyamund",
+  "release_date": "2020-02-07",
+  "poster_path": "/7CzcHo5GeqScKLFBC7p5Yyxnehk.jpg",
+  "backdrop_path": "/wCyz9jIwRLreppYqF15XtN8FfSa.jpg",
+  "runtime": 145,
+  "director": [
+   "Anoop Sathyan"
+  ]
+ },
+ "Veer-Zaara|2004|hindi": {
+  "title": "Veer-Zaara",
+  "year": 2004,
+  "language": "hindi",
+  "tmdb_id": 4251,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Veer-Zaara",
+  "release_date": "2004-11-12",
+  "poster_path": "/j267YqLvKAHeyykTflxzpgVgviQ.jpg",
+  "backdrop_path": "/tID8mHaMGDwh9sNydvSo3U1fdxb.jpg",
+  "runtime": 192,
+  "director": [
+   "Yash Chopra"
+  ]
+ },
+ "Vijeta|1982|hindi": {
+  "title": "Vijeta",
+  "year": 1982,
+  "language": "hindi",
+  "tmdb_id": 238134,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vijeta",
+  "release_date": "1982-03-04",
+  "poster_path": "/soeLYpXlIFupYr51Q3oKNBUjHpx.jpg",
+  "backdrop_path": "/uOrCVGUl5buKmvGQpgEe4A52Kx4.jpg",
+  "runtime": 151,
+  "director": [
+   "Govind Nihalani"
+  ]
+ },
+ "Vikram|2022|tamil": {
+  "title": "Vikram",
+  "year": 2022,
+  "language": "tamil",
+  "tmdb_id": 743563,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vikram",
+  "release_date": "2022-06-02",
+  "poster_path": "/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg",
+  "backdrop_path": "/dkIX4dSMuVqjfrPGunBJUR7K3LQ.jpg",
+  "runtime": 174,
+  "director": [
+   "Lokesh Kanagaraj"
+  ]
+ },
+ "Vinnaithaandi Varuvaayaa|2010|tamil": {
+  "title": "Vinnaithaandi Varuvaayaa",
+  "year": 2010,
+  "language": "tamil",
+  "tmdb_id": 37941,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vinnaithaandi Varuvaayaa",
+  "release_date": "2010-02-26",
+  "poster_path": "/AldNCoRJlhkzkBzKPmUalBdRCts.jpg",
+  "backdrop_path": "/hGBleDZsJGo0epp50ekddIz9cvN.jpg",
+  "runtime": 157,
+  "director": [
+   "Gautham Vasudev Menon"
+  ]
+ },
+ "Virupaksha|2023|telugu": {
+  "title": "Virupaksha",
+  "year": 2023,
+  "language": "telugu",
+  "tmdb_id": 1034590,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Virupaksha",
+  "release_date": "2023-04-20",
+  "poster_path": "/fqMn4h9ctOyumII2nXDnm5mRTxQ.jpg",
+  "backdrop_path": "/xfm3oNEyguquFMW3Yq4UNgnoVRL.jpg",
+  "runtime": 146,
+  "director": [
+   "Karthik Varma Dandu"
+  ]
+ },
+ "Vishwaroopam|2013|tamil": {
+  "title": "Vishwaroopam",
+  "year": 2013,
+  "language": "tamil",
+  "tmdb_id": 117319,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Vishwaroopam",
+  "release_date": "2013-01-25",
+  "poster_path": "/6j0ie6qImOH0ndS7uaZb4879PwC.jpg",
+  "backdrop_path": "/5xXY3oPMnomX7dRalNuwO4Ab57v.jpg",
+  "runtime": 147,
+  "director": [
+   "Kamal Haasan"
+  ]
+ },
+ "Wake Up Sid|2009|hindi": {
+  "title": "Wake Up Sid",
+  "year": 2009,
+  "language": "hindi",
+  "tmdb_id": 21297,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Wake Up Sid",
+  "release_date": "2009-10-02",
+  "poster_path": "/1UpgW67W6Do0xizTuE26bMQFLdL.jpg",
+  "backdrop_path": "/bYlQaqn0eZGtYjzPyKHDn2QXDVp.jpg",
+  "runtime": 138,
+  "director": [
+   "Ayan Mukerji"
+  ]
+ },
+ "War|2019|hindi": {
+  "title": "War",
+  "year": 2019,
+  "language": "hindi",
+  "tmdb_id": 585268,
+  "match": "pinned",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "War",
+  "release_date": "2019-10-02",
+  "poster_path": "/zpN2QYgiCNzG11k0tG3qfILgFYE.jpg",
+  "backdrop_path": "/aOSDKvqglKVa3SYy4CPXYUAfDlf.jpg",
+  "runtime": 152,
+  "director": [
+   "Siddharth Anand"
+  ]
+ },
+ "Yuva|2004|hindi": {
+  "title": "Yuva",
+  "year": 2004,
+  "language": "hindi",
+  "tmdb_id": 43410,
+  "match": "auto",
+  "fetched_at": "2026-11-26",
+  "tmdb_title": "Yuva",
+  "release_date": "2004-05-22",
+  "poster_path": "/m3h7iSCBBFT40IZYuh3IjJN6fjE.jpg",
+  "backdrop_path": "/xDs2K2VNBz7UemiUt3rywvdLHKx.jpg",
+  "runtime": 161,
+  "director": [
+   "Mani Ratnam"
+  ]
+ }
+}
