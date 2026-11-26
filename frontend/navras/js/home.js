@@ -857,31 +857,14 @@ function ensureExplorerLists() {
 let explorerPosterCache = {};
 
 /* One poster for the whole list — list.coverEntry (see js/list-covers.js)
-   already picked which film; this just resolves its art. The pinned
-   tmdb_id path (most entries have one by now — every language-mismatch
-   fix this session added one) is a direct lookup, not a title search, so
-   it can't have the wrong-film problem a global title search can. */
+   already picked which film; its art comes from our film database
+   (js/film-db.js). */
 async function fetchCoverPoster(list) {
   if (!list.coverEntry) return null;
   if (explorerPosterCache[list.id] !== undefined) return explorerPosterCache[list.id];
 
-  const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
-  const f = list.coverEntry.film;
-  let url = null;
-  try {
-    if (f.tmdb_id) {
-      const res = await fetch(`https://api.themoviedb.org/3/movie/${f.tmdb_id}?api_key=${TMDB_KEY}`);
-      const data = await res.json();
-      if (data?.poster_path) url = `https://image.tmdb.org/t/p/w342${data.poster_path}`;
-    } else {
-      const res = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
-      );
-      const data = await res.json();
-      const path = data?.results?.[0]?.poster_path;
-      if (path) url = `https://image.tmdb.org/t/p/w342${path}`;
-    }
-  } catch {}
+  const path = (await filmRecord(list.coverEntry.film))?.poster_path;
+  const url = path ? `https://image.tmdb.org/t/p/w342${path}` : null;
 
   explorerPosterCache[list.id] = url;
   return url;

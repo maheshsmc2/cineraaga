@@ -76,40 +76,21 @@ function renderRow(entry, i) {
     </div>`;
 }
 
-/* Posters come from TMDb by tmdb_id — the new list schema carries one.
-   The older curated lists (bollywood50, best2025, …) predate that field and
-   only have title + year, so those fall back to a title search, matching
-   what the homepage list cards already do. Either way a failed lookup just
-   leaves the entry's colour block, so a curated list is never blocked on TMDb. */
-async function posterPathFor(film) {
-  if (film.tmdb_id) {
-    const data = await TMDB.get(`/movie/${film.tmdb_id}`, {});
-    if (data?.poster_path) return data.poster_path;
-  }
-  if (film.title) {
-    const params = { query: film.title };
-    if (film.year) params.year = film.year;
-    const search = await TMDB.get('/search/movie', params);
-    return search?.results?.[0]?.poster_path || null;
-  }
-  return null;
-}
-
+/* Poster paths come from our own film database (js/film-db.js). A film with no
+   record just keeps the entry's colour block, so a list is never blocked on it. */
 async function loadPosters(entries) {
   await Promise.all(entries.map(async (entry, i) => {
     const f = entry.film || {};
     const rank = entry.rank || i + 1;
-    try {
-      const path = await posterPathFor(f);
-      if (!path) return;
-      const holder = document.getElementById(`lp-poster-${rank}`);
-      if (!holder) return;
-      const img = document.createElement('img');
-      img.src = TMDB.poster(path, 'w185');
-      img.alt = f.title || '';
-      img.loading = 'lazy';
-      holder.prepend(img);
-    } catch {}
+    const path = (await filmRecord(f, '../'))?.poster_path;
+    if (!path) return;
+    const holder = document.getElementById(`lp-poster-${rank}`);
+    if (!holder) return;
+    const img = document.createElement('img');
+    img.src = TMDB.poster(path, 'w185');
+    img.alt = f.title || '';
+    img.loading = 'lazy';
+    holder.prepend(img);
   }));
 }
 

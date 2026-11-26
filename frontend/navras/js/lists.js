@@ -120,36 +120,16 @@ function renderListCard(list) {
 
 /* ---- Load each card's single cover poster ---- */
 async function loadListCardPosters() {
-  const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
-
-  for (const list of allListsFlat) {
-    if (!list.coverEntry) continue;
+  await Promise.all(allListsFlat.map(async list => {
+    if (!list.coverEntry) return;
     const cell = document.getElementById(`lc-cover-${list.slug}`);
-    if (!cell) continue;
-
-    const f = list.coverEntry.film;
-    try {
-      // Pinned tmdb_id is a direct lookup, not a title search — it can't
-      // resolve to the wrong film the way a global title search can.
-      let path = null;
-      if (f.tmdb_id) {
-        const res = await fetch(`https://api.themoviedb.org/3/movie/${f.tmdb_id}?api_key=${TMDB_KEY}`);
-        const data = await res.json();
-        path = data?.poster_path || null;
-      } else {
-        const res = await fetch(
-          `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
-        );
-        const data = await res.json();
-        path = data?.results?.[0]?.poster_path || null;
-      }
-      if (path) {
-        cell.style.backgroundImage = `url('https://image.tmdb.org/t/p/w342${path}')`;
-        cell.style.backgroundSize = 'cover';
-        cell.style.backgroundPosition = 'center';
-      }
-    } catch (e) {}
-  }
+    if (!cell) return;
+    const path = (await filmRecord(list.coverEntry.film, '../'))?.poster_path;
+    if (!path) return;
+    cell.style.backgroundImage = `url('https://image.tmdb.org/t/p/w342${path}')`;
+    cell.style.backgroundSize = 'cover';
+    cell.style.backgroundPosition = 'center';
+  }));
 }
 
 function renderAllLists() {
@@ -260,37 +240,18 @@ function renderFeaturedBanner(list) {
 
 /* ---- Load real posters + background collage for the featured banner ---- */
 async function loadFeaturedBannerPosters(list) {
-  const TMDB_KEY = (window.NAVRAS_CONFIG && window.NAVRAS_CONFIG.TMDB_KEY) || '';
-  const top = list.entries.slice(0, 6);
+  const paint = (id, size, path) => {
+    const el = document.getElementById(id);
+    if (!el || !path) return;
+    el.style.backgroundImage = `url('https://image.tmdb.org/t/p/${size}${path}')`;
+    el.style.backgroundSize = 'cover';
+    el.style.backgroundPosition = 'center';
+  };
 
-  await Promise.all(top.map(async (e, i) => {
-    const f = e.film;
-    try {
-      const res = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_KEY}&query=${encodeURIComponent(f.title)}&year=${f.year}`
-      );
-      const data = await res.json();
-      const movie = data?.results?.[0];
-      if (!movie) return;
-
-      if (i < 5 && movie.poster_path) {
-        const el = document.getElementById(`flb-p-${i + 1}`);
-        if (el) {
-          el.style.backgroundImage = `url('https://image.tmdb.org/t/p/w185${movie.poster_path}')`;
-          el.style.backgroundSize = 'cover';
-          el.style.backgroundPosition = 'center';
-        }
-      }
-
-      const bgPath = movie.backdrop_path || movie.poster_path;
-      if (bgPath) {
-        const bgEl = document.getElementById(`flb-bg-${i + 1}`);
-        if (bgEl) {
-          bgEl.style.backgroundImage = `url('https://image.tmdb.org/t/p/w500${bgPath}')`;
-          bgEl.style.backgroundSize = 'cover';
-          bgEl.style.backgroundPosition = 'center';
-        }
-      }
-    } catch (e) {}
+  await Promise.all(list.entries.slice(0, 6).map(async (e, i) => {
+    const movie = await filmRecord(e.film, '../');
+    if (!movie) return;
+    if (i < 5) paint(`flb-p-${i + 1}`, 'w185', movie.poster_path);
+    paint(`flb-bg-${i + 1}`, 'w500', movie.backdrop_path || movie.poster_path);
   }));
 }
