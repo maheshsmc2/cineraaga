@@ -38,6 +38,12 @@ non-existent element is one `<div>` away from going live again.
 - `data/lists/*.json` + `index.json` — ranked lists. `count` in the index is a
   hand-maintained mirror and drifts; **count real `entries` arrays**, never the
   index field.
+- `data/film-db.json` — generated: one TMDb match per listed film. **After adding
+  or editing list entries run `python3 scripts/build-film-db.py`**; settle doubtful
+  films (`docs/FILM_MATCHES_TO_REVIEW.md`) in `scripts/film-overrides.json`, with
+  the editor's approval. Run with `--refresh` at least every six months (TMDb
+  cache limit; first fetched 2026-11-26). `data/films/` is an unrelated, unused
+  backend export.
 - `data/mood/*.json` — the nine rasas.
 - `data/reviews.json` — one entry per published review page, fields copied from
   the page itself (score box, og:description, byline date). Add an entry when a
@@ -74,9 +80,10 @@ Never blanket-regex across this distinction. Classify each occurrence.
 - **Append to files, don't overwrite.** A spec giving "the full contents" of a
   file usually means "add this" — check what's there first. This nearly deleted
   13 lists once.
-- **New pages must handle old data shapes.** Lists have two schema generations
-  (with and without `tmdb_id`); there's a title-search poster fallback for the
-  older one.
+- **New pages must handle old data shapes.** List entries may or may not pin a
+  `tmdb_id`; `data/film-db.json` covers both.
+- **Never resolve a film by title search in the browser.** Use `filmRecord()`
+  (`js/film-db.js`).
 - **A file marked "already fixed" in a previous pass may not be.** Re-grep for
   `score:`, `Navras`, and hardcoded numbers rather than trusting the label.
 - **Check whether "leftover" code is still *called*,** not just whether its

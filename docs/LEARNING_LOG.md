@@ -464,3 +464,41 @@ different properties here for two months.
   Indian film across every language", and the lists page description names
   lists deleted in August (best Tamil films, top films on Netflix). These are
   the lines a search result would show.
+
+## 2026-11-26 — A film database of our own, for the films we cover
+
+**What happened:**
+
+Mahe asked whether the site could have its own Indian film database instead of
+fetching from TMDb. A full one is not practical — posters and live signals have
+no other source, and stored TMDb data has a cache limit. But the site only needs
+the films it features: 367 list entries, 331 distinct films, of which 28 had a
+pinned id. The other 303 were resolved in each visitor's browser by title search,
+first result wins.
+
+`scripts/build-film-db.py` now matches each once into `data/film-db.json`. 295
+matched automatically, 25 came from pinned ids, 11 went to the editor (festival
+versus release years, bilingual films filed under the other language, spelling
+differences, one two-part film). List pages, the lists page and home list covers
+read the file; they make no TMDb API calls for those.
+
+**Concept:**
+
+The wrong-poster bug was not a bad query to be tuned. It was a decision —
+"which film is this?" — being re-made by a heuristic on every page view, with
+nobody seeing the answer. Making it once, storing it, and refusing to guess when
+two answers are possible turns a recurring bug into a one-time editorial check.
+
+**Traps:**
+
+- Strictness found real data differences rather than errors in the lists: the
+  editor's years were kept where TMDb dates a festival premiere.
+- Pinned ids were verified too, not trusted: three disagreed with the entry's
+  year or language (all intentional, bilingual or festival dating).
+- A generated file goes stale silently. A new list entry has no poster until the
+  script is run (unless it pins an id) — that is deliberate, and recorded in
+  CLAUDE.md.
+- Still title-searched or fetched live: trending, cinemas, OTT, mood and film
+  detail pages, which are live by nature or outside the lists.
+- `data/films/` (84 files, an old backend export) is read by no page and was left
+  alone; the new file is named `film-db.json` to keep the two apart.
