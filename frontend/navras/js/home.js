@@ -11,8 +11,6 @@ const langNames = {
 
 const INDIAN_LANGS = ['hi','ta','te','ml','kn','mr','bn','pa','gu'];
 
-const REVIEWED_TMDB_ID = 1303331; // Dhamaal 4 — pages/dhamaal-4-2026.html, our real published review
-
 /* TMDb's discover endpoints only accept a SINGLE with_original_language
    value — a comma list like 'ta,te,ml,kn' silently returns zero results,
    it is not treated as an OR match. This issues one call per language
@@ -38,12 +36,12 @@ function renderCinemaCard(film, type) {
   const year = (film.release_date||film.first_air_date||'').slice(0,4);
   const rasas = TMDB.genreTags((film.genre_ids||[]).map(id=>({id})));
 
-  // Dhamaal 4 has a real, hand-scored CineRaaga review — link to it and
-  // show the real Navras Score instead of TMDb's audience rating.
-  const isReviewed = film.id === REVIEWED_TMDB_ID;
-  const link = isReviewed ? 'pages/dhamaal-4-2026.html' : `pages/movie.html?id=${film.id}`;
-  const score = isReviewed ? 42 : TMDB.audienceRating(film.vote_average, film.vote_count);
-  const sc = isReviewed ? 'red' : scoreClass(score);
+  // A film with a CineRaaga review (data/reviews.json) links to it and shows
+  // its Navras Score instead of TMDb's audience rating.
+  const review = isTV ? null : (reviewsCache || []).find(r => r.tmdb_id === film.id);
+  const link = review ? `pages/${review.slug}.html` : `pages/movie.html?id=${film.id}`;
+  const score = review ? review.navras_score : TMDB.audienceRating(film.vote_average, film.vote_count);
+  const sc = review ? review.score_class : scoreClass(score);
 
   return `
     <a href="${link}" class="cinema-card">
@@ -134,32 +132,30 @@ function renderReviewRow(film, type) {
    turned out to be entirely wrong (IDs resolved to unrelated Western/
    international titles — Smile 2, Anora, Damsel, etc.), so this now
    always pulls from TMDb's actual India-region now_playing feed,
-   filtered to Indian-language originals. Our own reviewed film
-   (Dhamaal 4) is pinned first since it's the one with a real CineRaaga
-   verdict attached — but only while its release date still falls inside
-   the window TMDb reports for now_playing. Pinning it unconditionally
-   kept a July release under "In cinemas now" into November. */
+   filtered to Indian-language originals. Films CineRaaga has reviewed are
+   pinned first — but only while their release date still falls inside the
+   window TMDb reports for now_playing. Pinning unconditionally once kept a
+   July release under "In cinemas now" into November. */
 async function loadCinemas() {
   const grid = document.getElementById('cinemasGrid');
   if (!grid) return;
 
-  const nowPlaying = await TMDB.get('/movie/now_playing', { region: 'IN' });
+  const [nowPlaying, reviews] = await Promise.all([
+    TMDB.get('/movie/now_playing', { region: 'IN' }),
+    loadPublishedReviews()
+  ]);
 
-  let pinned = null;
-  try {
-    const data = await TMDB.get(`/movie/${REVIEWED_TMDB_ID}`, {});
-    const { minimum, maximum } = nowPlaying?.dates || {};
-    const stillPlaying = minimum && maximum && data?.release_date
-      && data.release_date >= minimum && data.release_date <= maximum;
-    if (data && !data.status_code && data.success !== false && stillPlaying) pinned = data;
-  } catch {}
+  const { minimum, maximum } = nowPlaying?.dates || {};
+  const pinned = (await Promise.all(reviews.map(r => TMDB.get(`/movie/${r.tmdb_id}`, {}))))
+    .filter(f => f && f.release_date && minimum && maximum
+      && f.release_date >= minimum && f.release_date <= maximum);
+  const pinnedIds = new Set(pinned.map(f => f.id));
 
   const films = (nowPlaying?.results || [])
-    .filter(f => INDIAN_LANGS.includes(f.original_language) && f.id !== REVIEWED_TMDB_ID)
-    .slice(0, pinned ? 9 : 10);
+    .filter(f => INDIAN_LANGS.includes(f.original_language) && !pinnedIds.has(f.id));
 
-  const finalFilms = pinned ? [pinned, ...films] : films;
-  grid.innerHTML = finalFilms.map(f => renderCinemaCard(f, 'movie')).join('');
+  grid.innerHTML = [...pinned, ...films].slice(0, 10)
+    .map(f => renderCinemaCard(f, 'movie')).join('');
 }
 
 /* Recent reviews — Indian films */

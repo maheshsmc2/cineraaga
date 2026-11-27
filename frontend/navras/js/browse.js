@@ -49,13 +49,20 @@ function buildParams() {
   return params;
 }
 
+/* Published reviews (data/reviews.json), loaded before the first cards draw */
+let publishedReviews = [];
+const reviewsReady = fetch('../data/reviews.json')
+  .then(r => (r.ok ? r.json() : []))
+  .then(list => { publishedReviews = list; })
+  .catch(() => {});
+
 /* ---- Render a single film card ---- */
 function renderCard(film) {
   const posterUrl = TMDB.poster(film.poster_path, 'w342');
-  // Dhamaal 4 has a real, hand-scored CineRaaga review — link to it and
-  // show the real Navras Score instead of TMDb's audience rating.
-  const isReviewed = film.id === 1303331;
-  const score = isReviewed ? 62 : TMDB.audienceRating(film.vote_average, film.vote_count);
+  // A film with a CineRaaga review links to it and shows its Navras Score
+  // instead of TMDb's audience rating.
+  const review = publishedReviews.find(r => r.tmdb_id === film.id);
+  const score = review ? review.navras_score : TMDB.audienceRating(film.vote_average, film.vote_count);
   const scoreColor = TMDB.scoreColor(score);
   const dotClass = TMDB.scoreDotClass(score);
   const rasas = TMDB.genreTags(film.genre_ids?.map(id => ({ id })) || film.genres || []);
@@ -63,7 +70,7 @@ function renderCard(film) {
   const langName = langNames[lang] || lang?.toUpperCase() || '';
   const year = film.release_date ? film.release_date.slice(0, 4) : '';
   const isNew = year >= '2024';
-  const link = isReviewed ? 'dhamaal-4-2026.html' : `movie.html?id=${film.id}`;
+  const link = review ? `${review.slug}.html` : `movie.html?id=${film.id}`;
 
   return `
     <a href="${link}" class="browse-card">
@@ -93,6 +100,7 @@ function renderCard(film) {
 async function loadFilms(page = 1, append = false) {
   if (isLoading) return;
   isLoading = true;
+  await reviewsReady;
 
   const btn = document.getElementById('loadMoreBtn');
   if (btn) btn.disabled = true;
