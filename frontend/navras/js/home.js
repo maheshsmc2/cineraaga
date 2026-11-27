@@ -299,16 +299,6 @@ function initReviewSort() {
   });
 }
 
-function initSearch() {
-  const input = document.getElementById('heroSearch');
-  if (!input) return;
-  input.addEventListener('keydown', e => {
-    if (e.key==='Enter' && input.value.trim()) {
-      window.location.href = `pages/browse.html?q=${encodeURIComponent(input.value.trim())}`;
-    }
-  });
-}
-
 /* ---- Fix gap CSS issue inline ---- */
 function fixGaps() {
   // Remove empty space between sections
@@ -321,7 +311,6 @@ function fixGaps() {
 /* ---- Init ---- */
 document.addEventListener('DOMContentLoaded', () => {
   initTopTabs();
-  initSearch();
   loadCinemas();
   loadComingSoon();
   loadPopularNow();
@@ -952,7 +941,7 @@ async function renderExplorerSections() {
    Review fields are copied from the review page itself: score from its score
    box, tagline from its og:description. Those are real hand-assigned Navras
    Scores, so they are shown. */
-const STRIP_MAX_LISTS = 4;
+const STRIP_MAX_LISTS = 6;
 
 let reviewsCache = null;
 
@@ -1003,7 +992,9 @@ async function loadStripStories() {
       thumb: async () => l.thumbnail || fetchCoverPoster(l)
     }));
 
-  return [...reviewStories, ...listStories];
+  /* Reviews have their own section above the banner; they stand in here only
+     if there are no lists. */
+  return listStories.length ? listStories : reviewStories;
 }
 
 /* The main banner follows whatever Indian film is trending right now, so it
@@ -1141,53 +1132,47 @@ async function buildEditorialStrip() {
   }
 }
 
-/* Phones and tablets hide the list beside the banner, which was the only
-   homepage route to the reviews. */
-async function buildMobileReviews() {
-  const section = document.getElementById('mobileReviews');
-  const host = document.getElementById('mobileReviewsList');
-  if (!section || !host) return;
+/* Latest reviews: the editor's own words lead, with the poster small. */
+async function buildLatestReviews() {
+  const section = document.getElementById('latestReviews');
+  const grid = document.getElementById('latestReviewsGrid');
+  if (!section || !grid) return;
 
-  const stories = (await loadStripStories()).filter(s => s.key.startsWith('review-'));
-  if (!stories.length) return;
+  const reviews = [...await loadPublishedReviews()]
+    .sort((a, b) => String(b.published || '').localeCompare(String(a.published || '')))
+    .slice(0, 6);
+  if (!reviews.length) return;
 
-  const scoreColour = { green: '#2ECC71', amber: '#F39C12', red: '#E74C3C' };
-  host.innerHTML = stories.map(s => `
-    <a href="${s.link}" class="es-story">
-      <div class="es-story-img" id="mr-img-${s.key}"></div>
-      <div class="es-story-info">
-        <div class="es-story-title">${s.title}</div>
-        <div class="es-story-meta">
-          <span style="color:${scoreColour[s.scoreClass] || 'inherit'};font-weight:600;">${s.score} Navras</span> · ${s.meta}
+  const when = p => p ? new Date(`${p}-01T00:00:00`).toLocaleDateString('en-IN', { month: 'long', year: 'numeric' }) : '';
+
+  grid.innerHTML = reviews.map(r => `
+    <a href="pages/${r.slug}.html" class="lr-card">
+      <div class="lr-poster" id="lr-img-${r.tmdb_id}"></div>
+      <div class="lr-body">
+        <div class="lr-meta">${[r.language, r.year, when(r.published)].filter(Boolean).join(' · ')}</div>
+        <div class="lr-title">${r.title}</div>
+        <div class="lr-verdict">“${r.verdict || r.tagline}”</div>
+        ${r.watch_with && r.watch_with.who ? `<div class="lr-watch">Watch with: ${r.watch_with.who}</div>` : ''}
+        <div class="lr-foot">
+          <span class="lr-score ${r.score_class}">${r.navras_score} Navras</span>
+          <span class="lr-read">Read review →</span>
         </div>
       </div>
     </a>`).join('');
   section.hidden = false;
 
-  for (const s of stories) {
+  for (const r of reviews) {
     try {
-      const url = await s.thumb();
-      const el = document.getElementById(`mr-img-${s.key}`);
-      if (url && el) el.innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
+      const data = await TMDB.get(`/movie/${r.tmdb_id}`, {});
+      const el = document.getElementById(`lr-img-${r.tmdb_id}`);
+      if (el && data?.poster_path) el.innerHTML = `<img src="${TMDB.poster(data.poster_path, 'w185')}" alt="" loading="lazy" />`;
     } catch (e) {}
   }
 }
 
-// Search
-function initSearchCompact() {
-  const input = document.getElementById('heroSearch');
-  if (!input) return;
-  input.addEventListener('keydown', e => {
-    if (e.key === 'Enter' && input.value.trim()) {
-      window.location.href = `pages/browse.html?q=${encodeURIComponent(input.value.trim())}`;
-    }
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   buildEditorialStrip();
-  buildMobileReviews();
-  initSearchCompact();
+  buildLatestReviews();
 });
 
 /* Popular RT-style tab switching */

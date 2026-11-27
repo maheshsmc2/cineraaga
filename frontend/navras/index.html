@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="css/theme.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/search.css" />
 </head>
 <body>
 
@@ -58,6 +59,35 @@
     <a href="pages/lists.html" class="mobile-link">Lists</a>
   </div>
 
+  <!-- SEARCH — mood and "films like" search over CineRaaga's own lists and
+       reviews (pages/search.html, js/search-engine.js). -->
+  <section class="cr-search">
+    <div class="cr-search-inner">
+      <h1 class="cr-search-title">How do you want to feel?</h1>
+      <form class="cr-search-form" id="searchForm" action="pages/search.html" method="get" role="search">
+        <input type="search" id="searchInput" name="q" placeholder="A mood, a language, or films like Drishyam" aria-label="Search by mood or similar film" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="cr-search-hints">
+        <a href="pages/search.html?q=films+like+Drishyam" data-q="films like Drishyam">films like Drishyam</a>
+        <a href="pages/search.html?q=funny+Tamil+films" data-q="funny Tamil films">funny Tamil films</a>
+        <a href="pages/search.html?q=tense+thriller+from+the+2010s" data-q="thriller from the 2010s">thriller from the 2010s</a>
+        <a href="pages/search.html?q=sad+Malayalam+films" data-q="sad Malayalam films">sad Malayalam films</a>
+        <a href="pages/search.html?q=Shah+Rukh+Khan+romance" data-q="Shah Rukh Khan romance">Shah Rukh Khan romance</a>
+      </div>
+      <div class="cr-search-scope">Searches the films in CineRaaga's lists and reviews, and shows why each one was picked.</div>
+    </div>
+  </section>
+
+  <!-- LATEST REVIEWS — the point of the homepage. Filled by js/home.js from
+       data/reviews.json. -->
+  <section class="latest-reviews" id="latestReviews" hidden>
+    <div class="lr-head">
+      <h2 class="lr-heading">Latest reviews</h2>
+    </div>
+    <div class="lr-grid" id="latestReviewsGrid"></div>
+  </section>
+
   <!-- TOP TABS — Movies / TV Shows / News -->
   <div class="top-tabs-bar">
     <button class="top-tab active" data-tab="movies">Movies</button>
@@ -79,41 +109,24 @@
         </div>
       </div>
     </div>
-    <!-- RIGHT: published reviews + recently updated lists (js/home.js loadStripStories) -->
+    <!-- RIGHT: recently updated lists (js/home.js loadStripStories) -->
     <div class="editorial-stories">
       <div class="es-header">
-        <div class="es-title">From CineRaaga</div>
+        <div class="es-title">Latest lists</div>
       </div>
       <div class="es-list" id="esList"></div>
     </div>
   </div>
 
-  <!-- REVIEWS, narrow screens only: the list beside the banner is hidden
-       there. Filled by js/home.js from data/reviews.json. -->
-  <section class="mobile-reviews" id="mobileReviews" hidden>
-    <div class="es-title">Reviews by CineRaaga</div>
-    <div id="mobileReviewsList"></div>
-  </section>
-
-  <!-- COMPACT SEARCH -->
-  <div class="home-search-compact">
-    <div class="home-searchbar-compact">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <input type="text" id="heroSearch" placeholder="Search any film, director or actor..." autocomplete="off" />
-      <a href="pages/browse.html" class="search-browse-btn-compact">Browse all →</a>
-    </div>
-  </div>
-
-
 
     <!-- MOVIES TAB CONTENT -->
   <div id="tab-movies">
 
-    <!-- REVIEWS MEGA SECTION — unified -->
+    <!-- NOW SHOWING — cinemas, OTT, upcoming -->
     <section class="reviews-mega-section">
 
       <div class="rms-header">
-        <div class="rms-title"><span class="live-dot"></span>Reviews</div>
+        <div class="rms-title"><span class="live-dot"></span>Now showing</div>
         <a href="pages/browse.html" class="home-see-all">See all →</a>
       </div>
 
