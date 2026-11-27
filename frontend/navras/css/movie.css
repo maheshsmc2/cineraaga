@@ -186,7 +186,7 @@
 }
 
 .audience-score-big.green { background: #1A7A3C; }
-.audience-score-big.amber { background: #9A6000; }
+.audience-score-big.amber { background: #C47A00; }
 .audience-score-big.red { background: #C0392B; }
 
 .nsb-num { font-size: 32px; font-weight: 700; line-height: 1; }
@@ -410,7 +410,7 @@
 }
 
 .similar-score.green { background: #1A7A3C; }
-.similar-score.amber { background: #9A6000; }
+.similar-score.amber { background: #C47A00; }
 .similar-score.red { background: #C0392B; }
 
 .similar-title {

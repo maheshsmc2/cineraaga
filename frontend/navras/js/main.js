@@ -62,26 +62,32 @@ document.addEventListener('DOMContentLoaded', () => {
 /* ===========================
    THEME TOGGLE — Light / Dark
    =========================== */
-function showTheme(dark) {
-  document.body.classList.toggle('dark-mode', dark);
+function toggleTheme() {
+  const body = document.body;
   const icon = document.getElementById('toggleIcon');
   const label = document.getElementById('toggleLabel');
-  if (icon) icon.textContent = dark ? '🌙' : '☀️';
-  if (label) label.textContent = dark ? 'Dark' : 'Light';
+  const isDark = !body.classList.toggle("light-mode");
+
+  if (icon) icon.textContent = isDark ? '🌙' : '☀️';
+  if (label) label.textContent = isDark ? 'Dark' : 'Light';
+
+  localStorage.setItem('navras-theme', isDark ? 'dark' : 'light'); body.classList.toggle('light-mode', !isDark);
 }
 
-function toggleTheme() {
-  const dark = !document.body.classList.contains('dark-mode');
-  showTheme(dark);
-  try { localStorage.setItem('navras-reading-theme', dark ? 'dark' : 'light'); } catch (e) {}
-}
-
-/* Light unless this visitor has chosen dark. A new storage key, so a "dark"
-   saved while dark was the default does not override the new one. */
 function initTheme() {
-  let saved = null;
-  try { saved = localStorage.getItem('navras-reading-theme'); } catch (e) {}
-  showTheme(saved === 'dark');
+  const saved = localStorage.getItem('navras-theme');
+  const icon = document.getElementById('toggleIcon');
+  const label = document.getElementById('toggleLabel');
+  // Default is dark — light-mode class switches to light
+  if (saved === 'light') {
+    document.body.classList.add('light-mode');
+    if (icon) icon.textContent = '☀️';
+    if (label) label.textContent = 'Light';
+  } else {
+    document.body.classList.remove('light-mode');
+    if (icon) icon.textContent = '🌙';
+    if (label) label.textContent = 'Dark';
+  }
 }
 
 // Run before paint to avoid flash

@@ -18,7 +18,7 @@
 }
 .cr-search-form button {
   font: inherit; font-size: 13px; font-weight: 600; cursor: pointer;
-  background: var(--gold); color: var(--ink); border: none; border-radius: 8px; padding: 9px 18px;
+  background: var(--gold); color: #12100E; border: none; border-radius: 8px; padding: 9px 18px;
 }
 .cr-search-hints { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
 .cr-search-hints a {
@@ -45,7 +45,7 @@
 .sr-meta { font-size: 12px; color: var(--text-muted); margin: 2px 0 8px; }
 .sr-score { display: inline-block; margin-left: 6px; font-size: 11px; font-weight: 600; color: #fff; border-radius: 4px; padding: 1px 7px; }
 .sr-score.green { background: #1A7A3C; }
-.sr-score.amber { background: #9A6000; }
+.sr-score.amber { background: #C47A00; }
 .sr-score.red { background: #C0392B; }
 .sr-reasons { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; padding: 0; }
 .sr-why { font-size: 11px; color: var(--gold); border: 0.5px solid var(--gold-border); border-radius: 6px; padding: 2px 8px; }

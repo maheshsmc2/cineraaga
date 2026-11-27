@@ -800,7 +800,7 @@ body:not(.dark-mode) .tricolour span:nth-child(2) { background: #E8E2D9; }
 }
 
 .elc-title {
-  color: var(--text);
+  color: var(--parchment);
   font-size: 14px;
   font-weight: 600;
   line-height: 1.3;

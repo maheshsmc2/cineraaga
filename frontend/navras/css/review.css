@@ -1,4 +1,35 @@
 /* ===========================
+   Reading pages: reviews are white with black text, whatever theme the rest
+   of the site is using. Applied by <body class="reading-page">. Gold is
+   darkened so small gold text stays legible on white.
+   =========================== */
+body.reading-page {
+  --gold: #7D5F00;
+  --gold-light: #9A7600;
+  --gold-dim: #A8892E;
+  --gold-bg: rgba(154,118,0,0.08);
+  --gold-border: rgba(154,118,0,0.32);
+
+  --ink: #FFFFFF;
+  --ink2: #F8F7F5;
+  --ink3: #E3DFD8;
+
+  --text: #111111;
+  --text-muted: #333333;
+  --text-dim: #666666;
+
+  --green: #14652F;
+  --amber: #8A5600;
+  --red: #A93226;
+
+  --nav-bg: #FFFFFF;
+  --card-bg: #F8F7F5;
+  --card-hover: #F2EFE9;
+  --shadow: 0 1px 4px rgba(0,0,0,0.07);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+/* ===========================
    NAVRAS — Review Page CSS
    =========================== */
 

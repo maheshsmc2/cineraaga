@@ -1,40 +1,38 @@
 /* ===========================
    NAVRAS — Theme System
-   White with black text by default; dark is opt-in via the header button.
-   Text colours are chosen for reading: body copy near-black on white, and
-   gold darkened so small gold text stays legible.
+   Light default + Dark toggle
    =========================== */
 
-/* LIGHT — default */
-:root {
-  --gold: #7D5F00;
-  --gold-light: #9A7600;
-  --gold-dim: #A8892E;
-  --gold-bg: rgba(154,118,0,0.08);
-  --gold-border: rgba(154,118,0,0.32);
+/* DARK MODE — default */
+body.light-mode {
+  --gold: #B8900A;
+  --gold-light: #D4A820;
+  --gold-dim: #9A7820;
+  --gold-bg: rgba(184,144,10,0.07);
+  --gold-border: rgba(184,144,10,0.22);
 
-  --ink: #FFFFFF;
-  --ink2: #F8F7F5;
-  --ink3: #E3DFD8;
+  --ink: #FAF7F2;
+  --ink2: #FFFFFF;
+  --ink3: #EDE7DE;
 
-  --text: #111111;
-  --text-muted: #333333;
-  --text-dim: #666666;
+  --text: #1A1410;
+  --text-muted: #6B6460;
+  --text-dim: #A09890;
 
-  --green: #14652F;
-  --amber: #8A5600;
-  --red: #A93226;
+  --green: #1A7A3C;
+  --amber: #B87000;
+  --red: #C0392B;
 
   --nav-bg: #FFFFFF;
-  --card-bg: #F8F7F5;
-  --card-hover: #F2EFE9;
+  --card-bg: #FFFFFF;
+  --card-hover: #FDF9F4;
   --shadow: 0 1px 4px rgba(0,0,0,0.07);
   --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
 }
 
-/* DARK — chosen with the header button */
-body.dark-mode {
-  --gold: #D9B85C;
+/* LIGHT MODE — toggled */
+:root {
+  --gold: #C9A84C;
   --gold-light: #E8C96A;
   --gold-dim: #8A6F2E;
   --gold-bg: rgba(201,168,76,0.08);
@@ -44,9 +42,9 @@ body.dark-mode {
   --ink2: #1E1A16;
   --ink3: #2A2420;
 
-  --text: #FAF5EA;
-  --text-muted: #D2C8B4;
-  --text-dim: #9A9186;
+  --text: #F5EDD8;
+  --text-muted: #A89880;
+  --text-dim: #5F5A54;
 
   --green: #2ECC71;
   --amber: #F39C12;

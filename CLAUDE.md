@@ -66,6 +66,9 @@ non-existent element is one `<div>` away from going live again.
   returns nothing.
 - `pages/review-template.html` — locked structure:
   **Mood → Story → Direction → Performances → CineRaaga Take**. Don't add sections.
+- **Theme (Mahe's choice):** review pages are white with black text
+  (`<body class="reading-page">`, no dark/light button); the homepage and all other
+  pages stay dark by default. Don't change one to match the other.
 - `css/style.css` loads before `home.css` — check for a duplicate selector in the
   later file before adding specificity or `!important`.
 

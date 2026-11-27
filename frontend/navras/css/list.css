@@ -94,9 +94,9 @@
 }
 
 .lp-intro {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.8;
-  color: var(--text);
+  color: var(--text-muted);
   border-left: 2px solid var(--gold);
   padding: 4px 0 4px 16px;
   margin: 22px 0 30px;
@@ -210,9 +210,9 @@
 }
 
 .lp-blurb {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.65;
-  color: var(--text);
+  color: var(--text-muted);
   margin-bottom: 8px;
 }
 
@@ -238,9 +238,9 @@
 }
 
 .lp-why-body {
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.75;
-  color: var(--text);
+  color: var(--text-muted);
   margin-top: 8px;
 }
 
