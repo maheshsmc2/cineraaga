@@ -216,6 +216,24 @@ body.reading-page {
 .rv-bridges { margin-bottom: 28px; }
 .rv-bridge-link { color: var(--gold); font-weight: 600; }
 
+/* Short review format: questions, a line per rasa, full text folded away */
+.rq-q {
+  font-family: 'Playfair Display', Georgia, serif; font-size: 20px; font-weight: 600;
+  color: var(--text); margin: 24px 0 6px;
+}
+.rq .rq-q:first-child { margin-top: 0; }
+.rq-rasas { display: flex; flex-direction: column; gap: 14px; margin: 10px 0 4px; }
+.rq-rasa { display: grid; grid-template-columns: 84px 1fr; gap: 14px; align-items: start; }
+.rq-rasa img { width: 84px; height: 84px; object-fit: cover; border-radius: 10px; border: 1px solid var(--gold-border); }
+.rq-rasa-name {
+  display: block; font-size: 11px; font-weight: 700; color: var(--gold);
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 4px;
+}
+.rq-rasa-line { display: block; font-size: 16px; line-height: 1.6; color: var(--text); }
+.rq-full { border-top: 0.5px solid var(--ink3); padding-top: 14px; margin-bottom: 28px; }
+.rq-full summary { cursor: pointer; color: var(--gold); font-weight: 600; font-size: 15px; }
+.rq-full .rv-body { margin-top: 16px; margin-bottom: 0; }
+
 /* Share row */
 .rv-share-row {
   display: flex; align-items: center;

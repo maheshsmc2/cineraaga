@@ -130,18 +130,6 @@
             <span class="rv-meta-item">[RUNTIME]</span>
           </div>
 
-          <!-- CHANGE THIS: Rasa tags (pick 1-3 from the nine rasas) -->
-          <!-- One card per rasa (1-3). Replace "rasa" with its lowercase name in
-               all four places. Meanings: Shringara Love, Hasya Joy, Karuna Sorrow,
-               Veera Courage, Bhayanaka Fear, Adbhuta Wonder, Raudra Anger,
-               Shanta Peace, Bibhatsa Dark. -->
-          <div class="rv-rasas rv-rasa-cards">
-            <a href="mood.html?rasa=rasa" class="rv-rasa-card">
-              <img src="../images/rasas/small/rasa.jpg" alt="" onerror="this.remove()" />
-              <span class="rv-rasa-name">[RASA]</span>
-              <span class="rv-rasa-mean">[MEANING]</span>
-            </a>
-          </div>
 
           <!-- NAVRAS VERDICT — THE MOST IMPORTANT PART -->
           <!-- CHANGE THIS: One sentence. Maximum 15 words. Be honest and crisp. -->
@@ -191,38 +179,59 @@
       <!-- THE NAVRAS TAKE — short and crisp -->
       <!-- CHANGE THIS: 3-5 short paragraphs. No long paragraphs. -->
       <!-- Each paragraph = one clear point about the film -->
-      <div class="rv-body">
+      <!-- Short format: one or two sentences per question. Delete any question
+           you don't answer. One line per rasa (1-3): replace "rasa" in the link
+           and image with its lowercase name. Meanings: Shringara Love, Hasya Joy,
+           Karuna Sorrow, Veera Courage, Bhayanaka Fear, Adbhuta Wonder,
+           Raudra Anger, Shanta Peace, Bibhatsa Dark. -->
+      <div class="rv-body rq">
 
-        <p class="rv-para">
-          <!-- CHANGE THIS: Opening line — hook the reader -->
-          [OPENING — hook the reader]
-        </p>
+        <h2 class="rq-q">What’s different this time?</h2>
+        <p class="rv-para">[ANSWER]</p>
 
-        <p class="rv-para">
-          <!-- CHANGE THIS: The good — what works -->
-          [WHAT WORKS]
-        </p>
+        <h2 class="rq-q">Who steals the show?</h2>
+        <p class="rv-para">[ANSWER]</p>
 
-        <p class="rv-para">
-          <!-- CHANGE THIS: The problem — what doesn't work -->
-          [WHAT DOESN'T WORK]
-        </p>
+        <h2 class="rq-q">What will you feel?</h2>
+        <div class="rq-rasas">
+          <a href="mood.html?rasa=rasa" class="rq-rasa">
+            <img src="../images/rasas/small/rasa.jpg" alt="" onerror="this.remove()" />
+            <span><span class="rq-rasa-name">[RASA] · [MEANING]</span>
+            <span class="rq-rasa-line">[ONE MOMENT THAT MADE YOU FEEL IT]</span></span>
+          </a>
+        </div>
 
-        <p class="rv-para">
-          <!-- CHANGE THIS: Final verdict — who should watch it -->
-          [WHO SHOULD WATCH IT]
-        </p>
+        <h2 class="rq-q">What stays with you?</h2>
+        <p class="rv-para">[ANSWER]</p>
+
+        <h2 class="rq-q">How’s the music?</h2>
+        <p class="rv-para">[ANSWER]</p>
 
       </div>
 
-      <!-- STREAMING ON -->
+      <!-- CINERAAGA TAKE -->
       <div class="rv-verdict-box">
-        <div class="rv-verdict-box-title">Streaming on</div>
+        <div class="rv-verdict-box-title">Should you watch it?</div>
+        <p class="rv-para">[ANSWER]</p>
+        <!-- CHANGE THIS: remove if the film is only in cinemas -->
         <div class="rv-streaming-row">
-          <!-- CHANGE THIS: Add or remove platform badges as needed -->
           <span class="afe-watch-badge ott">[PLATFORM]</span>
         </div>
       </div>
+
+      <!-- Optional longer version. Delete the whole block if there isn't one. -->
+      <details class="rq-full">
+        <summary>Read the full review</summary>
+        <div class="rv-body">
+          <p class="rv-para">[OPENING]</p>
+          <div class="rv-section-head">Story</div>
+          <p class="rv-para">[STORY]</p>
+          <div class="rv-section-head">Direction</div>
+          <p class="rv-para">[DIRECTION]</p>
+          <div class="rv-section-head">Performances</div>
+          <p class="rv-para">[PERFORMANCES]</p>
+        </div>
+      </details>
 
       <!-- MOOD SEARCH CTA -->
       <div class="article-cta">

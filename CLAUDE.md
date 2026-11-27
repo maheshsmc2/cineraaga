@@ -64,8 +64,13 @@ non-existent element is one `<div>` away from going live again.
   Verify a platform with `/movie/{id}/watch/providers`, never an aggregator.
 - TMDb `with_original_language`: pipe (`hi|ta|te`) is OR; a comma list silently
   returns nothing.
-- `pages/review-template.html` — locked structure:
-  **Mood → Story → Direction → Performances → CineRaaga Take**. Don't add sections.
+- `pages/review-template.html` — locked structure (changed 2026-11 at Mahe's
+  request; long passages read as routine):
+  **What's different → Who steals the show → What will you feel (one line per
+  rasa) → What stays with you → Music → Should you watch it**, then an optional
+  folded "full review". One or two sentences each; drop unanswered questions.
+  Don't add sections. Which line sits under which rasa is the editor's call.
+  The two July reviews keep the old structure.
 - **Theme (Mahe's choice):** review pages are white with black text
   (`<body class="reading-page">`, no dark/light button); the homepage and all other
   pages stay dark by default. Don't change one to match the other.
