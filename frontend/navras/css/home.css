@@ -1420,6 +1420,9 @@
 .lr-meta { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; }
 .lr-title { font-family: 'Playfair Display', Georgia, serif; font-size: 20px; font-weight: 600; color: var(--text); margin: 4px 0 8px; }
 .lr-verdict { font-size: 14px; line-height: 1.6; color: var(--text-muted); font-style: italic; }
+.lr-rasas { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 10px; }
+.lr-rasa { display: inline-flex; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; color: var(--text); }
+.lr-rasa img { width: 40px; height: 40px; object-fit: cover; border-radius: 8px; }
 .lr-watch { font-size: 12px; color: var(--gold); margin-top: 8px; }
 .lr-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 12px; }
 .lr-score { font-size: 12px; font-weight: 700; color: #fff; border-radius: 5px; padding: 3px 9px; }

@@ -18,6 +18,7 @@
      www.cineraaga.com/pages/your-filename.html
 
   4. Add an entry for it to data/reviews.json (copy an existing one).
+     Fill "rasas" with the same lowercase rasa names as the page.
      Fill "verdict" with your one-sentence verdict, and "watch_with" with
      who to watch it with and one caution (leave "" to show nothing).
      "Liked it? Try" pairings go in data/bridges.json.
@@ -136,8 +137,16 @@
           </div>
 
           <!-- CHANGE THIS: Rasa tags (pick 1-3 from the nine rasas) -->
-          <div class="rv-rasas">
-            <span class="rtag">[RASA]</span>
+          <!-- One card per rasa (1-3). Replace "rasa" with its lowercase name in
+               all four places. Meanings: Shringara Love, Hasya Joy, Karuna Sorrow,
+               Veera Courage, Bhayanaka Fear, Adbhuta Wonder, Raudra Anger,
+               Shanta Peace, Bibhatsa Dark. -->
+          <div class="rv-rasas rv-rasa-cards">
+            <a href="mood.html?rasa=rasa" class="rv-rasa-card">
+              <img src="../images/rasas/small/rasa.jpg" alt="" onerror="this.remove()" />
+              <span class="rv-rasa-name">[RASA]</span>
+              <span class="rv-rasa-mean">[MEANING]</span>
+            </a>
           </div>
 
           <!-- NAVRAS VERDICT — THE MOST IMPORTANT PART -->

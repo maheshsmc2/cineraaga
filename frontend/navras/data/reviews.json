@@ -13,7 +13,11 @@
     "watch_with": {
       "who": "Family",
       "caution": ""
-    }
+    },
+    "rasas": [
+      "veera",
+      "adbhuta"
+    ]
   },
   {
     "slug": "maa-inti-bangaram-2026",
@@ -29,7 +33,11 @@
     "watch_with": {
       "who": "",
       "caution": ""
-    }
+    },
+    "rasas": [
+      "karuna",
+      "veera"
+    ]
   },
   {
     "slug": "dhamaal-4-2026",
@@ -45,6 +53,9 @@
     "watch_with": {
       "who": "",
       "caution": ""
-    }
+    },
+    "rasas": [
+      "hasya"
+    ]
   }
 ]

@@ -1148,6 +1148,8 @@ async function buildLatestReviews() {
         <div class="lr-meta">${[r.language, r.year, when(r.published)].filter(Boolean).join(' · ')}</div>
         <div class="lr-title">${r.title}</div>
         <div class="lr-verdict">“${r.verdict || r.tagline}”</div>
+        ${(r.rasas || []).length ? `<div class="lr-rasas">${r.rasas.map(n => `
+          <span class="lr-rasa"><img src="images/rasas/small/${n}.jpg" alt="" loading="lazy" />${n.charAt(0).toUpperCase() + n.slice(1)}</span>`).join('')}</div>` : ''}
         ${r.watch_with && r.watch_with.who ? `<div class="lr-watch">Watch with: ${r.watch_with.who}</div>` : ''}
         <div class="lr-foot">
           <span class="lr-score ${r.score_class}">${r.navras_score} Navras</span>
