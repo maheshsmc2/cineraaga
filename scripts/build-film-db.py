@@ -123,6 +123,8 @@ def record(film: dict, movie: dict | None, how: str) -> dict:
             "backdrop_path": movie.get("backdrop_path"),
             "runtime": movie.get("runtime") or None,
             "director": [c["name"] for c in crew if c.get("job") == "Director"],
+            "cast": [c["name"] for c in (movie.get("credits") or {}).get("cast", [])[:6]],
+            "genres": [g["name"] for g in movie.get("genres", [])],
         })
     return base
 
@@ -204,6 +206,16 @@ def collect_films() -> list[dict]:
             })
             item["tmdb_id"] = item["tmdb_id"] or f.get("tmdb_id")
             item["lists"].append(f"{path.stem} #{entry.get('rank')}")
+    reviews = json.loads((LISTS_DIR.parent / "reviews.json").read_text(encoding="utf-8"))
+    for r in reviews:
+        language = r["language"].lower()
+        key = f"{r['title']}|{r['year']}|{language}"
+        item = films.setdefault(key, {
+            "key": key, "title": r["title"], "year": r["year"],
+            "language": language, "tmdb_id": None, "lists": [],
+        })
+        item["tmdb_id"] = item["tmdb_id"] or r.get("tmdb_id")
+        item["lists"].append(f"review {r['slug']}")
     return list(films.values())
 
 

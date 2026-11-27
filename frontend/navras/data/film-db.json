@@ -5,7 +5,7 @@
   "language": "tamil",
   "tmdb_id": 19950,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Yavarum Nalam",
   "release_date": "2009-03-06",
   "poster_path": "/AvecQgxUwMuc1VTlkFm5RpAibZe.jpg",
@@ -13,6 +13,18 @@
   "runtime": 137,
   "director": [
    "Vikram Kumar"
+  ],
+  "cast": [
+   "R. Madhavan",
+   "Neetu Chandra",
+   "Sachin Khedekar",
+   "Ravi Babu",
+   "Murali Sharma",
+   "Saranya Ponvannan"
+  ],
+  "genres": [
+   "Mystery",
+   "Horror"
   ]
  },
  "1971|2007|hindi": {
@@ -21,7 +33,7 @@
   "language": "hindi",
   "tmdb_id": 199408,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "1971",
   "release_date": "2007-03-08",
   "poster_path": "/pyifRwztOHpapPWM6ewMnNTdJPn.jpg",
@@ -29,6 +41,19 @@
   "runtime": 160,
   "director": [
    "Amrit Sagar Chopra"
+  ],
+  "cast": [
+   "Manoj Bajpayee",
+   "Ravi Kishan",
+   "Sunil Chavan",
+   "Deepak Dobriyal",
+   "Chittaranjan Giri",
+   "Deepti Gupta"
+  ],
+  "genres": [
+   "Action",
+   "War",
+   "Drama"
   ]
  },
  "1983|2014|malayalam": {
@@ -37,7 +62,7 @@
   "language": "malayalam",
   "tmdb_id": 253535,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "1983",
   "release_date": "2014-01-31",
   "poster_path": "/k02dxV9sNizaW33dSX8uCgLboEv.jpg",
@@ -45,6 +70,17 @@
   "runtime": 134,
   "director": [
    "Abrid Shine"
+  ],
+  "cast": [
+   "Nivin Pauly",
+   "Nikki Galrani",
+   "Anoop Menon",
+   "Joy Mathew",
+   "Srindaa",
+   "Saiju Kurup"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "1: Nenokkadine|2014|telugu": {
@@ -53,7 +89,7 @@
   "language": "telugu",
   "tmdb_id": 249772,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "1: Nenokkadine",
   "release_date": "2014-01-10",
   "poster_path": "/dYpqpA7BsDHeyAGs9AAEPhZmbck.jpg",
@@ -61,6 +97,19 @@
   "runtime": 176,
   "director": [
    "Sukumar"
+  ],
+  "cast": [
+   "Mahesh Babu",
+   "Kriti Sanon",
+   "Nassar",
+   "Kelly Dorji",
+   "Pradeep Ram Singh Rawat",
+   "Anand"
+  ],
+  "genres": [
+   "Mystery",
+   "Action",
+   "Thriller"
   ]
  },
  "3 Idiots|2009|hindi": {
@@ -69,7 +118,7 @@
   "language": "hindi",
   "tmdb_id": 20453,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "3 Idiots",
   "release_date": "2009-12-23",
   "poster_path": "/66A9MqXOyVFCssoloscw79z8Tew.jpg",
@@ -77,6 +126,18 @@
   "runtime": 171,
   "director": [
    "Rajkumar Hirani"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "R. Madhavan",
+   "Sharman Joshi",
+   "Kareena Kapoor Khan",
+   "Boman Irani",
+   "Omi Vaidya"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy"
   ]
  },
  "96|2018|tamil": {
@@ -85,7 +146,7 @@
   "language": "tamil",
   "tmdb_id": 441717,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "96",
   "release_date": "2018-10-04",
   "poster_path": "/nrVloCa2hCFOztRF1DZU2jnWIiQ.jpg",
@@ -93,6 +154,17 @@
   "runtime": 159,
   "director": [
    "C. Prem Kumar"
+  ],
+  "cast": [
+   "Vijay Sethupathi",
+   "Trisha Krishnan",
+   "Aditya Baskar",
+   "Gouri G Kishan",
+   "Devadarshini",
+   "Bagavathi Perumal"
+  ],
+  "genres": [
+   "Romance"
   ]
  },
  "A Wednesday!|2008|hindi": {
@@ -101,7 +173,7 @@
   "language": "hindi",
   "tmdb_id": 19703,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "A Wednesday!",
   "release_date": "2008-09-05",
   "poster_path": "/gVUSxtJM3arL5VIUIRNYde20EF0.jpg",
@@ -109,6 +181,18 @@
   "runtime": 103,
   "director": [
    "Neeraj Pandey"
+  ],
+  "cast": [
+   "Anupam Kher",
+   "Naseeruddin Shah",
+   "Jimmy Shergill",
+   "Deepal Shaw",
+   "Aamir Bashir",
+   "Rohitashv Gour"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller"
   ]
  },
  "A1 Express|2021|telugu": {
@@ -117,7 +201,7 @@
   "language": "telugu",
   "tmdb_id": 799991,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "A1 Express",
   "release_date": "2021-03-05",
   "poster_path": "/2WHx9ryr1XigcqCudVJfA4IK0jC.jpg",
@@ -125,6 +209,18 @@
   "runtime": 130,
   "director": [
    "Dennis Jeevan Kanukolanu"
+  ],
+  "cast": [
+   "Sundeep Kishan",
+   "Lavanya Tripathi",
+   "Murali Sharma",
+   "Rao Ramesh",
+   "Priyadarshi Pullikonda",
+   "Posani Krishna Murali"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Aamis|2019|assamese": {
@@ -133,7 +229,7 @@
   "language": "assamese",
   "tmdb_id": 569912,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aamis",
   "release_date": "2019-10-20",
   "poster_path": "/aBD6Jhze6kS36wBLVYkp7EGEBxr.jpg",
@@ -141,6 +237,18 @@
   "runtime": 108,
   "director": [
    "Bhaskar Hazarika"
+  ],
+  "cast": [
+   "Lima Das",
+   "Arghadeep Baruah",
+   "Neetali Das",
+   "Chandan Bhuyan",
+   "Momee Borah",
+   "Siddharth Boro"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Aandhi|1975|hindi": {
@@ -149,7 +257,7 @@
   "language": "hindi",
   "tmdb_id": 59277,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aandhi",
   "release_date": "1975-02-13",
   "poster_path": "/6v5sL4BcMwwx17Vb0oitvsBi40o.jpg",
@@ -157,6 +265,18 @@
   "runtime": 133,
   "director": [
    "Gulzar"
+  ],
+  "cast": [
+   "Sanjeev Kumar",
+   "Suchitra Sen",
+   "Om Shivpuri",
+   "A.K. Hangal",
+   "Rehman",
+   "Om Prakash"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Aar-Paar|1954|hindi": {
@@ -165,7 +285,7 @@
   "language": "hindi",
   "tmdb_id": 71283,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aar Paar",
   "release_date": "1954-07-09",
   "poster_path": "/fp6kIni6k7X1ZJnH6oKNbwm8aZP.jpg",
@@ -173,6 +293,19 @@
   "runtime": 146,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Guru Dutt",
+   "Shyama",
+   "Jagdish Sethi",
+   "Johnny Walker",
+   "Jagdeep",
+   "Shakila"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Crime"
   ]
  },
  "Aaranya Kaandam|2010|tamil": {
@@ -181,7 +314,7 @@
   "language": "tamil",
   "tmdb_id": 119123,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aaranya Kaandam",
   "release_date": "2011-06-10",
   "poster_path": "/zZRzn7DXOLANE4hTUv4ziU7O6Zz.jpg",
@@ -189,6 +322,20 @@
   "runtime": 126,
   "director": [
    "Thiagarajan Kumararaja"
+  ],
+  "cast": [
+   "Jackie Shroff",
+   "Ravi Krishna",
+   "Sampath Raj",
+   "Yasmin Ponnappa",
+   "Rambo Rajkumar",
+   "Guru Somasundaram"
+  ],
+  "genres": [
+   "Comedy",
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Aashiqui|1990|hindi": {
@@ -197,7 +344,7 @@
   "language": "hindi",
   "tmdb_id": 34369,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aashiqui",
   "release_date": "1990-07-23",
   "poster_path": "/4we2et0iMkYGYCV3xS6bhTHI55.jpg",
@@ -205,6 +352,19 @@
   "runtime": 152,
   "director": [
    "Mahesh Bhatt"
+  ],
+  "cast": [
+   "Rahul Roy",
+   "Anu Aggarwal",
+   "Deepak Tijori",
+   "Avtar Gill",
+   "Tom Alter",
+   "Reema Lagoo"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Music"
   ]
  },
  "Aayutha Ezhuthu|2004|tamil": {
@@ -213,7 +373,7 @@
   "language": "tamil",
   "tmdb_id": 63825,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aayitha Ezhuthu",
   "release_date": "2004-05-21",
   "poster_path": "/7SJMzuXWaVwjUHfGJaMzU0cTtJB.jpg",
@@ -221,6 +381,19 @@
   "runtime": 155,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Suriya",
+   "R. Madhavan",
+   "Siddharth",
+   "Meera Jasmine",
+   "Esha Deol",
+   "Trisha Krishnan"
+  ],
+  "genres": [
+   "Action",
+   "Drama",
+   "Thriller"
   ]
  },
  "Abhimaan|1973|hindi": {
@@ -229,7 +402,7 @@
   "language": "hindi",
   "tmdb_id": 75352,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Abhimaan",
   "release_date": "1973-07-27",
   "poster_path": "/w0PDRsh1f9G6NVvoixzYNmTnpvv.jpg",
@@ -237,6 +410,18 @@
   "runtime": 122,
   "director": [
    "Hrishikesh Mukherjee"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Jaya Bachchan",
+   "Asrani",
+   "Bindu",
+   "Durga Khote",
+   "A.K. Hangal"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Abhiyum Naanum|2008|tamil": {
@@ -245,7 +430,7 @@
   "language": "tamil",
   "tmdb_id": 40617,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Abhiyum Naanum",
   "release_date": "2008-12-19",
   "poster_path": "/5shSpO2q7FmO5FJLmWsveQP3XHc.jpg",
@@ -253,6 +438,19 @@
   "runtime": 147,
   "director": [
    "Radha Mohan"
+  ],
+  "cast": [
+   "Trisha Krishnan",
+   "Prakash Raj",
+   "Ganesh Venkatraman",
+   "Aishwarya Bhaskaran",
+   "Prithviraj Sukumaran",
+   "Elango Kumaravel"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Family"
   ]
  },
  "Achhut Kanya|1936|hindi": {
@@ -261,7 +459,7 @@
   "language": "hindi",
   "tmdb_id": 214742,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Untouchable Girl",
   "release_date": "1936-08-15",
   "poster_path": "/k778s3qlGWrqNsmiWrgHaBJ6c3f.jpg",
@@ -269,6 +467,18 @@
   "runtime": 142,
   "director": [
    "Franz Osten"
+  ],
+  "cast": [
+   "Devika Rani",
+   "Ashok Kumar",
+   "Monorama",
+   "Pramila",
+   "Kamta Prasad",
+   "Kusum Kumari"
+  ],
+  "genres": [
+   "Drama",
+   "Music"
   ]
  },
  "Agent Sai Srinivasa Athreya|2019|telugu": {
@@ -277,7 +487,7 @@
   "language": "telugu",
   "tmdb_id": 610482,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Agent Sai Srinivasa Athreya",
   "release_date": "2019-06-21",
   "poster_path": "/jMVfhhWfHLawVp3kd55KBy3VBsW.jpg",
@@ -285,6 +495,19 @@
   "runtime": 144,
   "director": [
    "Swaroop RSJ"
+  ],
+  "cast": [
+   "Naveen Polishetty",
+   "Shruti Sharma",
+   "Ram Dutt",
+   "Suhas",
+   "Shredha Rajagopalan",
+   "Darbha Appaji Ambarisha"
+  ],
+  "genres": [
+   "Crime",
+   "Comedy",
+   "Mystery"
   ]
  },
  "Agent Vinod|2012|hindi": {
@@ -293,7 +516,7 @@
   "language": "hindi",
   "tmdb_id": 85050,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Agent Vinod",
   "release_date": "2012-03-23",
   "poster_path": "/y1GOWhrtXHidZGGsNMJiB8r5CIp.jpg",
@@ -301,6 +524,20 @@
   "runtime": 157,
   "director": [
    "Sriram Raghavan"
+  ],
+  "cast": [
+   "Saif Ali Khan",
+   "Kareena Kapoor Khan",
+   "Adil Hussain",
+   "Ravi Kishan",
+   "Prem Chopra",
+   "Ram Kapoor"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Thriller",
+   "Romance"
   ]
  },
  "Agneepath|1990|hindi": {
@@ -309,7 +546,7 @@
   "language": "hindi",
   "tmdb_id": 37403,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Agneepath",
   "release_date": "1990-02-16",
   "poster_path": "/d9OfOqRTrW5FX1dhDPwaMNqm6GB.jpg",
@@ -317,6 +554,19 @@
   "runtime": 174,
   "director": [
    "Mukul Anand"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Mithun Chakraborty",
+   "Danny Denzongpa",
+   "Madhavi",
+   "Neelam Kothari",
+   "Rohini Hattangadi"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Aha Naa Pellanta!|1987|telugu": {
@@ -325,7 +575,7 @@
   "language": "telugu",
   "tmdb_id": 37612,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aha Naa Pellanta!",
   "release_date": "1987-11-27",
   "poster_path": "/aKeZsdUDIhXddTrLzraNsrCHcxn.jpg",
@@ -333,6 +583,18 @@
   "runtime": 147,
   "director": [
    "Jandhyala Subramanya Sastry"
+  ],
+  "cast": [
+   "Rajendra Prasad",
+   "Kota Srinivasa Rao",
+   "Nutan Prasad",
+   "Rajani",
+   "Brahmanandam",
+   "Rallapalli Narasimha"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Alaipayuthey|2000|tamil": {
@@ -341,7 +603,7 @@
   "language": "tamil",
   "tmdb_id": 49035,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Alaipayuthey",
   "release_date": "2000-04-14",
   "poster_path": "/rnN492zNPK5zvXvDQILm0KRLwD4.jpg",
@@ -349,6 +611,18 @@
   "runtime": 156,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "R. Madhavan",
+   "Shalini",
+   "Swarnamalya",
+   "Vivek",
+   "Jayasudha",
+   "Pyramid Natarajan"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Anand|1971|hindi": {
@@ -357,7 +631,7 @@
   "language": "hindi",
   "tmdb_id": 26237,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Anand",
   "release_date": "1971-03-12",
   "poster_path": "/vgrege8e0yk3SSdHzHfMTvk2ffc.jpg",
@@ -365,6 +639,17 @@
   "runtime": 122,
   "director": [
    "Hrishikesh Mukherjee"
+  ],
+  "cast": [
+   "Rajesh Khanna",
+   "Amitabh Bachchan",
+   "Sumita Sanyal",
+   "Ramesh Deo",
+   "Seema Deo",
+   "Lalita Pawar"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Anbe Sivam|2003|tamil": {
@@ -373,7 +658,7 @@
   "language": "tamil",
   "tmdb_id": 26910,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Anbe Sivam",
   "release_date": "2003-01-14",
   "poster_path": "/nT556HbikCCLABe8xQ4zQ2QIb0O.jpg",
@@ -381,6 +666,18 @@
   "runtime": 160,
   "director": [
    "Sundar C"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "R. Madhavan",
+   "Nassar",
+   "Kiran Rathod",
+   "Santhana Bharathi",
+   "Seema"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Andaz Apna Apna|1994|hindi": {
@@ -389,7 +686,7 @@
   "language": "hindi",
   "tmdb_id": 58128,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Andaz Apna Apna",
   "release_date": "1994-04-11",
   "poster_path": "/a0GV2V3yif2DbsMCSBrivvSHUWQ.jpg",
@@ -397,6 +694,19 @@
   "runtime": 160,
   "director": [
    "Rajkumar Santoshi"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Salman Khan",
+   "Raveena Tandon",
+   "Karisma Kapoor",
+   "Paresh Rawal",
+   "Shakti Kapoor"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Family"
   ]
  },
  "Andhadhun|2018|hindi": {
@@ -405,7 +715,7 @@
   "language": "hindi",
   "tmdb_id": 534780,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Andhadhun",
   "release_date": "2018-10-05",
   "poster_path": "/dy3K6hNvwE05siGgiLJcEiwgpdO.jpg",
@@ -413,6 +723,20 @@
   "runtime": 139,
   "director": [
    "Sriram Raghavan"
+  ],
+  "cast": [
+   "Ayushmann Khurrana",
+   "Tabu",
+   "Radhika Apte",
+   "Manav Vij",
+   "Zakir Hussain",
+   "Anil Dhawan"
+  ],
+  "genres": [
+   "Crime",
+   "Mystery",
+   "Thriller",
+   "Comedy"
   ]
  },
  "Angamaly Diaries|2017|malayalam": {
@@ -421,7 +745,7 @@
   "language": "malayalam",
   "tmdb_id": 442000,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Angamaly Diaries",
   "release_date": "2017-03-03",
   "poster_path": "/fwxgQakS3vUQIzgJMphQWHxAqr2.jpg",
@@ -429,6 +753,19 @@
   "runtime": 132,
   "director": [
    "Lijo Jose Pellissery"
+  ],
+  "cast": [
+   "Antony Varghese",
+   "Sarath Kumar",
+   "Tito Wilson",
+   "Bitto Davis",
+   "Sinoj Varghese",
+   "Anna Reshma Rajan"
+  ],
+  "genres": [
+   "Action",
+   "Comedy",
+   "Thriller"
   ]
  },
  "Angoor|1982|hindi": {
@@ -437,7 +774,7 @@
   "language": "hindi",
   "tmdb_id": 21984,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Angoor",
   "release_date": "1982-03-05",
   "poster_path": "/wijF2sW1MDq9c1u5m9ezealO9KC.jpg",
@@ -445,6 +782,17 @@
   "runtime": 136,
   "director": [
    "Gulzar"
+  ],
+  "cast": [
+   "Sanjeev Kumar",
+   "Deven Verma",
+   "Moushumi Chatterjee",
+   "Aruna Irani",
+   "Deepti Naval",
+   "Utpal Dutt"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Anjaam Pathiraa|2020|malayalam": {
@@ -453,7 +801,7 @@
   "language": "malayalam",
   "tmdb_id": 657593,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Anjaam Pathiraa",
   "release_date": "2020-01-10",
   "poster_path": "/38AT5UZ276dRO1dNzgvQSiYYQ7u.jpg",
@@ -461,6 +809,19 @@
   "runtime": 144,
   "director": [
    "Midhun Manuel Thomas"
+  ],
+  "cast": [
+   "Kunchacko Boban",
+   "Unnimaya Prasad",
+   "Jinu Joseph",
+   "Abhiram Radhakrishnan",
+   "Sreenath Bhasi",
+   "Harikrishnan"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Mystery"
   ]
  },
  "Anniyan|2005|tamil": {
@@ -469,7 +830,7 @@
   "language": "tamil",
   "tmdb_id": 19978,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Anniyan",
   "release_date": "2005-06-17",
   "poster_path": "/fT9m4g5aWvwNVjHf0cUTqtTLJvh.jpg",
@@ -477,6 +838,20 @@
   "runtime": 181,
   "director": [
    "Shankar"
+  ],
+  "cast": [
+   "Vikram",
+   "Sadha",
+   "Prakash Raj",
+   "Vivek",
+   "Nedumudi Venu",
+   "Nassar"
+  ],
+  "genres": [
+   "Action",
+   "Drama",
+   "Thriller",
+   "Crime"
   ]
  },
  "Anukokunda Oka Roju|2005|telugu": {
@@ -485,7 +860,7 @@
   "language": "telugu",
   "tmdb_id": 80862,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Anukokunda Oka Roju",
   "release_date": "2005-06-30",
   "poster_path": "/kH6Y45SenIyCMvFRiKWPm42LhkM.jpg",
@@ -493,6 +868,18 @@
   "runtime": 145,
   "director": [
    "Chandra Sekhar Yeleti"
+  ],
+  "cast": [
+   "Charmy Kaur",
+   "Jagapati Babu",
+   "Shashank",
+   "Harsha Vardhan",
+   "Narsing Yadav",
+   "Pooja Bharti"
+  ],
+  "genres": [
+   "Thriller",
+   "Mystery"
   ]
  },
  "Appula Appa Rao|1991|telugu": {
@@ -501,7 +888,7 @@
   "language": "telugu",
   "tmdb_id": 180736,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Appula Appa Rao",
   "release_date": "1992-01-24",
   "poster_path": "/4onQu9UVp5q5mfzfnxiZ7v0jO06.jpg",
@@ -509,6 +896,17 @@
   "runtime": 140,
   "director": [
    "E.V.V. Satyanarayana"
+  ],
+  "cast": [
+   "Rajendra Prasad",
+   "Shobana",
+   "Brahmanandam",
+   "Rama Prabha",
+   "Annapoorna",
+   "Babu Mohan"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Article 15|2019|hindi": {
@@ -517,7 +915,7 @@
   "language": "hindi",
   "tmdb_id": 597089,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Article 15",
   "release_date": "2019-05-28",
   "poster_path": "/egknEWNt2B0slG2OC0gSpLZdVHj.jpg",
@@ -525,6 +923,19 @@
   "runtime": 130,
   "director": [
    "Anubhav Sinha"
+  ],
+  "cast": [
+   "Ayushmann Khurrana",
+   "Isha Talwar",
+   "Sayani Gupta",
+   "Kumud Mishra",
+   "Manoj Pahwa",
+   "Nassar"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
   ]
  },
  "Arundhati|2009|telugu": {
@@ -533,7 +944,7 @@
   "language": "telugu",
   "tmdb_id": 31629,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Arundhati",
   "release_date": "2009-01-16",
   "poster_path": "/xQ0mGlnlAt6wLWZc3rm6LGFPzwl.jpg",
@@ -541,6 +952,19 @@
   "runtime": 132,
   "director": [
    "Kodi Ramakrishna"
+  ],
+  "cast": [
+   "Anushka Shetty",
+   "Sonu Sood",
+   "Manorama",
+   "Sayaji Shinde",
+   "Kaikala Satyanarayana",
+   "Arjan Bajwa"
+  ],
+  "genres": [
+   "Horror",
+   "Fantasy",
+   "Thriller"
   ]
  },
  "Astitva|2000|hindi": {
@@ -549,7 +973,7 @@
   "language": "hindi",
   "tmdb_id": 97356,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Astitva",
   "release_date": "2000-10-06",
   "poster_path": "/uGAGCthCBGMuRuoKvRpw0EK0Ro0.jpg",
@@ -557,6 +981,17 @@
   "runtime": 109,
   "director": [
    "Mahesh Manjrekar"
+  ],
+  "cast": [
+   "Tabu",
+   "Sachin Khedekar",
+   "Ravindra Mankani",
+   "Smita Jaykar",
+   "Mohnish Behl",
+   "Sunil Barve"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Autograph|2004|tamil": {
@@ -565,7 +1000,7 @@
   "language": "tamil",
   "tmdb_id": 140299,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Autograph",
   "release_date": "2004-02-20",
   "poster_path": "/icy3xHF6LcHSys9RxNAuI4xyAW1.jpg",
@@ -573,6 +1008,18 @@
   "runtime": 167,
   "director": [
    "Cheran"
+  ],
+  "cast": [
+   "Cheran",
+   "Gopika",
+   "Sneha",
+   "Mallika",
+   "Kaniha",
+   "Krishnakumar Ramakumar"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Aval|2017|tamil": {
@@ -581,7 +1028,7 @@
   "language": "tamil",
   "tmdb_id": 480308,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Aval",
   "release_date": "2017-11-02",
   "poster_path": "/rMaUdHC6NzpYSis0YTSVc0gPtVM.jpg",
@@ -589,6 +1036,18 @@
   "runtime": 136,
   "director": [
    "Milind Rau"
+  ],
+  "cast": [
+   "Siddharth",
+   "Andrea Jeremiah",
+   "Atul Kulkarni",
+   "Anisha Victor",
+   "Suresh",
+   "Prakash Belawadi"
+  ],
+  "genres": [
+   "Horror",
+   "Thriller"
   ]
  },
  "Avvai Shanmughi|1996|tamil": {
@@ -597,7 +1056,7 @@
   "language": "tamil",
   "tmdb_id": 69575,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Avvai Shanmugi",
   "release_date": "1996-11-10",
   "poster_path": "/bBSyJ3UM6pvqswgn6LwkxtIb2PI.jpg",
@@ -605,6 +1064,18 @@
   "runtime": 161,
   "director": [
    "K. S. Ravikumar"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Meena",
+   "Gemini Ganesan",
+   "Nagesh",
+   "Manivannan",
+   "Nassar"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Awaara|1951|hindi": {
@@ -613,7 +1084,7 @@
   "language": "hindi",
   "tmdb_id": 39039,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Awaara",
   "release_date": "1951-12-14",
   "poster_path": "/njaaQO1JZRtypogw5IPLtTlOSLI.jpg",
@@ -621,6 +1092,19 @@
   "runtime": 168,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Raj Kapoor",
+   "Nargis",
+   "Prithviraj Kapoor",
+   "Leela Chitnis",
+   "K.N. Singh",
+   "Leela Mishra"
+  ],
+  "genres": [
+   "Drama",
+   "Music",
+   "Romance"
   ]
  },
  "Ayan|2009|tamil": {
@@ -629,7 +1113,7 @@
   "language": "tamil",
   "tmdb_id": 20049,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ayan",
   "release_date": "2009-04-03",
   "poster_path": "/49UwEe5U1GuRC6W7difviwCgde2.jpg",
@@ -637,6 +1121,19 @@
   "runtime": 162,
   "director": [
    "K. V. Anand"
+  ],
+  "cast": [
+   "Suriya",
+   "Tamannaah Bhatia",
+   "Prabhu",
+   "Akashdeep Sabir",
+   "Jagan",
+   "Karunas"
+  ],
+  "genres": [
+   "Action",
+   "Romance",
+   "Comedy"
   ]
  },
  "Baahubali 2: The Conclusion|2017|telugu": {
@@ -645,7 +1142,7 @@
   "language": "telugu",
   "tmdb_id": 350312,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bāhubali 2: The Conclusion",
   "release_date": "2017-04-27",
   "poster_path": "/21sC2assImQIYCEDA84Qh9d1RsK.jpg",
@@ -653,6 +1150,19 @@
   "runtime": 167,
   "director": [
    "S. S. Rajamouli"
+  ],
+  "cast": [
+   "Prabhas",
+   "Rana Daggubati",
+   "Anushka Shetty",
+   "Sathyaraj",
+   "Nassar",
+   "Ramya Krishnan"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Fantasy"
   ]
  },
  "Baazigar|1993|hindi": {
@@ -661,7 +1171,7 @@
   "language": "hindi",
   "tmdb_id": 19657,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Baazigar",
   "release_date": "1993-11-12",
   "poster_path": "/ndQQ2bTV0JLSRxUBchE4eD3qhDb.jpg",
@@ -670,6 +1180,18 @@
   "director": [
    "Abbas Alibhai Burmawalla",
    "Mustan Alibhai Burmawalla"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Kajol",
+   "Shilpa Shetty Kundra",
+   "Rakhee Gulzar",
+   "Dalip Tahil",
+   "Anant Mahadevan"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller"
   ]
  },
  "Baazi|1951|hindi": {
@@ -678,7 +1200,7 @@
   "language": "hindi",
   "tmdb_id": 154857,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Baazi",
   "release_date": "1951-07-01",
   "poster_path": "/igmSzEFY2pi7agJCu4BubxiIfmD.jpg",
@@ -686,6 +1208,20 @@
   "runtime": 143,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Dev Anand",
+   "Geeta Bali",
+   "Kalpana Kartik",
+   "Roopa Verman",
+   "K.N. Singh",
+   "Krishan Dhawan"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Music",
+   "Romance"
   ]
  },
  "Baaz|1953|hindi": {
@@ -694,7 +1230,7 @@
   "language": "hindi",
   "tmdb_id": 185555,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Baaz",
   "release_date": "1953-05-31",
   "poster_path": "/fPij0IBk5lFCWdI6EOrfzHzLgS7.jpg",
@@ -702,6 +1238,19 @@
   "runtime": 141,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Geeta Bali",
+   "Guru Dutt",
+   "K.N. Singh",
+   "Johnny Walker",
+   "Kuldip Kaur",
+   "M.A. Latif"
+  ],
+  "genres": [
+   "Adventure",
+   "Drama",
+   "History"
   ]
  },
  "Baby|2015|hindi": {
@@ -710,7 +1259,7 @@
   "language": "hindi",
   "tmdb_id": 314389,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Baby",
   "release_date": "2015-01-23",
   "poster_path": "/mcCAHyv4kuVJ7oYrgMpYvVPdLyf.jpg",
@@ -718,6 +1267,18 @@
   "runtime": 160,
   "director": [
    "Neeraj Pandey"
+  ],
+  "cast": [
+   "Akshay Kumar",
+   "Anupam Kher",
+   "Kay Kay Menon",
+   "Rana Daggubati",
+   "Danny Denzongpa",
+   "Taapsee Pannu"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Badhaai Ho|2018|hindi": {
@@ -726,7 +1287,7 @@
   "language": "hindi",
   "tmdb_id": 547654,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Badhaai Ho",
   "release_date": "2018-10-19",
   "poster_path": "/1RCzZkjxnL9MiAOP4oQQm63Ku0p.jpg",
@@ -734,6 +1295,19 @@
   "runtime": 125,
   "director": [
    "Amit Sharma"
+  ],
+  "cast": [
+   "Ayushmann Khurrana",
+   "Neena Gupta",
+   "Gajraj Rao",
+   "Sanya Malhotra",
+   "Surekha Sikri",
+   "Sheeba Chaddha"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Drama"
   ]
  },
  "Badla|2019|hindi": {
@@ -742,7 +1316,7 @@
   "language": "hindi",
   "tmdb_id": 581361,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Badla",
   "release_date": "2019-03-08",
   "poster_path": "/eKpzbERuhogYTwI3PwfVsAHXnuO.jpg",
@@ -750,6 +1324,18 @@
   "runtime": 120,
   "director": [
    "Sujoy Ghosh"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Taapsee Pannu",
+   "Tony Luke",
+   "Amrita Singh",
+   "Manav Kaul",
+   "Tanveer Ghani"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller"
   ]
  },
  "Baghban|2003|hindi": {
@@ -758,7 +1344,7 @@
   "language": "hindi",
   "tmdb_id": 39839,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Baghban",
   "release_date": "2003-10-03",
   "poster_path": "/rQtxdyZgWPMvrfnNiqZNssW6A3s.jpg",
@@ -766,6 +1352,17 @@
   "runtime": 183,
   "director": [
    "Ravi Chopra"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Hema Malini",
+   "Salman Khan",
+   "Mahima Chaudhry",
+   "Aman Verma",
+   "Paresh Rawal"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Baiju Bawra|1952|hindi": {
@@ -774,7 +1371,7 @@
   "language": "hindi",
   "tmdb_id": 159187,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Baiju Bawra",
   "release_date": "1952-10-05",
   "poster_path": "/3WfK4t6FjLBV7L95SvbgthCOfVi.jpg",
@@ -782,6 +1379,19 @@
   "runtime": 165,
   "director": [
    "Vijay Bhatt"
+  ],
+  "cast": [
+   "Meena Kumari",
+   "Bharat Bhushan",
+   "Surendra",
+   "Kuldip Kaur",
+   "Bipin Gupta",
+   "Manmohan Krishna"
+  ],
+  "genres": [
+   "Music",
+   "Drama",
+   "Romance"
   ]
  },
  "Balagam|2023|telugu": {
@@ -790,7 +1400,7 @@
   "language": "telugu",
   "tmdb_id": 1092632,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Balagam",
   "release_date": "2023-03-03",
   "poster_path": "/m5Wtp4BcMm6Z03rjik11AS5UYhd.jpg",
@@ -798,6 +1408,18 @@
   "runtime": 131,
   "director": [
    "Venu Yeldandi"
+  ],
+  "cast": [
+   "Priyadarshi Pullikonda",
+   "Kavya Kalyanram",
+   "Sudhakar Reddy",
+   "Muralidhar Goud",
+   "V. S. Roopa Lakshmi",
+   "Kota Jayaram"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Bandhana|1984|kannada": {
@@ -806,7 +1428,7 @@
   "language": "kannada",
   "tmdb_id": 239611,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bandhana",
   "release_date": "1984-01-01",
   "poster_path": "/a3MDO8xTclcVjcAaWFb3OvbnThq.jpg",
@@ -814,6 +1436,16 @@
   "runtime": 161,
   "director": [
    "S V Rajendra Singh Babu"
+  ],
+  "cast": [
+   "Vishnuvardhan",
+   "Suhasini Maniratnam",
+   "Suhasini Maniratnam",
+   "Jai Jagadish"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Bangalore Days|2014|malayalam": {
@@ -822,7 +1454,7 @@
   "language": "malayalam",
   "tmdb_id": 268660,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bangalore Days",
   "release_date": "2014-05-30",
   "poster_path": "/iFMyZw1DTGvZ8hPa0eTseSFiRT1.jpg",
@@ -830,6 +1462,19 @@
   "runtime": 172,
   "director": [
    "Anjali Menon"
+  ],
+  "cast": [
+   "Nazriya Nazim",
+   "Nivin Pauly",
+   "Dulquer Salmaan",
+   "Fahadh Faasil",
+   "Parvathy Thiruvothu",
+   "Nithya Menen"
+  ],
+  "genres": [
+   "Drama",
+   "Family",
+   "Romance"
   ]
  },
  "Bareilly Ki Barfi|2017|hindi": {
@@ -838,7 +1483,7 @@
   "language": "hindi",
   "tmdb_id": 467106,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bareilly Ki Barfi",
   "release_date": "2017-08-17",
   "poster_path": "/1XN3TiUuZW6buP5E0VgyVn81qtX.jpg",
@@ -846,6 +1491,18 @@
   "runtime": 123,
   "director": [
    "Ashwiny Iyer Tiwari"
+  ],
+  "cast": [
+   "Kriti Sanon",
+   "Ayushmann Khurrana",
+   "Rajkummar Rao",
+   "Rohit Choudhary",
+   "Pankaj Tripathi",
+   "Seema Pahwa"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance"
   ]
  },
  "Barsaat|1949|hindi": {
@@ -854,7 +1511,7 @@
   "language": "hindi",
   "tmdb_id": 198755,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Barsaat",
   "release_date": "1949-04-22",
   "poster_path": "/7JYLk5FyITs3Hb9Qu5lV8gZLErz.jpg",
@@ -862,6 +1519,19 @@
   "runtime": 171,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Raj Kapoor",
+   "Nargis",
+   "Premnath Malhotra",
+   "K.N. Singh",
+   "Nimmi",
+   "Cuckoo"
+  ],
+  "genres": [
+   "Drama",
+   "Music",
+   "Romance"
   ]
  },
  "Bell Bottom|2021|hindi": {
@@ -870,7 +1540,7 @@
   "language": "hindi",
   "tmdb_id": 721048,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bell Bottom",
   "release_date": "2021-08-19",
   "poster_path": "/aSY5LBwNdpMReaZjGBbcB1kvrHU.jpg",
@@ -878,6 +1548,18 @@
   "runtime": 123,
   "director": [
    "Ranjit Tiwari"
+  ],
+  "cast": [
+   "Akshay Kumar",
+   "Huma Qureshi",
+   "Adil Hussain",
+   "Lara Dutta",
+   "Vaani Kapoor",
+   "Denzil Smith"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Bhaag Milkha Bhaag|2013|hindi": {
@@ -886,7 +1568,7 @@
   "language": "hindi",
   "tmdb_id": 206324,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bhaag Milkha Bhaag",
   "release_date": "2013-07-12",
   "poster_path": "/bXywc0CEzS1fIshPWWi4V8A58U3.jpg",
@@ -894,6 +1576,17 @@
   "runtime": 186,
   "director": [
    "Rakeysh Omprakash Mehra"
+  ],
+  "cast": [
+   "Farhan Akhtar",
+   "Sonam Kapoor Ahuja",
+   "Divya Dutta",
+   "Pavan Malhotra",
+   "Rebecca Breeds",
+   "Prakash Raj"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Bharatham|1991|malayalam": {
@@ -902,7 +1595,7 @@
   "language": "malayalam",
   "tmdb_id": 249633,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bharatham",
   "release_date": "1991-03-29",
   "poster_path": "/auG1KiHiIrRjAdmVM03cq5e7c1k.jpg",
@@ -910,6 +1603,17 @@
   "runtime": 147,
   "director": [
    "Sibi Malayil"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Nedumudi Venu",
+   "Urvashi",
+   "Lakshmi",
+   "Kaviyoor Ponnamma",
+   "Thikkurissy Sukumaran Nair"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Bhoothakaalam|2022|malayalam": {
@@ -918,7 +1622,7 @@
   "language": "malayalam",
   "tmdb_id": 881099,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bhoothakaalam",
   "release_date": "2022-01-21",
   "poster_path": "/sJgXdwMmglL7eauv1PJuKUvdtxr.jpg",
@@ -926,6 +1630,19 @@
   "runtime": 105,
   "director": [
    "Rahul Sadasivan"
+  ],
+  "cast": [
+   "Shane Nigam",
+   "Revathi",
+   "Saiju Kurup",
+   "James Eliya",
+   "Athira Patel",
+   "Valsala Menon"
+  ],
+  "genres": [
+   "Thriller",
+   "Mystery",
+   "Horror"
   ]
  },
  "Bhoot|2003|hindi": {
@@ -934,7 +1651,7 @@
   "language": "hindi",
   "tmdb_id": 107937,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bhoot",
   "release_date": "2003-05-30",
   "poster_path": "/tbQMeDyLSYUqHOcOexuJVeE3wLy.jpg",
@@ -942,6 +1659,17 @@
   "runtime": 113,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "Ajay Devgn",
+   "Urmila Matondkar",
+   "Nana Patekar",
+   "Rekha",
+   "Seema Biswas",
+   "Victor Banerjee"
+  ],
+  "genres": [
+   "Horror"
   ]
  },
  "Black Friday|2007|hindi": {
@@ -950,7 +1678,7 @@
   "language": "hindi",
   "tmdb_id": 28740,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Black Friday",
   "release_date": "2004-08-13",
   "poster_path": "/jzqsxRSmaYBwbXVMvqQ54fOljTD.jpg",
@@ -958,6 +1686,18 @@
   "runtime": 162,
   "director": [
    "Anurag Kashyap"
+  ],
+  "cast": [
+   "Kay Kay Menon",
+   "Pavan Malhotra",
+   "Aditya Srivastava",
+   "Dibyendu Bhattacharya",
+   "Kishore Kadam",
+   "Gajraj Rao"
+  ],
+  "genres": [
+   "Crime",
+   "Drama"
   ]
  },
  "Blue Star|2024|tamil": {
@@ -966,7 +1706,7 @@
   "language": "tamil",
   "tmdb_id": 1230097,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Blue Star",
   "release_date": "2024-01-25",
   "poster_path": "/8agxJ2Wv8EitO1xwF2HgxnyloCI.jpg",
@@ -974,6 +1714,17 @@
   "runtime": 166,
   "director": [
    "S. Jayakumar"
+  ],
+  "cast": [
+   "Ashok Selvan",
+   "Shanthanu Bhagyaraj",
+   "Keerthi Pandian",
+   "Prithvi Pandiarajan",
+   "Bagavathi Perumal",
+   "Elango Kumaravel"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Bobby|1973|hindi": {
@@ -982,7 +1733,7 @@
   "language": "hindi",
   "tmdb_id": 21496,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bobby",
   "release_date": "1973-09-28",
   "poster_path": "/n6qMnbPuq6m28ncbyS29vzoLI0H.jpg",
@@ -990,6 +1741,18 @@
   "runtime": 169,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Rishi Kapoor",
+   "Dimple Kapadia",
+   "Pran",
+   "Sonia Sahni",
+   "Premnath Malhotra",
+   "Durga Khote"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Boeing Boeing|1985|malayalam": {
@@ -998,7 +1761,7 @@
   "language": "malayalam",
   "tmdb_id": 134468,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Boeing Boeing",
   "release_date": "1985-09-01",
   "poster_path": "/5K3KUz4EWcBACPPY4jkIG6IdFLD.jpg",
@@ -1006,6 +1769,17 @@
   "runtime": 150,
   "director": [
    "Priyadarshan"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Mukesh",
+   "Sukumari",
+   "Lissy",
+   "Menaka Suresh",
+   "Jagathy Sreekumar"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Bombay|1995|tamil": {
@@ -1014,7 +1788,7 @@
   "language": "tamil",
   "tmdb_id": 26247,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bombay",
   "release_date": "1995-03-10",
   "poster_path": "/g1FXpdQogl84eztCsLI3h8Kmp69.jpg",
@@ -1022,6 +1796,18 @@
   "runtime": 141,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Arvind Swamy",
+   "Manisha Koirala",
+   "Prakash Raj",
+   "Nassar",
+   "Kitty",
+   "Tinnu Anand"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Bommarillu|2006|telugu": {
@@ -1030,7 +1816,7 @@
   "language": "telugu",
   "tmdb_id": 31626,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bommarillu",
   "release_date": "2006-08-09",
   "poster_path": "/oYN5XJzV9dYGwzq4fmp41xcIaDS.jpg",
@@ -1038,6 +1824,18 @@
   "runtime": 168,
   "director": [
    "Bhaskar"
+  ],
+  "cast": [
+   "Siddharth",
+   "Genelia D'Souza",
+   "Prakash Raj",
+   "Jayasudha",
+   "Kota Srinivasa Rao",
+   "Sunil Varma"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Border|1997|hindi": {
@@ -1046,7 +1844,7 @@
   "language": "hindi",
   "tmdb_id": 33125,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Border",
   "release_date": "1997-06-13",
   "poster_path": "/qBfe7zVYWxeBm1SaOa2rPsQSi9A.jpg",
@@ -1054,6 +1852,20 @@
   "runtime": 176,
   "director": [
    "J. P. Dutta"
+  ],
+  "cast": [
+   "Sunny Deol",
+   "Jackie Shroff",
+   "Suniel Shetty",
+   "Akshaye Khanna",
+   "Puneet Issar",
+   "Sudesh Berry"
+  ],
+  "genres": [
+   "History",
+   "Action",
+   "War",
+   "Drama"
   ]
  },
  "Boys|2003|tamil": {
@@ -1062,7 +1874,7 @@
   "language": "tamil",
   "tmdb_id": 75076,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Boys",
   "release_date": "2003-08-29",
   "poster_path": "/oQBEA5Slv40HHHM5WA1ey8D7nnl.jpg",
@@ -1070,6 +1882,19 @@
   "runtime": 172,
   "director": [
    "Shankar"
+  ],
+  "cast": [
+   "Siddharth",
+   "Genelia D'Souza",
+   "Bharath Srinivasan",
+   "S. Thaman",
+   "Nakul",
+   "Vivek"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Romance"
   ]
  },
  "Bramayugam|2024|malayalam": {
@@ -1078,7 +1903,7 @@
   "language": "malayalam",
   "tmdb_id": 1166133,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Bramayugam",
   "release_date": "2024-02-15",
   "poster_path": "/snQLwRrfQAl5YFKVefZq9Lbscki.jpg",
@@ -1086,6 +1911,19 @@
   "runtime": 139,
   "director": [
    "Rahul Sadasivan"
+  ],
+  "cast": [
+   "Arjun Ashokan",
+   "Mammootty",
+   "Sidharth Bharathan",
+   "Manikandan Achari",
+   "Amalda Liz",
+   "Aluva Sheeba Sebastian"
+  ],
+  "genres": [
+   "Drama",
+   "Horror",
+   "Thriller"
   ]
  },
  "C/o Kancharapalem|2018|telugu": {
@@ -1094,7 +1932,7 @@
   "language": "telugu",
   "tmdb_id": 544795,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "C/o Kancharapalem",
   "release_date": "2018-09-07",
   "poster_path": "/fDsN0xMM7OUJohZbCxjMB3JXu8h.jpg",
@@ -1102,6 +1940,18 @@
   "runtime": 152,
   "director": [
    "Venkatesh Maha"
+  ],
+  "cast": [
+   "Kancharapalem Raju",
+   "Radha Bessy",
+   "Kesava Karri",
+   "Nitya Sri",
+   "Karthik Rathnam",
+   "Praneeta Patnaik"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "CID Moosa|2003|malayalam": {
@@ -1110,7 +1960,7 @@
   "language": "malayalam",
   "tmdb_id": 329991,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "C.I.D. Moosa",
   "release_date": "2003-07-04",
   "poster_path": "/evsWMsxq8xZbCDFWwjN6ZX8e3Fw.jpg",
@@ -1118,6 +1968,18 @@
   "runtime": 160,
   "director": [
    "Johny Antony"
+  ],
+  "cast": [
+   "Dileep",
+   "Bhavana",
+   "Jagathy Sreekumar",
+   "Ashish Vidhyarthi",
+   "Harisree Ashokan",
+   "Cochin Haneefa"
+  ],
+  "genres": [
+   "Comedy",
+   "Action"
   ]
  },
  "Chak De! India|2007|hindi": {
@@ -1126,7 +1988,7 @@
   "language": "hindi",
   "tmdb_id": 14163,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Chak De! India",
   "release_date": "2007-08-09",
   "poster_path": "/mmFMgEsTRCAGAtwffGpuo3mJsxN.jpg",
@@ -1134,6 +1996,17 @@
   "runtime": 148,
   "director": [
    "Shimit Amin"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Vidya Malvade",
+   "Sagarika Ghatge",
+   "Shilpa Shukla",
+   "Chitrashi Rawat",
+   "Tanya Abrol"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Chandni|1989|hindi": {
@@ -1142,7 +2015,7 @@
   "language": "hindi",
   "tmdb_id": 32680,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Chandni",
   "release_date": "1989-09-14",
   "poster_path": "/4CDmZFSPddbsXUt2lhjxQbxjNcQ.jpg",
@@ -1150,6 +2023,18 @@
   "runtime": 180,
   "director": [
    "Yash Chopra"
+  ],
+  "cast": [
+   "Rishi Kapoor",
+   "Sridevi",
+   "Vinod Khanna",
+   "Waheeda Rehman",
+   "Sushma Seth",
+   "Mita Vashisht"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Chatrapathi|2005|telugu": {
@@ -1158,7 +2043,7 @@
   "language": "telugu",
   "tmdb_id": 79210,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Chatrapathi",
   "release_date": "2005-09-30",
   "poster_path": "/oK21m2iNDPuCrFNt1k65n5KDhmt.jpg",
@@ -1166,6 +2051,18 @@
   "runtime": 158,
   "director": [
    "S. S. Rajamouli"
+  ],
+  "cast": [
+   "Prabhas",
+   "Bhanupriya",
+   "Shafi",
+   "Pradeep Ram Singh Rawat",
+   "Shriya Saran",
+   "Chatrapathi Sekhar"
+  ],
+  "genres": [
+   "Action",
+   "Drama"
   ]
  },
  "Chemmeen|1965|malayalam": {
@@ -1174,7 +2071,7 @@
   "language": "malayalam",
   "tmdb_id": 265070,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Chemmeen",
   "release_date": "1965-08-19",
   "poster_path": "/jOAjmEQD4LUYFVgR41fAEutaVQb.jpg",
@@ -1182,6 +2079,18 @@
   "runtime": 140,
   "director": [
    "Ramu Kariat"
+  ],
+  "cast": [
+   "Sheela",
+   "Madhu",
+   "Sathyan",
+   "Kottarakkara Sreedharan Nair",
+   "Adoor Bhavani",
+   "Latha Raju"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Chup Chup Ke|2006|hindi": {
@@ -1190,7 +2099,7 @@
   "language": "hindi",
   "tmdb_id": 19637,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Chup Chup Ke",
   "release_date": "2006-06-09",
   "poster_path": "/daXoADAtEPis5bBvSrXVWfRa77X.jpg",
@@ -1198,6 +2107,17 @@
   "runtime": 165,
   "director": [
    "Priyadarshan"
+  ],
+  "cast": [
+   "Shahid Kapoor",
+   "Paresh Rawal",
+   "Rajpal Yadav",
+   "Kareena Kapoor Khan",
+   "Neha Dhupia",
+   "Om Puri"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Chupke Chupke|1975|hindi": {
@@ -1206,7 +2126,7 @@
   "language": "hindi",
   "tmdb_id": 21459,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Chupke Chupke",
   "release_date": "1975-04-11",
   "poster_path": "/yNZf2yhQE42f3uIcR1IXOiMQ72c.jpg",
@@ -1214,6 +2134,19 @@
   "runtime": 145,
   "director": [
    "Hrishikesh Mukherjee"
+  ],
+  "cast": [
+   "Dharmendra",
+   "Sharmila Tagore",
+   "Om Prakash",
+   "Usha Kiran",
+   "Amitabh Bachchan",
+   "Asrani"
+  ],
+  "genres": [
+   "Romance",
+   "Comedy",
+   "Drama"
   ]
  },
  "Commando|2013|hindi": {
@@ -1222,7 +2155,7 @@
   "language": "hindi",
   "tmdb_id": 185640,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Commando - A One Man Army",
   "release_date": "2013-04-11",
   "poster_path": "/atBgLfwxFERXExObsqK1jFoCTZ.jpg",
@@ -1230,6 +2163,17 @@
   "runtime": 119,
   "director": [
    "Dilip Ghosh"
+  ],
+  "cast": [
+   "Vidyut Jammwal",
+   "Pooja Chopra",
+   "Jaideep Ahlawat",
+   "Jagat Rawat",
+   "Ishita Vyas",
+   "Om Prakash"
+  ],
+  "genres": [
+   "Action"
   ]
  },
  "Company|2002|hindi": {
@@ -1238,7 +2182,7 @@
   "language": "hindi",
   "tmdb_id": 15761,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Company",
   "release_date": "2002-04-15",
   "poster_path": "/1A2J7bYryOmBVBU8qpTs3fta0hv.jpg",
@@ -1246,6 +2190,19 @@
   "runtime": 156,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "Ajay Devgn",
+   "Vivek Oberoi",
+   "Mohanlal",
+   "Manisha Koirala",
+   "Antara Mali",
+   "Akash Khurana"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Court|2014|marathi": {
@@ -1254,7 +2211,7 @@
   "language": "marathi",
   "tmdb_id": 290815,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Court",
   "release_date": "2015-04-17",
   "poster_path": "/ve1UFCZYu8WHmeGRH4ToEcGnj6e.jpg",
@@ -1262,6 +2219,17 @@
   "runtime": 116,
   "director": [
    "Chaitanya Tamhane"
+  ],
+  "cast": [
+   "Vira Sathidar",
+   "Vivek Gomber",
+   "Geetanjali Kulkarni",
+   "Pradeep Joshi",
+   "Shirish Pawar",
+   "Usha Bane"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "D-Day|2013|hindi": {
@@ -1270,7 +2238,7 @@
   "language": "hindi",
   "tmdb_id": 206851,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "D-Day",
   "release_date": "2013-07-19",
   "poster_path": "/q2pizfhonKPTWdB4OC49qJWbBqi.jpg",
@@ -1278,6 +2246,18 @@
   "runtime": 153,
   "director": [
    "Nikkhil Advani"
+  ],
+  "cast": [
+   "Irrfan Khan",
+   "Arjun Rampal",
+   "Rishi Kapoor",
+   "Huma Qureshi",
+   "Imran Hasnee",
+   "Aakash Dahiya"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Dangal|2016|hindi": {
@@ -1286,7 +2266,7 @@
   "language": "hindi",
   "tmdb_id": 360814,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dangal",
   "release_date": "2016-12-21",
   "poster_path": "/cJRPOLEexI7qp2DKtFfCh7YaaUG.jpg",
@@ -1294,6 +2274,19 @@
   "runtime": 161,
   "director": [
    "Nitesh Tiwari"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Fatima Sana Shaikh",
+   "Sanya Malhotra",
+   "Zaira Wasim",
+   "Suhani Bhatnagar",
+   "Aparshakti Khurana"
+  ],
+  "genres": [
+   "Drama",
+   "Family",
+   "Comedy"
   ]
  },
  "Darr|1993|hindi": {
@@ -1302,7 +2295,7 @@
   "language": "hindi",
   "tmdb_id": 35053,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Darr",
   "release_date": "1993-09-01",
   "poster_path": "/xa0n9hBFZgVgSw1Ia4A8ImuzWbh.jpg",
@@ -1310,6 +2303,19 @@
   "runtime": 179,
   "director": [
    "Yash Chopra"
+  ],
+  "cast": [
+   "Sunny Deol",
+   "Juhi Chawla Mehta",
+   "Shah Rukh Khan",
+   "Anupam Kher",
+   "Dalip Tahil",
+   "Tanvi Azmi"
+  ],
+  "genres": [
+   "Thriller",
+   "Action",
+   "Romance"
   ]
  },
  "Dear Zindagi|2016|hindi": {
@@ -1318,7 +2324,7 @@
   "language": "hindi",
   "tmdb_id": 413543,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dear Zindagi",
   "release_date": "2016-11-23",
   "poster_path": "/oUg0N2isgZ5rrxdXnsemcKolfKZ.jpg",
@@ -1326,6 +2332,18 @@
   "runtime": 151,
   "director": [
    "Gauri Shinde"
+  ],
+  "cast": [
+   "Alia Bhatt",
+   "Shah Rukh Khan",
+   "Kunal Kapoor",
+   "Ali Zafar",
+   "Aditya Roy Kapur",
+   "Angad Bedi"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Deewaar|1975|hindi": {
@@ -1334,7 +2352,7 @@
   "language": "hindi",
   "tmdb_id": 22460,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Deewaar",
   "release_date": "1975-01-24",
   "poster_path": "/pwzfljCp52jieXTBE0lynz7bu2g.jpg",
@@ -1342,6 +2360,19 @@
   "runtime": 174,
   "director": [
    "Yash Chopra"
+  ],
+  "cast": [
+   "Shashi Kapoor",
+   "Amitabh Bachchan",
+   "Nirupa Roy",
+   "Parveen Babi",
+   "Neetu Singh",
+   "Madan Puri"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Demonte Colony|2015|tamil": {
@@ -1350,7 +2381,7 @@
   "language": "tamil",
   "tmdb_id": 341420,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Demonte Colony",
   "release_date": "2015-05-22",
   "poster_path": "/4v0rLDCAV0CuZTAoeu8CDPBkksB.jpg",
@@ -1358,6 +2389,17 @@
   "runtime": 116,
   "director": [
    "R. Ajay Gnanamuthu"
+  ],
+  "cast": [
+   "Arulnithi",
+   "Ramesh Thilak",
+   "Sananth",
+   "Abishek Joseph George",
+   "Antti Jääskeläinen",
+   "M. S. Bhaskar"
+  ],
+  "genres": [
+   "Horror"
   ]
  },
  "Devdas|2002|hindi": {
@@ -1366,7 +2408,7 @@
   "language": "hindi",
   "tmdb_id": 15917,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Devdas",
   "release_date": "2002-07-11",
   "poster_path": "/4IJObbE9c3rO0bZxMwMtt5n9g2n.jpg",
@@ -1374,6 +2416,18 @@
   "runtime": 185,
   "director": [
    "Sanjay Leela Bhansali"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Aishwarya Rai Bachchan",
+   "Madhuri Dixit",
+   "Jackie Shroff",
+   "Smita Jaykar",
+   "Manoj Joshi"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Deyyam|1996|telugu": {
@@ -1382,7 +2436,7 @@
   "language": "telugu",
   "tmdb_id": 409197,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Deyyam",
   "release_date": "1996-06-01",
   "poster_path": "/k0vSJJrWW2UNMs57bBrLUKI97PY.jpg",
@@ -1390,6 +2444,44 @@
   "runtime": 86,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "J. D. Chakravarthi",
+   "Maheswari",
+   "Jayasudha",
+   "Jeeva",
+   "Ram Jagan",
+   "Tanikella Bharani"
+  ],
+  "genres": [
+   "Horror"
+  ]
+ },
+ "Dhamaal 4|2026|hindi": {
+  "title": "Dhamaal 4",
+  "year": 2026,
+  "language": "hindi",
+  "tmdb_id": 1303331,
+  "match": "pinned",
+  "fetched_at": "2026-11-27",
+  "tmdb_title": "Dhamaal 4",
+  "release_date": "2026-07-10",
+  "poster_path": "/qUkP6Njgg1RQGMkmNcfsnmFET1e.jpg",
+  "backdrop_path": "/95sjD0dRajtU6SKD6Gq6PtrGoGY.jpg",
+  "runtime": 143,
+  "director": [
+   "Indra Kumar"
+  ],
+  "cast": [
+   "Ajay Devgn",
+   "Arshad Warsi",
+   "Riteish Deshmukh",
+   "Javed Jaffrey",
+   "Sanjay Mishra",
+   "Ravi Kishan"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Dhurandhar|2025|hindi": {
@@ -1398,7 +2490,7 @@
   "language": "hindi",
   "tmdb_id": 1291608,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dhurandhar",
   "release_date": "2025-12-05",
   "poster_path": "/8FHOtUpNIk5ZPEay2N2EY5lrxkv.jpg",
@@ -1406,6 +2498,19 @@
   "runtime": 214,
   "director": [
    "Aditya Dhar"
+  ],
+  "cast": [
+   "Ranveer Singh",
+   "Akshaye Khanna",
+   "R. Madhavan",
+   "Arjun Rampal",
+   "Sanjay Dutt",
+   "Sara Arjun"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Thriller"
   ]
  },
  "Dhuruvangal Pathinaaru|2016|tamil": {
@@ -1414,7 +2519,7 @@
   "language": "tamil",
   "tmdb_id": 414523,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dhuruvangal Pathinaaru",
   "release_date": "2016-12-29",
   "poster_path": "/3Zye7j7eunhb7jLdL8mj8xvFw5G.jpg",
@@ -1422,6 +2527,20 @@
   "runtime": 106,
   "director": [
    "Karthick Naren"
+  ],
+  "cast": [
+   "Rahman",
+   "Ashwin Kkumar",
+   "Pradeep",
+   "Santosh Krishna",
+   "Praveen",
+   "Karthikeyan"
+  ],
+  "genres": [
+   "Thriller",
+   "Action",
+   "Crime",
+   "Mystery"
   ]
  },
  "Dil Chahta Hai|2001|hindi": {
@@ -1430,7 +2549,7 @@
   "language": "hindi",
   "tmdb_id": 14752,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dil Chahta Hai",
   "release_date": "2001-07-24",
   "poster_path": "/c6Cicaf2FFmfcInfsbPTxMLk5CS.jpg",
@@ -1438,6 +2557,18 @@
   "runtime": 183,
   "director": [
    "Farhan Akhtar"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Akshaye Khanna",
+   "Saif Ali Khan",
+   "Preity Zinta",
+   "Dimple Kapadia",
+   "Sonali Kulkarni"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Dil Se..|1998|hindi": {
@@ -1446,7 +2577,7 @@
   "language": "hindi",
   "tmdb_id": 21210,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dil Se..",
   "release_date": "1998-08-22",
   "poster_path": "/rdnkOPYlHf8WaPRllTz3dsuzpp8.jpg",
@@ -1454,6 +2585,18 @@
   "runtime": 163,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Manisha Koirala",
+   "Preity Zinta",
+   "Raghubir Yadav",
+   "Sabyasachi Chakraborty",
+   "Piyush Mishra"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Dilwale Dulhania Le Jayenge|1995|hindi": {
@@ -1462,7 +2605,7 @@
   "language": "hindi",
   "tmdb_id": 19404,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Dilwale Dulhania Le Jayenge",
   "release_date": "1995-10-20",
   "poster_path": "/lfRkUr7DYdHldAqi3PwdQGBRBPM.jpg",
@@ -1470,6 +2613,19 @@
   "runtime": 190,
   "director": [
    "Aditya Chopra"
+  ],
+  "cast": [
+   "Kajol",
+   "Shah Rukh Khan",
+   "Amrish Puri",
+   "Farida Jalal",
+   "Anupam Kher",
+   "Pooja Ruparel"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "Do Bigha Zamin|1953|hindi": {
@@ -1478,7 +2634,7 @@
   "language": "hindi",
   "tmdb_id": 54352,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Two Acres of Land",
   "release_date": "1953-01-02",
   "poster_path": "/uFCgOvfHfqRd6N4fBXqaSKS9Rlm.jpg",
@@ -1486,6 +2642,17 @@
   "runtime": 125,
   "director": [
    "Bimal Roy"
+  ],
+  "cast": [
+   "Balraj Sahni",
+   "Nirupa Roy",
+   "Nana Palsikar",
+   "Rattan Kumar",
+   "Meena Kumari",
+   "Mehmood"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Don 2|2011|hindi": {
@@ -1494,7 +2661,7 @@
   "language": "hindi",
   "tmdb_id": 41109,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Don 2",
   "release_date": "2011-12-22",
   "poster_path": "/2gBM8c36HIwn4vc2UuMeliqiCKY.jpg",
@@ -1502,6 +2669,18 @@
   "runtime": 139,
   "director": [
    "Farhan Akhtar"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Priyanka Chopra Jonas",
+   "Boman Irani",
+   "Kunal Kapoor",
+   "Lara Dutta",
+   "Om Puri"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Don|2006|hindi": {
@@ -1510,7 +2689,7 @@
   "language": "hindi",
   "tmdb_id": 17501,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Don",
   "release_date": "2006-10-20",
   "poster_path": "/1d52h7aDRlc5IPUFno24XPNT6hA.jpg",
@@ -1518,6 +2697,19 @@
   "runtime": 178,
   "director": [
    "Farhan Akhtar"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Priyanka Chopra Jonas",
+   "Arjun Rampal",
+   "Boman Irani",
+   "Om Puri",
+   "Isha Koppikar"
+  ],
+  "genres": [
+   "Action",
+   "Drama",
+   "Thriller"
   ]
  },
  "Drishyam 2|2021|malayalam": {
@@ -1526,7 +2718,7 @@
   "language": "malayalam",
   "tmdb_id": 706872,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Drishyam 2",
   "release_date": "2021-02-19",
   "poster_path": "/8RJBCUGE27LX06tAES4jTELN0KA.jpg",
@@ -1534,6 +2726,20 @@
   "runtime": 153,
   "director": [
    "Jeethu Joseph"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Meena",
+   "Murali Gopy",
+   "Asha Sarath",
+   "Siddique",
+   "Anjali P Nair"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Drama",
+   "Mystery"
   ]
  },
  "Drishyam|2013|malayalam": {
@@ -1542,7 +2748,7 @@
   "language": "malayalam",
   "tmdb_id": 244049,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Drishyam",
   "release_date": "2013-12-19",
   "poster_path": "/gPBldHTnqpgsrnDnSrAlFwE6Q1t.jpg",
@@ -1550,6 +2756,19 @@
   "runtime": 164,
   "director": [
    "Jeethu Joseph"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Meena",
+   "Asha Sarath",
+   "Kalabhavan Shajohn",
+   "Ansiba Hassan",
+   "Esther Anil"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Drama"
   ]
  },
  "Eega|2012|telugu": {
@@ -1558,7 +2777,7 @@
   "language": "telugu",
   "tmdb_id": 148265,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Eega",
   "release_date": "2012-07-05",
   "poster_path": "/pX7fn4EZrg2YFlV4GNMIfHDOQZ6.jpg",
@@ -1566,6 +2785,20 @@
   "runtime": 145,
   "director": [
    "S. S. Rajamouli"
+  ],
+  "cast": [
+   "Kichcha Sudeepa",
+   "Samantha Ruth Prabhu",
+   "Nani",
+   "Adithya Menon",
+   "Thagubothu Ramesh",
+   "Devadarshini"
+  ],
+  "genres": [
+   "Comedy",
+   "Fantasy",
+   "Romance",
+   "Action"
   ]
  },
  "Eeram|2009|tamil": {
@@ -1574,7 +2807,7 @@
   "language": "tamil",
   "tmdb_id": 66536,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Eeram",
   "release_date": "2009-09-11",
   "poster_path": "/tJ3wB8JxnOlXfAu7gtYK0hvKRBu.jpg",
@@ -1582,6 +2815,18 @@
   "runtime": 164,
   "director": [
    "Arivazhagan Venkatachalam"
+  ],
+  "cast": [
+   "Aadhi Pinisetty",
+   "Nandha",
+   "Sindhu Menon",
+   "Saranya Mohan",
+   "Srinath",
+   "Krishna"
+  ],
+  "genres": [
+   "Horror",
+   "Thriller"
   ]
  },
  "Egaro|2011|bengali": {
@@ -1590,7 +2835,7 @@
   "language": "bengali",
   "tmdb_id": 197839,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Egaro: The Eleven",
   "release_date": "2011-01-21",
   "poster_path": "/xHXcapGp5y5WGP14HbjhywyApQH.jpg",
@@ -1598,6 +2843,17 @@
   "runtime": 113,
   "director": [
    "Arun Roy"
+  ],
+  "cast": [
+   "Ranodeep Bose",
+   "Baidyanath Das",
+   "Biswajit Chakraborty",
+   "Shankar Chakraborty",
+   "Kharaj Mukherjee",
+   "Bijit Basu"
+  ],
+  "genres": [
+   "History"
   ]
  },
  "Ek Tha Tiger|2012|hindi": {
@@ -1606,7 +2862,7 @@
   "language": "hindi",
   "tmdb_id": 85985,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ek Tha Tiger",
   "release_date": "2012-08-15",
   "poster_path": "/jGTyeAH5KZuCX6Qat1VcTBXnqth.jpg",
@@ -1614,6 +2870,19 @@
   "runtime": 133,
   "director": [
    "Kabir Khan"
+  ],
+  "cast": [
+   "Salman Khan",
+   "Katrina Kaif",
+   "Girish Karnad",
+   "Ranvir Shorey",
+   "Gavie Chahal",
+   "Roshan Seth"
+  ],
+  "genres": [
+   "Action",
+   "Thriller",
+   "Romance"
   ]
  },
  "English Vinglish|2012|hindi": {
@@ -1622,7 +2891,7 @@
   "language": "hindi",
   "tmdb_id": 118628,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "English Vinglish",
   "release_date": "2012-09-21",
   "poster_path": "/ccEVR8sf18psGH5daio9y7OGu93.jpg",
@@ -1630,6 +2899,19 @@
   "runtime": 134,
   "director": [
    "Gauri Shinde"
+  ],
+  "cast": [
+   "Sridevi",
+   "Mehdi Nebbou",
+   "Sujata Kumar",
+   "Priya Anand",
+   "Adil Hussain",
+   "Navika Kotia"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Family"
   ]
  },
  "Enthiran|2010|tamil": {
@@ -1638,14 +2920,27 @@
   "language": "tamil",
   "tmdb_id": 148284,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Enthiran",
   "release_date": "2010-10-01",
-  "poster_path": "/hai6CSCLxULO1RThjDP3lWAqOtQ.jpg",
+  "poster_path": "/6dAgnGNY9twY81lxle6SlHH9pBo.jpg",
   "backdrop_path": "/fvsSPqeVq4yhp7oZTGXA99uDQ1v.jpg",
   "runtime": 176,
   "director": [
    "Shankar"
+  ],
+  "cast": [
+   "Rajinikanth",
+   "Aishwarya Rai Bachchan",
+   "Danny Denzongpa",
+   "Santhanam",
+   "Karunas",
+   "Devadarshini"
+  ],
+  "genres": [
+   "Action",
+   "Science Fiction",
+   "Adventure"
   ]
  },
  "Evaru|2019|telugu": {
@@ -1654,7 +2949,7 @@
   "language": "telugu",
   "tmdb_id": 607310,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Evaru",
   "release_date": "2019-08-15",
   "poster_path": "/2klVhQndJRoqstg0mB4xqQ1qpeJ.jpg",
@@ -1662,6 +2957,18 @@
   "runtime": 118,
   "director": [
    "Venkat Ramji"
+  ],
+  "cast": [
+   "Adivi Sesh",
+   "Regena Cassandrra",
+   "Naveen Chandra",
+   "Murali Sharma",
+   "Pavitra Lokesh",
+   "Nihal Kodhaty"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime"
   ]
  },
  "Ezra|2017|malayalam": {
@@ -1670,7 +2977,7 @@
   "language": "malayalam",
   "tmdb_id": 428642,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ezra",
   "release_date": "2017-02-10",
   "poster_path": "/3uk6RGZWy9aGr8lnsAv3CV9l9TX.jpg",
@@ -1678,6 +2985,18 @@
   "runtime": 147,
   "director": [
    "Jay K"
+  ],
+  "cast": [
+   "Prithviraj Sukumaran",
+   "Priya Anand",
+   "Sujith Sankar",
+   "Tovino Thomas",
+   "Vijayaraghavan",
+   "Sudev Nair"
+  ],
+  "genres": [
+   "Horror",
+   "Thriller"
   ]
  },
  "Fandry|2013|marathi": {
@@ -1686,7 +3005,7 @@
   "language": "marathi",
   "tmdb_id": 230846,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Fandry",
   "release_date": "2013-10-09",
   "poster_path": "/zCeFTfyKDITgfYFg2gEyzubhOD9.jpg",
@@ -1694,6 +3013,18 @@
   "runtime": 102,
   "director": [
    "Nagraj Popatrao Manjule"
+  ],
+  "cast": [
+   "Somnath Awghade",
+   "Rajeshwari Kharat",
+   "Suraj Pawar",
+   "Kishore Kadam",
+   "Nagraj Popatrao Manjule",
+   "Pravin Tarde"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Fan|2016|hindi": {
@@ -1702,7 +3033,7 @@
   "language": "hindi",
   "tmdb_id": 377985,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Fan",
   "release_date": "2016-04-14",
   "poster_path": "/ui7DYyQB4wsbBvom97KPNkldYWa.jpg",
@@ -1710,6 +3041,19 @@
   "runtime": 138,
   "director": [
    "Maneesh Sharma"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Deepika Amin",
+   "Yogendra Tiku",
+   "Shriya Pilgaonkar",
+   "Sayani Gupta",
+   "Waluscha D'Souza"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Thriller"
   ]
  },
  "Game Over|2019|tamil": {
@@ -1718,7 +3062,7 @@
   "language": "tamil",
   "tmdb_id": 553456,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Game Over",
   "release_date": "2019-06-14",
   "poster_path": "/sqXxW8iHcPbqL1k51mygNC0xqcv.jpg",
@@ -1726,6 +3070,20 @@
   "runtime": 97,
   "director": [
    "Ashwin Saravanan"
+  ],
+  "cast": [
+   "Taapsee Pannu",
+   "Vinodhini Vaidyanathan",
+   "Anish Kuruvilla",
+   "Sanchana Natarajan",
+   "Ramya Subramanian",
+   "Maala Parvathi"
+  ],
+  "genres": [
+   "Thriller",
+   "Mystery",
+   "Drama",
+   "Horror"
   ]
  },
  "Ganeshana Maduve|1990|kannada": {
@@ -1734,14 +3092,27 @@
   "language": "kannada",
   "tmdb_id": 608568,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ganeshana Maduve",
   "release_date": "1990-01-01",
-  "poster_path": "/qnbTMS6heu1M6HRQ6lJEGyEuWlo.jpg",
+  "poster_path": "/cEO9q5XBTS3j5KSjrx6PK8snbQV.jpg",
   "backdrop_path": "/7rhIQZDdGuNGSNLjBML0xfQFQEy.jpg",
   "runtime": 141,
   "director": [
    "Phani Ramachandra"
+  ],
+  "cast": [
+   "Anant Nag",
+   "Vinaya Prasad",
+   "Ramesh Bhat",
+   "Mukhyamantri Chandru",
+   "Vaishali Kasaravalli",
+   "Shivaram"
+  ],
+  "genres": [
+   "Romance",
+   "Comedy",
+   "Drama"
   ]
  },
  "Gangs of Wasseypur – Parts 1 & 2|2012|hindi": {
@@ -1750,7 +3121,7 @@
   "language": "hindi",
   "tmdb_id": 117691,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Gangs of Wasseypur - Part 1",
   "release_date": "2012-06-22",
   "poster_path": "/xAy208Znkingmfnb5ZbULwLyIwW.jpg",
@@ -1758,6 +3129,19 @@
   "runtime": 160,
   "director": [
    "Anurag Kashyap"
+  ],
+  "cast": [
+   "Manoj Bajpayee",
+   "Richa Chadha",
+   "Tigmanshu Dhulia",
+   "Nawazuddin Siddiqui",
+   "Reema Sen",
+   "Huma Qureshi"
+  ],
+  "genres": [
+   "Action",
+   "Thriller",
+   "Crime"
   ]
  },
  "Garuda Gamana Vrishabha Vahana|2021|kannada": {
@@ -1766,7 +3150,7 @@
   "language": "kannada",
   "tmdb_id": 678466,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Garuda Gamana Vrishabha Vahana",
   "release_date": "2021-11-19",
   "poster_path": "/5jWfzHXvqLllbsVL7bvV1UVTq8s.jpg",
@@ -1774,6 +3158,19 @@
   "runtime": 151,
   "director": [
    "Raj B Shetty"
+  ],
+  "cast": [
+   "Raj B Shetty",
+   "Rishab Shetty",
+   "Gopalkrishna Deshpande",
+   "Deepak Rai Panaje",
+   "Mime  Ramdas",
+   "JP Tuminad"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
   ]
  },
  "Geethanjali|1989|telugu": {
@@ -1782,7 +3179,7 @@
   "language": "telugu",
   "tmdb_id": 148808,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Geethanjali",
   "release_date": "1989-05-10",
   "poster_path": "/qZVWloCwvgP5JtaqBWoFY6YspzT.jpg",
@@ -1790,6 +3187,18 @@
   "runtime": 137,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Nagarjuna Akkineni",
+   "Girija Shettar",
+   "Vijayakumar",
+   "Vijayachander",
+   "M. M. Radhabai",
+   "Sumithra"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Ghajini|2005|tamil": {
@@ -1798,7 +3207,7 @@
   "language": "tamil",
   "tmdb_id": 69636,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ghajini",
   "release_date": "2005-10-14",
   "poster_path": "/fWCiwGeABg5APrLGHV2IgxoP20N.jpg",
@@ -1806,6 +3215,19 @@
   "runtime": 182,
   "director": [
    "A. R. Murugadoss"
+  ],
+  "cast": [
+   "Suriya",
+   "Asin Thottumkal",
+   "Nayanthara",
+   "Pradeep Ram Singh Rawat",
+   "Riyaz Khan",
+   "Manobala"
+  ],
+  "genres": [
+   "Action",
+   "Romance",
+   "Thriller"
   ]
  },
  "Ghayal|1990|hindi": {
@@ -1814,7 +3236,7 @@
   "language": "hindi",
   "tmdb_id": 71308,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ghayal",
   "release_date": "1990-06-22",
   "poster_path": "/1zkH6PPyC0oOHTY9wwbDi8FgRcv.jpg",
@@ -1822,6 +3244,19 @@
   "runtime": 163,
   "director": [
    "Rajkumar Santoshi"
+  ],
+  "cast": [
+   "Sunny Deol",
+   "Meenakshi Sheshadri",
+   "Raj Babbar",
+   "Amrish Puri",
+   "Moushumi Chatterjee",
+   "Om Puri"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Godhi Banna Sadharana Mykattu|2016|kannada": {
@@ -1830,7 +3265,7 @@
   "language": "kannada",
   "tmdb_id": 402109,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Godhi Banna Sadharana Mykattu",
   "release_date": "2016-06-03",
   "poster_path": "/4dImTMse7PPFGHPG6GQuwDng9fB.jpg",
@@ -1838,6 +3273,18 @@
   "runtime": 143,
   "director": [
    "Hemanth M. Rao"
+  ],
+  "cast": [
+   "Anant Nag",
+   "Rakshit Shetty",
+   "Sruthi Hariharan",
+   "Achyuth Kumar",
+   "Vasishta N. Simha",
+   "Sanchari Vijay"
+  ],
+  "genres": [
+   "Family",
+   "Drama"
   ]
  },
  "Gol Maal|1979|hindi": {
@@ -1846,7 +3293,7 @@
   "language": "hindi",
   "tmdb_id": 30066,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Gol Maal",
   "release_date": "1979-04-19",
   "poster_path": "/uPW269Qx8VxfiQI2PFHcSJkGOI2.jpg",
@@ -1854,6 +3301,17 @@
   "runtime": 144,
   "director": [
    "Hrishikesh Mukherjee"
+  ],
+  "cast": [
+   "Amol Palekar",
+   "Utpal Dutt",
+   "Bindiya Goswami",
+   "Dina Pathak",
+   "Deven Verma",
+   "Manju Singh"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Gold|2018|hindi": {
@@ -1862,7 +3320,7 @@
   "language": "hindi",
   "tmdb_id": 478682,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Gold",
   "release_date": "2018-08-15",
   "poster_path": "/xCcdW6nHRcrKWraErYV5g3tut7Q.jpg",
@@ -1870,6 +3328,18 @@
   "runtime": 170,
   "director": [
    "Reema Kagti"
+  ],
+  "cast": [
+   "Akshay Kumar",
+   "Mouni Roy",
+   "Kumud Pant",
+   "Kunal Kapoor",
+   "Amit Sadh",
+   "Vineet Kumar Singh"
+  ],
+  "genres": [
+   "Drama",
+   "History"
   ]
  },
  "Goodachari|2018|telugu": {
@@ -1878,7 +3348,7 @@
   "language": "telugu",
   "tmdb_id": 540189,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Goodachari",
   "release_date": "2018-08-03",
   "poster_path": "/uG04EjdV1zrj91ROxP75jwRxxv0.jpg",
@@ -1886,6 +3356,19 @@
   "runtime": 147,
   "director": [
    "Sashi Kiran Tikka"
+  ],
+  "cast": [
+   "Adivi Sesh",
+   "Prakash Raj",
+   "Jagapati Babu",
+   "Supriya Yarlagadda",
+   "Sobhita Dhulipala",
+   "Vennela Kishore"
+  ],
+  "genres": [
+   "Thriller",
+   "Action",
+   "Crime"
   ]
  },
  "Guide|1965|hindi": {
@@ -1894,7 +3377,7 @@
   "language": "hindi",
   "tmdb_id": 80484,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Guide",
   "release_date": "1965-02-06",
   "poster_path": "/a31qY8UA4hsJdwFrollZ1iRzukC.jpg",
@@ -1902,6 +3385,18 @@
   "runtime": 183,
   "director": [
    "Vijay Anand"
+  ],
+  "cast": [
+   "Dev Anand",
+   "Waheeda Rehman",
+   "Leela Chitnis",
+   "Anwar Hussain",
+   "Gajanan Jagirdar",
+   "Ulhas"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Gully Boy|2019|hindi": {
@@ -1910,7 +3405,7 @@
   "language": "hindi",
   "tmdb_id": 491625,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Gully Boy",
   "release_date": "2019-02-14",
   "poster_path": "/4RE7TD5TqEXbPKyUHcn7CSeMlrJ.jpg",
@@ -1918,6 +3413,18 @@
   "runtime": 156,
   "director": [
    "Zoya Akhtar"
+  ],
+  "cast": [
+   "Ranveer Singh",
+   "Alia Bhatt",
+   "Siddhant Chaturvedi",
+   "Vijay Raaz",
+   "Vijay Varma",
+   "Amruta Subhash"
+  ],
+  "genres": [
+   "Music",
+   "Drama"
   ]
  },
  "Guru|2017|telugu": {
@@ -1926,7 +3433,7 @@
   "language": "telugu",
   "tmdb_id": 447965,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Guru",
   "release_date": "2017-03-31",
   "poster_path": "/beYqbxGlwSK1A8ww7j4NR2uiRHN.jpg",
@@ -1934,6 +3441,18 @@
   "runtime": 116,
   "director": [
    "Sudha Kongara Prasad"
+  ],
+  "cast": [
+   "Venkatesh",
+   "Ritika Singh",
+   "Mumtaz Sorcar",
+   "Nassar",
+   "Tanikella Bharani",
+   "Zakir Hussain"
+  ],
+  "genres": [
+   "Drama",
+   "Action"
   ]
  },
  "Happy Days|2007|telugu": {
@@ -1942,7 +3461,7 @@
   "language": "telugu",
   "tmdb_id": 199160,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Happy Days",
   "release_date": "2007-09-28",
   "poster_path": "/9PTzngN3VOmxQg6vFOkAGFMSxWi.jpg",
@@ -1950,6 +3469,17 @@
   "runtime": 160,
   "director": [
    "Sekhar Kammula"
+  ],
+  "cast": [
+   "Varun Sandesh",
+   "Tamannaah Bhatia",
+   "Rahul Haridas",
+   "Sonia Deepti",
+   "Nikhil Siddhartha",
+   "Gayathri Rao"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Haqeeqat|1964|hindi": {
@@ -1958,7 +3488,7 @@
   "language": "hindi",
   "tmdb_id": 326781,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Haqeeqat",
   "release_date": "1964-02-03",
   "poster_path": "/3P0EaiZ2xYqYgNZ9nS7KSlydGsk.jpg",
@@ -1966,6 +3496,20 @@
   "runtime": 169,
   "director": [
    "Chetan Anand"
+  ],
+  "cast": [
+   "Balraj Sahni",
+   "Dharmendra",
+   "Vijay Anand",
+   "Priya Rajvansh",
+   "Jayant",
+   "Indrani Mukherjee"
+  ],
+  "genres": [
+   "War",
+   "Action",
+   "Drama",
+   "Music"
   ]
  },
  "Hazaaron Khwaishein Aisi|2003|hindi": {
@@ -1974,7 +3518,7 @@
   "language": "hindi",
   "tmdb_id": 21557,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Hazaaron Khwaishein Aisi",
   "release_date": "2005-05-15",
   "poster_path": "/q9YIo33RIwA0vUZ7Cz9gIQv68lS.jpg",
@@ -1982,6 +3526,17 @@
   "runtime": 117,
   "director": [
    "Sudhir Mishra"
+  ],
+  "cast": [
+   "Kay Kay Menon",
+   "Chitrangada Singh",
+   "Shiney Ahuja",
+   "Ram Kapoor",
+   "Yashpal Sharma",
+   "Sandeep Kulkarni"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Hera Pheri|2000|hindi": {
@@ -1990,7 +3545,7 @@
   "language": "hindi",
   "tmdb_id": 21614,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Hera Pheri",
   "release_date": "2000-03-31",
   "poster_path": "/23MKGUPT5laTStim4TaGhfgSltu.jpg",
@@ -1998,6 +3553,18 @@
   "runtime": 156,
   "director": [
    "Priyadarshan"
+  ],
+  "cast": [
+   "Akshay Kumar",
+   "Suniel Shetty",
+   "Paresh Rawal",
+   "Tabu",
+   "Om Puri",
+   "Gulshan Grover"
+  ],
+  "genres": [
+   "Comedy",
+   "Crime"
   ]
  },
  "Hip Hip Hurray|1984|hindi": {
@@ -2006,7 +3573,7 @@
   "language": "hindi",
   "tmdb_id": 170990,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Hip Hip Hurray",
   "release_date": "1983-12-31",
   "poster_path": "/x6RQZHc76dKFg7OrZ8WUiwiYQBc.jpg",
@@ -2014,6 +3581,17 @@
   "runtime": 121,
   "director": [
    "Prakash Jha"
+  ],
+  "cast": [
+   "Deepti Naval",
+   "Raj Kiran",
+   "Ram Gopal Bajaj",
+   "Nikhil Bhagat",
+   "Shafi Inamdar",
+   "Satish Anand"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Hridayam|2022|malayalam": {
@@ -2022,7 +3600,7 @@
   "language": "malayalam",
   "tmdb_id": 653221,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Hridayam",
   "release_date": "2022-01-21",
   "poster_path": "/rMNzpbruCuBmYPWhaNLrKOlNKcu.jpg",
@@ -2030,6 +3608,18 @@
   "runtime": 172,
   "director": [
    "Vineeth Sreenivasan"
+  ],
+  "cast": [
+   "Pranav Mohanlal",
+   "Darshana Rajendran",
+   "Kalyani Priyadarshan",
+   "Aswath Lal",
+   "Vijayaraghavan",
+   "Arun Kurian"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Hum Aapke Hain Koun..!|1994|hindi": {
@@ -2038,7 +3628,7 @@
   "language": "hindi",
   "tmdb_id": 46387,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Hum Aapke Hain Koun..!",
   "release_date": "1994-08-05",
   "poster_path": "/bQtT9GsMtPjjfkFPXUSN9pt7uts.jpg",
@@ -2046,6 +3636,20 @@
   "runtime": 207,
   "director": [
    "Sooraj Barjatya"
+  ],
+  "cast": [
+   "Salman Khan",
+   "Madhuri Dixit",
+   "Mohnish Behl",
+   "Renuka Shahane",
+   "Anupam Kher",
+   "Reema Lagoo"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Music",
+   "Family"
   ]
  },
  "Indian|1996|tamil": {
@@ -2054,7 +3658,7 @@
   "language": "tamil",
   "tmdb_id": 31521,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Indian",
   "release_date": "1996-05-09",
   "poster_path": "/zhGayNbH2ZHWaJkhSv3qEhs5fy6.jpg",
@@ -2062,6 +3666,19 @@
   "runtime": 185,
   "director": [
    "Shankar"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Manisha Koirala",
+   "Urmila Matondkar",
+   "Sukanya",
+   "Nedumudi Venu",
+   "Manorama"
+  ],
+  "genres": [
+   "Drama",
+   "Action",
+   "Thriller"
   ]
  },
  "Iqbal|2005|hindi": {
@@ -2070,7 +3687,7 @@
   "language": "hindi",
   "tmdb_id": 21567,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Iqbal",
   "release_date": "2005-08-26",
   "poster_path": "/oPdtscy3BYDsM83wddWkmQxcTEg.jpg",
@@ -2078,6 +3695,17 @@
   "runtime": 150,
   "director": [
    "Nagesh Kukunoor"
+  ],
+  "cast": [
+   "Shreyas Talpade",
+   "Naseeruddin Shah",
+   "Girish Karnad",
+   "Shweta Basu Prasad",
+   "Prateeksha Lonkar",
+   "Yatin Karyekar"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Iruvar|1997|tamil": {
@@ -2086,7 +3714,7 @@
   "language": "tamil",
   "tmdb_id": 49032,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Iruvar",
   "release_date": "1997-01-14",
   "poster_path": "/meBNe0IHOhYNjNna2YlxXQ3iwvL.jpg",
@@ -2094,6 +3722,18 @@
   "runtime": 140,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Prakash Raj",
+   "Aishwarya Rai Bachchan",
+   "Gautami Tadimalla",
+   "Revathi",
+   "Tabu"
+  ],
+  "genres": [
+   "History",
+   "Drama"
   ]
  },
  "Jaal|1952|hindi": {
@@ -2102,7 +3742,7 @@
   "language": "hindi",
   "tmdb_id": 185552,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jaal",
   "release_date": "1952-03-31",
   "poster_path": "/ex7KfIFcDxGqS8rxzrXhds5AzPR.jpg",
@@ -2110,6 +3750,20 @@
   "runtime": 115,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Geeta Bali",
+   "Dev Anand",
+   "Purnima",
+   "K.N. Singh",
+   "Johnny Walker",
+   "Raj Khosla"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Music",
+   "Thriller"
   ]
  },
  "Jaane Bhi Do Yaaro|1983|hindi": {
@@ -2118,7 +3772,7 @@
   "language": "hindi",
   "tmdb_id": 25499,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jaane Bhi Do Yaaro",
   "release_date": "1983-08-12",
   "poster_path": "/s2LcyaA9zSi3JDOqskfW1rQfn0Z.jpg",
@@ -2126,6 +3780,18 @@
   "runtime": 132,
   "director": [
    "Kundan Shah"
+  ],
+  "cast": [
+   "Naseeruddin Shah",
+   "Ravi Baswani",
+   "Bhakti Barve",
+   "Satish Shah",
+   "Om Puri",
+   "Satish Kaushik"
+  ],
+  "genres": [
+   "Comedy",
+   "Crime"
   ]
  },
  "Jab We Met|2007|hindi": {
@@ -2134,7 +3800,7 @@
   "language": "hindi",
   "tmdb_id": 11807,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jab We Met",
   "release_date": "2007-10-26",
   "poster_path": "/sQ7A7jyTbkK90vjd8yCRuoyL9CK.jpg",
@@ -2142,6 +3808,19 @@
   "runtime": 138,
   "director": [
    "Imtiaz Ali"
+  ],
+  "cast": [
+   "Shahid Kapoor",
+   "Kareena Kapoor Khan",
+   "Tarun Arora",
+   "Dara Singh",
+   "Pavan Malhotra",
+   "Kamal Tiwari"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Romance"
   ]
  },
  "Jagte Raho|1956|hindi": {
@@ -2150,15 +3829,27 @@
   "language": "hindi",
   "tmdb_id": 131242,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jagte Raho",
   "release_date": "1956-12-12",
   "poster_path": "/sogyhWt2KP82glhrQYm1DQsAajF.jpg",
   "backdrop_path": "/l56rcuVJVfVaTYVVH5rQj35Fv3U.jpg",
   "runtime": 137,
   "director": [
-   "Amit Mitra",
-   "Sombhu Mitra"
+   "Sombhu Mitra",
+   "Amit Mitra"
+  ],
+  "cast": [
+   "Raj Kapoor",
+   "Nargis",
+   "Pradeep Kumar",
+   "Motilal",
+   "Sumitra Devi",
+   "Pran"
+  ],
+  "genres": [
+   "Thriller",
+   "Comedy"
   ]
  },
  "Jai Bhim|2021|tamil": {
@@ -2167,7 +3858,7 @@
   "language": "tamil",
   "tmdb_id": 855400,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jai Bhim",
   "release_date": "2021-11-02",
   "poster_path": "/ehybiOtBUtrMkmtB39zQEtq1Jie.jpg",
@@ -2175,6 +3866,20 @@
   "runtime": 164,
   "director": [
    "T. J. Gnanavel"
+  ],
+  "cast": [
+   "Suriya",
+   "Lijomol Jose",
+   "Baby Joshika Maya",
+   "Manikandan",
+   "Rajisha Vijayan",
+   "Prakash Raj"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Mystery",
+   "History"
   ]
  },
  "Jana Gana Mana|2022|malayalam": {
@@ -2183,7 +3888,7 @@
   "language": "malayalam",
   "tmdb_id": 792358,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jana Gana Mana",
   "release_date": "2022-04-28",
   "poster_path": "/1bSPVn6HlkGYTQ4tJYJ0UGWnQM9.jpg",
@@ -2191,6 +3896,19 @@
   "runtime": 162,
   "director": [
    "Dijo Jose Antony"
+  ],
+  "cast": [
+   "Prithviraj Sukumaran",
+   "Suraj Venjaramoodu",
+   "Mamta Mohandas",
+   "Vincy Aloshious",
+   "Shari",
+   "Sri Divya"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Drama"
   ]
  },
  "Jawan|2023|hindi": {
@@ -2199,7 +3917,7 @@
   "language": "hindi",
   "tmdb_id": 872906,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jawan",
   "release_date": "2023-09-07",
   "poster_path": "/jFt1gS4BGHlK8xt76Y81Alp4dbt.jpg",
@@ -2207,6 +3925,18 @@
   "runtime": 169,
   "director": [
    "Atlee"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Nayanthara",
+   "Vijay Sethupathi",
+   "Deepika Padukone",
+   "Sanjay Dutt",
+   "Priyamani"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Jersey|2019|telugu": {
@@ -2215,7 +3945,7 @@
   "language": "telugu",
   "tmdb_id": 592898,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jersey",
   "release_date": "2019-04-19",
   "poster_path": "/bU9q9yVtxeBiC0Do27CekHXNE6D.jpg",
@@ -2223,6 +3953,17 @@
   "runtime": 160,
   "director": [
    "Gowtam Tinnanuri"
+  ],
+  "cast": [
+   "Nani",
+   "Shraddha Srinath",
+   "Ronit Kamra",
+   "Harish Kalyan",
+   "Viswant Duddumpudi",
+   "Sathyaraj"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Jigarthanda|2014|tamil": {
@@ -2231,7 +3972,7 @@
   "language": "tamil",
   "tmdb_id": 270766,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jigarthanda",
   "release_date": "2014-08-01",
   "poster_path": "/oDcQE70RYc78iBYgHRknl64QKTu.jpg",
@@ -2239,6 +3980,19 @@
   "runtime": 170,
   "director": [
    "Karthik Subbaraj"
+  ],
+  "cast": [
+   "Siddharth",
+   "Bobby Simha",
+   "Karunakaran",
+   "Lakshmi Menon",
+   "Ramachandran Durairaj",
+   "Kaalaiyan"
+  ],
+  "genres": [
+   "Crime",
+   "Comedy",
+   "Thriller"
   ]
  },
  "Jo Jeeta Wohi Sikandar|1992|hindi": {
@@ -2247,7 +4001,7 @@
   "language": "hindi",
   "tmdb_id": 33202,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Jo Jeeta Wohi Sikandar",
   "release_date": "1992-05-22",
   "poster_path": "/ua2QjZneNg6FsxrccsTkLy1wnwc.jpg",
@@ -2255,6 +4009,17 @@
   "runtime": 174,
   "director": [
    "Mansoor Khan"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Mamik Singh",
+   "Ayesha Jhulka",
+   "Pooja Bedi",
+   "Kulbhushan Kharbanda",
+   "Aditya Lakhia"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Johnny Gaddaar|2007|hindi": {
@@ -2263,7 +4028,7 @@
   "language": "hindi",
   "tmdb_id": 20129,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Johnny Gaddaar",
   "release_date": "2007-09-28",
   "poster_path": "/jWpo1qCIefGxJjQOURu2IfQgQK4.jpg",
@@ -2271,6 +4036,19 @@
   "runtime": 141,
   "director": [
    "Sriram Raghavan"
+  ],
+  "cast": [
+   "Neil Nitin Mukesh",
+   "Dharmendra",
+   "Zakir Hussain",
+   "Vinay Pathak",
+   "Dayanand Shetty",
+   "Govind Namdeo"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
   ]
  },
  "Joji|2021|malayalam": {
@@ -2279,7 +4057,7 @@
   "language": "malayalam",
   "tmdb_id": 791779,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Joji",
   "release_date": "2021-04-07",
   "poster_path": "/iXAUPTb8XNSf5B4zyUAEajz2vFu.jpg",
@@ -2287,6 +4065,18 @@
   "runtime": 113,
   "director": [
    "Dileesh Pothan"
+  ],
+  "cast": [
+   "Fahadh Faasil",
+   "Baburaj",
+   "P N Sunny",
+   "Joji Mundakayam",
+   "Unnimaya Prasad",
+   "Shammi Thilakan"
+  ],
+  "genres": [
+   "Drama",
+   "Crime"
   ]
  },
  "Joseph|2018|malayalam": {
@@ -2295,7 +4085,7 @@
   "language": "malayalam",
   "tmdb_id": 562326,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Joseph",
   "release_date": "2018-11-16",
   "poster_path": "/uwBm7hx6Exdb0KzLoPZzqieBlDO.jpg",
@@ -2303,6 +4093,18 @@
   "runtime": 138,
   "director": [
    "Padmakumar M"
+  ],
+  "cast": [
+   "Joju George",
+   "Irshad",
+   "Athmeeya Rajan",
+   "Dileesh Pothan",
+   "Madhuri Braganza",
+   "Malavika Menon"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller"
   ]
  },
  "June|2019|malayalam": {
@@ -2311,7 +4113,7 @@
   "language": "malayalam",
   "tmdb_id": 580896,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "June",
   "release_date": "2019-02-15",
   "poster_path": "/A5uFEcI9j26cPgjzoEP9DsNEVLL.jpg",
@@ -2319,6 +4121,18 @@
   "runtime": 141,
   "director": [
    "Ahammed Khabeer"
+  ],
+  "cast": [
+   "Rajisha Vijayan",
+   "Joju George",
+   "Sarjano Khalid",
+   "Aswathi Menon",
+   "Arjun Ashokan",
+   "Shiny Sarah"
+  ],
+  "genres": [
+   "Family",
+   "Drama"
   ]
  },
  "K.G.F: Chapter 1|2018|kannada": {
@@ -2327,7 +4141,7 @@
   "language": "kannada",
   "tmdb_id": 564147,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "K.G.F: Chapter 1",
   "release_date": "2018-12-20",
   "poster_path": "/ltHlJwvxKv7d0ooCiKSAvfwV9tX.jpg",
@@ -2335,6 +4149,18 @@
   "runtime": 156,
   "director": [
    "Prashanth Neel"
+  ],
+  "cast": [
+   "Yash",
+   "Srinidhi Shetty",
+   "Ramachandra Raju",
+   "Archana Jois",
+   "Anant Nag",
+   "Vasishta N. Simha"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "K.G.F: Chapter 2|2022|kannada": {
@@ -2343,7 +4169,7 @@
   "language": "kannada",
   "tmdb_id": 587412,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "K.G.F: Chapter 2",
   "release_date": "2022-04-14",
   "poster_path": "/khNVygolU0TxLIDWff5tQlAhZ23.jpg",
@@ -2351,6 +4177,18 @@
   "runtime": 168,
   "director": [
    "Prashanth Neel"
+  ],
+  "cast": [
+   "Yash",
+   "Sanjay Dutt",
+   "Raveena Tandon",
+   "Srinidhi Shetty",
+   "Archana Jois",
+   "Achyuth Kumar"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Kaagaz Ke Phool|1959|hindi": {
@@ -2359,7 +4197,7 @@
   "language": "hindi",
   "tmdb_id": 53767,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kaagaz Ke Phool",
   "release_date": "1959-02-01",
   "poster_path": "/aBdEEAKEuzcvk8IKsHfbz3KSitZ.jpg",
@@ -2367,6 +4205,18 @@
   "runtime": 142,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Waheeda Rehman",
+   "Guru Dutt",
+   "Kumari Naaz",
+   "Johnny Walker",
+   "Mahesh Kaul",
+   "Veena"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Kaaka Muttai|2014|tamil": {
@@ -2375,7 +4225,7 @@
   "language": "tamil",
   "tmdb_id": 264038,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kaaka Muttai",
   "release_date": "2015-06-05",
   "poster_path": "/9WP1OhafzS1KM7GUhpwkOqBFcRJ.jpg",
@@ -2383,6 +4233,17 @@
   "runtime": 109,
   "director": [
    "M. Manikandan"
+  ],
+  "cast": [
+   "J Vignesh",
+   "Ramesh Thilaganathan",
+   "Aishwarya Rajesh",
+   "Silambarasan",
+   "Nivas Adithan",
+   "Babu Antony"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Kaala|2018|tamil": {
@@ -2391,7 +4252,7 @@
   "language": "tamil",
   "tmdb_id": 459008,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kaala",
   "release_date": "2018-06-07",
   "poster_path": "/xVAZZN4Av3e6YxwLgUWTYDNtta1.jpg",
@@ -2399,6 +4260,19 @@
   "runtime": 166,
   "director": [
    "Pa. Ranjith"
+  ],
+  "cast": [
+   "Rajinikanth",
+   "Nana Patekar",
+   "Easwari Rao",
+   "Huma Qureshi",
+   "Samuthirakani",
+   "Anjali Patil"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Kabhi Haan Kabhi Naa|1994|hindi": {
@@ -2407,7 +4281,7 @@
   "language": "hindi",
   "tmdb_id": 15419,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kabhi Haan Kabhi Naa",
   "release_date": "1994-02-25",
   "poster_path": "/6FtBaFCz3UFFhXyE4JHxQDn43gM.jpg",
@@ -2415,6 +4289,19 @@
   "runtime": 158,
   "director": [
    "Kundan Shah"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Suchitra Krishnamoorthi",
+   "Deepak Tijori",
+   "Satish Shah",
+   "Naseeruddin Shah",
+   "Tiku Talsania"
+  ],
+  "genres": [
+   "Romance",
+   "Comedy",
+   "Drama"
   ]
  },
  "Kabhi Khushi Kabhie Gham...|2001|hindi": {
@@ -2423,7 +4310,7 @@
   "language": "hindi",
   "tmdb_id": 10757,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kabhi Khushi Kabhie Gham",
   "release_date": "2001-12-14",
   "poster_path": "/eJrD94E1msYEa0DygvkvdEKpChm.jpg",
@@ -2431,6 +4318,18 @@
   "runtime": 209,
   "director": [
    "Karan Johar"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Shah Rukh Khan",
+   "Hrithik Roshan",
+   "Kajol",
+   "Jaya Bachchan",
+   "Kareena Kapoor Khan"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Kahaani|2012|hindi": {
@@ -2439,7 +4338,7 @@
   "language": "hindi",
   "tmdb_id": 82825,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kahaani",
   "release_date": "2012-03-08",
   "poster_path": "/eJpl0LdFTSA3wcPYtUUgbsBxPbe.jpg",
@@ -2447,6 +4346,18 @@
   "runtime": 122,
   "director": [
    "Sujoy Ghosh"
+  ],
+  "cast": [
+   "Vidya Balan",
+   "Parambrata Chatterjee",
+   "Saswata Chatterjee",
+   "Nawazuddin Siddiqui",
+   "Indraneil Sengupta",
+   "Dhritiman Chatterjee"
+  ],
+  "genres": [
+   "Mystery",
+   "Thriller"
   ]
  },
  "Kaithi|2019|tamil": {
@@ -2455,7 +4366,7 @@
   "language": "tamil",
   "tmdb_id": 587030,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kaithi",
   "release_date": "2019-10-24",
   "poster_path": "/hOF9CgPsy9aLr5GJEBESC8MEXFy.jpg",
@@ -2463,6 +4374,19 @@
   "runtime": 147,
   "director": [
    "Lokesh Kanagaraj"
+  ],
+  "cast": [
+   "Karthi",
+   "Narain",
+   "Arjun Das",
+   "Harish Uthaman",
+   "George Mariyan",
+   "KPY Dheena"
+  ],
+  "genres": [
+   "Action",
+   "Thriller",
+   "Crime"
   ]
  },
  "Kal Ho Naa Ho|2003|hindi": {
@@ -2471,7 +4395,7 @@
   "language": "hindi",
   "tmdb_id": 4254,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kal Ho Naa Ho",
   "release_date": "2003-11-27",
   "poster_path": "/zhMI6I0kSLnewTMwE0A8Tz3Cj2f.jpg",
@@ -2479,6 +4403,19 @@
   "runtime": 187,
   "director": [
    "Nikkhil Advani"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Preity Zinta",
+   "Saif Ali Khan",
+   "Jaya Bachchan",
+   "Sushma Seth",
+   "Reema Lagoo"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "Kaminey|2009|hindi": {
@@ -2487,7 +4424,7 @@
   "language": "hindi",
   "tmdb_id": 20688,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kaminey",
   "release_date": "2009-08-14",
   "poster_path": "/woeEkDNTyaJbNLEZXMkvk4XLNTx.jpg",
@@ -2495,6 +4432,19 @@
   "runtime": 135,
   "director": [
    "Vishal Bhardwaj"
+  ],
+  "cast": [
+   "Shahid Kapoor",
+   "Priyanka Chopra Jonas",
+   "Amole Gupte",
+   "Deb Mukherjee",
+   "Shivkumar Subramaniam",
+   "Chandan Roy Sanyal"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Kammatipaadam|2016|malayalam": {
@@ -2503,7 +4453,7 @@
   "language": "malayalam",
   "tmdb_id": 398786,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kammatti Paadam",
   "release_date": "2016-05-20",
   "poster_path": "/2zJoZn1EBR6UQDr6OdT4Og77zFn.jpg",
@@ -2511,6 +4461,18 @@
   "runtime": 177,
   "director": [
    "Rajeev Ravi"
+  ],
+  "cast": [
+   "Dulquer Salmaan",
+   "Vinayakan",
+   "Manikandan Achari",
+   "Anil Nedumangad",
+   "Shine Tom Chacko",
+   "Vinay Forrt"
+  ],
+  "genres": [
+   "Drama",
+   "Action"
   ]
  },
  "Kanaa|2018|tamil": {
@@ -2519,7 +4481,7 @@
   "language": "tamil",
   "tmdb_id": 536595,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kanaa",
   "release_date": "2018-12-21",
   "poster_path": "/2Pse0omNBOQcWhrp8gZpgu6Crhc.jpg",
@@ -2527,6 +4489,18 @@
   "runtime": 145,
   "director": [
    "Arunraja Kamaraj"
+  ],
+  "cast": [
+   "Aishwarya Rajesh",
+   "Sathyaraj",
+   "Darshan",
+   "Rama",
+   "Ilavarasu",
+   "Munishkanth"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Kanche|2015|telugu": {
@@ -2535,7 +4509,7 @@
   "language": "telugu",
   "tmdb_id": 364795,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kanche",
   "release_date": "2015-10-22",
   "poster_path": "/xKYefD66zwrx2DbGSWoB5rjjmk6.jpg",
@@ -2543,6 +4517,19 @@
   "runtime": 119,
   "director": [
    "Krish Jagarlamudi"
+  ],
+  "cast": [
+   "Varun Tej",
+   "Pragya Jaiswal",
+   "Nikitin Dheer",
+   "Srinivas Avasarala",
+   "Gollapudi Maruti Rao",
+   "Anoop Puri"
+  ],
+  "genres": [
+   "Romance",
+   "History",
+   "Drama"
   ]
  },
  "Kapoor & Sons|2016|hindi": {
@@ -2551,7 +4538,7 @@
   "language": "hindi",
   "tmdb_id": 374173,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kapoor & Sons",
   "release_date": "2016-03-18",
   "poster_path": "/oPdcOInH8TqR5udDTDPiDuLSN90.jpg",
@@ -2559,6 +4546,20 @@
   "runtime": 137,
   "director": [
    "Shakun Batra"
+  ],
+  "cast": [
+   "Sidharth Malhotra",
+   "Fawad Khan",
+   "Alia Bhatt",
+   "Ratna Pathak Shah",
+   "Rishi Kapoor",
+   "Rajat Kapoor"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Comedy",
+   "Family"
   ]
  },
  "Khufiya|2023|hindi": {
@@ -2567,7 +4568,7 @@
   "language": "hindi",
   "tmdb_id": 878926,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Khufiya",
   "release_date": "2023-10-05",
   "poster_path": "/bbHUuTEo2DsYLoXCjkL8kB0oPhy.jpg",
@@ -2575,6 +4576,19 @@
   "runtime": 158,
   "director": [
    "Vishal Bhardwaj"
+  ],
+  "cast": [
+   "Tabu",
+   "Ali Fazal",
+   "Wamiqa Gabbi",
+   "Ashish Vidhyarthi",
+   "Atul Kulkarni",
+   "Navnindra Behl"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Mystery"
   ]
  },
  "Khwaabb|2014|hindi": {
@@ -2583,7 +4597,7 @@
   "language": "hindi",
   "tmdb_id": 316824,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Khwaabb",
   "release_date": "2014-05-09",
   "poster_path": "/2UKmCtK88Oz3atksZvYh94Khy7p.jpg",
@@ -2591,7 +4605,13 @@
   "runtime": 101,
   "director": [
    "Zaid Ali Khan"
-  ]
+  ],
+  "cast": [
+   "Navdip Singh",
+   "Simer Motiani",
+   "Nafisa Ali"
+  ],
+  "genres": []
  },
  "Killa|2014|marathi": {
   "title": "Killa",
@@ -2599,7 +4619,7 @@
   "language": "marathi",
   "tmdb_id": 284729,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Killa",
   "release_date": "2014-10-26",
   "poster_path": "/iVB17J0jzkLi86eHLugQdMjseC6.jpg",
@@ -2607,6 +4627,18 @@
   "runtime": 107,
   "director": [
    "Avinash Arun"
+  ],
+  "cast": [
+   "Amruta Subhash",
+   "Archit Deodhar",
+   "Parth Bhalerao",
+   "Gaurish Gawade",
+   "Atharva Upasni",
+   "Umesh Jagtap"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Kill|2024|hindi": {
@@ -2615,7 +4647,7 @@
   "language": "hindi",
   "tmdb_id": 1160018,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "KILL",
   "release_date": "2024-07-03",
   "poster_path": "/m2zXTuNPkywdYLyWlVyJZW2QOJH.jpg",
@@ -2623,6 +4655,19 @@
   "runtime": 105,
   "director": [
    "Nikhil Nagesh Bhat"
+  ],
+  "cast": [
+   "Lakshya",
+   "Raghav Juyal",
+   "Tanya Maniktala",
+   "Ashish Vidhyarthi",
+   "Abhishek Chauhan",
+   "Harsh Chhaya"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Thriller"
   ]
  },
  "Kilukkam|1991|malayalam": {
@@ -2631,7 +4676,7 @@
   "language": "malayalam",
   "tmdb_id": 139476,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kilukkam",
   "release_date": "1991-08-15",
   "poster_path": "/5F37oi8ClcxKBcwqwUlATHBd1mD.jpg",
@@ -2639,6 +4684,18 @@
   "runtime": 155,
   "director": [
    "Priyadarshan"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Jagathy Sreekumar",
+   "Revathi",
+   "Thilakan",
+   "Innocent",
+   "Sharat Saxena"
+  ],
+  "genres": [
+   "Comedy",
+   "Family"
   ]
  },
  "Kireedam|1989|malayalam": {
@@ -2647,7 +4704,7 @@
   "language": "malayalam",
   "tmdb_id": 191017,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kireedam",
   "release_date": "1989-07-07",
   "poster_path": "/9mKxljfSzQ9UXpgEPLvGTwXvZUv.jpg",
@@ -2655,6 +4712,18 @@
   "runtime": 127,
   "director": [
    "Sibi Malayil"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Thilakan",
+   "Kaviyoor Ponnamma",
+   "Mohan Raj",
+   "Sreenath",
+   "Sankaradi"
+  ],
+  "genres": [
+   "Drama",
+   "Action"
   ]
  },
  "Kirik Party|2016|kannada": {
@@ -2663,7 +4732,7 @@
   "language": "kannada",
   "tmdb_id": 433327,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kirik Party",
   "release_date": "2016-12-30",
   "poster_path": "/16gpI8K51r2FzZ9wE0VXmrG5v9c.jpg",
@@ -2671,6 +4740,18 @@
   "runtime": 165,
   "director": [
    "Rishab Shetty"
+  ],
+  "cast": [
+   "Rakshit Shetty",
+   "Samyuktha Hegde",
+   "Rashmika Mandanna",
+   "Aravinnd Iyer",
+   "Chandan Achar",
+   "Dhananjay Ranjan"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Kissa Kursi Ka|1977|hindi": {
@@ -2679,7 +4760,7 @@
   "language": "hindi",
   "tmdb_id": 695952,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kissaa Kursee Kaa",
   "release_date": "1978-02-16",
   "poster_path": "/zfHtBz1f5JAAD3JXpzmfWDqLYZA.jpg",
@@ -2687,6 +4768,18 @@
   "runtime": 142,
   "director": [
    "Amrit Nahata"
+  ],
+  "cast": [
+   "Shabana Azmi",
+   "Rehana Sultan",
+   "Manohar Singh",
+   "Chaman Bagga",
+   "Katy Mirza",
+   "Surekha Sikri"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Kousalya Krishnamurthy|2019|telugu": {
@@ -2695,7 +4788,7 @@
   "language": "telugu",
   "tmdb_id": 605245,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kousalya Krishnamurthy",
   "release_date": "2019-08-23",
   "poster_path": "/wXX8gu7R4CsQaIlhrqXePeR9FBJ.jpg",
@@ -2703,6 +4796,17 @@
   "runtime": 149,
   "director": [
    "Bhimaneni Srinivasa Rao"
+  ],
+  "cast": [
+   "Aishwarya Rajesh",
+   "Rajendra Prasad",
+   "Sivakarthikeyan",
+   "Vennela Kishore",
+   "Karthik Raj",
+   "Jhansi"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Ko|2011|tamil": {
@@ -2711,7 +4815,7 @@
   "language": "tamil",
   "tmdb_id": 63654,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ko",
   "release_date": "2011-04-22",
   "poster_path": "/oe91RGQkLROh0rTNoStnse1p0qw.jpg",
@@ -2719,6 +4823,18 @@
   "runtime": 160,
   "director": [
    "K. V. Anand"
+  ],
+  "cast": [
+   "Jiiva",
+   "Karthika Nair",
+   "Ajmal Ameer",
+   "Pia Bajpiee",
+   "Prakash Raj",
+   "Kota Srinivasa Rao"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Kshanam|2016|telugu": {
@@ -2727,7 +4843,7 @@
   "language": "telugu",
   "tmdb_id": 386427,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kshanam",
   "release_date": "2016-02-26",
   "poster_path": "/dnRwtMyDTSc5TnHcIcadSSb23MQ.jpg",
@@ -2735,6 +4851,18 @@
   "runtime": 110,
   "director": [
    "Ravikanth Perepu"
+  ],
+  "cast": [
+   "Adivi Sesh",
+   "Adah Sharma",
+   "Anasuya Bharadwaj",
+   "Satyam Rajesh",
+   "Vennela Kishore",
+   "Satyadev Kancharana"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller"
   ]
  },
  "Kuch Kuch Hota Hai|1998|hindi": {
@@ -2743,7 +4871,7 @@
   "language": "hindi",
   "tmdb_id": 11854,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kuch Kuch Hota Hai",
   "release_date": "1998-10-16",
   "poster_path": "/5FmtHHDGPofW5Zjns1EM1D8503c.jpg",
@@ -2751,6 +4879,20 @@
   "runtime": 185,
   "director": [
    "Karan Johar"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Kajol",
+   "Rani Mukerji",
+   "Sana Saeed",
+   "Farida Jalal",
+   "Salman Khan"
+  ],
+  "genres": [
+   "Romance",
+   "Drama",
+   "Comedy",
+   "Music"
   ]
  },
  "Kumbalangi Nights|2019|malayalam": {
@@ -2759,7 +4901,7 @@
   "language": "malayalam",
   "tmdb_id": 575351,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kumbalangi Nights",
   "release_date": "2019-02-07",
   "poster_path": "/lJ3RvIirE2C7gdBKvPRaoQ3iCo2.jpg",
@@ -2767,6 +4909,19 @@
   "runtime": 135,
   "director": [
    "Madhu C. Narayanan"
+  ],
+  "cast": [
+   "Shane Nigam",
+   "Soubin Shahir",
+   "Sreenath Bhasi",
+   "Mathew Thomas",
+   "Fahadh Faasil",
+   "Anna Ben"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "Kurup|2021|malayalam": {
@@ -2775,7 +4930,7 @@
   "language": "malayalam",
   "tmdb_id": 785585,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Kurup",
   "release_date": "2021-11-12",
   "poster_path": "/7DUKMFykp7pNpppbf8M6YDWrTYb.jpg",
@@ -2783,6 +4938,18 @@
   "runtime": 155,
   "director": [
    "Srinath Rajendran"
+  ],
+  "cast": [
+   "Dulquer Salmaan",
+   "Sobhita Dhulipala",
+   "Indrajith Sukumaran",
+   "Tovino Thomas",
+   "Shine Tom Chacko",
+   "Sunny Wayne"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime"
   ]
  },
  "LOC Kargil|2003|hindi": {
@@ -2791,7 +4958,7 @@
   "language": "hindi",
   "tmdb_id": 71920,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "LOC: Kargil",
   "release_date": "2003-12-12",
   "poster_path": "/8rwlGnSWgLJlveO4OoOJ2n2YZyv.jpg",
@@ -2799,6 +4966,19 @@
   "runtime": 255,
   "director": [
    "J. P. Dutta"
+  ],
+  "cast": [
+   "Sanjay Dutt",
+   "Ajay Devgn",
+   "Saif Ali Khan",
+   "Suniel Shetty",
+   "Sanjay Kapoor",
+   "Abhishek Bachchan"
+  ],
+  "genres": [
+   "Action",
+   "War",
+   "History"
   ]
  },
  "Lagaan|2001|hindi": {
@@ -2807,7 +4987,7 @@
   "language": "hindi",
   "tmdb_id": 19666,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Lagaan: Once Upon a Time in India",
   "release_date": "2001-06-15",
   "poster_path": "/yNX9lFRAFeNLNRIXdqZK9gYrYKa.jpg",
@@ -2815,6 +4995,19 @@
   "runtime": 233,
   "director": [
    "Ashutosh Gowariker"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Gracy Singh",
+   "Rachel Shelley",
+   "Paul Blackthorne",
+   "Suhasini Mulay",
+   "Kulbhushan Kharbanda"
+  ],
+  "genres": [
+   "Adventure",
+   "Drama",
+   "History"
   ]
  },
  "Lakshya|2004|hindi": {
@@ -2823,7 +5016,7 @@
   "language": "hindi",
   "tmdb_id": 21175,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Lakshya",
   "release_date": "2004-06-18",
   "poster_path": "/4WJ9p2uBZ1mUqkTyEQ0ggtyJdAw.jpg",
@@ -2831,6 +5024,20 @@
   "runtime": 186,
   "director": [
    "Farhan Akhtar"
+  ],
+  "cast": [
+   "Hrithik Roshan",
+   "Preity Zinta",
+   "Amitabh Bachchan",
+   "Om Puri",
+   "Boman Irani",
+   "Sushant Singh"
+  ],
+  "genres": [
+   "War",
+   "Action",
+   "Drama",
+   "Romance"
   ]
  },
  "Lapachhapi|2017|marathi": {
@@ -2839,7 +5046,7 @@
   "language": "marathi",
   "tmdb_id": 463511,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Lapachhapi",
   "release_date": "2017-07-14",
   "poster_path": "/jGuSGVCflwWlGifGVdtBlh51EAo.jpg",
@@ -2847,6 +5054,18 @@
   "runtime": 120,
   "director": [
    "Vishal Furia"
+  ],
+  "cast": [
+   "Pooja Sawant",
+   "Vikram Gaikwad",
+   "Usha Naik",
+   "Anil Gawas"
+  ],
+  "genres": [
+   "Thriller",
+   "Drama",
+   "Horror",
+   "Mystery"
   ]
  },
  "Leader|2010|telugu": {
@@ -2855,7 +5074,7 @@
   "language": "telugu",
   "tmdb_id": 55283,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Leader",
   "release_date": "2010-02-19",
   "poster_path": "/kayx8f6MQIx4kFVyRmzf3i70g3s.jpg",
@@ -2863,6 +5082,47 @@
   "runtime": 172,
   "director": [
    "Sekhar Kammula"
+  ],
+  "cast": [
+   "Rana Daggubati",
+   "Harsha Vardhan",
+   "Priya Anand",
+   "Subbaraju",
+   "Kota Srinivasa Rao",
+   "Richa Gangopadhyay"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
+  ]
+ },
+ "Maa Inti Bangaaram|2026|telugu": {
+  "title": "Maa Inti Bangaaram",
+  "year": 2026,
+  "language": "telugu",
+  "tmdb_id": 1227241,
+  "match": "pinned",
+  "fetched_at": "2026-11-27",
+  "tmdb_title": "Maa Inti Bangaram",
+  "release_date": "2026-06-18",
+  "poster_path": "/iSRIxnizjINdc7Dy68HQRkcPSR2.jpg",
+  "backdrop_path": "/2pA5fvLPZGYR5OukwiRCeliHvNM.jpg",
+  "runtime": 158,
+  "director": [
+   "B. V. Nandini Reddy"
+  ],
+  "cast": [
+   "Samantha Ruth Prabhu",
+   "Gulshan Devaiah",
+   "Diganth Manchale",
+   "Manjusha Mukkavilli",
+   "Gautami Tadimalla",
+   "Anand"
+  ],
+  "genres": [
+   "Action",
+   "Thriller",
+   "Drama"
   ]
  },
  "Madras Cafe|2013|hindi": {
@@ -2871,7 +5131,7 @@
   "language": "hindi",
   "tmdb_id": 215776,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Madras Cafe",
   "release_date": "2013-08-23",
   "poster_path": "/3cfFqEuj2ynHUb0FTBThTh0gQB9.jpg",
@@ -2879,6 +5139,19 @@
   "runtime": 130,
   "director": [
    "Shoojit Sircar"
+  ],
+  "cast": [
+   "John Abraham",
+   "Nargis Fakhri",
+   "Raashii Khanna",
+   "Siddhartha Basu",
+   "Prakash Belawadi",
+   "Avijit Dutt"
+  ],
+  "genres": [
+   "Thriller",
+   "Drama",
+   "Action"
   ]
  },
  "Madras|2014|tamil": {
@@ -2887,7 +5160,7 @@
   "language": "tamil",
   "tmdb_id": 280948,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Madras",
   "release_date": "2014-09-26",
   "poster_path": "/hbaUw4NzU7Zd6QGj7HMNohfWpIT.jpg",
@@ -2895,6 +5168,18 @@
   "runtime": 156,
   "director": [
    "Pa. Ranjith"
+  ],
+  "cast": [
+   "Karthi",
+   "Catherine Tresa",
+   "Kalaiyarasan",
+   "Riythvika",
+   "V. I. S. Jayapalan",
+   "Poster Nandakumar"
+  ],
+  "genres": [
+   "Drama",
+   "Action"
   ]
  },
  "Magadheera|2009|telugu": {
@@ -2903,7 +5188,7 @@
   "language": "telugu",
   "tmdb_id": 23790,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Magadheera",
   "release_date": "2009-07-31",
   "poster_path": "/xK7MEV56GF291VG0U5XnVJuvNv3.jpg",
@@ -2911,6 +5196,17 @@
   "runtime": 164,
   "director": [
    "S. S. Rajamouli"
+  ],
+  "cast": [
+   "Ram Charan",
+   "Kajal Aggarwal",
+   "Dev Gill",
+   "Srihari",
+   "Sunil Varma",
+   "Surya Bhagawan Das"
+  ],
+  "genres": [
+   "Action"
   ]
  },
  "Mahal|1949|hindi": {
@@ -2919,7 +5215,7 @@
   "language": "hindi",
   "tmdb_id": 257391,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mahal",
   "release_date": "1949-10-19",
   "poster_path": "/dasVnQij6Lvbpu7qoogprheITva.jpg",
@@ -2927,6 +5223,19 @@
   "runtime": 165,
   "director": [
    "Kamal Amrohi"
+  ],
+  "cast": [
+   "Madhubala",
+   "Ashok Kumar",
+   "Vijayalakshmi",
+   "Kanu Roy",
+   "M. Kumar",
+   "Nazir Hussain"
+  ],
+  "genres": [
+   "Romance",
+   "Horror",
+   "Drama"
   ]
  },
  "Maharaja|2024|tamil": {
@@ -2935,7 +5244,7 @@
   "language": "tamil",
   "tmdb_id": 1118224,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Maharaja",
   "release_date": "2024-06-14",
   "poster_path": "/s0m4TM1XRAftQStgKpw024RvkJo.jpg",
@@ -2943,6 +5252,19 @@
   "runtime": 141,
   "director": [
    "Nithilan Saminathan"
+  ],
+  "cast": [
+   "Vijay Sethupathi",
+   "Anurag Kashyap",
+   "Sachana Namidass",
+   "Natarajan Subramaniam",
+   "Abhirami",
+   "Mamta Mohandas"
+  ],
+  "genres": [
+   "Action",
+   "Thriller",
+   "Mystery"
   ]
  },
  "Mandela|2021|tamil": {
@@ -2951,7 +5273,7 @@
   "language": "tamil",
   "tmdb_id": 806067,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mandela",
   "release_date": "2021-04-05",
   "poster_path": "/t9A7nv8ac8VrXDt6tgu4UXi2zAq.jpg",
@@ -2959,6 +5281,18 @@
   "runtime": 140,
   "director": [
    "Madonne Ashwin"
+  ],
+  "cast": [
+   "Yogi Babu",
+   "G. M. Sundar",
+   "Kanna Ravi",
+   "Sangili Murugan",
+   "Sheela Rajkumar",
+   "Arumugam Bala"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Manichitrathazhu|1993|malayalam": {
@@ -2967,7 +5301,7 @@
   "language": "malayalam",
   "tmdb_id": 84368,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Manichitrathazhu",
   "release_date": "1993-12-25",
   "poster_path": "/5YccrqvJFTfAVyEZp08I3fLx15y.jpg",
@@ -2975,6 +5309,19 @@
   "runtime": 169,
   "director": [
    "Fazil"
+  ],
+  "cast": [
+   "Shobana",
+   "Mohanlal",
+   "Suresh Gopi",
+   "Nedumudi Venu",
+   "Vinaya Prasad",
+   "Innocent"
+  ],
+  "genres": [
+   "Horror",
+   "Comedy",
+   "Mystery"
   ]
  },
  "Manjadikuru|2012|malayalam": {
@@ -2983,7 +5330,7 @@
   "language": "malayalam",
   "tmdb_id": 120805,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Manjadikuru",
   "release_date": "2008-12-17",
   "poster_path": "/el4Ts8T9EW9MXSxkgxRs9zvVCvo.jpg",
@@ -2991,6 +5338,18 @@
   "runtime": 120,
   "director": [
    "Anjali Menon"
+  ],
+  "cast": [
+   "Prithviraj Sukumaran",
+   "Thilakan",
+   "Jagathy Sreekumar",
+   "Rahman",
+   "Murali",
+   "Urvashi"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Manmadhudu|2002|telugu": {
@@ -2999,7 +5358,7 @@
   "language": "telugu",
   "tmdb_id": 81083,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Manmadhudu",
   "release_date": "2002-12-20",
   "poster_path": "/bHjMjCmtpfQzQoDjiL9rWWo4ahd.jpg",
@@ -3007,6 +5366,18 @@
   "runtime": 142,
   "director": [
    "K. Vijaya Bhaskar"
+  ],
+  "cast": [
+   "Nagarjuna Akkineni",
+   "Sonali Bendre",
+   "Anshu",
+   "Brahmanandam",
+   "Chandra Mohan",
+   "Sunil Varma"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Manorama Six Feet Under|2007|hindi": {
@@ -3015,7 +5386,7 @@
   "language": "hindi",
   "tmdb_id": 46404,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Manorama Six Feet Under",
   "release_date": "2007-09-21",
   "poster_path": "/1b5ZrBI48xbAVmCbNNhvFXz474y.jpg",
@@ -3023,6 +5394,20 @@
   "runtime": 137,
   "director": [
    "Navdeep Singh"
+  ],
+  "cast": [
+   "Abhay Deol",
+   "Gul Panag",
+   "Raima Sen",
+   "Vinay Pathak",
+   "Sarika",
+   "Kulbhushan Kharbanda"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Mystery",
+   "Drama"
   ]
  },
  "Maqbool|2003|hindi": {
@@ -3031,7 +5416,7 @@
   "language": "hindi",
   "tmdb_id": 21265,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Maqbool",
   "release_date": "2003-01-30",
   "poster_path": "/8ULTBxnbt0NrWlDm5fahbQooj91.jpg",
@@ -3039,6 +5424,18 @@
   "runtime": 132,
   "director": [
    "Vishal Bhardwaj"
+  ],
+  "cast": [
+   "Irrfan Khan",
+   "Tabu",
+   "Pankaj Kapur",
+   "Om Puri",
+   "Naseeruddin Shah",
+   "Piyush Mishra"
+  ],
+  "genres": [
+   "Crime",
+   "Drama"
   ]
  },
  "Mary Kom|2014|hindi": {
@@ -3047,7 +5444,7 @@
   "language": "hindi",
   "tmdb_id": 284288,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mary Kom",
   "release_date": "2014-09-05",
   "poster_path": "/eI1rxHzxO2sWeeBMvr42buetYnd.jpg",
@@ -3055,6 +5452,18 @@
   "runtime": 122,
   "director": [
    "Omung Kumar"
+  ],
+  "cast": [
+   "Priyanka Chopra Jonas",
+   "Darshan Kumaar",
+   "Shishir Sharma",
+   "Sunil Thapa",
+   "Robin Das",
+   "Zachary Coffin"
+  ],
+  "genres": [
+   "Action",
+   "Drama"
   ]
  },
  "Masaan|2015|hindi": {
@@ -3063,7 +5472,7 @@
   "language": "hindi",
   "tmdb_id": 336203,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Masaan",
   "release_date": "2015-07-24",
   "poster_path": "/wgcPR6Weth2yJDo5wBdNqW2TD6J.jpg",
@@ -3071,6 +5480,17 @@
   "runtime": 109,
   "director": [
    "Neeraj Ghaywan"
+  ],
+  "cast": [
+   "Richa Chadha",
+   "Sanjay Mishra",
+   "Vicky Kaushal",
+   "Shweta Tripathi Sharma",
+   "Pankaj Tripathi",
+   "Bhagwan Tiwari"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Masooda|2022|telugu": {
@@ -3079,7 +5499,7 @@
   "language": "telugu",
   "tmdb_id": 1047902,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Masooda",
   "release_date": "2022-11-18",
   "poster_path": "/8tteFyJbPxvVr57K1CjGhKbqEjY.jpg",
@@ -3087,6 +5507,18 @@
   "runtime": 160,
   "director": [
    "Sai Kiran"
+  ],
+  "cast": [
+   "Sangeetha Krish",
+   "Bandhavi Sridhar",
+   "Thiruveer Reddy",
+   "Subhalekha Sudhakar",
+   "Satyam Rajesh",
+   "Akhila Ram"
+  ],
+  "genres": [
+   "Horror",
+   "Drama"
   ]
  },
  "Masoom|1983|hindi": {
@@ -3095,7 +5527,7 @@
   "language": "hindi",
   "tmdb_id": 21462,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Masoom",
   "release_date": "1983-01-10",
   "poster_path": "/a2PVNqiTbALVhyQVuqDMROy21Pt.jpg",
@@ -3103,6 +5535,18 @@
   "runtime": 138,
   "director": [
    "Shekhar Kapur"
+  ],
+  "cast": [
+   "Naseeruddin Shah",
+   "Shabana Azmi",
+   "Jugal Hansraj",
+   "Urmila Matondkar",
+   "Aradhana",
+   "Tanuja Samarth"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Maya|2015|tamil": {
@@ -3111,7 +5555,7 @@
   "language": "tamil",
   "tmdb_id": 360251,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Maya",
   "release_date": "2015-09-17",
   "poster_path": "/oQ1i56kTu0i4V2hZruov1Y6fzY8.jpg",
@@ -3119,6 +5563,19 @@
   "runtime": 141,
   "director": [
    "Ashwin Saravanan"
+  ],
+  "cast": [
+   "Nayanthara",
+   "Aari Arjuna",
+   "Amzath Khan",
+   "Robo Shankar",
+   "Mime Gopi",
+   "Lakshmi Priyaa"
+  ],
+  "genres": [
+   "Drama",
+   "Horror",
+   "Thriller"
   ]
  },
  "Memories|2013|malayalam": {
@@ -3127,7 +5584,7 @@
   "language": "malayalam",
   "tmdb_id": 217389,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Memories",
   "release_date": "2013-08-08",
   "poster_path": "/uyj5Yg0ricQTB9UZzd4ZDRYV9NF.jpg",
@@ -3135,6 +5592,18 @@
   "runtime": 132,
   "director": [
    "Jeethu Joseph"
+  ],
+  "cast": [
+   "Prithviraj Sukumaran",
+   "Miya George",
+   "Nedumudi Venu",
+   "Meghana Raj",
+   "Vijayaraghavan",
+   "Rahul Madhav"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller"
   ]
  },
  "Mera Naam Joker|1970|hindi": {
@@ -3143,7 +5612,7 @@
   "language": "hindi",
   "tmdb_id": 21466,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mera Naam Joker",
   "release_date": "1970-12-18",
   "poster_path": "/pGBSS3jPxWc7bkIGvqHCelAB5KR.jpg",
@@ -3151,6 +5620,19 @@
   "runtime": 248,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Raj Kapoor",
+   "Rishi Kapoor",
+   "Dharmendra",
+   "Manoj Kumar",
+   "Simi Garewal",
+   "Ksiena Rabiankina"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Music"
   ]
  },
  "Michael Madana Kama Rajan|1990|tamil": {
@@ -3159,7 +5641,7 @@
   "language": "tamil",
   "tmdb_id": 14445,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Michael Madana Kama Rajan",
   "release_date": "1990-03-01",
   "poster_path": "/3TzfpFmdTuwRczVmJzB3P9xsHGD.jpg",
@@ -3167,6 +5649,17 @@
   "runtime": 167,
   "director": [
    "Singeetham Srinivasa Rao"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Urvashi",
+   "Rupini",
+   "Khusbhu Sundar",
+   "Nagesh",
+   "Venniradai Moorthy"
+  ],
+  "genres": [
+   "Comedy"
   ]
  },
  "Mission Majnu|2023|hindi": {
@@ -3175,7 +5668,7 @@
   "language": "hindi",
   "tmdb_id": 778946,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mission Majnu",
   "release_date": "2023-01-20",
   "poster_path": "/rYlbpbtLGMlWOnFrvBKa1LTcvOC.jpg",
@@ -3183,6 +5676,18 @@
   "runtime": 129,
   "director": [
    "Shantanu Bagchi"
+  ],
+  "cast": [
+   "Sidharth Malhotra",
+   "Rashmika Mandanna",
+   "Sharib Hashmi",
+   "Kumud Mishra",
+   "Parmeet Sethi",
+   "Rajit Kapoor"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Mithunam|2012|telugu": {
@@ -3191,7 +5696,7 @@
   "language": "telugu",
   "tmdb_id": 207920,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mithunam",
   "release_date": "2012-12-21",
   "poster_path": "/e8xk1cvoWvw2H4MKEJ6DKqStZWU.jpg",
@@ -3199,6 +5704,17 @@
   "runtime": null,
   "director": [
    "Tanikella Bharani"
+  ],
+  "cast": [
+   "S. P. Balasubramaniam",
+   "Lakshmi",
+   "Prakash Raj",
+   "Brahmanandam",
+   "Mohana Krishna Indraganti"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Moondram Pirai|1982|tamil": {
@@ -3207,7 +5723,7 @@
   "language": "tamil",
   "tmdb_id": 66389,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Moondram Pirai",
   "release_date": "1982-02-19",
   "poster_path": "/kDimtjGArqeW93Aa5tjS6kPrupB.jpg",
@@ -3215,6 +5731,18 @@
   "runtime": 143,
   "director": [
    "Balu Mahendra"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Sridevi",
+   "Y. G. Mahendran",
+   "Silk Smitha",
+   "Poornam Viswanathan",
+   "Gandhimathi"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Mother India|1957|hindi": {
@@ -3223,7 +5751,7 @@
   "language": "hindi",
   "tmdb_id": 917,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mother India",
   "release_date": "1957-02-13",
   "poster_path": "/AlfM9yLcK1rhv73iNbDiOU9vnnu.jpg",
@@ -3231,6 +5759,17 @@
   "runtime": 175,
   "director": [
    "Mehboob Khan"
+  ],
+  "cast": [
+   "Nargis",
+   "Sunil Dutt",
+   "Rajendra Kumar",
+   "Raaj Kumar",
+   "Kanhaiyalal Chaturvedi",
+   "Kumkum"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Mouna Ragam|1986|tamil": {
@@ -3239,7 +5778,7 @@
   "language": "tamil",
   "tmdb_id": 82124,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mouna Raagam",
   "release_date": "1986-08-15",
   "poster_path": "/fgvXLXDMurWNe4U1624NC6qyhIk.jpg",
@@ -3247,6 +5786,18 @@
   "runtime": 146,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Revathi",
+   "Mohan",
+   "Karthik",
+   "V. K. Ramasamy",
+   "Ra. Sankaran",
+   "Rani Patel"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Mr. & Mrs. 55|1955|hindi": {
@@ -3255,7 +5806,7 @@
   "language": "hindi",
   "tmdb_id": 66564,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mr. & Mrs. '55",
   "release_date": "1955-02-11",
   "poster_path": "/mMtqBKVa259av6t8vKE4J57hI7M.jpg",
@@ -3263,6 +5814,19 @@
   "runtime": 157,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Guru Dutt",
+   "Madhubala",
+   "Lalita Pawar",
+   "Johnny Walker",
+   "Vinita Butt",
+   "Kumkum"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Drama"
   ]
  },
  "Mudhalvan|1999|tamil": {
@@ -3271,7 +5835,7 @@
   "language": "tamil",
   "tmdb_id": 66526,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mudhalvan",
   "release_date": "1999-11-07",
   "poster_path": "/k69lNVmDJcLLJb4LBCk3L2yv4Vw.jpg",
@@ -3279,6 +5843,17 @@
   "runtime": 169,
   "director": [
    "Shankar"
+  ],
+  "cast": [
+   "Arjun Sarja",
+   "Raghuvaran",
+   "Manisha Koirala",
+   "Manivannan",
+   "Vadivelu",
+   "Laila"
+  ],
+  "genres": [
+   "Thriller"
   ]
  },
  "Mughal-e-Azam|1960|hindi": {
@@ -3287,7 +5862,7 @@
   "language": "hindi",
   "tmdb_id": 44519,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mughal-e-Azam",
   "release_date": "1960-08-05",
   "poster_path": "/lKfNZUh9CRp1EHjxgNGtrbvm55.jpg",
@@ -3295,6 +5870,18 @@
   "runtime": 197,
   "director": [
    "K. Asif"
+  ],
+  "cast": [
+   "Dilip Kumar",
+   "Prithviraj Kapoor",
+   "Madhubala",
+   "Durga Khote",
+   "Nigar Sultana",
+   "Ajit Khan"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Mukhamukham|1984|malayalam": {
@@ -3303,7 +5890,7 @@
   "language": "malayalam",
   "tmdb_id": 275027,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Face to Face",
   "release_date": "1984-01-06",
   "poster_path": "/vCrwZ2KGh282XS5V7krwMLCIyP9.jpg",
@@ -3311,6 +5898,17 @@
   "runtime": 108,
   "director": [
    "Adoor Gopalakrishnan"
+  ],
+  "cast": [
+   "Ashokan",
+   "P. Ganga",
+   "Vishwanathan",
+   "Balan K Nair",
+   "Kaviyoor Ponnamma",
+   "Karamana Janardanan Nair"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Mukhbiir|2008|hindi": {
@@ -3319,7 +5917,7 @@
   "language": "hindi",
   "tmdb_id": 46412,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mukhbiir",
   "release_date": "2008-08-22",
   "poster_path": "/aefkedUyp8rABkDXwfR2xXyQgfN.jpg",
@@ -3327,6 +5925,18 @@
   "runtime": 132,
   "director": [
    "Mani Shankar"
+  ],
+  "cast": [
+   "Sammir Dattani",
+   "Raima Sen",
+   "Rahul Dev",
+   "Om Puri",
+   "Alok Nath",
+   "Kelly Dorji"
+  ],
+  "genres": [
+   "Action",
+   "Crime"
   ]
  },
  "Mukkabaaz|2017|hindi": {
@@ -3335,7 +5945,7 @@
   "language": "hindi",
   "tmdb_id": 470641,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mukkabaaz",
   "release_date": "2018-01-12",
   "poster_path": "/jpjsxoVUEVtYgtAIZQP8WVgDsp5.jpg",
@@ -3343,6 +5953,17 @@
   "runtime": 145,
   "director": [
    "Anurag Kashyap"
+  ],
+  "cast": [
+   "Vineet Kumar Singh",
+   "Zoya Hussain",
+   "Ravi Kishan",
+   "Jimmy Shergill",
+   "Rajesh Tailang",
+   "Nawazuddin Siddiqui"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Mumbai Police|2013|malayalam": {
@@ -3351,7 +5972,7 @@
   "language": "malayalam",
   "tmdb_id": 190945,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mumbai Police",
   "release_date": "2013-05-02",
   "poster_path": "/19hI3Qw95irArEoHh5gKTzuhtFV.jpg",
@@ -3359,6 +5980,19 @@
   "runtime": 145,
   "director": [
    "Rosshan Andrrews"
+  ],
+  "cast": [
+   "Prithviraj Sukumaran",
+   "Jayasurya",
+   "Rahman",
+   "Aparna Nair",
+   "Hima Davis",
+   "Deepa Rahul Ishwar"
+  ],
+  "genres": [
+   "Crime",
+   "Mystery",
+   "Thriller"
   ]
  },
  "Mungaru Male|2006|kannada": {
@@ -3367,14 +6001,28 @@
   "language": "kannada",
   "tmdb_id": 39095,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Mungaru Male",
   "release_date": "2006-12-15",
-  "poster_path": "/jKwRrAFQi2ZqB2Ux309ARmaaDHO.jpg",
+  "poster_path": "/q6qbhC4ic3Sp2VjZk6qS4pyejfV.jpg",
   "backdrop_path": "/e9D21gdAaEYON60bkbJXXz4SQxk.jpg",
   "runtime": 143,
   "director": [
    "Yogaraj Bhat"
+  ],
+  "cast": [
+   "Anant Nag",
+   "Ganesh",
+   "Pooja Gandhi",
+   "Sudha Belawadi",
+   "Padmaja Rao",
+   "Neenasam Ashwath"
+  ],
+  "genres": [
+   "Music",
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "My Name Is Khan|2010|hindi": {
@@ -3383,7 +6031,7 @@
   "language": "hindi",
   "tmdb_id": 26022,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "My Name Is Khan",
   "release_date": "2010-02-11",
   "poster_path": "/5Y36lCiNyyV71mjq6LavgiggbhT.jpg",
@@ -3391,6 +6039,18 @@
   "runtime": 165,
   "director": [
    "Karan Johar"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Kajol",
+   "Arjan Aujla",
+   "Jimmy Shergill",
+   "Sonya Jehan",
+   "Zarina Wahab"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Naam Shabana|2017|hindi": {
@@ -3399,7 +6059,7 @@
   "language": "hindi",
   "tmdb_id": 441071,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Naam Shabana",
   "release_date": "2017-03-31",
   "poster_path": "/xFHeFrOYzsHgAiZeGAjwJmDMen6.jpg",
@@ -3407,6 +6067,17 @@
   "runtime": 147,
   "director": [
    "Shivam Nair"
+  ],
+  "cast": [
+   "Taapsee Pannu",
+   "Prithviraj Sukumaran",
+   "Manoj Bajpayee",
+   "Akshay Kumar",
+   "Anupam Kher",
+   "Veerendra Saxena"
+  ],
+  "genres": [
+   "Thriller"
   ]
  },
  "Nadodikkattu|1987|malayalam": {
@@ -3415,7 +6086,7 @@
   "language": "malayalam",
   "tmdb_id": 275366,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Nadodikkattu",
   "release_date": "1987-05-06",
   "poster_path": "/ePuAtxBT6DDMHmk6eusFpIWi64A.jpg",
@@ -3423,6 +6094,18 @@
   "runtime": 158,
   "director": [
    "Sathyan Anthikad"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Sreenivasan",
+   "Shobana",
+   "Thilakan",
+   "Innocent",
+   "Janardhanan"
+  ],
+  "genres": [
+   "Action",
+   "Comedy"
   ]
  },
  "Natpe Thunai|2019|tamil": {
@@ -3431,7 +6114,7 @@
   "language": "tamil",
   "tmdb_id": 590548,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Natpe Thunai",
   "release_date": "2019-04-04",
   "poster_path": "/5CL4HpQGiYPD7sv1eQMHOArkSlU.jpg",
@@ -3439,6 +6122,17 @@
   "runtime": 156,
   "director": [
    "Parthiban Desingu"
+  ],
+  "cast": [
+   "HipHop Tamizha Adhi",
+   "Anagha",
+   "Karu Pazhaniappan",
+   "Vigneshkanth",
+   "Harish Uthaman",
+   "Pandiarajan"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Natsamrat|2016|marathi": {
@@ -3447,7 +6141,7 @@
   "language": "marathi",
   "tmdb_id": 378227,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Natsamrat",
   "release_date": "2016-01-01",
   "poster_path": "/x4KvM8NBi8m44aqwEMgsJPzA5Ne.jpg",
@@ -3455,6 +6149,17 @@
   "runtime": 166,
   "director": [
    "Mahesh Manjrekar"
+  ],
+  "cast": [
+   "Nana Patekar",
+   "Medha Manjrekar",
+   "Vikram Gokhale",
+   "Mrunmayee Deshpande",
+   "Sunil Barve",
+   "Ajit Parab"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Nayak: The Real Hero|2001|hindi": {
@@ -3463,14 +6168,27 @@
   "language": "hindi",
   "tmdb_id": 33457,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Nayak: The Real Hero",
   "release_date": "2001-09-07",
-  "poster_path": "/5aFFHWnc3EtV3mkgAImOGENbcEc.jpg",
+  "poster_path": "/rFawVJhYmk0JmPdKhnEPwVlOQRT.jpg",
   "backdrop_path": "/c9GO0PQh1OoVn07fhh3RqAFBPE6.jpg",
   "runtime": 187,
   "director": [
    "Shankar"
+  ],
+  "cast": [
+   "Anil Kapoor",
+   "Amrish Puri",
+   "Rani Mukerji",
+   "Paresh Rawal",
+   "Johny Lever",
+   "Saurabh Shukla"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Action"
   ]
  },
  "Nayakan|1987|tamil": {
@@ -3479,7 +6197,7 @@
   "language": "tamil",
   "tmdb_id": 29971,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Nayakan",
   "release_date": "1987-10-21",
   "poster_path": "/hnCKKPG5VkUiGQV0DTniyMTEZsT.jpg",
@@ -3487,6 +6205,18 @@
   "runtime": 156,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Saranya Ponvannan",
+   "Karthika",
+   "Janagaraj",
+   "Delhi Ganesh",
+   "Nizhalgal Ravi"
+  ],
+  "genres": [
+   "Drama",
+   "Crime"
   ]
  },
  "Newton|2017|hindi": {
@@ -3495,7 +6225,7 @@
   "language": "hindi",
   "tmdb_id": 439128,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Newton",
   "release_date": "2017-09-22",
   "poster_path": "/ubzHA1aXUsWvQJHjvqBCHxzTBi5.jpg",
@@ -3503,6 +6233,18 @@
   "runtime": 106,
   "director": [
    "Amit Masurkar"
+  ],
+  "cast": [
+   "Rajkummar Rao",
+   "Pankaj Tripathi",
+   "Anjali Patil",
+   "Raghubir Yadav",
+   "Mukesh Prajapati",
+   "Sanjay Mishra"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Nil Battey Sannata|2015|hindi": {
@@ -3511,7 +6253,7 @@
   "language": "hindi",
   "tmdb_id": 361249,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Nil Battey Sannata",
   "release_date": "2016-04-22",
   "poster_path": "/fvsPtLdIFM4lsjFX5CQ1X6yjzSZ.jpg",
@@ -3519,6 +6261,18 @@
   "runtime": 100,
   "director": [
    "Ashwiny Iyer Tiwari"
+  ],
+  "cast": [
+   "Swara Bhasker",
+   "Ratna Pathak Shah",
+   "Pankaj Tripathi",
+   "Riya Shukla",
+   "Sanjay Suri",
+   "Vishal Nath"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Ninnu Kori|2017|telugu": {
@@ -3527,7 +6281,7 @@
   "language": "telugu",
   "tmdb_id": 465099,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ninnu Kori",
   "release_date": "2017-07-07",
   "poster_path": "/jpRSbvFX5bjf91vuzc5zwZiBwG8.jpg",
@@ -3535,6 +6289,19 @@
   "runtime": 135,
   "director": [
    "Shiva Nirvana"
+  ],
+  "cast": [
+   "Nani",
+   "Nivetha Thomas",
+   "Aadhi Pinisetty",
+   "Tanikella Bharani",
+   "Murali Sharma",
+   "Prudhviraj"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Family"
   ]
  },
  "Niram|1999|malayalam": {
@@ -3543,7 +6310,7 @@
   "language": "malayalam",
   "tmdb_id": 352559,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Niram",
   "release_date": "1999-10-31",
   "poster_path": "/Asv6QRFipiIUksIo2P2Egi6mHeo.jpg",
@@ -3551,6 +6318,18 @@
   "runtime": 151,
   "director": [
    "Kamal"
+  ],
+  "cast": [
+   "Kunchacko Boban",
+   "Shalini",
+   "Jomol",
+   "Boban Alummoodan",
+   "Lalu Alex",
+   "Devan"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance"
   ]
  },
  "No Smoking|2007|hindi": {
@@ -3559,7 +6338,7 @@
   "language": "hindi",
   "tmdb_id": 36204,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "No Smoking",
   "release_date": "2007-10-26",
   "poster_path": "/reJRahEjVlMpbolmrRZRyKOcy3m.jpg",
@@ -3567,6 +6346,18 @@
   "runtime": 126,
   "director": [
    "Anurag Kashyap"
+  ],
+  "cast": [
+   "John Abraham",
+   "Ayesha Takia",
+   "Paresh Rawal",
+   "Ranvir Shorey",
+   "Kiku Sharda",
+   "Vikramaditya Motwane"
+  ],
+  "genres": [
+   "Thriller",
+   "Drama"
   ]
  },
  "Nuvvostanante Nenoddantana|2005|telugu": {
@@ -3575,7 +6366,7 @@
   "language": "telugu",
   "tmdb_id": 74154,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Nuvvostanante Nenoddantana",
   "release_date": "2005-01-14",
   "poster_path": "/zixbDSR1gOHgcATGdMaq20LjZEL.jpg",
@@ -3583,6 +6374,19 @@
   "runtime": 165,
   "director": [
    "Prabhu Deva"
+  ],
+  "cast": [
+   "Siddharth",
+   "Trisha Krishnan",
+   "Srihari",
+   "Prakash Raj",
+   "Archana",
+   "Santhoshi"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Romance"
   ]
  },
  "Nuvvu Naaku Nachav|2001|telugu": {
@@ -3591,7 +6395,7 @@
   "language": "telugu",
   "tmdb_id": 82255,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Nuvvu Naaku Nachav",
   "release_date": "2001-09-06",
   "poster_path": "/z6F2Y7zddPFZ2ls9OY006egVClP.jpg",
@@ -3599,6 +6403,20 @@
   "runtime": 180,
   "director": [
    "K. Vijaya Bhaskar"
+  ],
+  "cast": [
+   "Venkatesh",
+   "Aarthi Agarwal",
+   "Sudeepa",
+   "Prakash Raj",
+   "Chandra Mohan",
+   "M. S. Narayana"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Romance",
+   "Family"
   ]
  },
  "Om Shanti Om|2007|hindi": {
@@ -3607,7 +6425,7 @@
   "language": "hindi",
   "tmdb_id": 8079,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Om Shanti Om",
   "release_date": "2007-11-07",
   "poster_path": "/oArsQTD4bPPMtRjqr03SO9W6phF.jpg",
@@ -3615,6 +6433,19 @@
   "runtime": 169,
   "director": [
    "Farah Khan"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Deepika Padukone",
+   "Arjun Rampal",
+   "Kirron Kher",
+   "Shreyas Talpade",
+   "Javed Sheikh"
+  ],
+  "genres": [
+   "Comedy",
+   "Thriller",
+   "Drama"
   ]
  },
  "Omkara|2006|hindi": {
@@ -3623,7 +6454,7 @@
   "language": "hindi",
   "tmdb_id": 14705,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Omkara",
   "release_date": "2006-07-28",
   "poster_path": "/hRPFHoyvqWd1iu27muybtZMlbou.jpg",
@@ -3631,6 +6462,18 @@
   "runtime": 155,
   "director": [
    "Vishal Bhardwaj"
+  ],
+  "cast": [
+   "Ajay Devgn",
+   "Kareena Kapoor Khan",
+   "Saif Ali Khan",
+   "Vivek Oberoi",
+   "Konkona Sen Sharma",
+   "Deepak Dobriyal"
+  ],
+  "genres": [
+   "Crime",
+   "Drama"
   ]
  },
  "Paan Singh Tomar|2012|hindi": {
@@ -3639,7 +6482,7 @@
   "language": "hindi",
   "tmdb_id": 96398,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Paan Singh Tomar",
   "release_date": "2012-03-02",
   "poster_path": "/ii2KMVvGmcmJrqwYcT5nKn92bD5.jpg",
@@ -3647,6 +6490,18 @@
   "runtime": 135,
   "director": [
    "Tigmanshu Dhulia"
+  ],
+  "cast": [
+   "Irrfan Khan",
+   "Mahie Gill",
+   "Vipin Sharma",
+   "Nawazuddin Siddiqui",
+   "Imran Hasnee",
+   "Zakir Hussain"
+  ],
+  "genres": [
+   "Crime",
+   "Drama"
   ]
  },
  "Padosan|1968|hindi": {
@@ -3655,7 +6510,7 @@
   "language": "hindi",
   "tmdb_id": 20622,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Padosan",
   "release_date": "1968-11-29",
   "poster_path": "/b3saYvaYdzuXCEfIfNJiKaO58qO.jpg",
@@ -3663,6 +6518,19 @@
   "runtime": 157,
   "director": [
    "Jyoti Swaroop"
+  ],
+  "cast": [
+   "Sunil Dutt",
+   "Saira Banu",
+   "Mehmood",
+   "Kishore Kumar",
+   "Om Prakash",
+   "Dulari"
+  ],
+  "genres": [
+   "Comedy",
+   "Music",
+   "Romance"
   ]
  },
  "Paheli|2005|hindi": {
@@ -3671,7 +6539,7 @@
   "language": "hindi",
   "tmdb_id": 33081,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Paheli",
   "release_date": "2005-06-24",
   "poster_path": "/1oQ8mBfBKcVT758y1949ULkSXER.jpg",
@@ -3679,6 +6547,19 @@
   "runtime": 141,
   "director": [
    "Amol Palekar"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Rani Mukerji",
+   "Anupam Kher",
+   "Aditi Gowitrikar",
+   "Rajpal Yadav",
+   "Dilip Prabhavalkar"
+  ],
+  "genres": [
+   "Romance",
+   "Drama",
+   "Fantasy"
   ]
  },
  "Pakeezah|1972|hindi": {
@@ -3687,7 +6568,7 @@
   "language": "hindi",
   "tmdb_id": 54966,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pakeezah",
   "release_date": "1972-02-04",
   "poster_path": "/dVm7WcvVfeQzi8M7NZXcdtbF6jz.jpg",
@@ -3695,6 +6576,19 @@
   "runtime": 153,
   "director": [
    "Kamal Amrohi"
+  ],
+  "cast": [
+   "Meena Kumari",
+   "Ashok Kumar",
+   "Raaj Kumar",
+   "Veena",
+   "Nadira",
+   "Kamal Kapoor"
+  ],
+  "genres": [
+   "Music",
+   "Drama",
+   "Romance"
   ]
  },
  "Panchathanthiram|2002|tamil": {
@@ -3703,7 +6597,7 @@
   "language": "tamil",
   "tmdb_id": 49033,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Panchatanthiram",
   "release_date": "2002-06-28",
   "poster_path": "/ofTPB176uIsjGTdsZbQrVE86yxA.jpg",
@@ -3711,6 +6605,19 @@
   "runtime": 153,
   "director": [
    "K. S. Ravikumar"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Jayaram",
+   "Ramesh Aravind",
+   "Sriman",
+   "Yugi Sethu",
+   "Simran"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Family"
   ]
  },
  "Parinda|1989|hindi": {
@@ -3719,7 +6626,7 @@
   "language": "hindi",
   "tmdb_id": 58045,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Parinda",
   "release_date": "1989-11-03",
   "poster_path": "/5iVDKpzPr1egzNsKjIDL2maVEe5.jpg",
@@ -3727,6 +6634,19 @@
   "runtime": 154,
   "director": [
    "Vidhu Vinod Chopra"
+  ],
+  "cast": [
+   "Jackie Shroff",
+   "Anil Kapoor",
+   "Nana Patekar",
+   "Madhuri Dixit",
+   "Anupam Kher",
+   "Suresh Oberoi"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Pariyerum Perumal|2018|tamil": {
@@ -3735,7 +6655,7 @@
   "language": "tamil",
   "tmdb_id": 462718,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pariyerum Perumal",
   "release_date": "2018-09-28",
   "poster_path": "/78YoIO3gzkZPC1jotfDmolNDmgT.jpg",
@@ -3743,6 +6663,18 @@
   "runtime": 155,
   "director": [
    "Mari Selvaraj"
+  ],
+  "cast": [
+   "Kathir",
+   "Anandhi",
+   "Yogi Babu",
+   "G. Marimuthu",
+   "Lijeesh",
+   "Supergood Subramani"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Pari|2018|hindi": {
@@ -3751,7 +6683,7 @@
   "language": "hindi",
   "tmdb_id": 461649,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pari",
   "release_date": "2018-03-02",
   "poster_path": "/gUmnMZD6epUPHOyfzTxIsfp4HM.jpg",
@@ -3759,6 +6691,18 @@
   "runtime": 135,
   "director": [
    "Prosit Roy"
+  ],
+  "cast": [
+   "Anushka Sharma",
+   "Parambrata Chatterjee",
+   "Rajat Kapoor",
+   "Ritabhari Chakraborty",
+   "Mansi Multani",
+   "Mithu Chakrabarty"
+  ],
+  "genres": [
+   "Horror",
+   "Mystery"
   ]
  },
  "Pathaan|2023|hindi": {
@@ -3767,7 +6711,7 @@
   "language": "hindi",
   "tmdb_id": 864692,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pathaan",
   "release_date": "2023-01-25",
   "poster_path": "/arf00BkwvXo0CFKbaD9OpqdE4Nu.jpg",
@@ -3775,6 +6719,19 @@
   "runtime": 146,
   "director": [
    "Siddharth Anand"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Deepika Padukone",
+   "John Abraham",
+   "Dimple Kapadia",
+   "Ashutosh Rana",
+   "Prakash Belawadi"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Thriller"
   ]
  },
  "Pather Panchali|1955|bengali": {
@@ -3783,7 +6740,7 @@
   "language": "bengali",
   "tmdb_id": 5801,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pather Panchali",
   "release_date": "1955-08-26",
   "poster_path": "/frZj5djlU9hFEjMcL21RJZVuG5O.jpg",
@@ -3791,6 +6748,18 @@
   "runtime": 125,
   "director": [
    "Satyajit Ray"
+  ],
+  "cast": [
+   "Kanu Bannerjee",
+   "Karuna Banerjee",
+   "Subir Banerjee",
+   "Runki Banerjee",
+   "Uma Dasgupta",
+   "Chunibala Devi"
+  ],
+  "genres": [
+   "Drama",
+   "History"
   ]
  },
  "Peranbu|2018|tamil": {
@@ -3799,7 +6768,7 @@
   "language": "tamil",
   "tmdb_id": 412865,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Peranbu",
   "release_date": "2019-02-01",
   "poster_path": "/dDDnU7AkZz3Mbvc7DpaCG7NBO2V.jpg",
@@ -3807,6 +6776,18 @@
   "runtime": 147,
   "director": [
    "Ram"
+  ],
+  "cast": [
+   "Mammootty",
+   "Sadhana",
+   "Anjali",
+   "Anjali Ameer",
+   "Lizzie Antony",
+   "Vadivukarasi"
+  ],
+  "genres": [
+   "Drama",
+   "Family"
   ]
  },
  "Piku|2015|hindi": {
@@ -3815,7 +6796,7 @@
   "language": "hindi",
   "tmdb_id": 332835,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Piku",
   "release_date": "2015-05-08",
   "poster_path": "/yo7EZWiLpLGhqs3YnlDGDBPjfTb.jpg",
@@ -3823,6 +6804,18 @@
   "runtime": 123,
   "director": [
    "Shoojit Sircar"
+  ],
+  "cast": [
+   "Deepika Padukone",
+   "Amitabh Bachchan",
+   "Irrfan Khan",
+   "Moushumi Chatterjee",
+   "Raghubir Yadav",
+   "Jisshu Sengupta"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Pink|2016|hindi": {
@@ -3831,7 +6824,7 @@
   "language": "hindi",
   "tmdb_id": 415358,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pink",
   "release_date": "2016-09-16",
   "poster_path": "/6xNhnyKm2M5FEOY7xv5iKiQ5P3.jpg",
@@ -3839,6 +6832,18 @@
   "runtime": 136,
   "director": [
    "Aniruddha Roy Chowdhury"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Taapsee Pannu",
+   "Kirti Kulhari",
+   "Andrea Tariang",
+   "Angad Bedi",
+   "Dhritiman Chatterjee"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller"
   ]
  },
  "Pisaasu|2014|tamil": {
@@ -3847,7 +6852,7 @@
   "language": "tamil",
   "tmdb_id": 311155,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pisaasu",
   "release_date": "2014-12-19",
   "poster_path": "/u3dLe7SJa7FQeM5LICtkiw6LUA7.jpg",
@@ -3855,6 +6860,19 @@
   "runtime": 114,
   "director": [
    "Mysskin"
+  ],
+  "cast": [
+   "Naga",
+   "Prayaga Martin",
+   "Radha Ravi",
+   "Kalyani Natarajan",
+   "Harish Uthaman",
+   "Kani Kusruti"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Horror"
   ]
  },
  "Pizza|2012|tamil": {
@@ -3863,7 +6881,7 @@
   "language": "tamil",
   "tmdb_id": 139357,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pizza",
   "release_date": "2012-10-19",
   "poster_path": "/mdcEraw1DFG3INWiRkuaOc0xV6o.jpg",
@@ -3871,6 +6889,20 @@
   "runtime": 127,
   "director": [
    "Karthik Subbaraj"
+  ],
+  "cast": [
+   "Vijay Sethupathi",
+   "Remya Nambeesan",
+   "Aadukalam Naren",
+   "Karunakaran",
+   "Bobby Simha",
+   "Pooja Ramachandran"
+  ],
+  "genres": [
+   "Thriller",
+   "Comedy",
+   "Romance",
+   "Horror"
   ]
  },
  "Polladhavan|2007|tamil": {
@@ -3879,7 +6911,7 @@
   "language": "tamil",
   "tmdb_id": 69516,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Polladhavan",
   "release_date": "2007-11-08",
   "poster_path": "/amHEVzgBKDnlNzxArcOpbvqVDrY.jpg",
@@ -3887,6 +6919,18 @@
   "runtime": 150,
   "director": [
    "Vetrimaaran"
+  ],
+  "cast": [
+   "Dhanush",
+   "Kishore",
+   "Divya Spandana",
+   "Daniel Balaji",
+   "Sentrayan",
+   "Karunas"
+  ],
+  "genres": [
+   "Action",
+   "Drama"
   ]
  },
  "Por Thozhil|2023|tamil": {
@@ -3895,7 +6939,7 @@
   "language": "tamil",
   "tmdb_id": 1115239,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Por Thozhil",
   "release_date": "2023-06-09",
   "poster_path": "/lZ2BbjGBDRW5Q5Q9jgEknuiEQ0f.jpg",
@@ -3903,6 +6947,19 @@
   "runtime": 148,
   "director": [
    "Vignesh Raja"
+  ],
+  "cast": [
+   "Ashok Selvan",
+   "R. Sarathkumar",
+   "Sarath Babu",
+   "Nikhila Vimal",
+   "P.L. Thenappan",
+   "O. A. K. Sundar"
+  ],
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Action"
   ]
  },
  "Prasthanam|2010|telugu": {
@@ -3911,7 +6968,7 @@
   "language": "telugu",
   "tmdb_id": 52522,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Prasthanam",
   "release_date": "2010-04-16",
   "poster_path": "/vn6zHyo4kASQ8mY6PIHBxiBSuS.jpg",
@@ -3919,6 +6976,18 @@
   "runtime": 173,
   "director": [
    "Deva Katta"
+  ],
+  "cast": [
+   "Sharwanand",
+   "Sai Kumar",
+   "Sundeep Kishan",
+   "Pavitra Lokesh",
+   "Madhusudhan Rao",
+   "Surekha Vani"
+  ],
+  "genres": [
+   "Action",
+   "Drama"
   ]
  },
  "Prem Rog|1982|hindi": {
@@ -3927,7 +6996,7 @@
   "language": "hindi",
   "tmdb_id": 81253,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Prem Rog",
   "release_date": "1982-07-30",
   "poster_path": "/yseczqtwaxYNknHFNDyUzQ8awAh.jpg",
@@ -3935,6 +7004,19 @@
   "runtime": 172,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Shammi Kapoor",
+   "Tanuja Samarth",
+   "Vijayendra Ghatge",
+   "Kulbhushan Kharbanda",
+   "Bindu",
+   "Sushma Seth"
+  ],
+  "genres": [
+   "Drama",
+   "Music",
+   "Romance"
   ]
  },
  "Premam|2015|malayalam": {
@@ -3943,7 +7025,7 @@
   "language": "malayalam",
   "tmdb_id": 341895,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Premam",
   "release_date": "2015-05-29",
   "poster_path": "/wfMgsfDrtouYOM6MbrkHtU96Xij.jpg",
@@ -3951,6 +7033,18 @@
   "runtime": 157,
   "director": [
    "Alphonse Puthren"
+  ],
+  "cast": [
+   "Nivin Pauly",
+   "Madonna Sebastian",
+   "Sai Pallavi",
+   "Anupama Parameswaran",
+   "Shabareesh Varma",
+   "Krishna Shankar"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance"
   ]
  },
  "Pudhupettai|2006|tamil": {
@@ -3959,7 +7053,7 @@
   "language": "tamil",
   "tmdb_id": 69520,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pudhupettai",
   "release_date": "2006-05-26",
   "poster_path": "/blrGDOlcTbIit4BBS9gW4PsCuYv.jpg",
@@ -3967,6 +7061,19 @@
   "runtime": 179,
   "director": [
    "Selvaraghavan"
+  ],
+  "cast": [
+   "Dhanush",
+   "Sneha",
+   "N. Azhagamperumal",
+   "Sonia Agarwal",
+   "Nithish Veera",
+   "Prudhviraj"
+  ],
+  "genres": [
+   "Action",
+   "Drama",
+   "Crime"
   ]
  },
  "Punjabi House|1998|malayalam": {
@@ -3975,15 +7082,28 @@
   "language": "malayalam",
   "tmdb_id": 234639,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Punjabi House",
   "release_date": "1998-09-04",
   "poster_path": "/v1bbWKzG9RDZbemuEmTDCQWhGTc.jpg",
   "backdrop_path": "/xSC7mZ1SBdGbfCtDdyy5TfNRlbp.jpg",
   "runtime": 146,
   "director": [
-   "Mecartin",
-   "Raffi"
+   "Raffi",
+   "Mecartin"
+  ],
+  "cast": [
+   "Dileep",
+   "Harisree Ashokan",
+   "Cochin Haneefa",
+   "Mohini",
+   "Lal",
+   "Janardhanan"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance",
+   "Drama"
   ]
  },
  "Pushpaka Vimana|1987|kannada": {
@@ -3992,7 +7112,7 @@
   "language": "kannada",
   "tmdb_id": 36810,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pushpaka Vimana",
   "release_date": "1987-11-17",
   "poster_path": "/azTpDHh87L89TtEsj77bWnV08Ew.jpg",
@@ -4000,6 +7120,19 @@
   "runtime": 131,
   "director": [
    "Singeetham Srinivasa Rao"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Amala Akkineni",
+   "Tinnu Anand",
+   "Sameer Kakkar",
+   "Farida Jalal",
+   "K. S. Ramesh"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "Pyaasa|1957|hindi": {
@@ -4008,7 +7141,7 @@
   "language": "hindi",
   "tmdb_id": 41053,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Pyaasa",
   "release_date": "1957-02-19",
   "poster_path": "/lQu1gBTKIF4BGC0f3GZPEbQYzWq.jpg",
@@ -4016,6 +7149,18 @@
   "runtime": 146,
   "director": [
    "Guru Dutt"
+  ],
+  "cast": [
+   "Guru Dutt",
+   "Waheeda Rehman",
+   "Mala Sinha",
+   "Johnny Walker",
+   "Rehman",
+   "Kumkum"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Qayamat Se Qayamat Tak|1988|hindi": {
@@ -4024,7 +7169,7 @@
   "language": "hindi",
   "tmdb_id": 27964,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Qayamat Se Qayamat Tak",
   "release_date": "1988-07-09",
   "poster_path": "/rWF3RMf7SKfZx5CObQusnemnhmU.jpg",
@@ -4032,6 +7177,18 @@
   "runtime": 162,
   "director": [
    "Mansoor Khan"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Juhi Chawla Mehta",
+   "Dalip Tahil",
+   "Ravindra Kapoor",
+   "Faisal Hussain Khan",
+   "Goga Kapoor"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "RRR|2022|telugu": {
@@ -4040,7 +7197,7 @@
   "language": "telugu",
   "tmdb_id": 579974,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "RRR",
   "release_date": "2022-03-24",
   "poster_path": "/wE0I6efAW4cDDmZQWtwZMOW44EJ.jpg",
@@ -4048,6 +7205,19 @@
   "runtime": 187,
   "director": [
    "S. S. Rajamouli"
+  ],
+  "cast": [
+   "N.T. Rama Rao Jr.",
+   "Ram Charan",
+   "Olivia Morris",
+   "Ray Stevenson",
+   "Alison Doody",
+   "Ajay Devgn"
+  ],
+  "genres": [
+   "Action",
+   "History",
+   "Drama"
   ]
  },
  "Raajneeti|2010|hindi": {
@@ -4056,7 +7226,7 @@
   "language": "hindi",
   "tmdb_id": 37951,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Raajneeti",
   "release_date": "2010-06-04",
   "poster_path": "/69jBOHcylcjZ4yH8SeSqguvIXHn.jpg",
@@ -4064,6 +7234,18 @@
   "runtime": 167,
   "director": [
    "Prakash Jha"
+  ],
+  "cast": [
+   "Ajay Devgn",
+   "Nana Patekar",
+   "Ranbir Kapoor",
+   "Katrina Kaif",
+   "Arjun Rampal",
+   "Manoj Bajpayee"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller"
   ]
  },
  "Raat|1992|hindi": {
@@ -4072,7 +7254,7 @@
   "language": "hindi",
   "tmdb_id": 228012,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Raat",
   "release_date": "1992-02-07",
   "poster_path": "/krQAgqZuxMZ2szXSTzZsOrJOKHZ.jpg",
@@ -4080,6 +7262,19 @@
   "runtime": 127,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "Revathi",
+   "Chinna",
+   "Rohini Hattangadi",
+   "Akash Khurana",
+   "Om Puri",
+   "Anant Nag"
+  ],
+  "genres": [
+   "Drama",
+   "Horror",
+   "Thriller"
   ]
  },
  "Raazi|2018|hindi": {
@@ -4088,7 +7283,7 @@
   "language": "hindi",
   "tmdb_id": 491629,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Raazi",
   "release_date": "2018-05-10",
   "poster_path": "/l9VJoRj0CYBURsnetvazq73FOfz.jpg",
@@ -4096,6 +7291,19 @@
   "runtime": 138,
   "director": [
    "Meghna Gulzar"
+  ],
+  "cast": [
+   "Alia Bhatt",
+   "Vicky Kaushal",
+   "Rajit Kapoor",
+   "Shishir Sharma",
+   "Ashwath Bhatt",
+   "Jaideep Ahlawat"
+  ],
+  "genres": [
+   "Thriller",
+   "Drama",
+   "History"
   ]
  },
  "Raaz|2002|hindi": {
@@ -4104,7 +7312,7 @@
   "language": "hindi",
   "tmdb_id": 20731,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Raaz",
   "release_date": "2002-02-01",
   "poster_path": "/nKAj4hhDYVDOnL33hG7IMcLEiSx.jpg",
@@ -4112,6 +7320,18 @@
   "runtime": 152,
   "director": [
    "Vikram Bhatt"
+  ],
+  "cast": [
+   "Bipasha Basu",
+   "Dino Morea",
+   "Ashutosh Rana",
+   "Malini Sharma",
+   "Shruti Ulfat",
+   "Vishwajeet Pradhan"
+  ],
+  "genres": [
+   "Thriller",
+   "Horror"
   ]
  },
  "Rab Ne Bana Di Jodi|2008|hindi": {
@@ -4120,7 +7340,7 @@
   "language": "hindi",
   "tmdb_id": 14072,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Rab Ne Bana Di Jodi",
   "release_date": "2008-12-11",
   "poster_path": "/m8x6I2qf3R98HtF4DmJXcdxCU64.jpg",
@@ -4128,6 +7348,19 @@
   "runtime": 167,
   "director": [
    "Aditya Chopra"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Anushka Sharma",
+   "Vinay Pathak",
+   "M. K. Raina",
+   "Manmeet Singh",
+   "Aneesha Dalal"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "Rakta Charitra|2010|telugu": {
@@ -4136,7 +7369,7 @@
   "language": "telugu",
   "tmdb_id": 49028,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Rakht Charitra",
   "release_date": "2010-10-21",
   "poster_path": "/cPFW3LMUKUNfj5jaPJVPXZP5U06.jpg",
@@ -4144,6 +7377,19 @@
   "runtime": 123,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "Vivek Oberoi",
+   "Shatrughan Sinha",
+   "Abhimanyu Singh",
+   "Sushant Singh",
+   "Radhika Apte",
+   "Kichcha Sudeepa"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Ram Teri Ganga Maili|1985|hindi": {
@@ -4152,7 +7398,7 @@
   "language": "hindi",
   "tmdb_id": 173735,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ram Teri Ganga Maili",
   "release_date": "1985-08-16",
   "poster_path": "/gTE72sR6uP0IX3dB9q0aT4FnotL.jpg",
@@ -4160,6 +7406,19 @@
   "runtime": 178,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Mandakini",
+   "Rajiv Kapoor",
+   "Divya Rana",
+   "Sushma Seth",
+   "Saeed Jaffrey",
+   "Kulbhushan Kharbanda"
+  ],
+  "genres": [
+   "Drama",
+   "Music",
+   "Romance"
   ]
  },
  "Ramji Rao Speaking|1989|malayalam": {
@@ -4168,7 +7427,7 @@
   "language": "malayalam",
   "tmdb_id": 150768,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ramji Rao Speaking",
   "release_date": "1989-08-04",
   "poster_path": "/vJ1k4tWjLZUpTY46liLDSfu7Vfx.jpg",
@@ -4177,6 +7436,18 @@
   "director": [
    "Siddique",
    "Lal"
+  ],
+  "cast": [
+   "Saikumar",
+   "Mukesh",
+   "Innocent",
+   "Rekha",
+   "Devan",
+   "Vijayaraghavan"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy"
   ]
  },
  "Rang De Basanti|2006|hindi": {
@@ -4185,7 +7456,7 @@
   "language": "hindi",
   "tmdb_id": 7913,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Rang De Basanti",
   "release_date": "2006-01-26",
   "poster_path": "/f1bF8CHzEu621bPSIg6XiUNAabh.jpg",
@@ -4193,6 +7464,20 @@
   "runtime": 157,
   "director": [
    "Rakeysh Omprakash Mehra"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Siddharth",
+   "Kunal Kapoor",
+   "Sharman Joshi",
+   "Atul Kulkarni",
+   "Alice Patten"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "History",
+   "Romance"
   ]
  },
  "Ratsasan|2018|tamil": {
@@ -4201,7 +7486,7 @@
   "language": "tamil",
   "tmdb_id": 412862,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ratsasan",
   "release_date": "2018-10-05",
   "poster_path": "/mRObdeazn263na5zXzZSRJTBvi7.jpg",
@@ -4209,6 +7494,19 @@
   "runtime": 170,
   "director": [
    "Ram Kumar"
+  ],
+  "cast": [
+   "Vishnu Vishal",
+   "Amala Paul",
+   "Suzane George",
+   "Munishkanth",
+   "Kaali Venkat",
+   "Radha Ravi"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Mystery"
   ]
  },
  "Republic|2021|telugu": {
@@ -4217,7 +7515,7 @@
   "language": "telugu",
   "tmdb_id": 875546,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Republic",
   "release_date": "2021-10-01",
   "poster_path": "/u8cdUS3bNtql4NkqEZnyYkO843s.jpg",
@@ -4225,6 +7523,18 @@
   "runtime": 152,
   "director": [
    "Deva Katta"
+  ],
+  "cast": [
+   "Sai Durgha Tej",
+   "Ramya Krishnan",
+   "Jagapati Babu",
+   "Aishwarya Rajesh",
+   "Srikanth Iyengar",
+   "Boxer Dheena"
+  ],
+  "genres": [
+   "Drama",
+   "Thriller"
   ]
  },
  "Rockford|1999|english": {
@@ -4233,7 +7543,7 @@
   "language": "english",
   "tmdb_id": 46422,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Rockford",
   "release_date": "1999-10-07",
   "poster_path": "/g3arvaLw68T10lONJOcdtMBU06l.jpg",
@@ -4241,6 +7551,18 @@
   "runtime": 102,
   "director": [
    "Nagesh Kukunoor"
+  ],
+  "cast": [
+   "Rohan Dey",
+   "Nandita Das",
+   "Nagesh Kukunoor",
+   "Jayant Kripalani",
+   "Soumyarka Gupta",
+   "Ulrika Krishnamurti"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy"
   ]
  },
  "Rockstar|2011|hindi": {
@@ -4249,7 +7571,7 @@
   "language": "hindi",
   "tmdb_id": 79464,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Rockstar",
   "release_date": "2011-11-11",
   "poster_path": "/cJZC9riwrdATBUonkZJZD6y9g40.jpg",
@@ -4257,6 +7579,19 @@
   "runtime": 159,
   "director": [
    "Imtiaz Ali"
+  ],
+  "cast": [
+   "Ranbir Kapoor",
+   "Nargis Fakhri",
+   "Shammi Kapoor",
+   "Aditi Rao Hydari",
+   "Kumud Mishra",
+   "Piyush Mishra"
+  ],
+  "genres": [
+   "Drama",
+   "Music",
+   "Romance"
   ]
  },
  "Roja|1992|tamil": {
@@ -4265,7 +7600,7 @@
   "language": "tamil",
   "tmdb_id": 21463,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Roja",
   "release_date": "1992-08-15",
   "poster_path": "/4vsfaW8actUgPRK79zgGlgpSSeB.jpg",
@@ -4273,6 +7608,19 @@
   "runtime": 137,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Arvind Swamy",
+   "Madhoo",
+   "Nassar",
+   "Janagaraj",
+   "Pankaj Kapur",
+   "Shiva Rindani"
+  ],
+  "genres": [
+   "Drama",
+   "Action",
+   "Romance"
   ]
  },
  "Romeo Akbar Walter|2019|hindi": {
@@ -4281,7 +7629,7 @@
   "language": "hindi",
   "tmdb_id": 585862,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Romeo Akbar Walter",
   "release_date": "2019-03-15",
   "poster_path": "/bFMVatMQVqB3lZGXFpK38tPAetq.jpg",
@@ -4289,6 +7637,18 @@
   "runtime": 141,
   "director": [
    "Robby Grewal"
+  ],
+  "cast": [
+   "John Abraham",
+   "Mouni Roy",
+   "Jackie Shroff",
+   "Sikandar Kher",
+   "Suchitra Krishnamoorthi",
+   "Raghubir Yadav"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Saala Khadoos|2016|hindi": {
@@ -4297,7 +7657,7 @@
   "language": "hindi",
   "tmdb_id": 357706,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Irudhi Suttru",
   "release_date": "2016-01-28",
   "poster_path": "/h2cjfz0oDywC9KPTwjWSqubKLob.jpg",
@@ -4305,6 +7665,17 @@
   "runtime": 109,
   "director": [
    "Sudha Kongara Prasad"
+  ],
+  "cast": [
+   "R. Madhavan",
+   "Ritika Singh",
+   "Mumtaz Sorcar",
+   "Nassar",
+   "Radha Ravi",
+   "Kaali Venkat"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Saathiya|2002|hindi": {
@@ -4313,7 +7684,7 @@
   "language": "hindi",
   "tmdb_id": 20656,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Saathiya",
   "release_date": "2002-12-20",
   "poster_path": "/ouC0CebGDnkcoebC4sv3XpE5Zqt.jpg",
@@ -4321,6 +7692,18 @@
   "runtime": 143,
   "director": [
    "Shaad Ali"
+  ],
+  "cast": [
+   "Vivek Oberoi",
+   "Rani Mukerji",
+   "Tanuja Samarth",
+   "Sharat Saxena",
+   "Satish Shah",
+   "Swaroop Sampat"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Sagara Sangamam|1983|telugu": {
@@ -4329,7 +7712,7 @@
   "language": "telugu",
   "tmdb_id": 30153,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sagara Sangamam",
   "release_date": "1983-06-03",
   "poster_path": "/hdg47CcaBfLf0DttUoav45boYtL.jpg",
@@ -4337,6 +7720,19 @@
   "runtime": 160,
   "director": [
    "K. Viswanath"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Jaya Prada",
+   "Sarath Babu",
+   "S.P. Sailaja",
+   "Sakshi Ranga Rao",
+   "Janaki"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Music"
   ]
  },
  "Sairat|2016|marathi": {
@@ -4345,7 +7741,7 @@
   "language": "marathi",
   "tmdb_id": 383367,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sairat",
   "release_date": "2016-04-29",
   "poster_path": "/d8K4ZI1RSxMkIIwu5cuvZmzwohq.jpg",
@@ -4353,6 +7749,18 @@
   "runtime": 170,
   "director": [
    "Nagraj Popatrao Manjule"
+  ],
+  "cast": [
+   "Rinku Rajguru",
+   "Akash Thosar",
+   "Tanaji Galgunde",
+   "Anuja Mule",
+   "Suraj Pawar",
+   "Arbaz Shaik"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Salaar: Part 1 – Ceasefire|2023|telugu": {
@@ -4361,7 +7769,7 @@
   "language": "telugu",
   "tmdb_id": 770906,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Salaar: Part 1 - Ceasefire",
   "release_date": "2023-12-21",
   "poster_path": "/wjyUcWRVvXaZQ4iahA3TNvrsDls.jpg",
@@ -4369,6 +7777,19 @@
   "runtime": 175,
   "director": [
    "Prashanth Neel"
+  ],
+  "cast": [
+   "Prabhas",
+   "Prithviraj Sukumaran",
+   "Shruti Haasan",
+   "Easwari Rao",
+   "Jagapati Babu",
+   "Bobby Simha"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Samsaram Oka Chadarangam|1987|telugu": {
@@ -4377,7 +7798,7 @@
   "language": "telugu",
   "tmdb_id": 1171725,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Samsaram Oka Chadarangam",
   "release_date": "1987-01-14",
   "poster_path": "/cHiH9TxbBjyCcbWpYCCw8x0qmbT.jpg",
@@ -4385,6 +7806,17 @@
   "runtime": 156,
   "director": [
    "S. P. Muthuraman"
+  ],
+  "cast": [
+   "Suhasini Maniratnam",
+   "Sarath Babu",
+   "Sowcar Janaki",
+   "Gollapudi Maruti Rao",
+   "Nutan Prasad",
+   "Rajendra Prasad"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Sandesham|1991|malayalam": {
@@ -4393,7 +7825,7 @@
   "language": "malayalam",
   "tmdb_id": 134477,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sandhesam",
   "release_date": "1991-11-01",
   "poster_path": "/tF1Y52WGqX7t3Lj35oQC6IL3ENB.jpg",
@@ -4401,6 +7833,19 @@
   "runtime": 137,
   "director": [
    "Sathyan Anthikad"
+  ],
+  "cast": [
+   "Thilakan",
+   "Sreenivasan",
+   "Jayaram",
+   "Oduvil Unnikrishnan",
+   "Kaviyoor Ponnamma",
+   "Maathu"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Family"
   ]
  },
  "Sangam|1964|hindi": {
@@ -4409,7 +7854,7 @@
   "language": "hindi",
   "tmdb_id": 48926,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sangam",
   "release_date": "1964-06-18",
   "poster_path": "/njI2kk6DE6oovfpapO1VEE76Ijl.jpg",
@@ -4417,6 +7862,19 @@
   "runtime": 238,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Raj Kapoor",
+   "Vyjayanthimala",
+   "Rajendra Kumar",
+   "Iftekhar",
+   "Raj Mehra",
+   "Nana Palsikar"
+  ],
+  "genres": [
+   "Romance",
+   "Drama",
+   "Music"
   ]
  },
  "Sankarabharanam|1980|telugu": {
@@ -4425,7 +7883,7 @@
   "language": "telugu",
   "tmdb_id": 30088,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sankarabharanam",
   "release_date": "1980-02-02",
   "poster_path": "/9LDbi3KsrpBQL48uXIPWTYsdjyF.jpg",
@@ -4433,6 +7891,19 @@
   "runtime": 143,
   "director": [
    "K. Viswanath"
+  ],
+  "cast": [
+   "Somayajulu J V",
+   "Manju Bhargavi",
+   "Chandra Mohan",
+   "Rajyalakshmi",
+   "Tulasi",
+   "Allu Ramalingaiah"
+  ],
+  "genres": [
+   "Romance",
+   "Drama",
+   "Music"
   ]
  },
  "Sapta Sagaradaache Ello — Side A & Side B|2023|kannada": {
@@ -4441,7 +7912,7 @@
   "language": "kannada",
   "tmdb_id": 1168104,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sapta Sagaradaache Ello – Side A",
   "release_date": "2023-09-01",
   "poster_path": "/qjvSMN5dhSh7cymjj6if2aJ4ejW.jpg",
@@ -4449,6 +7920,18 @@
   "runtime": 140,
   "director": [
    "Hemanth M. Rao"
+  ],
+  "cast": [
+   "Rakshit Shetty",
+   "Rukmini Vasanth",
+   "Sharath Lohitashwa",
+   "Ramesh Indira",
+   "Pavitra Lokesh",
+   "Achyuth Kumar"
+  ],
+  "genres": [
+   "Romance",
+   "Drama"
   ]
  },
  "Sarkar|2005|hindi": {
@@ -4457,7 +7940,7 @@
   "language": "hindi",
   "tmdb_id": 20968,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sarkar",
   "release_date": "2005-07-01",
   "poster_path": "/rxruLUuejw1By5KMZVbhN8VJv9O.jpg",
@@ -4465,6 +7948,19 @@
   "runtime": 123,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "Amitabh Bachchan",
+   "Abhishek Bachchan",
+   "Kay Kay Menon",
+   "Supriya Pathak",
+   "Katrina Kaif",
+   "Tanishaa Mukerji"
+  ],
+  "genres": [
+   "Crime",
+   "Action",
+   "Drama"
   ]
  },
  "Sarpatta Parambarai|2021|tamil": {
@@ -4473,7 +7969,7 @@
   "language": "tamil",
   "tmdb_id": 796011,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sarpatta Parambarai",
   "release_date": "2021-07-22",
   "poster_path": "/3f2KrEoOTmQxfDWgeqqLQ1rCYWP.jpg",
@@ -4481,6 +7977,19 @@
   "runtime": 174,
   "director": [
    "Pa. Ranjith"
+  ],
+  "cast": [
+   "Arya",
+   "Pasupathy",
+   "Kalaiyarasan",
+   "John Vijay",
+   "John Kokken",
+   "Shabeer Kallarakkal"
+  ],
+  "genres": [
+   "History",
+   "Action",
+   "Drama"
   ]
  },
  "Sathi Leelavathi|1995|tamil": {
@@ -4489,7 +7998,7 @@
   "language": "tamil",
   "tmdb_id": 66352,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sathi Leelavathi",
   "release_date": "1995-01-15",
   "poster_path": "/gJjxDw7uogiHuDtvkxk3GKD9UGu.jpg",
@@ -4497,6 +8006,18 @@
   "runtime": 144,
   "director": [
    "Balu Mahendra"
+  ],
+  "cast": [
+   "Ramesh Aravind",
+   "Heera Rajgopal",
+   "Kalpana",
+   "Kamal Haasan",
+   "Kovai Sarala",
+   "Chokkalinga Bhagavathar"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama"
   ]
  },
  "Satyam Shivam Sundaram|1978|hindi": {
@@ -4505,7 +8026,7 @@
   "language": "hindi",
   "tmdb_id": 143975,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Satyam Shivam Sundaram",
   "release_date": "1978-03-24",
   "poster_path": "/5k5owbottAeIk7gPjFnnkmO94wQ.jpg",
@@ -4513,6 +8034,19 @@
   "runtime": 172,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Shashi Kapoor",
+   "Zeenat Aman",
+   "Kanhaiyalal Chaturvedi",
+   "A.K. Hangal",
+   "David Abraham Cheulkar",
+   "Hari Shivdasani"
+  ],
+  "genres": [
+   "Drama",
+   "Romance",
+   "Music"
   ]
  },
  "Satya|1998|hindi": {
@@ -4521,7 +8055,7 @@
   "language": "hindi",
   "tmdb_id": 21502,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Satya",
   "release_date": "1998-07-03",
   "poster_path": "/wwgpEEGU5RVu5hM7AZa6oiivcln.jpg",
@@ -4529,6 +8063,18 @@
   "runtime": 170,
   "director": [
    "Ram Gopal Varma"
+  ],
+  "cast": [
+   "J. D. Chakravarthi",
+   "Manoj Bajpayee",
+   "Urmila Matondkar",
+   "Shefali Shah",
+   "Saurabh Shukla",
+   "Govind Namdeo"
+  ],
+  "genres": [
+   "Crime",
+   "Drama"
   ]
  },
  "Shanghai|2012|hindi": {
@@ -4537,7 +8083,7 @@
   "language": "hindi",
   "tmdb_id": 100681,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Shanghai",
   "release_date": "2012-06-08",
   "poster_path": "/i1SwP8KqOIKtu5V2i2IjXNm2dVy.jpg",
@@ -4545,6 +8091,19 @@
   "runtime": 120,
   "director": [
    "Dibakar Banerjee"
+  ],
+  "cast": [
+   "Abhay Deol",
+   "Emraan Hashmi",
+   "Kalki Koechlin",
+   "Prosenjit Chatterjee",
+   "Supriya Pathak",
+   "Pitobash"
+  ],
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Mystery"
   ]
  },
  "Shershaah|2021|hindi": {
@@ -4553,7 +8112,7 @@
   "language": "hindi",
   "tmdb_id": 599925,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Shershaah",
   "release_date": "2021-08-12",
   "poster_path": "/zGvFnwoXJKrYnKhoVPytqkqCJ8V.jpg",
@@ -4561,6 +8120,20 @@
   "runtime": 135,
   "director": [
    "Vishnu Varadhan"
+  ],
+  "cast": [
+   "Sidharth Malhotra",
+   "Kiara Advani",
+   "Shataf Figar",
+   "Shiv Panditt",
+   "Nikitin Dheer",
+   "Raj Arjun"
+  ],
+  "genres": [
+   "Action",
+   "Drama",
+   "Thriller",
+   "War"
   ]
  },
  "Sholay|1975|hindi": {
@@ -4569,7 +8142,7 @@
   "language": "hindi",
   "tmdb_id": 12259,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sholay",
   "release_date": "1975-08-15",
   "poster_path": "/ya9bwgqA4eNl5bQ9QqS0jcmRoBS.jpg",
@@ -4577,6 +8150,17 @@
   "runtime": 208,
   "director": [
    "Ramesh Sippy"
+  ],
+  "cast": [
+   "Dharmendra",
+   "Amitabh Bachchan",
+   "Sanjeev Kumar",
+   "Amjad Khan",
+   "Hema Malini",
+   "Jaya Bachchan"
+  ],
+  "genres": [
+   "Action"
   ]
  },
  "Shree 420|1955|hindi": {
@@ -4585,7 +8169,7 @@
   "language": "hindi",
   "tmdb_id": 48929,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Shree 420",
   "release_date": "1955-09-06",
   "poster_path": "/nKqpOzyDhZvpGUDkUK8aY4treLg.jpg",
@@ -4593,6 +8177,19 @@
   "runtime": 168,
   "director": [
    "Raj Kapoor"
+  ],
+  "cast": [
+   "Raj Kapoor",
+   "Nargis",
+   "Nemo",
+   "Nadira",
+   "Lalita Pawar",
+   "Iftekhar"
+  ],
+  "genres": [
+   "Romance",
+   "Drama",
+   "Comedy"
   ]
  },
  "Sinhasan|1979|marathi": {
@@ -4601,7 +8198,7 @@
   "language": "marathi",
   "tmdb_id": 310745,
   "match": "confirmed",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sinhasan",
   "release_date": "1979-01-01",
   "poster_path": "/pd7lbXLdqWSstsTf9l3xTSp4CZ0.jpg",
@@ -4609,6 +8206,17 @@
   "runtime": null,
   "director": [
    "Jabbar Patel"
+  ],
+  "cast": [
+   "Shreeram Lagoo",
+   "Mohan Agashe",
+   "Reema Lagoo",
+   "Nana Patekar",
+   "Usha Nadkarni",
+   "Arun Sarnaik"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Sonchiriya|2019|hindi": {
@@ -4617,7 +8225,7 @@
   "language": "hindi",
   "tmdb_id": 535144,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sonchiriya",
   "release_date": "2019-03-01",
   "poster_path": "/7ygikeDbneOlUFIQyvAmMrvi3vJ.jpg",
@@ -4625,6 +8233,19 @@
   "runtime": 145,
   "director": [
    "Abhishek Chaubey"
+  ],
+  "cast": [
+   "Sushant Singh Rajput",
+   "Bhumi Pednekar",
+   "Ashutosh Rana",
+   "Ranvir Shorey",
+   "Manoj Bajpayee",
+   "Khushiya"
+  ],
+  "genres": [
+   "Crime",
+   "Action",
+   "Drama"
   ]
  },
  "Spadikam|1995|malayalam": {
@@ -4633,7 +8254,7 @@
   "language": "malayalam",
   "tmdb_id": 240179,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Spadikam",
   "release_date": "1995-03-30",
   "poster_path": "/1bDOwCzW2cIVtRgeVQKn5ZTzcFf.jpg",
@@ -4641,6 +8262,18 @@
   "runtime": 150,
   "director": [
    "Bhadran"
+  ],
+  "cast": [
+   "Mohanlal",
+   "Thilakan",
+   "KPAC Lalitha",
+   "Rajan P Dev",
+   "Spadikam George",
+   "Urvashi"
+  ],
+  "genres": [
+   "Action",
+   "Drama"
   ]
  },
  "Spy|2023|telugu": {
@@ -4649,7 +8282,7 @@
   "language": "telugu",
   "tmdb_id": 964132,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Spy",
   "release_date": "2023-06-29",
   "poster_path": "/dQstfiK8eMqRHwrgkzx4pk9td1l.jpg",
@@ -4657,6 +8290,18 @@
   "runtime": 135,
   "director": [
    "Garry BH"
+  ],
+  "cast": [
+   "Nikhil Siddhartha",
+   "Iswarya Menon",
+   "Abhinav Gomatam",
+   "Jisshu Sengupta",
+   "Nitin Mehta",
+   "Ravi Varma"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Stanley Ka Dabba|2011|hindi": {
@@ -4665,7 +8310,7 @@
   "language": "hindi",
   "tmdb_id": 68256,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Stanley Ka Dabba",
   "release_date": "2011-05-13",
   "poster_path": "/6ivNFQZCg7ZeDtPK900DD4iwPSc.jpg",
@@ -4673,6 +8318,18 @@
   "runtime": 96,
   "director": [
    "Amole Gupte"
+  ],
+  "cast": [
+   "Partho A. Gupte",
+   "Amole Gupte",
+   "Divya Dutta",
+   "Raj Zutshi",
+   "Walter D'Souza",
+   "Leo Crasto"
+  ],
+  "genres": [
+   "Comedy",
+   "Family"
   ]
  },
  "Stree|2018|hindi": {
@@ -4681,7 +8338,7 @@
   "language": "hindi",
   "tmdb_id": 533991,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Stree",
   "release_date": "2018-08-31",
   "poster_path": "/euhgW6hpDYw7nxFDjqHn0eKvQPX.jpg",
@@ -4689,6 +8346,18 @@
   "runtime": 128,
   "director": [
    "Amar Kaushik"
+  ],
+  "cast": [
+   "Shraddha Kapoor",
+   "Rajkummar Rao",
+   "Aparshakti Khurana",
+   "Abhishek Banerjee",
+   "Flora Saini",
+   "Atul Srivastava"
+  ],
+  "genres": [
+   "Horror",
+   "Comedy"
   ]
  },
  "Subramaniapuram|2008|tamil": {
@@ -4697,7 +8366,7 @@
   "language": "tamil",
   "tmdb_id": 76850,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Subramaniapuram",
   "release_date": "2008-07-04",
   "poster_path": "/n6fX9TDrzNPEYBK6ia1FMz84g2j.jpg",
@@ -4705,6 +8374,19 @@
   "runtime": 145,
   "director": [
    "M. Sasikumar"
+  ],
+  "cast": [
+   "Jai Sampath",
+   "Swathi Reddy",
+   "M. Sasikumar",
+   "Ganja Karuppu",
+   "Samuthirakani",
+   "Maari"
+  ],
+  "genres": [
+   "Drama",
+   "Crime",
+   "Romance"
   ]
  },
  "Sudani from Nigeria|2018|malayalam": {
@@ -4713,7 +8395,7 @@
   "language": "malayalam",
   "tmdb_id": 504314,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sudani from Nigeria",
   "release_date": "2018-03-23",
   "poster_path": "/53yLPoLX8c9nAGLfmnNdF01zrNc.jpg",
@@ -4721,6 +8403,19 @@
   "runtime": 123,
   "director": [
    "Zakariya Mohammed"
+  ],
+  "cast": [
+   "Soubin Shahir",
+   "Samuel Abiola Robinson",
+   "Savithri Sreedharan",
+   "Sarasa Balussery",
+   "K T C Abdullah",
+   "Abhiram Radhakrishnan"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Family"
   ]
  },
  "Sujata|1959|hindi": {
@@ -4729,7 +8424,7 @@
   "language": "hindi",
   "tmdb_id": 82567,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Sujata",
   "release_date": "1959-04-03",
   "poster_path": "/5uFbFWNmExXsspvU0UuAnHhDmLq.jpg",
@@ -4737,6 +8432,18 @@
   "runtime": 161,
   "director": [
    "Bimal Roy"
+  ],
+  "cast": [
+   "Nutan",
+   "Sunil Dutt",
+   "Tarun Bose",
+   "Sulochana Latkar",
+   "Asit Sen",
+   "Shashikala"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Swades|2004|hindi": {
@@ -4745,7 +8452,7 @@
   "language": "hindi",
   "tmdb_id": 15774,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Swades",
   "release_date": "2004-12-17",
   "poster_path": "/yUSL24kpHc9Nls4Pohia4shgcIM.jpg",
@@ -4753,6 +8460,17 @@
   "runtime": 195,
   "director": [
    "Ashutosh Gowariker"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Gayatri Joshi",
+   "Kishori Ballal",
+   "Smit Sheth",
+   "Lekh Tandon",
+   "Rajesh Vivek"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Taal|1999|hindi": {
@@ -4761,7 +8479,7 @@
   "language": "hindi",
   "tmdb_id": 20929,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Taal",
   "release_date": "1999-08-13",
   "poster_path": "/n2VsCd4wPIEMTWQBxBJVKVAOeTk.jpg",
@@ -4769,6 +8487,18 @@
   "runtime": 177,
   "director": [
    "Subhash Ghai"
+  ],
+  "cast": [
+   "Aishwarya Rai Bachchan",
+   "Anil Kapoor",
+   "Akshaye Khanna",
+   "Amrish Puri",
+   "Alok Nath",
+   "Jividha Astha"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Talaash|2012|hindi": {
@@ -4777,7 +8507,7 @@
   "language": "hindi",
   "tmdb_id": 86004,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Talaash",
   "release_date": "2012-11-30",
   "poster_path": "/oCxyN7HmJ7zWp8jtJeMRHABnutF.jpg",
@@ -4785,6 +8515,19 @@
   "runtime": 149,
   "director": [
    "Reema Kagti"
+  ],
+  "cast": [
+   "Aamir Khan",
+   "Kareena Kapoor Khan",
+   "Rani Mukerji",
+   "Nawazuddin Siddiqui",
+   "Rajkummar Rao",
+   "Shernaz Patel"
+  ],
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
   ]
  },
  "Talvar|2015|hindi": {
@@ -4793,7 +8536,7 @@
   "language": "hindi",
   "tmdb_id": 353464,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Talvar",
   "release_date": "2015-10-02",
   "poster_path": "/vye2RxyxXKeTIJBSHo0HkvFuTCR.jpg",
@@ -4801,6 +8544,19 @@
   "runtime": 132,
   "director": [
    "Meghna Gulzar"
+  ],
+  "cast": [
+   "Irrfan Khan",
+   "Konkona Sen Sharma",
+   "Neeraj Kabi",
+   "Prakash Belawadi",
+   "Sohum Shah",
+   "Sumit Gulati"
+  ],
+  "genres": [
+   "Thriller",
+   "Drama",
+   "Mystery"
   ]
  },
  "Thadam|2019|tamil": {
@@ -4809,7 +8565,7 @@
   "language": "tamil",
   "tmdb_id": 505971,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thadam",
   "release_date": "2019-03-01",
   "poster_path": "/mR1Rf4ZaE4iDbvYKwZsvmg2mrBN.jpg",
@@ -4817,6 +8573,19 @@
   "runtime": 138,
   "director": [
    "Magizh Thirumeni"
+  ],
+  "cast": [
+   "Arun Vijay",
+   "Vidhya Pradeep",
+   "Tanya Hope",
+   "Smruthi Venkat",
+   "Fefsi Vijayan",
+   "Sonia Agarwal"
+  ],
+  "genres": [
+   "Crime",
+   "Mystery",
+   "Thriller"
   ]
  },
  "Thalapathi|1991|tamil": {
@@ -4825,7 +8594,7 @@
   "language": "tamil",
   "tmdb_id": 29811,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thalapathi",
   "release_date": "1991-11-05",
   "poster_path": "/dpF1Ck1UvpW0ItT1EoX0xNYEhS8.jpg",
@@ -4833,6 +8602,19 @@
   "runtime": 157,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Rajinikanth",
+   "Mammootty",
+   "Arvind Swamy",
+   "Srividya",
+   "Jaishankar",
+   "Amrish Puri"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Thanga Meenkal|2013|tamil": {
@@ -4841,7 +8623,7 @@
   "language": "tamil",
   "tmdb_id": 218197,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thanga Meenkal",
   "release_date": "2013-08-30",
   "poster_path": "/bXLqVU2qnKViL3hwDOe45wJucah.jpg",
@@ -4849,6 +8631,17 @@
   "runtime": 125,
   "director": [
    "Ram"
+  ],
+  "cast": [
+   "Ram",
+   "Sadhana",
+   "Shelly Kishore",
+   "Rohini",
+   "Padmapriya Janakiraman",
+   "Lizzie Antony"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Thanneer Mathan Dinangal|2019|malayalam": {
@@ -4857,7 +8650,7 @@
   "language": "malayalam",
   "tmdb_id": 618435,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thanneer Mathan Dinangal",
   "release_date": "2019-07-26",
   "poster_path": "/5DbCWsIRUC1j2EG7oxQhoDOhPh2.jpg",
@@ -4865,6 +8658,18 @@
   "runtime": 133,
   "director": [
    "Girish A. D."
+  ],
+  "cast": [
+   "Mathew Thomas",
+   "Anaswara Rajan",
+   "Vineeth Sreenivasan",
+   "Naslen",
+   "Franco Francis",
+   "Vaisakh Vijayan"
+  ],
+  "genres": [
+   "Romance",
+   "Comedy"
   ]
  },
  "The Ghazi Attack|2017|telugu": {
@@ -4873,7 +8678,7 @@
   "language": "telugu",
   "tmdb_id": 442405,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "The Ghazi Attack",
   "release_date": "2017-02-17",
   "poster_path": "/i7lITQa1v7dZZgLIdE8vZRnPhOC.jpg",
@@ -4881,6 +8686,20 @@
   "runtime": 126,
   "director": [
    "Sankalp Reddy"
+  ],
+  "cast": [
+   "Kay Kay Menon",
+   "Rana Daggubati",
+   "Atul Kulkarni",
+   "Taapsee Pannu",
+   "Amitabh Bachchan",
+   "Om Puri"
+  ],
+  "genres": [
+   "Action",
+   "War",
+   "Thriller",
+   "History"
   ]
  },
  "The Great Indian Kitchen|2021|malayalam": {
@@ -4889,7 +8708,7 @@
   "language": "malayalam",
   "tmdb_id": 786064,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "The Great Indian Kitchen",
   "release_date": "2022-07-08",
   "poster_path": "/4jgiaVOGD8sTjWlwBdx8q5JMJM3.jpg",
@@ -4897,6 +8716,17 @@
   "runtime": 100,
   "director": [
    "Jeo Baby"
+  ],
+  "cast": [
+   "Nimisha Sajayan",
+   "Suraj Venjaramoodu",
+   "Ajitha V M",
+   "T. Suresh Babu",
+   "Ramadevi Kannanchery",
+   "Sidhartha Siva"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "The Hero: Love Story of a Spy|2003|hindi": {
@@ -4905,7 +8735,7 @@
   "language": "hindi",
   "tmdb_id": 271677,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "The Hero: Love Story of a Spy",
   "release_date": "2003-04-10",
   "poster_path": "/f1tNXXHZwPRCiP94P7sB0NeNSRT.jpg",
@@ -4913,6 +8743,20 @@
   "runtime": 160,
   "director": [
    "Anil Sharma"
+  ],
+  "cast": [
+   "Sunny Deol",
+   "Preity Zinta",
+   "Priyanka Chopra Jonas",
+   "Amrish Puri",
+   "Kabir Bedi",
+   "Parvin Dabas"
+  ],
+  "genres": [
+   "Thriller",
+   "Action",
+   "Adventure",
+   "Romance"
   ]
  },
  "Thillu Mullu|1981|tamil": {
@@ -4921,7 +8765,7 @@
   "language": "tamil",
   "tmdb_id": 66402,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thillu Mullu",
   "release_date": "1981-05-01",
   "poster_path": "/9ECMeSTG2Qdi2PpjgGcvlgLpP8T.jpg",
@@ -4929,6 +8773,18 @@
   "runtime": 145,
   "director": [
    "K. Balachander"
+  ],
+  "cast": [
+   "Rajinikanth",
+   "Madhavi",
+   "Sowcar Janaki",
+   "Poornam Viswanathan",
+   "Viji Chandrasekhar",
+   "Thengai Srinivasan"
+  ],
+  "genres": [
+   "Comedy",
+   "Romance"
   ]
  },
  "Thondimuthalum Driksakshiyum|2017|malayalam": {
@@ -4937,7 +8793,7 @@
   "language": "malayalam",
   "tmdb_id": 459719,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thondimuthalum Driksakshiyum",
   "release_date": "2017-06-30",
   "poster_path": "/ki1EguwPuXM1t4UTDuaBqD8BLJi.jpg",
@@ -4945,6 +8801,19 @@
   "runtime": 136,
   "director": [
    "Dileesh Pothan"
+  ],
+  "cast": [
+   "Fahadh Faasil",
+   "Suraj Venjaramoodu",
+   "Nimisha Sajayan",
+   "Alencier Ley Lopez",
+   "Vettukili Prakash",
+   "Mini K.S"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Thriller"
   ]
  },
  "Thuppakki|2012|tamil": {
@@ -4953,7 +8822,7 @@
   "language": "tamil",
   "tmdb_id": 143010,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Thuppakki",
   "release_date": "2012-11-13",
   "poster_path": "/uTQNCqMnSDbZghFYNmzDvTVD413.jpg",
@@ -4961,6 +8830,18 @@
   "runtime": 170,
   "director": [
    "A. R. Murugadoss"
+  ],
+  "cast": [
+   "Vijay",
+   "Kajal Aggarwal",
+   "Vidyut Jammwal",
+   "Sathyan",
+   "Jayaram",
+   "Zakir Hussain"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Tiger Zinda Hai|2017|hindi": {
@@ -4969,7 +8850,7 @@
   "language": "hindi",
   "tmdb_id": 441909,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Tiger Zinda Hai",
   "release_date": "2017-12-18",
   "poster_path": "/mdzNLFfCfuBoJz43l0SmMWWdu5t.jpg",
@@ -4977,6 +8858,19 @@
   "runtime": 160,
   "director": [
    "Ali Abbas Zafar"
+  ],
+  "cast": [
+   "Salman Khan",
+   "Katrina Kaif",
+   "Girish Karnad",
+   "Paresh Rawal",
+   "Angad Bedi",
+   "Kumud Mishra"
+  ],
+  "genres": [
+   "Action",
+   "Adventure",
+   "Thriller"
   ]
  },
  "Timepass|2014|marathi": {
@@ -4985,7 +8879,7 @@
   "language": "marathi",
   "tmdb_id": 249677,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Timepass",
   "release_date": "2014-01-03",
   "poster_path": "/w2IaW55uiJNQTjsdoJU82Uk0Mn.jpg",
@@ -4993,6 +8887,17 @@
   "runtime": 143,
   "director": [
    "Ravi Jadhav"
+  ],
+  "cast": [
+   "Prathamesh Parab",
+   "Ketaki Mategaonkar",
+   "Vaibhav Mangle",
+   "Meghana Erande",
+   "Bhalchandra Kadam"
+  ],
+  "genres": [
+   "Romance",
+   "Comedy"
   ]
  },
  "Tumbbad|2018|hindi": {
@@ -5001,7 +8906,7 @@
   "language": "hindi",
   "tmdb_id": 538858,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Tumbbad",
   "release_date": "2018-10-12",
   "poster_path": "/z1xOCxw780WFJC5uCTMfCkQ4Agi.jpg",
@@ -5009,6 +8914,18 @@
   "runtime": 113,
   "director": [
    "Rahi Anil Barve"
+  ],
+  "cast": [
+   "Sohum Shah",
+   "Mohammad Samad",
+   "Harsh K.",
+   "Jyoti Malshe",
+   "Dhundiraj Prabhakar Jogalekar",
+   "Rudra Soni"
+  ],
+  "genres": [
+   "Fantasy",
+   "Horror"
   ]
  },
  "U Turn|2016|kannada": {
@@ -5017,7 +8934,7 @@
   "language": "kannada",
   "tmdb_id": 397490,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "U Turn",
   "release_date": "2016-05-20",
   "poster_path": "/fjl9czd3zj0QpeaXAysAGwM9UrD.jpg",
@@ -5025,6 +8942,20 @@
   "runtime": 121,
   "director": [
    "Pawan Kumar"
+  ],
+  "cast": [
+   "Shraddha Srinath",
+   "Skanda Ashok",
+   "Roger Narayan",
+   "Dilip Raj",
+   "Radhika Narayan",
+   "Pramod Shetty"
+  ],
+  "genres": [
+   "Mystery",
+   "Thriller",
+   "Crime",
+   "Horror"
   ]
  },
  "Udaan|2010|hindi": {
@@ -5033,7 +8964,7 @@
   "language": "hindi",
   "tmdb_id": 45316,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Udaan",
   "release_date": "2010-06-17",
   "poster_path": "/8dQmrGk0WRPiCwiiGdIxnY5s8Pc.jpg",
@@ -5041,6 +8972,17 @@
   "runtime": 138,
   "director": [
    "Vikramaditya Motwane"
+  ],
+  "cast": [
+   "Ronit Roy",
+   "Rajat Barmecha",
+   "Aayan Boradia",
+   "Ram Kapoor",
+   "Manjot Singh",
+   "Anand Tiwari"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Ulidavaru Kandanthe|2014|kannada": {
@@ -5049,7 +8991,7 @@
   "language": "kannada",
   "tmdb_id": 262476,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ulidavaru Kandanthe",
   "release_date": "2014-03-28",
   "poster_path": "/b7Ee4DKKhNVYNV84rovdqcWXjgt.jpg",
@@ -5057,6 +8999,19 @@
   "runtime": 154,
   "director": [
    "Rakshit Shetty"
+  ],
+  "cast": [
+   "Rakshit Shetty",
+   "Kishore",
+   "Tara",
+   "Yagna Shetty",
+   "Achyuth Kumar",
+   "Pramod Shetty"
+  ],
+  "genres": [
+   "Romance",
+   "Drama",
+   "Thriller"
   ]
  },
  "Uri: The Surgical Strike|2019|hindi": {
@@ -5065,7 +9020,7 @@
   "language": "hindi",
   "tmdb_id": 554600,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Uri: The Surgical Strike",
   "release_date": "2019-01-11",
   "poster_path": "/yNySAgpAnWmPpYinim9E0tUzJWG.jpg",
@@ -5073,6 +9028,19 @@
   "runtime": 138,
   "director": [
    "Aditya Dhar"
+  ],
+  "cast": [
+   "Vicky Kaushal",
+   "Paresh Rawal",
+   "Yami Gautam Dhar",
+   "Mohit Raina",
+   "Kirti Kulhari",
+   "Dhairya Karwa"
+  ],
+  "genres": [
+   "Action",
+   "Drama",
+   "War"
   ]
  },
  "Ustad Hotel|2012|malayalam": {
@@ -5081,7 +9049,7 @@
   "language": "malayalam",
   "tmdb_id": 117751,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Ustad Hotel",
   "release_date": "2012-06-29",
   "poster_path": "/88QYspKRArRutF3t0Bzj0JYFlcI.jpg",
@@ -5089,6 +9057,18 @@
   "runtime": 150,
   "director": [
    "Anwar Rasheed"
+  ],
+  "cast": [
+   "Dulquer Salmaan",
+   "Thilakan",
+   "Nithya Menen",
+   "Siddique",
+   "Mamukkoya",
+   "Jayaprakash"
+  ],
+  "genres": [
+   "Drama",
+   "Comedy"
   ]
  },
  "Vaaranam Aayiram|2008|tamil": {
@@ -5097,7 +9077,7 @@
   "language": "tamil",
   "tmdb_id": 38637,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vaaranam Aayiram",
   "release_date": "2008-11-14",
   "poster_path": "/3PxkiDTObsws7pzkdUiHCjOxVA4.jpg",
@@ -5105,6 +9085,18 @@
   "runtime": 169,
   "director": [
    "Gautham Vasudev Menon"
+  ],
+  "cast": [
+   "Suriya",
+   "Simran",
+   "Divya Spandana",
+   "Sameera Reddy",
+   "Babloo Prithiveeraj",
+   "Deepa Narendra"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Vaastav|1999|hindi": {
@@ -5113,7 +9105,7 @@
   "language": "hindi",
   "tmdb_id": 146270,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vaastav",
   "release_date": "1999-10-07",
   "poster_path": "/fsB57eZ0EJ9nXLxgfjQG9iYiswH.jpg",
@@ -5121,6 +9113,19 @@
   "runtime": 150,
   "director": [
    "Mahesh Manjrekar"
+  ],
+  "cast": [
+   "Sanjay Dutt",
+   "Namrata Shirodkar",
+   "Deepak Tijori",
+   "Sanjay Narvekar",
+   "Paresh Rawal",
+   "Shivaji Satham"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Drama"
   ]
  },
  "Vallinam|2014|tamil": {
@@ -5129,7 +9134,7 @@
   "language": "tamil",
   "tmdb_id": 79356,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vallinam",
   "release_date": "2014-02-28",
   "poster_path": "/u3cafU0k1qGLDhlTBdifaDvoQnv.jpg",
@@ -5137,6 +9142,18 @@
   "runtime": 147,
   "director": [
    "Arivazhagan Venkatachalam"
+  ],
+  "cast": [
+   "Nakul",
+   "Mrudhula bhaskar",
+   "Atul Kulkarni",
+   "Chandru",
+   "Jagan",
+   "Anupama Kumar"
+  ],
+  "genres": [
+   "Action",
+   "Drama"
   ]
  },
  "Varane Avashyamund|2020|malayalam": {
@@ -5145,7 +9162,7 @@
   "language": "malayalam",
   "tmdb_id": 659731,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Varane Avashyamund",
   "release_date": "2020-02-07",
   "poster_path": "/7CzcHo5GeqScKLFBC7p5Yyxnehk.jpg",
@@ -5153,6 +9170,19 @@
   "runtime": 145,
   "director": [
    "Anoop Sathyan"
+  ],
+  "cast": [
+   "Suresh Gopi",
+   "Shobana",
+   "Dulquer Salmaan",
+   "Kalyani Priyadarshan",
+   "Urvashi",
+   "KPAC Lalitha"
+  ],
+  "genres": [
+   "Comedy",
+   "Family",
+   "Romance"
   ]
  },
  "Veer-Zaara|2004|hindi": {
@@ -5161,7 +9191,7 @@
   "language": "hindi",
   "tmdb_id": 4251,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Veer-Zaara",
   "release_date": "2004-11-12",
   "poster_path": "/j267YqLvKAHeyykTflxzpgVgviQ.jpg",
@@ -5169,6 +9199,18 @@
   "runtime": 192,
   "director": [
    "Yash Chopra"
+  ],
+  "cast": [
+   "Shah Rukh Khan",
+   "Preity Zinta",
+   "Rani Mukerji",
+   "Kirron Kher",
+   "Divya Dutta",
+   "Boman Irani"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Vijeta|1982|hindi": {
@@ -5177,7 +9219,7 @@
   "language": "hindi",
   "tmdb_id": 238134,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vijeta",
   "release_date": "1982-03-04",
   "poster_path": "/soeLYpXlIFupYr51Q3oKNBUjHpx.jpg",
@@ -5185,6 +9227,17 @@
   "runtime": 151,
   "director": [
    "Govind Nihalani"
+  ],
+  "cast": [
+   "Shashi Kapoor",
+   "Rekha",
+   "Kunal Kapoor",
+   "Supriya Pathak",
+   "Amrish Puri",
+   "Om Puri"
+  ],
+  "genres": [
+   "Drama"
   ]
  },
  "Vikram|2022|tamil": {
@@ -5193,7 +9246,7 @@
   "language": "tamil",
   "tmdb_id": 743563,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vikram",
   "release_date": "2022-06-02",
   "poster_path": "/774UV1aCURb4s4JfEFg3IEMu5Zj.jpg",
@@ -5201,6 +9254,19 @@
   "runtime": 174,
   "director": [
    "Lokesh Kanagaraj"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Fahadh Faasil",
+   "Vijay Sethupathi",
+   "Suriya",
+   "Narain",
+   "Chemban Vinod Jose"
+  ],
+  "genres": [
+   "Action",
+   "Crime",
+   "Thriller"
   ]
  },
  "Vinnaithaandi Varuvaayaa|2010|tamil": {
@@ -5209,7 +9275,7 @@
   "language": "tamil",
   "tmdb_id": 37941,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vinnaithaandi Varuvaayaa",
   "release_date": "2010-02-26",
   "poster_path": "/AldNCoRJlhkzkBzKPmUalBdRCts.jpg",
@@ -5217,6 +9283,18 @@
   "runtime": 157,
   "director": [
    "Gautham Vasudev Menon"
+  ],
+  "cast": [
+   "Silambarasan",
+   "Trisha Krishnan",
+   "VTV Ganesh",
+   "Babu Antony",
+   "Lakshmy Ramakrishnan",
+   "Kitty"
+  ],
+  "genres": [
+   "Drama",
+   "Romance"
   ]
  },
  "Virupaksha|2023|telugu": {
@@ -5225,7 +9303,7 @@
   "language": "telugu",
   "tmdb_id": 1034590,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Virupaksha",
   "release_date": "2023-04-20",
   "poster_path": "/fqMn4h9ctOyumII2nXDnm5mRTxQ.jpg",
@@ -5233,6 +9311,19 @@
   "runtime": 146,
   "director": [
    "Karthik Varma Dandu"
+  ],
+  "cast": [
+   "Sai Durgha Tej",
+   "Samyuktha",
+   "Brahmaji",
+   "Rajeev Kanakala",
+   "Ravi Krishna",
+   "Sai Chand"
+  ],
+  "genres": [
+   "Horror",
+   "Mystery",
+   "Thriller"
   ]
  },
  "Vishwaroopam|2013|tamil": {
@@ -5241,7 +9332,7 @@
   "language": "tamil",
   "tmdb_id": 117319,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Vishwaroopam",
   "release_date": "2013-01-25",
   "poster_path": "/6j0ie6qImOH0ndS7uaZb4879PwC.jpg",
@@ -5249,6 +9340,18 @@
   "runtime": 147,
   "director": [
    "Kamal Haasan"
+  ],
+  "cast": [
+   "Kamal Haasan",
+   "Rahul Bose",
+   "Andrea Jeremiah",
+   "Pooja Kumar",
+   "Shekhar Kapur",
+   "Jaideep Ahlawat"
+  ],
+  "genres": [
+   "Action",
+   "Thriller"
   ]
  },
  "Wake Up Sid|2009|hindi": {
@@ -5257,7 +9360,7 @@
   "language": "hindi",
   "tmdb_id": 21297,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Wake Up Sid",
   "release_date": "2009-10-02",
   "poster_path": "/1UpgW67W6Do0xizTuE26bMQFLdL.jpg",
@@ -5265,6 +9368,19 @@
   "runtime": 138,
   "director": [
    "Ayan Mukerji"
+  ],
+  "cast": [
+   "Ranbir Kapoor",
+   "Konkona Sen Sharma",
+   "Rahul Khanna",
+   "Anupam Kher",
+   "Supriya Pathak",
+   "Namit Das"
+  ],
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
   ]
  },
  "War|2019|hindi": {
@@ -5273,7 +9389,7 @@
   "language": "hindi",
   "tmdb_id": 585268,
   "match": "pinned",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "War",
   "release_date": "2019-10-02",
   "poster_path": "/zpN2QYgiCNzG11k0tG3qfILgFYE.jpg",
@@ -5281,6 +9397,19 @@
   "runtime": 152,
   "director": [
    "Siddharth Anand"
+  ],
+  "cast": [
+   "Hrithik Roshan",
+   "Tiger Shroff",
+   "Vaani Kapoor",
+   "Ashutosh Rana",
+   "Anupriya Goenka",
+   "Soni Razdan"
+  ],
+  "genres": [
+   "Action",
+   "Thriller",
+   "Adventure"
   ]
  },
  "Yuva|2004|hindi": {
@@ -5289,7 +9418,7 @@
   "language": "hindi",
   "tmdb_id": 43410,
   "match": "auto",
-  "fetched_at": "2026-11-26",
+  "fetched_at": "2026-11-27",
   "tmdb_title": "Yuva",
   "release_date": "2004-05-22",
   "poster_path": "/m3h7iSCBBFT40IZYuh3IjJN6fjE.jpg",
@@ -5297,6 +9426,18 @@
   "runtime": 161,
   "director": [
    "Mani Ratnam"
+  ],
+  "cast": [
+   "Ajay Devgn",
+   "Abhishek Bachchan",
+   "Vivek Oberoi",
+   "Rani Mukerji",
+   "Kareena Kapoor Khan",
+   "Esha Deol"
+  ],
+  "genres": [
+   "Drama",
+   "Crime"
   ]
  }
 }
