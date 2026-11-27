@@ -44,6 +44,13 @@ non-existent element is one `<div>` away from going live again.
   the editor's approval. Run with `--refresh` at least every six months (TMDb
   cache limit; first fetched 2026-11-26). `data/films/` is an unrelated, unused
   backend export.
+- Search: `js/search-engine.js` + `pages/search.html`. It answers only from lists,
+  notes, reviews, bridges and `film-db.json`, and shows why each film was picked.
+  **It does not use `data/mood` rasa tags** until the editor confirms them (they
+  came from the prototype export; Drishyam is tagged Hasya).
+- `data/bridges.json` ("liked X, try Y") and `watch_with` in `data/reviews.json`
+  are editorial. Never write or suggest-and-save them without the editor's words.
+  Bridge shape: `{"from":{title,year,language},"to":{...},"why":"..."}`.
 - `data/mood/*.json` — the nine rasas.
 - `data/reviews.json` — one entry per published review page, fields copied from
   the page itself (score box, og:description, byline date). Add an entry when a

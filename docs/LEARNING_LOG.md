@@ -502,3 +502,44 @@ two answers are possible turns a recurring bug into a one-time editorial check.
   detail pages, which are live by nature or outside the lists.
 - `data/films/` (84 files, an old backend export) is read by no page and was left
   alone; the new file is named `film-db.json` to keep the two apart.
+
+## 2026-11-27 — Invented content on the live reviews; search and a reviews-first homepage
+
+**What happened:**
+
+Both published reviews carried content nobody wrote. Dhamaal 4 showed IMDb 6.4
+and RT 68% — the review template's sample numbers. Both advertised reviews that
+did not exist, with scores, plus a Hindi romance sidebar. The homepage had a
+News tab of six typed headlines, film pages labelled the TMDb vote "IMDb", and
+on four pages the phone menu button did nothing (bound twice, so every tap
+opened and closed it). All fixed; external scores dropped at Mahe's request.
+
+Then, also at Mahe's request: a search box leading the homepage (mood and "films
+like X" over our own curation, no AI), the latest reviews directly under it, and
+editor-written "Watch with" and "Liked it? Try" blocks that stay hidden until
+filled. A "How we score" page is drafted in `docs/drafts/` pending confirmation
+of its promises.
+
+**Concept:**
+
+A template with realistic sample values publishes them. "Dhamaal 4" was made by
+copying the template and replacing what the brief named; everything the brief
+did not name went live as fact. Placeholders now look like placeholders
+(`[SCORE]`), and shared blocks are filled from data, not copied markup.
+
+Search follows the same rule as the rest of the site: it may only combine what
+the editor wrote with checkable facts, and must show which.
+
+**Traps:**
+
+- An earlier pass recorded the external scores as "probably real" without
+  comparing them to the template. Compare a published page against its template.
+- "Fixed" menus had never been clicked: the markup was added in July, and the
+  double binding made it inert. Test behaviour, not presence.
+- The rasa tags in `data/mood` look curated but include plainly wrong ones, and
+  the Mood page shows them today. Needs an editor pass.
+- Score bands disagree: the guide says "Worth watching" from 70, the code turns
+  amber at 65. Open question.
+- `pages/youtube.html` requests a script that does not exist and claims 48
+  channels; `article.html`, `ott-template.html` and `bestof-template.html` still
+  deploy with invented rankings and scores. Awaiting a decision to remove them.
