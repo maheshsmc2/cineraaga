@@ -174,26 +174,11 @@
         <a href="mood.html?rasa=karuna" class="article-cta-btn">Try mood search →</a>
       </div>
 
-      <!-- RELATED REVIEWS -->
-      <div class="related-articles">
-        <div class="related-title">More reviews</div>
-        <div class="related-grid">
-          <a href="article.html" class="related-card">
-            <div class="related-card-tag">Hindi · 2025</div>
-            <div class="related-card-title">Dhurandhar: The Revenge Review</div>
-            <div class="related-card-count">Navras 78/100</div>
-          </a>
-          <a href="article.html" class="related-card">
-            <div class="related-card-tag">Telugu · 2024</div>
-            <div class="related-card-title">Kalki 2898-AD Review</div>
-            <div class="related-card-count">Navras 74/100</div>
-          </a>
-          <a href="article.html" class="related-card">
-            <div class="related-card-tag">Hindi · 2025</div>
-            <div class="related-card-title">Best Hindi Films of 2025</div>
-            <div class="related-card-count">15 films ranked</div>
-          </a>
-        </div>
+      <!-- MORE FROM CINERAAGA — filled by js/review-more.js from published
+           reviews and lists. Don't type cards in here. -->
+      <div class="related-articles" id="moreFromCineraaga" hidden>
+        <div class="related-title">More from CineRaaga</div>
+        <div class="related-grid"></div>
       </div>
 
     </main>
@@ -207,16 +192,6 @@
           <div class="sg-row"><div class="sg-box green">85+</div><span>Must watch</span></div>
           <div class="sg-row"><div class="sg-box amber">70+</div><span>Worth watching</span></div>
           <div class="sg-row"><div class="sg-box red">Below 70</div><span>Mixed — your call</span></div>
-        </div>
-      </div>
-
-      <div class="sidebar-widget">
-        <div class="sw-title">More Hindi romance</div>
-        <div class="sw-links">
-          <a href="article.html" class="sw-link">Dilwale Dulhania Le Jayenge →</a>
-          <a href="article.html" class="sw-link">Jab We Met →</a>
-          <a href="article.html" class="sw-link">Tamasha →</a>
-          <a href="article.html" class="sw-link">Rockstar →</a>
         </div>
       </div>
 
@@ -257,6 +232,7 @@
   <script src="../js/config.js"></script>
   <script src="../js/tmdb.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/review-more.js"></script>
   <script>
     // Auto-load poster from TMDb
     document.addEventListener('DOMContentLoaded', () => {

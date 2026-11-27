@@ -153,17 +153,6 @@
 .rv-score-num { font-size: 26px; font-weight: 700; line-height: 1; }
 .rv-score-label { font-size: 8px; font-weight: 600; opacity: 0.85; margin-top: 2px; }
 
-.rv-ext-score {
-  text-align: center;
-  padding: 8px 14px;
-  background: var(--ink2);
-  border: 0.5px solid var(--ink3);
-  border-radius: 8px;
-}
-
-.rv-ext-num { font-size: 18px; font-weight: 600; color: var(--text); }
-.rv-ext-label { font-size: 10px; color: var(--text-muted); margin-top: 2px; }
-
 /* Where to watch */
 .rv-watch-row {
   display: flex; align-items: center;
