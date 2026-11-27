@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="../images/brand/cineraaga-favicon.png" />
+  <title>Search by mood or similar film | CineRaaga</title>
+  <meta name="robots" content="noindex, follow" />
+  <meta name="description" content="Search CineRaaga's hand-ranked Indian films by mood, language, decade or a film you liked." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/search.css" />
+</head>
+<body>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <nav class="nav">
+    <div class="nav-masthead">
+      <a href="../index.html" class="nav-logo">
+        <img src="../images/brand/cineraaga-logo-nav.png" alt="CineRaaga" class="nav-logo-img" />
+      </a>
+      <div class="nav-links">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="browse.html" class="nav-link">Browse</a>
+      <a href="mood.html" class="nav-link">Mood Search</a>
+      <a href="lists.html" class="nav-link">Lists</a>
+      </div>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Switch theme">
+        <span class="toggle-icon" id="toggleIcon">🌙</span>
+        <span class="toggle-label" id="toggleLabel">Dark</span>
+      </button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="../index.html" class="mobile-link">Home</a>
+    <a href="browse.html" class="mobile-link">Browse</a>
+    <a href="mood.html" class="mobile-link">Mood Search</a>
+    <a href="lists.html" class="mobile-link">Lists</a>
+  </div>
+
+  <!-- SEARCH — mood and "films like" search over CineRaaga's own lists and
+       reviews (pages/search.html, js/search-engine.js). -->
+  <section class="cr-search">
+    <div class="cr-search-inner">
+      <h1 class="cr-search-title">How do you want to feel?</h1>
+      <form class="cr-search-form" id="searchForm" action="search.html" method="get" role="search">
+        <input type="search" id="searchInput" name="q" placeholder="A mood, a language, or films like Drishyam" aria-label="Search by mood or similar film" autocomplete="off" />
+        <button type="submit">Search</button>
+      </form>
+      <div class="cr-search-hints">
+        <a href="search.html?q=films+like+Drishyam" data-q="films like Drishyam">films like Drishyam</a>
+        <a href="search.html?q=funny+Tamil+films" data-q="funny Tamil films">funny Tamil films</a>
+        <a href="search.html?q=tense+thriller+from+the+2010s" data-q="tense thriller from the 2010s">tense thriller from the 2010s</a>
+        <a href="search.html?q=sad+Malayalam+films" data-q="sad Malayalam films">sad Malayalam films</a>
+        <a href="search.html?q=Shah+Rukh+Khan+romance" data-q="Shah Rukh Khan romance">Shah Rukh Khan romance</a>
+      </div>
+      <div class="cr-search-scope">Searches the films in CineRaaga's lists and reviews, and shows why each one was picked.</div>
+    </div>
+  </section>
+
+  <main class="sr-wrap" id="searchResults" aria-live="polite"></main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">CineRaaga</div>
+        <div class="footer-tagline">All art forms. All languages. All emotions.</div>
+      </div>
+      <div class="footer-links-grid">
+        <div class="footer-col">
+          <div class="footer-col-title">Discover</div>
+          <a href="browse.html">Browse films</a>
+          <a href="mood.html">Mood search</a>
+          <a href="lists.html">Lists</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 CineRaaga. Built with love for Indian cinema.</span>
+      <span class="tmdb-attribution">
+        <a href="https://www.themoviedb.org" target="_blank" rel="noopener noreferrer">
+          <img src="../images/brand/tmdb-attribution.svg" alt="TMDB" class="tmdb-logo" />
+        </a>
+        This product uses the TMDB API but is not endorsed or certified by TMDB.
+      </span>
+      <span>Privacy · Terms</span>
+    </div>
+  </footer>
+
+  <div class="tricolour"><span></span><span></span><span></span></div>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/search-engine.js"></script>
+  <script src="../js/search.js"></script>
+</body>
+</html>
