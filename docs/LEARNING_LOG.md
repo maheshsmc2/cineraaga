@@ -543,3 +543,35 @@ the editor wrote with checkable facts, and must show which.
 - `pages/youtube.html` requests a script that does not exist and claims 48
   channels; `article.html`, `ott-template.html` and `bestof-template.html` still
   deploy with invented rankings and scores. Awaiting a decision to remove them.
+
+## 2026-11-27 — Third review, reading theme and a shorter review format
+
+**What happened:**
+
+Published the Ramayana review (75; Veera, Adbhuta) from Mahe's draft. Mahe then
+asked, in turn, for: white pages with black text (reviews only — the homepage and
+other pages stay dark), rasa artwork on reviews, and a format that reads less
+like a long routine essay. The review and template now answer five short
+questions plus "Should you watch it?", show each rasa beside the moment that
+evoked it, and fold the longer text away.
+
+While adding the review, found Browse still showing Dhamaal 4 as 62 (the review
+says 42): two files special-cased one TMDb id with a typed-in score. Both now
+read `data/reviews.json`.
+
+**Concept:**
+
+Samples before changes. Three formats were mocked up from Mahe's own sentences,
+and the choice was made on something visible rather than described. A request
+about one page ("white background") is not a request about the site: the first
+attempt made every page light and had to be narrowed.
+
+**Traps:**
+
+- A score typed into code goes stale the moment the review changes. Scores come
+  from `reviews.json` only.
+- Rasa artwork is ~2 MB per file; pages use `images/rasas/small/`.
+- Condensing an editor's sentences changes their wording. Each rewording was
+  listed for approval; keep doing that.
+- Right after a deploy the HTML and CSS can briefly be from different versions;
+  verify both before concluding anything.
