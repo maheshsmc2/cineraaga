@@ -163,6 +163,11 @@
   font-size: 12px; color: var(--text-muted); font-weight: 500;
 }
 
+.rv-watch-caution { font-size: 12px; color: var(--text-muted); }
+
+.rv-bridges { margin-bottom: 28px; }
+.rv-bridge-link { color: var(--gold); font-weight: 600; }
+
 /* Share row */
 .rv-share-row {
   display: flex; align-items: center;

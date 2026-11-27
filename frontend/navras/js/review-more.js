@@ -9,6 +9,51 @@
    the block stays hidden.
    =========================== */
 
+/* Two optional editor-written blocks, each shown only once filled in:
+   "Watch with" (data/reviews.json → watch_with) and "Liked it? Try"
+   (data/bridges.json). Neither is ever generated. */
+(async function () {
+  const header = document.querySelector('.rv-header-info');
+  const watchRow = header && header.querySelector('.rv-watch-row');
+  const here = location.pathname.split('/').pop().replace(/\.html$/, '');
+  const json = url => fetch(url).then(r => (r.ok ? r.json() : null)).catch(() => null);
+  const [reviews, bridges] = await Promise.all([json('../data/reviews.json'), json('../data/bridges.json')]);
+  const review = (reviews || []).find(r => r.slug === here);
+  if (!review) return;
+
+  const el = (tag, className, text) => {
+    const node = document.createElement(tag);
+    if (className) node.className = className;
+    if (text) node.textContent = text;
+    return node;
+  };
+
+  const watch = review.watch_with || {};
+  if (header && watch.who) {
+    const row = el('div', 'rv-watch-row');
+    row.append(el('span', 'rv-watch-label', 'Watch with:'), el('span', 'afe-watch-badge ott', watch.who));
+    if (watch.caution) row.append(el('span', 'rv-watch-caution', watch.caution));
+    header.insertBefore(row, watchRow ? watchRow.nextSibling : null);
+  }
+
+  const same = f => f && f.title.toLowerCase() === review.title.toLowerCase() && Number(f.year) === review.year;
+  const picks = (bridges || []).filter(b => same(b.from) || same(b.to));
+  const before = document.getElementById('moreFromCineraaga');
+  if (picks.length && before) {
+    const box = el('div', 'rv-bridges');
+    box.append(el('div', 'rv-section-head', 'Liked it? Try'));
+    picks.forEach(b => {
+      const other = same(b.from) ? b.to : b.from;
+      const p = el('p', 'rv-para');
+      const link = el('a', 'rv-bridge-link', `${other.title} (${other.year}, ${other.language})`);
+      link.href = `search.html?q=${encodeURIComponent(other.title)}`;
+      p.append(link, document.createTextNode(` — ${b.why}`));
+      box.append(p);
+    });
+    before.parentElement.insertBefore(box, before);
+  }
+})();
+
 (async function () {
   const section = document.getElementById('moreFromCineraaga');
   const grid = section && section.querySelector('.related-grid');

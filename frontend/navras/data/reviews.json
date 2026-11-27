@@ -8,7 +8,12 @@
     "navras_score": 68,
     "score_class": "amber",
     "tagline": "Samantha shines in a warm family drama that stumbles in its bigger moments.",
-    "published": "2026-07"
+    "published": "2026-07",
+    "verdict": "Samantha and Nandini Reddy's eye for household detail carry a film that stumbles in its flashback and climax.",
+    "watch_with": {
+      "who": "",
+      "caution": ""
+    }
   },
   {
     "slug": "dhamaal-4-2026",
@@ -19,6 +24,11 @@
     "navras_score": 42,
     "score_class": "red",
     "tagline": "Loud, cheerful, instantly forgettable — save it for OTT.",
-    "published": "2026-07"
+    "published": "2026-07",
+    "verdict": "A harmless one-time watch — save it for OTT, and only when your hands are busy with something else.",
+    "watch_with": {
+      "who": "",
+      "caution": ""
+    }
   }
 ]
