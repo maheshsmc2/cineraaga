@@ -204,11 +204,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     banner.hidden = true;
   }
 
-  const hamburger = document.getElementById('hamburger');
-  const mobileMenu = document.getElementById('mobileMenu');
-  if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
-  }
 });
 
 /* ---- Render featured banner text from the real list data — no more
