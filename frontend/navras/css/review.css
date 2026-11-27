@@ -60,7 +60,7 @@
 }
 
 .rv-score-badge.green { background: #1A7A3C; }
-.rv-score-badge.amber { background: #C47A00; }
+.rv-score-badge.amber { background: #9A6000; }
 .rv-score-badge.red { background: #C0392B; }
 
 .rv-rasa-badge {
@@ -147,11 +147,11 @@
 }
 
 .rv-navras-score.green { background: #1A7A3C; }
-.rv-navras-score.amber { background: #C47A00; }
+.rv-navras-score.amber { background: #9A6000; }
 .rv-navras-score.red { background: #C0392B; }
 
 .rv-score-num { font-size: 26px; font-weight: 700; line-height: 1; }
-.rv-score-label { font-size: 8px; font-weight: 600; opacity: 0.85; margin-top: 2px; }
+.rv-score-label { font-size: 8px; font-weight: 600; margin-top: 2px; }
 
 /* Where to watch */
 .rv-watch-row {
@@ -230,8 +230,8 @@
 .rv-body { margin-bottom: 24px; }
 
 .rv-para {
-  font-size: 15px; color: var(--text-muted);
-  line-height: 1.8; margin-bottom: 14px;
+  font-size: 17px; color: var(--text);
+  line-height: 1.75; margin-bottom: 18px;
 }
 
 .rv-section-head {

@@ -155,7 +155,7 @@
 }
 
 .afe-score.green { background: #1A7A3C; }
-.afe-score.amber { background: #C47A00; }
+.afe-score.amber { background: #9A6000; }
 .afe-score.red { background: #C0392B; }
 
 /* Content */
@@ -334,7 +334,7 @@
 }
 
 .sg-box.green { background: #1A7A3C; }
-.sg-box.amber { background: #C47A00; }
+.sg-box.amber { background: #9A6000; }
 .sg-box.red { background: #C0392B; }
 
 /* Links */
@@ -391,7 +391,7 @@
 }
 
 .sw-trend-score.green { color: #1A7A3C; }
-.sw-trend-score.amber { color: #C47A00; }
+.sw-trend-score.amber { color: #9A6000; }
 
 /* ---- RESPONSIVE ---- */
 @media (max-width: 900px) {

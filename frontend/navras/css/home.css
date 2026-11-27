@@ -122,7 +122,7 @@
 }
 
 .cinema-score.green { background: #1A7A3C; }
-.cinema-score.amber { background: #C47A00; }
+.cinema-score.amber { background: #9A6000; }
 .cinema-score.red { background: #C0392B; }
 .cinema-score-sub { display: none; }
 
@@ -181,7 +181,7 @@
 }
 
 .rr-score.green { background: #1A7A3C; }
-.rr-score.amber { background: #C47A00; }
+.rr-score.amber { background: #9A6000; }
 .rr-score.red { background: #C0392B; }
 .rr-score-num { font-size: 20px; line-height: 1; }
 .rr-score-lbl { font-size: 7px; font-weight: 500; opacity: 0.85; margin-top: 2px; }
@@ -573,7 +573,7 @@
 }
 
 .carousel-score.green { background: #1A7A3C; }
-.carousel-score.amber { background: #C47A00; }
+.carousel-score.amber { background: #9A6000; }
 .carousel-score.red { background: #C0392B; }
 .carousel-score-num { font-size: 22px; line-height: 1; }
 .carousel-score-lbl { font-size: 8px; font-weight: 600; opacity: 0.85; margin-top: 2px; }
@@ -716,7 +716,7 @@
 }
 
 .tli-score-icon.green { background: #1A7A3C; color: #fff; }
-.tli-score-icon.amber { background: #C47A00; color: #fff; }
+.tli-score-icon.amber { background: #9A6000; color: #fff; }
 .tli-score-icon.red { background: #C0392B; color: #fff; }
 
 .tli-score-num {
@@ -775,7 +775,7 @@
 }
 
 .fr-score.green { background: #1A7A3C; }
-.fr-score.amber { background: #C47A00; }
+.fr-score.amber { background: #9A6000; }
 .fr-score-lbl { font-size: 6px; font-weight: 600; opacity: 0.85; }
 
 .fr-content { flex: 1; }
@@ -1320,7 +1320,7 @@
 }
 
 .ef-score.green { background: #1A7A3C; }
-.ef-score.amber { background: #C47A00; }
+.ef-score.amber { background: #9A6000; }
 .ef-score.red { background: #C0392B; }
 
 /* Right — story list */
@@ -1424,7 +1424,7 @@
 .lr-foot { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 12px; }
 .lr-score { font-size: 12px; font-weight: 700; color: #fff; border-radius: 5px; padding: 3px 9px; }
 .lr-score.green { background: #1A7A3C; }
-.lr-score.amber { background: #C47A00; }
+.lr-score.amber { background: #9A6000; }
 .lr-score.red { background: #C0392B; }
 .lr-read { font-size: 12px; color: var(--gold); }
 
@@ -1689,7 +1689,7 @@
 }
 
 .prt-score-icon.green { background: #1A7A3C; }
-.prt-score-icon.amber { background: #C47A00; }
+.prt-score-icon.amber { background: #9A6000; }
 .prt-score-icon.red { background: #C0392B; }
 
 .prt-score-num {
