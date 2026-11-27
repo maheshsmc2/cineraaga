@@ -284,7 +284,6 @@ function initTopTabs() {
       const tab = btn.dataset.tab;
       document.getElementById('tab-movies').style.display = tab==='movies'?'block':'none';
       document.getElementById('tab-tv').style.display = tab==='tv'?'block':'none';
-      document.getElementById('tab-news').style.display = tab==='news'?'block':'none';
       if (tab==='tv') loadTV();
     });
   });
@@ -328,7 +327,6 @@ document.addEventListener('DOMContentLoaded', () => {
   loadPopularNow();
   initPopularNowToggle();
   renderExplorerSections();
-  loadFeaturedReview();
 });
 
 /* ===========================
@@ -573,66 +571,6 @@ document.addEventListener('DOMContentLoaded', () => {
    FEATURED REVIEW + POPULAR NOW
    =========================== */
 
-/* Featured review — latest Indian release, shown prominently */
-async function loadFeaturedReview() {
-  const container = document.getElementById('featuredReview');
-  const list = document.getElementById('reviewsList');
-  if (!container) return;
-
-  // Get latest Indian films
-  const data = await TMDB.get('/trending/movie/week', {});
-  const films = (data?.results || []).filter(f => INDIAN_LANGS.includes(f.original_language));
-
-  if (!films.length) {
-    container.innerHTML = '';
-    return;
-  }
-
-  // First film = featured
-  const featured = films[0];
-  const rest = films.slice(1, 7);
-
-  const posterUrl = featured.poster_path ? TMDB.poster(featured.poster_path, 'w185') : null;
-  const score = TMDB.audienceRating(featured.vote_average, featured.vote_count);
-  const sc = scoreClass(score);
-  const lang = featured.original_language;
-  const langName = langNames[lang] || lang?.toUpperCase() || '';
-  const year = (featured.release_date || '').slice(0, 4);
-  const rasas = TMDB.genreTags((featured.genre_ids || []).map(id => ({ id })));
-
-  // Verdicts for featured films
-  const verdicts = {
-    default: "A film that demands your attention this week."
-  };
-
-  container.innerHTML = `
-    <a href="pages/movie.html?id=${featured.id}" class="featured-review-card">
-      <div class="fr-poster">
-        ${posterUrl ? `<img src="${posterUrl}" alt="${featured.title}" loading="lazy" />` : ''}
-        ${score ? `<div class="fr-score ${sc}"><div>${score}</div><div class="fr-score-lbl">NVS</div></div>` : ''}
-      </div>
-      <div class="fr-content">
-        <div class="fr-badge"><span class="fr-badge-dot"></span>Latest review</div>
-        <div class="fr-title">${featured.title || featured.name}</div>
-        <div class="fr-meta">${langName} · ${year} · ${featured.vote_average?.toFixed(1)} IMDb</div>
-        <div class="fr-verdict">${verdicts[featured.id] || verdicts.default}</div>
-        <div class="fr-bottom">
-          <div class="fr-three-words">
-            ${rasas.map(r => `<span class="fr-word">${r}</span>`).join('')}
-          </div>
-          <div class="fr-rasas">
-            ${rasas.map(r => `<span class="rtag">${r}</span>`).join('')}
-          </div>
-          <span class="fr-platform">Read review →</span>
-        </div>
-      </div>
-    </a>`;
-
-  // Rest as normal rows
-  if (list) {
-    list.innerHTML = rest.map(f => renderReviewRow(f, 'movie')).join('');
-  }
-}
 
 /* Popular right now — Indian films only */
 async function loadPopularNow() {
@@ -731,7 +669,6 @@ function initPopularNowToggle() {
 
 // Add to init
 document.addEventListener('DOMContentLoaded', () => {
-  loadFeaturedReview();
   loadPopularNow();
   initPopularNowToggle();
 });
@@ -1204,6 +1141,38 @@ async function buildEditorialStrip() {
   }
 }
 
+/* Phones and tablets hide the list beside the banner, which was the only
+   homepage route to the reviews. */
+async function buildMobileReviews() {
+  const section = document.getElementById('mobileReviews');
+  const host = document.getElementById('mobileReviewsList');
+  if (!section || !host) return;
+
+  const stories = (await loadStripStories()).filter(s => s.key.startsWith('review-'));
+  if (!stories.length) return;
+
+  const scoreColour = { green: '#2ECC71', amber: '#F39C12', red: '#E74C3C' };
+  host.innerHTML = stories.map(s => `
+    <a href="${s.link}" class="es-story">
+      <div class="es-story-img" id="mr-img-${s.key}"></div>
+      <div class="es-story-info">
+        <div class="es-story-title">${s.title}</div>
+        <div class="es-story-meta">
+          <span style="color:${scoreColour[s.scoreClass] || 'inherit'};font-weight:600;">${s.score} Navras</span> · ${s.meta}
+        </div>
+      </div>
+    </a>`).join('');
+  section.hidden = false;
+
+  for (const s of stories) {
+    try {
+      const url = await s.thumb();
+      const el = document.getElementById(`mr-img-${s.key}`);
+      if (url && el) el.innerHTML = `<img src="${url}" alt="" loading="lazy" />`;
+    } catch (e) {}
+  }
+}
+
 // Search
 function initSearchCompact() {
   const input = document.getElementById('heroSearch');
@@ -1217,6 +1186,7 @@ function initSearchCompact() {
 
 document.addEventListener('DOMContentLoaded', () => {
   buildEditorialStrip();
+  buildMobileReviews();
   initSearchCompact();
 });
 

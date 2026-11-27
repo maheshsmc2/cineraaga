@@ -168,10 +168,6 @@ function renderPage(film, credits, videos, similar) {
     if (audienceVoteCount) audienceVoteCount.textContent = film.vote_count?.toLocaleString();
   }
 
-  // External scores
-  setEl('imdbScore', film.vote_average?.toFixed(1));
-  setEl('imdbLink', `https://www.imdb.com/title/${film.external_ids?.imdb_id||''}`);
-
   // Certified hit badge
   if (score >= 85) {
     const hitBadge = document.getElementById('certifiedHit');
@@ -362,12 +358,6 @@ function submitRating() {
 document.addEventListener('DOMContentLoaded', () => {
   buildMoviePage();
   initRating();
-
-  const hamburger = document.getElementById('hamburger');
-  const mobileMenu = document.getElementById('mobileMenu');
-  if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => mobileMenu.classList.toggle('open'));
-  }
 
   // Close trailer on click outside
   const modal = document.getElementById('trailerModal');
