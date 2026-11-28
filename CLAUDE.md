@@ -58,6 +58,14 @@ non-existent element is one `<div>` away from going live again.
   change placements unasked. Review sheet: `docs/RASA_ASSIGNMENTS.md`. A review's
   own rasas always win. `data/mood/*.json` is the old prototype export, no longer
   read by any page.
+- `data/mood-extra.json` — Mood page films beyond the lists (702, added at
+  Mahe's request 2026-11-28: "add more from your search"). TMDb title/year/poster
+  plus AI-suggested rasas, same approval rule as above. Not CineRaaga picks: the
+  page marks our own films and says the rest come from TMDb; keep that
+  distinction, and don't feed these into lists, search or the homepage. Indian
+  films only — check `origin_country`, since bn/pa results include Bangladeshi and
+  Pakistani films. Run `python3 scripts/build-mood-extra.py` at least every six
+  months. Review sheet: `docs/RASA_ASSIGNMENTS_EXTRA.md` (update it with edits).
 - `data/reviews.json` — one entry per published review page, fields copied from
   the page itself (score box, og:description, byline date). Add an entry when a
   review is published; the homepage strip and banner read it.

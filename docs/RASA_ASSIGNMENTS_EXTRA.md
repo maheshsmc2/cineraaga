@@ -1,0 +1,740 @@
+# Rasa placements — films beyond the lists (suggested)
+
+702 films shown on the Mood page in addition to the listed ones. Rasas were placed by AI analysis at the editor's request (2026-11-28); main rasa first.
+
+To correct one, say for example "Film name: Karuna, Veera", or "remove Film name".
+
+## Hindi (179)
+
+- 12th Fail (2023) — Veera, Karuna
+- 2 States (2014) — Shringara, Hasya
+- Aankhen (2002) — Bhayanaka
+- Aashiqui 2 (2013) — Shringara, Karuna
+- Airlift (2016) — Veera, Karuna, Bhayanaka
+- Amar Akbar Anthony (1977) — Hasya, Veera, Karuna
+- An Action Hero (2022) — Hasya, Bhayanaka, Veera
+- Angrezi Medium (2020) — Hasya, Karuna
+- Attack (2022) — Veera, Adbhuta
+- Aśoka (2001) — Veera, Shringara, Raudra
+- Baadshah (1999) — Hasya, Veera
+- Badhaai Do (2022) — Hasya, Shringara, Karuna
+- Badlapur (2015) — Raudra, Bibhatsa, Karuna
+- Bajirao Mastani (2015) — Shringara, Karuna, Veera
+- Bajrangi Bhaijaan (2015) — Karuna, Hasya, Veera
+- Bala (2019) — Hasya, Shringara, Karuna
+- Band Baaja Baaraat (2010) — Shringara, Hasya
+- Barfi! (2012) — Shringara, Hasya, Karuna
+- Bhediya (2022) — Hasya, Bhayanaka, Adbhuta
+- Bhool Bhulaiyaa (2007) — Hasya, Bhayanaka
+- Black (2005) — Karuna, Veera
+- Blackmail (2018) — Hasya, Bibhatsa, Bhayanaka
+- Bulbbul (2020) — Bhayanaka, Raudra, Karuna
+- Chachi 420 (1997) — Hasya, Karuna
+- Chennai Express (2013) — Hasya, Shringara
+- Chhichhore (2019) — Hasya, Karuna, Veera
+- Chor Nikal Ke Bhaga (2023) — Bhayanaka
+- Crew (2024) — Hasya
+- Darlings (2022) — Hasya, Raudra, Bibhatsa
+- Delhi Belly (2011) — Hasya, Bibhatsa
+- Detective Byomkesh Bakshy! (2015) — Bhayanaka, Adbhuta
+- Dev.D (2009) — Shringara, Karuna, Bibhatsa
+- Dhamaal (2007) — Hasya
+- Dhamaka (2021) — Bhayanaka, Raudra
+- Dhoom 2 (2006) — Veera, Shringara
+- Dhoom Dhaam (2025) — Hasya, Bhayanaka
+- Dhurandhar: The Revenge (2026) — Raudra, Veera, Bibhatsa
+- Dil Bechara (2020) — Karuna, Shringara
+- Dil Dhadakne Do (2015) — Hasya, Shringara, Karuna
+- Dil To Pagal Hai (1997) — Shringara, Hasya
+- Dilwale (2015) — Shringara, Hasya, Veera
+- Don (1978) — Bhayanaka, Veera, Hasya
+- Drishyam (2015) — Bhayanaka, Karuna
+- Drishyam 2 (2022) — Bhayanaka, Adbhuta
+- Dum Laga Ke Haisha (2015) — Shringara, Hasya, Shanta
+- Ek Villain (2014) — Raudra, Shringara, Karuna
+- Fanaa (2006) — Shringara, Karuna, Bhayanaka
+- Fukrey (2013) — Hasya
+- Gabbar Is Back (2015) — Raudra, Veera
+- Gadar: Ek Prem Katha (2001) — Veera, Shringara, Raudra
+- Gangaajal (2003) — Raudra, Veera, Bibhatsa
+- Gangs of Wasseypur - Part 2 (2012) — Raudra, Bibhatsa, Veera
+- Gangubai Kathiawadi (2022) — Veera, Karuna, Raudra
+- Ghajini (2008) — Raudra, Karuna, Shringara
+- Goliyon Ki Raasleela Ram-Leela (2013) — Shringara, Raudra, Karuna
+- Golmaal – Fun Unlimited (2006) — Hasya
+- Good Newwz (2019) — Hasya
+- Gunjan Saxena: The Kargil Girl (2020) — Veera
+- Guru (2007) — Veera, Shringara
+- Guzaarish (2010) — Karuna, Shringara, Shanta
+- Haider (2014) — Karuna, Raudra, Bibhatsa
+- Hasee Toh Phasee (2014) — Shringara, Hasya
+- Haseen Dillruba (2021) — Bhayanaka, Shringara, Raudra
+- Hichki (2018) — Karuna, Veera
+- Highway (2014) — Karuna, Shanta, Shringara
+- Hindi Medium (2017) — Hasya, Karuna
+- Hulchul (2004) — Hasya, Shringara
+- Hungama (2003) — Hasya
+- Ishqiya (2010) — Shringara, Bhayanaka, Hasya
+- Ittefaq (2017) — Bhayanaka
+- Jaane Jaan (2023) — Bhayanaka
+- Jaane Tu... Ya Jaane Na (2008) — Shringara, Hasya
+- Jab Tak Hai Jaan (2012) — Shringara, Karuna
+- Jewel Thief - The Heist Begins (2025) — Bhayanaka
+- Jodhaa Akbar (2008) — Shringara, Veera
+- Jolly LLB (2013) — Hasya, Veera
+- Jolly LLB 2 (2017) — Hasya, Veera, Raudra
+- Junglee (2019) — Veera, Adbhuta
+- Kaabil (2017) — Raudra, Karuna, Shringara
+- Kaho Naa... Pyaar Hai (2000) — Shringara, Karuna
+- Kai Po Che! (2013) — Karuna, Hasya, Veera
+- Karan Arjun (1995) — Raudra, Veera, Adbhuta
+- Karwaan (2018) — Shanta, Hasya, Karuna
+- Kesari (2019) — Veera, Raudra, Karuna
+- Kho Gaye Hum Kahan (2023) — Shanta, Karuna
+- Khoobsurat (2014) — Shringara, Hasya
+- Khosla Ka Ghosla! (2006) — Hasya, Shanta
+- Kites (2010) — Shringara, Raudra, Karuna
+- Koi... Mil Gaya (2003) — Adbhuta, Karuna, Hasya
+- Lage Raho Munna Bhai (2006) — Hasya, Shanta, Karuna
+- Like Stars on Earth (2007) — Karuna, Adbhuta
+- Lipstick Under My Burkha (2017) — Hasya, Karuna, Shringara
+- Lootera (2013) — Shringara, Karuna, Shanta
+- Lost Ladies (2024) — Hasya, Shanta, Shringara
+- Love per Square Foot (2018) — Shringara, Hasya
+- Luck by Chance (2009) — Shringara, Hasya, Shanta
+- Ludo (2020) — Hasya, Bhayanaka
+- M.S. Dhoni: The Untold Story (2016) — Veera
+- Madaari (2016) — Raudra, Karuna, Bhayanaka
+- Main Hoon Na (2004) — Veera, Hasya, Shringara
+- Manjhi: The Mountain Man (2015) — Veera, Shringara, Karuna
+- Mardaani (2014) — Veera, Raudra, Bibhatsa
+- Mardaani 2 (2019) — Raudra, Veera, Bhayanaka
+- Margarita with a Straw (2015) — Karuna, Shringara, Shanta
+- Mimi (2021) — Karuna, Hasya
+- Mission Mangal (2019) — Veera, Adbhuta
+- Mohabbatein (2000) — Shringara, Karuna
+- Mom (2017) — Raudra, Karuna, Bhayanaka
+- Monica, O My Darling (2022) — Bhayanaka, Hasya, Bibhatsa
+- Monsoon Wedding (2001) — Hasya, Shringara, Karuna
+- Mr. India (1987) — Adbhuta, Veera, Hasya
+- Munna Bhai M.B.B.S. (2003) — Hasya, Karuna
+- Neerja (2016) — Veera, Karuna, Bhayanaka
+- NH10 (2015) — Bhayanaka, Raudra, Bibhatsa
+- No One Killed Jessica (2011) — Raudra, Veera, Karuna
+- October (2018) — Karuna, Shanta, Shringara
+- OMG 2 (2023) — Hasya, Karuna, Veera
+- OMG: Oh My God! (2012) — Hasya, Adbhuta
+- Once Upon a Time in Mumbaai (2010) — Raudra, Veera, Shringara
+- Oye Lucky! Lucky Oye! (2008) — Hasya
+- Pad Man (2018) — Veera, Hasya
+- Padmaavat (2018) — Veera, Raudra, Shringara
+- Parched (2015) — Karuna, Veera, Raudra
+- Pardes (1997) — Shringara, Karuna
+- Parmanu: The Story of Pokhran (2018) — Veera, Bhayanaka
+- Peepli Live (2010) — Hasya, Karuna, Bibhatsa
+- Phir Bhi Dil Hai Hindustani (2000) — Hasya, Shringara, Veera
+- Phir Hera Pheri (2006) — Hasya
+- Photograph (2019) — Shringara, Shanta
+- Pihu (2018) — Bhayanaka, Karuna
+- PK (2014) — Hasya, Adbhuta, Karuna
+- Pyaar Ka Punchnama (2011) — Hasya, Shringara
+- Pyaar Ka Punchnama 2 (2015) — Hasya
+- Queen (2014) — Hasya, Shanta, Veera
+- Raanjhanaa (2013) — Shringara, Karuna, Raudra
+- Raat Akeli Hai (2020) — Bhayanaka, Bibhatsa
+- Raees (2017) — Raudra, Veera
+- Raid (2018) — Veera, Bhayanaka
+- Raman Raghav 2.0 (2016) — Bibhatsa, Bhayanaka, Raudra
+- Rock On!! (2008) — Karuna, Veera, Shanta
+- Rocket Singh: Salesman of the Year (2009) — Hasya, Veera, Shanta
+- Rustom (2016) — Veera, Bhayanaka, Shringara
+- Salaam Bombay! (1988) — Karuna, Bibhatsa
+- Sanam Teri Kasam (2016) — Shringara, Karuna
+- Sanju (2018) — Karuna, Hasya
+- Sardar Udham (2021) — Veera, Karuna, Raudra
+- Sarfarosh (1999) — Veera, Raudra, Bhayanaka
+- Secret Superstar (2017) — Karuna, Veera, Hasya
+- Section 375 (2019) — Bhayanaka, Raudra
+- Sector 36 (2024) — Bibhatsa, Bhayanaka, Raudra
+- Shaadi Mein Zaroor Aana (2017) — Shringara, Raudra
+- Shahid (2013) — Veera, Karuna
+- Singham (2011) — Veera, Raudra
+- Sir (2018) — Shringara, Shanta
+- Sonu Ke Titu Ki Sweety (2018) — Hasya, Shringara
+- Special 26 (2013) — Bhayanaka, Hasya
+- Stree 2 (2024) — Hasya, Bhayanaka
+- Sui Dhaaga - Made in India (2018) — Hasya, Veera, Karuna
+- Sultan (2016) — Veera, Shringara, Karuna
+- Super 30 (2019) — Veera, Karuna
+- Tamasha (2015) — Shringara, Karuna, Adbhuta
+- Tanu Weds Manu (2011) — Shringara, Hasya
+- Tanu Weds Manu: Returns (2015) — Hasya, Shringara
+- Te3n (2016) — Bhayanaka, Karuna
+- The Kashmir Files (2022) — Karuna, Raudra, Bibhatsa
+- The Legend of Bhagat Singh (2002) — Veera, Raudra, Karuna
+- The Lunchbox (2013) — Shringara, Shanta, Karuna
+- The Man Who Feels No Pain (2019) — Hasya, Veera, Adbhuta
+- The Sky Is Pink (2019) — Karuna, Shringara
+- Toilet: A Love Story (2017) — Hasya, Shringara, Veera
+- Trapped (2017) — Bhayanaka, Veera
+- Udta Punjab (2016) — Bibhatsa, Karuna, Raudra
+- Ugly (2013) — Bibhatsa, Bhayanaka, Karuna
+- Vicky Donor (2012) — Hasya, Shringara
+- Vivah (2006) — Shringara, Shanta, Karuna
+- Wazir (2016) — Bhayanaka, Karuna, Raudra
+- Welcome (2007) — Hasya
+- Yeh Jawaani Hai Deewani (2013) — Shringara, Hasya
+- Zindagi Na Milegi Dobara (2011) — Shanta, Hasya, Shringara
+
+## Malayalam (150)
+
+- #Home (2021) — Shanta, Karuna, Hasya
+- 2 Countries (2015) — Hasya, Shringara
+- 2018 - Everyone Is a Hero (2023) — Veera, Karuna, Bhayanaka
+- 22 Female Kottayam (2012) — Raudra, Bibhatsa, Karuna
+- 5 Sundarikal (2013) — Shringara, Karuna
+- Aadu (2015) — Hasya
+- Aadu 2 (2017) — Hasya
+- Aanandam (2016) — Hasya, Shringara, Shanta
+- Aaram Thamburan (1997) — Veera, Shringara, Hasya
+- Aattam (2024) — Bhayanaka, Raudra
+- Aavesham (2024) — Hasya, Raudra, Veera
+- ABCD: American-Born Confused Desi (2013) — Hasya
+- Action Hero Biju (2016) — Veera, Hasya
+- Adi Kapyare Kootamani (2015) — Hasya, Bhayanaka
+- Akkare Akkare Akkare (1990) — Hasya
+- Alappuzha Gymkhana (2025) — Hasya, Veera
+- All We Imagine as Light (2024) — Shanta, Shringara, Karuna
+- Amen (2013) — Adbhuta, Shringara, Hasya
+- Anandabhadram (2005) — Bhayanaka, Adbhuta, Shringara
+- Android Kunjappan Version 5.25 (2019) — Hasya, Karuna, Adbhuta
+- Annayum Rasoolum (2013) — Shringara, Karuna
+- Annmariya Kalippilaanu (2016) — Hasya, Veera
+- Anuraga Karikkin Vellam (2016) — Hasya, Shanta, Shringara
+- Anweshippin Kandethum (2024) — Bhayanaka
+- Ayalum Njanum Thammil (2012) — Karuna, Shanta
+- Ayyappanum Koshiyum (2020) — Raudra, Veera
+- Bethlehem Kudumba Unit (2026) — Shringara, Hasya
+- Bheeshma Parvam (2022) — Raudra, Veera
+- Bhramaram (2009) — Bhayanaka, Karuna, Raudra
+- Big B (2007) — Raudra, Veera, Bhayanaka
+- C U Soon (2020) — Bhayanaka
+- Chandralekha (1997) — Hasya, Shringara
+- Charlie (2015) — Adbhuta, Shringara, Shanta
+- Chithram (1988) — Hasya, Karuna
+- Chotta Mumbai (2007) — Hasya, Veera
+- Churuli (2021) — Adbhuta, Bhayanaka, Bibhatsa
+- Classmates (2006) — Shringara, Karuna, Bhayanaka
+- Devasuram (1993) — Veera, Raudra, Karuna
+- Diamond Necklace (2012) — Shringara, Karuna, Shanta
+- Diés Iraé (2025) — Bhayanaka, Bibhatsa
+- Driving Licence (2019) — Hasya, Raudra
+- Ee Parakkum Thalika (2001) — Hasya
+- Ee.Ma.Yau. (2018) — Karuna, Hasya, Bibhatsa
+- Eko (2025) — Bhayanaka, Adbhuta
+- Ela Veezha Poonchira (2022) — Bhayanaka, Bibhatsa, Karuna
+- Ennu Ninte Moideen (2015) — Shringara, Karuna
+- Falimy (2023) — Hasya, Karuna, Shanta
+- Forensic (2020) — Bhayanaka, Bibhatsa
+- Godfather (1991) — Hasya, Shringara
+- Godha (2017) — Hasya, Veera, Shringara
+- Grandmaster (2012) — Bhayanaka, Adbhuta
+- Guppy (2016) — Karuna, Raudra, Shanta
+- Guru (1997) — Karuna, Raudra, Shanta
+- Harikrishnans (1998) — Bhayanaka, Hasya, Shringara
+- Helen (2019) — Bhayanaka, Veera, Karuna
+- In Harihar Nagar (1990) — Hasya
+- Indian Rupee (2011) — Hasya, Shanta
+- Iratta (2023) — Karuna, Bibhatsa, Bhayanaka
+- Iyobinte Pusthakam (2014) — Raudra, Veera, Bibhatsa
+- Jacob's Kingdom of Heaven (2016) — Veera, Karuna
+- Jallikattu (2019) — Raudra, Bibhatsa, Bhayanaka
+- Jaya Jaya Jaya Jaya Hey (2022) — Hasya, Raudra, Veera
+- Jo & Jo (2022) — Hasya
+- Kaalapani (1996) — Karuna, Veera, Raudra
+- Kaathal - The Core (2023) — Karuna, Shanta
+- Kalyanaraman (2002) — Hasya, Shringara, Karuna
+- Kannur Squad (2023) — Veera, Bhayanaka
+- Kishkindha Kaandam (2024) — Bhayanaka, Karuna
+- Koode (2018) — Karuna, Shanta, Shringara
+- Kunjiramayanam (2015) — Hasya
+- Kuruthi (2021) — Bhayanaka, Raudra, Karuna
+- Left Right Left (2013) — Raudra, Bibhatsa, Bhayanaka
+- Lokah Chapter 1: Chandra (2025) — Adbhuta, Veera, Bhayanaka
+- Lucifer (2019) — Veera, Raudra
+- Maheshinte Prathikaaram (2016) — Hasya, Shanta, Shringara
+- Malik (2021) — Raudra, Karuna, Veera
+- Manjummel Boys (2024) — Veera, Bhayanaka, Karuna
+- Marco (2024) — Raudra, Bibhatsa, Veera
+- Mayaanadhi (2017) — Shringara, Karuna, Bhayanaka
+- Meesa Madhavan (2002) — Hasya, Shringara, Veera
+- Minnal Murali (2021) — Adbhuta, Hasya, Veera
+- Mukundan Unni Associates™ (2022) — Bibhatsa, Hasya
+- Munnariyippu (2014) — Bhayanaka, Bibhatsa, Adbhuta
+- My Boss (2012) — Hasya, Shringara
+- Nanpakal Nerathu Mayakkam (2023) — Adbhuta, Shanta, Hasya
+- Narasimham (2000) — Veera, Raudra
+- Nayattu (2021) — Bhayanaka, Karuna, Raudra
+- Neelakasham Pachakadal Chuvanna Bhoomi (2013) — Adbhuta, Shringara, Shanta
+- Neram (2013) — Hasya, Bhayanaka
+- Neru (2023) — Karuna, Raudra, Veera
+- Njan Prakashan (2018) — Hasya, Shanta
+- Njandukalude Naattil Oridavela (2017) — Hasya, Karuna, Shanta
+- Nna Thaan Case Kodu (2022) — Hasya, Veera
+- North 24 Kaatham (2013) — Shanta, Hasya, Adbhuta
+- Officer on Duty (2025) — Bhayanaka, Raudra
+- Ohm Shanthi Oshaana (2014) — Shringara, Hasya
+- Operation Java (2021) — Bhayanaka, Veera
+- Oppam (2016) — Bhayanaka, Veera
+- Oru Indian Pranayakadha (2013) — Hasya, Shringara
+- Oru Vadakkan Veeragatha (1989) — Veera, Karuna, Raudra
+- Pachuvum Athbhuthavilakkum (2023) — Hasya, Shanta
+- Pada (2022) — Bhayanaka, Raudra
+- Padakkalam (2025) — Hasya, Adbhuta
+- Parava (2017) — Shanta, Veera, Karuna
+- Pathemari (2015) — Karuna, Shanta
+- Pattanapravesham (1988) — Hasya, Bhayanaka
+- Ponman (2025) — Bhayanaka, Veera, Hasya
+- Pranchiyettan & The Saint (2010) — Hasya, Shanta, Adbhuta
+- Premalu (2024) — Hasya, Shringara
+- Punyalan Agarbattis (2013) — Hasya
+- Rajamanikyam (2005) — Hasya, Veera
+- Ravanaprabhu (2001) — Veera, Raudra
+- RDX: Robert Dony Xavier (2023) — Raudra, Veera
+- Rekhachithram (2025) — Bhayanaka, Adbhuta
+- Romancham (2023) — Hasya, Bhayanaka
+- Ronth (2025) — Bhayanaka, Karuna
+- Rorschach (2022) — Bhayanaka, Adbhuta, Bibhatsa
+- Salt N' Pepper (2011) — Shringara, Hasya, Shanta
+- Salute (2022) — Bhayanaka
+- Sambhavam Adhyayam Onnu (2026) — Adbhuta, Bhayanaka
+- Sarvam Maya (2025) — Hasya, Shanta, Adbhuta
+- Second Show (2012) — Raudra, Bibhatsa
+- Solo (2017) — Shringara, Raudra, Adbhuta
+- Sookshmadarshini (2024) — Bhayanaka, Hasya
+- Spirit (2012) — Karuna, Shanta
+- Su.. Su... Sudhi Vathmeekam (2015) — Hasya, Karuna, Veera
+- Super Sharanya (2022) — Hasya, Shringara
+- Take Off (2017) — Veera, Bhayanaka, Karuna
+- Thalavan (2024) — Bhayanaka, Raudra
+- Thallumaala (2022) — Hasya, Raudra, Veera
+- Thanmathra (2005) — Karuna
+- Thattathin Marayathu (2012) — Shringara, Hasya
+- The Goat Life (2024) — Karuna, Veera, Bibhatsa
+- Thenmavin Kombath (1994) — Hasya, Shringara
+- Thoovanathumbikal (1987) — Shringara, Shanta, Karuna
+- Thudarum (2025) — Raudra, Bhayanaka, Karuna
+- Traffic (2011) — Bhayanaka, Veera, Karuna
+- Trance (2020) — Bhayanaka, Adbhuta, Bibhatsa
+- Udayananu Tharam (2005) — Hasya, Karuna
+- Unda (2019) — Hasya, Bhayanaka, Veera
+- Urumi (2011) — Veera, Raudra, Shringara
+- Uyare (2019) — Veera, Karuna, Raudra
+- Vaazha (2024) — Hasya, Karuna
+- Vaazha II (2026) — Hasya, Karuna
+- Vadakkunokkiyantram (1989) — Hasya, Karuna
+- Varathan (2018) — Bhayanaka, Raudra
+- Vellimoonga (2014) — Hasya, Shringara
+- Vikramadithyan (2014) — Veera, Karuna, Shringara
+- Virus (2019) — Bhayanaka, Veera, Karuna
+- Yoddha (1992) — Hasya, Adbhuta, Veera
+
+## Tamil (146)
+
+- 24 (2016) — Adbhuta, Bhayanaka, Veera
+- 3 (2012) — Shringara, Karuna, Bhayanaka
+- 7Aum Arivu (2011) — Veera, Adbhuta, Bhayanaka
+- 7G Rainbow Colony (2004) — Shringara, Karuna
+- 8 Thottakkal (2017) — Bhayanaka, Karuna
+- Aadukalam (2011) — Raudra, Veera
+- Aalavandhan (2001) — Raudra, Bibhatsa, Bhayanaka
+- Aandavan Kattalai (2016) — Hasya, Shringara
+- Aayirathil Oruvan (2010) — Adbhuta, Veera, Bibhatsa
+- Adanga Maru (2018) — Raudra, Bhayanaka
+- Amaran (2024) — Veera, Karuna, Shringara
+- Andhaghaaram (2020) — Bhayanaka, Adbhuta
+- Annamalai (1992) — Veera, Karuna, Raudra
+- Apoorva Sagodharargal (1989) — Raudra, Hasya, Karuna
+- Aramm (2017) — Bhayanaka, Karuna, Veera
+- Arunachalam (1997) — Veera, Hasya
+- Aruvi (2017) — Karuna, Raudra, Veera
+- Asuran (2019) — Raudra, Veera, Karuna
+- Baasha (1995) — Veera, Raudra
+- Baththa (2026) — Hasya, Shanta, Karuna
+- Billa (2007) — Veera, Bhayanaka
+- Blast (2026) — Veera, Raudra
+- Captain Miller (2024) — Veera, Raudra
+- Chandramukhi (2005) — Bhayanaka, Hasya, Adbhuta
+- Chithha (2023) — Karuna, Bhayanaka, Raudra
+- Dasavatharam (2008) — Adbhuta, Veera, Bhayanaka
+- DC (2026) — Raudra, Shringara, Veera
+- Deiva Thirumagal (2011) — Karuna, Hasya
+- Demonte Colony 2 (2024) — Bhayanaka, Adbhuta
+- Dharmadurai (2016) — Karuna, Shringara, Shanta
+- Dragon (2025) — Hasya, Shringara, Karuna
+- Engaeyum Eppothum (2011) — Karuna, Shringara
+- Friends (2001) — Hasya, Karuna
+- Gargi (2022) — Karuna, Bhayanaka, Raudra
+- Ghilli (2004) — Veera, Hasya, Shringara
+- Good Night (2023) — Hasya, Shringara, Karuna
+- Hey Ram (2000) — Raudra, Karuna, Bibhatsa
+- I (2015) — Raudra, Shringara, Bibhatsa
+- Imaikkaa Nodigal (2018) — Bhayanaka, Raudra
+- Indru Netru Naalai (2015) — Hasya, Adbhuta
+- Iraivi (2016) — Karuna, Raudra, Bibhatsa
+- Irumbu Thirai (2018) — Bhayanaka, Veera
+- Jailer (2023) — Raudra, Veera, Hasya
+- Jailer 2 (2026) — Raudra, Veera
+- Jigarthanda DoubleX (2023) — Veera, Raudra, Karuna
+- Kaakha Kaakha (2003) — Veera, Raudra, Shringara
+- Kaantha (2025) — Bhayanaka
+- Kadaikutty Singam (2018) — Karuna, Hasya, Veera
+- Kadaisi Vivasayi (2022) — Shanta, Karuna
+- Kadhalum Kadanthu Pogum (2016) — Shringara, Hasya
+- Kandukondain Kandukondain (2000) — Shringara, Karuna
+- Kannathil Muthamittal (2002) — Karuna, Shanta
+- Kannum Kannum Kollaiyadithaal (2020) — Hasya, Shringara, Bhayanaka
+- Karnan (2021) — Raudra, Veera, Karuna
+- Kaththi (2014) — Veera, Karuna, Raudra
+- Kavan (2017) — Raudra, Veera
+- Kolamavu Kokila (2018) — Hasya, Bhayanaka, Bibhatsa
+- Kurangu Bommai (2017) — Bhayanaka, Karuna, Raudra
+- Kushi (2000) — Shringara, Hasya
+- Kuttram 23 (2017) — Bhayanaka
+- Leo (2023) — Raudra, Veera, Bhayanaka
+- Love Today (2022) — Hasya, Shringara
+- M. Kumaran S/O Mahalakshmi (2004) — Karuna, Shringara, Veera
+- Maanaadu (2021) — Bhayanaka, Adbhuta, Hasya
+- Maanagaram (2017) — Bhayanaka
+- Maara (2021) — Shanta, Adbhuta, Shringara
+- Maareesan (2025) — Bhayanaka, Karuna
+- Maaveeran (2023) — Hasya, Veera, Adbhuta
+- Maayavan (2017) — Bhayanaka, Adbhuta
+- Made in Korea (2026) — Shanta, Karuna
+- Madharaasi (2025) — Veera, Shringara, Raudra
+- Madrasapattinam (2010) — Shringara, Karuna, Veera
+- Mahaan (2022) — Raudra, Bibhatsa
+- Mankatha (2011) — Bhayanaka, Raudra
+- Master (2021) — Veera, Raudra
+- Mayakkam Enna (2011) — Karuna, Shringara, Raudra
+- Meesaya Murukku (2017) — Hasya, Shringara, Veera
+- Meiyazhagan (2024) — Shanta, Karuna, Hasya
+- Mersal (2017) — Veera, Raudra
+- Minnale (2001) — Shringara, Hasya
+- Mounam Pesiyadhe (2002) — Shringara, Hasya
+- Muthu (1995) — Hasya, Veera, Shringara
+- Naai Sekar Returns (2022) — Hasya
+- Naduvula Konjam Pakkatha Kaanom (2012) — Hasya
+- Nanban (2012) — Hasya, Karuna, Veera
+- Nerkonda Paarvai (2019) — Raudra, Veera
+- O Kadhal Kanmani (2015) — Shringara, Shanta
+- Oh My Kadavule (2020) — Shringara, Hasya, Adbhuta
+- Pa Paandi (2017) — Shanta, Shringara, Karuna
+- Padayappa (1999) — Veera, Hasya, Raudra
+- Papanasam (2015) — Bhayanaka, Karuna
+- Parking (2023) — Raudra, Bhayanaka
+- Paruthiveeran (2007) — Shringara, Raudra, Karuna
+- Pasanga 2 (2015) — Hasya, Karuna
+- Petta (2019) — Veera, Raudra
+- Pithamagan (2003) — Raudra, Karuna, Bibhatsa
+- Pokkiri (2007) — Veera, Raudra, Shringara
+- Ponniyin Selvan: Part I (2022) — Veera, Adbhuta, Shringara
+- Raavanan (2010) — Raudra, Shringara, Adbhuta
+- Raja Rani (2013) — Shringara, Hasya, Karuna
+- Rocketry: The Nambi Effect (2022) — Veera, Karuna
+- Saamy (2003) — Veera, Raudra
+- Sachein (2005) — Shringara, Hasya
+- Santosh Subramaniam (2008) — Hasya, Shringara, Karuna
+- Sardar (2022) — Veera, Bhayanaka
+- Sathuranga Vettai (2014) — Hasya, Bhayanaka, Bibhatsa
+- Sillunu Oru Kaadhal (2006) — Shringara, Karuna
+- Singam (2010) — Veera, Raudra
+- Sivaji: The Boss (2007) — Veera, Hasya
+- Sometimes (2017) — Karuna, Bhayanaka
+- Soodhu Kavvum (2013) — Hasya, Bhayanaka
+- Soorarai Pottru (2020) — Veera, Karuna, Raudra
+- Star (2024) — Karuna, Veera
+- Stephen (2025) — Bhayanaka, Bibhatsa
+- Super Deluxe (2019) — Adbhuta, Hasya, Bibhatsa
+- Taramani (2017) — Shringara, Karuna, Raudra
+- Thambi (2019) — Bhayanaka, Karuna
+- Thani Oruvan (2015) — Veera, Bhayanaka
+- Theeran Adhigaaram Ondru (2017) — Veera, Bhayanaka, Raudra
+- Thegidi (2014) — Bhayanaka, Shringara
+- Thenali (2000) — Hasya, Karuna
+- Theri (2016) — Veera, Raudra, Karuna
+- Thevar Magan (1992) — Veera, Raudra, Karuna
+- Thiruchitrambalam (2022) — Shringara, Hasya, Karuna
+- Thupparivaalan (2017) — Bhayanaka, Adbhuta
+- Tourist Family (2025) — Hasya, Karuna, Shanta
+- U Turn (2018) — Bhayanaka
+- Unnaipol Oruvan (2009) — Bhayanaka, Raudra
+- Uriyadi (2016) — Raudra, Bibhatsa
+- Uttama Villain (2015) — Karuna, Hasya
+- Vaali (1999) — Shringara, Bhayanaka, Bibhatsa
+- Vaathi (2023) — Veera, Karuna
+- Vada Chennai (2018) — Bibhatsa, Raudra, Veera
+- Vasool Raja MBBS (2004) — Hasya, Karuna
+- Velaikkaran (2017) — Veera, Raudra
+- Velaiyilla Pattathari (2014) — Hasya, Veera, Karuna
+- Vettaiyaadu Vilaiyaadu (2006) — Bhayanaka, Veera, Bibhatsa
+- Viduthalai: Part I (2023) — Raudra, Karuna, Veera
+- Vikram Vedha (2017) — Bhayanaka, Veera, Raudra
+- Virumaandi (2004) — Raudra, Veera, Karuna
+- Visaranai (2016) — Bibhatsa, Karuna, Bhayanaka
+- Vishwanath & Sons (2026) — Karuna, Shringara, Hasya
+- With Love (2026) — Shringara, Hasya
+- Yaaradi Nee Mohini (2008) — Shringara, Hasya, Karuna
+- Yennai Arindhaal (2015) — Veera, Shringara, Bhayanaka
+- Youth (2026) — Hasya, Shringara
+
+## Telugu (85)
+
+- A Aa (2016) — Shringara, Hasya
+- Aadavari Matalaku Ardhalu Verule (2007) — Shringara, Hasya, Karuna
+- Aarya (2004) — Shringara, Hasya, Veera
+- Aarya 2 (2009) — Shringara, Hasya, Raudra
+- Aditya 369 (1991) — Adbhuta, Hasya, Veera
+- Ala Modalaindi (2011) — Shringara, Hasya
+- Ala Vaikunthapurramuloo (2020) — Hasya, Veera, Karuna
+- Anand (2004) — Shringara, Shanta
+- Ante... Sundaraniki! (2022) — Hasya, Shringara, Karuna
+- Aravinda Sametha... Veera Raghava (2018) — Raudra, Veera, Shanta
+- Arjun Reddy (2017) — Shringara, Raudra, Karuna
+- Athadu (2005) — Veera, Bhayanaka, Hasya
+- Atharintiki Daaredi (2013) — Hasya, Karuna, Veera
+- Awe! (2018) — Adbhuta, Bhayanaka, Bibhatsa
+- Brindavanam (2010) — Hasya, Shringara, Veera
+- Brochevarevarura (2019) — Hasya, Bhayanaka
+- Businessman (2012) — Raudra, Veera
+- Bāhubali: The Beginning (2015) — Veera, Adbhuta, Shringara
+- Chitralahari (2019) — Karuna, Shanta, Veera
+- Colour Photo (2020) — Shringara, Karuna, Raudra
+- Court: State vs. A Nobody (2025) — Karuna, Raudra
+- Dear Comrade (2019) — Shringara, Raudra, Veera
+- Devara: Part 1 (2024) — Veera, Raudra
+- Dhruva (2016) — Veera, Bhayanaka
+- Dookudu (2011) — Veera, Hasya, Karuna
+- Drushyam (2014) — Bhayanaka, Karuna
+- Ee Nagaraniki Emaindi? (2018) — Hasya, Shanta
+- Fidaa (2017) — Shringara, Hasya, Karuna
+- Gamyam (2008) — Shanta, Karuna, Shringara
+- Geetha Govindam (2018) — Shringara, Hasya
+- Gentleman (2016) — Bhayanaka, Shringara
+- Hello! (2017) — Shringara, Veera
+- Hi Nanna (2023) — Karuna, Shringara
+- HIT: The 2nd Case (2022) — Bhayanaka, Bibhatsa
+- HIT: The First Case (2020) — Bhayanaka
+- HIT: The Third Case (2025) — Raudra, Bibhatsa, Bhayanaka
+- Irumudi (2026) — Shanta, Karuna
+- Ishq (2012) — Shringara, Hasya
+- Jalsa (2008) — Hasya, Veera, Shringara
+- Janatha Garage (2016) — Veera, Raudra
+- Jathi Ratnalu (2021) — Hasya
+- Khaleja (2010) — Hasya, Adbhuta, Veera
+- Khushi (2001) — Shringara, Hasya
+- Kick (2009) — Hasya, Veera
+- Krishna Gaadi Veera Prema Gaadha (2016) — Hasya, Shringara, Bhayanaka
+- Love Story (2021) — Shringara, Karuna, Raudra
+- Lucky Baskhar (2024) — Bhayanaka, Veera
+- Mahanati (2018) — Karuna, Shringara, Adbhuta
+- Maharshi (2019) — Veera, Karuna
+- Majili (2019) — Shringara, Karuna, Shanta
+- Major (2022) — Veera, Karuna, Shringara
+- Malliswari (2004) — Shringara, Hasya
+- Manam (2014) — Adbhuta, Shringara, Hasya
+- Maryada Ramanna (2010) — Hasya, Bhayanaka, Veera
+- Mathu Vadalara (2019) — Hasya, Bhayanaka
+- Mayabazar (1957) — Adbhuta, Hasya, Shringara
+- Mr. Perfect (2011) — Shringara, Karuna
+- Murari (2001) — Shringara, Bhayanaka, Hasya
+- Nani's Gang Leader (2019) — Hasya, Bhayanaka, Raudra
+- Nannaku Prematho... (2016) — Veera, Karuna, Raudra
+- Oh! Baby (2019) — Hasya, Karuna, Adbhuta
+- Okkadu (2003) — Veera, Bhayanaka, Shringara
+- Oohalu Gusagusalade (2014) — Shringara, Hasya
+- Oopiri (2016) — Hasya, Karuna, Shanta
+- Pelli Choopulu (2016) — Hasya, Shringara, Shanta
+- Pilla Zamindar (2011) — Hasya, Karuna
+- Pokiri (2006) — Veera, Raudra, Shringara
+- Pushpa: The Rise (2021) — Raudra, Veera
+- Race Gurram (2014) — Hasya, Veera
+- Rangasthalam (2018) — Raudra, Veera, Karuna
+- Saripodhaa Sanivaaram (2024) — Raudra, Veera
+- Seethamma Vakitlo Sirimalle Chettu (2013) — Shanta, Karuna, Hasya
+- Shyam Singha Roy (2021) — Shringara, Adbhuta, Veera
+- Sita Ramam (2022) — Shringara, Karuna, Veera
+- Siva (1989) — Raudra, Veera
+- Son of Satyamurthy (2015) — Hasya, Karuna, Veera
+- Srimanthudu (2015) — Veera, Shanta
+- Temper (2015) — Raudra, Veera
+- Tholi Prema (2018) — Shringara, Hasya
+- Tholi Prema (1998) — Shringara, Karuna
+- V (2021) — Bhayanaka, Raudra
+- Vedam (2010) — Karuna, Veera
+- Vikramarkudu (2006) — Veera, Raudra, Hasya
+- Yavade Subramanyam (2015) — Shanta, Adbhuta
+- Ye Maaya Chesave (2010) — Shringara, Karuna
+
+## Bengali (46)
+
+- Ajantrik (1958) — Shanta, Karuna, Hasya
+- An Enemy of the People (1990) — Veera, Raudra
+- Aparajito (1956) — Karuna, Shanta
+- Baishe Srabon (2011) — Bhayanaka, Bibhatsa
+- Belaseshe (2015) — Shanta, Shringara, Karuna
+- Bhooter Bhabishyat (2012) — Hasya, Bhayanaka
+- Bojhena Shey Bojhena (2012) — Shringara, Karuna
+- Charulata (1964) — Shringara, Shanta, Karuna
+- Chokher Bali (2003) — Shringara, Karuna, Raudra
+- Chotushkone (2014) — Bhayanaka, Adbhuta
+- Company Limited (1971) — Bibhatsa, Shanta
+- Days and Nights in the Forest (1970) — Shanta, Hasya, Shringara
+- Devi (1960) — Karuna, Bhayanaka
+- Distant Thunder (1973) — Karuna, Bibhatsa
+- Goopy Gyne Bagha Byne (1969) — Adbhuta, Hasya, Shanta
+- Hemlock Society (2012) — Shringara, Karuna, Hasya
+- Jaatishwar (2014) — Adbhuta, Shringara, Karuna
+- Jekhane Bhooter Bhoy (2012) — Bhayanaka, Adbhuta
+- Kanchenjungha (1962) — Shanta, Shringara
+- Labour of Love (2015) — Shanta, Shringara
+- Moner Manush (2010) — Shanta
+- Reason, Debate and a Story (1974) — Karuna, Raudra, Shanta
+- Royal Bengal Rahasya (2011) — Bhayanaka, Adbhuta
+- Sound (2013) — Shanta, Karuna
+- The Adversary (1970) — Raudra, Karuna, Shanta
+- The Big City (1963) — Veera, Shanta, Karuna
+- The Branches of the Tree (1990) — Karuna, Shanta
+- The Cloud-Capped Star (1960) — Karuna, Veera
+- The Coward (1965) — Shringara, Karuna
+- The Elephant God (1979) — Bhayanaka, Adbhuta, Hasya
+- The Expedition (1962) — Shanta, Veera
+- The Golden Fortress (1974) — Adbhuta, Bhayanaka, Hasya
+- The Golden Thread (1965) — Karuna
+- The Hero (1966) — Shanta, Karuna
+- The Home and the World (1985) — Shringara, Karuna, Veera
+- The Japanese Wife (2010) — Shringara, Karuna, Shanta
+- The Jewellery Box (2013) — Hasya, Adbhuta
+- The Kingdom of Diamonds (1980) — Hasya, Adbhuta, Veera
+- The Middleman (1976) — Bibhatsa, Karuna, Hasya
+- The Music Room (1958) — Karuna, Shanta
+- The Philosopher's Stone (1958) — Hasya, Adbhuta
+- The Stranger (1991) — Adbhuta, Shanta, Hasya
+- The World of Apu (1959) — Karuna, Shringara, Shanta
+- The Zoo (1967) — Bhayanaka
+- Three Daughters (1961) — Karuna, Hasya, Bhayanaka
+- Vinci Da (2019) — Bhayanaka, Bibhatsa, Raudra
+
+## Punjabi (28)
+
+- Ambarsariya (2016) — Hasya, Veera
+- Angrej (2015) — Hasya, Shringara
+- Ardaas (2016) — Karuna, Shanta
+- Carry On Jatta (2012) — Hasya
+- Carry On Jatta 2 (2018) — Hasya
+- Chaar Sahibzaade (2014) — Veera, Karuna, Raudra
+- Chal Mera Putt (2019) — Hasya, Karuna
+- Chal Mera Putt 2 (2020) — Hasya, Karuna
+- DSP Dev (2019) — Veera, Raudra
+- Guddiyan Patole (2019) — Hasya, Karuna
+- Honsla Rakh (2021) — Hasya, Shringara, Karuna
+- Jaggi (2022) — Karuna, Bibhatsa
+- Jatt & Juliet (2012) — Hasya, Shringara
+- Jatt & Juliet 2 (2013) — Hasya, Shringara
+- Jatt & Juliet 3 (2024) — Hasya, Shringara
+- Kala Shah Kala (2019) — Hasya, Shringara
+- Lekh (2022) — Shringara, Karuna
+- Love Punjab (2016) — Karuna, Shringara, Shanta
+- Manje Bistre (2017) — Hasya
+- Ni Main Sass Kuttni 2 (2024) — Hasya
+- Nikka Zaildar (2016) — Hasya, Shringara
+- Punjab 1984 (2014) — Karuna, Raudra
+- Qismat (2018) — Shringara, Karuna, Hasya
+- Qissa: The Tale of a Lonely Ghost (2013) — Karuna, Bhayanaka, Bibhatsa
+- Sardaarji (2015) — Hasya, Adbhuta
+- Sufna (2020) — Shringara, Karuna
+- Super Singh (2017) — Adbhuta, Hasya, Veera
+- The Fourth Direction (2016) — Bhayanaka, Karuna
+
+## Marathi (25)
+
+- 1000 Rupee Note (2014) — Karuna, Shanta
+- Aga Bai Arechya (2004) — Hasya, Adbhuta
+- Anandi Gopal (2019) — Veera, Karuna
+- Ashi Hi Banwa Banwi (1988) — Hasya
+- Balak Palak (2013) — Hasya, Shanta
+- Balgandharva (2011) — Karuna, Adbhuta
+- Cactus Pears (2025) — Shringara, Shanta, Karuna
+- Deool (2011) — Hasya
+- Dombivali Fast (2005) — Raudra, Karuna
+- Duniyadari (2013) — Shringara, Hasya, Karuna
+- Faster Fene (2017) — Bhayanaka, Veera, Adbhuta
+- Jogwa - The Awakening (2009) — Karuna, Shringara, Veera
+- Katyar Kaljat Ghusali (2015) — Adbhuta, Raudra, Veera
+- Me Shivajiraje Bhosale Boltoy (2009) — Veera, Raudra
+- Mumbai Pune Mumbai (2010) — Shringara, Hasya
+- Muramba (2017) — Shringara, Hasya, Shanta
+- Natrang (2010) — Karuna, Veera, Shringara
+- Sant Tukaram (1936) — Shanta, Adbhuta
+- Shwaas (2004) — Karuna, Veera
+- The Disciple (2020) — Shanta, Karuna
+- Umbartha (1982) — Veera, Karuna
+- Vaalvi (2023) — Hasya, Bibhatsa, Bhayanaka
+- Ved (2022) — Shringara, Karuna
+- Ventilator (2016) — Hasya, Karuna
+- Zapatlela (1993) — Hasya, Bhayanaka, Adbhuta
+
+## Kannada (18)
+
+- ...Re (2016) — Hasya, Adbhuta
+- 777 Charlie (2022) — Karuna, Shanta, Hasya
+- Avane Srimannarayana (2019) — Adbhuta, Hasya, Veera
+- Bell Bottom (2019) — Hasya, Bhayanaka
+- Kantara (2022) — Adbhuta, Raudra, Bhayanaka
+- Kantara - A Legend: Chapter 1 (2025) — Adbhuta, Veera, Raudra
+- Kavaludaari (2019) — Bhayanaka
+- Love Mocktail (2020) — Shringara, Karuna
+- Lucia (2013) — Adbhuta, Bhayanaka, Shringara
+- Ondu Motteya Kathe (2017) — Hasya, Shringara, Karuna
+- Rama Rama Re (2016) — Shanta, Bhayanaka, Hasya
+- Rangi Taranga (2015) — Bhayanaka, Adbhuta
+- Sapta Sagaradaache Ello - Side B (2023) — Shringara, Karuna, Raudra
+- Su from So (2025) — Hasya, Bhayanaka
+- Thithi (2016) — Hasya, Shanta
+- Toxic (2026) — Raudra, Bibhatsa
+- Ugramm (2014) — Raudra, Veera
+- Upendra (1999) — Shringara, Bhayanaka
+
+## Gujarati (13)
+
+- Bey Yaar (2014) — Hasya, Karuna
+- Chaal Jeevi Laiye! (2019) — Hasya, Karuna, Shanta
+- Chhello Divas (2015) — Hasya, Karuna
+- Faati Ne? (2025) — Hasya, Bhayanaka
+- Gujjubhai The Great (2015) — Hasya
+- Hellaro (2019) — Veera, Karuna
+- Hello (2023) — Bhayanaka
+- Last Film Show (2022) — Adbhuta, Shanta, Karuna
+- Love Ni Bhavai (2017) — Shringara, Hasya
+- Reva (2018) — Shanta, Adbhuta
+- Vash (2023) — Bhayanaka, Raudra, Bibhatsa
+- Vash Level 2 (2025) — Bhayanaka, Raudra, Bibhatsa
+- Wrong Side Raju (2016) — Bhayanaka
+
+## Assamese (9)
+
+- Bulbul Can Sing (2019) — Shringara, Karuna, Shanta
+- It's a Long Way to the Sea (1995) — Karuna, Shanta
+- Kothanodi: The River of Fables (2015) — Adbhuta, Bhayanaka, Bibhatsa
+- Local Kung Fu (2013) — Hasya, Veera
+- Maj Rati Keteki (2017) — Shanta, Karuna
+- The Catastrophe (1987) — Karuna, Raudra
+- The Flight (1997) — Karuna
+- Village Rockstars (2018) — Shanta, Veera
+- Wings of the Tern (1975) — Shringara, Karuna
+
+## Odia (3)
+
+- Bou Buttu Bhuta (2025) — Hasya, Bhayanaka
+- DAMaN (2022) — Veera
+- Maya Miriga (1984) — Karuna, Shanta

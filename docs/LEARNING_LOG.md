@@ -603,3 +603,30 @@ by labelling them and making approval an explicit step, not by refusing.
   silently shifted onto the wrong films. The count check and anchor films caught
   it.
 - Review CTAs linked `mood.html?rasa=…` for months and the page ignored it.
+
+## 2026-11-28 — Mood page: 702 more films from TMDb
+
+**What happened:**
+
+Mahe asked why the page should stop at the 331 listed films. 730 well-rated
+Indian-language candidates were pulled from TMDb across eleven languages; 702
+went into `data/mood-extra.json` with AI-suggested rasas, bringing the page to
+1,036 films. Listed and reviewed films still come first and are marked; the page
+says the rest are picked up from TMDb. Others take turns by language so one
+industry does not fill a page. 26 non-Indian results and two with too little
+description to place were left out. `scripts/build-mood-extra.py` refreshes the
+TMDb fields without touching rasas.
+
+**Concept:**
+
+Volume and curation are different claims. The page can offer more films as long
+as it never presents a TMDb filter as the editor's choice.
+
+**Traps:**
+
+- A language filter is not a country filter. Bengali and Punjabi results included
+  Bangladeshi and Pakistani films; `origin_country` had to be checked per film.
+  TMDb also files a few Indian films under another country (Subarnarekha, Monsoon
+  Wedding), so those were allowed by hand.
+- Placements were made from titles and short plot descriptions. Expect errors,
+  especially for lesser-known films.
