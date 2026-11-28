@@ -1,13 +1,15 @@
 /* ===========================
    CineRaaga — Mood Page JS
 
-   Shows every film CineRaaga covers (the ranked lists and the reviews),
-   grouped by rasa.
+   Films grouped by rasa: first every film CineRaaga covers (the ranked
+   lists and the reviews), then more Indian films picked up from TMDb.
 
    Where a film's rasas come from, in order:
      1. data/reviews.json  — the editor's own rasas for a reviewed film
-     2. data/rasa-films.json — placements for listed films. While its status
-        is not "approved" they are suggestions, and the page says so.
+     2. data/rasa-films.json — placements for listed films
+     3. data/mood-extra.json — the films beyond the lists, each with its rasas
+   While the status of 2 or 3 is not "approved" those placements are
+   suggestions, and the page says so.
 
    No scores are shown except a real Navras Score from a published review.
    =========================== */
@@ -51,13 +53,13 @@ const getJson = url => fetch(url).then(r => (r.ok ? r.json() : null)).catch(() =
 function loadMoodData() {
   if (loading) return loading;
   loading = (async () => {
-    const [index, placements, reviews, db] = await Promise.all([
+    const [index, placements, extra, reviews, db] = await Promise.all([
       getJson('../data/lists/index.json'), getJson('../data/rasa-films.json'),
-      getJson('../data/reviews.json'), loadFilmDb('../')
+      getJson('../data/mood-extra.json'), getJson('../data/reviews.json'), loadFilmDb('../')
     ]);
     if (!index || !placements) { loading = null; throw new Error('mood data unavailable'); }
     const lists = await Promise.all(index.map(e => getJson(`../data/lists/${e.slug}.json`)));
-    placementsApproved = placements.status === 'approved';
+    placementsApproved = placements.status === 'approved' && (!extra || extra.status === 'approved');
 
     const films = new Map();
     const add = (title, year, language) => {
@@ -65,7 +67,7 @@ function loadMoodData() {
       if (!films.has(key)) {
         const rec = db[key] || {};
         films.set(key, { key, title, year, language, tmdbId: rec.tmdb_id || null,
-          poster: rec.poster_path || null, lists: 0, bestRank: 999, review: null, rasas: [] });
+          poster: rec.poster_path || null, lists: 0, bestRank: 999, order: 0, review: null, rasas: [] });
       }
       return films.get(key);
     };
@@ -78,11 +80,25 @@ function loadMoodData() {
     }));
     films.forEach(f => { f.rasas = placements.films[f.key] || []; });
 
+    /* The rest of the films. Anything already in a list is skipped. `order`
+       is the film's place within its own language, used to mix languages. */
+    const listed = new Set([...films.values()].map(f => f.tmdbId));
+    const perLanguage = {};
+    ((extra && extra.films) || []).forEach(x => {
+      if (listed.has(x.tmdb_id)) return;
+      const f = add(x.title, x.year, x.language);
+      if (f.lists) return;
+      perLanguage[x.language] = (perLanguage[x.language] || 0) + 1;
+      Object.assign(f, { tmdbId: x.tmdb_id, poster: x.poster_path, rasas: x.rasas,
+        order: perLanguage[x.language] });
+    });
+
     (reviews || []).forEach(r => {
       const f = [...films.values()].find(x => x.tmdbId === r.tmdb_id)
         || add(r.title, r.year, r.language.toLowerCase());
       f.review = r;
       f.tmdbId = r.tmdb_id;
+      f.poster = f.poster || (db[f.key] || {}).poster_path || null;
       if ((r.rasas || []).length) f.rasas = r.rasas;
     });
 
@@ -96,13 +112,18 @@ function loadMoodData() {
   return loading;
 }
 
-/* Strongest first: films where this is the main rasa, reviewed ones ahead,
-   then those in more lists and ranked higher. */
+const isOurs = f => Boolean(f.review) || f.lists > 0;
+
+/* Our own films first. Within each group, films where this is the main rasa
+   come first; then reviewed ones, those in more lists and ranked higher. The
+   other films take turns by language, so one language doesn't fill the page. */
 function byMatch(rasa) {
-  return (a, b) => a.rasas.indexOf(rasa) - b.rasas.indexOf(rasa)
+  return (a, b) => isOurs(b) - isOurs(a)
+    || a.rasas.indexOf(rasa) - b.rasas.indexOf(rasa)
     || Boolean(b.review) - Boolean(a.review)
     || b.lists - a.lists
     || a.bestRank - b.bestRank
+    || a.order - b.order
     || a.title.localeCompare(b.title);
 }
 
@@ -135,7 +156,7 @@ function filmCard(f) {
       </div>
       <div class="film-info">
         <div class="film-title">${esc(f.title)}</div>
-        <div class="film-meta">${f.year}${f.review ? ' · Reviewed' : ''}</div>
+        <div class="film-meta">${f.year}${f.review ? ' · Reviewed' : f.lists ? ' · In our lists' : ''}</div>
         <div class="film-rasatags">${f.rasas.map(r => `<span class="rtag">${esc(cap(r))}</span>`).join('')}</div>
       </div>
     </${href ? 'a' : 'div'}>`;
@@ -145,8 +166,10 @@ function render() {
   const all = filtered();
   const grid = document.getElementById('mrpFilmsGrid');
   const info = rasaInfo[currentRasa];
+  const ours = all.filter(isOurs).length;
   document.getElementById('mrpGridLabel').textContent =
-    `${all.length} ${info.name} film${all.length === 1 ? '' : 's'}`;
+    `${all.length} ${info.name} film${all.length === 1 ? '' : 's'}`
+    + (ours && ours < all.length ? ` · ${ours} from our lists and reviews` : '');
   grid.innerHTML = all.length
     ? all.slice(0, shown).map(filmCard).join('')
     : '<p class="mood-none">No films match these filters.</p>';
