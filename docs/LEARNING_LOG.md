@@ -575,3 +575,31 @@ attempt made every page light and had to be narrowed.
   listed for approval; keep doing that.
 - Right after a deploy the HTML and CSS can briefly be from different versions;
   verify both before concluding anything.
+
+## 2026-11-28 — Mood page: 334 films by rasa, suggested at the editor's request
+
+**What happened:**
+
+Clicking a rasa showed only 10–30 films, from a prototype export whose tags were
+visibly wrong, with no posters and cards linking to a blank film page. Mahe asked
+for at least 100 films placed by AI analysis. All 331 listed films were placed
+(1–3 rasas, strongest first) into `data/rasa-films.json`, using film knowledge
+and Mahe's list notes; the three reviewed films keep Mahe's own rasas. The page
+now shows posters, real links, working language and era filters, and a note that
+placements are unchecked suggestions. The platform filter (unverified
+availability) and score sorting (no scores) were removed, and the line "No
+algorithm. No black box." was dropped because it is no longer true. Homepage rasa
+images now open that rasa.
+
+**Concept:**
+
+The never-derive rule exists so readers are not shown a machine's judgement
+dressed as the editor's. When the editor asks for suggestions, the rule is kept
+by labelling them and making approval an explicit step, not by refusing.
+
+**Traps:**
+
+- A first pass of placements was three entries short; positional data would have
+  silently shifted onto the wrong films. The count check and anchor films caught
+  it.
+- Review CTAs linked `mood.html?rasa=…` for months and the page ignored it.

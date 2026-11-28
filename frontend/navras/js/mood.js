@@ -1,5 +1,15 @@
 /* ===========================
-   NAVRAS — Mood Page JS
+   CineRaaga — Mood Page JS
+
+   Shows every film CineRaaga covers (the ranked lists and the reviews),
+   grouped by rasa.
+
+   Where a film's rasas come from, in order:
+     1. data/reviews.json  — the editor's own rasas for a reviewed film
+     2. data/rasa-films.json — placements for listed films. While its status
+        is not "approved" they are suggestions, and the page says so.
+
+   No scores are shown except a real Navras Score from a published review.
    =========================== */
 
 const rasaInfo = {
@@ -15,200 +25,210 @@ const rasaInfo = {
 };
 
 const rasaList = Object.keys(rasaInfo);
+const PAGE_SIZE = 24;
 
-/* ---- Data store — loaded from data/mood/*.json, never hand-typed ---- */
-let filmDatabase = {};
-let dataLoaded = false;
+const ERAS = {
+  '2020s': y => y >= 2020,
+  '2010s': y => y >= 2010 && y < 2020,
+  '2000s': y => y >= 2000 && y < 2010,
+  '1990s': y => y >= 1990 && y < 2000,
+  'classic': y => y < 1990
+};
 
-async function loadMoodData() {
-  const results = await Promise.all(
-    rasaList.map(r => fetch(`../data/mood/${r}.json`).then(res => res.json()).catch(() => ({ rasa: r, films: [] })))
-  );
-  results.forEach(d => {
-    const films = d.films || [];
-    filmDatabase[d.rasa] = films;
-    const countEl = document.querySelector(`.rasa-face-card[data-rasa="${d.rasa}"] .rfc-face-count`);
-    if (countEl) countEl.textContent = `${films.length} film${films.length === 1 ? '' : 's'}`;
-  });
-  dataLoaded = true;
+let filmsByRasa = {};
+let placementsApproved = false;
+let loading = null;
+let currentRasa = null;
+let sortBy = 'match';
+let shown = PAGE_SIZE;
+
+const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => (
+  { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+));
+const cap = s => s ? s.charAt(0).toUpperCase() + s.slice(1) : '';
+const getJson = url => fetch(url).then(r => (r.ok ? r.json() : null)).catch(() => null);
+
+function loadMoodData() {
+  if (loading) return loading;
+  loading = (async () => {
+    const [index, placements, reviews, db] = await Promise.all([
+      getJson('../data/lists/index.json'), getJson('../data/rasa-films.json'),
+      getJson('../data/reviews.json'), loadFilmDb('../')
+    ]);
+    if (!index || !placements) { loading = null; throw new Error('mood data unavailable'); }
+    const lists = await Promise.all(index.map(e => getJson(`../data/lists/${e.slug}.json`)));
+    placementsApproved = placements.status === 'approved';
+
+    const films = new Map();
+    const add = (title, year, language) => {
+      const key = `${title}|${year}|${language}`;
+      if (!films.has(key)) {
+        const rec = db[key] || {};
+        films.set(key, { key, title, year, language, tmdbId: rec.tmdb_id || null,
+          poster: rec.poster_path || null, lists: 0, bestRank: 999, review: null, rasas: [] });
+      }
+      return films.get(key);
+    };
+
+    lists.filter(Boolean).forEach(list => (list.entries || []).forEach(e => {
+      const f = add(e.film.title, e.film.year, e.film.language);
+      f.lists += 1;
+      f.bestRank = Math.min(f.bestRank, e.rank || 999);
+      f.tmdbId = e.film.tmdb_id || f.tmdbId;
+    }));
+    films.forEach(f => { f.rasas = placements.films[f.key] || []; });
+
+    (reviews || []).forEach(r => {
+      const f = [...films.values()].find(x => x.tmdbId === r.tmdb_id)
+        || add(r.title, r.year, r.language.toLowerCase());
+      f.review = r;
+      f.tmdbId = r.tmdb_id;
+      if ((r.rasas || []).length) f.rasas = r.rasas;
+    });
+
+    rasaList.forEach(rasa => {
+      filmsByRasa[rasa] = [...films.values()].filter(f => f.rasas.includes(rasa));
+      const count = document.querySelector(`.rasa-face-card[data-rasa="${rasa}"] .rfc-face-count`);
+      const n = filmsByRasa[rasa].length;
+      if (count) count.textContent = `${n} film${n === 1 ? '' : 's'}`;
+    });
+  })();
+  return loading;
 }
 
-let currentRasa = null;
-let currentFilms = [];
-let displayedCount = 6;
+/* Strongest first: films where this is the main rasa, reviewed ones ahead,
+   then those in more lists and ranked higher. */
+function byMatch(rasa) {
+  return (a, b) => a.rasas.indexOf(rasa) - b.rasas.indexOf(rasa)
+    || Boolean(b.review) - Boolean(a.review)
+    || b.lists - a.lists
+    || a.bestRank - b.bestRank
+    || a.title.localeCompare(b.title);
+}
+
+function filtered() {
+  const lang = document.getElementById('langFilter').value;
+  const era = document.getElementById('eraFilter').value;
+  const list = (filmsByRasa[currentRasa] || []).filter(f =>
+    (lang === 'all' || f.language === lang) && (era === 'all' || ERAS[era](f.year)));
+  const order = {
+    match: byMatch(currentRasa),
+    newest: (a, b) => b.year - a.year || byMatch(currentRasa)(a, b),
+    oldest: (a, b) => a.year - b.year || byMatch(currentRasa)(a, b)
+  };
+  return list.sort(order[sortBy]);
+}
+
+function filmCard(f) {
+  const href = f.review ? `${encodeURIComponent(f.review.slug)}.html`
+    : f.tmdbId ? `movie.html?id=${f.tmdbId}` : null;
+  const art = f.poster
+    ? `<img src="https://image.tmdb.org/t/p/w342${esc(f.poster)}" alt="" loading="lazy" onerror="this.remove()" />` : '';
+  const score = f.review
+    ? `<span class="mood-score ${esc(f.review.score_class)}">${f.review.navras_score} Navras</span>` : '';
+  return `
+    <${href ? `a href="${href}"` : 'div'} class="film-card">
+      <div class="film-poster mood-poster">
+        ${art}
+        <span class="film-lang">${esc(cap(f.language))}</span>
+        ${score}
+      </div>
+      <div class="film-info">
+        <div class="film-title">${esc(f.title)}</div>
+        <div class="film-meta">${f.year}${f.review ? ' · Reviewed' : ''}</div>
+        <div class="film-rasatags">${f.rasas.map(r => `<span class="rtag">${esc(cap(r))}</span>`).join('')}</div>
+      </div>
+    </${href ? 'a' : 'div'}>`;
+}
+
+function render() {
+  const all = filtered();
+  const grid = document.getElementById('mrpFilmsGrid');
+  const info = rasaInfo[currentRasa];
+  document.getElementById('mrpGridLabel').textContent =
+    `${all.length} ${info.name} film${all.length === 1 ? '' : 's'}`;
+  grid.innerHTML = all.length
+    ? all.slice(0, shown).map(filmCard).join('')
+    : '<p class="mood-none">No films match these filters.</p>';
+  document.getElementById('loadMoreBtn').style.display = all.length > shown ? 'block' : 'none';
+}
 
 async function selectRasa(rasa, el) {
-  if (!dataLoaded) await loadMoodData();
+  if (!rasaInfo[rasa]) return;
+  try { await loadMoodData(); } catch (e) { return; }
 
   currentRasa = rasa;
-  displayedCount = 6;
+  shown = PAGE_SIZE;
 
-  // Update card states
-  document.querySelectorAll('.rasa-face-card, .rasa-full-card').forEach(c => c.classList.remove('active'));
-  if (el) el.classList.add('active');
-
-  // Hide grid, show results
-  const grid = document.getElementById('rasasFullGrid');
-  if (grid) grid.style.display = 'none';
+  document.querySelectorAll('.rasa-face-card').forEach(c => c.classList.toggle('active', c.dataset.rasa === rasa));
+  document.getElementById('rasasFullGrid').style.display = 'none';
   document.getElementById('moodResultsPanel').style.display = 'block';
   document.getElementById('rasaPhilosophy').style.display = 'none';
 
   const info = rasaInfo[rasa];
   document.getElementById('mrpTitle').textContent = `${info.icon} ${info.name} · ${info.meaning}`;
-  document.getElementById('mrpGridLabel').textContent = `All ${info.name} films`;
+  document.getElementById('mrpNote').hidden = placementsApproved;
 
-  currentFilms = [...(filmDatabase[rasa] || [])];
-  renderFeatured(currentFilms[0]);
-  renderFilms(currentFilms.slice(1, displayedCount + 1));
+  /* offer only the languages this rasa actually has */
+  const select = document.getElementById('langFilter');
+  const languages = [...new Set(filmsByRasa[rasa].map(f => f.language))].sort();
+  select.innerHTML = '<option value="all">All languages</option>'
+    + languages.map(l => `<option value="${esc(l)}">${esc(cap(l))}</option>`).join('');
+  document.getElementById('eraFilter').value = 'all';
 
+  render();
+  history.replaceState(null, '', `?rasa=${rasa}`);
   document.getElementById('moodResultsPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function clearRasa() {
   currentRasa = null;
-  document.querySelectorAll('.rasa-face-card, .rasa-full-card').forEach(c => c.classList.remove('active'));
-  const grid = document.getElementById('rasasFullGrid');
-  if (grid) grid.style.display = 'grid';
+  document.querySelectorAll('.rasa-face-card').forEach(c => c.classList.remove('active'));
+  document.getElementById('rasasFullGrid').style.display = 'grid';
   document.getElementById('moodResultsPanel').style.display = 'none';
   document.getElementById('rasaPhilosophy').style.display = 'block';
+  history.replaceState(null, '', location.pathname);
   window.scrollTo({ top: 0, behavior: 'smooth' });
-}
-
-/* ---- Score display rule: only score_status:"official" films show a
-   Navras Score badge. Every curated film today is "placeholder", so
-   no badge renders yet — that's expected, not a bug. ---- */
-function langLabel(lang) {
-  return lang ? lang.charAt(0).toUpperCase() + lang.slice(1) : '';
-}
-
-function ottLabel(ott) {
-  const platform = (ott || [])[0]?.platform;
-  return platform ? platform.charAt(0).toUpperCase() + platform.slice(1) : '';
-}
-
-function renderFeatured(film) {
-  if (!film) return;
-  const container = document.getElementById('mrpFeatured');
-  const showScore = film.score_status === 'official';
-  const scoreColor = film.navras_score >= 85 ? '#2ECC71' : film.navras_score >= 70 ? '#F39C12' : '#E74C3C';
-  container.innerHTML = `
-    <div class="featured-pick-card">
-      <div class="fp-poster" style="background:linear-gradient(160deg,${film.color},${film.color}88);"></div>
-      <div class="fp-info">
-        <div class="fp-badge">✦ Top CineRaaga Pick</div>
-        <div class="fp-title">${film.title}</div>
-        <div class="fp-meta">${langLabel(film.language)} · ${film.year} · ${(film.rasas||[]).join(' · ')}</div>
-        <div class="fp-verdict">${film.verdict || ''}</div>
-        <div class="fp-bottom">
-          ${showScore ? `<div class="fp-score" style="color:${scoreColor};">${film.navras_score}<span>/100 Navras</span></div>` : ''}
-          <a href="movie.html" class="fp-watch-btn">View full review →</a>
-          ${ottLabel(film.ott) ? `<span class="navras-score-pill" style="font-size:11px;">${ottLabel(film.ott)}</span>` : ''}
-        </div>
-      </div>
-    </div>
-  `;
-}
-
-function renderFilms(films) {
-  const grid = document.getElementById('mrpFilmsGrid');
-  grid.innerHTML = films.map(f => {
-    const showScore = f.score_status === 'official';
-    const dotClass = f.navras_score >= 85 ? 'green' : f.navras_score >= 70 ? 'amber' : 'red';
-    return `
-      <a href="movie.html" class="film-card">
-        <div class="film-poster" style="background:linear-gradient(160deg,${f.color},${f.color}88);">
-          <span class="film-lang">${langLabel(f.language)}</span>
-          ${showScore ? `<span class="film-score-badge"><span class="sdot ${dotClass}"></span>${f.navras_score}</span>` : ''}
-        </div>
-        <div class="film-info">
-          <div class="film-title">${f.title}</div>
-          <div class="film-meta">${f.year} · ${(f.rasas||[])[0] || ''}</div>
-          <div class="film-rasatags">${(f.rasas||[]).map(r=>`<span class="rtag">${r}</span>`).join('')}</div>
-        </div>
-      </a>
-    `;
-  }).join('');
-
-  // Show/hide load more
-  const allFilms = filmDatabase[currentRasa] || [];
-  document.getElementById('loadMoreBtn').style.display =
-    displayedCount + 1 >= allFilms.length ? 'none' : 'block';
-}
-
-function loadMore() {
-  displayedCount += 4;
-  applyFilters();
 }
 
 function applyFilters() {
   if (!currentRasa) return;
-  const lang = document.getElementById('langFilter').value;
-  const ott = document.getElementById('ottFilter').value;
-  const era = document.getElementById('eraFilter').value;
-
-  let filtered = [...(filmDatabase[currentRasa] || [])];
-
-  if (lang !== 'all') filtered = filtered.filter(f => f.language === lang);
-  if (ott !== 'all') filtered = filtered.filter(f => (f.ott || []).some(o => o.platform === ott));
-  if (era !== 'all') filtered = filtered.filter(f => f.era === era);
-
-  currentFilms = filtered;
-  if (filtered.length > 0) {
-    renderFeatured(filtered[0]);
-    renderFilms(filtered.slice(1, displayedCount + 1));
-  } else {
-    document.getElementById('mrpFeatured').innerHTML = `
-      <div style="padding:20px;color:var(--text-muted);font-size:14px;">
-        No films found with these filters. Try adjusting.
-      </div>`;
-    document.getElementById('mrpFilmsGrid').innerHTML = '';
-  }
+  shown = PAGE_SIZE;
+  render();
 }
 
-function sortResults(by) {
-  document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
-
-  if (by === 'navras') currentFilms.sort((a,b) => b.navras_score - a.navras_score);
-  else if (by === 'year') currentFilms.sort((a,b) => b.year - a.year);
-  else if (by === 'popular') currentFilms.sort((a,b) => b.navras_score - a.navras_score);
-
-  renderFeatured(currentFilms[0]);
-  renderFilms(currentFilms.slice(1, displayedCount + 1));
+function loadMore() {
+  shown += PAGE_SIZE;
+  render();
 }
 
-async function searchByPrompt() {
+function sortResults(by, button) {
+  sortBy = by;
+  document.querySelectorAll('.sort-btn').forEach(b => b.classList.toggle('active', b === button));
+  applyFilters();
+}
+
+/* A single mood word opens that rasa; anything longer goes to the full search. */
+function searchByPrompt() {
   const input = document.getElementById('moodPromptInput').value.trim();
   if (!input) return;
-  if (!dataLoaded) await loadMoodData();
-
-  // For now highlight the most relevant rasa based on keywords
-  const keywords = input.toLowerCase();
-  let rasa = 'shringara';
-  if (keywords.match(/funny|laugh|comedy|light/)) rasa = 'hasya';
-  else if (keywords.match(/sad|cry|emotional|feel|moving/)) rasa = 'karuna';
-  else if (keywords.match(/action|hero|inspire|pump|courage/)) rasa = 'veera';
-  else if (keywords.match(/scary|thriller|suspense|horror|tense/)) rasa = 'bhayanaka';
-  else if (keywords.match(/fantasy|wonder|mind.blown|visual|spectacle/)) rasa = 'adbhuta';
-  else if (keywords.match(/dark|gritty|intense|raw|angry/)) rasa = 'raudra';
-  else if (keywords.match(/calm|peace|slow|quiet|relax/)) rasa = 'shanta';
-  else if (keywords.match(/disturbing|unsettling|real|brutal/)) rasa = 'bibhatsa';
-  else if (keywords.match(/love|romance|romantic|heart/)) rasa = 'shringara';
-
-  const card = document.querySelector(`.rasa-full-card[data-rasa="${rasa}"]`);
-  selectRasa(rasa, card);
+  const words = {
+    hasya: /^(funny|laugh|comedy|happy|light)$/, karuna: /^(sad|cry|emotional|moving)$/,
+    veera: /^(courage|hero|inspiring|brave)$/, bhayanaka: /^(scary|fear|horror|suspense|tense)$/,
+    adbhuta: /^(wonder|fantasy|spectacle)$/, raudra: /^(angry|anger|rage|intense)$/,
+    shanta: /^(calm|peace|peaceful|quiet|relax)$/, bibhatsa: /^(dark|gritty|disturbing)$/,
+    shringara: /^(love|romance|romantic)$/
+  };
+  const rasa = rasaList.find(r => r === input.toLowerCase() || words[r].test(input.toLowerCase()));
+  if (rasa) selectRasa(rasa);
+  else window.location.href = `search.html?q=${encodeURIComponent(input)}`;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  loadMoodData();
-
-  // Enter key on prompt
+document.addEventListener('DOMContentLoaded', async () => {
   const input = document.getElementById('moodPromptInput');
-  if (input) {
-    input.addEventListener('keydown', e => {
-      if (e.key === 'Enter') searchByPrompt();
-    });
-  }
+  if (input) input.addEventListener('keydown', e => { if (e.key === 'Enter') searchByPrompt(); });
 
-  // Hamburger
+  const requested = new URLSearchParams(location.search).get('rasa');
+  if (requested && rasaInfo[requested]) selectRasa(requested);
+  else loadMoodData().catch(() => {});
 });

@@ -51,7 +51,13 @@ non-existent element is one `<div>` away from going live again.
 - `data/bridges.json` ("liked X, try Y") and `watch_with` in `data/reviews.json`
   are editorial. Never write or suggest-and-save them without the editor's words.
   Bridge shape: `{"from":{title,year,language},"to":{...},"why":"..."}`.
-- `data/mood/*.json` — the nine rasas.
+- `data/rasa-films.json` — rasas per listed film, read by the Mood page. First
+  filled by AI analysis **because Mahe asked for it (2026-11-28)**; that is a
+  specific permission, not a change to the never-derive rule. While `status` is
+  `suggested` the page says so; set `approved` only on Mahe's word. Don't add or
+  change placements unasked. Review sheet: `docs/RASA_ASSIGNMENTS.md`. A review's
+  own rasas always win. `data/mood/*.json` is the old prototype export, no longer
+  read by any page.
 - `data/reviews.json` — one entry per published review page, fields copied from
   the page itself (score box, og:description, byline date). Add an entry when a
   review is published; the homepage strip and banner read it.

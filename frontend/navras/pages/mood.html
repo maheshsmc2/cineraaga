@@ -76,7 +76,7 @@
         <div class="rfc-art-form">Bharatanatyam</div>
         <div class="rfc-face-name">Shringara</div>
         <div class="rfc-face-meaning">Love · Romance</div>
-        <div class="rfc-face-count">142 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -90,7 +90,7 @@
         <div class="rfc-art-form">Yakshagana</div>
         <div class="rfc-face-name">Hasya</div>
         <div class="rfc-face-meaning">Joy · Laughter</div>
-        <div class="rfc-face-count">218 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -104,7 +104,7 @@
         <div class="rfc-art-form">Odissi</div>
         <div class="rfc-face-name">Karuna</div>
         <div class="rfc-face-meaning">Sorrow · Compassion</div>
-        <div class="rfc-face-count">196 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -118,7 +118,7 @@
         <div class="rfc-art-form">Kathakali</div>
         <div class="rfc-face-name">Veera</div>
         <div class="rfc-face-meaning">Courage · Heroism</div>
-        <div class="rfc-face-count">184 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -132,7 +132,7 @@
         <div class="rfc-art-form">Chhau</div>
         <div class="rfc-face-name">Bhayanaka</div>
         <div class="rfc-face-meaning">Fear · Suspense</div>
-        <div class="rfc-face-count">127 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -146,7 +146,7 @@
         <div class="rfc-art-form">Manipuri</div>
         <div class="rfc-face-name">Adbhuta</div>
         <div class="rfc-face-meaning">Wonder · Fantasy</div>
-        <div class="rfc-face-count">98 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -160,7 +160,7 @@
         <div class="rfc-art-form">Theyyam</div>
         <div class="rfc-face-name">Raudra</div>
         <div class="rfc-face-meaning">Anger · Fury</div>
-        <div class="rfc-face-count">153 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -174,7 +174,7 @@
         <div class="rfc-art-form">Kuchipudi</div>
         <div class="rfc-face-name">Shanta</div>
         <div class="rfc-face-meaning">Peace · Serenity</div>
-        <div class="rfc-face-count">89 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -188,7 +188,7 @@
         <div class="rfc-art-form">Purulia Chhau</div>
         <div class="rfc-face-name">Bibhatsa</div>
         <div class="rfc-face-meaning">Dark · Gritty</div>
-        <div class="rfc-face-count">74 films</div>
+        <div class="rfc-face-count"></div>
       </div>
     </button>
 
@@ -205,42 +205,28 @@
       <div class="mrp-filters">
         <select class="mrp-select" id="langFilter" onchange="applyFilters()">
           <option value="all">All languages</option>
-          <option value="hindi">Hindi</option>
-          <option value="tamil">Tamil</option>
-          <option value="telugu">Telugu</option>
-          <option value="malayalam">Malayalam</option>
-          <option value="kannada">Kannada</option>
-          <option value="bengali">Bengali</option>
-        </select>
-        <select class="mrp-select" id="ottFilter" onchange="applyFilters()">
-          <option value="all">All platforms</option>
-          <option value="netflix">Netflix</option>
-          <option value="prime">Prime Video</option>
-          <option value="hotstar">Disney+ Hotstar</option>
-          <option value="sony">SonyLIV</option>
-          <option value="zee5">ZEE5</option>
         </select>
         <select class="mrp-select" id="eraFilter" onchange="applyFilters()">
           <option value="all">Any era</option>
-          <option value="new">2020s</option>
+          <option value="2020s">2020s</option>
           <option value="2010s">2010s</option>
           <option value="2000s">2000s</option>
-          <option value="classic">Classics</option>
+          <option value="1990s">1990s</option>
+          <option value="classic">Before 1990</option>
         </select>
       </div>
     </div>
 
-    <!-- Top pick — featured -->
-    <div class="mrp-featured" id="mrpFeatured"></div>
+    <p class="mood-note" id="mrpNote" hidden>These rasa placements are first suggestions, prepared with AI help and waiting for our editor's check.</p>
 
     <!-- Results grid -->
     <div class="mrp-grid-head">
       <div class="mrp-grid-label" id="mrpGridLabel">All Shringara films</div>
       <div class="mrp-sort">
         <span>Sort:</span>
-        <button class="sort-btn active" onclick="sortResults('navras')">Navras score</button>
-        <button class="sort-btn" onclick="sortResults('year')">Newest</button>
-        <button class="sort-btn" onclick="sortResults('popular')">Most rated</button>
+        <button class="sort-btn active" onclick="sortResults('match', this)">Best match</button>
+        <button class="sort-btn" onclick="sortResults('newest', this)">Newest</button>
+        <button class="sort-btn" onclick="sortResults('oldest', this)">Oldest</button>
       </div>
     </div>
 
@@ -257,7 +243,7 @@
       <div class="rp-headline">Rasa — the ancient science of emotion</div>
       <div class="rp-text">Over 2,000 years ago, the Sanskrit scholar Bharata Muni described nine fundamental human emotions in the Natyashastra — the world's oldest treatise on performing arts. He called them <em>Nava Rasa</em> — the nine emotional essences that all great art evokes.</div>
       <div class="rp-text">Every Indian film, every classical dance, every raga in Carnatic music is designed to evoke one or more of these rasas. At CineRaaga, we use this 2,000-year-old framework to help you find exactly the film you need for exactly how you feel.</div>
-      <div class="rp-text">No algorithm. No black box. Just the oldest emotional intelligence system in the world — applied to modern cinema.</div>
+      <div class="rp-text">It is one of the oldest ways of describing what a story makes us feel, applied to modern cinema.</div>
     </div>
   </div>
 
@@ -291,6 +277,8 @@
   <div class="tricolour"><span></span><span></span><span></span></div>
 
   <script src="../js/main.js"></script>
+  <script src="../js/config.js"></script>
+  <script src="../js/film-db.js"></script>
   <script src="../js/mood.js"></script>
 </body>
 </html>
